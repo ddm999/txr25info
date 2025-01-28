@@ -1,0 +1,61 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_TireDegradationInfo",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SCarTireDegradationInfo'",
+        "ObjectPath": "/Script/TokyoXtremeRacer"
+      }
+    },
+    "Rows": {
+      "Soft": {
+        "Type": "ECarTireType::Soft",
+        "MaxLife": 40.0,
+        "CliffThreshold": 20.0,
+        "MaxGripRate": 1.2,
+        "CliffGripRate": 1.2,
+        "MinGripRate": 0.6,
+        "MaxSideGripRate": 1.0,
+        "CliffSideGripRate": 1.0,
+        "MinSideGripRate": 0.6,
+        "RoadNoise": {
+          "AssetPathName": "/Game/ITSB/Sound/MetaSound/CAR/MS_CAR_Roadnoise_TireSOFT.MS_CAR_Roadnoise_TireSOFT",
+          "SubPathString": ""
+        }
+      },
+      "Medium": {
+        "Type": "ECarTireType::Medium",
+        "MaxLife": 70.0,
+        "CliffThreshold": 35.0,
+        "MaxGripRate": 1.1,
+        "CliffGripRate": 1.1,
+        "MinGripRate": 0.6,
+        "MaxSideGripRate": 1.0,
+        "CliffSideGripRate": 1.0,
+        "MinSideGripRate": 0.6,
+        "RoadNoise": {
+          "AssetPathName": "/Game/ITSB/Sound/MetaSound/CAR/MS_CAR_Roadnoise_TireMED.MS_CAR_Roadnoise_TireMED",
+          "SubPathString": ""
+        }
+      },
+      "Hard": {
+        "Type": "ECarTireType::Hard",
+        "MaxLife": 100.0,
+        "CliffThreshold": 50.0,
+        "MaxGripRate": 1.0,
+        "CliffGripRate": 1.0,
+        "MinGripRate": 0.6,
+        "MaxSideGripRate": 1.0,
+        "CliffSideGripRate": 1.0,
+        "MinSideGripRate": 0.6,
+        "RoadNoise": {
+          "AssetPathName": "/Game/ITSB/Sound/MetaSound/CAR/MS_CAR_Roadnoise_TireHARD.MS_CAR_Roadnoise_TireHARD",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

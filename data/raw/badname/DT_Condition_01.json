@@ -1,0 +1,100 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Condition_01",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'BadNameConditionData'",
+        "ObjectPath": "/Script/TokyoXtremeRacer"
+      }
+    },
+    "Rows": {
+      "1": {
+        "DisplayJapanese": "新参者",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_020001",
+          "SourceString": "新参者",
+          "LocalizedString": "Newcomer"
+        },
+        "ID": 1,
+        "DisplayType": "EBadNameDisplayType::MT_Beta",
+        "ConditionType": "EBadNameConditionType::MT_One",
+        "ConditionSubType": "EBadNameConditionSubType::MT_None",
+        "Priority": 0,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 0,
+        "ComparisonValue_02": 0,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "",
+        "ComparisonValue_06": ""
+      },
+      "2": {
+        "DisplayJapanese": "初心者",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_020002",
+          "SourceString": "初心者",
+          "LocalizedString": "Beginner"
+        },
+        "ID": 2,
+        "DisplayType": "EBadNameDisplayType::MT_Beta",
+        "ConditionType": "EBadNameConditionType::MT_One",
+        "ConditionSubType": "EBadNameConditionSubType::MT_None",
+        "Priority": 0,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 0,
+        "ComparisonValue_02": 0,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "",
+        "ComparisonValue_06": ""
+      },
+      "3": {
+        "DisplayJapanese": "ルーキー",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_020003",
+          "SourceString": "ルーキー",
+          "LocalizedString": "Rookie"
+        },
+        "ID": 3,
+        "DisplayType": "EBadNameDisplayType::MT_Beta",
+        "ConditionType": "EBadNameConditionType::MT_One",
+        "ConditionSubType": "EBadNameConditionSubType::MT_None",
+        "Priority": 0,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 0,
+        "ComparisonValue_02": 0,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "",
+        "ComparisonValue_06": ""
+      },
+      "4": {
+        "DisplayJapanese": "素人",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_020004",
+          "SourceString": "素人",
+          "LocalizedString": "Amateur"
+        },
+        "ID": 4,
+        "DisplayType": "EBadNameDisplayType::MT_Beta",
+        "ConditionType": "EBadNameConditionType::MT_One",
+        "ConditionSubType": "EBadNameConditionSubType::MT_None",
+        "Priority": 0,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 0,
+        "ComparisonValue_02": 0,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "",
+        "ComparisonValue_06": ""
+      }
+    }
+  }
+]

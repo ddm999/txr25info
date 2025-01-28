@@ -1,0 +1,730 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Condition_04_0",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'BadNameConditionData'",
+        "ObjectPath": "/Script/TokyoXtremeRacer"
+      }
+    },
+    "Rows": {
+      "1": {
+        "DisplayJapanese": "ローリング野郎０号",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_060001",
+          "SourceString": "ローリング野郎0号",
+          "LocalizedString": "Rolling Guy No. 0"
+        },
+        "ID": 4001,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RivalTeams",
+        "Priority": 1,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "AE86T",
+        "ComparisonValue_06": "Team001"
+      },
+      "3": {
+        "DisplayJapanese": "マスター・ザ・エレクトリックシティ",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_060003",
+          "SourceString": "マスター・ザ・エレクトリックシティ",
+          "LocalizedString": "Master the Electric City"
+        },
+        "ID": 4003,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RivalTeams",
+        "Priority": 1,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "BNR34",
+        "ComparisonValue_06": "Team003"
+      },
+      "4": {
+        "DisplayJapanese": "バヴ・ア・ビッグキャッチ",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_060004",
+          "SourceString": "バヴ・ア・ビッグキャッチ",
+          "LocalizedString": "Have a Big Catch"
+        },
+        "ID": 4004,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RivalTeams",
+        "Priority": 1,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "FD3S",
+        "ComparisonValue_06": "Team004"
+      },
+      "5": {
+        "DisplayJapanese": "クリスタルキャット",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_060005",
+          "SourceString": "クリスタルキャット",
+          "LocalizedString": "Crystal Cat"
+        },
+        "ID": 4005,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RivalTeams",
+        "Priority": 1,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "SE3P",
+        "ComparisonValue_06": "Team013"
+      },
+      "6": {
+        "DisplayJapanese": "新たなる風",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_060006",
+          "SourceString": "新たなる風",
+          "LocalizedString": "New Wind"
+        },
+        "ID": 4006,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RivalTeams",
+        "Priority": 1,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "S15",
+        "ComparisonValue_06": "Team005"
+      },
+      "7": {
+        "DisplayJapanese": "破滅のアンタレス",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_060007",
+          "SourceString": "破滅のアンタレス",
+          "LocalizedString": "Antares of Destruction"
+        },
+        "ID": 4007,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RivalTeams",
+        "Priority": 1,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "Z34",
+        "ComparisonValue_06": "Team006"
+      },
+      "10": {
+        "DisplayJapanese": "ロータリージャンキー",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_060010",
+          "SourceString": "ロータリージャンキー",
+          "LocalizedString": "Rotary Junkie"
+        },
+        "ID": 4010,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RivalTeams",
+        "Priority": 1,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "FD3S",
+        "ComparisonValue_06": "Team007"
+      },
+      "11": {
+        "DisplayJapanese": "悪夢のグロリアス",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_060011",
+          "SourceString": "悪夢のグロリアス",
+          "LocalizedString": "Glorious Nightmare"
+        },
+        "ID": 4011,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RivalTeams",
+        "Priority": 1,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "GCZ32",
+        "ComparisonValue_06": "Team016"
+      },
+      "12": {
+        "DisplayJapanese": "聖光のワルキューレ",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_060012",
+          "SourceString": "聖光のワルキューレ",
+          "LocalizedString": "Holy Light Valkyrie"
+        },
+        "ID": 4012,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RivalTeams",
+        "Priority": 1,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "DK4A",
+        "ComparisonValue_06": "Team015"
+      },
+      "13": {
+        "DisplayJapanese": "アウト・オブ・バウンズ",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_060013",
+          "SourceString": "アウト・オブ・バウンズ",
+          "LocalizedString": "Out of Bounds"
+        },
+        "ID": 4013,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RivalTeams",
+        "Priority": 1,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "BNR34",
+        "ComparisonValue_06": "Team014"
+      },
+      "16": {
+        "DisplayJapanese": "不滅の老兵",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_060016",
+          "SourceString": "不滅の老兵",
+          "LocalizedString": "Immortal Veteran"
+        },
+        "ID": 4016,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RivalTeams",
+        "Priority": 1,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "JZA80",
+        "ComparisonValue_06": "Team021"
+      },
+      "17": {
+        "DisplayJapanese": "栄光無敵の若鷹",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_060017",
+          "SourceString": "栄光無敵の若鷹",
+          "LocalizedString": "Invincible Young Hawk of Glory"
+        },
+        "ID": 4017,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RivalTeams",
+        "Priority": 1,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "BNR34",
+        "ComparisonValue_06": "Team011"
+      },
+      "18": {
+        "DisplayJapanese": "無法のブラックシップ",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_060018",
+          "SourceString": "無法のブラックシップ",
+          "LocalizedString": "Outlaw Black Ship"
+        },
+        "ID": 4018,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RivalTeams",
+        "Priority": 1,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "VMG",
+        "ComparisonValue_06": "Team012"
+      },
+      "21": {
+        "DisplayJapanese": "揺るぎなき城塞",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_060021",
+          "SourceString": "揺るぎなき城塞",
+          "LocalizedString": "Unshakable Fortress"
+        },
+        "ID": 4021,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RivalTeams",
+        "Priority": 1,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "CZ4A",
+        "ComparisonValue_06": "Team017"
+      },
+      "22": {
+        "DisplayJapanese": "昴宿の散開星団",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_060022",
+          "SourceString": "昴宿の散開星団",
+          "LocalizedString": "Dispersed Star Cluster of Subaru"
+        },
+        "ID": 4022,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RivalTeams",
+        "Priority": 1,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "VAB",
+        "ComparisonValue_06": "Team028"
+      },
+      "25": {
+        "DisplayJapanese": "スーパー・ノヴァ",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_060025",
+          "SourceString": "スーパー・ノヴァ",
+          "LocalizedString": "Supernova"
+        },
+        "ID": 4025,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RivalTeams",
+        "Priority": 1,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "VAB",
+        "ComparisonValue_06": "Team018"
+      },
+      "28": {
+        "DisplayJapanese": "セクシーダイヤモンド",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_060028",
+          "SourceString": "セクシーダイヤモンド",
+          "LocalizedString": "Sexy Diamond"
+        },
+        "ID": 4028,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RivalTeams",
+        "Priority": 1,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "Z33",
+        "ComparisonValue_06": "Team034"
+      },
+      "30": {
+        "DisplayJapanese": "ローリング娘０号",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_060030",
+          "SourceString": "ローリング娘０号",
+          "LocalizedString": "Rolling Gal No. 0"
+        },
+        "ID": 4030,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RivalTeams",
+        "Priority": 1,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "AE86L",
+        "ComparisonValue_06": "Team030"
+      },
+      "31": {
+        "DisplayJapanese": "エキセントリック少年",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_060031",
+          "SourceString": "エキセントリック少年",
+          "LocalizedString": "Eccentric Boy"
+        },
+        "ID": 4031,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RivalTeams",
+        "Priority": 1,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "VNH",
+        "ComparisonValue_06": "Team032"
+      },
+      "36": {
+        "DisplayJapanese": "黄昏のコンダクター",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_060036",
+          "SourceString": "黄昏のコンダクター",
+          "LocalizedString": "Conductor of Twilight"
+        },
+        "ID": 4036,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RivalTeams",
+        "Priority": 1,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "BL5",
+        "ComparisonValue_06": "Team024"
+      },
+      "37": {
+        "DisplayJapanese": "ファイナルボマー",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_060037",
+          "SourceString": "ファイナルボマー",
+          "LocalizedString": "Final Bomber"
+        },
+        "ID": 4037,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RivalTeams",
+        "Priority": 1,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "VBH",
+        "ComparisonValue_06": "Team033"
+      },
+      "39": {
+        "DisplayJapanese": "LOVEエスカレーション",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_060039",
+          "SourceString": "LOVEエスカレーション",
+          "LocalizedString": "LOVE Escalation"
+        },
+        "ID": 4039,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RivalTeams",
+        "Priority": 1,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "BNR34",
+        "ComparisonValue_06": "Team025"
+      },
+      "43": {
+        "DisplayJapanese": "ルーレット野郎",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_060043",
+          "SourceString": "ルーレット野郎",
+          "LocalizedString": "Roulette Guy"
+        },
+        "ID": 4043,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RivalTeams",
+        "Priority": 1,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "ZN6",
+        "ComparisonValue_06": "Team043"
+      },
+      "44": {
+        "DisplayJapanese": "ジャイアントキリング",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_060044",
+          "SourceString": "ジャイアントキリング",
+          "LocalizedString": "Giant Killing"
+        },
+        "ID": 4044,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RivalTeams",
+        "Priority": 1,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "JW5",
+        "ComparisonValue_06": "Team044"
+      },
+      "46": {
+        "DisplayJapanese": "古き良き大和",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_060046",
+          "SourceString": "古き良き大和",
+          "LocalizedString": "Good Old Yamato"
+        },
+        "ID": 4046,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RivalTeams",
+        "Priority": 1,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "S14",
+        "ComparisonValue_06": "Team046"
+      },
+      "47": {
+        "DisplayJapanese": "テクニカルフレッシュ",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_060047",
+          "SourceString": "テクニカルフレッシュ",
+          "LocalizedString": "Technical Fresh"
+        },
+        "ID": 4047,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RivalTeams",
+        "Priority": 1,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "HT81S",
+        "ComparisonValue_06": "Team047"
+      },
+      "49": {
+        "DisplayJapanese": "愛の最終地点",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_060049",
+          "SourceString": "愛の最終地点",
+          "LocalizedString": "Final Destination of Love"
+        },
+        "ID": 4049,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RivalTeams",
+        "Priority": 1,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "BPFJ3R",
+        "ComparisonValue_06": "Team049"
+      },
+      "51": {
+        "DisplayJapanese": "憧れの青春",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_060051",
+          "SourceString": "憧れの青春",
+          "LocalizedString": "Yearned-for Youth"
+        },
+        "ID": 4051,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RivalTeams",
+        "Priority": 1,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "ZZW30",
+        "ComparisonValue_06": "Team051"
+      },
+      "52": {
+        "DisplayJapanese": "激走戦隊ハシルンジャー",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_060052",
+          "SourceString": "激走戦隊ハシルンジャー",
+          "LocalizedString": "Gekiso Sentai Hashilanger"
+        },
+        "ID": 4052,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RivalTeams",
+        "Priority": 1,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "GXPA16",
+        "ComparisonValue_06": "Team052"
+      },
+      "53": {
+        "DisplayJapanese": "永遠のチャレンジャー",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_060053",
+          "SourceString": "永遠のチャレンジャー",
+          "LocalizedString": "Eternal Challenger"
+        },
+        "ID": 4053,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RivalTeams",
+        "Priority": 1,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "ZC33S",
+        "ComparisonValue_06": "Team053"
+      },
+      "62": {
+        "DisplayJapanese": "敗北のしじま",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_070007",
+          "SourceString": "敗北のしじま",
+          "LocalizedString": "Silence of Defeat"
+        },
+        "ID": 4509,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_LoserToSpecialRivals",
+        "Priority": 2,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "R35",
+        "ComparisonValue_06": "Boss030"
+      },
+      "63": {
+        "DisplayJapanese": "黙して語らぬ者",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_070008",
+          "SourceString": "黙して語らぬ者",
+          "LocalizedString": "Silent One"
+        },
+        "ID": 4510,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_WinsSpecialRivals_01",
+        "Priority": 3,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "R35",
+        "ComparisonValue_06": "Boss030"
+      },
+      "64": {
+        "DisplayJapanese": "称号α＋「久遠のポラリス」",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_070027",
+          "SourceString": "久遠のポラリス",
+          "LocalizedString": "ETERNAL POLARIS"
+        },
+        "ID": 4511,
+        "DisplayType": "EBadNameDisplayType::MT_Beta",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_WinsSpecialRivals_02",
+        "Priority": 4,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "R35",
+        "ComparisonValue_06": "Boss030"
+      },
+      "65": {
+        "DisplayJapanese": "森閑と静寂の女王",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_070009",
+          "SourceString": "森閑と静寂の女王",
+          "LocalizedString": "Queen of Tranquility & Calm"
+        },
+        "ID": 4512,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Four",
+        "ConditionSubType": "EBadNameConditionSubType::MT_WinsSpecialRivals_03",
+        "Priority": 5,
+        "IsFirstTimeOnly": false,
+        "ComparisonValue_01": 1,
+        "ComparisonValue_02": 2,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "R35",
+        "ComparisonValue_06": "Boss030"
+      }
+    }
+  }
+]
