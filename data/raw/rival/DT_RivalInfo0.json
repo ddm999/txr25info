@@ -232,7 +232,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_53.T_Emblem_CutIn_Team_53",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Tut_0004": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -466,7 +468,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_53.T_Emblem_CutIn_Team_53",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Tut_0003": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -700,7 +704,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_53.T_Emblem_CutIn_Team_53",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Tut_0002": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -934,7 +940,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_53.T_Emblem_CutIn_Team_53",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Tut_0001": {
         "AppearanceSituation": "ERivalAppearanceSituation::EventForcedAdd",
@@ -1196,7 +1204,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_53.T_Emblem_CutIn_Team_53",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0169": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -1430,7 +1440,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_32.T_Emblem_CutIn_Team_32",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0168": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -1664,7 +1676,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_32.T_Emblem_CutIn_Team_32",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0167": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -1898,7 +1912,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_32.T_Emblem_CutIn_Team_32",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0166": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -2132,7 +2148,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_32.T_Emblem_CutIn_Team_32",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0165": {
         "AppearanceSituation": "ERivalAppearanceSituation::EventForcedAdd",
@@ -2394,7 +2412,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_32.T_Emblem_CutIn_Team_32",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Boss_0012": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -2626,7 +2646,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Boss_12.T_Emblem_CutIn_Boss_12",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0275": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -2880,7 +2902,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_43.T_Emblem_CutIn_Team_43",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0274": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -3134,7 +3158,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_43.T_Emblem_CutIn_Team_43",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0273": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -3388,7 +3414,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_43.T_Emblem_CutIn_Team_43",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0272": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -3634,7 +3662,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_43.T_Emblem_CutIn_Team_43",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0271": {
         "AppearanceSituation": "ERivalAppearanceSituation::EventForcedAdd",
@@ -3898,7 +3928,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_43.T_Emblem_CutIn_Team_43",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Boss_0030": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -4130,7 +4162,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Boss_30.T_Emblem_CutIn_Boss_30",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0005": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -4364,7 +4398,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_1.T_Emblem_CutIn_Team_1",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0004": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -4598,7 +4634,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_1.T_Emblem_CutIn_Team_1",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0003": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -4832,7 +4870,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_1.T_Emblem_CutIn_Team_1",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0002": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -5066,7 +5106,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_1.T_Emblem_CutIn_Team_1",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0001": {
         "AppearanceSituation": "ERivalAppearanceSituation::EventForcedAdd",
@@ -5335,7 +5377,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_1.T_Emblem_CutIn_Team_1",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Wan_0012": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -5563,13 +5607,15 @@
             "ObjectName": "CompositeDataTable'CDT_BattleBGMType'",
             "ObjectPath": "/Game/ITSB/Sound/BGM/Blueprint/CDT_BattleBGMType.0"
           },
-          "RowName": "stage_Wander_common"
+          "RowName": "stage1_3_Boss"
         },
         "PeopleRowName": "PEOPLE_012",
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Wanderer_12.T_Emblem_CutIn_Wanderer_12",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0225": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -5823,7 +5869,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_24.T_Emblem_CutIn_Team_24",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0224": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -6077,7 +6125,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_24.T_Emblem_CutIn_Team_24",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0223": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -6331,7 +6381,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_24.T_Emblem_CutIn_Team_24",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0222": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -6575,7 +6627,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_24.T_Emblem_CutIn_Team_24",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0221": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -6829,7 +6883,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_24.T_Emblem_CutIn_Team_24",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0220": {
         "AppearanceSituation": "ERivalAppearanceSituation::EventForcedAdd",
@@ -7101,7 +7157,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_24.T_Emblem_CutIn_Team_24",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0019": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -7404,7 +7462,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_4.T_Emblem_CutIn_Team_4",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0018": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -7658,7 +7718,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_4.T_Emblem_CutIn_Team_4",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0016": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -7912,7 +7974,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_4.T_Emblem_CutIn_Team_4",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0017": {
         "AppearanceSituation": "ERivalAppearanceSituation::EventForcedAdd",
@@ -8164,7 +8228,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_4.T_Emblem_CutIn_Team_4",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0026": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -8418,7 +8484,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_5.T_Emblem_CutIn_Team_5",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0025": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -8672,7 +8740,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_5.T_Emblem_CutIn_Team_5",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0024": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -8926,7 +8996,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_5.T_Emblem_CutIn_Team_5",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0023": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -9180,7 +9252,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_5.T_Emblem_CutIn_Team_5",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0022": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -9434,7 +9508,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_5.T_Emblem_CutIn_Team_5",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0021": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -9688,7 +9764,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_5.T_Emblem_CutIn_Team_5",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0020": {
         "AppearanceSituation": "ERivalAppearanceSituation::EventForcedAdd",
@@ -9970,7 +10048,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_5.T_Emblem_CutIn_Team_5",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Boss_0001": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -10224,7 +10304,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Boss_1.T_Emblem_CutIn_Boss_1",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Boss_0002": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -10458,7 +10540,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Boss_2.T_Emblem_CutIn_Boss_2",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0066": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -10712,7 +10796,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_12.T_Emblem_CutIn_Team_12",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0065": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -10966,7 +11052,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_12.T_Emblem_CutIn_Team_12",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0064": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -11220,7 +11308,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_12.T_Emblem_CutIn_Team_12",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0063": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -11474,7 +11564,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_12.T_Emblem_CutIn_Team_12",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0062": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -11728,7 +11820,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_12.T_Emblem_CutIn_Team_12",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0061": {
         "AppearanceSituation": "ERivalAppearanceSituation::EventForcedAdd",
@@ -12000,7 +12094,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_12.T_Emblem_CutIn_Team_12",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0232": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -12254,7 +12350,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_25.T_Emblem_CutIn_Team_25",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0231": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -12508,7 +12606,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_25.T_Emblem_CutIn_Team_25",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0230": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -12762,7 +12862,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_25.T_Emblem_CutIn_Team_25",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0229": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -13016,7 +13118,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_25.T_Emblem_CutIn_Team_25",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0228": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -13260,7 +13364,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_25.T_Emblem_CutIn_Team_25",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0227": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -13514,7 +13620,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_25.T_Emblem_CutIn_Team_25",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0226": {
         "AppearanceSituation": "ERivalAppearanceSituation::EventForcedAdd",
@@ -13796,7 +13904,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_25.T_Emblem_CutIn_Team_25",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0124": {
         "AppearanceSituation": "ERivalAppearanceSituation::ContinuousAdd",
@@ -14050,7 +14160,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_21.T_Emblem_CutIn_Team_21",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0123": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -14306,7 +14418,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_21.T_Emblem_CutIn_Team_21",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0122": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -14560,7 +14674,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_21.T_Emblem_CutIn_Team_21",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0121": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -14814,7 +14930,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_21.T_Emblem_CutIn_Team_21",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0120": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -15068,7 +15186,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_21.T_Emblem_CutIn_Team_21",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0119": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -15322,7 +15442,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_21.T_Emblem_CutIn_Team_21",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0118": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -15566,7 +15688,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_21.T_Emblem_CutIn_Team_21",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0117": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -15820,7 +15944,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_21.T_Emblem_CutIn_Team_21",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0116": {
         "AppearanceSituation": "ERivalAppearanceSituation::EventForcedAdd",
@@ -16122,7 +16248,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_21.T_Emblem_CutIn_Team_21",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Boss_0013": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -16378,7 +16506,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Boss_13.T_Emblem_CutIn_Boss_13",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Boss_0012_intruder": {
         "AppearanceSituation": "ERivalAppearanceSituation::ForcedAdd",
@@ -16601,7 +16731,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Boss_12.T_Emblem_CutIn_Boss_12",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": false,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0287": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -16855,7 +16987,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_44.T_Emblem_CutIn_Team_44",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0286": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -17109,7 +17243,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_44.T_Emblem_CutIn_Team_44",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0285": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -17363,7 +17499,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_44.T_Emblem_CutIn_Team_44",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0284": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -17617,7 +17755,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_44.T_Emblem_CutIn_Team_44",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0283": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -17871,7 +18011,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_44.T_Emblem_CutIn_Team_44",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0282": {
         "AppearanceSituation": "ERivalAppearanceSituation::EventForcedAdd",
@@ -18143,7 +18285,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_44.T_Emblem_CutIn_Team_44",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0313": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -18397,7 +18541,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_47.T_Emblem_CutIn_Team_47",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0312": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -18651,7 +18797,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_47.T_Emblem_CutIn_Team_47",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0311": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -18905,7 +19053,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_47.T_Emblem_CutIn_Team_47",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0310": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -19159,7 +19309,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_47.T_Emblem_CutIn_Team_47",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0309": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -19413,7 +19565,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_47.T_Emblem_CutIn_Team_47",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0308": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -19667,7 +19821,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_47.T_Emblem_CutIn_Team_47",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0307": {
         "AppearanceSituation": "ERivalAppearanceSituation::EventForcedAdd",
@@ -19949,7 +20105,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_47.T_Emblem_CutIn_Team_47",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0281": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -20203,7 +20361,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_51.T_Emblem_CutIn_Team_51",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0280": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -20457,7 +20617,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_51.T_Emblem_CutIn_Team_51",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0279": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -20711,7 +20873,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_51.T_Emblem_CutIn_Team_51",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0278": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -20965,7 +21129,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_51.T_Emblem_CutIn_Team_51",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0277": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -21209,7 +21375,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_51.T_Emblem_CutIn_Team_51",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0276": {
         "AppearanceSituation": "ERivalAppearanceSituation::EventForcedAdd",
@@ -21481,7 +21649,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_51.T_Emblem_CutIn_Team_51",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Boss_0021": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -21745,7 +21915,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Boss_21.T_Emblem_CutIn_Boss_21",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Boss_0022": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -22009,7 +22181,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Boss_22.T_Emblem_CutIn_Boss_22",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0150": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -22273,7 +22447,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_28.T_Emblem_CutIn_Team_28",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0154": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -22537,7 +22713,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_28.T_Emblem_CutIn_Team_28",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0153": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -22801,7 +22979,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_28.T_Emblem_CutIn_Team_28",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0152": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -23065,7 +23245,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_28.T_Emblem_CutIn_Team_28",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0151": {
         "AppearanceSituation": "ERivalAppearanceSituation::EventForcedAdd",
@@ -23327,7 +23509,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_28.T_Emblem_CutIn_Team_28",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0014": {
         "AppearanceSituation": "ERivalAppearanceSituation::ContinuousAdd",
@@ -23591,7 +23775,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_3.T_Emblem_CutIn_Team_3",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0015": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -23855,7 +24041,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_3.T_Emblem_CutIn_Team_3",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0013": {
         "AppearanceSituation": "ERivalAppearanceSituation::ContinuousAdd",
@@ -24097,7 +24285,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_3.T_Emblem_CutIn_Team_3",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0029": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -24361,7 +24551,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_6.T_Emblem_CutIn_Team_6",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0028": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -24625,7 +24817,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_6.T_Emblem_CutIn_Team_6",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0027": {
         "AppearanceSituation": "ERivalAppearanceSituation::EventForcedAdd",
@@ -24867,7 +25061,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_6.T_Emblem_CutIn_Team_6",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0068": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -25129,7 +25325,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_13.T_Emblem_CutIn_Team_13",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0067": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -25361,7 +25559,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_13.T_Emblem_CutIn_Team_13",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0085": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -25625,7 +25825,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_15.T_Emblem_CutIn_Team_15",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0084": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -25889,7 +26091,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_15.T_Emblem_CutIn_Team_15",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0083": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -26153,7 +26357,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_15.T_Emblem_CutIn_Team_15",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0082": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -26417,7 +26623,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_15.T_Emblem_CutIn_Team_15",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0081": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -26651,7 +26859,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_15.T_Emblem_CutIn_Team_15",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0080": {
         "AppearanceSituation": "ERivalAppearanceSituation::EventForcedAdd",
@@ -26925,7 +27135,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_15.T_Emblem_CutIn_Team_15",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0173": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -27189,7 +27401,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_34.T_Emblem_CutIn_Team_34",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0172": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -27453,7 +27667,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_34.T_Emblem_CutIn_Team_34",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0171": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -27687,7 +27903,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_34.T_Emblem_CutIn_Team_34",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0170": {
         "AppearanceSituation": "ERivalAppearanceSituation::EventForcedAdd",
@@ -27939,7 +28157,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_34.T_Emblem_CutIn_Team_34",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0092": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -28203,7 +28423,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_17.T_Emblem_CutIn_Team_17",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0097": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -28467,7 +28689,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_17.T_Emblem_CutIn_Team_17",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0096": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -28731,7 +28955,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_17.T_Emblem_CutIn_Team_17",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0095": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -28975,7 +29201,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_17.T_Emblem_CutIn_Team_17",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0094": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -29239,7 +29467,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_17.T_Emblem_CutIn_Team_17",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0093": {
         "AppearanceSituation": "ERivalAppearanceSituation::EventForcedAdd",
@@ -29511,7 +29741,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_17.T_Emblem_CutIn_Team_17",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0102": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -29775,7 +30007,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_18.T_Emblem_CutIn_Team_18",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0101": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -30039,7 +30273,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_18.T_Emblem_CutIn_Team_18",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0100": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -30303,7 +30539,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_18.T_Emblem_CutIn_Team_18",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0099": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -30537,7 +30775,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_18.T_Emblem_CutIn_Team_18",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0098": {
         "AppearanceSituation": "ERivalAppearanceSituation::EventForcedAdd",
@@ -30799,7 +31039,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_18.T_Emblem_CutIn_Team_18",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Boss_0006": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -31053,11 +31295,13 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Boss_6.T_Emblem_CutIn_Boss_6",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Boss_0003": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
-        "PlacementSituation": "ERivalPlacementSituation::ManyTimes",
+        "PlacementSituation": "ERivalPlacementSituation::Once",
         "ID": 122,
         "Name": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_RivalNickname.ST_RivalNickname",
@@ -31342,9 +31586,7 @@
         "ParkingAreaFriendNameIds": [],
         "UnlockTuneKind": "EVehicleTuneKind::None",
         "UnlockTuneLevel": "EVehicleTuneLevel::None",
-        "UnlockCarNameIds": [
-          "SE3PCuMA"
-        ],
+        "UnlockCarNameIds": [],
         "UnlockEngineNameId": "None",
         "UnlockVinylId": "Boss003",
         "UnlockGarageSpace": false,
@@ -31352,7 +31594,7 @@
         "EventForcedRivalShouldLimitArea": false,
         "EventForcedAddRivals": [],
         "ContinuousBattleNextRivals": [],
-        "TuningSetRowName": "Boss_0003",
+        "TuningSetRowName": "Boss_0003_n01",
         "SettingSetRowName": "None",
         "WheelSetRowName": "None",
         "BarakeSetRowName": "None",
@@ -31377,7 +31619,245 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Boss_3.T_Emblem_CutIn_Boss_3",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 200.0
+      },
+      "Boss_0003_r02": {
+        "AppearanceSituation": "ERivalAppearanceSituation::Course",
+        "PlacementSituation": "ERivalPlacementSituation::ManyTimes",
+        "ID": 122,
+        "Name": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_RivalNickname.ST_RivalNickname",
+          "Key": "Boss_0003",
+          "SourceString": "Boss_0003",
+          "LocalizedString": "MELANCHOLIC ANGEL"
+        },
+        "Memo": "ユウウツな天使",
+        "CarType": "ECarType::None",
+        "CarNameId": "SE3PCuMA",
+        "LicensePlate": {
+          "Area": "ECarLicensePlateArea::None",
+          "PlateCategory": 0,
+          "PlaceNameIndex": 0,
+          "ClassNumber100": 0,
+          "ClassNumber010": 0,
+          "ClassNumber001": 0,
+          "CharactorIndex": 0,
+          "IndividualNumber1000": 0,
+          "IndividualNumber0100": 0,
+          "IndividualNumberHyphen": 0,
+          "IndividualNumber0010": 0,
+          "IndividualNumber0001": 0
+        },
+        "Area": "ERunArea::ERA_C1In",
+        "ParkingArea": "EParkingArea::None",
+        "ParkingAreaBattleStart": "ECourseEnter::None",
+        "Category": "ERivalCategory::TeamMenber",
+        "CutInProductionType": "ECarCutInProductionType::None",
+        "TeamID": 0,
+        "TeamNameId": "None",
+        "AuraNameId": "Normal_Purple",
+        "BattleCancelSituation": "ERivalBattleCancelSituation::None",
+        "BattleBaseParameterTbl": "ERivalBattleBaseParameterTbl::ForNormal",
+        "DriverLevel": 21,
+        "Sp": 50,
+        "SpAttack": 50,
+        "SPDiffence": 50,
+        "BonusCp": 0,
+        "GarageResultBonusCp": 0,
+        "TuneInfos": [
+          {
+            "Key": "EVehicleTuneKind::PowerUnit",
+            "Value": {
+              "HaveFlags": 1,
+              "EquipLevel": "EVehicleTuneLevel::Normal",
+              "TunerEffect": false
+            }
+          },
+          {
+            "Key": "EVehicleTuneKind::IntakeSystem",
+            "Value": {
+              "HaveFlags": 1,
+              "EquipLevel": "EVehicleTuneLevel::Normal",
+              "TunerEffect": false
+            }
+          },
+          {
+            "Key": "EVehicleTuneKind::ExhaustSystem",
+            "Value": {
+              "HaveFlags": 1,
+              "EquipLevel": "EVehicleTuneLevel::Normal",
+              "TunerEffect": false
+            }
+          },
+          {
+            "Key": "EVehicleTuneKind::Transmission",
+            "Value": {
+              "HaveFlags": 1,
+              "EquipLevel": "EVehicleTuneLevel::Normal",
+              "TunerEffect": false
+            }
+          },
+          {
+            "Key": "EVehicleTuneKind::Clutch",
+            "Value": {
+              "HaveFlags": 1,
+              "EquipLevel": "EVehicleTuneLevel::Normal",
+              "TunerEffect": false
+            }
+          },
+          {
+            "Key": "EVehicleTuneKind::Suspension",
+            "Value": {
+              "HaveFlags": 1,
+              "EquipLevel": "EVehicleTuneLevel::Normal",
+              "TunerEffect": false
+            }
+          },
+          {
+            "Key": "EVehicleTuneKind::Brake",
+            "Value": {
+              "HaveFlags": 1,
+              "EquipLevel": "EVehicleTuneLevel::Normal",
+              "TunerEffect": false
+            }
+          },
+          {
+            "Key": "EVehicleTuneKind::Body",
+            "Value": {
+              "HaveFlags": 1,
+              "EquipLevel": "EVehicleTuneLevel::Normal",
+              "TunerEffect": false
+            }
+          },
+          {
+            "Key": "EVehicleTuneKind::FrontTire",
+            "Value": {
+              "HaveFlags": 1,
+              "EquipLevel": "EVehicleTuneLevel::Normal",
+              "TunerEffect": false
+            }
+          },
+          {
+            "Key": "EVehicleTuneKind::RearTire",
+            "Value": {
+              "HaveFlags": 1,
+              "EquipLevel": "EVehicleTuneLevel::Normal",
+              "TunerEffect": false
+            }
+          },
+          {
+            "Key": "EVehicleTuneKind::LSD",
+            "Value": {
+              "HaveFlags": 1,
+              "EquipLevel": "EVehicleTuneLevel::Normal",
+              "TunerEffect": false
+            }
+          }
+        ],
+        "SettingInfo": {
+          "transmission": {
+            "NumberOfGears": 0,
+            "ReverseGearRatio": 0.0,
+            "FinalGearRatio": 0.0,
+            "GearRatios": []
+          },
+          "Settings": [],
+          "AutoSettings": [
+            {
+              "Key": "ECarSettingAutoKind::Speed",
+              "Value": "ECarSettingAutoType::None"
+            },
+            {
+              "Key": "ECarSettingAutoKind::Handling",
+              "Value": "ECarSettingAutoType::None"
+            },
+            {
+              "Key": "ECarSettingAutoKind::BrakeBalance",
+              "Value": "ECarSettingAutoType::None"
+            }
+          ]
+        },
+        "DressUpInfo": [],
+        "Emblem": {
+          "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_Rival_Boss_3.T_Emblem_Rival_Boss_3",
+          "SubPathString": ""
+        },
+        "BodyColorMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "BodyColorSubMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RivalVinylStickerSetting": null,
+        "RivalWindowStickerSetting": null,
+        "ForcedAddRivalInfo": {
+          "Situation": "EForcedAddRivalSituation::None",
+          "SituationParam": 0,
+          "RivalNameIds": []
+        },
+        "AppearanceConditionInfo": {
+          "OverallCheckType": "ERivalAppearanceConditionCheckType::AND",
+          "AppearanceConditions": [
+            {
+              "Group": 0,
+              "Condition": "ERivalAppearanceCondition::DefeatRivalId",
+              "Value": 0,
+              "CarType": "ECarType::None",
+              "TimeZone": "ERaceTimeZone::None",
+              "ParkingArea": "EParkingArea::None",
+              "DayOfWeek": "ERaceDayOfWeek::None",
+              "NameValue": "Boss_0003"
+            }
+          ],
+          "GroupCheckType": [],
+          "OverallCheckORxRequiredNumber": 0,
+          "GroupCheckORxRequiredNumber": []
+        },
+        "ParkingAreaFriendNameIds": [],
+        "UnlockTuneKind": "EVehicleTuneKind::None",
+        "UnlockTuneLevel": "EVehicleTuneLevel::None",
+        "UnlockCarNameIds": [
+          "SE3PCuMA"
+        ],
+        "UnlockEngineNameId": "None",
+        "UnlockVinylId": "None",
+        "UnlockGarageSpace": false,
+        "AddWeight": 0,
+        "EventForcedRivalShouldLimitArea": false,
+        "EventForcedAddRivals": [],
+        "ContinuousBattleNextRivals": [],
+        "TuningSetRowName": "Boss_0003",
+        "SettingSetRowName": "None",
+        "WheelSetRowName": "None",
+        "BarakeSetRowName": "None",
+        "TireInfoRowName": "None",
+        "BattleConditionInfo": {
+          "Condition": "ERivalBattleCondition::None",
+          "Type": "None",
+          "DriveType": "EDriveType::Num",
+          "EngineKind": "EEngineKind::None",
+          "AspirationType": "ECarIceAspirationType::None",
+          "PlaceNameIndex": "ECarLicensePlateArea::None"
+        },
+        "PP": 1,
+        "BattleBGMRowName": {
+          "DataTable": {
+            "ObjectName": "CompositeDataTable'CDT_BattleBGMType'",
+            "ObjectPath": "/Game/ITSB/Sound/BGM/Blueprint/CDT_BattleBGMType.0"
+          },
+          "RowName": "stage1_3_Boss"
+        },
+        "PeopleRowName": "PEOPLE_073",
+        "CutInEmblem": {
+          "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Boss_3.T_Emblem_CutIn_Boss_3",
+          "SubPathString": ""
+        },
+        "ExeReferenceNotification": false,
+        "ShiftUpMinusRpm": 200.0
       },
       "Rival_0164": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -31641,7 +32121,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_30.T_Emblem_CutIn_Team_30",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0163": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -31905,7 +32387,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_30.T_Emblem_CutIn_Team_30",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0162": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -32169,7 +32653,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_30.T_Emblem_CutIn_Team_30",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0161": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -32433,7 +32919,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_30.T_Emblem_CutIn_Team_30",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0160": {
         "AppearanceSituation": "ERivalAppearanceSituation::EventForcedAdd",
@@ -32697,7 +33185,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_30.T_Emblem_CutIn_Team_30",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0036": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -32941,7 +33431,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_7.T_Emblem_CutIn_Team_7",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0035": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -33205,7 +33697,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_7.T_Emblem_CutIn_Team_7",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0034": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -33469,7 +33963,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_7.T_Emblem_CutIn_Team_7",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0033": {
         "AppearanceSituation": "ERivalAppearanceSituation::ContinuousAdd",
@@ -33733,7 +34229,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_7.T_Emblem_CutIn_Team_7",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0032": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -33997,7 +34495,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_7.T_Emblem_CutIn_Team_7",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0031": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -34261,7 +34761,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_7.T_Emblem_CutIn_Team_7",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0030": {
         "AppearanceSituation": "ERivalAppearanceSituation::EventForcedAdd",
@@ -34543,7 +35045,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_7.T_Emblem_CutIn_Team_7",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0091": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -34809,7 +35313,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_16.T_Emblem_CutIn_Team_16",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "RivaL_0090": {
         "AppearanceSituation": "ERivalAppearanceSituation::ForcedAdd",
@@ -35032,7 +35538,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_16.T_Emblem_CutIn_Team_16",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0089": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -35296,7 +35804,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_16.T_Emblem_CutIn_Team_16",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0088": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -35530,7 +36040,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_16.T_Emblem_CutIn_Team_16",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0087": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -35794,7 +36306,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_16.T_Emblem_CutIn_Team_16",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0086": {
         "AppearanceSituation": "ERivalAppearanceSituation::EventForcedAdd",
@@ -36066,7 +36580,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_16.T_Emblem_CutIn_Team_16",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0246": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -36330,7 +36846,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_33.T_Emblem_CutIn_Team_33",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0245": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -36594,7 +37112,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_33.T_Emblem_CutIn_Team_33",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0244": {
         "AppearanceSituation": "ERivalAppearanceSituation::ForcedAdd",
@@ -36817,7 +37337,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_33.T_Emblem_CutIn_Team_33",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0243": {
         "AppearanceSituation": "ERivalAppearanceSituation::ForcedAdd",
@@ -37040,7 +37562,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_33.T_Emblem_CutIn_Team_33",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0242": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -37307,7 +37831,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_33.T_Emblem_CutIn_Team_33",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0241": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -37551,7 +38077,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_33.T_Emblem_CutIn_Team_33",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0239": {
         "AppearanceSituation": "ERivalAppearanceSituation::EventForcedAdd",
@@ -37833,7 +38361,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_33.T_Emblem_CutIn_Team_33",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Boss_0014": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -38097,7 +38627,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Boss_14.T_Emblem_CutIn_Boss_14",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 200.0
       },
       "Boss_0015": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -38331,7 +38863,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Boss_15.T_Emblem_CutIn_Boss_15",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 200.0
       },
       "Rival_0306": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -38595,7 +39129,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_46.T_Emblem_CutIn_Team_46",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0305": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -38859,7 +39395,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_46.T_Emblem_CutIn_Team_46",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0304": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -39123,7 +39661,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_46.T_Emblem_CutIn_Team_46",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0303": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -39387,7 +39927,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_46.T_Emblem_CutIn_Team_46",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0302": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -39651,7 +40193,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_46.T_Emblem_CutIn_Team_46",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0301": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -39915,7 +40459,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_46.T_Emblem_CutIn_Team_46",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0300": {
         "AppearanceSituation": "ERivalAppearanceSituation::EventForcedAdd",
@@ -40197,7 +40743,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_46.T_Emblem_CutIn_Team_46",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0078": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -40461,7 +41009,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_14.T_Emblem_CutIn_Team_14",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0077": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -40725,7 +41275,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_14.T_Emblem_CutIn_Team_14",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0079": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -40989,7 +41541,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_14.T_Emblem_CutIn_Team_14",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0076": {
         "AppearanceSituation": "ERivalAppearanceSituation::ContinuousAdd",
@@ -41253,7 +41807,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_14.T_Emblem_CutIn_Team_14",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0075": {
         "AppearanceSituation": "ERivalAppearanceSituation::ContinuousAdd",
@@ -41517,7 +42073,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_14.T_Emblem_CutIn_Team_14",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0074": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -41781,7 +42339,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_14.T_Emblem_CutIn_Team_14",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0073": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -42045,7 +42605,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_14.T_Emblem_CutIn_Team_14",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0072": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -42309,7 +42871,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_14.T_Emblem_CutIn_Team_14",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0071": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -42573,7 +43137,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_14.T_Emblem_CutIn_Team_14",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0070": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -42827,7 +43393,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_14.T_Emblem_CutIn_Team_14",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0069": {
         "AppearanceSituation": "ERivalAppearanceSituation::EventForcedAdd",
@@ -43149,7 +43717,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_14.T_Emblem_CutIn_Team_14",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0060": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -43413,7 +43983,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_11.T_Emblem_CutIn_Team_11",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0059": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -43677,7 +44249,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_11.T_Emblem_CutIn_Team_11",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0058": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -43941,7 +44515,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_11.T_Emblem_CutIn_Team_11",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0057": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -44205,7 +44781,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_11.T_Emblem_CutIn_Team_11",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0056": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -44469,7 +45047,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_11.T_Emblem_CutIn_Team_11",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0055": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -44733,7 +45313,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_11.T_Emblem_CutIn_Team_11",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0054": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -44997,7 +45579,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_11.T_Emblem_CutIn_Team_11",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0053": {
         "AppearanceSituation": "ERivalAppearanceSituation::EventForcedAdd",
@@ -45289,7 +45873,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_11.T_Emblem_CutIn_Team_11",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0293": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -45553,7 +46139,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_52.T_Emblem_CutIn_Team_52",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0292": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -45817,7 +46405,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_52.T_Emblem_CutIn_Team_52",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0291": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -46081,7 +46671,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_52.T_Emblem_CutIn_Team_52",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0290": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -46345,7 +46937,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_52.T_Emblem_CutIn_Team_52",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0289": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -46599,7 +47193,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_52.T_Emblem_CutIn_Team_52",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0288": {
         "AppearanceSituation": "ERivalAppearanceSituation::EventForcedAdd",
@@ -46871,7 +47467,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_52.T_Emblem_CutIn_Team_52",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0328": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -47135,7 +47733,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_49.T_Emblem_CutIn_Team_49",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0327": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -47399,7 +47999,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_49.T_Emblem_CutIn_Team_49",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0326": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -47663,7 +48265,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_49.T_Emblem_CutIn_Team_49",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0325": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -47917,7 +48521,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_49.T_Emblem_CutIn_Team_49",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0324": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -48181,7 +48787,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_49.T_Emblem_CutIn_Team_49",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0323": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -48445,7 +49053,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_49.T_Emblem_CutIn_Team_49",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0322": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -48709,7 +49319,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_49.T_Emblem_CutIn_Team_49",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0321": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -48973,7 +49585,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_49.T_Emblem_CutIn_Team_49",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Rival_0320": {
         "AppearanceSituation": "ERivalAppearanceSituation::EventForcedAdd",
@@ -49275,7 +49889,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Team_49.T_Emblem_CutIn_Team_49",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 1000.0
       },
       "Boss_0030_2": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -49539,7 +50155,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Boss_30.T_Emblem_CutIn_Boss_30",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 200.0
       },
       "Boss_0023": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -49833,7 +50451,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Boss_23.T_Emblem_CutIn_Boss_23",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 200.0
       },
       "Boss_0024": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -50127,7 +50747,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Boss_24.T_Emblem_CutIn_Boss_24",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 200.0
       },
       "Wan_0001": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -50391,7 +51013,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Wanderer_1.T_Emblem_CutIn_Wanderer_1",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 200.0
       },
       "Wan_0008": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -50623,7 +51247,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Wanderer_8.T_Emblem_CutIn_Wanderer_8",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 200.0
       },
       "Wan_0010": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -50855,7 +51481,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Wanderer_10.T_Emblem_CutIn_Wanderer_10",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 200.0
       },
       "Wan_0011": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -51097,7 +51725,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Wanderer_11.T_Emblem_CutIn_Wanderer_11",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 200.0
       },
       "Wan_0013": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -51329,7 +51959,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Wanderer_13.T_Emblem_CutIn_Wanderer_13",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 200.0
       },
       "Wan_0014": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -51591,7 +52223,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Wanderer_14.T_Emblem_CutIn_Wanderer_14",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 200.0
       },
       "Wan_0015": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -51823,7 +52457,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Wanderer_15.T_Emblem_CutIn_Wanderer_15",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 200.0
       },
       "Wan_0016": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -52055,7 +52691,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Wanderer_16.T_Emblem_CutIn_Wanderer_16",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 200.0
       },
       "Wan_0021": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -52287,7 +52925,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Wanderer_21.T_Emblem_CutIn_Wanderer_21",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 200.0
       },
       "Wan_0022": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -52588,7 +53228,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Wanderer_22.T_Emblem_CutIn_Wanderer_22",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 200.0
       },
       "Wan_0023": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -52845,7 +53487,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Wanderer_23.T_Emblem_CutIn_Wanderer_23",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 200.0
       },
       "Wan_0024": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -53087,7 +53731,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Wanderer_24.T_Emblem_CutIn_Wanderer_24",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 200.0
       },
       "Wan_0025": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -53319,7 +53965,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Wanderer_25.T_Emblem_CutIn_Wanderer_25",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 200.0
       },
       "Wan_0026": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -53561,7 +54209,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Wanderer_26.T_Emblem_CutIn_Wanderer_26",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 200.0
       },
       "Wan_0027": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -53793,7 +54443,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Wanderer_27.T_Emblem_CutIn_Wanderer_27",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 200.0
       },
       "Wan_0029": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -54025,7 +54677,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Wanderer_29.T_Emblem_CutIn_Wanderer_29",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 200.0
       },
       "Wan_0033": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -54287,7 +54941,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Wanderer_33.T_Emblem_CutIn_Wanderer_33",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 200.0
       },
       "Wan_0034": {
         "AppearanceSituation": "ERivalAppearanceSituation::ParkingArea",
@@ -54578,7 +55234,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Wanderer_34.T_Emblem_CutIn_Wanderer_34",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 200.0
       },
       "Wan_0035": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -54810,7 +55468,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Wanderer_35.T_Emblem_CutIn_Wanderer_35",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 200.0
       },
       "Wan_0036": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -54820,7 +55480,7 @@
           "TableId": "/Game/ITSB/UI/StringTable/ST_RivalNickname.ST_RivalNickname",
           "Key": "Wan_0036",
           "SourceString": "Wan_0036",
-          "LocalizedString": "WHITE REVOLUTION"
+          "LocalizedString": "PERFECT REVOLUTION"
         },
         "Memo": "ホワイト　レボリューション",
         "CarType": "ECarType::None",
@@ -55042,7 +55702,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Wanderer_36.T_Emblem_CutIn_Wanderer_36",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 200.0
       },
       "Wan_0061": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -55304,7 +55966,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Wanderer_61.T_Emblem_CutIn_Wanderer_61",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 200.0
       },
       "Wan_0064": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -55546,7 +56210,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Wanderer_64.T_Emblem_CutIn_Wanderer_64",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 200.0
       },
       "Wan_0070": {
         "AppearanceSituation": "ERivalAppearanceSituation::Course",
@@ -55790,7 +56456,9 @@
         "CutInEmblem": {
           "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_CutIn_Wanderer_70.T_Emblem_CutIn_Wanderer_70",
           "SubPathString": ""
-        }
+        },
+        "ExeReferenceNotification": true,
+        "ShiftUpMinusRpm": 200.0
       }
     }
   }
