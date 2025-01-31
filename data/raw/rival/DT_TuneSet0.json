@@ -1841,6 +1841,21 @@
         "Nitro": "EVehicleTuneLevel::Normal",
         "AddWeight": 0
       },
+      "Boss_0003_n01": {
+        "PowerUnit": "EVehicleTuneLevel::Level6",
+        "IntakeSystem": "EVehicleTuneLevel::Level4",
+        "ExhaustSystem": "EVehicleTuneLevel::Level3",
+        "transmission": "EVehicleTuneLevel::Level3",
+        "Clutch": "EVehicleTuneLevel::Level3",
+        "Suspension": "EVehicleTuneLevel::Level3",
+        "Brake": "EVehicleTuneLevel::Level5",
+        "Body": "EVehicleTuneLevel::Level3",
+        "FrontTire": "EVehicleTuneLevel::Level5",
+        "RearTire": "EVehicleTuneLevel::Level5",
+        "LSD": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Normal",
+        "AddWeight": 0
+      },
       "Boss_0003": {
         "PowerUnit": "EVehicleTuneLevel::Level8",
         "IntakeSystem": "EVehicleTuneLevel::Level5",
