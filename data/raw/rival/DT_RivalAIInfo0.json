@@ -2852,6 +2852,36 @@
               "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
               "ConditionValue": 0.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_MiddleUp",
+              "EffectTimeSecond": 5.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": -1
+            }
+          ],
+          "TargetSpeedModifier": 1.2,
+          "BlockMethod": "EBlockMethod::BM_NeverBlock",
+          "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
+          "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+          "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+          "MaxTargetSpeedKmh": -1.0,
+          "bIsNoLimitTargetSpeedForBehind": true
+        },
+        "bIsOverrideOnBattleEvaluationOrder": false,
+        "OverrideOnBattleEvaluationOrderName": "None",
+        "bIsOverrideOnCrusingEvaluationOrder": false,
+        "OverrideOnCrusingEvaluationOrderName": "None"
+      },
+      "Boss_0003_r02": {
+        "ParameterTemplateName": "None",
+        "bIsOverrideBattleParameter": true,
+        "OverrideBattleParameter": {
+          "ID": 0,
+          "BasicThinkings": [
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 0.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
               "SpecEffect": "ERivalSpecEffect::RSE_BigUp",
               "EffectTimeSecond": 5.0,
               "bIsBreakOnSuccess": false,

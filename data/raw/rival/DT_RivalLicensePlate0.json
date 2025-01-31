@@ -2181,6 +2181,20 @@
         "IndividualNumber0010": 1,
         "IndividualNumber0001": 4
       },
+      "Boss_0014": {
+        "Area": "ECarLicensePlateArea::Tokyo_Tama",
+        "PlateCategory": 0,
+        "PlaceNameIndex": 0,
+        "ClassNumber100": 3,
+        "ClassNumber010": 4,
+        "ClassNumber001": 8,
+        "CharactorIndex": 27,
+        "IndividualNumber1000": 7,
+        "IndividualNumber0100": 3,
+        "IndividualNumberHyphen": 1,
+        "IndividualNumber0010": 2,
+        "IndividualNumber0001": 3
+      },
       "Rival_0305": {
         "Area": "ECarLicensePlateArea::Yamanashi_Yamanashi",
         "PlateCategory": 0,
@@ -2475,6 +2489,20 @@
         "IndividualNumber0010": 4,
         "IndividualNumber0001": 8
       },
+      "Boss_0003_r02": {
+        "Area": "ECarLicensePlateArea::Kanagawa_Kawasaki",
+        "PlateCategory": 0,
+        "PlaceNameIndex": 0,
+        "ClassNumber100": 3,
+        "ClassNumber010": 2,
+        "ClassNumber001": 9,
+        "CharactorIndex": 27,
+        "IndividualNumber1000": 9,
+        "IndividualNumber0100": 7,
+        "IndividualNumberHyphen": 1,
+        "IndividualNumber0010": 4,
+        "IndividualNumber0001": 8
+      },
       "Boss_0006": {
         "Area": "ECarLicensePlateArea::Kanagawa_Kawasaki",
         "PlateCategory": 0,
@@ -2503,6 +2531,20 @@
         "IndividualNumber0010": 6,
         "IndividualNumber0001": 5
       },
+      "Boss_0012_intruder": {
+        "Area": "ECarLicensePlateArea::Tokyo_Tama",
+        "PlateCategory": 0,
+        "PlaceNameIndex": 0,
+        "ClassNumber100": 3,
+        "ClassNumber010": 9,
+        "ClassNumber001": 3,
+        "CharactorIndex": 27,
+        "IndividualNumber1000": 3,
+        "IndividualNumber0100": 5,
+        "IndividualNumberHyphen": 1,
+        "IndividualNumber0010": 6,
+        "IndividualNumber0001": 5
+      },
       "Boss_0013": {
         "Area": "ECarLicensePlateArea::Tokyo_Tama",
         "PlateCategory": 0,
@@ -2516,20 +2558,6 @@
         "IndividualNumberHyphen": 1,
         "IndividualNumber0010": 3,
         "IndividualNumber0001": 1
-      },
-      "Boss_0014": {
-        "Area": "ECarLicensePlateArea::Tokyo_Tama",
-        "PlateCategory": 0,
-        "PlaceNameIndex": 0,
-        "ClassNumber100": 3,
-        "ClassNumber010": 4,
-        "ClassNumber001": 8,
-        "CharactorIndex": 27,
-        "IndividualNumber1000": 7,
-        "IndividualNumber0100": 3,
-        "IndividualNumberHyphen": 1,
-        "IndividualNumber0010": 2,
-        "IndividualNumber0001": 3
       },
       "Boss_0015": {
         "Area": "ECarLicensePlateArea::Chiba_Chiba",
@@ -2616,18 +2644,18 @@
         "IndividualNumber0001": 3
       },
       "Boss_0030_2": {
-        "Area": "ECarLicensePlateArea::Gifu_Gifu",
+        "Area": "ECarLicensePlateArea::Tokyo_Setagaya",
         "PlateCategory": 0,
         "PlaceNameIndex": 0,
         "ClassNumber100": 3,
-        "ClassNumber010": 1,
-        "ClassNumber001": 7,
-        "CharactorIndex": 27,
-        "IndividualNumber1000": 2,
-        "IndividualNumber0100": 0,
+        "ClassNumber010": 4,
+        "ClassNumber001": 5,
+        "CharactorIndex": 38,
+        "IndividualNumber1000": 6,
+        "IndividualNumber0100": 5,
         "IndividualNumberHyphen": 1,
         "IndividualNumber0010": 2,
-        "IndividualNumber0001": 2
+        "IndividualNumber0001": 3
       },
       "Wan_0001": {
         "Area": "ECarLicensePlateArea::Tokyo_Nerima",
