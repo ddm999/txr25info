@@ -1,0 +1,348 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_RaceDefine",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'SDefaultDefineBase'",
+        "ObjectPath": "/Game/ITSB/Core/Quest/SDefaultDefineBase.0"
+      }
+    },
+    "Rows": {
+      "WARNING": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 0,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "既存の行の名前は変更しないで！変更したい場合はPGへ相談"
+      },
+      "RivalPrizeBase": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 100,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "RIVAL PRIZE ベース値"
+      },
+      "FirstWin": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 30,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "初戦勝利"
+      },
+      "RematchWin": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 20,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "再戦勝利（リベンジ）"
+      },
+      "AgainWin": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 10,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "再度勝利（２勝利目以降）"
+      },
+      "DriftEvUnitTime": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 500,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "ドリフト時間補正値（評価単位時間ms）"
+      },
+      "DriftBonus": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 500,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "ドリフトボーナス倍率"
+      },
+      "NearMissEvValue": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 100,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "ニアミス倍率"
+      },
+      "StartAcceleEvValue": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 1000,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "スタート時アクセル評価"
+      },
+      "StartAcceleTime": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 300,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "スタート時アクセル評価時間（ms）"
+      },
+      "LongRunDistance1": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 25,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "km"
+      },
+      "LongRunDistance2": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 50,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "km"
+      },
+      "LongRunDistance3": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 75,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "km"
+      },
+      "LongRunDistance4": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 100,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "km"
+      },
+      "LongRunDistance1Bonus": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 100000,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "CP"
+      },
+      "LongRunDistance2Bonus": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 200000,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "CP"
+      },
+      "LongRunDistance3Bonus": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 300000,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "CP"
+      },
+      "LongRunDistance4Bonus": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 500000,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "CP"
+      },
+      "SpeedRankC": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 100,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "km/h >"
+      },
+      "SpeedRankB": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 180,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "km/h >"
+      },
+      "SpeedRankA": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 260,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "km/h >"
+      },
+      "SpeedRankS": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 400,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "km/h >"
+      },
+      "SpeedRankCMag": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 10,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "スピードランクC倍率"
+      },
+      "SpeedRankBMag": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 11,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "スピードランクB倍率"
+      },
+      "SpeedRankAMag": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 13,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "スピードランクA倍率"
+      },
+      "SpeedRankSMag": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 15,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "スピードランクS倍率"
+      },
+      "StartSpEvValue": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 100000,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "SPゲージ開始評価"
+      },
+      "FirstAttackBonus": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 3000,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "CP"
+      },
+      "ReversalBonus": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 10000,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "CP"
+      },
+      "CategoryCoefTeamMember": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 10,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "チームメンバー倍率"
+      },
+      "CategoryCoefTeamLeader": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 15,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "チームリーダー倍率"
+      },
+      "CategoryCoefBoss": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 20,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "ボス倍率"
+      },
+      "CategoryCoefChapterBoss": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 25,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "章ボス倍率"
+      },
+      "CategoryCoefFinalChapterBoss": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 40,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "最終章ボス倍率"
+      },
+      "CategoryCoefLastBoss": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 40,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "ラスボス倍率"
+      },
+      "CategoryCoefSecretBoss": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 40,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "シークレットボス倍率"
+      },
+      "CategoryCoefWanderer": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 30,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "ワンダラー倍率"
+      },
+      "WinningStreakNum０": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 0,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "連勝チェックはじまり"
+      },
+      "WinningStreakNum1": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 3,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "連勝以上(０)"
+      },
+      "WinningStreakNum2": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 5,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "連勝以上"
+      },
+      "WinningStreakNum3": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 7,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "連勝以上"
+      },
+      "WinningStreakNum4": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 10,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "連勝以上"
+      },
+      "WinningStreakNum5": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 15,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "連勝以上"
+      },
+      "WinningStreakNum6": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 20,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "連勝以上"
+      },
+      "WinningStreakNum0Bonus": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 10,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "倍率（連勝判定なし）"
+      },
+      "WinningStreakNum1Bonus": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 11,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "倍率"
+      },
+      "WinningStreakNum2Bonus": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 12,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "倍率"
+      },
+      "WinningStreakNum3Bonus": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 13,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "倍率"
+      },
+      "WinningStreakNum4Bonus": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 15,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "倍率"
+      },
+      "WinningStreakNum5Bonus": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 17,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "倍率"
+      },
+      "WinningStreakNum6Bonus": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 20,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "倍率"
+      },
+      "EnemyHitInvalidSpRate": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 25,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "敵の当たりダメージが無効になるSPの%"
+      },
+      "HitDamageSpCoef": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 20,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "壁の衝撃にこれをかけたものがSPの減算値となる"
+      },
+      "OherCarEveryWin": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 10,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "アザーカーに勝利（いつでも、なんどでも）"
+      },
+      "CategoryCoefOther": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 5,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "アザーカー倍率"
+      },
+      "OtherCarDriverLevelMinOffset": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": -5,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "プレイヤーのドライバーレベルに対するアザーカーのドライバーレベルの補正値（下限）"
+      },
+      "OtherCarDriverLevelMaxOffset": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 5,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "プレイヤーのドライバーレベルに対するアザーカーのドライバーレベルの補正値（上限）"
+      },
+      "RivalPrizeDivValue": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 10,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "Rival\"S PRIZE計算で割られる値"
+      },
+      "CrusingSpeedNormal": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 60,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "km/hクルージング速度"
+      },
+      "CrusingSpeedSports": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 60,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "km/hクルージング速度"
+      },
+      "CrusingSpeedLarge": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 60,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "km/hクルージング速度"
+      },
+      "CrusingSpeedSpecial": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 60,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "km/hクルージング速度"
+      },
+      "VehicleSpawnFarLen": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 350,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "m アザーカーをスポーンする距離（遠く）"
+      },
+      "VehicleSpawnMinLen": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 200,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "m アザーカーをスポーンする距離（近く）"
+      },
+      "VehicleDestroyLen": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 380,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "ｍ アザーカーを破棄する距離"
+      },
+      "RivalHeadMarkDispLen": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 225,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "m ライバルのヘッドマークを表示する距離"
+      },
+      "RivalHeadMarkNotDispLen": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 250,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "m ライバルのヘッドマークの表示を消す距離（表示より遠くに）"
+      },
+      "RivalGameVehicleSpawnLen": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 300,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "m ライバル車両を車両挙動で動かし始める距離"
+      },
+      "RivalSplineVehicleSpawnLen": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 350,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "m ライバル車両をスプライン挙動で動かし始める距離（所領挙動の距離より遠くに）"
+      },
+      "ObstacleSpawnLen": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 300,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "m 障害物をスポーンする距離"
+      },
+      "ObstacleDestroyLen": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 400,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "m 障害物を破棄する距離（スポーンより遠く）"
+      },
+      "CutinProductionLen": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 50,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "m 演出があるライバルがこれだけ近づくと演出実行"
+      },
+      "RivalPrizeLevelCoef": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 10,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "RIVAL PRIZE レベル係数"
+      },
+      "DefaultSP": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 300,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "デフォルトのSP値"
+      },
+      "PlayerRivalSpawnSpeed": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 60,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "(km/h)プレイヤーとライバルのスポーン時の速度"
+      },
+      "VehicleLowFpsLen": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 170,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "m プレイヤー車からこれ以上離れていると低fpsで動作（バトル時は除く）"
+      },
+      "VehicleHiFpsLen": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 150,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "m プレイヤー車にこれより近づいていると高fpsで動作　VehicleHiFpsLen < VehicleLowFpsLen"
+      },
+      "RivalOtherEffectEnableDistance": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 80,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "m ライバルやアザーカーのエフェクトを表示するようになる距離"
+      },
+      "RivalOtherEffectDisableDistance": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 100,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "m ライバルやアザーカーのエフェクトの表示をしなくなる距離（表示より遠くに）"
+      },
+      "HitDamageSpCoefForVehicle": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 10,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "車両の衝撃にこれをかけたものがSPの減算値となる"
+      },
+      "CruisingEnthusiastsPaidDistance": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 2,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "km パークスキル「クルージング愛好家」装備時、CPの支払いが行われる距離"
+      },
+      "SpDecDistance": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 25,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "m SPバトルでSPが減り始めるライバルとの距離"
+      },
+      "PerkPointEarnedByProvenExperience": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 1,
+        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "パーク「確かな経験」で必要台数に勝利した際に得られるパークポイント"
+      }
+    }
+  }
+]

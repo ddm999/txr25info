@@ -69,8 +69,8 @@
         "CarName": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_carname.ST_carname",
           "Key": "OtTRUCK",
-          "SourceString": "TRUCK Dynac (XZU402) '99",
-          "LocalizedString": "TRUCK Dynac (XZU402) '99"
+          "SourceString": "Dynac (XZU402) '99",
+          "LocalizedString": "Dynac (XZU402) '99"
         },
         "MaxHightOffset": 4.0
       }

@@ -1,0 +1,61 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_DressupPartsInfo",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'SDressupPartsInfo'",
+        "ObjectPath": "/Game/ITSB/Core/Quest/SDressupPartsInfo.0"
+      }
+    },
+    "Rows": {
+      "FrontBumper": {
+        "kind_2_689AA72345FF2FC5FA771CB586309734": "ECustomCarPartsSimpleKind::FrontBumper",
+        "price_9_FF8DCAA347252F41EC70AE989F827DC0[1]": 100000,
+        "is_lock_8_76094F4A4C5178C72C2ADE9758EC5750[2]": false
+      },
+      "RearBumper": {
+        "kind_2_689AA72345FF2FC5FA771CB586309734": "ECustomCarPartsSimpleKind::RearBumper",
+        "price_9_FF8DCAA347252F41EC70AE989F827DC0[1]": 100000,
+        "is_lock_8_76094F4A4C5178C72C2ADE9758EC5750[2]": false
+      },
+      "SideSkirt": {
+        "kind_2_689AA72345FF2FC5FA771CB586309734": "ECustomCarPartsSimpleKind::SideSkirt",
+        "price_9_FF8DCAA347252F41EC70AE989F827DC0[1]": 70000,
+        "is_lock_8_76094F4A4C5178C72C2ADE9758EC5750[2]": false
+      },
+      "RearSpoiler": {
+        "kind_2_689AA72345FF2FC5FA771CB586309734": "ECustomCarPartsSimpleKind::RearSpoiler",
+        "price_9_FF8DCAA347252F41EC70AE989F827DC0[1]": 200000,
+        "is_lock_8_76094F4A4C5178C72C2ADE9758EC5750[2]": false
+      },
+      "Muffler": {
+        "kind_2_689AA72345FF2FC5FA771CB586309734": "ECustomCarPartsSimpleKind::Muffler",
+        "price_9_FF8DCAA347252F41EC70AE989F827DC0[1]": 200000,
+        "is_lock_8_76094F4A4C5178C72C2ADE9758EC5750[2]": true
+      },
+      "Bonnet": {
+        "kind_2_689AA72345FF2FC5FA771CB586309734": "ECustomCarPartsSimpleKind::Bonnet",
+        "price_9_FF8DCAA347252F41EC70AE989F827DC0[1]": 200000,
+        "is_lock_8_76094F4A4C5178C72C2ADE9758EC5750[2]": false
+      },
+      "Wheel": {
+        "kind_2_689AA72345FF2FC5FA771CB586309734": "ECustomCarPartsSimpleKind::Wheel",
+        "price_9_FF8DCAA347252F41EC70AE989F827DC0[1]": 100000,
+        "is_lock_8_76094F4A4C5178C72C2ADE9758EC5750[2]": false
+      },
+      "BrakeRotar": {
+        "kind_2_689AA72345FF2FC5FA771CB586309734": "ECustomCarPartsSimpleKind::BrakeRotar",
+        "price_9_FF8DCAA347252F41EC70AE989F827DC0[1]": 100000,
+        "is_lock_8_76094F4A4C5178C72C2ADE9758EC5750[2]": true
+      },
+      "BrakeCaliper": {
+        "kind_2_689AA72345FF2FC5FA771CB586309734": "ECustomCarPartsSimpleKind::BrakeCaliper",
+        "price_9_FF8DCAA347252F41EC70AE989F827DC0[1]": 100000,
+        "is_lock_8_76094F4A4C5178C72C2ADE9758EC5750[2]": true
+      }
+    }
+  }
+]

@@ -1,7 +1,7 @@
 [
   {
     "Type": "DataTable",
-    "Name": "DT_TunePartsInfo",
+    "Name": "DT_TunePartsInfo0",
     "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -27,14 +27,15 @@
           0.0,
           0.0,
           1.0,
-          8.2
+          9.0,
+          0.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 1
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
       },
       "PowerUnit_Level1": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::PowerUnit",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level1",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0122,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.004,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 4,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -47,14 +48,15 @@
           0.0,
           0.0,
           1.0,
-          8.25
+          9.0,
+          0.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 100000
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 10
       },
       "PowerUnit_Level2": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::PowerUnit",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level2",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0146,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.007,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 23,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -67,14 +69,15 @@
           0.0,
           0.0,
           1.0,
-          8.3
+          9.0,
+          0.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 300000
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 30
       },
       "PowerUnit_Level3": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::PowerUnit",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level3",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0176,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.012,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 100,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -87,14 +90,15 @@
           0.0,
           0.0,
           1.0,
-          8.35
+          9.0,
+          0.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 500000
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 50
       },
       "PowerUnit_Level4": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::PowerUnit",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level4",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0228,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.02,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 0,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -107,14 +111,15 @@
           1.0,
           0.0,
           1.0,
-          8.4
+          9.0,
+          3.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 80
       },
       "PowerUnit_Level5": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::PowerUnit",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level5",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0297,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.035,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 0,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -127,14 +132,15 @@
           1.0,
           0.0,
           1.0,
-          8.45
+          9.0,
+          2.5
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 100
       },
       "PowerUnit_Level6": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::PowerUnit",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level6",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0416,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.052,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 216,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -147,14 +153,15 @@
           1.0,
           0.0,
           1.0,
-          8.5
+          9.0,
+          2.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 120
       },
       "PowerUnit_Level7": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::PowerUnit",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level7",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0582,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.07,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 217,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -167,14 +174,15 @@
           1.0,
           0.0,
           1.0,
-          8.55
+          9.0,
+          1.5
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 150
       },
       "PowerUnit_Level8": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::PowerUnit",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level8",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.1047,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.1,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 218,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -187,14 +195,15 @@
           1.0,
           0.0,
           1.0,
-          8.6
+          9.0,
+          1.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 200
       },
       "PowerUnit_Level9": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::PowerUnit",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level9",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.1885,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.2,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 0,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -207,9 +216,10 @@
           1.0,
           0.0,
           1.0,
-          8.7
+          9.0,
+          1.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 400
       },
       "ExhaustSystem_Normal": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::ExhaustSystem",
@@ -233,6 +243,7 @@
           0.0,
           1.0,
           1.0,
+          0.0,
           0.0
         ],
         "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
@@ -240,13 +251,11 @@
       "ExhaustSystem_Level1": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::ExhaustSystem",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level1",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0051,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0025,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 4,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
-        "unlock_custom_parts_kind_49_D549C5524B13C29853BA019FB094B11D[6]": [
-          "ECustomCarPartsSimpleKind::Muffler"
-        ],
+        "unlock_custom_parts_kind_49_D549C5524B13C29853BA019FB094B11D[6]": [],
         "lock_custom_parts_kind_53_41150FC9431205DBC32E4C88FA84089F[7]": [],
         "unlock_setting_27_74FE79B948A6E0372EDA289B1EDBC2F6[8]": [],
         "enable_gear_ratio_34_33DCBFE04999CF2D03A5339F3CCE941A[9]": false,
@@ -258,23 +267,22 @@
           4.5,
           1.02,
           0.0,
-          1.0,
-          1.007,
+          2.0,
+          1.014,
           1.1,
+          0.0,
           0.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 10
       },
       "ExhaustSystem_Level2": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::ExhaustSystem",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level2",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0061,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0055,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 23,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
-        "unlock_custom_parts_kind_49_D549C5524B13C29853BA019FB094B11D[6]": [
-          "ECustomCarPartsSimpleKind::Muffler"
-        ],
+        "unlock_custom_parts_kind_49_D549C5524B13C29853BA019FB094B11D[6]": [],
         "lock_custom_parts_kind_53_41150FC9431205DBC32E4C88FA84089F[7]": [],
         "unlock_setting_27_74FE79B948A6E0372EDA289B1EDBC2F6[8]": [],
         "enable_gear_ratio_34_33DCBFE04999CF2D03A5339F3CCE941A[9]": false,
@@ -285,13 +293,14 @@
           39.0,
           4.0,
           1.04,
-          1.0,
           2.0,
-          1.017,
+          3.0,
+          1.028,
           1.2,
-          1.0
+          0.0,
+          0.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 20
       },
       "ExhaustSystem_Level3": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::ExhaustSystem",
@@ -300,9 +309,7 @@
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 110,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
-        "unlock_custom_parts_kind_49_D549C5524B13C29853BA019FB094B11D[6]": [
-          "ECustomCarPartsSimpleKind::Muffler"
-        ],
+        "unlock_custom_parts_kind_49_D549C5524B13C29853BA019FB094B11D[6]": [],
         "lock_custom_parts_kind_53_41150FC9431205DBC32E4C88FA84089F[7]": [],
         "unlock_setting_27_74FE79B948A6E0372EDA289B1EDBC2F6[8]": [],
         "enable_gear_ratio_34_33DCBFE04999CF2D03A5339F3CCE941A[9]": false,
@@ -313,24 +320,23 @@
           40.0,
           3.5,
           1.06,
-          3.0,
           4.0,
-          1.02,
+          5.0,
+          1.042,
           1.3,
-          1.0
+          1.0,
+          3.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 30
       },
       "ExhaustSystem_Level4": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::ExhaustSystem",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level4",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0111,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.013,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 200,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
-        "unlock_custom_parts_kind_49_D549C5524B13C29853BA019FB094B11D[6]": [
-          "ECustomCarPartsSimpleKind::Muffler"
-        ],
+        "unlock_custom_parts_kind_49_D549C5524B13C29853BA019FB094B11D[6]": [],
         "lock_custom_parts_kind_53_41150FC9431205DBC32E4C88FA84089F[7]": [],
         "unlock_setting_27_74FE79B948A6E0372EDA289B1EDBC2F6[8]": [],
         "enable_gear_ratio_34_33DCBFE04999CF2D03A5339F3CCE941A[9]": false,
@@ -341,24 +347,23 @@
           41.0,
           3.2,
           1.08,
-          5.0,
           6.0,
-          1.027,
+          7.0,
+          1.056,
           1.4,
-          1.0
+          1.0,
+          2.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 40
       },
       "ExhaustSystem_Level5": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::ExhaustSystem",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level5",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.02,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.021,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 208,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
-        "unlock_custom_parts_kind_49_D549C5524B13C29853BA019FB094B11D[6]": [
-          "ECustomCarPartsSimpleKind::Muffler"
-        ],
+        "unlock_custom_parts_kind_49_D549C5524B13C29853BA019FB094B11D[6]": [],
         "lock_custom_parts_kind_53_41150FC9431205DBC32E4C88FA84089F[7]": [],
         "unlock_setting_27_74FE79B948A6E0372EDA289B1EDBC2F6[8]": [],
         "enable_gear_ratio_34_33DCBFE04999CF2D03A5339F3CCE941A[9]": false,
@@ -369,24 +374,23 @@
           42.0,
           3.0,
           1.1,
-          7.0,
           8.0,
-          1.033,
+          9.0,
+          1.07,
           1.5,
+          1.0,
           1.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 60
       },
       "ExhaustSystem_Level6": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::ExhaustSystem",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level6",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0361,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.042,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 0,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
-        "unlock_custom_parts_kind_49_D549C5524B13C29853BA019FB094B11D[6]": [
-          "ECustomCarPartsSimpleKind::Muffler"
-        ],
+        "unlock_custom_parts_kind_49_D549C5524B13C29853BA019FB094B11D[6]": [],
         "lock_custom_parts_kind_53_41150FC9431205DBC32E4C88FA84089F[7]": [],
         "unlock_setting_27_74FE79B948A6E0372EDA289B1EDBC2F6[8]": [],
         "enable_gear_ratio_34_33DCBFE04999CF2D03A5339F3CCE941A[9]": false,
@@ -397,13 +401,14 @@
           43.0,
           3.0,
           1.15,
-          7.0,
+          8.0,
           9.0,
-          1.033,
+          1.105,
           1.6,
+          1.0,
           1.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 100
       },
       "IntakeSystem_Normal": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::IntakeSystem",
@@ -430,7 +435,7 @@
       "IntakeSystem_Level1": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::IntakeSystem",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level1",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0051,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0025,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 4,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -443,16 +448,16 @@
           9.6,
           1.015,
           0.0,
-          1.0,
-          1.005,
+          2.0,
+          1.0105,
           1.04
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 5
       },
       "IntakeSystem_Level2": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::IntakeSystem",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level2",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0061,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0055,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 23,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -464,12 +469,12 @@
         "effect_values_43_6A7F7FE948ECD64276EB1A9F0DEB3C84[11]": [
           9.2,
           1.03,
-          1.0,
           2.0,
-          1.01,
+          3.0,
+          1.021,
           1.08
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 10
       },
       "IntakeSystem_Level3": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::IntakeSystem",
@@ -486,17 +491,17 @@
         "effect_values_43_6A7F7FE948ECD64276EB1A9F0DEB3C84[11]": [
           8.8,
           1.045,
-          3.0,
           4.0,
-          1.015,
+          5.0,
+          1.0315,
           1.12
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 20
       },
       "IntakeSystem_Level4": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::IntakeSystem",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level4",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0111,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.013,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 201,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -508,17 +513,17 @@
         "effect_values_43_6A7F7FE948ECD64276EB1A9F0DEB3C84[11]": [
           8.4,
           1.06,
-          5.0,
           6.0,
-          1.02,
+          7.0,
+          1.042,
           1.16
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 30
       },
       "IntakeSystem_Level5": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::IntakeSystem",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level5",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.02,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.021,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 209,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -530,17 +535,17 @@
         "effect_values_43_6A7F7FE948ECD64276EB1A9F0DEB3C84[11]": [
           8.0,
           1.08,
-          7.0,
           8.0,
-          1.025,
+          9.0,
+          1.056,
           1.2
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 40
       },
       "IntakeSystem_Level6": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::IntakeSystem",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level6",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0361,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.042,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 0,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -552,12 +557,12 @@
         "effect_values_43_6A7F7FE948ECD64276EB1A9F0DEB3C84[11]": [
           8.0,
           1.125,
-          7.0,
+          8.0,
           9.0,
-          1.02,
+          1.084,
           1.25
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 80
       },
       "Transmission_Normal": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Transmission",
@@ -581,97 +586,107 @@
       "Transmission_Level1": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Transmission",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level1",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0071,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0035,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 0,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 1,
         "unlock_custom_parts_kind_49_D549C5524B13C29853BA019FB094B11D[6]": [],
         "lock_custom_parts_kind_53_41150FC9431205DBC32E4C88FA84089F[7]": [],
-        "unlock_setting_27_74FE79B948A6E0372EDA289B1EDBC2F6[8]": [],
+        "unlock_setting_27_74FE79B948A6E0372EDA289B1EDBC2F6[8]": [
+          "ECarSetting::GearRatio"
+        ],
         "enable_gear_ratio_34_33DCBFE04999CF2D03A5339F3CCE941A[9]": true,
         "add_gear_38_7926B4434262D9323F0376A281626CAF[10]": 0,
         "effect_values_43_6A7F7FE948ECD64276EB1A9F0DEB3C84[11]": [
-          0.25,
+          0.26,
           1.01,
           15.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 10
       },
       "Transmission_Level2": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Transmission",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level2",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0085,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0077,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 23,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
         "unlock_custom_parts_kind_49_D549C5524B13C29853BA019FB094B11D[6]": [],
         "lock_custom_parts_kind_53_41150FC9431205DBC32E4C88FA84089F[7]": [],
-        "unlock_setting_27_74FE79B948A6E0372EDA289B1EDBC2F6[8]": [],
+        "unlock_setting_27_74FE79B948A6E0372EDA289B1EDBC2F6[8]": [
+          "ECarSetting::GearRatio"
+        ],
         "enable_gear_ratio_34_33DCBFE04999CF2D03A5339F3CCE941A[9]": true,
         "add_gear_38_7926B4434262D9323F0376A281626CAF[10]": 0,
         "effect_values_43_6A7F7FE948ECD64276EB1A9F0DEB3C84[11]": [
-          0.2,
+          0.22,
           1.02,
           17.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 20
       },
       "Transmission_Level3": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Transmission",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level3",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0111,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0112,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 130,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
         "unlock_custom_parts_kind_49_D549C5524B13C29853BA019FB094B11D[6]": [],
         "lock_custom_parts_kind_53_41150FC9431205DBC32E4C88FA84089F[7]": [],
-        "unlock_setting_27_74FE79B948A6E0372EDA289B1EDBC2F6[8]": [],
+        "unlock_setting_27_74FE79B948A6E0372EDA289B1EDBC2F6[8]": [
+          "ECarSetting::GearRatio"
+        ],
         "enable_gear_ratio_34_33DCBFE04999CF2D03A5339F3CCE941A[9]": true,
         "add_gear_38_7926B4434262D9323F0376A281626CAF[10]": 1,
         "effect_values_43_6A7F7FE948ECD64276EB1A9F0DEB3C84[11]": [
-          0.15,
+          0.18,
           1.03,
           17.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 30
       },
       "Transmission_Level4": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Transmission",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level4",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0155,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0182,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 202,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
         "unlock_custom_parts_kind_49_D549C5524B13C29853BA019FB094B11D[6]": [],
         "lock_custom_parts_kind_53_41150FC9431205DBC32E4C88FA84089F[7]": [],
-        "unlock_setting_27_74FE79B948A6E0372EDA289B1EDBC2F6[8]": [],
+        "unlock_setting_27_74FE79B948A6E0372EDA289B1EDBC2F6[8]": [
+          "ECarSetting::GearRatio"
+        ],
         "enable_gear_ratio_34_33DCBFE04999CF2D03A5339F3CCE941A[9]": true,
         "add_gear_38_7926B4434262D9323F0376A281626CAF[10]": 1,
         "effect_values_43_6A7F7FE948ECD64276EB1A9F0DEB3C84[11]": [
-          0.1,
+          0.14,
           1.04,
           17.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 40
       },
       "Transmission_Level5": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Transmission",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level5",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0279,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0294,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 210,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
         "unlock_custom_parts_kind_49_D549C5524B13C29853BA019FB094B11D[6]": [],
         "lock_custom_parts_kind_53_41150FC9431205DBC32E4C88FA84089F[7]": [],
-        "unlock_setting_27_74FE79B948A6E0372EDA289B1EDBC2F6[8]": [],
+        "unlock_setting_27_74FE79B948A6E0372EDA289B1EDBC2F6[8]": [
+          "ECarSetting::GearRatio"
+        ],
         "enable_gear_ratio_34_33DCBFE04999CF2D03A5339F3CCE941A[9]": true,
         "add_gear_38_7926B4434262D9323F0376A281626CAF[10]": 2,
         "effect_values_43_6A7F7FE948ECD64276EB1A9F0DEB3C84[11]": [
-          0.03,
+          0.1,
           1.05,
           15.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 100
       },
       "Clutch_Normal": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Clutch",
@@ -686,7 +701,7 @@
         "enable_gear_ratio_34_33DCBFE04999CF2D03A5339F3CCE941A[9]": false,
         "add_gear_38_7926B4434262D9323F0376A281626CAF[10]": 0,
         "effect_values_43_6A7F7FE948ECD64276EB1A9F0DEB3C84[11]": [
-          0.3,
+          0.05,
           1.0,
           2.5,
           1.0
@@ -696,7 +711,7 @@
       "Clutch_Level1": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Clutch",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level1",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0021,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.001,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 0,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 1,
@@ -706,17 +721,17 @@
         "enable_gear_ratio_34_33DCBFE04999CF2D03A5339F3CCE941A[9]": false,
         "add_gear_38_7926B4434262D9323F0376A281626CAF[10]": 0,
         "effect_values_43_6A7F7FE948ECD64276EB1A9F0DEB3C84[11]": [
-          0.26,
+          0.05,
           1.2,
           3.0,
           0.9
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 5
       },
       "Clutch_Level2": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Clutch",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level2",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0025,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0022,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 23,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -726,17 +741,17 @@
         "enable_gear_ratio_34_33DCBFE04999CF2D03A5339F3CCE941A[9]": false,
         "add_gear_38_7926B4434262D9323F0376A281626CAF[10]": 0,
         "effect_values_43_6A7F7FE948ECD64276EB1A9F0DEB3C84[11]": [
-          0.22,
+          0.05,
           1.4,
           3.5,
           0.8
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 10
       },
       "Clutch_Level3": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Clutch",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level3",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0033,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0032,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 140,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -746,17 +761,17 @@
         "enable_gear_ratio_34_33DCBFE04999CF2D03A5339F3CCE941A[9]": false,
         "add_gear_38_7926B4434262D9323F0376A281626CAF[10]": 0,
         "effect_values_43_6A7F7FE948ECD64276EB1A9F0DEB3C84[11]": [
-          0.18,
+          0.05,
           1.6,
           4.0,
           0.7
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 20
       },
       "Clutch_Level4": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Clutch",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level4",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0046,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0052,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 203,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -766,17 +781,17 @@
         "enable_gear_ratio_34_33DCBFE04999CF2D03A5339F3CCE941A[9]": false,
         "add_gear_38_7926B4434262D9323F0376A281626CAF[10]": 0,
         "effect_values_43_6A7F7FE948ECD64276EB1A9F0DEB3C84[11]": [
-          0.14,
+          0.05,
           1.8,
           4.5,
           0.6
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 30
       },
       "Clutch_Level5": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Clutch",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level5",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0083,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0084,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 211,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -786,12 +801,12 @@
         "enable_gear_ratio_34_33DCBFE04999CF2D03A5339F3CCE941A[9]": false,
         "add_gear_38_7926B4434262D9323F0376A281626CAF[10]": 0,
         "effect_values_43_6A7F7FE948ECD64276EB1A9F0DEB3C84[11]": [
-          0.1,
+          0.05,
           2.0,
           5.0,
           0.5
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 40
       },
       "Suspension_Normal": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Suspension",
@@ -821,7 +836,7 @@
       "Suspension_Level1": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Suspension",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level1",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0102,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.005,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 0,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 1,
@@ -846,12 +861,12 @@
           -0.1,
           0.1
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 8
       },
       "Suspension_Level2": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Suspension",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level2",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0122,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.011,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 23,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -878,12 +893,12 @@
           -0.1,
           0.1
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 20
       },
       "Suspension_Level3": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Suspension",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level3",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0159,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.016,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 150,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -918,12 +933,12 @@
           -0.1,
           0.1
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 30
       },
       "Suspension_Level4": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Suspension",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level4",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0223,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.026,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 204,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -960,12 +975,12 @@
           -0.1,
           0.1
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 50
       },
       "Suspension_Level5": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Suspension",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level5",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0401,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.042,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 212,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -1002,7 +1017,7 @@
           -0.1,
           0.1
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 80
       },
       "Brake_Normal": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Brake",
@@ -1034,12 +1049,12 @@
           5.5,
           400.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 400
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
       },
       "Brake_Level1": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Brake",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level1",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0071,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0035,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 0,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 1,
@@ -1069,12 +1084,12 @@
           5.5,
           400.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 4
       },
       "Brake_Level2": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Brake",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level2",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0085,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0077,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 23,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -1104,12 +1119,12 @@
           5.5,
           400.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 20
       },
       "Brake_Level3": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Brake",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level3",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0111,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0112,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 160,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -1139,12 +1154,12 @@
           6.0,
           400.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 40
       },
       "Brake_Level4": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Brake",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level4",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0155,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0182,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 205,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -1174,12 +1189,12 @@
           6.5,
           400.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 60
       },
       "Brake_Level5": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Brake",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level5",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0279,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0294,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 213,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -1191,8 +1206,7 @@
         "unlock_setting_27_74FE79B948A6E0372EDA289B1EDBC2F6[8]": [
           "ECarSetting::ABS",
           "ECarSetting::BrakeBalaneFront",
-          "ECarSetting::BrakeBalaneRear",
-          "ECarSetting::LSDFrontInitialTorque"
+          "ECarSetting::BrakeBalaneRear"
         ],
         "enable_gear_ratio_34_33DCBFE04999CF2D03A5339F3CCE941A[9]": false,
         "add_gear_38_7926B4434262D9323F0376A281626CAF[10]": 0,
@@ -1210,7 +1224,7 @@
           7.0,
           600.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 100
       },
       "LSD_Normal": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::LSD",
@@ -1226,14 +1240,14 @@
         "add_gear_38_7926B4434262D9323F0376A281626CAF[10]": 0,
         "effect_values_43_6A7F7FE948ECD64276EB1A9F0DEB3C84[11]": [
           1.5,
-          0.0
+          0.2
         ],
         "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
       },
       "LSD_Level1": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::LSD",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level1",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.01,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.005,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 0,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 1,
@@ -1252,10 +1266,10 @@
         "enable_gear_ratio_34_33DCBFE04999CF2D03A5339F3CCE941A[9]": false,
         "add_gear_38_7926B4434262D9323F0376A281626CAF[10]": 0,
         "effect_values_43_6A7F7FE948ECD64276EB1A9F0DEB3C84[11]": [
-          1.525,
-          0.25
+          1.6,
+          0.4
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 10
       },
       "LSD_Level2": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::LSD",
@@ -1279,15 +1293,15 @@
         "enable_gear_ratio_34_33DCBFE04999CF2D03A5339F3CCE941A[9]": false,
         "add_gear_38_7926B4434262D9323F0376A281626CAF[10]": 0,
         "effect_values_43_6A7F7FE948ECD64276EB1A9F0DEB3C84[11]": [
-          1.55,
-          0.4
+          1.6,
+          0.6
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 20
       },
       "LSD_Level3": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::LSD",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level3",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.018,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.023,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 170,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -1309,7 +1323,7 @@
           1.5,
           1.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 50
       },
       "Body_Normal": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Body",
@@ -1336,7 +1350,7 @@
       "Body_Level1": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Body",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level1",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0203,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.01,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 0,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 1,
@@ -1349,16 +1363,16 @@
           1.01,
           3.0,
           0.0,
-          1.0,
+          0.95,
           0.0,
           3.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 5
       },
       "Body_Level2": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Body",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level2",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0244,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.022,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 23,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -1371,16 +1385,16 @@
           1.02,
           3.0,
           -5.0,
-          1.0,
+          0.9,
           0.0,
           3.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 30
       },
       "Body_Level3": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Body",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level3",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0317,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.032,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 180,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -1393,16 +1407,16 @@
           1.03,
           20.0,
           -5.0,
-          0.95,
+          0.85,
           -0.25,
           4.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 60
       },
       "Body_Level4": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Body",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level4",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0443,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.052,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 206,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -1415,16 +1429,16 @@
           1.04,
           20.0,
           -4.0,
-          0.9,
+          0.8,
           -0.5,
           4.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 100
       },
       "Body_Level5": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Body",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level5",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0798,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.084,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 214,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -1437,11 +1451,11 @@
           1.05,
           20.0,
           -15.0,
-          0.8,
+          0.75,
           -1.0,
           10.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 200
       },
       "FrontTire_Normal": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::FrontTire",
@@ -1464,14 +1478,15 @@
           1.0,
           0.4,
           1.5,
-          1.2
+          1.2,
+          10.0
         ],
         "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
       },
       "FrontTire_Level1": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::FrontTire",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level1",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0102,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.005,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 0,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 1,
@@ -1489,14 +1504,15 @@
           1.0,
           0.4,
           1.5,
-          1.2
+          1.2,
+          9.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 10
       },
       "FrontTire_Level2": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::FrontTire",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level2",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0122,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.011,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 23,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -1514,14 +1530,15 @@
           1.0,
           0.4,
           1.5,
-          1.2
+          1.2,
+          8.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 20
       },
       "FrontTire_Level3": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::FrontTire",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level3",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0159,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.016,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 190,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -1539,14 +1556,15 @@
           1.0,
           0.4,
           1.5,
-          1.2
+          1.2,
+          7.5
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 50
       },
       "FrontTire_Level4": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::FrontTire",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level4",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0223,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.026,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 207,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -1559,19 +1577,20 @@
           1.8,
           1.4,
           2.0,
-          2.7,
+          2.0,
           0.1,
           1.0,
           0.4,
           1.5,
-          1.2
+          1.2,
+          7.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 100
       },
       "FrontTire_Level5": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::FrontTire",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level5",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0401,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.042,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 215,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -1584,14 +1603,15 @@
           2.0,
           1.5,
           3.0,
-          2.0,
+          1.7,
           0.1,
           1.0,
           0.4,
           1.5,
-          1.2
+          1.2,
+          6.5
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 200
       },
       "RearTire_Normal": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::RearTire",
@@ -1614,14 +1634,15 @@
           1.0,
           0.4,
           1.5,
-          1.2
+          1.2,
+          10.0
         ],
         "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
       },
       "RearTire_Level1": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::RearTire",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level1",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0102,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.005,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 0,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 1,
@@ -1639,14 +1660,15 @@
           1.0,
           0.4,
           1.5,
-          1.2
+          1.2,
+          9.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 10
       },
       "RearTire_Level2": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::RearTire",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level2",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0122,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.011,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 23,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -1664,14 +1686,15 @@
           1.0,
           0.4,
           1.5,
-          1.2
+          1.2,
+          8.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 20
       },
       "RearTire_Level3": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::RearTire",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level3",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0159,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.016,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 190,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -1689,14 +1712,15 @@
           1.0,
           0.4,
           1.5,
-          1.2
+          1.2,
+          7.5
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 50
       },
       "RearTire_Level4": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::RearTire",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level4",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0223,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.026,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 207,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -1709,19 +1733,20 @@
           1.8,
           1.4,
           2.0,
-          2.7,
+          2.0,
           0.1,
           1.0,
           0.4,
           1.5,
-          1.2
+          1.2,
+          7.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 100
       },
       "RearTire_Level5": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::RearTire",
         "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level5",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.0401,
+        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 0.042,
         "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
         "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 215,
         "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
@@ -1734,14 +1759,15 @@
           2.0,
           1.5,
           3.0,
-          2.0,
+          1.7,
           0.1,
           1.0,
           0.4,
           1.5,
-          1.2
+          1.2,
+          6.5
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 200
       },
       "Nitro_Normal": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Nitro",
@@ -1756,8 +1782,8 @@
         "enable_gear_ratio_34_33DCBFE04999CF2D03A5339F3CCE941A[9]": false,
         "add_gear_38_7926B4434262D9323F0376A281626CAF[10]": 0,
         "effect_values_43_6A7F7FE948ECD64276EB1A9F0DEB3C84[11]": [
-          5.0,
-          10000.0
+          0.0,
+          0.0
         ],
         "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
       },
@@ -1775,9 +1801,9 @@
         "add_gear_38_7926B4434262D9323F0376A281626CAF[10]": 0,
         "effect_values_43_6A7F7FE948ECD64276EB1A9F0DEB3C84[11]": [
           10.0,
-          20000.0
+          15000.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 10
       },
       "Nitro_Level2": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Nitro",
@@ -1795,7 +1821,7 @@
           15.0,
           30000.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 15
       },
       "Nitro_Level3": {
         "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Nitro",
@@ -1811,135 +1837,9 @@
         "add_gear_38_7926B4434262D9323F0376A281626CAF[10]": 0,
         "effect_values_43_6A7F7FE948ECD64276EB1A9F0DEB3C84[11]": [
           20.0,
-          40000.0
+          45000.0
         ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
-      },
-      "Nitro_Level4": {
-        "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Nitro",
-        "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level4",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 1.0,
-        "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
-        "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 0,
-        "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
-        "unlock_custom_parts_kind_49_D549C5524B13C29853BA019FB094B11D[6]": [],
-        "lock_custom_parts_kind_53_41150FC9431205DBC32E4C88FA84089F[7]": [],
-        "unlock_setting_27_74FE79B948A6E0372EDA289B1EDBC2F6[8]": [],
-        "enable_gear_ratio_34_33DCBFE04999CF2D03A5339F3CCE941A[9]": false,
-        "add_gear_38_7926B4434262D9323F0376A281626CAF[10]": 0,
-        "effect_values_43_6A7F7FE948ECD64276EB1A9F0DEB3C84[11]": [
-          25.0,
-          50000.0
-        ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
-      },
-      "Nitro_Level5": {
-        "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Nitro",
-        "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level5",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 1.0,
-        "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
-        "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 0,
-        "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
-        "unlock_custom_parts_kind_49_D549C5524B13C29853BA019FB094B11D[6]": [],
-        "lock_custom_parts_kind_53_41150FC9431205DBC32E4C88FA84089F[7]": [],
-        "unlock_setting_27_74FE79B948A6E0372EDA289B1EDBC2F6[8]": [],
-        "enable_gear_ratio_34_33DCBFE04999CF2D03A5339F3CCE941A[9]": false,
-        "add_gear_38_7926B4434262D9323F0376A281626CAF[10]": 0,
-        "effect_values_43_6A7F7FE948ECD64276EB1A9F0DEB3C84[11]": [
-          30.0,
-          60000.0
-        ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
-      },
-      "Nitro_Level6": {
-        "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Nitro",
-        "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level6",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 1.0,
-        "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
-        "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 0,
-        "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
-        "unlock_custom_parts_kind_49_D549C5524B13C29853BA019FB094B11D[6]": [],
-        "lock_custom_parts_kind_53_41150FC9431205DBC32E4C88FA84089F[7]": [],
-        "unlock_setting_27_74FE79B948A6E0372EDA289B1EDBC2F6[8]": [],
-        "enable_gear_ratio_34_33DCBFE04999CF2D03A5339F3CCE941A[9]": false,
-        "add_gear_38_7926B4434262D9323F0376A281626CAF[10]": 0,
-        "effect_values_43_6A7F7FE948ECD64276EB1A9F0DEB3C84[11]": [
-          35.0,
-          70000.0
-        ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
-      },
-      "Nitro_Level7": {
-        "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Nitro",
-        "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level7",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 1.0,
-        "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
-        "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 0,
-        "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
-        "unlock_custom_parts_kind_49_D549C5524B13C29853BA019FB094B11D[6]": [],
-        "lock_custom_parts_kind_53_41150FC9431205DBC32E4C88FA84089F[7]": [],
-        "unlock_setting_27_74FE79B948A6E0372EDA289B1EDBC2F6[8]": [],
-        "enable_gear_ratio_34_33DCBFE04999CF2D03A5339F3CCE941A[9]": false,
-        "add_gear_38_7926B4434262D9323F0376A281626CAF[10]": 0,
-        "effect_values_43_6A7F7FE948ECD64276EB1A9F0DEB3C84[11]": [
-          40.0,
-          80000.0
-        ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
-      },
-      "Nitro_Level8": {
-        "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Nitro",
-        "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level8",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 1.0,
-        "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
-        "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 0,
-        "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
-        "unlock_custom_parts_kind_49_D549C5524B13C29853BA019FB094B11D[6]": [],
-        "lock_custom_parts_kind_53_41150FC9431205DBC32E4C88FA84089F[7]": [],
-        "unlock_setting_27_74FE79B948A6E0372EDA289B1EDBC2F6[8]": [],
-        "enable_gear_ratio_34_33DCBFE04999CF2D03A5339F3CCE941A[9]": false,
-        "add_gear_38_7926B4434262D9323F0376A281626CAF[10]": 0,
-        "effect_values_43_6A7F7FE948ECD64276EB1A9F0DEB3C84[11]": [
-          45.0,
-          90000.0
-        ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
-      },
-      "Nitro_Level9": {
-        "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Nitro",
-        "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level9",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 1.0,
-        "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
-        "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 0,
-        "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
-        "unlock_custom_parts_kind_49_D549C5524B13C29853BA019FB094B11D[6]": [],
-        "lock_custom_parts_kind_53_41150FC9431205DBC32E4C88FA84089F[7]": [],
-        "unlock_setting_27_74FE79B948A6E0372EDA289B1EDBC2F6[8]": [],
-        "enable_gear_ratio_34_33DCBFE04999CF2D03A5339F3CCE941A[9]": false,
-        "add_gear_38_7926B4434262D9323F0376A281626CAF[10]": 0,
-        "effect_values_43_6A7F7FE948ECD64276EB1A9F0DEB3C84[11]": [
-          50.0,
-          100000.0
-        ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
-      },
-      "Nitro_Level10": {
-        "kind_4_0B52FF0E4240F91D0F18A2B7D087FD9D": "EVehicleTuneKind::Nitro",
-        "level_5_F474A4154F5D6723B77D5197CD9A9629[1]": "EVehicleTuneLevel::Level10",
-        "price_coef_47_B8317FC3497A3DD4516309928AE9D16A[2]": 1.0,
-        "open_need_cumulative_cp_12_22B1CA594FE7B07C889D5A8778693B72[3]": 0,
-        "unlock_need_rival_defeat_18_2DBE389949EAB9C1B5543B9D831EFE07[4]": 0,
-        "unlock_need_team_defeat_23_DDFCE874448ADEC8D4B43EAEE915D7EC[5]": 0,
-        "unlock_custom_parts_kind_49_D549C5524B13C29853BA019FB094B11D[6]": [],
-        "lock_custom_parts_kind_53_41150FC9431205DBC32E4C88FA84089F[7]": [],
-        "unlock_setting_27_74FE79B948A6E0372EDA289B1EDBC2F6[8]": [],
-        "enable_gear_ratio_34_33DCBFE04999CF2D03A5339F3CCE941A[9]": false,
-        "add_gear_38_7926B4434262D9323F0376A281626CAF[10]": 0,
-        "effect_values_43_6A7F7FE948ECD64276EB1A9F0DEB3C84[11]": [
-          55.0,
-          110000.0
-        ],
-        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 0
+        "price_10_C7B90C5244A0E29DEBA18C9EACE562A4[12]": 20
       }
     }
   }
