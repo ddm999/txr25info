@@ -8,8 +8,8 @@
       "CarData": {
         "ID": 119,
         "CarId": "CAR119",
-        "CarNameId": "TAXI CROWN ATHLETE G Package (OtTAXI) '05",
-        "ModelNameId": "OtTAXI",
+        "CarNameId": "TAXI CROWN ATHLETE G Package (GRS184) '05",
+        "ModelNameId": "GRS184",
         "FolderId": "OtTAXI",
         "ReleaseDay": 2005,
         "Price": 5407500,
@@ -68,8 +68,8 @@
         "CarName": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_carname.ST_carname",
           "Key": "OtTAXI",
-          "SourceString": "TAXI CROWN ATHLETE G Package (OtTAXI) '05",
-          "LocalizedString": "TAXI CROWN ATHLETE G Package (OtTAXI) '05"
+          "SourceString": "CROWN ATHLETE G Package (GRS184) '05",
+          "LocalizedString": "CROWN ATHLETE G Package (GRS184) '05"
         },
         "MaxHightOffset": 3.0
       }
