@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::Straight4",
         "EngineFromat": "EEngineFromat::E_1NZ_FE",
         "EngineInspiration": "ECarIceAspirationType::NA",
-        "displacement": 1496,
+        "Displacement": 1496,
         "MaxPower": 109,
         "MaxPowerRpm": 6000,
         "MaxTorque": 14.4,
@@ -51,6 +51,7 @@
         "RSuspension": "ERSuspension::TORSION_BEAM",
         "Cd": 0.4,
         "Cl": 0.008,
+        "RearDriveRate": 0.0,
         "EngineFormatName": "1NZ_FE",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -73,7 +74,10 @@
           "SourceString": "bB Z X Version (NCP31) '03",
           "LocalizedString": "bB Z X Version (NCP31) '03"
         },
-        "MaxHightOffset": 2.0
+        "MaxHightOffset": 2.0,
+        "MinTurningRadius": 5.5,
+        "FrontTireWidthMax": 205,
+        "RearTireWidthMax": 205
       }
     }
   }

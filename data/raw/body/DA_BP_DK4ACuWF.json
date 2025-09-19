@@ -28,7 +28,7 @@
         "DriveType": "EDriveType::DT_FF",
         "EngineKind": "EEngineKind::V6",
         "EngineInspiration": "ECarIceAspirationType::NA",
-        "displacement": 3800,
+        "Displacement": 3800,
         "MaxPower": 267,
         "MaxPowerRpm": 5750,
         "MaxTorque": 36.0,
@@ -51,6 +51,7 @@
         "RSuspension": "ERSuspension::MULTI_LINK",
         "Cd": 0.3,
         "Cl": 0.008,
+        "RearDriveRate": 0.0,
         "EngineFormatName": "E_6G72",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -72,15 +73,18 @@
           "SourceString": "WHITE FAIRY",
           "LocalizedString": "WHITE FAIRY"
         },
-        "FrontHightOffset": -8,
-        "RearHightOffset": -8,
-        "FrontCamberAngle": -20,
-        "RearCamberAngle": -20,
-        "FrontOffset": 35,
-        "RearOffset": 45,
+        "FrontHightOffset": -15,
+        "RearHightOffset": -15,
+        "FrontCamberAngle": -30,
+        "RearCamberAngle": -40,
+        "FrontOffset": 80,
+        "RearOffset": 100,
         "FrontTirePulling": 20,
         "RearTirePulling": 20,
-        "MaxHightOffset": 2.5
+        "MaxHightOffset": 2.5,
+        "MinTurningRadius": 5.4,
+        "FrontTireWidthMax": 275,
+        "RearTireWidthMax": 275
       }
     }
   }

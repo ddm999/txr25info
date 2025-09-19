@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::Flat4",
         "EngineFromat": "EEngineFromat::E_FA20",
         "EngineInspiration": "ECarIceAspirationType::Turbo",
-        "displacement": 1998,
+        "Displacement": 1998,
         "MaxPower": 300,
         "MaxPowerRpm": 5600,
         "MaxTorque": 40.8,
@@ -76,13 +76,16 @@
         },
         "FrontHightOffset": -24,
         "RearHightOffset": -24,
-        "FrontCamberAngle": -10,
-        "RearCamberAngle": -10,
-        "FrontOffset": 80,
-        "RearOffset": 65,
+        "FrontCamberAngle": -20,
+        "RearCamberAngle": -20,
+        "FrontOffset": 100,
+        "RearOffset": 100,
         "FrontTirePulling": 30,
         "RearTirePulling": 30,
-        "MaxHightOffset": 2.0
+        "MaxHightOffset": 2.0,
+        "MinTurningRadius": 5.5,
+        "FrontTireWidthMax": 275,
+        "RearTireWidthMax": 275
       }
     }
   }

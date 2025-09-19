@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::Straight4",
         "EngineFromat": "EEngineFromat::E_SR20DET",
         "EngineInspiration": "ECarIceAspirationType::Turbo",
-        "displacement": 1998,
+        "Displacement": 1998,
         "MaxPower": 250,
         "MaxPowerRpm": 6400,
         "MaxTorque": 28.0,
@@ -53,6 +53,7 @@
         "RSuspension": "ERSuspension::MULTI_LINK",
         "Cd": 0.33,
         "Cl": 0.008,
+        "RearDriveRate": 1.0,
         "EngineFormatName": "SR20DET",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -74,7 +75,8 @@
           "SourceString": "SILVIA spec-R AERO (S15) '99",
           "LocalizedString": "SILVIA spec-R AERO (S15) '99"
         },
-        "MaxHightOffset": 2.5
+        "MaxHightOffset": 2.5,
+        "MinTurningRadius": 4.9
       }
     }
   }

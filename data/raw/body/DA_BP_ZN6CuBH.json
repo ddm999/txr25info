@@ -8,7 +8,7 @@
       "CarData": {
         "ID": 83,
         "CarId": "CAR83",
-        "CarNameId": "BLOOD HOUND",
+        "CarNameId": "BLOODHOUND",
         "ModelNameId": "ZN6CuBH",
         "FolderId": "ZN6CuBH",
         "ReleaseDay": 2012,
@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::Straight6",
         "EngineFromat": "EEngineFromat::E_2JZ_GTE",
         "EngineInspiration": "ECarIceAspirationType::Turbo",
-        "displacement": 2997,
+        "Displacement": 2997,
         "MaxPower": 230,
         "MaxPowerRpm": 6000,
         "MaxTorque": 31.0,
@@ -53,6 +53,7 @@
         "RSuspension": "ERSuspension::DOUBLE_WISHBONE",
         "Cd": 0.27,
         "Cl": 0.008,
+        "RearDriveRate": 1.0,
         "EngineFormatName": "2JZ_GTE",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -78,11 +79,14 @@
         "RearHightOffset": -28,
         "FrontCamberAngle": -20,
         "RearCamberAngle": -20,
-        "FrontOffset": 30,
-        "RearOffset": 30,
+        "FrontOffset": 90,
+        "RearOffset": 90,
         "FrontTirePulling": 30,
         "RearTirePulling": 30,
-        "MaxHightOffset": 2.5
+        "MaxHightOffset": 2.5,
+        "MinTurningRadius": 5.4,
+        "FrontTireWidthMax": 245,
+        "RearTireWidthMax": 265
       }
     }
   }

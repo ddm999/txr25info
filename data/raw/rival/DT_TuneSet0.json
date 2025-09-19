@@ -24,7 +24,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Tut_0004": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -39,7 +41,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 75
+        "AddWeight": 75,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Tut_0003": {
         "PowerUnit": "EVehicleTuneLevel::Level1",
@@ -54,7 +58,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Tut_0002": {
         "PowerUnit": "EVehicleTuneLevel::Level7",
@@ -69,7 +75,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Tut_0001": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -84,7 +92,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 100
+        "AddWeight": 100,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0169": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -99,7 +109,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 700
+        "AddWeight": 700,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0168": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -114,7 +126,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 800
+        "AddWeight": 800,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0167": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -129,7 +143,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 300
+        "AddWeight": 300,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0166": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -144,7 +160,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 350
+        "AddWeight": 350,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0165": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -159,7 +177,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 200
+        "AddWeight": 200,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Boss_0012": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -174,7 +194,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 400
+        "AddWeight": 500,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0275": {
         "PowerUnit": "EVehicleTuneLevel::Level1",
@@ -189,7 +211,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0274": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -204,12 +228,14 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0273": {
-        "PowerUnit": "EVehicleTuneLevel::Level1",
-        "IntakeSystem": "EVehicleTuneLevel::Normal",
-        "ExhaustSystem": "EVehicleTuneLevel::Normal",
+        "PowerUnit": "EVehicleTuneLevel::Level2",
+        "IntakeSystem": "EVehicleTuneLevel::Level1",
+        "ExhaustSystem": "EVehicleTuneLevel::Level1",
         "transmission": "EVehicleTuneLevel::Level1",
         "Clutch": "EVehicleTuneLevel::Level1",
         "Suspension": "EVehicleTuneLevel::Level5",
@@ -219,37 +245,43 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0272": {
-        "PowerUnit": "EVehicleTuneLevel::Level1",
-        "IntakeSystem": "EVehicleTuneLevel::Level1",
+        "PowerUnit": "EVehicleTuneLevel::Level3",
+        "IntakeSystem": "EVehicleTuneLevel::Level2",
         "ExhaustSystem": "EVehicleTuneLevel::Level1",
         "transmission": "EVehicleTuneLevel::Normal",
         "Clutch": "EVehicleTuneLevel::Normal",
         "Suspension": "EVehicleTuneLevel::Level1",
         "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Normal",
+        "Body": "EVehicleTuneLevel::Level2",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0271": {
-        "PowerUnit": "EVehicleTuneLevel::Level1",
-        "IntakeSystem": "EVehicleTuneLevel::Level1",
+        "PowerUnit": "EVehicleTuneLevel::Level3",
+        "IntakeSystem": "EVehicleTuneLevel::Level2",
         "ExhaustSystem": "EVehicleTuneLevel::Level1",
         "transmission": "EVehicleTuneLevel::Normal",
         "Clutch": "EVehicleTuneLevel::Normal",
-        "Suspension": "EVehicleTuneLevel::Normal",
+        "Suspension": "EVehicleTuneLevel::Level1",
         "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Level1",
+        "Body": "EVehicleTuneLevel::Level2",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Boss_0030": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -264,7 +296,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 800
+        "AddWeight": 800,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0005": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -279,7 +313,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level2",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0004": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -294,7 +330,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0003": {
         "PowerUnit": "EVehicleTuneLevel::Level2",
@@ -309,7 +347,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0002": {
         "PowerUnit": "EVehicleTuneLevel::Level2",
@@ -324,14 +364,16 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0001": {
-        "PowerUnit": "EVehicleTuneLevel::Level3",
-        "IntakeSystem": "EVehicleTuneLevel::Level2",
-        "ExhaustSystem": "EVehicleTuneLevel::Level2",
+        "PowerUnit": "EVehicleTuneLevel::Level1",
+        "IntakeSystem": "EVehicleTuneLevel::Level1",
+        "ExhaustSystem": "EVehicleTuneLevel::Level1",
         "transmission": "EVehicleTuneLevel::Level1",
-        "Clutch": "EVehicleTuneLevel::Level2",
+        "Clutch": "EVehicleTuneLevel::Level1",
         "Suspension": "EVehicleTuneLevel::Level1",
         "Brake": "EVehicleTuneLevel::Level5",
         "Body": "EVehicleTuneLevel::Level1",
@@ -339,7 +381,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Wan_0012": {
         "PowerUnit": "EVehicleTuneLevel::Level2",
@@ -354,7 +398,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 100,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0225": {
         "PowerUnit": "EVehicleTuneLevel::Level6",
@@ -369,7 +415,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0224": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -384,7 +432,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 1200
+        "AddWeight": 1200,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0223": {
         "PowerUnit": "EVehicleTuneLevel::Level3",
@@ -399,7 +449,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0222": {
         "PowerUnit": "EVehicleTuneLevel::Level5",
@@ -409,12 +461,14 @@
         "Clutch": "EVehicleTuneLevel::Level2",
         "Suspension": "EVehicleTuneLevel::Level2",
         "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Level3",
+        "Body": "EVehicleTuneLevel::Level5",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0221": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -429,7 +483,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 1000
+        "AddWeight": 1000,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0220": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -444,7 +500,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 950
+        "AddWeight": 900,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0019": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -459,7 +517,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 1000
+        "AddWeight": 1000,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0018": {
         "PowerUnit": "EVehicleTuneLevel::Level1",
@@ -474,22 +534,26 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0016": {
-        "PowerUnit": "EVehicleTuneLevel::Level1",
+        "PowerUnit": "EVehicleTuneLevel::Level2",
         "IntakeSystem": "EVehicleTuneLevel::Level1",
-        "ExhaustSystem": "EVehicleTuneLevel::Normal",
-        "transmission": "EVehicleTuneLevel::Normal",
-        "Clutch": "EVehicleTuneLevel::Normal",
+        "ExhaustSystem": "EVehicleTuneLevel::Level1",
+        "transmission": "EVehicleTuneLevel::Level1",
+        "Clutch": "EVehicleTuneLevel::Level1",
         "Suspension": "EVehicleTuneLevel::Level1",
         "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Level1",
+        "Body": "EVehicleTuneLevel::Level2",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0017": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -500,11 +564,13 @@
         "Suspension": "EVehicleTuneLevel::Normal",
         "Brake": "EVehicleTuneLevel::Level5",
         "Body": "EVehicleTuneLevel::Normal",
-        "FrontTire": "EVehicleTuneLevel::Level5",
-        "RearTire": "EVehicleTuneLevel::Level5",
+        "FrontTire": "EVehicleTuneLevel::Level4",
+        "RearTire": "EVehicleTuneLevel::Level4",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 1075
+        "AddWeight": 800,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0026": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -519,7 +585,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level1",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 50
+        "AddWeight": 50,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0025": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -534,7 +602,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 600
+        "AddWeight": 600,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0024": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -549,41 +619,30 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 100
+        "AddWeight": 100,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0023": {
         "PowerUnit": "EVehicleTuneLevel::Level1",
         "IntakeSystem": "EVehicleTuneLevel::Level1",
-        "ExhaustSystem": "EVehicleTuneLevel::Normal",
-        "transmission": "EVehicleTuneLevel::Normal",
-        "Clutch": "EVehicleTuneLevel::Normal",
-        "Suspension": "EVehicleTuneLevel::Normal",
+        "ExhaustSystem": "EVehicleTuneLevel::Level1",
+        "transmission": "EVehicleTuneLevel::Level1",
+        "Clutch": "EVehicleTuneLevel::Level1",
+        "Suspension": "EVehicleTuneLevel::Level1",
         "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Normal",
-        "FrontTire": "EVehicleTuneLevel::Level5",
-        "RearTire": "EVehicleTuneLevel::Level5",
+        "Body": "EVehicleTuneLevel::Level1",
+        "FrontTire": "EVehicleTuneLevel::Level3",
+        "RearTire": "EVehicleTuneLevel::Level3",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0022": {
-        "PowerUnit": "EVehicleTuneLevel::Level1",
-        "IntakeSystem": "EVehicleTuneLevel::Level1",
-        "ExhaustSystem": "EVehicleTuneLevel::Level1",
-        "transmission": "EVehicleTuneLevel::Normal",
-        "Clutch": "EVehicleTuneLevel::Normal",
-        "Suspension": "EVehicleTuneLevel::Normal",
-        "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Normal",
-        "FrontTire": "EVehicleTuneLevel::Level5",
-        "RearTire": "EVehicleTuneLevel::Level5",
-        "LSD": "EVehicleTuneLevel::Normal",
-        "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 1000
-      },
-      "Rival_0021": {
-        "PowerUnit": "EVehicleTuneLevel::Level1",
-        "IntakeSystem": "EVehicleTuneLevel::Level1",
+        "PowerUnit": "EVehicleTuneLevel::Normal",
+        "IntakeSystem": "EVehicleTuneLevel::Normal",
         "ExhaustSystem": "EVehicleTuneLevel::Normal",
         "transmission": "EVehicleTuneLevel::Normal",
         "Clutch": "EVehicleTuneLevel::Normal",
@@ -594,7 +653,26 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 600,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
+      },
+      "Rival_0021": {
+        "PowerUnit": "EVehicleTuneLevel::Level2",
+        "IntakeSystem": "EVehicleTuneLevel::Level1",
+        "ExhaustSystem": "EVehicleTuneLevel::Normal",
+        "transmission": "EVehicleTuneLevel::Normal",
+        "Clutch": "EVehicleTuneLevel::Normal",
+        "Suspension": "EVehicleTuneLevel::Level1",
+        "Brake": "EVehicleTuneLevel::Level5",
+        "Body": "EVehicleTuneLevel::Level1",
+        "FrontTire": "EVehicleTuneLevel::Level5",
+        "RearTire": "EVehicleTuneLevel::Level5",
+        "LSD": "EVehicleTuneLevel::Normal",
+        "Nitro": "EVehicleTuneLevel::Normal",
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0020": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -609,37 +687,43 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 525
+        "AddWeight": 350,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Boss_0001": {
-        "PowerUnit": "EVehicleTuneLevel::Normal",
-        "IntakeSystem": "EVehicleTuneLevel::Normal",
-        "ExhaustSystem": "EVehicleTuneLevel::Normal",
-        "transmission": "EVehicleTuneLevel::Normal",
-        "Clutch": "EVehicleTuneLevel::Normal",
+        "PowerUnit": "EVehicleTuneLevel::Level2",
+        "IntakeSystem": "EVehicleTuneLevel::Level1",
+        "ExhaustSystem": "EVehicleTuneLevel::Level1",
+        "transmission": "EVehicleTuneLevel::Level1",
+        "Clutch": "EVehicleTuneLevel::Level1",
         "Suspension": "EVehicleTuneLevel::Level1",
         "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Level5",
+        "Body": "EVehicleTuneLevel::Level3",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 200
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Boss_0002": {
-        "PowerUnit": "EVehicleTuneLevel::Normal",
-        "IntakeSystem": "EVehicleTuneLevel::Normal",
-        "ExhaustSystem": "EVehicleTuneLevel::Normal",
-        "transmission": "EVehicleTuneLevel::Normal",
-        "Clutch": "EVehicleTuneLevel::Normal",
-        "Suspension": "EVehicleTuneLevel::Normal",
+        "PowerUnit": "EVehicleTuneLevel::Level1",
+        "IntakeSystem": "EVehicleTuneLevel::Level1",
+        "ExhaustSystem": "EVehicleTuneLevel::Level1",
+        "transmission": "EVehicleTuneLevel::Level1",
+        "Clutch": "EVehicleTuneLevel::Level1",
+        "Suspension": "EVehicleTuneLevel::Level1",
         "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Normal",
+        "Body": "EVehicleTuneLevel::Level1",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 100
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0066": {
         "PowerUnit": "EVehicleTuneLevel::Level1",
@@ -654,7 +738,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 100
+        "AddWeight": 100,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0065": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -669,7 +755,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 150
+        "AddWeight": 150,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0064": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -684,7 +772,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 1325
+        "AddWeight": 1325,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0063": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -699,7 +789,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 1350
+        "AddWeight": 1100,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0062": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -714,7 +806,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 900
+        "AddWeight": 450,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0061": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -729,7 +823,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 950
+        "AddWeight": 700,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0232": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -744,7 +840,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 50
+        "AddWeight": 50,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0231": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -759,7 +857,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 800
+        "AddWeight": 800,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0230": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -774,7 +874,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 1100
+        "AddWeight": 1100,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0229": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -789,7 +891,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 950
+        "AddWeight": 700,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0228": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -804,7 +908,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 1000
+        "AddWeight": 350,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0227": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -819,7 +925,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 1250
+        "AddWeight": 700,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0226": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -834,7 +942,9 @@
         "RearTire": "EVehicleTuneLevel::Level1",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 1350
+        "AddWeight": 700,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0124": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -849,7 +959,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 1100
+        "AddWeight": 1100,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0123": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -864,7 +976,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 1450
+        "AddWeight": 1450,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0122": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -879,7 +993,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level2",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 1300
+        "AddWeight": 1300,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0121": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -894,22 +1010,26 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 1450
+        "AddWeight": 1450,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0120": {
-        "PowerUnit": "EVehicleTuneLevel::Normal",
-        "IntakeSystem": "EVehicleTuneLevel::Normal",
-        "ExhaustSystem": "EVehicleTuneLevel::Normal",
-        "transmission": "EVehicleTuneLevel::Normal",
-        "Clutch": "EVehicleTuneLevel::Normal",
-        "Suspension": "EVehicleTuneLevel::Normal",
+        "PowerUnit": "EVehicleTuneLevel::Level2",
+        "IntakeSystem": "EVehicleTuneLevel::Level1",
+        "ExhaustSystem": "EVehicleTuneLevel::Level1",
+        "transmission": "EVehicleTuneLevel::Level1",
+        "Clutch": "EVehicleTuneLevel::Level1",
+        "Suspension": "EVehicleTuneLevel::Level1",
         "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Normal",
+        "Body": "EVehicleTuneLevel::Level1",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0119": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -924,7 +1044,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 1350
+        "AddWeight": 700,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0118": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -939,7 +1061,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 525
+        "AddWeight": 300,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0117": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -954,7 +1078,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 1075
+        "AddWeight": 800,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0116": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -969,7 +1095,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 1250
+        "AddWeight": 700,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Boss_0013": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -984,7 +1112,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 1150
+        "AddWeight": 650,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Boss_0012_intruder": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -999,7 +1129,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 1150
+        "AddWeight": 650,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0287": {
         "PowerUnit": "EVehicleTuneLevel::Level4",
@@ -1014,7 +1146,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0286": {
         "PowerUnit": "EVehicleTuneLevel::Level4",
@@ -1029,7 +1163,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0285": {
         "PowerUnit": "EVehicleTuneLevel::Level4",
@@ -1044,7 +1180,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0284": {
         "PowerUnit": "EVehicleTuneLevel::Level6",
@@ -1054,34 +1192,38 @@
         "Clutch": "EVehicleTuneLevel::Level3",
         "Suspension": "EVehicleTuneLevel::Level1",
         "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Level3",
+        "Body": "EVehicleTuneLevel::Level4",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level2",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0283": {
-        "PowerUnit": "EVehicleTuneLevel::Level1",
-        "IntakeSystem": "EVehicleTuneLevel::Normal",
-        "ExhaustSystem": "EVehicleTuneLevel::Normal",
-        "transmission": "EVehicleTuneLevel::Level1",
-        "Clutch": "EVehicleTuneLevel::Level1",
-        "Suspension": "EVehicleTuneLevel::Level3",
-        "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Level3",
-        "FrontTire": "EVehicleTuneLevel::Level5",
-        "RearTire": "EVehicleTuneLevel::Level5",
-        "LSD": "EVehicleTuneLevel::Normal",
-        "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
-      },
-      "Rival_0282": {
-        "PowerUnit": "EVehicleTuneLevel::Level3",
+        "PowerUnit": "EVehicleTuneLevel::Level2",
         "IntakeSystem": "EVehicleTuneLevel::Level1",
         "ExhaustSystem": "EVehicleTuneLevel::Level1",
         "transmission": "EVehicleTuneLevel::Level1",
         "Clutch": "EVehicleTuneLevel::Level1",
+        "Suspension": "EVehicleTuneLevel::Level3",
+        "Brake": "EVehicleTuneLevel::Level5",
+        "Body": "EVehicleTuneLevel::Level4",
+        "FrontTire": "EVehicleTuneLevel::Level5",
+        "RearTire": "EVehicleTuneLevel::Level5",
+        "LSD": "EVehicleTuneLevel::Normal",
+        "Nitro": "EVehicleTuneLevel::Normal",
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
+      },
+      "Rival_0282": {
+        "PowerUnit": "EVehicleTuneLevel::Level4",
+        "IntakeSystem": "EVehicleTuneLevel::Level2",
+        "ExhaustSystem": "EVehicleTuneLevel::Level2",
+        "transmission": "EVehicleTuneLevel::Normal",
+        "Clutch": "EVehicleTuneLevel::Normal",
         "Suspension": "EVehicleTuneLevel::Level2",
         "Brake": "EVehicleTuneLevel::Level5",
         "Body": "EVehicleTuneLevel::Level1",
@@ -1089,7 +1231,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0313": {
         "PowerUnit": "EVehicleTuneLevel::Level5",
@@ -1104,7 +1248,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0312": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -1119,7 +1265,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 300
+        "AddWeight": 300,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0311": {
         "PowerUnit": "EVehicleTuneLevel::Level2",
@@ -1134,37 +1282,43 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0310": {
-        "PowerUnit": "EVehicleTuneLevel::Level5",
-        "IntakeSystem": "EVehicleTuneLevel::Level3",
-        "ExhaustSystem": "EVehicleTuneLevel::Level3",
-        "transmission": "EVehicleTuneLevel::Level2",
+        "PowerUnit": "EVehicleTuneLevel::Level6",
+        "IntakeSystem": "EVehicleTuneLevel::Level4",
+        "ExhaustSystem": "EVehicleTuneLevel::Level4",
+        "transmission": "EVehicleTuneLevel::Level4",
         "Clutch": "EVehicleTuneLevel::Level4",
         "Suspension": "EVehicleTuneLevel::Level1",
         "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Level2",
+        "Body": "EVehicleTuneLevel::Level3",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0309": {
-        "PowerUnit": "EVehicleTuneLevel::Level1",
-        "IntakeSystem": "EVehicleTuneLevel::Level1",
+        "PowerUnit": "EVehicleTuneLevel::Level2",
+        "IntakeSystem": "EVehicleTuneLevel::Level2",
         "ExhaustSystem": "EVehicleTuneLevel::Level1",
-        "transmission": "EVehicleTuneLevel::Normal",
+        "transmission": "EVehicleTuneLevel::Level1",
         "Clutch": "EVehicleTuneLevel::Normal",
         "Suspension": "EVehicleTuneLevel::Level1",
         "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Normal",
+        "Body": "EVehicleTuneLevel::Level1",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0308": {
         "PowerUnit": "EVehicleTuneLevel::Level2",
@@ -1179,22 +1333,26 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 500
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0307": {
-        "PowerUnit": "EVehicleTuneLevel::Level2",
-        "IntakeSystem": "EVehicleTuneLevel::Level2",
-        "ExhaustSystem": "EVehicleTuneLevel::Level2",
-        "transmission": "EVehicleTuneLevel::Level3",
+        "PowerUnit": "EVehicleTuneLevel::Level1",
+        "IntakeSystem": "EVehicleTuneLevel::Level1",
+        "ExhaustSystem": "EVehicleTuneLevel::Level1",
+        "transmission": "EVehicleTuneLevel::Level1",
         "Clutch": "EVehicleTuneLevel::Level1",
         "Suspension": "EVehicleTuneLevel::Level2",
         "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Level3",
+        "Body": "EVehicleTuneLevel::Level1",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 400
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0281": {
         "PowerUnit": "EVehicleTuneLevel::Level4",
@@ -1209,7 +1367,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level2",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0280": {
         "PowerUnit": "EVehicleTuneLevel::Level4",
@@ -1224,7 +1384,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level2",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0279": {
         "PowerUnit": "EVehicleTuneLevel::Level1",
@@ -1239,14 +1401,16 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0278": {
-        "PowerUnit": "EVehicleTuneLevel::Level2",
-        "IntakeSystem": "EVehicleTuneLevel::Level1",
-        "ExhaustSystem": "EVehicleTuneLevel::Level1",
-        "transmission": "EVehicleTuneLevel::Normal",
-        "Clutch": "EVehicleTuneLevel::Normal",
+        "PowerUnit": "EVehicleTuneLevel::Level4",
+        "IntakeSystem": "EVehicleTuneLevel::Level2",
+        "ExhaustSystem": "EVehicleTuneLevel::Level2",
+        "transmission": "EVehicleTuneLevel::Level1",
+        "Clutch": "EVehicleTuneLevel::Level1",
         "Suspension": "EVehicleTuneLevel::Level3",
         "Brake": "EVehicleTuneLevel::Level5",
         "Body": "EVehicleTuneLevel::Normal",
@@ -1254,14 +1418,16 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0277": {
-        "PowerUnit": "EVehicleTuneLevel::Level2",
-        "IntakeSystem": "EVehicleTuneLevel::Level1",
-        "ExhaustSystem": "EVehicleTuneLevel::Level1",
-        "transmission": "EVehicleTuneLevel::Normal",
-        "Clutch": "EVehicleTuneLevel::Normal",
+        "PowerUnit": "EVehicleTuneLevel::Level4",
+        "IntakeSystem": "EVehicleTuneLevel::Level2",
+        "ExhaustSystem": "EVehicleTuneLevel::Level2",
+        "transmission": "EVehicleTuneLevel::Level1",
+        "Clutch": "EVehicleTuneLevel::Level1",
         "Suspension": "EVehicleTuneLevel::Level2",
         "Brake": "EVehicleTuneLevel::Level5",
         "Body": "EVehicleTuneLevel::Normal",
@@ -1269,22 +1435,26 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0276": {
-        "PowerUnit": "EVehicleTuneLevel::Level1",
+        "PowerUnit": "EVehicleTuneLevel::Level2",
         "IntakeSystem": "EVehicleTuneLevel::Level1",
         "ExhaustSystem": "EVehicleTuneLevel::Level1",
-        "transmission": "EVehicleTuneLevel::Level1",
+        "transmission": "EVehicleTuneLevel::Normal",
         "Clutch": "EVehicleTuneLevel::Normal",
-        "Suspension": "EVehicleTuneLevel::Normal",
+        "Suspension": "EVehicleTuneLevel::Level1",
         "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Normal",
+        "Body": "EVehicleTuneLevel::Level1",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Boss_0021": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -1299,13 +1469,15 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 375
+        "AddWeight": 250,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Boss_0022": {
         "PowerUnit": "EVehicleTuneLevel::Level3",
-        "IntakeSystem": "EVehicleTuneLevel::Normal",
-        "ExhaustSystem": "EVehicleTuneLevel::Normal",
-        "transmission": "EVehicleTuneLevel::Normal",
+        "IntakeSystem": "EVehicleTuneLevel::Level2",
+        "ExhaustSystem": "EVehicleTuneLevel::Level1",
+        "transmission": "EVehicleTuneLevel::Level1",
         "Clutch": "EVehicleTuneLevel::Level1",
         "Suspension": "EVehicleTuneLevel::Level2",
         "Brake": "EVehicleTuneLevel::Level5",
@@ -1314,7 +1486,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 75
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0150": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -1329,7 +1503,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 800
+        "AddWeight": 800,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0154": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -1337,14 +1513,16 @@
         "ExhaustSystem": "EVehicleTuneLevel::Normal",
         "transmission": "EVehicleTuneLevel::Normal",
         "Clutch": "EVehicleTuneLevel::Normal",
-        "Suspension": "EVehicleTuneLevel::Normal",
+        "Suspension": "EVehicleTuneLevel::Level1",
         "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Normal",
+        "Body": "EVehicleTuneLevel::Level1",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 450
+        "AddWeight": 360,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0153": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -1352,14 +1530,16 @@
         "ExhaustSystem": "EVehicleTuneLevel::Normal",
         "transmission": "EVehicleTuneLevel::Normal",
         "Clutch": "EVehicleTuneLevel::Normal",
-        "Suspension": "EVehicleTuneLevel::Normal",
+        "Suspension": "EVehicleTuneLevel::Level1",
         "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Normal",
+        "Body": "EVehicleTuneLevel::Level1",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 425
+        "AddWeight": 355,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0152": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -1374,22 +1554,26 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 350
+        "AddWeight": 350,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0151": {
-        "PowerUnit": "EVehicleTuneLevel::Level3",
-        "IntakeSystem": "EVehicleTuneLevel::Level2",
-        "ExhaustSystem": "EVehicleTuneLevel::Level2",
-        "transmission": "EVehicleTuneLevel::Level5",
-        "Clutch": "EVehicleTuneLevel::Level5",
+        "PowerUnit": "EVehicleTuneLevel::Level1",
+        "IntakeSystem": "EVehicleTuneLevel::Level1",
+        "ExhaustSystem": "EVehicleTuneLevel::Level1",
+        "transmission": "EVehicleTuneLevel::Level1",
+        "Clutch": "EVehicleTuneLevel::Normal",
         "Suspension": "EVehicleTuneLevel::Level1",
         "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Level2",
+        "Body": "EVehicleTuneLevel::Normal",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level1",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0014": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -1404,7 +1588,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 100
+        "AddWeight": 100,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0015": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -1419,27 +1605,14 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 50
+        "AddWeight": 50,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0013": {
-        "PowerUnit": "EVehicleTuneLevel::Level4",
-        "IntakeSystem": "EVehicleTuneLevel::Level3",
-        "ExhaustSystem": "EVehicleTuneLevel::Level3",
-        "transmission": "EVehicleTuneLevel::Level3",
-        "Clutch": "EVehicleTuneLevel::Level3",
-        "Suspension": "EVehicleTuneLevel::Level2",
-        "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Level4",
-        "FrontTire": "EVehicleTuneLevel::Level5",
-        "RearTire": "EVehicleTuneLevel::Level5",
-        "LSD": "EVehicleTuneLevel::Normal",
-        "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
-      },
-      "Rival_0029": {
-        "PowerUnit": "EVehicleTuneLevel::Level1",
-        "IntakeSystem": "EVehicleTuneLevel::Level1",
-        "ExhaustSystem": "EVehicleTuneLevel::Level1",
+        "PowerUnit": "EVehicleTuneLevel::Normal",
+        "IntakeSystem": "EVehicleTuneLevel::Normal",
+        "ExhaustSystem": "EVehicleTuneLevel::Normal",
         "transmission": "EVehicleTuneLevel::Normal",
         "Clutch": "EVehicleTuneLevel::Normal",
         "Suspension": "EVehicleTuneLevel::Normal",
@@ -1449,7 +1622,26 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 150,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
+      },
+      "Rival_0029": {
+        "PowerUnit": "EVehicleTuneLevel::Level2",
+        "IntakeSystem": "EVehicleTuneLevel::Level2",
+        "ExhaustSystem": "EVehicleTuneLevel::Level2",
+        "transmission": "EVehicleTuneLevel::Level2",
+        "Clutch": "EVehicleTuneLevel::Level2",
+        "Suspension": "EVehicleTuneLevel::Normal",
+        "Brake": "EVehicleTuneLevel::Level5",
+        "Body": "EVehicleTuneLevel::Level1",
+        "FrontTire": "EVehicleTuneLevel::Level5",
+        "RearTire": "EVehicleTuneLevel::Level5",
+        "LSD": "EVehicleTuneLevel::Normal",
+        "Nitro": "EVehicleTuneLevel::Normal",
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0028": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -1464,22 +1656,26 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level1",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 165
+        "AddWeight": 165,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0027": {
-        "PowerUnit": "EVehicleTuneLevel::Level2",
+        "PowerUnit": "EVehicleTuneLevel::Level1",
         "IntakeSystem": "EVehicleTuneLevel::Level1",
         "ExhaustSystem": "EVehicleTuneLevel::Level1",
-        "transmission": "EVehicleTuneLevel::Level2",
-        "Clutch": "EVehicleTuneLevel::Level2",
+        "transmission": "EVehicleTuneLevel::Normal",
+        "Clutch": "EVehicleTuneLevel::Normal",
         "Suspension": "EVehicleTuneLevel::Level1",
         "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Level4",
+        "Body": "EVehicleTuneLevel::Level1",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0068": {
         "PowerUnit": "EVehicleTuneLevel::Level2",
@@ -1494,14 +1690,16 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0067": {
         "PowerUnit": "EVehicleTuneLevel::Level3",
-        "IntakeSystem": "EVehicleTuneLevel::Level2",
-        "ExhaustSystem": "EVehicleTuneLevel::Level2",
-        "transmission": "EVehicleTuneLevel::Level3",
-        "Clutch": "EVehicleTuneLevel::Level3",
+        "IntakeSystem": "EVehicleTuneLevel::Level1",
+        "ExhaustSystem": "EVehicleTuneLevel::Level1",
+        "transmission": "EVehicleTuneLevel::Level1",
+        "Clutch": "EVehicleTuneLevel::Level1",
         "Suspension": "EVehicleTuneLevel::Level3",
         "Brake": "EVehicleTuneLevel::Level5",
         "Body": "EVehicleTuneLevel::Level2",
@@ -1509,7 +1707,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level2",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0085": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -1522,9 +1722,11 @@
         "Body": "EVehicleTuneLevel::Normal",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
-        "LSD": "EVehicleTuneLevel::Normal",
+        "LSD": "EVehicleTuneLevel::Level2",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 650
+        "AddWeight": 270,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0084": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -1537,9 +1739,11 @@
         "Body": "EVehicleTuneLevel::Normal",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
-        "LSD": "EVehicleTuneLevel::Normal",
+        "LSD": "EVehicleTuneLevel::Level2",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 500
+        "AddWeight": 260,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0083": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -1554,7 +1758,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 650
+        "AddWeight": 650,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0082": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -1569,7 +1775,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level2",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 250
+        "AddWeight": 250,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0081": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -1584,7 +1792,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 150
+        "AddWeight": 150,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0080": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -1599,29 +1809,33 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 250
+        "AddWeight": 250,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0173": {
-        "PowerUnit": "EVehicleTuneLevel::Normal",
-        "IntakeSystem": "EVehicleTuneLevel::Normal",
-        "ExhaustSystem": "EVehicleTuneLevel::Normal",
-        "transmission": "EVehicleTuneLevel::Normal",
-        "Clutch": "EVehicleTuneLevel::Normal",
-        "Suspension": "EVehicleTuneLevel::Normal",
+        "PowerUnit": "EVehicleTuneLevel::Level2",
+        "IntakeSystem": "EVehicleTuneLevel::Level1",
+        "ExhaustSystem": "EVehicleTuneLevel::Level1",
+        "transmission": "EVehicleTuneLevel::Level1",
+        "Clutch": "EVehicleTuneLevel::Level1",
+        "Suspension": "EVehicleTuneLevel::Level1",
         "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Normal",
+        "Body": "EVehicleTuneLevel::Level1",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 100
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0172": {
-        "PowerUnit": "EVehicleTuneLevel::Level2",
-        "IntakeSystem": "EVehicleTuneLevel::Level1",
-        "ExhaustSystem": "EVehicleTuneLevel::Normal",
-        "transmission": "EVehicleTuneLevel::Normal",
-        "Clutch": "EVehicleTuneLevel::Normal",
+        "PowerUnit": "EVehicleTuneLevel::Level3",
+        "IntakeSystem": "EVehicleTuneLevel::Level2",
+        "ExhaustSystem": "EVehicleTuneLevel::Level2",
+        "transmission": "EVehicleTuneLevel::Level1",
+        "Clutch": "EVehicleTuneLevel::Level1",
         "Suspension": "EVehicleTuneLevel::Level2",
         "Brake": "EVehicleTuneLevel::Level5",
         "Body": "EVehicleTuneLevel::Level1",
@@ -1629,14 +1843,16 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0171": {
-        "PowerUnit": "EVehicleTuneLevel::Level2",
-        "IntakeSystem": "EVehicleTuneLevel::Level1",
-        "ExhaustSystem": "EVehicleTuneLevel::Level1",
-        "transmission": "EVehicleTuneLevel::Normal",
-        "Clutch": "EVehicleTuneLevel::Normal",
+        "PowerUnit": "EVehicleTuneLevel::Level3",
+        "IntakeSystem": "EVehicleTuneLevel::Level2",
+        "ExhaustSystem": "EVehicleTuneLevel::Level2",
+        "transmission": "EVehicleTuneLevel::Level1",
+        "Clutch": "EVehicleTuneLevel::Level1",
         "Suspension": "EVehicleTuneLevel::Level3",
         "Brake": "EVehicleTuneLevel::Level5",
         "Body": "EVehicleTuneLevel::Level1",
@@ -1644,10 +1860,12 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0170": {
-        "PowerUnit": "EVehicleTuneLevel::Level4",
+        "PowerUnit": "EVehicleTuneLevel::Level3",
         "IntakeSystem": "EVehicleTuneLevel::Level2",
         "ExhaustSystem": "EVehicleTuneLevel::Level1",
         "transmission": "EVehicleTuneLevel::Level1",
@@ -1659,7 +1877,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level1",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0092": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -1674,7 +1894,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 350
+        "AddWeight": 115,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0097": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -1689,7 +1911,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 250
+        "AddWeight": 110,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0096": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -1704,7 +1928,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 200
+        "AddWeight": 105,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0095": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -1719,22 +1945,26 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 100
+        "AddWeight": 100,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0094": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
         "IntakeSystem": "EVehicleTuneLevel::Normal",
         "ExhaustSystem": "EVehicleTuneLevel::Normal",
-        "transmission": "EVehicleTuneLevel::Level2",
-        "Clutch": "EVehicleTuneLevel::Level2",
+        "transmission": "EVehicleTuneLevel::Normal",
+        "Clutch": "EVehicleTuneLevel::Normal",
         "Suspension": "EVehicleTuneLevel::Level1",
         "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Level1",
+        "Body": "EVehicleTuneLevel::Normal",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 70,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0093": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -1749,7 +1979,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 150
+        "AddWeight": 350,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0102": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -1764,7 +1996,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 600
+        "AddWeight": 260,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0101": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -1779,7 +2013,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 750
+        "AddWeight": 750,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0100": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -1794,7 +2030,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 450
+        "AddWeight": 250,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0099": {
         "PowerUnit": "EVehicleTuneLevel::Level1",
@@ -1809,7 +2047,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0098": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -1824,7 +2064,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 100
+        "AddWeight": 100,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Boss_0006": {
         "PowerUnit": "EVehicleTuneLevel::Level2",
@@ -1839,22 +2081,26 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 100,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Boss_0003_n01": {
-        "PowerUnit": "EVehicleTuneLevel::Level6",
-        "IntakeSystem": "EVehicleTuneLevel::Level4",
+        "PowerUnit": "EVehicleTuneLevel::Level3",
+        "IntakeSystem": "EVehicleTuneLevel::Level3",
         "ExhaustSystem": "EVehicleTuneLevel::Level3",
         "transmission": "EVehicleTuneLevel::Level3",
         "Clutch": "EVehicleTuneLevel::Level3",
         "Suspension": "EVehicleTuneLevel::Level3",
         "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Level3",
+        "Body": "EVehicleTuneLevel::Level1",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Boss_0003": {
         "PowerUnit": "EVehicleTuneLevel::Level8",
@@ -1869,29 +2115,16 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0164": {
         "PowerUnit": "EVehicleTuneLevel::Level4",
         "IntakeSystem": "EVehicleTuneLevel::Level3",
-        "ExhaustSystem": "EVehicleTuneLevel::Level2",
-        "transmission": "EVehicleTuneLevel::Level3",
+        "ExhaustSystem": "EVehicleTuneLevel::Level3",
+        "transmission": "EVehicleTuneLevel::Level2",
         "Clutch": "EVehicleTuneLevel::Level2",
-        "Suspension": "EVehicleTuneLevel::Level3",
-        "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Level2",
-        "FrontTire": "EVehicleTuneLevel::Level5",
-        "RearTire": "EVehicleTuneLevel::Level5",
-        "LSD": "EVehicleTuneLevel::Level1",
-        "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
-      },
-      "Rival_0163": {
-        "PowerUnit": "EVehicleTuneLevel::Level4",
-        "IntakeSystem": "EVehicleTuneLevel::Level3",
-        "ExhaustSystem": "EVehicleTuneLevel::Level2",
-        "transmission": "EVehicleTuneLevel::Level1",
-        "Clutch": "EVehicleTuneLevel::Level1",
         "Suspension": "EVehicleTuneLevel::Level3",
         "Brake": "EVehicleTuneLevel::Level5",
         "Body": "EVehicleTuneLevel::Level3",
@@ -1899,22 +2132,43 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level1",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 40,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
-      "Rival_0162": {
-        "PowerUnit": "EVehicleTuneLevel::Level2",
-        "IntakeSystem": "EVehicleTuneLevel::Level2",
-        "ExhaustSystem": "EVehicleTuneLevel::Level2",
-        "transmission": "EVehicleTuneLevel::Level5",
-        "Clutch": "EVehicleTuneLevel::Level5",
-        "Suspension": "EVehicleTuneLevel::Level1",
+      "Rival_0163": {
+        "PowerUnit": "EVehicleTuneLevel::Level4",
+        "IntakeSystem": "EVehicleTuneLevel::Level3",
+        "ExhaustSystem": "EVehicleTuneLevel::Level3",
+        "transmission": "EVehicleTuneLevel::Level2",
+        "Clutch": "EVehicleTuneLevel::Level2",
+        "Suspension": "EVehicleTuneLevel::Level3",
         "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Level4",
+        "Body": "EVehicleTuneLevel::Level3",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level1",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 30,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
+      },
+      "Rival_0162": {
+        "PowerUnit": "EVehicleTuneLevel::Level4",
+        "IntakeSystem": "EVehicleTuneLevel::Level3",
+        "ExhaustSystem": "EVehicleTuneLevel::Level3",
+        "transmission": "EVehicleTuneLevel::Level2",
+        "Clutch": "EVehicleTuneLevel::Level2",
+        "Suspension": "EVehicleTuneLevel::Level3",
+        "Brake": "EVehicleTuneLevel::Level5",
+        "Body": "EVehicleTuneLevel::Level3",
+        "FrontTire": "EVehicleTuneLevel::Level5",
+        "RearTire": "EVehicleTuneLevel::Level5",
+        "LSD": "EVehicleTuneLevel::Level1",
+        "Nitro": "EVehicleTuneLevel::Normal",
+        "AddWeight": 25,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0161": {
         "PowerUnit": "EVehicleTuneLevel::Level4",
@@ -1924,27 +2178,31 @@
         "Clutch": "EVehicleTuneLevel::Level3",
         "Suspension": "EVehicleTuneLevel::Level2",
         "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Level4",
+        "Body": "EVehicleTuneLevel::Level3",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level1",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 20,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0160": {
-        "PowerUnit": "EVehicleTuneLevel::Level8",
-        "IntakeSystem": "EVehicleTuneLevel::Level5",
-        "ExhaustSystem": "EVehicleTuneLevel::Level5",
-        "transmission": "EVehicleTuneLevel::Level5",
-        "Clutch": "EVehicleTuneLevel::Level5",
+        "PowerUnit": "EVehicleTuneLevel::Level5",
+        "IntakeSystem": "EVehicleTuneLevel::Level3",
+        "ExhaustSystem": "EVehicleTuneLevel::Level2",
+        "transmission": "EVehicleTuneLevel::Level2",
+        "Clutch": "EVehicleTuneLevel::Level2",
         "Suspension": "EVehicleTuneLevel::Level5",
         "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Level5",
+        "Body": "EVehicleTuneLevel::Level3",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 200
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0036": {
         "PowerUnit": "EVehicleTuneLevel::Level3",
@@ -1959,7 +2217,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0035": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -1974,7 +2234,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level1",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 150
+        "AddWeight": 150,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0034": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -1989,7 +2251,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 450
+        "AddWeight": 300,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0033": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -2004,7 +2268,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 425
+        "AddWeight": 270,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0032": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -2019,7 +2285,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 300
+        "AddWeight": 250,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0031": {
         "PowerUnit": "EVehicleTuneLevel::Level3",
@@ -2034,7 +2302,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level1",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0030": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -2049,9 +2319,28 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 150
+        "AddWeight": 225,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0091": {
+        "PowerUnit": "EVehicleTuneLevel::Level3",
+        "IntakeSystem": "EVehicleTuneLevel::Level2",
+        "ExhaustSystem": "EVehicleTuneLevel::Level2",
+        "transmission": "EVehicleTuneLevel::Level3",
+        "Clutch": "EVehicleTuneLevel::Level3",
+        "Suspension": "EVehicleTuneLevel::Level1",
+        "Brake": "EVehicleTuneLevel::Level5",
+        "Body": "EVehicleTuneLevel::Level2",
+        "FrontTire": "EVehicleTuneLevel::Level5",
+        "RearTire": "EVehicleTuneLevel::Level5",
+        "LSD": "EVehicleTuneLevel::Normal",
+        "Nitro": "EVehicleTuneLevel::Normal",
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
+      },
+      "Rival_0090": {
         "PowerUnit": "EVehicleTuneLevel::Level2",
         "IntakeSystem": "EVehicleTuneLevel::Level2",
         "ExhaustSystem": "EVehicleTuneLevel::Level2",
@@ -2064,22 +2353,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
-      },
-      "Rival_0090": {
-        "PowerUnit": "EVehicleTuneLevel::Normal",
-        "IntakeSystem": "EVehicleTuneLevel::Normal",
-        "ExhaustSystem": "EVehicleTuneLevel::Normal",
-        "transmission": "EVehicleTuneLevel::Normal",
-        "Clutch": "EVehicleTuneLevel::Normal",
-        "Suspension": "EVehicleTuneLevel::Level1",
-        "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Normal",
-        "FrontTire": "EVehicleTuneLevel::Level5",
-        "RearTire": "EVehicleTuneLevel::Level5",
-        "LSD": "EVehicleTuneLevel::Normal",
-        "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0089": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -2094,7 +2370,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level1",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 700
+        "AddWeight": 700,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0088": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -2109,7 +2387,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level1",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 125
+        "AddWeight": 50,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0087": {
         "PowerUnit": "EVehicleTuneLevel::Level4",
@@ -2124,7 +2404,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0086": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -2139,7 +2421,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0246": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -2154,7 +2438,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 250
+        "AddWeight": 250,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0245": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -2169,7 +2455,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 700
+        "AddWeight": 700,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0244": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -2184,7 +2472,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 200
+        "AddWeight": 200,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0243": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -2199,7 +2489,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 50
+        "AddWeight": 50,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0242": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -2214,7 +2506,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 59
+        "AddWeight": 59,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0241": {
         "PowerUnit": "EVehicleTuneLevel::Level1",
@@ -2229,7 +2523,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 50,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0239": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -2244,37 +2540,43 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 50
+        "AddWeight": 250,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Boss_0014": {
-        "PowerUnit": "EVehicleTuneLevel::Level3",
-        "IntakeSystem": "EVehicleTuneLevel::Level2",
-        "ExhaustSystem": "EVehicleTuneLevel::Level2",
-        "transmission": "EVehicleTuneLevel::Level3",
-        "Clutch": "EVehicleTuneLevel::Level3",
-        "Suspension": "EVehicleTuneLevel::Level5",
+        "PowerUnit": "EVehicleTuneLevel::Level2",
+        "IntakeSystem": "EVehicleTuneLevel::Level1",
+        "ExhaustSystem": "EVehicleTuneLevel::Level1",
+        "transmission": "EVehicleTuneLevel::Level1",
+        "Clutch": "EVehicleTuneLevel::Level1",
+        "Suspension": "EVehicleTuneLevel::Level1",
         "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Level3",
+        "Body": "EVehicleTuneLevel::Level1",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level2",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 150,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Boss_0015": {
         "PowerUnit": "EVehicleTuneLevel::Level2",
         "IntakeSystem": "EVehicleTuneLevel::Level2",
-        "ExhaustSystem": "EVehicleTuneLevel::Level1",
+        "ExhaustSystem": "EVehicleTuneLevel::Level2",
         "transmission": "EVehicleTuneLevel::Level1",
         "Clutch": "EVehicleTuneLevel::Level1",
-        "Suspension": "EVehicleTuneLevel::Level5",
-        "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Level5",
+        "Suspension": "EVehicleTuneLevel::Level1",
+        "Brake": "EVehicleTuneLevel::Level1",
+        "Body": "EVehicleTuneLevel::Level1",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0306": {
         "PowerUnit": "EVehicleTuneLevel::Level4",
@@ -2289,7 +2591,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0305": {
         "PowerUnit": "EVehicleTuneLevel::Level6",
@@ -2304,7 +2608,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0304": {
         "PowerUnit": "EVehicleTuneLevel::Level3",
@@ -2319,7 +2625,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level1",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0303": {
         "PowerUnit": "EVehicleTuneLevel::Level1",
@@ -2334,7 +2642,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0302": {
         "PowerUnit": "EVehicleTuneLevel::Level4",
@@ -2349,7 +2659,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level2",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 150,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0301": {
         "PowerUnit": "EVehicleTuneLevel::Level3",
@@ -2364,22 +2676,26 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 100,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0300": {
-        "PowerUnit": "EVehicleTuneLevel::Level5",
-        "IntakeSystem": "EVehicleTuneLevel::Level4",
-        "ExhaustSystem": "EVehicleTuneLevel::Level4",
-        "transmission": "EVehicleTuneLevel::Level5",
-        "Clutch": "EVehicleTuneLevel::Level5",
+        "PowerUnit": "EVehicleTuneLevel::Level3",
+        "IntakeSystem": "EVehicleTuneLevel::Level3",
+        "ExhaustSystem": "EVehicleTuneLevel::Level3",
+        "transmission": "EVehicleTuneLevel::Level3",
+        "Clutch": "EVehicleTuneLevel::Level3",
         "Suspension": "EVehicleTuneLevel::Level3",
         "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Level3",
+        "Body": "EVehicleTuneLevel::Level2",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 25,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0078": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -2394,7 +2710,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 600
+        "AddWeight": 150,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0077": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -2409,7 +2727,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 600
+        "AddWeight": 250,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0079": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -2424,22 +2744,26 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 500
+        "AddWeight": 200,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0076": {
-        "PowerUnit": "EVehicleTuneLevel::Normal",
-        "IntakeSystem": "EVehicleTuneLevel::Normal",
-        "ExhaustSystem": "EVehicleTuneLevel::Normal",
-        "transmission": "EVehicleTuneLevel::Normal",
-        "Clutch": "EVehicleTuneLevel::Normal",
+        "PowerUnit": "EVehicleTuneLevel::Level1",
+        "IntakeSystem": "EVehicleTuneLevel::Level1",
+        "ExhaustSystem": "EVehicleTuneLevel::Level1",
+        "transmission": "EVehicleTuneLevel::Level1",
+        "Clutch": "EVehicleTuneLevel::Level1",
         "Suspension": "EVehicleTuneLevel::Level1",
         "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Normal",
+        "Body": "EVehicleTuneLevel::Level1",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 275
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0075": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -2454,7 +2778,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 200
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0074": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -2462,14 +2788,16 @@
         "ExhaustSystem": "EVehicleTuneLevel::Normal",
         "transmission": "EVehicleTuneLevel::Normal",
         "Clutch": "EVehicleTuneLevel::Normal",
-        "Suspension": "EVehicleTuneLevel::Normal",
+        "Suspension": "EVehicleTuneLevel::Level2",
         "Brake": "EVehicleTuneLevel::Level5",
         "Body": "EVehicleTuneLevel::Normal",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 400
+        "AddWeight": 300,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0073": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -2484,14 +2812,16 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 300
+        "AddWeight": 220,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0072": {
-        "PowerUnit": "EVehicleTuneLevel::Level1",
+        "PowerUnit": "EVehicleTuneLevel::Level2",
         "IntakeSystem": "EVehicleTuneLevel::Level1",
-        "ExhaustSystem": "EVehicleTuneLevel::Normal",
-        "transmission": "EVehicleTuneLevel::Normal",
-        "Clutch": "EVehicleTuneLevel::Normal",
+        "ExhaustSystem": "EVehicleTuneLevel::Level1",
+        "transmission": "EVehicleTuneLevel::Level1",
+        "Clutch": "EVehicleTuneLevel::Level1",
         "Suspension": "EVehicleTuneLevel::Level2",
         "Brake": "EVehicleTuneLevel::Level5",
         "Body": "EVehicleTuneLevel::Normal",
@@ -2499,7 +2829,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0071": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -2514,7 +2846,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 100
+        "AddWeight": 175,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0070": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -2522,14 +2856,16 @@
         "ExhaustSystem": "EVehicleTuneLevel::Normal",
         "transmission": "EVehicleTuneLevel::Normal",
         "Clutch": "EVehicleTuneLevel::Normal",
-        "Suspension": "EVehicleTuneLevel::Level1",
+        "Suspension": "EVehicleTuneLevel::Normal",
         "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Level5",
+        "Body": "EVehicleTuneLevel::Normal",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 500
+        "AddWeight": 350,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0069": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -2544,7 +2880,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 500
+        "AddWeight": 500,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0060": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -2559,7 +2897,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 350
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0059": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -2574,7 +2914,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 1000
+        "AddWeight": 50,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 0.8
       },
       "Rival_0058": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -2589,7 +2931,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 750
+        "AddWeight": 750,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0057": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -2604,7 +2948,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 450
+        "AddWeight": 250,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0056": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -2619,7 +2965,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 400
+        "AddWeight": 100,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0055": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -2634,7 +2982,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 300
+        "AddWeight": 150,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0054": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -2649,7 +2999,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 350
+        "AddWeight": 350,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0053": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -2664,82 +3016,94 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level2",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 300
+        "AddWeight": 350,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0293": {
         "PowerUnit": "EVehicleTuneLevel::Level2",
-        "IntakeSystem": "EVehicleTuneLevel::Level1",
-        "ExhaustSystem": "EVehicleTuneLevel::Level1",
-        "transmission": "EVehicleTuneLevel::Level1",
-        "Clutch": "EVehicleTuneLevel::Level1",
-        "Suspension": "EVehicleTuneLevel::Level1",
+        "IntakeSystem": "EVehicleTuneLevel::Level2",
+        "ExhaustSystem": "EVehicleTuneLevel::Level2",
+        "transmission": "EVehicleTuneLevel::Level2",
+        "Clutch": "EVehicleTuneLevel::Level2",
+        "Suspension": "EVehicleTuneLevel::Level2",
         "Brake": "EVehicleTuneLevel::Level5",
         "Body": "EVehicleTuneLevel::Level5",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
-        "LSD": "EVehicleTuneLevel::Normal",
+        "LSD": "EVehicleTuneLevel::Level1",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 100
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0292": {
         "PowerUnit": "EVehicleTuneLevel::Level2",
-        "IntakeSystem": "EVehicleTuneLevel::Level1",
-        "ExhaustSystem": "EVehicleTuneLevel::Level1",
-        "transmission": "EVehicleTuneLevel::Level1",
-        "Clutch": "EVehicleTuneLevel::Level1",
-        "Suspension": "EVehicleTuneLevel::Level1",
+        "IntakeSystem": "EVehicleTuneLevel::Level2",
+        "ExhaustSystem": "EVehicleTuneLevel::Level2",
+        "transmission": "EVehicleTuneLevel::Level2",
+        "Clutch": "EVehicleTuneLevel::Level2",
+        "Suspension": "EVehicleTuneLevel::Level2",
         "Brake": "EVehicleTuneLevel::Level5",
         "Body": "EVehicleTuneLevel::Level5",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
-        "LSD": "EVehicleTuneLevel::Level3",
+        "LSD": "EVehicleTuneLevel::Level1",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0291": {
-        "PowerUnit": "EVehicleTuneLevel::Level2",
-        "IntakeSystem": "EVehicleTuneLevel::Level2",
-        "ExhaustSystem": "EVehicleTuneLevel::Level2",
+        "PowerUnit": "EVehicleTuneLevel::Level6",
+        "IntakeSystem": "EVehicleTuneLevel::Level4",
+        "ExhaustSystem": "EVehicleTuneLevel::Level4",
         "transmission": "EVehicleTuneLevel::Level4",
         "Clutch": "EVehicleTuneLevel::Level4",
-        "Suspension": "EVehicleTuneLevel::Level1",
+        "Suspension": "EVehicleTuneLevel::Level3",
         "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Level1",
+        "Body": "EVehicleTuneLevel::Level4",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0290": {
-        "PowerUnit": "EVehicleTuneLevel::Level2",
-        "IntakeSystem": "EVehicleTuneLevel::Level2",
-        "ExhaustSystem": "EVehicleTuneLevel::Level2",
+        "PowerUnit": "EVehicleTuneLevel::Level6",
+        "IntakeSystem": "EVehicleTuneLevel::Level4",
+        "ExhaustSystem": "EVehicleTuneLevel::Level4",
         "transmission": "EVehicleTuneLevel::Level4",
-        "Clutch": "EVehicleTuneLevel::Level3",
-        "Suspension": "EVehicleTuneLevel::Level2",
+        "Clutch": "EVehicleTuneLevel::Level4",
+        "Suspension": "EVehicleTuneLevel::Level3",
         "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Level2",
+        "Body": "EVehicleTuneLevel::Level4",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0289": {
         "PowerUnit": "EVehicleTuneLevel::Level2",
-        "IntakeSystem": "EVehicleTuneLevel::Level1",
-        "ExhaustSystem": "EVehicleTuneLevel::Level1",
+        "IntakeSystem": "EVehicleTuneLevel::Level2",
+        "ExhaustSystem": "EVehicleTuneLevel::Level2",
         "transmission": "EVehicleTuneLevel::Level3",
         "Clutch": "EVehicleTuneLevel::Level3",
-        "Suspension": "EVehicleTuneLevel::Normal",
+        "Suspension": "EVehicleTuneLevel::Level2",
         "Brake": "EVehicleTuneLevel::Level5",
         "Body": "EVehicleTuneLevel::Level3",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0288": {
         "PowerUnit": "EVehicleTuneLevel::Level1",
@@ -2754,22 +3118,26 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0328": {
-        "PowerUnit": "EVehicleTuneLevel::Level2",
-        "IntakeSystem": "EVehicleTuneLevel::Level2",
-        "ExhaustSystem": "EVehicleTuneLevel::Level2",
-        "transmission": "EVehicleTuneLevel::Level1",
-        "Clutch": "EVehicleTuneLevel::Level1",
-        "Suspension": "EVehicleTuneLevel::Level4",
+        "PowerUnit": "EVehicleTuneLevel::Level6",
+        "IntakeSystem": "EVehicleTuneLevel::Level4",
+        "ExhaustSystem": "EVehicleTuneLevel::Level4",
+        "transmission": "EVehicleTuneLevel::Level4",
+        "Clutch": "EVehicleTuneLevel::Level4",
+        "Suspension": "EVehicleTuneLevel::Level3",
         "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Normal",
+        "Body": "EVehicleTuneLevel::Level4",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0327": {
         "PowerUnit": "EVehicleTuneLevel::Level2",
@@ -2784,44 +3152,50 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0326": {
-        "PowerUnit": "EVehicleTuneLevel::Level3",
+        "PowerUnit": "EVehicleTuneLevel::Level4",
         "IntakeSystem": "EVehicleTuneLevel::Level2",
-        "ExhaustSystem": "EVehicleTuneLevel::Level1",
-        "transmission": "EVehicleTuneLevel::Level1",
-        "Clutch": "EVehicleTuneLevel::Level1",
+        "ExhaustSystem": "EVehicleTuneLevel::Level2",
+        "transmission": "EVehicleTuneLevel::Level2",
+        "Clutch": "EVehicleTuneLevel::Level2",
         "Suspension": "EVehicleTuneLevel::Level1",
         "Brake": "EVehicleTuneLevel::Level5",
         "Body": "EVehicleTuneLevel::Level1",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
-        "LSD": "EVehicleTuneLevel::Normal",
+        "LSD": "EVehicleTuneLevel::Level1",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0325": {
-        "PowerUnit": "EVehicleTuneLevel::Level3",
+        "PowerUnit": "EVehicleTuneLevel::Level4",
         "IntakeSystem": "EVehicleTuneLevel::Level2",
-        "ExhaustSystem": "EVehicleTuneLevel::Level1",
-        "transmission": "EVehicleTuneLevel::Level1",
-        "Clutch": "EVehicleTuneLevel::Level1",
+        "ExhaustSystem": "EVehicleTuneLevel::Level2",
+        "transmission": "EVehicleTuneLevel::Level2",
+        "Clutch": "EVehicleTuneLevel::Level2",
         "Suspension": "EVehicleTuneLevel::Level1",
         "Brake": "EVehicleTuneLevel::Level5",
         "Body": "EVehicleTuneLevel::Level1",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
-        "LSD": "EVehicleTuneLevel::Level3",
+        "LSD": "EVehicleTuneLevel::Level1",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0324": {
-        "PowerUnit": "EVehicleTuneLevel::Level2",
-        "IntakeSystem": "EVehicleTuneLevel::Level1",
-        "ExhaustSystem": "EVehicleTuneLevel::Level1",
-        "transmission": "EVehicleTuneLevel::Normal",
-        "Clutch": "EVehicleTuneLevel::Normal",
+        "PowerUnit": "EVehicleTuneLevel::Level3",
+        "IntakeSystem": "EVehicleTuneLevel::Level2",
+        "ExhaustSystem": "EVehicleTuneLevel::Level2",
+        "transmission": "EVehicleTuneLevel::Level2",
+        "Clutch": "EVehicleTuneLevel::Level2",
         "Suspension": "EVehicleTuneLevel::Level1",
         "Brake": "EVehicleTuneLevel::Level5",
         "Body": "EVehicleTuneLevel::Level1",
@@ -2829,7 +3203,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0323": {
         "PowerUnit": "EVehicleTuneLevel::Level2",
@@ -2844,7 +3220,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level2",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0322": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -2859,7 +3237,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level1",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 275
+        "AddWeight": 275,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0321": {
         "PowerUnit": "EVehicleTuneLevel::Level1",
@@ -2874,14 +3254,16 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 50,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Rival_0320": {
-        "PowerUnit": "EVehicleTuneLevel::Level4",
-        "IntakeSystem": "EVehicleTuneLevel::Level2",
-        "ExhaustSystem": "EVehicleTuneLevel::Level3",
-        "transmission": "EVehicleTuneLevel::Normal",
-        "Clutch": "EVehicleTuneLevel::Normal",
+        "PowerUnit": "EVehicleTuneLevel::Level7",
+        "IntakeSystem": "EVehicleTuneLevel::Level4",
+        "ExhaustSystem": "EVehicleTuneLevel::Level4",
+        "transmission": "EVehicleTuneLevel::Level3",
+        "Clutch": "EVehicleTuneLevel::Level3",
         "Suspension": "EVehicleTuneLevel::Level4",
         "Brake": "EVehicleTuneLevel::Level5",
         "Body": "EVehicleTuneLevel::Level3",
@@ -2889,7 +3271,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 50,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Boss_0030_2": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -2904,52 +3288,60 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 100
+        "AddWeight": 450,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Boss_0023": {
         "PowerUnit": "EVehicleTuneLevel::Level8",
         "IntakeSystem": "EVehicleTuneLevel::Level3",
         "ExhaustSystem": "EVehicleTuneLevel::Level3",
-        "transmission": "EVehicleTuneLevel::Level1",
-        "Clutch": "EVehicleTuneLevel::Level1",
-        "Suspension": "EVehicleTuneLevel::Level5",
-        "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Level5",
-        "FrontTire": "EVehicleTuneLevel::Level5",
-        "RearTire": "EVehicleTuneLevel::Level5",
-        "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
-      },
-      "Boss_0024": {
-        "PowerUnit": "EVehicleTuneLevel::Level5",
-        "IntakeSystem": "EVehicleTuneLevel::Level3",
-        "ExhaustSystem": "EVehicleTuneLevel::Level3",
-        "transmission": "EVehicleTuneLevel::Level5",
-        "Clutch": "EVehicleTuneLevel::Level5",
-        "Suspension": "EVehicleTuneLevel::Level2",
-        "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Level3",
-        "FrontTire": "EVehicleTuneLevel::Level5",
-        "RearTire": "EVehicleTuneLevel::Level5",
-        "LSD": "EVehicleTuneLevel::Level2",
-        "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
-      },
-      "Wan_0001": {
-        "PowerUnit": "EVehicleTuneLevel::Level6",
-        "IntakeSystem": "EVehicleTuneLevel::Level4",
-        "ExhaustSystem": "EVehicleTuneLevel::Level4",
-        "transmission": "EVehicleTuneLevel::Level4",
+        "transmission": "EVehicleTuneLevel::Level3",
         "Clutch": "EVehicleTuneLevel::Level3",
         "Suspension": "EVehicleTuneLevel::Level5",
         "Brake": "EVehicleTuneLevel::Level5",
         "Body": "EVehicleTuneLevel::Level4",
-        "FrontTire": "EVehicleTuneLevel::Level4",
+        "FrontTire": "EVehicleTuneLevel::Level5",
+        "RearTire": "EVehicleTuneLevel::Level5",
+        "LSD": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Normal",
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
+      },
+      "Boss_0024": {
+        "PowerUnit": "EVehicleTuneLevel::Level4",
+        "IntakeSystem": "EVehicleTuneLevel::Level2",
+        "ExhaustSystem": "EVehicleTuneLevel::Level2",
+        "transmission": "EVehicleTuneLevel::Level2",
+        "Clutch": "EVehicleTuneLevel::Level2",
+        "Suspension": "EVehicleTuneLevel::Level2",
+        "Brake": "EVehicleTuneLevel::Level5",
+        "Body": "EVehicleTuneLevel::Level2",
+        "FrontTire": "EVehicleTuneLevel::Level5",
+        "RearTire": "EVehicleTuneLevel::Level5",
+        "LSD": "EVehicleTuneLevel::Level2",
+        "Nitro": "EVehicleTuneLevel::Normal",
+        "AddWeight": 50,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
+      },
+      "Wan_0001": {
+        "PowerUnit": "EVehicleTuneLevel::Level4",
+        "IntakeSystem": "EVehicleTuneLevel::Level3",
+        "ExhaustSystem": "EVehicleTuneLevel::Level2",
+        "transmission": "EVehicleTuneLevel::Level2",
+        "Clutch": "EVehicleTuneLevel::Level2",
+        "Suspension": "EVehicleTuneLevel::Level2",
+        "Brake": "EVehicleTuneLevel::Level5",
+        "Body": "EVehicleTuneLevel::Level1",
+        "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
-        "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "Nitro": "EVehicleTuneLevel::Level1",
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Wan_0008": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -2964,7 +3356,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 100
+        "AddWeight": 100,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Wan_0010": {
         "PowerUnit": "EVehicleTuneLevel::Level6",
@@ -2979,7 +3373,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Wan_0011": {
         "PowerUnit": "EVehicleTuneLevel::Level2",
@@ -2994,7 +3390,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Wan_0013": {
         "PowerUnit": "EVehicleTuneLevel::Level7",
@@ -3009,7 +3407,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Wan_0014": {
         "PowerUnit": "EVehicleTuneLevel::Level5",
@@ -3024,7 +3424,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Wan_0015": {
         "PowerUnit": "EVehicleTuneLevel::Level5",
@@ -3039,7 +3441,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Wan_0016": {
         "PowerUnit": "EVehicleTuneLevel::Level8",
@@ -3054,7 +3458,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Wan_0021": {
         "PowerUnit": "EVehicleTuneLevel::Level3",
@@ -3069,7 +3475,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level1",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Wan_0022": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -3084,7 +3492,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 400
+        "AddWeight": 400,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Wan_0023": {
         "PowerUnit": "EVehicleTuneLevel::Level5",
@@ -3099,7 +3509,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level2",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Wan_0024": {
         "PowerUnit": "EVehicleTuneLevel::Level5",
@@ -3114,7 +3526,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Wan_0025": {
         "PowerUnit": "EVehicleTuneLevel::Level8",
@@ -3129,7 +3543,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Wan_0026": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -3144,7 +3560,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 200
+        "AddWeight": 200,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Wan_0027": {
         "PowerUnit": "EVehicleTuneLevel::Level5",
@@ -3159,7 +3577,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level2",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Wan_0029": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -3174,7 +3594,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Wan_0033": {
         "PowerUnit": "EVehicleTuneLevel::Level4",
@@ -3189,7 +3611,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Wan_0034": {
         "PowerUnit": "EVehicleTuneLevel::Level4",
@@ -3204,7 +3628,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Wan_0035": {
         "PowerUnit": "EVehicleTuneLevel::Level6",
@@ -3219,7 +3645,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Wan_0036": {
         "PowerUnit": "EVehicleTuneLevel::Level2",
@@ -3234,7 +3662,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Wan_0061": {
         "PowerUnit": "EVehicleTuneLevel::Level4",
@@ -3249,7 +3679,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Wan_0064": {
         "PowerUnit": "EVehicleTuneLevel::Level6",
@@ -3264,7 +3696,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Wan_0070": {
         "PowerUnit": "EVehicleTuneLevel::Level6",
@@ -3279,7 +3713,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Player_Lv01": {
         "PowerUnit": "EVehicleTuneLevel::Normal",
@@ -3294,7 +3730,9 @@
         "RearTire": "EVehicleTuneLevel::Normal",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Player_Lv02": {
         "PowerUnit": "EVehicleTuneLevel::Level1",
@@ -3309,99 +3747,96 @@
         "RearTire": "EVehicleTuneLevel::Normal",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Player_Lv03": {
         "PowerUnit": "EVehicleTuneLevel::Level1",
         "IntakeSystem": "EVehicleTuneLevel::Level1",
         "ExhaustSystem": "EVehicleTuneLevel::Level1",
-        "transmission": "EVehicleTuneLevel::Level1",
-        "Clutch": "EVehicleTuneLevel::Level1",
-        "Suspension": "EVehicleTuneLevel::Level1",
+        "transmission": "EVehicleTuneLevel::Normal",
+        "Clutch": "EVehicleTuneLevel::Normal",
+        "Suspension": "EVehicleTuneLevel::Normal",
         "Brake": "EVehicleTuneLevel::Normal",
         "Body": "EVehicleTuneLevel::Normal",
         "FrontTire": "EVehicleTuneLevel::Normal",
         "RearTire": "EVehicleTuneLevel::Normal",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Player_Lv04": {
-        "PowerUnit": "EVehicleTuneLevel::Normal",
-        "IntakeSystem": "EVehicleTuneLevel::Normal",
-        "ExhaustSystem": "EVehicleTuneLevel::Normal",
+        "PowerUnit": "EVehicleTuneLevel::Level1",
+        "IntakeSystem": "EVehicleTuneLevel::Level1",
+        "ExhaustSystem": "EVehicleTuneLevel::Level1",
         "transmission": "EVehicleTuneLevel::Normal",
         "Clutch": "EVehicleTuneLevel::Normal",
         "Suspension": "EVehicleTuneLevel::Normal",
         "Brake": "EVehicleTuneLevel::Normal",
-        "Body": "EVehicleTuneLevel::Normal",
-        "FrontTire": "EVehicleTuneLevel::Normal",
-        "RearTire": "EVehicleTuneLevel::Normal",
+        "Body": "EVehicleTuneLevel::Level1",
+        "FrontTire": "EVehicleTuneLevel::Level1",
+        "RearTire": "EVehicleTuneLevel::Level1",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Player_Lv05": {
-        "PowerUnit": "EVehicleTuneLevel::Level1",
+        "PowerUnit": "EVehicleTuneLevel::Level2",
         "IntakeSystem": "EVehicleTuneLevel::Level1",
         "ExhaustSystem": "EVehicleTuneLevel::Level1",
-        "transmission": "EVehicleTuneLevel::Normal",
-        "Clutch": "EVehicleTuneLevel::Normal",
+        "transmission": "EVehicleTuneLevel::Level1",
+        "Clutch": "EVehicleTuneLevel::Level1",
         "Suspension": "EVehicleTuneLevel::Normal",
-        "Brake": "EVehicleTuneLevel::Normal",
-        "Body": "EVehicleTuneLevel::Normal",
-        "FrontTire": "EVehicleTuneLevel::Normal",
-        "RearTire": "EVehicleTuneLevel::Normal",
+        "Brake": "EVehicleTuneLevel::Level1",
+        "Body": "EVehicleTuneLevel::Level1",
+        "FrontTire": "EVehicleTuneLevel::Level1",
+        "RearTire": "EVehicleTuneLevel::Level1",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Player_Lv06": {
-        "PowerUnit": "EVehicleTuneLevel::Level1",
+        "PowerUnit": "EVehicleTuneLevel::Level2",
         "IntakeSystem": "EVehicleTuneLevel::Level1",
         "ExhaustSystem": "EVehicleTuneLevel::Level1",
         "transmission": "EVehicleTuneLevel::Level1",
         "Clutch": "EVehicleTuneLevel::Level1",
         "Suspension": "EVehicleTuneLevel::Level1",
         "Brake": "EVehicleTuneLevel::Level1",
-        "Body": "EVehicleTuneLevel::Normal",
-        "FrontTire": "EVehicleTuneLevel::Normal",
-        "RearTire": "EVehicleTuneLevel::Normal",
+        "Body": "EVehicleTuneLevel::Level1",
+        "FrontTire": "EVehicleTuneLevel::Level1",
+        "RearTire": "EVehicleTuneLevel::Level1",
         "LSD": "EVehicleTuneLevel::Normal",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Player_Lv07": {
-        "PowerUnit": "EVehicleTuneLevel::Level2",
-        "IntakeSystem": "EVehicleTuneLevel::Level1",
-        "ExhaustSystem": "EVehicleTuneLevel::Level1",
+        "PowerUnit": "EVehicleTuneLevel::Level3",
+        "IntakeSystem": "EVehicleTuneLevel::Level2",
+        "ExhaustSystem": "EVehicleTuneLevel::Level2",
         "transmission": "EVehicleTuneLevel::Level1",
         "Clutch": "EVehicleTuneLevel::Level1",
         "Suspension": "EVehicleTuneLevel::Level1",
         "Brake": "EVehicleTuneLevel::Level1",
         "Body": "EVehicleTuneLevel::Level1",
-        "FrontTire": "EVehicleTuneLevel::Level2",
-        "RearTire": "EVehicleTuneLevel::Level2",
+        "FrontTire": "EVehicleTuneLevel::Level1",
+        "RearTire": "EVehicleTuneLevel::Level1",
         "LSD": "EVehicleTuneLevel::Level1",
         "Nitro": "EVehicleTuneLevel::Level1",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Player_Lv08": {
-        "PowerUnit": "EVehicleTuneLevel::Level2",
-        "IntakeSystem": "EVehicleTuneLevel::Level1",
-        "ExhaustSystem": "EVehicleTuneLevel::Level1",
-        "transmission": "EVehicleTuneLevel::Level1",
-        "Clutch": "EVehicleTuneLevel::Level1",
-        "Suspension": "EVehicleTuneLevel::Level1",
-        "Brake": "EVehicleTuneLevel::Level1",
-        "Body": "EVehicleTuneLevel::Level1",
-        "FrontTire": "EVehicleTuneLevel::Level2",
-        "RearTire": "EVehicleTuneLevel::Level2",
-        "LSD": "EVehicleTuneLevel::Level1",
-        "Nitro": "EVehicleTuneLevel::Level1",
-        "AddWeight": 0
-      },
-      "Player_Lv09": {
         "PowerUnit": "EVehicleTuneLevel::Level2",
         "IntakeSystem": "EVehicleTuneLevel::Level2",
         "ExhaustSystem": "EVehicleTuneLevel::Level2",
@@ -3414,14 +3849,33 @@
         "RearTire": "EVehicleTuneLevel::Level2",
         "LSD": "EVehicleTuneLevel::Level1",
         "Nitro": "EVehicleTuneLevel::Level1",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
+      },
+      "Player_Lv09": {
+        "PowerUnit": "EVehicleTuneLevel::Level2",
+        "IntakeSystem": "EVehicleTuneLevel::Level2",
+        "ExhaustSystem": "EVehicleTuneLevel::Level2",
+        "transmission": "EVehicleTuneLevel::Level2",
+        "Clutch": "EVehicleTuneLevel::Level1",
+        "Suspension": "EVehicleTuneLevel::Level1",
+        "Brake": "EVehicleTuneLevel::Level1",
+        "Body": "EVehicleTuneLevel::Level1",
+        "FrontTire": "EVehicleTuneLevel::Level2",
+        "RearTire": "EVehicleTuneLevel::Level2",
+        "LSD": "EVehicleTuneLevel::Level1",
+        "Nitro": "EVehicleTuneLevel::Level1",
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Player_Lv10": {
         "PowerUnit": "EVehicleTuneLevel::Level2",
         "IntakeSystem": "EVehicleTuneLevel::Level2",
         "ExhaustSystem": "EVehicleTuneLevel::Level2",
         "transmission": "EVehicleTuneLevel::Level2",
-        "Clutch": "EVehicleTuneLevel::Level1",
+        "Clutch": "EVehicleTuneLevel::Level2",
         "Suspension": "EVehicleTuneLevel::Level1",
         "Brake": "EVehicleTuneLevel::Level1",
         "Body": "EVehicleTuneLevel::Level1",
@@ -3429,22 +3883,26 @@
         "RearTire": "EVehicleTuneLevel::Level2",
         "LSD": "EVehicleTuneLevel::Level1",
         "Nitro": "EVehicleTuneLevel::Level1",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Player_Lv11": {
         "PowerUnit": "EVehicleTuneLevel::Level3",
         "IntakeSystem": "EVehicleTuneLevel::Level2",
         "ExhaustSystem": "EVehicleTuneLevel::Level2",
         "transmission": "EVehicleTuneLevel::Level2",
-        "Clutch": "EVehicleTuneLevel::Level1",
-        "Suspension": "EVehicleTuneLevel::Level1",
-        "Brake": "EVehicleTuneLevel::Level1",
+        "Clutch": "EVehicleTuneLevel::Level2",
+        "Suspension": "EVehicleTuneLevel::Level2",
+        "Brake": "EVehicleTuneLevel::Level2",
         "Body": "EVehicleTuneLevel::Level1",
         "FrontTire": "EVehicleTuneLevel::Level2",
         "RearTire": "EVehicleTuneLevel::Level2",
         "LSD": "EVehicleTuneLevel::Level1",
         "Nitro": "EVehicleTuneLevel::Level1",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Player_Lv12": {
         "PowerUnit": "EVehicleTuneLevel::Level3",
@@ -3459,7 +3917,9 @@
         "RearTire": "EVehicleTuneLevel::Level2",
         "LSD": "EVehicleTuneLevel::Level1",
         "Nitro": "EVehicleTuneLevel::Level1",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Player_Lv13": {
         "PowerUnit": "EVehicleTuneLevel::Level3",
@@ -3474,9 +3934,28 @@
         "RearTire": "EVehicleTuneLevel::Level2",
         "LSD": "EVehicleTuneLevel::Level2",
         "Nitro": "EVehicleTuneLevel::Level1",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Player_Lv14": {
+        "PowerUnit": "EVehicleTuneLevel::Level4",
+        "IntakeSystem": "EVehicleTuneLevel::Level3",
+        "ExhaustSystem": "EVehicleTuneLevel::Level3",
+        "transmission": "EVehicleTuneLevel::Level2",
+        "Clutch": "EVehicleTuneLevel::Level2",
+        "Suspension": "EVehicleTuneLevel::Level2",
+        "Brake": "EVehicleTuneLevel::Level2",
+        "Body": "EVehicleTuneLevel::Level2",
+        "FrontTire": "EVehicleTuneLevel::Level2",
+        "RearTire": "EVehicleTuneLevel::Level2",
+        "LSD": "EVehicleTuneLevel::Level2",
+        "Nitro": "EVehicleTuneLevel::Level1",
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
+      },
+      "Player_Lv14t": {
         "PowerUnit": "EVehicleTuneLevel::Level5",
         "IntakeSystem": "EVehicleTuneLevel::Level3",
         "ExhaustSystem": "EVehicleTuneLevel::Level3",
@@ -3489,7 +3968,9 @@
         "RearTire": "EVehicleTuneLevel::Level2",
         "LSD": "EVehicleTuneLevel::Level2",
         "Nitro": "EVehicleTuneLevel::Level1",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Player_Lv15": {
         "PowerUnit": "EVehicleTuneLevel::Level4",
@@ -3503,23 +3984,27 @@
         "FrontTire": "EVehicleTuneLevel::Level2",
         "RearTire": "EVehicleTuneLevel::Level2",
         "LSD": "EVehicleTuneLevel::Level2",
-        "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "Nitro": "EVehicleTuneLevel::Level1",
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Player_Lv16": {
         "PowerUnit": "EVehicleTuneLevel::Level4",
         "IntakeSystem": "EVehicleTuneLevel::Level3",
         "ExhaustSystem": "EVehicleTuneLevel::Level3",
         "transmission": "EVehicleTuneLevel::Level3",
-        "Clutch": "EVehicleTuneLevel::Level3",
+        "Clutch": "EVehicleTuneLevel::Level2",
         "Suspension": "EVehicleTuneLevel::Level2",
-        "Brake": "EVehicleTuneLevel::Level2",
+        "Brake": "EVehicleTuneLevel::Level3",
         "Body": "EVehicleTuneLevel::Level2",
         "FrontTire": "EVehicleTuneLevel::Level2",
         "RearTire": "EVehicleTuneLevel::Level2",
         "LSD": "EVehicleTuneLevel::Level2",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Player_Lv17": {
         "PowerUnit": "EVehicleTuneLevel::Level4",
@@ -3527,14 +4012,16 @@
         "ExhaustSystem": "EVehicleTuneLevel::Level3",
         "transmission": "EVehicleTuneLevel::Level3",
         "Clutch": "EVehicleTuneLevel::Level3",
-        "Suspension": "EVehicleTuneLevel::Level3",
+        "Suspension": "EVehicleTuneLevel::Level2",
         "Brake": "EVehicleTuneLevel::Level3",
         "Body": "EVehicleTuneLevel::Level2",
-        "FrontTire": "EVehicleTuneLevel::Level2",
-        "RearTire": "EVehicleTuneLevel::Level2",
+        "FrontTire": "EVehicleTuneLevel::Level3",
+        "RearTire": "EVehicleTuneLevel::Level3",
         "LSD": "EVehicleTuneLevel::Level2",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Player_Lv18": {
         "PowerUnit": "EVehicleTuneLevel::Level5",
@@ -3545,11 +4032,13 @@
         "Suspension": "EVehicleTuneLevel::Level3",
         "Brake": "EVehicleTuneLevel::Level3",
         "Body": "EVehicleTuneLevel::Level2",
-        "FrontTire": "EVehicleTuneLevel::Level2",
-        "RearTire": "EVehicleTuneLevel::Level2",
+        "FrontTire": "EVehicleTuneLevel::Level3",
+        "RearTire": "EVehicleTuneLevel::Level3",
         "LSD": "EVehicleTuneLevel::Level2",
         "Nitro": "EVehicleTuneLevel::Level1",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Player_Lv19": {
         "PowerUnit": "EVehicleTuneLevel::Level5",
@@ -3560,105 +4049,119 @@
         "Suspension": "EVehicleTuneLevel::Level3",
         "Brake": "EVehicleTuneLevel::Level3",
         "Body": "EVehicleTuneLevel::Level3",
-        "FrontTire": "EVehicleTuneLevel::Level2",
-        "RearTire": "EVehicleTuneLevel::Level2",
-        "LSD": "EVehicleTuneLevel::Level3",
+        "FrontTire": "EVehicleTuneLevel::Level3",
+        "RearTire": "EVehicleTuneLevel::Level3",
+        "LSD": "EVehicleTuneLevel::Level2",
         "Nitro": "EVehicleTuneLevel::Level1",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Player_Lv20": {
         "PowerUnit": "EVehicleTuneLevel::Level5",
-        "IntakeSystem": "EVehicleTuneLevel::Level3",
-        "ExhaustSystem": "EVehicleTuneLevel::Level3",
-        "transmission": "EVehicleTuneLevel::Level3",
+        "IntakeSystem": "EVehicleTuneLevel::Level4",
+        "ExhaustSystem": "EVehicleTuneLevel::Level4",
+        "transmission": "EVehicleTuneLevel::Level4",
         "Clutch": "EVehicleTuneLevel::Level3",
         "Suspension": "EVehicleTuneLevel::Level3",
         "Brake": "EVehicleTuneLevel::Level3",
         "Body": "EVehicleTuneLevel::Level3",
         "FrontTire": "EVehicleTuneLevel::Level3",
         "RearTire": "EVehicleTuneLevel::Level3",
-        "LSD": "EVehicleTuneLevel::Level3",
+        "LSD": "EVehicleTuneLevel::Level2",
         "Nitro": "EVehicleTuneLevel::Level1",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Player_Lv21": {
         "PowerUnit": "EVehicleTuneLevel::Level6",
         "IntakeSystem": "EVehicleTuneLevel::Level4",
         "ExhaustSystem": "EVehicleTuneLevel::Level4",
-        "transmission": "EVehicleTuneLevel::Level3",
-        "Clutch": "EVehicleTuneLevel::Level3",
+        "transmission": "EVehicleTuneLevel::Level4",
+        "Clutch": "EVehicleTuneLevel::Level4",
         "Suspension": "EVehicleTuneLevel::Level3",
         "Brake": "EVehicleTuneLevel::Level3",
         "Body": "EVehicleTuneLevel::Level3",
-        "FrontTire": "EVehicleTuneLevel::Level4",
-        "RearTire": "EVehicleTuneLevel::Level4",
-        "LSD": "EVehicleTuneLevel::Level3",
+        "FrontTire": "EVehicleTuneLevel::Level3",
+        "RearTire": "EVehicleTuneLevel::Level3",
+        "LSD": "EVehicleTuneLevel::Level2",
         "Nitro": "EVehicleTuneLevel::Level1",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
+      },
+      "Player_Lv21t": {
+        "PowerUnit": "EVehicleTuneLevel::Level7",
+        "IntakeSystem": "EVehicleTuneLevel::Level4",
+        "ExhaustSystem": "EVehicleTuneLevel::Level4",
+        "transmission": "EVehicleTuneLevel::Level4",
+        "Clutch": "EVehicleTuneLevel::Level4",
+        "Suspension": "EVehicleTuneLevel::Level3",
+        "Brake": "EVehicleTuneLevel::Level3",
+        "Body": "EVehicleTuneLevel::Level3",
+        "FrontTire": "EVehicleTuneLevel::Level3",
+        "RearTire": "EVehicleTuneLevel::Level3",
+        "LSD": "EVehicleTuneLevel::Level2",
+        "Nitro": "EVehicleTuneLevel::Level1",
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Player_Lv22": {
         "PowerUnit": "EVehicleTuneLevel::Level6",
         "IntakeSystem": "EVehicleTuneLevel::Level4",
         "ExhaustSystem": "EVehicleTuneLevel::Level4",
-        "transmission": "EVehicleTuneLevel::Level3",
-        "Clutch": "EVehicleTuneLevel::Level3",
+        "transmission": "EVehicleTuneLevel::Level4",
+        "Clutch": "EVehicleTuneLevel::Level4",
         "Suspension": "EVehicleTuneLevel::Level3",
         "Brake": "EVehicleTuneLevel::Level3",
         "Body": "EVehicleTuneLevel::Level3",
         "FrontTire": "EVehicleTuneLevel::Level4",
         "RearTire": "EVehicleTuneLevel::Level4",
-        "LSD": "EVehicleTuneLevel::Level3",
+        "LSD": "EVehicleTuneLevel::Level2",
         "Nitro": "EVehicleTuneLevel::Level1",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Player_Lv23": {
         "PowerUnit": "EVehicleTuneLevel::Level6",
         "IntakeSystem": "EVehicleTuneLevel::Level4",
         "ExhaustSystem": "EVehicleTuneLevel::Level4",
-        "transmission": "EVehicleTuneLevel::Level3",
-        "Clutch": "EVehicleTuneLevel::Level3",
-        "Suspension": "EVehicleTuneLevel::Level3",
+        "transmission": "EVehicleTuneLevel::Level4",
+        "Clutch": "EVehicleTuneLevel::Level4",
+        "Suspension": "EVehicleTuneLevel::Level4",
         "Brake": "EVehicleTuneLevel::Level3",
         "Body": "EVehicleTuneLevel::Level3",
         "FrontTire": "EVehicleTuneLevel::Level4",
         "RearTire": "EVehicleTuneLevel::Level4",
-        "LSD": "EVehicleTuneLevel::Level3",
+        "LSD": "EVehicleTuneLevel::Level2",
         "Nitro": "EVehicleTuneLevel::Level1",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Player_Lv24": {
         "PowerUnit": "EVehicleTuneLevel::Level6",
         "IntakeSystem": "EVehicleTuneLevel::Level4",
         "ExhaustSystem": "EVehicleTuneLevel::Level4",
         "transmission": "EVehicleTuneLevel::Level4",
-        "Clutch": "EVehicleTuneLevel::Level3",
-        "Suspension": "EVehicleTuneLevel::Level3",
-        "Brake": "EVehicleTuneLevel::Level3",
-        "Body": "EVehicleTuneLevel::Level3",
-        "FrontTire": "EVehicleTuneLevel::Level4",
-        "RearTire": "EVehicleTuneLevel::Level4",
-        "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level1",
-        "AddWeight": 0
-      },
-      "Player_Lv25": {
-        "PowerUnit": "EVehicleTuneLevel::Level6",
-        "IntakeSystem": "EVehicleTuneLevel::Level4",
-        "ExhaustSystem": "EVehicleTuneLevel::Level4",
-        "transmission": "EVehicleTuneLevel::Level4",
         "Clutch": "EVehicleTuneLevel::Level4",
         "Suspension": "EVehicleTuneLevel::Level4",
-        "Brake": "EVehicleTuneLevel::Level3",
-        "Body": "EVehicleTuneLevel::Level3",
+        "Brake": "EVehicleTuneLevel::Level4",
+        "Body": "EVehicleTuneLevel::Level4",
         "FrontTire": "EVehicleTuneLevel::Level4",
         "RearTire": "EVehicleTuneLevel::Level4",
-        "LSD": "EVehicleTuneLevel::Level3",
+        "LSD": "EVehicleTuneLevel::Level2",
         "Nitro": "EVehicleTuneLevel::Level1",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
-      "Player_Lv26": {
-        "PowerUnit": "EVehicleTuneLevel::Level6",
-        "IntakeSystem": "EVehicleTuneLevel::Level4",
+      "Player_Lv25": {
+        "PowerUnit": "EVehicleTuneLevel::Level7",
+        "IntakeSystem": "EVehicleTuneLevel::Level5",
         "ExhaustSystem": "EVehicleTuneLevel::Level4",
         "transmission": "EVehicleTuneLevel::Level4",
         "Clutch": "EVehicleTuneLevel::Level4",
@@ -3667,29 +4170,67 @@
         "Body": "EVehicleTuneLevel::Level4",
         "FrontTire": "EVehicleTuneLevel::Level4",
         "RearTire": "EVehicleTuneLevel::Level4",
-        "LSD": "EVehicleTuneLevel::Level3",
+        "LSD": "EVehicleTuneLevel::Level2",
         "Nitro": "EVehicleTuneLevel::Level1",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
-      "Player_Lv27": {
-        "PowerUnit": "EVehicleTuneLevel::Level6",
-        "IntakeSystem": "EVehicleTuneLevel::Level4",
-        "ExhaustSystem": "EVehicleTuneLevel::Level4",
+      "Player_Lv26": {
+        "PowerUnit": "EVehicleTuneLevel::Level7",
+        "IntakeSystem": "EVehicleTuneLevel::Level5",
+        "ExhaustSystem": "EVehicleTuneLevel::Level5",
         "transmission": "EVehicleTuneLevel::Level4",
         "Clutch": "EVehicleTuneLevel::Level4",
         "Suspension": "EVehicleTuneLevel::Level4",
+        "Brake": "EVehicleTuneLevel::Level4",
+        "Body": "EVehicleTuneLevel::Level4",
+        "FrontTire": "EVehicleTuneLevel::Level4",
+        "RearTire": "EVehicleTuneLevel::Level4",
+        "LSD": "EVehicleTuneLevel::Level2",
+        "Nitro": "EVehicleTuneLevel::Level1",
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
+      },
+      "Player_Lv27": {
+        "PowerUnit": "EVehicleTuneLevel::Level7",
+        "IntakeSystem": "EVehicleTuneLevel::Level5",
+        "ExhaustSystem": "EVehicleTuneLevel::Level5",
+        "transmission": "EVehicleTuneLevel::Level4",
+        "Clutch": "EVehicleTuneLevel::Level4",
+        "Suspension": "EVehicleTuneLevel::Level5",
+        "Brake": "EVehicleTuneLevel::Level4",
+        "Body": "EVehicleTuneLevel::Level4",
+        "FrontTire": "EVehicleTuneLevel::Level5",
+        "RearTire": "EVehicleTuneLevel::Level5",
+        "LSD": "EVehicleTuneLevel::Level2",
+        "Nitro": "EVehicleTuneLevel::Level1",
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
+      },
+      "Player_Lv28": {
+        "PowerUnit": "EVehicleTuneLevel::Level8",
+        "IntakeSystem": "EVehicleTuneLevel::Level5",
+        "ExhaustSystem": "EVehicleTuneLevel::Level5",
+        "transmission": "EVehicleTuneLevel::Level5",
+        "Clutch": "EVehicleTuneLevel::Level4",
+        "Suspension": "EVehicleTuneLevel::Level5",
         "Brake": "EVehicleTuneLevel::Level4",
         "Body": "EVehicleTuneLevel::Level4",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level1",
-        "AddWeight": 0
+        "Nitro": "EVehicleTuneLevel::Level2",
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
-      "Player_Lv28": {
-        "PowerUnit": "EVehicleTuneLevel::Level7",
-        "IntakeSystem": "EVehicleTuneLevel::Level4",
-        "ExhaustSystem": "EVehicleTuneLevel::Level4",
+      "Player_Lv28t": {
+        "PowerUnit": "EVehicleTuneLevel::Level9",
+        "IntakeSystem": "EVehicleTuneLevel::Level5",
+        "ExhaustSystem": "EVehicleTuneLevel::Level5",
         "transmission": "EVehicleTuneLevel::Level4",
         "Clutch": "EVehicleTuneLevel::Level4",
         "Suspension": "EVehicleTuneLevel::Level4",
@@ -3699,25 +4240,29 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
         "Nitro": "EVehicleTuneLevel::Level2",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Player_Lv29": {
-        "PowerUnit": "EVehicleTuneLevel::Level7",
-        "IntakeSystem": "EVehicleTuneLevel::Level4",
-        "ExhaustSystem": "EVehicleTuneLevel::Level4",
+        "PowerUnit": "EVehicleTuneLevel::Level8",
+        "IntakeSystem": "EVehicleTuneLevel::Level5",
+        "ExhaustSystem": "EVehicleTuneLevel::Level5",
         "transmission": "EVehicleTuneLevel::Level5",
         "Clutch": "EVehicleTuneLevel::Level5",
-        "Suspension": "EVehicleTuneLevel::Level4",
-        "Brake": "EVehicleTuneLevel::Level4",
+        "Suspension": "EVehicleTuneLevel::Level5",
+        "Brake": "EVehicleTuneLevel::Level5",
         "Body": "EVehicleTuneLevel::Level4",
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
         "Nitro": "EVehicleTuneLevel::Level3",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       },
       "Player_Lv30": {
-        "PowerUnit": "EVehicleTuneLevel::Level8",
+        "PowerUnit": "EVehicleTuneLevel::Level9",
         "IntakeSystem": "EVehicleTuneLevel::Level5",
         "ExhaustSystem": "EVehicleTuneLevel::Level5",
         "transmission": "EVehicleTuneLevel::Level5",
@@ -3729,7 +4274,77 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
         "Nitro": "EVehicleTuneLevel::Level3",
-        "AddWeight": 0
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
+      },
+      "Player_Lv30t": {
+        "PowerUnit": "EVehicleTuneLevel::Level9",
+        "IntakeSystem": "EVehicleTuneLevel::Level5",
+        "ExhaustSystem": "EVehicleTuneLevel::Level5",
+        "transmission": "EVehicleTuneLevel::Level5",
+        "Clutch": "EVehicleTuneLevel::Level5",
+        "Suspension": "EVehicleTuneLevel::Level5",
+        "Brake": "EVehicleTuneLevel::Level5",
+        "Body": "EVehicleTuneLevel::Level5",
+        "FrontTire": "EVehicleTuneLevel::Level5",
+        "RearTire": "EVehicleTuneLevel::Level5",
+        "LSD": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level3",
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
+      },
+      "Tu_Normal": {
+        "PowerUnit": "EVehicleTuneLevel::Normal",
+        "IntakeSystem": "EVehicleTuneLevel::Normal",
+        "ExhaustSystem": "EVehicleTuneLevel::Normal",
+        "transmission": "EVehicleTuneLevel::Normal",
+        "Clutch": "EVehicleTuneLevel::Normal",
+        "Suspension": "EVehicleTuneLevel::Normal",
+        "Brake": "EVehicleTuneLevel::Normal",
+        "Body": "EVehicleTuneLevel::Normal",
+        "FrontTire": "EVehicleTuneLevel::Normal",
+        "RearTire": "EVehicleTuneLevel::Normal",
+        "LSD": "EVehicleTuneLevel::Normal",
+        "Nitro": "EVehicleTuneLevel::Normal",
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
+      },
+      "Tu_0_Boss": {
+        "PowerUnit": "EVehicleTuneLevel::Level1",
+        "IntakeSystem": "EVehicleTuneLevel::Level1",
+        "ExhaustSystem": "EVehicleTuneLevel::Level1",
+        "transmission": "EVehicleTuneLevel::Level1",
+        "Clutch": "EVehicleTuneLevel::Level1",
+        "Suspension": "EVehicleTuneLevel::Level1",
+        "Brake": "EVehicleTuneLevel::Level1",
+        "Body": "EVehicleTuneLevel::Level1",
+        "FrontTire": "EVehicleTuneLevel::Level1",
+        "RearTire": "EVehicleTuneLevel::Level1",
+        "LSD": "EVehicleTuneLevel::Level1",
+        "Nitro": "EVehicleTuneLevel::Level1",
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
+      },
+      "Tu_1_Boss": {
+        "PowerUnit": "EVehicleTuneLevel::Level3",
+        "IntakeSystem": "EVehicleTuneLevel::Level2",
+        "ExhaustSystem": "EVehicleTuneLevel::Level2",
+        "transmission": "EVehicleTuneLevel::Level2",
+        "Clutch": "EVehicleTuneLevel::Level2",
+        "Suspension": "EVehicleTuneLevel::Level2",
+        "Brake": "EVehicleTuneLevel::Level2",
+        "Body": "EVehicleTuneLevel::Level2",
+        "FrontTire": "EVehicleTuneLevel::Level2",
+        "RearTire": "EVehicleTuneLevel::Level2",
+        "LSD": "EVehicleTuneLevel::Level2",
+        "Nitro": "EVehicleTuneLevel::Normal",
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 1.0
       }
     }
   }

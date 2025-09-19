@@ -19,7 +19,7 @@
         "Weight": 1310,
         "Length": 4435,
         "Height": 1340,
-        "Width": 1735,
+        "Width": 1770,
         "GroundCearance": 135,
         "Wheelbase": 2700,
         "FTread": 1500,
@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::RE",
         "EngineFromat": "EEngineFromat::E_13B_MSP",
         "EngineInspiration": "ECarIceAspirationType::NA",
-        "displacement": 1308,
+        "Displacement": 1308,
         "MaxPower": 250,
         "MaxPowerRpm": 8500,
         "MaxTorque": 22.0,
@@ -53,6 +53,7 @@
         "RSuspension": "ERSuspension::MULTI_LINK",
         "Cd": 0.3,
         "Cl": 0.008,
+        "RearDriveRate": 1.0,
         "EngineFormatName": "13B_MSP",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -74,15 +75,18 @@
           "SourceString": "MIDNIGHT CINDERELLA",
           "LocalizedString": "MIDNIGHT CINDERELLA"
         },
-        "FrontHightOffset": -20,
-        "RearHightOffset": -20,
+        "FrontHightOffset": -25,
+        "RearHightOffset": -25,
         "FrontCamberAngle": -30,
         "RearCamberAngle": -30,
-        "FrontOffset": 75,
-        "RearOffset": 75,
+        "FrontOffset": 100,
+        "RearOffset": 100,
         "FrontTirePulling": 10,
         "RearTirePulling": 10,
-        "MaxHightOffset": 2.5
+        "MaxHightOffset": 2.5,
+        "MinTurningRadius": 5.3,
+        "FrontTireWidthMax": 265,
+        "RearTireWidthMax": 265
       }
     }
   }

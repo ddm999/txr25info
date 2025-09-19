@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::Straight4",
         "EngineFromat": "EEngineFromat::E_BP_ZE_RS",
         "EngineInspiration": "ECarIceAspirationType::NA",
-        "displacement": 1839,
+        "Displacement": 1839,
         "MaxPower": 130,
         "MaxPowerRpm": 6500,
         "MaxTorque": 16.0,
@@ -52,6 +52,7 @@
         "RSuspension": "ERSuspension::DOUBLE_WISHBONE",
         "Cd": 0.38,
         "Cl": 0.008,
+        "RearDriveRate": 1.0,
         "EngineFormatName": "BP_ZE_RS",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -74,7 +75,10 @@
           "LocalizedString": "EUNOS ROADSTER S SPECIAL Type II (NA8C) '96"
         },
         "RHLOpenAngle": 44.905159365,
-        "MaxHightOffset": 2.5
+        "MaxHightOffset": 2.5,
+        "MinTurningRadius": 4.6,
+        "FrontTireWidthMax": 215,
+        "RearTireWidthMax": 215
       }
     }
   }

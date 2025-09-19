@@ -28,7 +28,7 @@
         "DriveType": "EDriveType::DT_4WD",
         "EngineKind": "EEngineKind::Flat4",
         "EngineInspiration": "ECarIceAspirationType::Turbo",
-        "displacement": 1994,
+        "Displacement": 1994,
         "MaxPower": 280,
         "MaxPowerRpm": 6400,
         "MaxTorque": 43.0,
@@ -75,7 +75,10 @@
           "LocalizedString": "IMPREZA WRX STI spec C (GDB) '05"
         },
         "CenterDiffType": "ECarCenterDiff::DCCD",
-        "MaxHightOffset": 2.0
+        "MaxHightOffset": 2.0,
+        "MinTurningRadius": 5.7,
+        "FrontTireWidthMax": 255,
+        "RearTireWidthMax": 255
       }
     }
   }

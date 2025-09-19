@@ -8,7 +8,7 @@
       "CarData": {
         "ID": 118,
         "CarId": "CAR118",
-        "CarNameId": "BOX TOWNACE VAN (KR52V) '05",
+        "CarNameId": "TOWNACE VAN (KR52V) '05",
         "ModelNameId": "KR52V",
         "FolderId": "OtBOX",
         "ReleaseDay": 2005,
@@ -27,7 +27,7 @@
         "DriveType": "EDriveType::DT_4WD",
         "EngineKind": "EEngineKind::Straight4",
         "EngineInspiration": "ECarIceAspirationType::NA",
-        "displacement": 1781,
+        "Displacement": 1781,
         "MaxPower": 82,
         "MaxPowerRpm": 4800,
         "MaxTorque": 14.5,
@@ -71,7 +71,10 @@
           "SourceString": "TOWNACE VAN (KR52V) '05",
           "LocalizedString": "TOWNACE VAN (KR52V) '05"
         },
-        "MaxHightOffset": 4.0
+        "MaxHightOffset": 4.0,
+        "MinTurningRadius": 5.7,
+        "FrontTireWidthMax": 195,
+        "RearTireWidthMax": 195
       }
     }
   }

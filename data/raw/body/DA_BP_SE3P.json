@@ -19,7 +19,7 @@
         "Weight": 1310,
         "Length": 4435,
         "Height": 1340,
-        "Width": 1735,
+        "Width": 1770,
         "GroundCearance": 135,
         "Wheelbase": 2700,
         "FTread": 1500,
@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::RE",
         "EngineFromat": "EEngineFromat::E_13B_MSP",
         "EngineInspiration": "ECarIceAspirationType::NA",
-        "displacement": 1308,
+        "Displacement": 1308,
         "MaxPower": 250,
         "MaxPowerRpm": 8500,
         "MaxTorque": 22.0,
@@ -53,6 +53,7 @@
         "RSuspension": "ERSuspension::MULTI_LINK",
         "Cd": 0.3,
         "Cl": 0.008,
+        "RearDriveRate": 1.0,
         "EngineFormatName": "13B_MSP",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -72,7 +73,10 @@
           "SourceString": "RX-8 Type S (SE3P) '03",
           "LocalizedString": "RX-8 Type S (SE3P) '03"
         },
-        "MaxHightOffset": 2.5
+        "MaxHightOffset": 2.5,
+        "MinTurningRadius": 5.3,
+        "FrontTireWidthMax": 245,
+        "RearTireWidthMax": 245
       }
     }
   }

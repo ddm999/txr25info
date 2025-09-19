@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::V6",
         "EngineFromat": "EEngineFromat::E_VQ37VHR",
         "EngineInspiration": "ECarIceAspirationType::NA",
-        "displacement": 3696,
+        "Displacement": 3696,
         "MaxPower": 336,
         "MaxPowerRpm": 7000,
         "MaxTorque": 37.2,
@@ -53,6 +53,7 @@
         "RSuspension": "ERSuspension::MULTI_LINK",
         "Cd": 0.3,
         "Cl": 0.008,
+        "RearDriveRate": 1.0,
         "EngineFormatName": "VQ37VHR",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -60,8 +61,8 @@
         "rear_tire_grip": 1.45,
         "front_tire_side_grip": 1.16,
         "rear_tire_side_grip": 1.41,
-        "front_brake_scale": 1.1,
-        "rear_brake_scale": 1.1,
+        "front_brake_scale": 1.2,
+        "rear_brake_scale": 1.2,
         "front_brake_angle": 180.0,
         "rear_brake_angle": 180.0,
         "FTireInchMinus": -2,
@@ -76,13 +77,15 @@
         },
         "FrontHightOffset": -20,
         "RearHightOffset": -20,
-        "FrontCamberAngle": -20,
-        "RearCamberAngle": -20,
-        "FrontOffset": 60,
-        "RearOffset": 60,
+        "FrontCamberAngle": -30,
+        "RearCamberAngle": -50,
+        "FrontOffset": 100,
+        "RearOffset": 100,
         "FrontTirePulling": 20,
         "RearTirePulling": 20,
-        "MaxHightOffset": 2.5
+        "MaxHightOffset": 2.5,
+        "FrontTireWidthMax": 295,
+        "RearTireWidthMax": 315
       }
     }
   }

@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::Straight4",
         "EngineFromat": "EEngineFromat::E_4B11",
         "EngineInspiration": "ECarIceAspirationType::Turbo",
-        "displacement": 1998,
+        "Displacement": 1998,
         "MaxPower": 313,
         "MaxPowerRpm": 6500,
         "MaxTorque": 43.7,
@@ -73,7 +73,10 @@
         },
         "CenterDiffType": "ECarCenterDiff::ACD",
         "RearDiffType": "ECarFrontRearDiff::SAYC",
-        "MaxHightOffset": 3.0
+        "MaxHightOffset": 3.0,
+        "MinTurningRadius": 5.9,
+        "FrontTireWidthMax": 265,
+        "RearTireWidthMax": 265
       }
     }
   }

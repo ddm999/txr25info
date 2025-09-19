@@ -1,0 +1,10 @@
+badname = ITSB/Core/BadName/ConditionTable
+body = ITSB/Car/DataAsset/Parameters/Body/0
+car = ITSB/Car/DataTable
+core = ITSB/Core/Quest
+powerunit = ITSB/Car/DataAsset/Parameters/PU/0
+rival = ITSB/Core/Rival
+
+others:
+achievements = ITSB/Core/Achievements
+reference = ITSB/Core/Reference

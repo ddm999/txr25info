@@ -28,7 +28,7 @@
         "DriveType": "EDriveType::DT_4WD",
         "EngineKind": "EEngineKind::V6",
         "EngineInspiration": "ECarIceAspirationType::Turbo",
-        "displacement": 2972,
+        "Displacement": 2972,
         "MaxPower": 280,
         "MaxPowerRpm": 6000,
         "MaxTorque": 43.5,
@@ -73,7 +73,10 @@
           "SourceString": "GTO TWIN TURBO (Z16A) '95",
           "LocalizedString": "GTO TWIN TURBO (Z16A) '95"
         },
-        "MaxHightOffset": 2.5
+        "MaxHightOffset": 2.5,
+        "MinTurningRadius": 5.7,
+        "FrontTireWidthMax": 255,
+        "RearTireWidthMax": 255
       }
     }
   }

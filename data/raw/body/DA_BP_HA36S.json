@@ -28,7 +28,7 @@
         "DriveType": "EDriveType::DT_4WD",
         "EngineKind": "EEngineKind::Straight3",
         "EngineInspiration": "ECarIceAspirationType::Turbo",
-        "displacement": 658,
+        "Displacement": 658,
         "MaxPower": 64,
         "MaxPowerRpm": 6000,
         "MaxTorque": 10.2,
@@ -73,7 +73,10 @@
           "SourceString": "ALTO WORKS (HA36S) '15",
           "LocalizedString": "ALTO WORKS (HA36S) '15"
         },
-        "MaxHightOffset": 2.5
+        "MaxHightOffset": 2.5,
+        "MinTurningRadius": 4.6,
+        "FrontTireWidthMax": 185,
+        "RearTireWidthMax": 185
       }
     }
   }

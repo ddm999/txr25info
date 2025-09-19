@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::V6",
         "EngineFromat": "EEngineFromat::E_VQ37VHR",
         "EngineInspiration": "ECarIceAspirationType::NA",
-        "displacement": 3696,
+        "Displacement": 3696,
         "MaxPower": 336,
         "MaxPowerRpm": 7000,
         "MaxTorque": 37.2,
@@ -53,6 +53,7 @@
         "RSuspension": "ERSuspension::MULTI_LINK",
         "Cd": 0.31,
         "Cl": 0.008,
+        "RearDriveRate": 1.0,
         "EngineFormatName": "VQ37VHR",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -74,7 +75,9 @@
           "SourceString": "FAIRLADY Z Version ST (Z34) '14",
           "LocalizedString": "FAIRLADY Z Version ST (Z34) '14"
         },
-        "MaxHightOffset": 2.5
+        "MaxHightOffset": 2.5,
+        "FrontTireWidthMax": 265,
+        "RearTireWidthMax": 295
       }
     }
   }

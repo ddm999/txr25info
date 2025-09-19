@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::Flat4",
         "EngineFromat": "EEngineFromat::E_EJ20",
         "EngineInspiration": "ECarIceAspirationType::Turbo",
-        "displacement": 1994,
+        "Displacement": 1994,
         "MaxPower": 280,
         "MaxPowerRpm": 6000,
         "MaxTorque": 40.2,
@@ -76,7 +76,10 @@
           "LocalizedString": "IMPREZA WRX STi 2003 V-Limited (GDB) '03"
         },
         "CenterDiffType": "ECarCenterDiff::DCCD",
-        "MaxHightOffset": 2.0
+        "MaxHightOffset": 2.0,
+        "MinTurningRadius": 5.4,
+        "FrontTireWidthMax": 245,
+        "RearTireWidthMax": 245
       }
     }
   }

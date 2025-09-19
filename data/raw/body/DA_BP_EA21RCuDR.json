@@ -8,7 +8,7 @@
       "CarData": {
         "ID": 175,
         "CarId": "CAR175",
-        "CarNameId": "DEVIL ROAD RUN",
+        "CarNameId": "DEVIL ROAD RUN!",
         "ModelNameId": "EA21RCuDR",
         "FolderId": "EA21RCuDR",
         "ReleaseDay": 1995,
@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::Straight3",
         "EngineFromat": "EEngineFromat::E_K6A",
         "EngineInspiration": "ECarIceAspirationType::Turbo",
-        "displacement": 658,
+        "Displacement": 658,
         "MaxPower": 64,
         "MaxPowerRpm": 6500,
         "MaxTorque": 10.46,
@@ -37,8 +37,8 @@
         "FTireWidth": 175,
         "FTireOblateness": 50,
         "FTireInch": 15,
-        "RTireWidth": 175,
-        "RTireOblateness": 50,
+        "RTireWidth": 190,
+        "RTireOblateness": 45,
         "RTireInch": 15,
         "GearNum": 5,
         "Gear1": 3.478,
@@ -52,6 +52,7 @@
         "RSuspension": "ERSuspension::DOUBLE_WISHBONE",
         "Cd": 0.395,
         "Cl": 0.008,
+        "RearDriveRate": 1.0,
         "EngineFormatName": "K6A",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -73,15 +74,18 @@
           "SourceString": "DEVIL ROAD RUN!",
           "LocalizedString": "DEVIL ROAD RUN!"
         },
-        "FrontHightOffset": -20,
-        "RearHightOffset": -20,
-        "FrontCamberAngle": -10,
-        "RearCamberAngle": -20,
-        "FrontOffset": 40,
-        "RearOffset": 50,
+        "FrontHightOffset": -26,
+        "RearHightOffset": -26,
+        "FrontCamberAngle": -30,
+        "RearCamberAngle": -40,
+        "FrontOffset": 100,
+        "RearOffset": 100,
         "FrontTirePulling": 20,
         "RearTirePulling": 20,
-        "MaxHightOffset": 2.5
+        "MaxHightOffset": 2.5,
+        "MinTurningRadius": 4.4,
+        "FrontTireWidthMax": 195,
+        "RearTireWidthMax": 195
       }
     }
   }

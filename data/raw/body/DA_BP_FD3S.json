@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::RE",
         "EngineFromat": "EEngineFromat::E_13B_REW",
         "EngineInspiration": "ECarIceAspirationType::Turbo",
-        "displacement": 1308,
+        "Displacement": 1308,
         "MaxPower": 280,
         "MaxPowerRpm": 6500,
         "MaxTorque": 32.0,
@@ -51,6 +51,7 @@
         "FSuspension": "EFSuspension::DOUBLE_WISHBONE",
         "RSuspension": "ERSuspension::DOUBLE_WISHBONE",
         "Cd": 0.33,
+        "RearDriveRate": 1.0,
         "EngineFormatName": "13B_REW",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -73,7 +74,10 @@
           "LocalizedString": "RX-7 Type RZ (FD3S) '00"
         },
         "RHLOpenAngle": 42.432,
-        "MaxHightOffset": 2.5
+        "MaxHightOffset": 2.5,
+        "MinTurningRadius": 5.1,
+        "FrontTireWidthMax": 255,
+        "RearTireWidthMax": 275
       }
     }
   }

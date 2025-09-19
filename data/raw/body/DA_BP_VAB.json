@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::Flat4",
         "EngineFromat": "EEngineFromat::E_EJ20",
         "EngineInspiration": "ECarIceAspirationType::Turbo",
-        "displacement": 1994,
+        "Displacement": 1994,
         "MaxPower": 308,
         "MaxPowerRpm": 6400,
         "MaxTorque": 43.0,
@@ -74,7 +74,10 @@
           "LocalizedString": "WRX STI Type S (VAB) '15"
         },
         "CenterDiffType": "ECarCenterDiff::DCCD",
-        "MaxHightOffset": 3.0
+        "MaxHightOffset": 3.0,
+        "MinTurningRadius": 5.6,
+        "FrontTireWidthMax": 265,
+        "RearTireWidthMax": 265
       }
     }
   }

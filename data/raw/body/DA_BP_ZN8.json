@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::Flat4",
         "EngineFromat": "EEngineFromat::E_FA24",
         "EngineInspiration": "ECarIceAspirationType::NA",
-        "displacement": 2387,
+        "Displacement": 2387,
         "MaxPower": 235,
         "MaxPowerRpm": 7000,
         "MaxTorque": 25.5,
@@ -53,6 +53,7 @@
         "RSuspension": "ERSuspension::DOUBLE_WISHBONE",
         "Cd": 0.27,
         "Cl": 0.008,
+        "RearDriveRate": 1.0,
         "EngineFormatName": "FA24",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -72,7 +73,10 @@
           "SourceString": "GR86 RZ (ZN8) '21",
           "LocalizedString": "GR86 RZ (ZN8) '21"
         },
-        "MaxHightOffset": 2.5
+        "MaxHightOffset": 2.5,
+        "MinTurningRadius": 5.4,
+        "FrontTireWidthMax": 235,
+        "RearTireWidthMax": 235
       }
     }
   }

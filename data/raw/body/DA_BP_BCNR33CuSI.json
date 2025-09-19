@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::Straight6",
         "EngineFromat": "EEngineFromat::E_RB26DETT",
         "EngineInspiration": "ECarIceAspirationType::Turbo",
-        "displacement": 2568,
+        "Displacement": 2568,
         "MaxPower": 280,
         "MaxPowerRpm": 6800,
         "MaxTorque": 37.5,
@@ -76,12 +76,15 @@
         "RearHightOffset": -24,
         "FrontCamberAngle": -10,
         "RearCamberAngle": -10,
-        "FrontOffset": 60,
-        "RearOffset": 60,
+        "FrontOffset": 90,
+        "RearOffset": 90,
         "FrontTirePulling": 30,
         "RearTirePulling": 30,
         "CenterDiffType": "ECarCenterDiff::ATTESAETS",
-        "MaxHightOffset": 2.5
+        "MaxHightOffset": 2.5,
+        "MinTurningRadius": 5.7,
+        "FrontTireWidthMax": 265,
+        "RearTireWidthMax": 275
       }
     }
   }

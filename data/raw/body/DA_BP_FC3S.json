@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::RE",
         "EngineFromat": "EEngineFromat::E_13B",
         "EngineInspiration": "ECarIceAspirationType::Turbo",
-        "displacement": 1308,
+        "Displacement": 1308,
         "MaxPower": 215,
         "MaxPowerRpm": 6500,
         "MaxTorque": 28.0,
@@ -52,6 +52,7 @@
         "RSuspension": "ERSuspension::MULTI_LINK",
         "Cd": 0.32,
         "Cl": 0.008,
+        "RearDriveRate": 1.0,
         "EngineFormatName": "13B",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -74,7 +75,8 @@
           "LocalizedString": "SAVANNA RX-7 INFINI (FC3S) '90"
         },
         "RHLOpenAngle": 42.432,
-        "MaxHightOffset": 2.5
+        "MaxHightOffset": 2.5,
+        "MinTurningRadius": 4.9
       }
     }
   }
