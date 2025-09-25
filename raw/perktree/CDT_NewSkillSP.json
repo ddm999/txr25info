@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "CompositeDataTable",
+    "Name": "CDT_NewSkillSP",
+    "Class": "UScriptClass'CompositeDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParentTables": [
+        {
+          "ObjectName": "DataTable'DT_NewSkillSP0'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Skill/DT_NewSkillSP0.0"
+        },
+        {
+          "ObjectName": "DataTable'DT_NewSkillSP1'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Skill/DT_NewSkillSP1.0"
+        }
+      ],
+      "RowStruct": {
+        "ObjectName": "Class'SSkillTree'",
+        "ObjectPath": "/Script/TokyoXtremeRacer"
+      }
+    },
+    "Rows": {}
+  }
+]

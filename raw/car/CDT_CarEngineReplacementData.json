@@ -1,0 +1,630 @@
+[
+  {
+    "Type": "CompositeDataTable",
+    "Name": "CDT_CarEngineReplacementData",
+    "Class": "UScriptClass'CompositeDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParentTables": [
+        {
+          "ObjectName": "DataTable'DT_CarEngineReplacementData1'",
+          "ObjectPath": "/Game/ITSB/car/DataTable/DT_CarEngineReplacementData1.0"
+        }
+      ],
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'SCarEngineReplacementData'",
+        "ObjectPath": "/Game/ITSB/car/DataTable/SCarEngineReplacementData.0"
+      }
+    },
+    "Rows": {
+      "EgRp_2JZ_GTE": {
+        "engine_parameter_3_F1188BB64D8FA0C4F4C4E4B881400E50": {
+          "ObjectName": "InternalMethodEngineDataAsset'DA_PU_EgRp_2JZ_GTE'",
+          "ObjectPath": "/Game/ITSB/car/DataAsset/Parameters/PU/1/DA_PU_EgRp_2JZ_GTE.0"
+        },
+        "price_6_C38C7CD5427CD31FBE33D9BB16D515ED": 1700000,
+        "max_torque_9_5EFEAC4748C25606F4B71083E5414EA9": 46,
+        "max_torque_rpm_11_6C83FB5E4483A19769C0F5AB8519B23F": 3600,
+        "max_power_13_36270E7E4981451E03B226AAE49EF2C6": 280,
+        "max_power_rpm_15_E4AF32CE42CB8A8D710E5FA9D7552C78": 5600,
+        "weight_17_09119A1F48F1D93A55546C98E3D2A9A8": 95,
+        "displacement_19_7F3A721D49E9AD00083C23AB2D3955E4": 2997,
+        "engine_kind_22_686E8A054B680005D2D2E197E6114E29": "EEngineKind::Straight6",
+        "aspiration_type_25_81A458964AADDF0CF3FAD9A418951226": "ECarIceAspirationType::Turbo",
+        "engine_name_28_180278A64315FC7B9CE53ABFAA62A79D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_Tune.ST_Tune",
+          "Key": "Str_UI_Tune_124",
+          "SourceString": "T式 L6 Turbo",
+          "LocalizedString": "T-type L6 Turbo"
+        },
+        "is_user_30_F626612748F46E5C40968CA8031BFCD4": true,
+        "engine_info_36_00CB92B14E24F2E3F3B632A9CB0CB1EB": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_Tune.ST_Tune",
+          "Key": "Str_UI_Tune_130",
+          "SourceString": "チューンド直列6気筒ターボエンジンに換装します。\r\n3.0Lの排気量とツインターボにより、\r\n最大出力280PS/5600rpmを出す。",
+          "LocalizedString": "Replace with tuned inline 6-cylinder turbo engine. \r\nWith displacement of 3.0L & twin turbo, it produces \r\nmax output of 280PS at 5600rpm."
+        }
+      },
+      "EgRp_20B": {
+        "engine_parameter_3_F1188BB64D8FA0C4F4C4E4B881400E50": {
+          "ObjectName": "InternalMethodEngineDataAsset'DA_PU_EgRp_20B'",
+          "ObjectPath": "/Game/ITSB/car/DataAsset/Parameters/PU/1/DA_PU_EgRp_20B.0"
+        },
+        "price_6_C38C7CD5427CD31FBE33D9BB16D515ED": 1700000,
+        "max_torque_9_5EFEAC4748C25606F4B71083E5414EA9": 41,
+        "max_torque_rpm_11_6C83FB5E4483A19769C0F5AB8519B23F": 3000,
+        "max_power_13_36270E7E4981451E03B226AAE49EF2C6": 280,
+        "max_power_rpm_15_E4AF32CE42CB8A8D710E5FA9D7552C78": 6500,
+        "weight_17_09119A1F48F1D93A55546C98E3D2A9A8": 96,
+        "displacement_19_7F3A721D49E9AD00083C23AB2D3955E4": 1962,
+        "engine_kind_22_686E8A054B680005D2D2E197E6114E29": "EEngineKind::RE",
+        "aspiration_type_25_81A458964AADDF0CF3FAD9A418951226": "ECarIceAspirationType::Turbo",
+        "engine_name_28_180278A64315FC7B9CE53ABFAA62A79D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_Tune.ST_Tune",
+          "Key": "Str_UI_Tune_127",
+          "SourceString": "M式 RE Turbo",
+          "LocalizedString": "M-type RE Turbo"
+        },
+        "is_user_30_F626612748F46E5C40968CA8031BFCD4": true,
+        "engine_info_36_00CB92B14E24F2E3F3B632A9CB0CB1EB": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_Tune.ST_Tune",
+          "Key": "Str_UI_Tune_133",
+          "SourceString": "チューンドロータリーターボエンジンに換装します。\r\n3ローターで、2.0Lの排気量により\r\n最大出力280PS/6500rpmを出す。",
+          "LocalizedString": "Replace with tuned rotary turbo engine. \r\nWith 3 rotors & displacement of 2.0L, it produces \r\nmax output of 280PS at 6500rpm."
+        }
+      },
+      "EgRp_RB26DETT": {
+        "engine_parameter_3_F1188BB64D8FA0C4F4C4E4B881400E50": {
+          "ObjectName": "InternalMethodEngineDataAsset'DA_PU_EgRp_RB26DETT'",
+          "ObjectPath": "/Game/ITSB/car/DataAsset/Parameters/PU/1/DA_PU_EgRp_RB26DETT.0"
+        },
+        "price_6_C38C7CD5427CD31FBE33D9BB16D515ED": 2000000,
+        "max_torque_9_5EFEAC4748C25606F4B71083E5414EA9": 40,
+        "max_torque_rpm_11_6C83FB5E4483A19769C0F5AB8519B23F": 4400,
+        "max_power_13_36270E7E4981451E03B226AAE49EF2C6": 280,
+        "max_power_rpm_15_E4AF32CE42CB8A8D710E5FA9D7552C78": 6800,
+        "weight_17_09119A1F48F1D93A55546C98E3D2A9A8": 94,
+        "displacement_19_7F3A721D49E9AD00083C23AB2D3955E4": 2568,
+        "engine_kind_22_686E8A054B680005D2D2E197E6114E29": "EEngineKind::Straight6",
+        "aspiration_type_25_81A458964AADDF0CF3FAD9A418951226": "ECarIceAspirationType::Turbo",
+        "engine_name_28_180278A64315FC7B9CE53ABFAA62A79D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_Tune.ST_Tune",
+          "Key": "Str_UI_Tune_123",
+          "SourceString": "N式 L6 Turbo",
+          "LocalizedString": "N-type L6 Turbo"
+        },
+        "is_user_30_F626612748F46E5C40968CA8031BFCD4": true,
+        "engine_info_36_00CB92B14E24F2E3F3B632A9CB0CB1EB": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_Tune.ST_Tune",
+          "Key": "Str_UI_Tune_129",
+          "SourceString": "チューンド直列6気筒ターボエンジンに換装します。\r\n2.6Lの排気量とツインターボにより、\r\n最大出力280PS/6800rpmを出す。",
+          "LocalizedString": "Replace with tuned inline 6-cylinder turbo engine. \r\nWith displacement of 2.6L & twin turbo, it produces \r\nmax output of 280PS at 6800rpm."
+        }
+      },
+      "EgRp_JNC": {
+        "engine_parameter_3_F1188BB64D8FA0C4F4C4E4B881400E50": {
+          "ObjectName": "InternalMethodEngineDataAsset'DA_PU_EgRp_JNC'",
+          "ObjectPath": "/Game/ITSB/car/DataAsset/Parameters/PU/1/DA_PU_EgRp_JNC.0"
+        },
+        "price_6_C38C7CD5427CD31FBE33D9BB16D515ED": 10000000,
+        "max_torque_9_5EFEAC4748C25606F4B71083E5414EA9": 61,
+        "max_torque_rpm_11_6C83FB5E4483A19769C0F5AB8519B23F": 6000,
+        "max_power_13_36270E7E4981451E03B226AAE49EF2C6": 529,
+        "max_power_rpm_15_E4AF32CE42CB8A8D710E5FA9D7552C78": 6850,
+        "weight_17_09119A1F48F1D93A55546C98E3D2A9A8": 99,
+        "displacement_19_7F3A721D49E9AD00083C23AB2D3955E4": 3492,
+        "engine_kind_22_686E8A054B680005D2D2E197E6114E29": "EEngineKind::V6",
+        "aspiration_type_25_81A458964AADDF0CF3FAD9A418951226": "ECarIceAspirationType::Turbo",
+        "engine_name_28_180278A64315FC7B9CE53ABFAA62A79D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_Tune.ST_Tune",
+          "Key": "Str_UI_Tune_171",
+          "SourceString": "H式 V6 Turbo",
+          "LocalizedString": "H-type V6 Turbo"
+        },
+        "is_user_30_F626612748F46E5C40968CA8031BFCD4": true,
+        "engine_info_36_00CB92B14E24F2E3F3B632A9CB0CB1EB": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_Tune.ST_Tune",
+          "Key": "Str_UI_Tune_173",
+          "SourceString": "チューンドV型6気筒ターボエンジンに換装します。\r\n3.5Lの排気量とツインターボにより、\r\n最大出力529PS/6850rpmを出す。",
+          "LocalizedString": "Replace with tuned V6 turbo engine. \r\nWith displacement of 1.5L & twin turbo, it produces \r\nmax output of 529PS at 6850rpm."
+        }
+      },
+      "EgRp_VR38DETT": {
+        "engine_parameter_3_F1188BB64D8FA0C4F4C4E4B881400E50": {
+          "ObjectName": "InternalMethodEngineDataAsset'DA_PU_EgRp_VR38DETT'",
+          "ObjectPath": "/Game/ITSB/car/DataAsset/Parameters/PU/1/DA_PU_EgRp_VR38DETT.0"
+        },
+        "price_6_C38C7CD5427CD31FBE33D9BB16D515ED": 10000000,
+        "max_torque_9_5EFEAC4748C25606F4B71083E5414EA9": 65,
+        "max_torque_rpm_11_6C83FB5E4483A19769C0F5AB8519B23F": 5800,
+        "max_power_13_36270E7E4981451E03B226AAE49EF2C6": 570,
+        "max_power_rpm_15_E4AF32CE42CB8A8D710E5FA9D7552C78": 6800,
+        "weight_17_09119A1F48F1D93A55546C98E3D2A9A8": 97,
+        "displacement_19_7F3A721D49E9AD00083C23AB2D3955E4": 3799,
+        "engine_kind_22_686E8A054B680005D2D2E197E6114E29": "EEngineKind::V6",
+        "aspiration_type_25_81A458964AADDF0CF3FAD9A418951226": "ECarIceAspirationType::Turbo",
+        "engine_name_28_180278A64315FC7B9CE53ABFAA62A79D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_Tune.ST_Tune",
+          "Key": "Str_UI_Tune_126",
+          "SourceString": "N式 V6 Turbo",
+          "LocalizedString": "N-type V6 Turbo"
+        },
+        "is_user_30_F626612748F46E5C40968CA8031BFCD4": true,
+        "engine_info_36_00CB92B14E24F2E3F3B632A9CB0CB1EB": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_Tune.ST_Tune",
+          "Key": "Str_UI_Tune_132",
+          "SourceString": "チューンドV型6気筒ターボエンジンに換装します。\r\n3.8Lの排気量とツインターボにより、\r\n最大出力570PS/6800rpmを出す。",
+          "LocalizedString": "Replace with tuned V6 turbo engine. \r\nWith displacement of 3.8L & twin turbo, it produces \r\nmax output of 570PS at 6800rpm."
+        }
+      },
+      "EgRp_1LR-GUE": {
+        "engine_parameter_3_F1188BB64D8FA0C4F4C4E4B881400E50": {
+          "ObjectName": "InternalMethodEngineDataAsset'DA_PU_EgRp_1LR-GUE'",
+          "ObjectPath": "/Game/ITSB/car/DataAsset/Parameters/PU/1/DA_PU_EgRp_1LR-GUE.0"
+        },
+        "price_6_C38C7CD5427CD31FBE33D9BB16D515ED": 12500000,
+        "max_torque_9_5EFEAC4748C25606F4B71083E5414EA9": 48,
+        "max_torque_rpm_11_6C83FB5E4483A19769C0F5AB8519B23F": 7000,
+        "max_power_13_36270E7E4981451E03B226AAE49EF2C6": 560,
+        "max_power_rpm_15_E4AF32CE42CB8A8D710E5FA9D7552C78": 8700,
+        "weight_17_09119A1F48F1D93A55546C98E3D2A9A8": 98,
+        "displacement_19_7F3A721D49E9AD00083C23AB2D3955E4": 4805,
+        "engine_kind_22_686E8A054B680005D2D2E197E6114E29": "EEngineKind::V10",
+        "aspiration_type_25_81A458964AADDF0CF3FAD9A418951226": "ECarIceAspirationType::NA",
+        "engine_name_28_180278A64315FC7B9CE53ABFAA62A79D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_Tune.ST_Tune",
+          "Key": "Str_UI_Tune_172",
+          "SourceString": "L式 V10 NA",
+          "LocalizedString": "L-type V10 NA"
+        },
+        "is_user_30_F626612748F46E5C40968CA8031BFCD4": true,
+        "engine_info_36_00CB92B14E24F2E3F3B632A9CB0CB1EB": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_Tune.ST_Tune",
+          "Key": "Str_UI_Tune_174",
+          "SourceString": "チューンドV型10気筒NAエンジンに換装します。\r\n4.8Lの排気量により\r\n最大出力560PS/8700rpmを出す",
+          "LocalizedString": "Replace with tuned V10 naturally aspirated engine. \r\nWith displacement of 4.8L, it produces \r\nmax output of 560PS at 8700rpm."
+        }
+      },
+      "Wan_0077_ZN6EpV3": {
+        "engine_parameter_3_F1188BB64D8FA0C4F4C4E4B881400E50": {
+          "ObjectName": "InternalMethodEngineDataAsset'DA_PU_ZN6EpV3'",
+          "ObjectPath": "/Game/ITSB/car/DataAsset/Parameters/PU/1/DA_PU_ZN6EpV3.0"
+        },
+        "price_6_C38C7CD5427CD31FBE33D9BB16D515ED": 0,
+        "max_torque_9_5EFEAC4748C25606F4B71083E5414EA9": 20,
+        "max_torque_rpm_11_6C83FB5E4483A19769C0F5AB8519B23F": 6600,
+        "max_power_13_36270E7E4981451E03B226AAE49EF2C6": 200,
+        "max_power_rpm_15_E4AF32CE42CB8A8D710E5FA9D7552C78": 7000,
+        "weight_17_09119A1F48F1D93A55546C98E3D2A9A8": 100,
+        "displacement_19_7F3A721D49E9AD00083C23AB2D3955E4": 1998,
+        "engine_kind_22_686E8A054B680005D2D2E197E6114E29": "EEngineKind::Flat4",
+        "aspiration_type_25_81A458964AADDF0CF3FAD9A418951226": "ECarIceAspirationType::NA",
+        "engine_name_28_180278A64315FC7B9CE53ABFAA62A79D": {
+          "CultureInvariantString": null
+        },
+        "is_user_30_F626612748F46E5C40968CA8031BFCD4": false,
+        "engine_info_36_00CB92B14E24F2E3F3B632A9CB0CB1EB": {
+          "CultureInvariantString": null
+        }
+      },
+      "Boss_0036_ZC6EpUR": {
+        "engine_parameter_3_F1188BB64D8FA0C4F4C4E4B881400E50": {
+          "ObjectName": "InternalMethodEngineDataAsset'DA_PU_ZC6EpUR'",
+          "ObjectPath": "/Game/ITSB/car/DataAsset/Parameters/PU/1/DA_PU_ZC6EpUR.0"
+        },
+        "price_6_C38C7CD5427CD31FBE33D9BB16D515ED": 0,
+        "max_torque_9_5EFEAC4748C25606F4B71083E5414EA9": 21,
+        "max_torque_rpm_11_6C83FB5E4483A19769C0F5AB8519B23F": 6800,
+        "max_power_13_36270E7E4981451E03B226AAE49EF2C6": 207,
+        "max_power_rpm_15_E4AF32CE42CB8A8D710E5FA9D7552C78": 7000,
+        "weight_17_09119A1F48F1D93A55546C98E3D2A9A8": 102,
+        "displacement_19_7F3A721D49E9AD00083C23AB2D3955E4": 1998,
+        "engine_kind_22_686E8A054B680005D2D2E197E6114E29": "EEngineKind::Flat4",
+        "aspiration_type_25_81A458964AADDF0CF3FAD9A418951226": "ECarIceAspirationType::NA",
+        "engine_name_28_180278A64315FC7B9CE53ABFAA62A79D": {
+          "CultureInvariantString": null
+        },
+        "is_user_30_F626612748F46E5C40968CA8031BFCD4": false,
+        "engine_info_36_00CB92B14E24F2E3F3B632A9CB0CB1EB": {
+          "CultureInvariantString": null
+        }
+      },
+      "Rival_0333_KPGC10EpBP": {
+        "engine_parameter_3_F1188BB64D8FA0C4F4C4E4B881400E50": {
+          "ObjectName": "InternalMethodEngineDataAsset'DA_PU_KPGC10EpBP'",
+          "ObjectPath": "/Game/ITSB/car/DataAsset/Parameters/PU/1/DA_PU_KPGC10EpBP.0"
+        },
+        "price_6_C38C7CD5427CD31FBE33D9BB16D515ED": 0,
+        "max_torque_9_5EFEAC4748C25606F4B71083E5414EA9": 18,
+        "max_torque_rpm_11_6C83FB5E4483A19769C0F5AB8519B23F": 5600,
+        "max_power_13_36270E7E4981451E03B226AAE49EF2C6": 160,
+        "max_power_rpm_15_E4AF32CE42CB8A8D710E5FA9D7552C78": 7000,
+        "weight_17_09119A1F48F1D93A55546C98E3D2A9A8": 103,
+        "displacement_19_7F3A721D49E9AD00083C23AB2D3955E4": 1989,
+        "engine_kind_22_686E8A054B680005D2D2E197E6114E29": "EEngineKind::Straight6",
+        "aspiration_type_25_81A458964AADDF0CF3FAD9A418951226": "ECarIceAspirationType::NA",
+        "engine_name_28_180278A64315FC7B9CE53ABFAA62A79D": {
+          "CultureInvariantString": null
+        },
+        "is_user_30_F626612748F46E5C40968CA8031BFCD4": false,
+        "engine_info_36_00CB92B14E24F2E3F3B632A9CB0CB1EB": {
+          "CultureInvariantString": null
+        }
+      },
+      "Wan_0038_JW5EpSU": {
+        "engine_parameter_3_F1188BB64D8FA0C4F4C4E4B881400E50": {
+          "ObjectName": "InternalMethodEngineDataAsset'DA_PU_JW5EpSU'",
+          "ObjectPath": "/Game/ITSB/car/DataAsset/Parameters/PU/1/DA_PU_JW5EpSU.0"
+        },
+        "price_6_C38C7CD5427CD31FBE33D9BB16D515ED": 0,
+        "max_torque_9_5EFEAC4748C25606F4B71083E5414EA9": 19,
+        "max_torque_rpm_11_6C83FB5E4483A19769C0F5AB8519B23F": 6200,
+        "max_power_13_36270E7E4981451E03B226AAE49EF2C6": 200,
+        "max_power_rpm_15_E4AF32CE42CB8A8D710E5FA9D7552C78": 8000,
+        "weight_17_09119A1F48F1D93A55546C98E3D2A9A8": 104,
+        "displacement_19_7F3A721D49E9AD00083C23AB2D3955E4": 1797,
+        "engine_kind_22_686E8A054B680005D2D2E197E6114E29": "EEngineKind::Straight4",
+        "aspiration_type_25_81A458964AADDF0CF3FAD9A418951226": "ECarIceAspirationType::NA",
+        "engine_name_28_180278A64315FC7B9CE53ABFAA62A79D": {
+          "CultureInvariantString": null
+        },
+        "is_user_30_F626612748F46E5C40968CA8031BFCD4": false,
+        "engine_info_36_00CB92B14E24F2E3F3B632A9CB0CB1EB": {
+          "CultureInvariantString": null
+        }
+      },
+      "Boss_0039_JW5EpSU": {
+        "engine_parameter_3_F1188BB64D8FA0C4F4C4E4B881400E50": {
+          "ObjectName": "InternalMethodEngineDataAsset'DA_PU_JW5EpSU'",
+          "ObjectPath": "/Game/ITSB/car/DataAsset/Parameters/PU/1/DA_PU_JW5EpSU.0"
+        },
+        "price_6_C38C7CD5427CD31FBE33D9BB16D515ED": 0,
+        "max_torque_9_5EFEAC4748C25606F4B71083E5414EA9": 19,
+        "max_torque_rpm_11_6C83FB5E4483A19769C0F5AB8519B23F": 6200,
+        "max_power_13_36270E7E4981451E03B226AAE49EF2C6": 200,
+        "max_power_rpm_15_E4AF32CE42CB8A8D710E5FA9D7552C78": 8000,
+        "weight_17_09119A1F48F1D93A55546C98E3D2A9A8": 105,
+        "displacement_19_7F3A721D49E9AD00083C23AB2D3955E4": 1797,
+        "engine_kind_22_686E8A054B680005D2D2E197E6114E29": "EEngineKind::Straight4",
+        "aspiration_type_25_81A458964AADDF0CF3FAD9A418951226": "ECarIceAspirationType::NA",
+        "engine_name_28_180278A64315FC7B9CE53ABFAA62A79D": {
+          "CultureInvariantString": null
+        },
+        "is_user_30_F626612748F46E5C40968CA8031BFCD4": false,
+        "engine_info_36_00CB92B14E24F2E3F3B632A9CB0CB1EB": {
+          "CultureInvariantString": null
+        }
+      },
+      "Boss_0040_GDBAEpDS": {
+        "engine_parameter_3_F1188BB64D8FA0C4F4C4E4B881400E50": {
+          "ObjectName": "InternalMethodEngineDataAsset'DA_PU_GDBAEpDS'",
+          "ObjectPath": "/Game/ITSB/car/DataAsset/Parameters/PU/1/DA_PU_GDBAEpDS.0"
+        },
+        "price_6_C38C7CD5427CD31FBE33D9BB16D515ED": 0,
+        "max_torque_9_5EFEAC4748C25606F4B71083E5414EA9": 38,
+        "max_torque_rpm_11_6C83FB5E4483A19769C0F5AB8519B23F": 4000,
+        "max_power_13_36270E7E4981451E03B226AAE49EF2C6": 280,
+        "max_power_rpm_15_E4AF32CE42CB8A8D710E5FA9D7552C78": 6400,
+        "weight_17_09119A1F48F1D93A55546C98E3D2A9A8": 106,
+        "displacement_19_7F3A721D49E9AD00083C23AB2D3955E4": 1994,
+        "engine_kind_22_686E8A054B680005D2D2E197E6114E29": "EEngineKind::Flat4",
+        "aspiration_type_25_81A458964AADDF0CF3FAD9A418951226": "ECarIceAspirationType::Turbo",
+        "engine_name_28_180278A64315FC7B9CE53ABFAA62A79D": {
+          "CultureInvariantString": null
+        },
+        "is_user_30_F626612748F46E5C40968CA8031BFCD4": false,
+        "engine_info_36_00CB92B14E24F2E3F3B632A9CB0CB1EB": {
+          "CultureInvariantString": null
+        }
+      },
+      "Boss_0041_BNR32EpDG": {
+        "engine_parameter_3_F1188BB64D8FA0C4F4C4E4B881400E50": {
+          "ObjectName": "InternalMethodEngineDataAsset'DA_PU_BNR32EpDG'",
+          "ObjectPath": "/Game/ITSB/car/DataAsset/Parameters/PU/1/DA_PU_BNR32EpDG.0"
+        },
+        "price_6_C38C7CD5427CD31FBE33D9BB16D515ED": 0,
+        "max_torque_9_5EFEAC4748C25606F4B71083E5414EA9": 36,
+        "max_torque_rpm_11_6C83FB5E4483A19769C0F5AB8519B23F": 4400,
+        "max_power_13_36270E7E4981451E03B226AAE49EF2C6": 280,
+        "max_power_rpm_15_E4AF32CE42CB8A8D710E5FA9D7552C78": 6800,
+        "weight_17_09119A1F48F1D93A55546C98E3D2A9A8": 107,
+        "displacement_19_7F3A721D49E9AD00083C23AB2D3955E4": 2568,
+        "engine_kind_22_686E8A054B680005D2D2E197E6114E29": "EEngineKind::Straight6",
+        "aspiration_type_25_81A458964AADDF0CF3FAD9A418951226": "ECarIceAspirationType::Turbo",
+        "engine_name_28_180278A64315FC7B9CE53ABFAA62A79D": {
+          "CultureInvariantString": null
+        },
+        "is_user_30_F626612748F46E5C40968CA8031BFCD4": false,
+        "engine_info_36_00CB92B14E24F2E3F3B632A9CB0CB1EB": {
+          "CultureInvariantString": null
+        }
+      },
+      "Wan_0049_B_ZD8EpHY2": {
+        "engine_parameter_3_F1188BB64D8FA0C4F4C4E4B881400E50": {
+          "ObjectName": "InternalMethodEngineDataAsset'DA_PU_ZD8EpHY2'",
+          "ObjectPath": "/Game/ITSB/car/DataAsset/Parameters/PU/1/DA_PU_ZD8EpHY2.0"
+        },
+        "price_6_C38C7CD5427CD31FBE33D9BB16D515ED": 0,
+        "max_torque_9_5EFEAC4748C25606F4B71083E5414EA9": 25,
+        "max_torque_rpm_11_6C83FB5E4483A19769C0F5AB8519B23F": 3700,
+        "max_power_13_36270E7E4981451E03B226AAE49EF2C6": 235,
+        "max_power_rpm_15_E4AF32CE42CB8A8D710E5FA9D7552C78": 7000,
+        "weight_17_09119A1F48F1D93A55546C98E3D2A9A8": 108,
+        "displacement_19_7F3A721D49E9AD00083C23AB2D3955E4": 2387,
+        "engine_kind_22_686E8A054B680005D2D2E197E6114E29": "EEngineKind::Flat4",
+        "aspiration_type_25_81A458964AADDF0CF3FAD9A418951226": "ECarIceAspirationType::NA",
+        "engine_name_28_180278A64315FC7B9CE53ABFAA62A79D": {
+          "CultureInvariantString": null
+        },
+        "is_user_30_F626612748F46E5C40968CA8031BFCD4": false,
+        "engine_info_36_00CB92B14E24F2E3F3B632A9CB0CB1EB": {
+          "CultureInvariantString": null
+        }
+      },
+      "Boss_0037_AP1EpOD": {
+        "engine_parameter_3_F1188BB64D8FA0C4F4C4E4B881400E50": {
+          "ObjectName": "InternalMethodEngineDataAsset'DA_PU_AP1EpOD'",
+          "ObjectPath": "/Game/ITSB/car/DataAsset/Parameters/PU/1/DA_PU_AP1EpOD.0"
+        },
+        "price_6_C38C7CD5427CD31FBE33D9BB16D515ED": 0,
+        "max_torque_9_5EFEAC4748C25606F4B71083E5414EA9": 22,
+        "max_torque_rpm_11_6C83FB5E4483A19769C0F5AB8519B23F": 7500,
+        "max_power_13_36270E7E4981451E03B226AAE49EF2C6": 250,
+        "max_power_rpm_15_E4AF32CE42CB8A8D710E5FA9D7552C78": 8300,
+        "weight_17_09119A1F48F1D93A55546C98E3D2A9A8": 109,
+        "displacement_19_7F3A721D49E9AD00083C23AB2D3955E4": 1997,
+        "engine_kind_22_686E8A054B680005D2D2E197E6114E29": "EEngineKind::Straight4",
+        "aspiration_type_25_81A458964AADDF0CF3FAD9A418951226": "ECarIceAspirationType::NA",
+        "engine_name_28_180278A64315FC7B9CE53ABFAA62A79D": {
+          "CultureInvariantString": null
+        },
+        "is_user_30_F626612748F46E5C40968CA8031BFCD4": false,
+        "engine_info_36_00CB92B14E24F2E3F3B632A9CB0CB1EB": {
+          "CultureInvariantString": null
+        }
+      },
+      "MAZDA_FD3S": {
+        "engine_parameter_3_F1188BB64D8FA0C4F4C4E4B881400E50": {
+          "ObjectName": "InternalMethodEngineDataAsset'DA_PU_FD3S'",
+          "ObjectPath": "/Game/ITSB/car/DataAsset/Parameters/PU/0/DA_PU_FD3S.0"
+        },
+        "price_6_C38C7CD5427CD31FBE33D9BB16D515ED": 0,
+        "max_torque_9_5EFEAC4748C25606F4B71083E5414EA9": 32,
+        "max_torque_rpm_11_6C83FB5E4483A19769C0F5AB8519B23F": 5000,
+        "max_power_13_36270E7E4981451E03B226AAE49EF2C6": 280,
+        "max_power_rpm_15_E4AF32CE42CB8A8D710E5FA9D7552C78": 6500,
+        "weight_17_09119A1F48F1D93A55546C98E3D2A9A8": 110,
+        "displacement_19_7F3A721D49E9AD00083C23AB2D3955E4": 1308,
+        "engine_kind_22_686E8A054B680005D2D2E197E6114E29": "EEngineKind::RE",
+        "aspiration_type_25_81A458964AADDF0CF3FAD9A418951226": "ECarIceAspirationType::Turbo",
+        "engine_name_28_180278A64315FC7B9CE53ABFAA62A79D": {
+          "CultureInvariantString": null
+        },
+        "is_user_30_F626612748F46E5C40968CA8031BFCD4": false,
+        "engine_info_36_00CB92B14E24F2E3F3B632A9CB0CB1EB": {
+          "CultureInvariantString": null
+        }
+      },
+      "MITSUBISHI_CZ4A": {
+        "engine_parameter_3_F1188BB64D8FA0C4F4C4E4B881400E50": {
+          "ObjectName": "InternalMethodEngineDataAsset'DA_PU_CZ4A'",
+          "ObjectPath": "/Game/ITSB/car/DataAsset/Parameters/PU/0/DA_PU_CZ4A.0"
+        },
+        "price_6_C38C7CD5427CD31FBE33D9BB16D515ED": 0,
+        "max_torque_9_5EFEAC4748C25606F4B71083E5414EA9": 43,
+        "max_torque_rpm_11_6C83FB5E4483A19769C0F5AB8519B23F": 3500,
+        "max_power_13_36270E7E4981451E03B226AAE49EF2C6": 313,
+        "max_power_rpm_15_E4AF32CE42CB8A8D710E5FA9D7552C78": 6500,
+        "weight_17_09119A1F48F1D93A55546C98E3D2A9A8": 111,
+        "displacement_19_7F3A721D49E9AD00083C23AB2D3955E4": 1998,
+        "engine_kind_22_686E8A054B680005D2D2E197E6114E29": "EEngineKind::Straight4",
+        "aspiration_type_25_81A458964AADDF0CF3FAD9A418951226": "ECarIceAspirationType::Turbo",
+        "engine_name_28_180278A64315FC7B9CE53ABFAA62A79D": {
+          "CultureInvariantString": null
+        },
+        "is_user_30_F626612748F46E5C40968CA8031BFCD4": false,
+        "engine_info_36_00CB92B14E24F2E3F3B632A9CB0CB1EB": {
+          "CultureInvariantString": null
+        }
+      },
+      "SUBARU_VBH": {
+        "engine_parameter_3_F1188BB64D8FA0C4F4C4E4B881400E50": {
+          "ObjectName": "InternalMethodEngineDataAsset'DA_PU_VBH'",
+          "ObjectPath": "/Game/ITSB/car/DataAsset/Parameters/PU/1/DA_PU_VBH.0"
+        },
+        "price_6_C38C7CD5427CD31FBE33D9BB16D515ED": 0,
+        "max_torque_9_5EFEAC4748C25606F4B71083E5414EA9": 38,
+        "max_torque_rpm_11_6C83FB5E4483A19769C0F5AB8519B23F": 4800,
+        "max_power_13_36270E7E4981451E03B226AAE49EF2C6": 275,
+        "max_power_rpm_15_E4AF32CE42CB8A8D710E5FA9D7552C78": 5600,
+        "weight_17_09119A1F48F1D93A55546C98E3D2A9A8": 112,
+        "displacement_19_7F3A721D49E9AD00083C23AB2D3955E4": 2387,
+        "engine_kind_22_686E8A054B680005D2D2E197E6114E29": "EEngineKind::Flat4",
+        "aspiration_type_25_81A458964AADDF0CF3FAD9A418951226": "ECarIceAspirationType::Turbo",
+        "engine_name_28_180278A64315FC7B9CE53ABFAA62A79D": {
+          "CultureInvariantString": null
+        },
+        "is_user_30_F626612748F46E5C40968CA8031BFCD4": false,
+        "engine_info_36_00CB92B14E24F2E3F3B632A9CB0CB1EB": {
+          "CultureInvariantString": null
+        }
+      },
+      "SUZUKI_ZC33S": {
+        "engine_parameter_3_F1188BB64D8FA0C4F4C4E4B881400E50": {
+          "ObjectName": "InternalMethodEngineDataAsset'DA_PU_ZC33S'",
+          "ObjectPath": "/Game/ITSB/car/DataAsset/Parameters/PU/0/DA_PU_ZC33S.0"
+        },
+        "price_6_C38C7CD5427CD31FBE33D9BB16D515ED": 0,
+        "max_torque_9_5EFEAC4748C25606F4B71083E5414EA9": 23,
+        "max_torque_rpm_11_6C83FB5E4483A19769C0F5AB8519B23F": 3500,
+        "max_power_13_36270E7E4981451E03B226AAE49EF2C6": 140,
+        "max_power_rpm_15_E4AF32CE42CB8A8D710E5FA9D7552C78": 5500,
+        "weight_17_09119A1F48F1D93A55546C98E3D2A9A8": 113,
+        "displacement_19_7F3A721D49E9AD00083C23AB2D3955E4": 1371,
+        "engine_kind_22_686E8A054B680005D2D2E197E6114E29": "EEngineKind::Straight4",
+        "aspiration_type_25_81A458964AADDF0CF3FAD9A418951226": "ECarIceAspirationType::Turbo",
+        "engine_name_28_180278A64315FC7B9CE53ABFAA62A79D": {
+          "CultureInvariantString": null
+        },
+        "is_user_30_F626612748F46E5C40968CA8031BFCD4": false,
+        "engine_info_36_00CB92B14E24F2E3F3B632A9CB0CB1EB": {
+          "CultureInvariantString": null
+        }
+      },
+      "TOYOTA_DB06": {
+        "engine_parameter_3_F1188BB64D8FA0C4F4C4E4B881400E50": {
+          "ObjectName": "InternalMethodEngineDataAsset'DA_PU_DB06'",
+          "ObjectPath": "/Game/ITSB/car/DataAsset/Parameters/PU/1/DA_PU_DB06.0"
+        },
+        "price_6_C38C7CD5427CD31FBE33D9BB16D515ED": 0,
+        "max_torque_9_5EFEAC4748C25606F4B71083E5414EA9": 51,
+        "max_torque_rpm_11_6C83FB5E4483A19769C0F5AB8519B23F": 5000,
+        "max_power_13_36270E7E4981451E03B226AAE49EF2C6": 387,
+        "max_power_rpm_15_E4AF32CE42CB8A8D710E5FA9D7552C78": 5800,
+        "weight_17_09119A1F48F1D93A55546C98E3D2A9A8": 114,
+        "displacement_19_7F3A721D49E9AD00083C23AB2D3955E4": 2997,
+        "engine_kind_22_686E8A054B680005D2D2E197E6114E29": "EEngineKind::Straight6",
+        "aspiration_type_25_81A458964AADDF0CF3FAD9A418951226": "ECarIceAspirationType::Turbo",
+        "engine_name_28_180278A64315FC7B9CE53ABFAA62A79D": {
+          "CultureInvariantString": null
+        },
+        "is_user_30_F626612748F46E5C40968CA8031BFCD4": false,
+        "engine_info_36_00CB92B14E24F2E3F3B632A9CB0CB1EB": {
+          "CultureInvariantString": null
+        }
+      },
+      "DAIHATSU_LA400K": {
+        "engine_parameter_3_F1188BB64D8FA0C4F4C4E4B881400E50": {
+          "ObjectName": "InternalMethodEngineDataAsset'DA_PU_LA400K'",
+          "ObjectPath": "/Game/ITSB/car/DataAsset/Parameters/PU/0/DA_PU_LA400K.0"
+        },
+        "price_6_C38C7CD5427CD31FBE33D9BB16D515ED": 0,
+        "max_torque_9_5EFEAC4748C25606F4B71083E5414EA9": 9,
+        "max_torque_rpm_11_6C83FB5E4483A19769C0F5AB8519B23F": 3200,
+        "max_power_13_36270E7E4981451E03B226AAE49EF2C6": 64,
+        "max_power_rpm_15_E4AF32CE42CB8A8D710E5FA9D7552C78": 6400,
+        "weight_17_09119A1F48F1D93A55546C98E3D2A9A8": 115,
+        "displacement_19_7F3A721D49E9AD00083C23AB2D3955E4": 658,
+        "engine_kind_22_686E8A054B680005D2D2E197E6114E29": "EEngineKind::Straight3",
+        "aspiration_type_25_81A458964AADDF0CF3FAD9A418951226": "ECarIceAspirationType::Turbo",
+        "engine_name_28_180278A64315FC7B9CE53ABFAA62A79D": {
+          "CultureInvariantString": null
+        },
+        "is_user_30_F626612748F46E5C40968CA8031BFCD4": false,
+        "engine_info_36_00CB92B14E24F2E3F3B632A9CB0CB1EB": {
+          "CultureInvariantString": null
+        }
+      },
+      "Honda_NC1M": {
+        "engine_parameter_3_F1188BB64D8FA0C4F4C4E4B881400E50": {
+          "ObjectName": "InternalMethodEngineDataAsset'DA_PU_NC1M'",
+          "ObjectPath": "/Game/ITSB/car/DataAsset/Parameters/PU/1/DA_PU_NC1M.0"
+        },
+        "price_6_C38C7CD5427CD31FBE33D9BB16D515ED": 0,
+        "max_torque_9_5EFEAC4748C25606F4B71083E5414EA9": 61,
+        "max_torque_rpm_11_6C83FB5E4483A19769C0F5AB8519B23F": 6000,
+        "max_power_13_36270E7E4981451E03B226AAE49EF2C6": 529,
+        "max_power_rpm_15_E4AF32CE42CB8A8D710E5FA9D7552C78": 6850,
+        "weight_17_09119A1F48F1D93A55546C98E3D2A9A8": 116,
+        "displacement_19_7F3A721D49E9AD00083C23AB2D3955E4": 3492,
+        "engine_kind_22_686E8A054B680005D2D2E197E6114E29": "EEngineKind::V6",
+        "aspiration_type_25_81A458964AADDF0CF3FAD9A418951226": "ECarIceAspirationType::Turbo",
+        "engine_name_28_180278A64315FC7B9CE53ABFAA62A79D": {
+          "CultureInvariantString": null
+        },
+        "is_user_30_F626612748F46E5C40968CA8031BFCD4": false,
+        "engine_info_36_00CB92B14E24F2E3F3B632A9CB0CB1EB": {
+          "CultureInvariantString": null
+        }
+      },
+      "NISSAN_R35M2": {
+        "engine_parameter_3_F1188BB64D8FA0C4F4C4E4B881400E50": {
+          "ObjectName": "InternalMethodEngineDataAsset'DA_PU_R35M2'",
+          "ObjectPath": "/Game/ITSB/car/DataAsset/Parameters/PU/1/DA_PU_R35M2.0"
+        },
+        "price_6_C38C7CD5427CD31FBE33D9BB16D515ED": 0,
+        "max_torque_9_5EFEAC4748C25606F4B71083E5414EA9": 65,
+        "max_torque_rpm_11_6C83FB5E4483A19769C0F5AB8519B23F": 5800,
+        "max_power_13_36270E7E4981451E03B226AAE49EF2C6": 570,
+        "max_power_rpm_15_E4AF32CE42CB8A8D710E5FA9D7552C78": 6800,
+        "weight_17_09119A1F48F1D93A55546C98E3D2A9A8": 117,
+        "displacement_19_7F3A721D49E9AD00083C23AB2D3955E4": 3799,
+        "engine_kind_22_686E8A054B680005D2D2E197E6114E29": "EEngineKind::V6",
+        "aspiration_type_25_81A458964AADDF0CF3FAD9A418951226": "ECarIceAspirationType::Turbo",
+        "engine_name_28_180278A64315FC7B9CE53ABFAA62A79D": {
+          "CultureInvariantString": null
+        },
+        "is_user_30_F626612748F46E5C40968CA8031BFCD4": false,
+        "engine_info_36_00CB92B14E24F2E3F3B632A9CB0CB1EB": {
+          "CultureInvariantString": null
+        }
+      },
+      "Wan_0019_S30": {
+        "engine_parameter_3_F1188BB64D8FA0C4F4C4E4B881400E50": {
+          "ObjectName": "InternalMethodEngineDataAsset'DA_PU_S30CuWN'",
+          "ObjectPath": "/Game/ITSB/car/DataAsset/Parameters/PU/1/DA_PU_S30CuWN.0"
+        },
+        "price_6_C38C7CD5427CD31FBE33D9BB16D515ED": 0,
+        "max_torque_9_5EFEAC4748C25606F4B71083E5414EA9": 65,
+        "max_torque_rpm_11_6C83FB5E4483A19769C0F5AB8519B23F": 5800,
+        "max_power_13_36270E7E4981451E03B226AAE49EF2C6": 570,
+        "max_power_rpm_15_E4AF32CE42CB8A8D710E5FA9D7552C78": 6800,
+        "weight_17_09119A1F48F1D93A55546C98E3D2A9A8": 117,
+        "displacement_19_7F3A721D49E9AD00083C23AB2D3955E4": 3799,
+        "engine_kind_22_686E8A054B680005D2D2E197E6114E29": "EEngineKind::V6",
+        "aspiration_type_25_81A458964AADDF0CF3FAD9A418951226": "ECarIceAspirationType::Turbo",
+        "engine_name_28_180278A64315FC7B9CE53ABFAA62A79D": {
+          "CultureInvariantString": null
+        },
+        "is_user_30_F626612748F46E5C40968CA8031BFCD4": false,
+        "engine_info_36_00CB92B14E24F2E3F3B632A9CB0CB1EB": {
+          "CultureInvariantString": null
+        }
+      },
+      "Wan_0041_S30": {
+        "engine_parameter_3_F1188BB64D8FA0C4F4C4E4B881400E50": {
+          "ObjectName": "InternalMethodEngineDataAsset'DA_PU_S30CuWN2'",
+          "ObjectPath": "/Game/ITSB/car/DataAsset/Parameters/PU/1/DA_PU_S30CuWN2.0"
+        },
+        "price_6_C38C7CD5427CD31FBE33D9BB16D515ED": 0,
+        "max_torque_9_5EFEAC4748C25606F4B71083E5414EA9": 65,
+        "max_torque_rpm_11_6C83FB5E4483A19769C0F5AB8519B23F": 5800,
+        "max_power_13_36270E7E4981451E03B226AAE49EF2C6": 570,
+        "max_power_rpm_15_E4AF32CE42CB8A8D710E5FA9D7552C78": 6800,
+        "weight_17_09119A1F48F1D93A55546C98E3D2A9A8": 117,
+        "displacement_19_7F3A721D49E9AD00083C23AB2D3955E4": 3799,
+        "engine_kind_22_686E8A054B680005D2D2E197E6114E29": "EEngineKind::V6",
+        "aspiration_type_25_81A458964AADDF0CF3FAD9A418951226": "ECarIceAspirationType::Turbo",
+        "engine_name_28_180278A64315FC7B9CE53ABFAA62A79D": {
+          "CultureInvariantString": null
+        },
+        "is_user_30_F626612748F46E5C40968CA8031BFCD4": false,
+        "engine_info_36_00CB92B14E24F2E3F3B632A9CB0CB1EB": {
+          "CultureInvariantString": null
+        }
+      },
+      "Wan_0025_NCP31": {
+        "engine_parameter_3_F1188BB64D8FA0C4F4C4E4B881400E50": {
+          "ObjectName": "InternalMethodEngineDataAsset'DA_PU_NCP31CuHG'",
+          "ObjectPath": "/Game/ITSB/car/DataAsset/Parameters/PU/0/DA_PU_NCP31CuHG.0"
+        },
+        "price_6_C38C7CD5427CD31FBE33D9BB16D515ED": 0,
+        "max_torque_9_5EFEAC4748C25606F4B71083E5414EA9": 28,
+        "max_torque_rpm_11_6C83FB5E4483A19769C0F5AB8519B23F": 4000,
+        "max_power_13_36270E7E4981451E03B226AAE49EF2C6": 205,
+        "max_power_rpm_15_E4AF32CE42CB8A8D710E5FA9D7552C78": 6000,
+        "weight_17_09119A1F48F1D93A55546C98E3D2A9A8": 40,
+        "displacement_19_7F3A721D49E9AD00083C23AB2D3955E4": 1998,
+        "engine_kind_22_686E8A054B680005D2D2E197E6114E29": "EEngineKind::Straight4",
+        "aspiration_type_25_81A458964AADDF0CF3FAD9A418951226": "ECarIceAspirationType::Turbo",
+        "engine_name_28_180278A64315FC7B9CE53ABFAA62A79D": {
+          "CultureInvariantString": null
+        },
+        "is_user_30_F626612748F46E5C40968CA8031BFCD4": false,
+        "engine_info_36_00CB92B14E24F2E3F3B632A9CB0CB1EB": {
+          "CultureInvariantString": null
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "CompositeDataTable",
+    "Name": "CDT_RivalAIInfo",
+    "Class": "UScriptClass'CompositeDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParentTables": [
+        {
+          "ObjectName": "DataTable'DT_RivalAIInfo0'",
+          "ObjectPath": "/Game/ITSB/Core/Rival/DT_RivalAIInfo0.0"
+        },
+        {
+          "ObjectName": "DataTable'DT_RivalAIInfo1'",
+          "ObjectPath": "/Game/ITSB/Core/Rival/DT_RivalAIInfo1.0"
+        }
+      ],
+      "RowStruct": {
+        "ObjectName": "Class'SRivalAIParameterInfo'",
+        "ObjectPath": "/Script/TokyoXtremeRacer"
+      }
+    },
+    "Rows": {}
+  }
+]

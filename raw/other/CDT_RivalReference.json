@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "CompositeDataTable",
+    "Name": "CDT_RivalReference",
+    "Class": "UScriptClass'CompositeDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParentTables": [
+        {
+          "ObjectName": "DataTable'DT_RivalReference0'",
+          "ObjectPath": "/Game/ITSB/Core/Reference/DT_RivalReference0.0"
+        },
+        {
+          "ObjectName": "DataTable'DT_RivalReference1'",
+          "ObjectPath": "/Game/ITSB/Core/Reference/DT_RivalReference1.0"
+        }
+      ],
+      "RowStruct": {
+        "ObjectName": "Class'SRivalReference'",
+        "ObjectPath": "/Script/TokyoXtremeRacer"
+      }
+    },
+    "Rows": {}
+  }
+]

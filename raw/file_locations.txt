@@ -1,0 +1,14 @@
+badname = ITSB/Core/BadName/ConditionTable
+body = ITSB/Car/DataAsset/Parameters/Body/0
+car = ITSB/Car/DataTable
+carcolor = ITSB/UI/Color/DataTables/Car/*
+core = ITSB/Core/Quest
+perktree = ITSB/UI/OutGame/Driver/DataTable/PerkTree/**
+powerunit = ITSB/Car/DataAsset/Parameters/PU/0
+rival = ITSB/Core/Rival
+wheelcolor = ITSB/UI/Color/DataTables/Wheel/*
+
+others:
+achievements = ITSB/Core/Achievements
+reference = ITSB/Core/Reference
+stats = ITSB/Core/stats

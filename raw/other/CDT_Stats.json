@@ -1,0 +1,71 @@
+[
+  {
+    "Type": "CompositeDataTable",
+    "Name": "CDT_Stats",
+    "Class": "UScriptClass'CompositeDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParentTables": [
+        {
+          "ObjectName": "DataTable'DT_Stats0'",
+          "ObjectPath": "/Game/ITSB/Core/Stats/DT_Stats0.0"
+        },
+        {
+          "ObjectName": "DataTable'DT_Stats1'",
+          "ObjectPath": "/Game/ITSB/Core/Stats/DT_Stats1.0"
+        }
+      ],
+      "RowStruct": {
+        "ObjectName": "Class'SStatsInfo'",
+        "ObjectPath": "/Script/TokyoXtremeRacer"
+      }
+    },
+    "Rows": {
+      "MaxSpeed": {
+        "StatsName": {
+          "Namespace": "",
+          "Key": "6174EA6B43435F68DCEFC6B0CA843283",
+          "SourceString": "MaxSpeed",
+          "LocalizedString": "MaxSpeed"
+        },
+        "StatsDataType": "EStatsTypeKind::ESTK_Int32",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "MAX_SPEED"
+          }
+        ]
+      },
+      "NumOfRivalDefeated": {
+        "StatsName": {
+          "Namespace": "",
+          "Key": "D9D098D54860B6721E60748FFC1061F2",
+          "SourceString": "NumOfRivalDefeated",
+          "LocalizedString": "NumOfRivalDefeated"
+        },
+        "StatsDataType": "EStatsTypeKind::ESTK_Int32",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "NUM_OF_RIVAL_DEFEATED"
+          }
+        ]
+      },
+      "TotalCumulativeAcquisitionCP": {
+        "StatsName": {
+          "Namespace": "",
+          "Key": "C1E9E6BD4235BA28A22626A434959253",
+          "SourceString": "TotalCumulativeAcquisitionCP",
+          "LocalizedString": "TotalCumulativeAcquisitionCP"
+        },
+        "StatsDataType": "EStatsTypeKind::ESTK_Int32",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "TOTAL_CUMULATIVE_ACQUISITION_CP"
+          }
+        ]
+      }
+    }
+  }
+]

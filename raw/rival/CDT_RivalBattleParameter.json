@@ -1,0 +1,618 @@
+[
+  {
+    "Type": "CompositeDataTable",
+    "Name": "CDT_RivalBattleParameter",
+    "Class": "UScriptClass'CompositeDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParentTables": [
+        {
+          "ObjectName": "DataTable'DT_RivalBattleParameter0'",
+          "ObjectPath": "/Game/ITSB/Core/Rival/DT_RivalBattleParameter0.0"
+        },
+        {
+          "ObjectName": "DataTable'DT_RivalBattleParameter1'",
+          "ObjectPath": "/Game/ITSB/Core/Rival/DT_RivalBattleParameter1.0"
+        }
+      ],
+      "RowStruct": {
+        "ObjectName": "Class'SRivalDrivingParameter'",
+        "ObjectPath": "/Script/TokyoXtremeRacer"
+      }
+    },
+    "Rows": {
+      "Default": {
+        "ID": 0,
+        "BasicThinkings": [],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_NeverBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_1": {
+        "ID": 1,
+        "BasicThinkings": [],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_NeverBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_2": {
+        "ID": 2,
+        "BasicThinkings": [],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_NeverBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_3": {
+        "ID": 3,
+        "BasicThinkings": [],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_NeverBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_4": {
+        "ID": 4,
+        "BasicThinkings": [],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_NeverBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_5": {
+        "ID": 5,
+        "BasicThinkings": [],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_NeverBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_6": {
+        "ID": 6,
+        "BasicThinkings": [],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_NeverBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_7": {
+        "ID": 7,
+        "BasicThinkings": [],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_NeverBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_8": {
+        "ID": 8,
+        "BasicThinkings": [],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_NeverBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_9": {
+        "ID": 9,
+        "BasicThinkings": [],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_NeverBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_10": {
+        "ID": 10,
+        "BasicThinkings": [],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_NeverBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_11": {
+        "ID": 11,
+        "BasicThinkings": [],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_NeverBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_12": {
+        "ID": 12,
+        "BasicThinkings": [],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_NeverBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_21": {
+        "ID": 1010,
+        "BasicThinkings": [
+          {
+            "Condition": "ERivalBasicConditionPatterns::RBCP_DuringCorner",
+            "ConditionValue": 0.0,
+            "EffectKind": "ERivalSpecEffectKind::RSEK_Grip",
+            "SpecEffect": "ERivalSpecEffect::RSE_SmallUp",
+            "EffectTimeSecond": 3.0,
+            "bIsBreakOnSuccess": false,
+            "CooldownSecond": 0.0,
+            "CanBuffActivateCount": -1
+          }
+        ],
+        "TargetSpeedModifier": 2.0,
+        "BlockMethod": "EBlockMethod::BM_AlwaysBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_22": {
+        "ID": 1011,
+        "BasicThinkings": [],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_SometimesBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_26": {
+        "ID": 1020,
+        "BasicThinkings": [],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_NeverBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_SlightDull",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_27": {
+        "ID": 1021,
+        "BasicThinkings": [],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_NeverBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Dull",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_33": {
+        "ID": 1030,
+        "BasicThinkings": [
+          {
+            "Condition": "ERivalBasicConditionPatterns::RBCP_AheadPlayer",
+            "ConditionValue": 50.0,
+            "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+            "SpecEffect": "ERivalSpecEffect::RSE_MiddleDown",
+            "EffectTimeSecond": 20.0,
+            "bIsBreakOnSuccess": false,
+            "CooldownSecond": 0.0,
+            "CanBuffActivateCount": -1
+          }
+        ],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_NeverBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_RandomOften",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_35": {
+        "ID": 1031,
+        "BasicThinkings": [],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_NeverBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_RandomOccasionally",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_36": {
+        "ID": 1040,
+        "BasicThinkings": [
+          {
+            "Condition": "ERivalBasicConditionPatterns::RBCP_BattleStartSecond",
+            "ConditionValue": 3.0,
+            "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+            "SpecEffect": "ERivalSpecEffect::RSE_MiddleUp",
+            "EffectTimeSecond": 10.0,
+            "bIsBreakOnSuccess": false,
+            "CooldownSecond": 0.0,
+            "CanBuffActivateCount": -1
+          }
+        ],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_SometimesBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_37": {
+        "ID": 1050,
+        "BasicThinkings": [],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_SometimesBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Dull",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_38": {
+        "ID": 1051,
+        "BasicThinkings": [],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_SometimesBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_41": {
+        "ID": 1060,
+        "BasicThinkings": [],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_NeverBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_SlightDull",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_42": {
+        "ID": 1061,
+        "BasicThinkings": [],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_NeverBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Dull",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_48": {
+        "ID": 1070,
+        "BasicThinkings": [
+          {
+            "Condition": "ERivalBasicConditionPatterns::RBCP_AheadPlayer",
+            "ConditionValue": 50.0,
+            "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+            "SpecEffect": "ERivalSpecEffect::RSE_MiddleDown",
+            "EffectTimeSecond": 1.0,
+            "bIsBreakOnSuccess": false,
+            "CooldownSecond": 0.0,
+            "CanBuffActivateCount": -1
+          }
+        ],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_NeverBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_RandomOften",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_49": {
+        "ID": 1071,
+        "BasicThinkings": [],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_NeverBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_RandomOccasionally",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_51": {
+        "ID": 1080,
+        "BasicThinkings": [
+          {
+            "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+            "ConditionValue": 10.0,
+            "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+            "SpecEffect": "ERivalSpecEffect::RSE_MiddleUp",
+            "EffectTimeSecond": 10.0,
+            "bIsBreakOnSuccess": false,
+            "CooldownSecond": 0.0,
+            "CanBuffActivateCount": -1
+          }
+        ],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_SometimesBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_52": {
+        "ID": 1090,
+        "BasicThinkings": [
+          {
+            "Condition": "ERivalBasicConditionPatterns::RBCP_BattleStartSecond",
+            "ConditionValue": 5.0,
+            "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+            "SpecEffect": "ERivalSpecEffect::RSE_SmallUp",
+            "EffectTimeSecond": 2.0,
+            "bIsBreakOnSuccess": false,
+            "CooldownSecond": 0.0,
+            "CanBuffActivateCount": -1
+          }
+        ],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_SometimesBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+        "DriftPreference": "ERivalDriftPreference::RDP_DriftOnAlways",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_53": {
+        "ID": 1091,
+        "BasicThinkings": [],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_SometimesBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+        "DriftPreference": "ERivalDriftPreference::RDP_DriftOnAlways",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_61": {
+        "ID": 1100,
+        "BasicThinkings": [
+          {
+            "Condition": "ERivalBasicConditionPatterns::RBCP_BehindPlayer",
+            "ConditionValue": 50.0,
+            "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+            "SpecEffect": "ERivalSpecEffect::RSE_SmallUp",
+            "EffectTimeSecond": 5.0,
+            "bIsBreakOnSuccess": false,
+            "CooldownSecond": 0.0,
+            "CanBuffActivateCount": -1
+          }
+        ],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_NeverBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_SlightDull",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_62": {
+        "ID": 1101,
+        "BasicThinkings": [],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_NeverBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_SlightDull",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_71": {
+        "ID": 1110,
+        "BasicThinkings": [
+          {
+            "Condition": "ERivalBasicConditionPatterns::RBCP_PassedByPlayer",
+            "ConditionValue": 0.0,
+            "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+            "SpecEffect": "ERivalSpecEffect::RSE_SmallUp",
+            "EffectTimeSecond": 5.0,
+            "bIsBreakOnSuccess": false,
+            "CooldownSecond": 0.0,
+            "CanBuffActivateCount": -1
+          }
+        ],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_NeverBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_RandomOften",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_72": {
+        "ID": 1111,
+        "BasicThinkings": [],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_NeverBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_RandomOften",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_73": {
+        "ID": 1120,
+        "BasicThinkings": [
+          {
+            "Condition": "ERivalBasicConditionPatterns::RBCP_BattleStartSecond",
+            "ConditionValue": 5.0,
+            "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+            "SpecEffect": "ERivalSpecEffect::RSE_SmallUp",
+            "EffectTimeSecond": 2.0,
+            "bIsBreakOnSuccess": false,
+            "CooldownSecond": 0.0,
+            "CanBuffActivateCount": -1
+          }
+        ],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_SometimesBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+        "DriftPreference": "ERivalDriftPreference::RDP_DriftOnAlways",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_74": {
+        "ID": 1121,
+        "BasicThinkings": [],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_SometimesBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+        "DriftPreference": "ERivalDriftPreference::RDP_DriftOnAlways",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_83": {
+        "ID": 1130,
+        "BasicThinkings": [
+          {
+            "Condition": "ERivalBasicConditionPatterns::RBCP_BehindPlayer",
+            "ConditionValue": 50.0,
+            "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+            "SpecEffect": "ERivalSpecEffect::RSE_SmallUp",
+            "EffectTimeSecond": 5.0,
+            "bIsBreakOnSuccess": false,
+            "CooldownSecond": 0.0,
+            "CanBuffActivateCount": -1
+          }
+        ],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_NeverBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_SlightDull",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_84": {
+        "ID": 1131,
+        "BasicThinkings": [],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_NeverBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_SlightDull",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_90": {
+        "ID": 1140,
+        "BasicThinkings": [
+          {
+            "Condition": "ERivalBasicConditionPatterns::RBCP_PassedByPlayer",
+            "ConditionValue": 0.0,
+            "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+            "SpecEffect": "ERivalSpecEffect::RSE_SmallUp",
+            "EffectTimeSecond": 5.0,
+            "bIsBreakOnSuccess": false,
+            "CooldownSecond": 0.0,
+            "CanBuffActivateCount": -1
+          }
+        ],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_NeverBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_RandomOften",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_91": {
+        "ID": 1141,
+        "BasicThinkings": [],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_NeverBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_RandomOften",
+        "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      },
+      "Rival_97": {
+        "ID": 1150,
+        "BasicThinkings": [
+          {
+            "Condition": "ERivalBasicConditionPatterns::RBCP_BattleStartSecond",
+            "ConditionValue": 10.0,
+            "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+            "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+            "EffectTimeSecond": 10.0,
+            "bIsBreakOnSuccess": false,
+            "CooldownSecond": 0.0,
+            "CanBuffActivateCount": -1
+          },
+          {
+            "Condition": "ERivalBasicConditionPatterns::RBCP_BattleStartSecond",
+            "ConditionValue": 10.0,
+            "EffectKind": "ERivalSpecEffectKind::RSEK_Grip",
+            "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+            "EffectTimeSecond": 10.0,
+            "bIsBreakOnSuccess": false,
+            "CooldownSecond": 0.0,
+            "CanBuffActivateCount": -1
+          },
+          {
+            "Condition": "ERivalBasicConditionPatterns::RBCP_PassedByPlayer",
+            "ConditionValue": 10.0,
+            "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+            "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+            "EffectTimeSecond": 10.0,
+            "bIsBreakOnSuccess": false,
+            "CooldownSecond": 0.0,
+            "CanBuffActivateCount": -1
+          }
+        ],
+        "TargetSpeedModifier": 1.0,
+        "BlockMethod": "EBlockMethod::BM_SometimesBlock",
+        "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+        "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+        "DriftPreference": "ERivalDriftPreference::RDP_DriftOnHardCorner",
+        "MaxTargetSpeedKmh": -1.0,
+        "bIsNoLimitTargetSpeedForBehind": true
+      }
+    }
+  }
+]

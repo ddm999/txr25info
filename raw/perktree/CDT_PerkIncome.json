@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "CompositeDataTable",
+    "Name": "CDT_PerkIncome",
+    "Class": "UScriptClass'CompositeDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParentTables": [
+        {
+          "ObjectName": "DataTable'DT_PerkIncome0'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Perk/DT_PerkIncome0.0"
+        },
+        {
+          "ObjectName": "DataTable'DT_PerkIncome1'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Perk/DT_PerkIncome1.0"
+        }
+      ],
+      "RowStruct": {
+        "ObjectName": "Class'SSkillTree'",
+        "ObjectPath": "/Script/TokyoXtremeRacer"
+      }
+    },
+    "Rows": {}
+  }
+]

@@ -1,0 +1,497 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Color_Wheel_XV",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'UDS_Color'",
+        "ObjectPath": "/Game/ITSB/UI/Color/DataTables/UDS_Color.0"
+      }
+    },
+    "Rows": {
+      "0": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.672443,
+          "G": 0.693872,
+          "B": 0.701102,
+          "A": 1.0,
+          "Hex": "D6D9DA"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.423268,
+          "G": 0.423268,
+          "B": 0.423268,
+          "A": 1.0,
+          "Hex": "AEAEAE"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "0F346B074953FD56398F66B445958FA2",
+          "SourceString": "シルキーリッチシルバー",
+          "LocalizedString": "シルキーリッチシルバー"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Wheel/WORK/XV/Materials/MI_WH_cl_XV_00.MI_WH_cl_XV_00",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "1": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.346704,
+          "G": 0.346704,
+          "B": 0.346704,
+          "A": 1.0,
+          "Hex": "9F9F9F"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.34375,
+          "G": 0.34375,
+          "B": 0.34375,
+          "A": 1.0,
+          "Hex": "9F9F9F"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "E0C4C0644927D00D6CF525B5896D1A90",
+          "SourceString": "ブリリアントシルバーブラック",
+          "LocalizedString": "ブリリアントシルバーブラック"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Wheel/WORK/XV/Materials/MI_WH_cl_XV_01.MI_WH_cl_XV_01",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "2": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.187821,
+          "G": 0.187821,
+          "B": 0.152926,
+          "A": 1.0,
+          "Hex": "78786D"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.34375,
+          "G": 0.34375,
+          "B": 0.34375,
+          "A": 1.0,
+          "Hex": "9F9F9F"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "DC065E1549DD3B2A42B45DA6A42328BC",
+          "SourceString": "マットダークガンメタ",
+          "LocalizedString": "マットダークガンメタ"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Wheel/WORK/XV/Materials/MI_WH_cl_XV_02.MI_WH_cl_XV_02",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "3": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.672443,
+          "G": 0.693872,
+          "B": 0.701102,
+          "A": 1.0,
+          "Hex": "D6D9DA"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.192708,
+          "G": 0.130778,
+          "B": 0.086317,
+          "A": 1.0,
+          "Hex": "796553"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "DD09095841AC5D84855C2795AC055E9A",
+          "SourceString": "シルキーリッチシルバー ブロンズアルマイト",
+          "LocalizedString": "シルキーリッチシルバー ブロンズアルマイト"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Wheel/WORK/XV/Materials/MI_WH_cl_XV_03.MI_WH_cl_XV_03",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "4": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.672443,
+          "G": 0.693872,
+          "B": 0.701102,
+          "A": 1.0,
+          "Hex": "D6D9DA"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.192708,
+          "G": 0.130778,
+          "B": 0.086317,
+          "A": 1.0,
+          "Hex": "796553"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "BCC8C2574391D7F2655930A1452EB4C7",
+          "SourceString": "シルキーリッチシルバー ブロンズアルマイト ゴールドピアスボルト",
+          "LocalizedString": "シルキーリッチシルバー ブロンズアルマイト ゴールドピアスボルト"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Wheel/WORK/XV/Materials/MI_WH_cl_XV_04.MI_WH_cl_XV_04",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "5": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.187821,
+          "G": 0.187821,
+          "B": 0.152926,
+          "A": 1.0,
+          "Hex": "78786D"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.515625,
+          "G": 0.515625,
+          "B": 0.515625,
+          "A": 1.0,
+          "Hex": "BEBEBE"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "562617E34E73E9F22FDABEB44980EA9E",
+          "SourceString": "マットダークガンメタ ブラッシュド ブラックピアスボルト",
+          "LocalizedString": "マットダークガンメタ ブラッシュド ブラックピアスボルト"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Wheel/WORK/XV/Materials/MI_WH_cl_XV_05.MI_WH_cl_XV_05",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "6": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.274677,
+          "G": 0.246201,
+          "B": 0.171441,
+          "A": 1.0,
+          "Hex": "8F8873"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.423268,
+          "G": 0.423268,
+          "B": 0.423268,
+          "A": 1.0,
+          "Hex": "AEAEAE"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "9CCDB9E742D0BDF477EFAA9D7856657A",
+          "SourceString": "アッシュドチタン",
+          "LocalizedString": "アッシュドチタン"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Wheel/WORK/XV/Materials/MI_WH_cl_XV_06.MI_WH_cl_XV_06",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "7": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.346704,
+          "G": 0.346704,
+          "B": 0.346704,
+          "A": 1.0,
+          "Hex": "9F9F9F"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.088656,
+          "G": 0.088656,
+          "B": 0.088656,
+          "A": 1.0,
+          "Hex": "545454"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "7DB48EAA4FA37932A82EA8A50F8BDB71",
+          "SourceString": "ブリリアントシルバーブラック ブラックアルマイト ",
+          "LocalizedString": "ブリリアントシルバーブラック ブラックアルマイト "
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Wheel/WORK/XV/Materials/MI_WH_cl_XV_07.MI_WH_cl_XV_07",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "8": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.346704,
+          "G": 0.346704,
+          "B": 0.346704,
+          "A": 1.0,
+          "Hex": "9F9F9F"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.088656,
+          "G": 0.088656,
+          "B": 0.088656,
+          "A": 1.0,
+          "Hex": "545454"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "E7300E67493B237541A424B94A753C54",
+          "SourceString": "ブリリアントシルバーブラック ブラックアルマイト チタンコートピアスボルト",
+          "LocalizedString": "ブリリアントシルバーブラック ブラックアルマイト チタンコートピアスボルト"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Wheel/WORK/XV/Materials/MI_WH_cl_XV_08.MI_WH_cl_XV_08",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "9": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.552012,
+          "G": 0.473532,
+          "B": 0.366253,
+          "A": 1.0,
+          "Hex": "C4B7A3"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.423268,
+          "G": 0.423268,
+          "B": 0.423268,
+          "A": 1.0,
+          "Hex": "AEAEAE"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "DC6FD1EB428D3FB3BCB322B4EEE7581A",
+          "SourceString": "ラスターブロンズゴールド  ",
+          "LocalizedString": "ラスターブロンズゴールド  "
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Wheel/WORK/XV/Materials/MI_WH_cl_XV_09.MI_WH_cl_XV_09",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "10": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.552012,
+          "G": 0.473532,
+          "B": 0.366253,
+          "A": 1.0,
+          "Hex": "C4B7A3"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.514918,
+          "G": 0.514918,
+          "B": 0.514918,
+          "A": 1.0,
+          "Hex": "BEBEBE"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "858F315E4F53F4F38F4B48B163DE873D",
+          "SourceString": "ラスターブロンズゴールド ブラッシュド",
+          "LocalizedString": "ラスターブロンズゴールド ブラッシュド"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Wheel/WORK/XV/Materials/MI_WH_cl_XV_10.MI_WH_cl_XV_10",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "11": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.552012,
+          "G": 0.473532,
+          "B": 0.366253,
+          "A": 1.0,
+          "Hex": "C4B7A3"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.191202,
+          "G": 0.130136,
+          "B": 0.0865,
+          "A": 1.0,
+          "Hex": "796553"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "0712726549686D51B05708B5FDEBA475",
+          "SourceString": "ラスターブロンズゴールド ブロンズアルマイト",
+          "LocalizedString": "ラスターブロンズゴールド ブロンズアルマイト"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Wheel/WORK/XV/Materials/MI_WH_cl_XV_11.MI_WH_cl_XV_11",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "12": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.552012,
+          "G": 0.473532,
+          "B": 0.366253,
+          "A": 1.0,
+          "Hex": "C4B7A3"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.088656,
+          "G": 0.088656,
+          "B": 0.088656,
+          "A": 1.0,
+          "Hex": "545454"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "7B2469E741FB7F078AC61587C8B86078",
+          "SourceString": "ラスターブロンズゴールド ブラックアルマイト",
+          "LocalizedString": "ラスターブロンズゴールド ブラックアルマイト"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Wheel/WORK/XV/Materials/MI_WH_cl_XV_12.MI_WH_cl_XV_12",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      }
+    }
+  }
+]

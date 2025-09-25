@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_BrakeRotor",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'SBrakeRotorData'",
+        "ObjectPath": "/Game/ITSB/car/DataTable/SBrakeRotorData.0"
+      }
+    },
+    "Rows": {
+      "Normal": {
+        "is_genuine_14_D5FF48314E76D63D90A656A67AA9CD74": true,
+        "is_slit_1_130418A64F04884D085046AC30B34719": false,
+        "is_drill_4_F7507F954FB67867CF2A3C89EC3E0A5E": false,
+        "is_carbon_8_37F416244CB6FC14DB02DFB6E02C24E8": false,
+        "image_11_68B4FC4043885BFC40F1439D7B35A0A1": {
+          "AssetPathName": "/Game/ITSB/UI/Item/Textures/T_Item_Com_Parts_Normal.T_Item_Com_Parts_Normal",
+          "SubPathString": ""
+        }
+      },
+      "Rotor_AD": {
+        "is_genuine_14_D5FF48314E76D63D90A656A67AA9CD74": false,
+        "is_slit_1_130418A64F04884D085046AC30B34719": false,
+        "is_drill_4_F7507F954FB67867CF2A3C89EC3E0A5E": true,
+        "is_carbon_8_37F416244CB6FC14DB02DFB6E02C24E8": false,
+        "image_11_68B4FC4043885BFC40F1439D7B35A0A1": {
+          "AssetPathName": "/Game/ITSB/UI/Item/Textures/T_Item_Parts_Rotor_1.T_Item_Parts_Rotor_1",
+          "SubPathString": ""
+        }
+      },
+      "Rotor_AS": {
+        "is_genuine_14_D5FF48314E76D63D90A656A67AA9CD74": false,
+        "is_slit_1_130418A64F04884D085046AC30B34719": true,
+        "is_drill_4_F7507F954FB67867CF2A3C89EC3E0A5E": false,
+        "is_carbon_8_37F416244CB6FC14DB02DFB6E02C24E8": false,
+        "image_11_68B4FC4043885BFC40F1439D7B35A0A1": {
+          "AssetPathName": "/Game/ITSB/UI/Item/Textures/T_Item_Parts_Rotor_2.T_Item_Parts_Rotor_2",
+          "SubPathString": ""
+        }
+      },
+      "Rotor_CD": {
+        "is_genuine_14_D5FF48314E76D63D90A656A67AA9CD74": false,
+        "is_slit_1_130418A64F04884D085046AC30B34719": false,
+        "is_drill_4_F7507F954FB67867CF2A3C89EC3E0A5E": true,
+        "is_carbon_8_37F416244CB6FC14DB02DFB6E02C24E8": true,
+        "image_11_68B4FC4043885BFC40F1439D7B35A0A1": {
+          "AssetPathName": "/Game/ITSB/UI/Item/Textures/T_Item_Parts_Rotor_3.T_Item_Parts_Rotor_3",
+          "SubPathString": ""
+        }
+      },
+      "Rotor_CS": {
+        "is_genuine_14_D5FF48314E76D63D90A656A67AA9CD74": false,
+        "is_slit_1_130418A64F04884D085046AC30B34719": true,
+        "is_drill_4_F7507F954FB67867CF2A3C89EC3E0A5E": false,
+        "is_carbon_8_37F416244CB6FC14DB02DFB6E02C24E8": true,
+        "image_11_68B4FC4043885BFC40F1439D7B35A0A1": {
+          "AssetPathName": "/Game/ITSB/UI/Item/Textures/T_Item_Parts_Rotor_4.T_Item_Parts_Rotor_4",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

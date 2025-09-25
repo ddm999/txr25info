@@ -1,0 +1,246 @@
+[
+  {
+    "Type": "CompositeDataTable",
+    "Name": "CDT_CarMaker",
+    "Class": "UScriptClass'CompositeDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParentTables": [
+        {
+          "ObjectName": "DataTable'DT_CarMaker0'",
+          "ObjectPath": "/Game/ITSB/car/DataTable/DT_CarMaker0.0"
+        },
+        {
+          "ObjectName": "DataTable'DT_CarMaker1'",
+          "ObjectPath": "/Game/ITSB/car/DataTable/DT_CarMaker1.0"
+        }
+      ],
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'SCarMaker'",
+        "ObjectPath": "/Game/ITSB/car/DataTable/SCarMaker.0"
+      }
+    },
+    "Rows": {
+      "Daihatsu": {
+        "Valid_5_8121953044BB538299E957AE405EC348": true,
+        "DispayName_8_2C7718354FEECAB5EC48EC85985469ED": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_maker_name.ST_maker_name",
+          "Key": "Name_CarMaker_Daihatsu",
+          "SourceString": "DAIHATSU",
+          "LocalizedString": "DAIHATSU"
+        },
+        "DataName_37_D8116E0D4C050B1EFA1BD7B34B47BDA8": "Daihatsu",
+        "NameId_38_B83A10B34177B29A625C268711957541": "Daihatsu",
+        "Id_17_8F07CF764697E4DA57B4389B8A6C8A24": 1,
+        "N_Texture_28_EF560417400A568F0FD94E89B6C5A457": {
+          "ObjectName": "Texture2D'T_Logo_Maker_None'",
+          "ObjectPath": "/Game/ITSB/UI/Logo/Textures/T_Logo_Maker_None.0"
+        },
+        "M_Texture_27_B428D224476AD5040B3221B02047D9FA": null,
+        "L_Texture_26_DB59B7274CD47A33E8230B9A8CBE962A": null,
+        "DispayId_33_6FBF7C534F8EE16C227719A1170ABE54": 0,
+        "TextureId_36_00608FA14483A917DE87E3915CFB3828": 0
+      },
+      "Mazda": {
+        "Valid_5_8121953044BB538299E957AE405EC348": true,
+        "DispayName_8_2C7718354FEECAB5EC48EC85985469ED": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_maker_name.ST_maker_name",
+          "Key": "Name_CarMaker_Mazda",
+          "SourceString": "MAZDA",
+          "LocalizedString": "MAZDA"
+        },
+        "DataName_37_D8116E0D4C050B1EFA1BD7B34B47BDA8": "Mazda",
+        "NameId_38_B83A10B34177B29A625C268711957541": "Mazda",
+        "Id_17_8F07CF764697E4DA57B4389B8A6C8A24": 4,
+        "N_Texture_28_EF560417400A568F0FD94E89B6C5A457": {
+          "ObjectName": "Texture2D'T_Logo_Maker_None'",
+          "ObjectPath": "/Game/ITSB/UI/Logo/Textures/T_Logo_Maker_None.0"
+        },
+        "M_Texture_27_B428D224476AD5040B3221B02047D9FA": null,
+        "L_Texture_26_DB59B7274CD47A33E8230B9A8CBE962A": null,
+        "DispayId_33_6FBF7C534F8EE16C227719A1170ABE54": 4,
+        "TextureId_36_00608FA14483A917DE87E3915CFB3828": 3
+      },
+      "Mitsubishi": {
+        "Valid_5_8121953044BB538299E957AE405EC348": true,
+        "DispayName_8_2C7718354FEECAB5EC48EC85985469ED": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_maker_name.ST_maker_name",
+          "Key": "Name_CarMaker_Mitsubishi",
+          "SourceString": "MITSUBISHI",
+          "LocalizedString": "MITSUBISHI"
+        },
+        "DataName_37_D8116E0D4C050B1EFA1BD7B34B47BDA8": "Mitsubishi",
+        "NameId_38_B83A10B34177B29A625C268711957541": "Mitsubishi",
+        "Id_17_8F07CF764697E4DA57B4389B8A6C8A24": 5,
+        "N_Texture_28_EF560417400A568F0FD94E89B6C5A457": {
+          "ObjectName": "Texture2D'T_Logo_Maker_None'",
+          "ObjectPath": "/Game/ITSB/UI/Logo/Textures/T_Logo_Maker_None.0"
+        },
+        "M_Texture_27_B428D224476AD5040B3221B02047D9FA": null,
+        "L_Texture_26_DB59B7274CD47A33E8230B9A8CBE962A": null,
+        "DispayId_33_6FBF7C534F8EE16C227719A1170ABE54": 5,
+        "TextureId_36_00608FA14483A917DE87E3915CFB3828": 4
+      },
+      "Nissan": {
+        "Valid_5_8121953044BB538299E957AE405EC348": true,
+        "DispayName_8_2C7718354FEECAB5EC48EC85985469ED": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_maker_name.ST_maker_name",
+          "Key": "Name_CarMaker_Nissan",
+          "SourceString": "NISSAN",
+          "LocalizedString": "NISSAN"
+        },
+        "DataName_37_D8116E0D4C050B1EFA1BD7B34B47BDA8": "Nissan",
+        "NameId_38_B83A10B34177B29A625C268711957541": "Nissan",
+        "Id_17_8F07CF764697E4DA57B4389B8A6C8A24": 6,
+        "N_Texture_28_EF560417400A568F0FD94E89B6C5A457": {
+          "ObjectName": "Texture2D'T_Logo_Maker_None'",
+          "ObjectPath": "/Game/ITSB/UI/Logo/Textures/T_Logo_Maker_None.0"
+        },
+        "M_Texture_27_B428D224476AD5040B3221B02047D9FA": null,
+        "L_Texture_26_DB59B7274CD47A33E8230B9A8CBE962A": null,
+        "DispayId_33_6FBF7C534F8EE16C227719A1170ABE54": 6,
+        "TextureId_36_00608FA14483A917DE87E3915CFB3828": 5
+      },
+      "Subaru": {
+        "Valid_5_8121953044BB538299E957AE405EC348": true,
+        "DispayName_8_2C7718354FEECAB5EC48EC85985469ED": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_maker_name.ST_maker_name",
+          "Key": "Name_CarMaker_Subaru",
+          "SourceString": "SUBARU",
+          "LocalizedString": "SUBARU"
+        },
+        "DataName_37_D8116E0D4C050B1EFA1BD7B34B47BDA8": "Subaru",
+        "NameId_38_B83A10B34177B29A625C268711957541": "Subaru",
+        "Id_17_8F07CF764697E4DA57B4389B8A6C8A24": 7,
+        "N_Texture_28_EF560417400A568F0FD94E89B6C5A457": {
+          "ObjectName": "Texture2D'T_Logo_Maker_None'",
+          "ObjectPath": "/Game/ITSB/UI/Logo/Textures/T_Logo_Maker_None.0"
+        },
+        "M_Texture_27_B428D224476AD5040B3221B02047D9FA": null,
+        "L_Texture_26_DB59B7274CD47A33E8230B9A8CBE962A": null,
+        "DispayId_33_6FBF7C534F8EE16C227719A1170ABE54": 7,
+        "TextureId_36_00608FA14483A917DE87E3915CFB3828": 6
+      },
+      "Suzuki": {
+        "Valid_5_8121953044BB538299E957AE405EC348": true,
+        "DispayName_8_2C7718354FEECAB5EC48EC85985469ED": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_maker_name.ST_maker_name",
+          "Key": "Name_CarMaker_Suzuki",
+          "SourceString": "SUZUKI",
+          "LocalizedString": "SUZUKI"
+        },
+        "DataName_37_D8116E0D4C050B1EFA1BD7B34B47BDA8": "Suzuki",
+        "NameId_38_B83A10B34177B29A625C268711957541": "Suzuki",
+        "Id_17_8F07CF764697E4DA57B4389B8A6C8A24": 8,
+        "N_Texture_28_EF560417400A568F0FD94E89B6C5A457": {
+          "ObjectName": "Texture2D'T_Logo_Maker_None'",
+          "ObjectPath": "/Game/ITSB/UI/Logo/Textures/T_Logo_Maker_None.0"
+        },
+        "M_Texture_27_B428D224476AD5040B3221B02047D9FA": null,
+        "L_Texture_26_DB59B7274CD47A33E8230B9A8CBE962A": null,
+        "DispayId_33_6FBF7C534F8EE16C227719A1170ABE54": 8,
+        "TextureId_36_00608FA14483A917DE87E3915CFB3828": 7
+      },
+      "Toyota": {
+        "Valid_5_8121953044BB538299E957AE405EC348": true,
+        "DispayName_8_2C7718354FEECAB5EC48EC85985469ED": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_maker_name.ST_maker_name",
+          "Key": "Name_CarMaker_Toyota",
+          "SourceString": "TOYOTA",
+          "LocalizedString": "TOYOTA"
+        },
+        "DataName_37_D8116E0D4C050B1EFA1BD7B34B47BDA8": "Toyota",
+        "NameId_38_B83A10B34177B29A625C268711957541": "Toyota",
+        "Id_17_8F07CF764697E4DA57B4389B8A6C8A24": 9,
+        "N_Texture_28_EF560417400A568F0FD94E89B6C5A457": {
+          "ObjectName": "Texture2D'T_Logo_Maker_None'",
+          "ObjectPath": "/Game/ITSB/UI/Logo/Textures/T_Logo_Maker_None.0"
+        },
+        "M_Texture_27_B428D224476AD5040B3221B02047D9FA": null,
+        "L_Texture_26_DB59B7274CD47A33E8230B9A8CBE962A": null,
+        "DispayId_33_6FBF7C534F8EE16C227719A1170ABE54": 9,
+        "TextureId_36_00608FA14483A917DE87E3915CFB3828": 8
+      },
+      "Custom": {
+        "Valid_5_8121953044BB538299E957AE405EC348": true,
+        "DispayName_8_2C7718354FEECAB5EC48EC85985469ED": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_maker_name.ST_maker_name",
+          "Key": "Name_CarMaker_Custom",
+          "SourceString": "CUSTOM",
+          "LocalizedString": "CUSTOMIZED CAR"
+        },
+        "DataName_37_D8116E0D4C050B1EFA1BD7B34B47BDA8": "CUTOM",
+        "NameId_38_B83A10B34177B29A625C268711957541": "Custom",
+        "Id_17_8F07CF764697E4DA57B4389B8A6C8A24": 10,
+        "N_Texture_28_EF560417400A568F0FD94E89B6C5A457": {
+          "ObjectName": "Texture2D'T_Logo_Maker_None'",
+          "ObjectPath": "/Game/ITSB/UI/Logo/Textures/T_Logo_Maker_None.0"
+        },
+        "M_Texture_27_B428D224476AD5040B3221B02047D9FA": null,
+        "L_Texture_26_DB59B7274CD47A33E8230B9A8CBE962A": null,
+        "DispayId_33_6FBF7C534F8EE16C227719A1170ABE54": 99,
+        "TextureId_36_00608FA14483A917DE87E3915CFB3828": 9
+      },
+      "Honda": {
+        "Valid_5_8121953044BB538299E957AE405EC348": true,
+        "DispayName_8_2C7718354FEECAB5EC48EC85985469ED": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_maker_name.ST_maker_name",
+          "Key": "Name_CarMaker_Honda",
+          "SourceString": "Honda",
+          "LocalizedString": "Honda"
+        },
+        "DataName_37_D8116E0D4C050B1EFA1BD7B34B47BDA8": "Honda",
+        "NameId_38_B83A10B34177B29A625C268711957541": "Honda",
+        "Id_17_8F07CF764697E4DA57B4389B8A6C8A24": 2,
+        "N_Texture_28_EF560417400A568F0FD94E89B6C5A457": {
+          "ObjectName": "Texture2D'T_Logo_Maker_None'",
+          "ObjectPath": "/Game/ITSB/UI/Logo/Textures/T_Logo_Maker_None.0"
+        },
+        "M_Texture_27_B428D224476AD5040B3221B02047D9FA": null,
+        "L_Texture_26_DB59B7274CD47A33E8230B9A8CBE962A": null,
+        "DispayId_33_6FBF7C534F8EE16C227719A1170ABE54": 2,
+        "TextureId_36_00608FA14483A917DE87E3915CFB3828": 0
+      },
+      "LEXUS": {
+        "Valid_5_8121953044BB538299E957AE405EC348": true,
+        "DispayName_8_2C7718354FEECAB5EC48EC85985469ED": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_maker_name.ST_maker_name",
+          "Key": "Name_CarMaker_Lexus",
+          "SourceString": "LEXUS",
+          "LocalizedString": "LEXUS"
+        },
+        "DataName_37_D8116E0D4C050B1EFA1BD7B34B47BDA8": "LEXUS",
+        "NameId_38_B83A10B34177B29A625C268711957541": "LEXUS",
+        "Id_17_8F07CF764697E4DA57B4389B8A6C8A24": 2,
+        "N_Texture_28_EF560417400A568F0FD94E89B6C5A457": {
+          "ObjectName": "Texture2D'T_Logo_Maker_None'",
+          "ObjectPath": "/Game/ITSB/UI/Logo/Textures/T_Logo_Maker_None.0"
+        },
+        "M_Texture_27_B428D224476AD5040B3221B02047D9FA": null,
+        "L_Texture_26_DB59B7274CD47A33E8230B9A8CBE962A": null,
+        "DispayId_33_6FBF7C534F8EE16C227719A1170ABE54": 3,
+        "TextureId_36_00608FA14483A917DE87E3915CFB3828": 0
+      },
+      "Demo": {
+        "Valid_5_8121953044BB538299E957AE405EC348": true,
+        "DispayName_8_2C7718354FEECAB5EC48EC85985469ED": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_maker_name.ST_maker_name",
+          "Key": "Name_CarMaker_Demo",
+          "SourceString": "DEMOKIT",
+          "LocalizedString": "DEMOKIT CAR"
+        },
+        "DataName_37_D8116E0D4C050B1EFA1BD7B34B47BDA8": "DEMOKIT CAR",
+        "NameId_38_B83A10B34177B29A625C268711957541": "Demo",
+        "Id_17_8F07CF764697E4DA57B4389B8A6C8A24": 98,
+        "N_Texture_28_EF560417400A568F0FD94E89B6C5A457": {
+          "ObjectName": "Texture2D'T_Logo_Maker_None'",
+          "ObjectPath": "/Game/ITSB/UI/Logo/Textures/T_Logo_Maker_None.0"
+        },
+        "M_Texture_27_B428D224476AD5040B3221B02047D9FA": null,
+        "L_Texture_26_DB59B7274CD47A33E8230B9A8CBE962A": null,
+        "DispayId_33_6FBF7C534F8EE16C227719A1170ABE54": 98,
+        "TextureId_36_00608FA14483A917DE87E3915CFB3828": 0
+      }
+    }
+  }
+]

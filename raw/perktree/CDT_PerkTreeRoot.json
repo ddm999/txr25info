@@ -1,0 +1,34 @@
+[
+  {
+    "Type": "CompositeDataTable",
+    "Name": "CDT_PerkTreeRoot",
+    "Class": "UScriptClass'CompositeDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParentTables": [
+        {
+          "ObjectName": "DataTable'DT_PerkTreeRoot0'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/DT_PerkTreeRoot0.0"
+        },
+        {
+          "ObjectName": "DataTable'DT_PerkTreeRoot1'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/DT_PerkTreeRoot1.0"
+        }
+      ],
+      "RowStruct": {
+        "ObjectName": "Class'SPerkCategoryRootInfo'",
+        "ObjectPath": "/Script/TokyoXtremeRacer"
+      }
+    },
+    "Rows": {
+      "TuneTree": {
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "NameInCategory": "TuneTree",
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'CDT_TuneTree'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Tune/CDT_TuneTree.0"
+        }
+      }
+    }
+  }
+]
