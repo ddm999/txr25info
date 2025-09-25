@@ -16,6 +16,147 @@
         "ObjectPath": "/Script/TokyoXtremeRacer"
       }
     },
-    "Rows": {}
+    "Rows": {
+      "Lexus_URZ100": {
+        "ID": 0,
+        "Step": 1101,
+        "Link_Step": [
+          1201,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_NOT_ACQUIRED",
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 87,
+        "Script": {
+          "Namespace": "",
+          "Key": "543F3CAC4E3B2674FDB3C1B4A317849D",
+          "SourceString": "(%s)",
+          "LocalizedString": "(%s)"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_69",
+          "SourceString": "ディーラー画面で「{%s}」が購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the dealer screen.\r\n"
+        },
+        "LockedText": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_tree_system.ST_tree_system",
+          "Key": "Str_UI_Tree_sys_40",
+          "SourceString": "【スティールハート】、【紅童子（Z33）】、【噂のライター】の3人を撃破する。",
+          "LocalizedString": "≪Unlock Condition≫\r\nDefeat 【STEEL HEART】, 【CRIMSON BOY（Z33）】, and 【RUMORED WRITER】."
+        },
+        "NameId": "URZ100",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage3",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0007",
+          "Boss_0012_2",
+          "Boss_0027"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Lexus_USC10": {
+        "ID": 0,
+        "Step": 1201,
+        "Link_Step": [
+          1301,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 98,
+        "Script": {
+          "Namespace": "",
+          "Key": "543F3CAC4E3B2674FDB3C1B4A317849D",
+          "SourceString": "(%s)",
+          "LocalizedString": "(%s)"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_69",
+          "SourceString": "ディーラー画面で「{%s}」が購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the dealer screen.\r\n"
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "USC10",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::None",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Lexus_LFA10": {
+        "ID": 0,
+        "Step": 1301,
+        "Link_Step": [
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 109,
+        "Script": {
+          "Namespace": "",
+          "Key": "543F3CAC4E3B2674FDB3C1B4A317849D",
+          "SourceString": "(%s)",
+          "LocalizedString": "(%s)"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_69",
+          "SourceString": "ディーラー画面で「{%s}」が購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the dealer screen.\r\n"
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "LFA10",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage4",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0010",
+          "Boss_0019",
+          "Boss_0029"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      }
+    }
   }
 ]

@@ -16,6 +16,600 @@
         "ObjectPath": "/Script/TokyoXtremeRacer"
       }
     },
-    "Rows": {}
+    "Rows": {
+      "Honda_JB7": {
+        "ID": 0,
+        "Step": 101,
+        "Link_Step": [
+          201,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_NOT_ACQUIRED",
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 3,
+        "Script": {
+          "Namespace": "",
+          "Key": "A427E9DF488C68771EB0EF895785E5D4",
+          "SourceString": "(%s)",
+          "LocalizedString": "(%s)"
+        },
+        "Detail": {
+          "Namespace": "",
+          "Key": "A89556EE42580C6E294486B49B958E6D",
+          "SourceString": "ディーラー画面で「(%s)」が購入可能になる。",
+          "LocalizedString": "ディーラー画面で「(%s)」が購入可能になる。"
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "JB7",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Honda_PP1": {
+        "ID": 0,
+        "Step": 201,
+        "Link_Step": [
+          301,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 8,
+        "Script": {
+          "Namespace": "",
+          "Key": "A427E9DF488C68771EB0EF895785E5D4",
+          "SourceString": "(%s)",
+          "LocalizedString": "(%s)"
+        },
+        "Detail": {
+          "Namespace": "",
+          "Key": "A89556EE42580C6E294486B49B958E6D",
+          "SourceString": "ディーラー画面で「(%s)」が購入可能になる。",
+          "LocalizedString": "ディーラー画面で「(%s)」が購入可能になる。"
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "PP1",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Honda_JW5": {
+        "ID": 0,
+        "Step": 301,
+        "Link_Step": [
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 14,
+        "Script": {
+          "Namespace": "",
+          "Key": "A427E9DF488C68771EB0EF895785E5D4",
+          "SourceString": "(%s)",
+          "LocalizedString": "(%s)"
+        },
+        "Detail": {
+          "Namespace": "",
+          "Key": "A89556EE42580C6E294486B49B958E6D",
+          "SourceString": "ディーラー画面で「(%s)」が購入可能になる。",
+          "LocalizedString": "ディーラー画面で「(%s)」が購入可能になる。"
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "JW5",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Honda_EK9": {
+        "ID": 0,
+        "Step": 302,
+        "Link_Step": [
+          1102,
+          503,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_NOT_ACQUIRED",
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 14,
+        "Script": {
+          "Namespace": "",
+          "Key": "A427E9DF488C68771EB0EF895785E5D4",
+          "SourceString": "(%s)",
+          "LocalizedString": "(%s)"
+        },
+        "Detail": {
+          "Namespace": "",
+          "Key": "A89556EE42580C6E294486B49B958E6D",
+          "SourceString": "ディーラー画面で「(%s)」が購入可能になる。",
+          "LocalizedString": "ディーラー画面で「(%s)」が購入可能になる。"
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "EK9",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Honda_FK2": {
+        "ID": 0,
+        "Step": 1102,
+        "Link_Step": [
+          1202,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 87,
+        "Script": {
+          "Namespace": "",
+          "Key": "A427E9DF488C68771EB0EF895785E5D4",
+          "SourceString": "(%s)",
+          "LocalizedString": "(%s)"
+        },
+        "Detail": {
+          "Namespace": "",
+          "Key": "A89556EE42580C6E294486B49B958E6D",
+          "SourceString": "ディーラー画面で「(%s)」が購入可能になる。",
+          "LocalizedString": "ディーラー画面で「(%s)」が購入可能になる。"
+        },
+        "LockedText": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_tree_system.ST_tree_system",
+          "Key": "Str_UI_Tree_sys_40",
+          "SourceString": "【スティールハート】、【紅童子（Z33）】、【噂のライター】の3人を撃破する。",
+          "LocalizedString": "≪Unlock Condition≫\r\nDefeat 【STEEL HEART】, 【CRIMSON BOY（Z33）】, and 【RUMORED WRITER】."
+        },
+        "NameId": "FK2",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage3",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0007",
+          "Boss_0012_2",
+          "Boss_0027"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Honda_FL5": {
+        "ID": 0,
+        "Step": 1202,
+        "Link_Step": [
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 98,
+        "Script": {
+          "Namespace": "",
+          "Key": "A427E9DF488C68771EB0EF895785E5D4",
+          "SourceString": "(%s)",
+          "LocalizedString": "(%s)"
+        },
+        "Detail": {
+          "Namespace": "",
+          "Key": "A89556EE42580C6E294486B49B958E6D",
+          "SourceString": "ディーラー画面で「(%s)」が購入可能になる。",
+          "LocalizedString": "ディーラー画面で「(%s)」が購入可能になる。"
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "FL5",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::None",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Honda_DC2": {
+        "ID": 0,
+        "Step": 503,
+        "Link_Step": [
+          603,
+          704,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 29,
+        "Script": {
+          "Namespace": "",
+          "Key": "A427E9DF488C68771EB0EF895785E5D4",
+          "SourceString": "(%s)",
+          "LocalizedString": "(%s)"
+        },
+        "Detail": {
+          "Namespace": "",
+          "Key": "A89556EE42580C6E294486B49B958E6D",
+          "SourceString": "ディーラー画面で「(%s)」が購入可能になる。",
+          "LocalizedString": "ディーラー画面で「(%s)」が購入可能になる。"
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "DC2",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0002",
+          "Boss_0013",
+          "Boss_0021",
+          "Boss_0022"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Honda_DC5": {
+        "ID": 0,
+        "Step": 603,
+        "Link_Step": [
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 37,
+        "Script": {
+          "Namespace": "",
+          "Key": "A427E9DF488C68771EB0EF895785E5D4",
+          "SourceString": "(%s)",
+          "LocalizedString": "(%s)"
+        },
+        "Detail": {
+          "Namespace": "",
+          "Key": "A89556EE42580C6E294486B49B958E6D",
+          "SourceString": "ディーラー画面で「(%s)」が購入可能になる。",
+          "LocalizedString": "ディーラー画面で「(%s)」が購入可能になる。"
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "DC5",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::None",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Honda_AP1": {
+        "ID": 0,
+        "Step": 704,
+        "Link_Step": [
+          1104,
+          1105,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 46,
+        "Script": {
+          "Namespace": "",
+          "Key": "A427E9DF488C68771EB0EF895785E5D4",
+          "SourceString": "(%s)",
+          "LocalizedString": "(%s)"
+        },
+        "Detail": {
+          "Namespace": "",
+          "Key": "A89556EE42580C6E294486B49B958E6D",
+          "SourceString": "ディーラー画面で「(%s)」が購入可能になる。",
+          "LocalizedString": "ディーラー画面で「(%s)」が購入可能になる。"
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "AP1",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::None",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Honda_NA2": {
+        "ID": 0,
+        "Step": 1104,
+        "Link_Step": [
+          1304,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 87,
+        "Script": {
+          "Namespace": "",
+          "Key": "A427E9DF488C68771EB0EF895785E5D4",
+          "SourceString": "(%s)",
+          "LocalizedString": "(%s)"
+        },
+        "Detail": {
+          "Namespace": "",
+          "Key": "A89556EE42580C6E294486B49B958E6D",
+          "SourceString": "ディーラー画面で「(%s)」が購入可能になる。",
+          "LocalizedString": "ディーラー画面で「(%s)」が購入可能になる。"
+        },
+        "LockedText": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_tree_system.ST_tree_system",
+          "Key": "Str_UI_Tree_sys_40",
+          "SourceString": "【スティールハート】、【紅童子（Z33）】、【噂のライター】の3人を撃破する。",
+          "LocalizedString": "≪Unlock Condition≫\r\nDefeat 【STEEL HEART】, 【CRIMSON BOY（Z33）】, and 【RUMORED WRITER】."
+        },
+        "NameId": "NA2",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage3",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0007",
+          "Boss_0012_2",
+          "Boss_0027"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Honda_NC1": {
+        "ID": 0,
+        "Step": 1304,
+        "Link_Step": [
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 109,
+        "Script": {
+          "Namespace": "",
+          "Key": "A427E9DF488C68771EB0EF895785E5D4",
+          "SourceString": "(%s)",
+          "LocalizedString": "(%s)"
+        },
+        "Detail": {
+          "Namespace": "",
+          "Key": "A89556EE42580C6E294486B49B958E6D",
+          "SourceString": "ディーラー画面で「(%s)」が購入可能になる。",
+          "LocalizedString": "ディーラー画面で「(%s)」が購入可能になる。"
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "NC1",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage4",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0010",
+          "Boss_0019",
+          "Boss_0029"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Honda_NA2M": {
+        "ID": 0,
+        "Step": 1105,
+        "Link_Step": [
+          1305,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 87,
+        "Script": {
+          "Namespace": "",
+          "Key": "A427E9DF488C68771EB0EF895785E5D4",
+          "SourceString": "(%s)",
+          "LocalizedString": "(%s)"
+        },
+        "Detail": {
+          "Namespace": "",
+          "Key": "A89556EE42580C6E294486B49B958E6D",
+          "SourceString": "ディーラー画面で「(%s)」が購入可能になる。",
+          "LocalizedString": "ディーラー画面で「(%s)」が購入可能になる。"
+        },
+        "LockedText": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_tree_system.ST_tree_system",
+          "Key": "Str_UI_Tree_sys_40",
+          "SourceString": "【スティールハート】、【紅童子（Z33）】、【噂のライター】の3人を撃破する。",
+          "LocalizedString": "≪Unlock Condition≫\r\nDefeat 【STEEL HEART】, 【CRIMSON BOY（Z33）】, and 【RUMORED WRITER】."
+        },
+        "NameId": "NA2M",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage3",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0007",
+          "Boss_0012_2",
+          "Boss_0027"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Honda_NC1M": {
+        "ID": 0,
+        "Step": 1305,
+        "Link_Step": [
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 109,
+        "Script": {
+          "Namespace": "",
+          "Key": "A427E9DF488C68771EB0EF895785E5D4",
+          "SourceString": "(%s)",
+          "LocalizedString": "(%s)"
+        },
+        "Detail": {
+          "Namespace": "",
+          "Key": "A89556EE42580C6E294486B49B958E6D",
+          "SourceString": "ディーラー画面で「(%s)」が購入可能になる。",
+          "LocalizedString": "ディーラー画面で「(%s)」が購入可能になる。"
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "NC1M",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage4",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0010",
+          "Boss_0019",
+          "Boss_0029"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      }
+    }
   }
 ]

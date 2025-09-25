@@ -20,6 +20,189 @@
         "ObjectPath": "/Script/TokyoXtremeRacer"
       }
     },
-    "Rows": {}
+    "Rows": {
+      "Mitsubishi_CP9A": {
+        "ID": 0,
+        "Step": 801,
+        "Link_Step": [
+          901,
+          902,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_NOT_ACQUIRED",
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 56,
+        "Script": {
+          "Namespace": "",
+          "Key": "6E0CDFA54352956BB5BEC68200DDD6B4",
+          "SourceString": "(%s)",
+          "LocalizedString": "(%s)"
+        },
+        "Detail": {
+          "Namespace": "",
+          "Key": "FE7D76194C7A42BB97048CA2CCD103B6",
+          "SourceString": "ディーラー画面で「{%s}」が購入可能になる。",
+          "LocalizedString": "ディーラー画面で「{%s}」が購入可能になる。"
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "CP9A",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage2",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Wan_0001"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Mitsubishi_CZ4A": {
+        "ID": 0,
+        "Step": 901,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 66,
+        "Script": {
+          "Namespace": "",
+          "Key": "2BAE87894381EE41E65B518D273CBA7C",
+          "SourceString": "(%s)",
+          "LocalizedString": "(%s)"
+        },
+        "Detail": {
+          "Namespace": "",
+          "Key": "E74DD51F4A47EC50B38815B79508C738",
+          "SourceString": "ディーラー画面で「{%s}」が購入可能になる。",
+          "LocalizedString": "ディーラー画面で「{%s}」が購入可能になる。"
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "CZ4A",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::None",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Mitsubishi_Z16A": {
+        "ID": 0,
+        "Step": 902,
+        "Link_Step": [
+          1002,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 66,
+        "Script": {
+          "Namespace": "",
+          "Key": "128BCE1F49284B4E535B629B71DFBA4C",
+          "SourceString": "(%s)",
+          "LocalizedString": "(%s)"
+        },
+        "Detail": {
+          "Namespace": "",
+          "Key": "C2C1D6AA4BD5BDE91AF31FA9722674C6",
+          "SourceString": "ディーラー画面で「{%s}」が購入可能になる。",
+          "LocalizedString": "ディーラー画面で「{%s}」が購入可能になる。"
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "Z16A",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::None",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Mitsubishi_DK4A": {
+        "ID": 0,
+        "Step": 1002,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 76,
+        "Script": {
+          "Namespace": "",
+          "Key": "98605EDD470FC71B97B9A3AEE87FDA17",
+          "SourceString": "(%s)",
+          "LocalizedString": "(%s)"
+        },
+        "Detail": {
+          "Namespace": "",
+          "Key": "0B1B6B934F9CA6BCAC01BC9CD5816410",
+          "SourceString": "ディーラー画面で「{%s}」が購入可能になる。",
+          "LocalizedString": "ディーラー画面で「{%s}」が購入可能になる。"
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "DK4A",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::None",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      }
+    }
   }
 ]

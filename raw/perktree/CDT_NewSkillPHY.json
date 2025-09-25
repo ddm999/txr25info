@@ -20,6 +20,2092 @@
         "ObjectPath": "/Script/TokyoXtremeRacer"
       }
     },
-    "Rows": {}
+    "Rows": {
+      "STT_PHY_0": {
+        "ID": 0,
+        "Step": 1,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_ACQUIRED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__PHY",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 30.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 0,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_31_n",
+          "SourceString": "耐久力強化 H",
+          "LocalizedString": "Toughness Enhancement H"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_31_t",
+          "SourceString": "耐久力が {%V00} に増加。",
+          "LocalizedString": "Toughness increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Tutorial",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::WALL",
+            "Value0": 100.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::BATTLE_VEHICLE",
+            "Value0": 100.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::OTHER_VEHICLE",
+            "Value0": 100.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_PHY_1": {
+        "ID": 0,
+        "Step": 101,
+        "Link_Step": [
+          201,
+          205,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_NOT_ACQUIRED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__PHY",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 40.0,
+        "Value_01": 10.0,
+        "Level": 1,
+        "Cost": 8,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_32_n",
+          "SourceString": "耐久力強化 G",
+          "LocalizedString": "Toughness Enhancement G"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_32_t",
+          "SourceString": "耐久力が {%V00} に増加。",
+          "LocalizedString": "Toughness increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Tutorial",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::WALL",
+            "Value0": 90.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::BATTLE_VEHICLE",
+            "Value0": 90.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::OTHER_VEHICLE",
+            "Value0": 90.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_PHY_2": {
+        "ID": 0,
+        "Step": 201,
+        "Link_Step": [
+          301,
+          303,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__PHY",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 50.0,
+        "Value_01": 20.0,
+        "Level": 2,
+        "Cost": 14,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_33_n",
+          "SourceString": "耐久力強化 F",
+          "LocalizedString": "Toughness Enhancement F"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_33_t",
+          "SourceString": "耐久力が {%V00} に増加。",
+          "LocalizedString": "Toughness increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Tutorial",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::WALL",
+            "Value0": 80.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::BATTLE_VEHICLE",
+            "Value0": 80.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::OTHER_VEHICLE",
+            "Value0": 80.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_PHY_3": {
+        "ID": 0,
+        "Step": 301,
+        "Link_Step": [
+          401,
+          402,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__PHY",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 60.0,
+        "Value_01": 30.0,
+        "Level": 3,
+        "Cost": 21,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_34_n",
+          "SourceString": "耐久力強化 E",
+          "LocalizedString": "Toughness Enhancement E"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_34_t",
+          "SourceString": "耐久力が {%V00} に増加。",
+          "LocalizedString": "Toughness increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0022"
+        ],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::WALL",
+            "Value0": 70.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::BATTLE_VEHICLE",
+            "Value0": 70.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::OTHER_VEHICLE",
+            "Value0": 70.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_PHY_4": {
+        "ID": 0,
+        "Step": 401,
+        "Link_Step": [
+          501,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__PHY",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 70.0,
+        "Value_01": 40.0,
+        "Level": 4,
+        "Cost": 29,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_35_n",
+          "SourceString": "耐久力強化 D",
+          "LocalizedString": "Toughness Enhancement D"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_35_t",
+          "SourceString": "耐久力が {%V00} に増加。",
+          "LocalizedString": "Toughness increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage2",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0024"
+        ],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::WALL",
+            "Value0": 60.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::BATTLE_VEHICLE",
+            "Value0": 60.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::OTHER_VEHICLE",
+            "Value0": 60.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_PHY_5": {
+        "ID": 0,
+        "Step": 501,
+        "Link_Step": [
+          601,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__PHY",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 80.0,
+        "Value_01": 50.0,
+        "Level": 5,
+        "Cost": 37,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_36_n",
+          "SourceString": "耐久力強化 C",
+          "LocalizedString": "Toughness Enhancement C"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_36_t",
+          "SourceString": "耐久力が {%V00} に増加。",
+          "LocalizedString": "Toughness increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage3",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0027"
+        ],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::WALL",
+            "Value0": 50.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::BATTLE_VEHICLE",
+            "Value0": 50.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::OTHER_VEHICLE",
+            "Value0": 50.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_PHY_6": {
+        "ID": 0,
+        "Step": 601,
+        "Link_Step": [
+          701,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__PHY",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 90.0,
+        "Value_01": 60.0,
+        "Level": 6,
+        "Cost": 46,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_37_n",
+          "SourceString": "耐久力強化 B",
+          "LocalizedString": "Toughness Enhancement B"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_37_t",
+          "SourceString": "耐久力が {%V00} に増加。",
+          "LocalizedString": "Toughness increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage4",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0028"
+        ],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::WALL",
+            "Value0": 40.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::BATTLE_VEHICLE",
+            "Value0": 40.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::OTHER_VEHICLE",
+            "Value0": 40.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_PHY_7": {
+        "ID": 0,
+        "Step": 701,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__PHY",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 100.0,
+        "Value_01": 70.0,
+        "Level": 7,
+        "Cost": 56,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_38_n",
+          "SourceString": "耐久力強化 A",
+          "LocalizedString": "Toughness Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_38_t",
+          "SourceString": "耐久力が {%V00} に増加。",
+          "LocalizedString": "Toughness increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0030_4"
+        ],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::WALL",
+            "Value0": 30.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::BATTLE_VEHICLE",
+            "Value0": 30.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::OTHER_VEHICLE",
+            "Value0": 30.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_REDUCE_CONSUMPTION_FOR_SP_1": {
+        "ID": 0,
+        "Step": 402,
+        "Link_Step": [
+          502,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_REDUCE_CONSUMPTION_FOR_SP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 8,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_251_n",
+          "SourceString": "強敵の狩猟者",
+          "LocalizedString": "Hunter of Strong Foes"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_251_t",
+          "SourceString": "「リーダー」とのバトルにて、\r\nタイヤの消耗、ナイトロシステムの消費、衝突ダメージを軽減する。",
+          "LocalizedString": "In battles against Leaders, reduce Tire Wear, nitro system consumption, and collision damage."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::LEADER",
+            "Value0": 10.0,
+            "Value1": 3.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_REDUCE_CONSUMPTION_FOR_SP_2": {
+        "ID": 0,
+        "Step": 502,
+        "Link_Step": [
+          602,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_REDUCE_CONSUMPTION_FOR_SP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 14,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_252_n",
+          "SourceString": "強敵の狩猟者",
+          "LocalizedString": "Hunter of Strong Foes"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_252_t",
+          "SourceString": "「リーダー」「ボス」とのバトルにて、\r\nタイヤの消耗、ナイトロシステムの消費、衝突ダメージを軽減する。",
+          "LocalizedString": "In battles against Leaders and Bosses, reduce Tire Wear, nitro system consumption, and collision damage."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage2",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0024"
+        ],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::LEADER",
+            "Value0": 10.0,
+            "Value1": 3.0
+          },
+          {
+            "Target": "ESkillTarget::BOSS",
+            "Value0": 10.0,
+            "Value1": 3.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_REDUCE_CONSUMPTION_FOR_SP_3": {
+        "ID": 0,
+        "Step": 602,
+        "Link_Step": [
+          702,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_REDUCE_CONSUMPTION_FOR_SP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 21,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_253_n",
+          "SourceString": "強敵の狩猟者",
+          "LocalizedString": "Hunter of Strong Foes"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_253_t",
+          "SourceString": "「リーダー」「ボス」「ワンダラー」とのバトルにて、\r\nタイヤの消耗、ナイトロシステムの消費、衝突ダメージを軽減する。",
+          "LocalizedString": "In battles against Leaders, Bosses, and Wanderers, reduce Tire Wear, nitro system consumption, and collision damage."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage3",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0027"
+        ],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::LEADER",
+            "Value0": 10.0,
+            "Value1": 3.0
+          },
+          {
+            "Target": "ESkillTarget::BOSS",
+            "Value0": 10.0,
+            "Value1": 3.0
+          },
+          {
+            "Target": "ESkillTarget::WANDERER",
+            "Value0": 10.0,
+            "Value1": 3.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_REDUCE_CONSUMPTION_BY_TIRE_1": {
+        "ID": 0,
+        "Step": 303,
+        "Link_Step": [
+          403,
+          404,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_REDUCE_CONSUMPTION_BY_TIRE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 95.0,
+        "Value_01": 5.0,
+        "Level": 1,
+        "Cost": 8,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_261_n",
+          "SourceString": "緻密な管理術",
+          "LocalizedString": "Meticulous Management"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_261_t",
+          "SourceString": "タイヤの消耗を {%V01}% 軽減する。",
+          "LocalizedString": "Reduce tire wear by {%V01}%."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Tutorial",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_REDUCE_CONSUMPTION_BY_TIRE_2": {
+        "ID": 0,
+        "Step": 403,
+        "Link_Step": [
+          503,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_REDUCE_CONSUMPTION_BY_TIRE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 90.0,
+        "Value_01": 10.0,
+        "Level": 2,
+        "Cost": 14,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_262_n",
+          "SourceString": "緻密な管理術",
+          "LocalizedString": "Meticulous Management"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_262_t",
+          "SourceString": "タイヤの消耗を {%V01}% 軽減する。",
+          "LocalizedString": "Reduce tire wear by {%V01}%."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0022"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_REDUCE_CONSUMPTION_BY_TIRE_3": {
+        "ID": 0,
+        "Step": 503,
+        "Link_Step": [
+          603,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_REDUCE_CONSUMPTION_BY_TIRE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 85.0,
+        "Value_01": 15.0,
+        "Level": 3,
+        "Cost": 21,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_263_n",
+          "SourceString": "緻密な管理術",
+          "LocalizedString": "Meticulous Management"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_263_t",
+          "SourceString": "タイヤの消耗を {%V01}% 軽減する。",
+          "LocalizedString": "Reduce tire wear by {%V01}%."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage2",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0024"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_REDUCE_CONSUMPTION_BY_NITRO_1": {
+        "ID": 0,
+        "Step": 404,
+        "Link_Step": [
+          504,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_REDUCE_CONSUMPTION_BY_NITRO",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 95.0,
+        "Value_01": 5.0,
+        "Level": 1,
+        "Cost": 8,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_271_n",
+          "SourceString": "奇跡の節約術",
+          "LocalizedString": "Miraculous Thrift"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_271_t",
+          "SourceString": "ナイトロシステムの消費を {%V01}% 軽減する。",
+          "LocalizedString": "Reduces nitro system consumption by {%V01}%."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Tutorial",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_REDUCE_CONSUMPTION_BY_NITRO_2": {
+        "ID": 0,
+        "Step": 504,
+        "Link_Step": [
+          604,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_REDUCE_CONSUMPTION_BY_NITRO",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 90.0,
+        "Value_01": 10.0,
+        "Level": 2,
+        "Cost": 14,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_272_n",
+          "SourceString": "奇跡の節約術",
+          "LocalizedString": "Miraculous Thrift"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_272_t",
+          "SourceString": "ナイトロシステムの消費を {%V01}% 軽減する。",
+          "LocalizedString": "Reduces nitro system consumption by {%V01}%."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0022"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_REDUCE_CONSUMPTION_BY_NITRO_3": {
+        "ID": 0,
+        "Step": 604,
+        "Link_Step": [
+          704,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_REDUCE_CONSUMPTION_BY_NITRO",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 85.0,
+        "Value_01": 15.0,
+        "Level": 3,
+        "Cost": 21,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_273_n",
+          "SourceString": "奇跡の節約術",
+          "LocalizedString": "Miraculous Thrift"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_273_t",
+          "SourceString": "ナイトロシステムの消費を {%V01}% 軽減する。",
+          "LocalizedString": "Reduces nitro system consumption by {%V01}%."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage2",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0024"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_RELAX_JUDEGE_1": {
+        "ID": 0,
+        "Step": 205,
+        "Link_Step": [
+          305,
+          306,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_RELAX_JUDEGE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 8,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_231_n",
+          "SourceString": "秘密の裏技",
+          "LocalizedString": "Secret Technique"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_231_t",
+          "SourceString": "「JUST ACCELE」の成功判定を緩和する。",
+          "LocalizedString": "Makes \"JUST ACCELE\" timing more lenient."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Tutorial",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::JUST_ACCELE",
+            "Value0": 300.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_RELAX_JUDEGE_2": {
+        "ID": 0,
+        "Step": 305,
+        "Link_Step": [
+          405,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_RELAX_JUDEGE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 14,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_232_n",
+          "SourceString": "秘密の裏技",
+          "LocalizedString": "Secret Technique"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_232_t",
+          "SourceString": "「JUST ACCELE」「NEAR MISS」の成功判定を緩和する。",
+          "LocalizedString": "Slightly ease the timing for \"JUST ACCELE\" and \"NEAR MISS.\""
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Tutorial",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::JUST_ACCELE",
+            "Value0": 300.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::NEAR_MISS",
+            "Value0": 70.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_RELAX_JUDEGE_3": {
+        "ID": 0,
+        "Step": 405,
+        "Link_Step": [
+          505,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_RELAX_JUDEGE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 21,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_233_n",
+          "SourceString": "秘密の裏技",
+          "LocalizedString": "Secret Technique"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_233_t",
+          "SourceString": "「JUST ACCELE」「NEAR MISS」「DRIFT」の\r\n成功判定を緩和する。",
+          "LocalizedString": "Ease the timing for \"JUST ACCELE,\" \"NEAR MISS,\" and \"DRIFT.\""
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0022"
+        ],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::JUST_ACCELE",
+            "Value0": 300.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::NEAR_MISS",
+            "Value0": 70.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::DRIFT",
+            "Value0": 300.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SHOCK_ABSORPTION_1": {
+        "ID": 0,
+        "Step": 306,
+        "Link_Step": [
+          406,
+          407,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SHOCK_ABSORPTION",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 8,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_241_n",
+          "SourceString": "屈強な肉体",
+          "LocalizedString": "Robust Physique"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_241_t",
+          "SourceString": "「壁」に衝突した際のダメージを軽減する。",
+          "LocalizedString": "Reduces damage from wall collisions."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Tutorial",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::WALL",
+            "Value0": 5.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SHOCK_ABSORPTION_2": {
+        "ID": 0,
+        "Step": 406,
+        "Link_Step": [
+          506,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SHOCK_ABSORPTION",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 14,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_242_n",
+          "SourceString": "屈強な肉体",
+          "LocalizedString": "Robust Physique"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_242_t",
+          "SourceString": "「壁」「アザーカー」に衝突した際のダメージを軽減する。",
+          "LocalizedString": "Reduce damage from collisions with walls and Other Cars."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Tutorial",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::WALL",
+            "Value0": 5.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::OTHER_VEHICLE",
+            "Value0": 5.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SHOCK_ABSORPTION_3": {
+        "ID": 0,
+        "Step": 506,
+        "Link_Step": [
+          606,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SHOCK_ABSORPTION",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 21,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_243_n",
+          "SourceString": "屈強な肉体",
+          "LocalizedString": "Robust Physique"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_243_t",
+          "SourceString": "「壁」「アザーカー」「ライバルカー」に衝突した際の\r\nダメージを 軽減する。",
+          "LocalizedString": "Reduce damage from collisions with walls, Other Cars, and Rival Cars."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0022"
+        ],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::WALL",
+            "Value0": 5.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::OTHER_VEHICLE",
+            "Value0": 5.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::BATTLE_VEHICLE",
+            "Value0": 5.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_AVOID_COLLISION_DEATH_1": {
+        "ID": 0,
+        "Step": 407,
+        "Link_Step": [
+          507,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_AVOID_COLLISION_DEATH",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 1.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 8,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_281_n",
+          "SourceString": "土壇場の粘り",
+          "LocalizedString": "Last-Minute Tenacity"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_281_t",
+          "SourceString": "衝突ダメージによる敗北を、バトル中に{%V00}回だけ回避できる。",
+          "LocalizedString": "Prevents defeat from collision damage {%V00} per battle."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Tutorial",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_AVOID_COLLISION_DEATH_2": {
+        "ID": 0,
+        "Step": 507,
+        "Link_Step": [
+          607,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_AVOID_COLLISION_DEATH",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 2.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 14,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_282_n",
+          "SourceString": "土壇場の粘り",
+          "LocalizedString": "Last-Minute Tenacity"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_282_t",
+          "SourceString": "衝突ダメージによる敗北を、バトル中に{%V00}回だけ回避できる。",
+          "LocalizedString": "Prevents defeat from collision damage {%V00} per battle."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Tutorial",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_AVOID_COLLISION_DEATH_3": {
+        "ID": 0,
+        "Step": 607,
+        "Link_Step": [
+          707,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_AVOID_COLLISION_DEATH",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 3.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 21,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_283_n",
+          "SourceString": "土壇場の粘り",
+          "LocalizedString": "Last-Minute Tenacity"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_283_t",
+          "SourceString": "衝突ダメージによる敗北を、バトル中に{%V00}回だけ回避できる。",
+          "LocalizedString": "Prevents defeat from collision damage {%V00} per battle."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0022"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_REDUCE_CONSUMPTION_FOR_SP_4": {
+        "ID": 0,
+        "Step": 702,
+        "Link_Step": [
+          802,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_REDUCE_CONSUMPTION_FOR_SP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 4,
+        "Cost": 29,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_254_n",
+          "SourceString": "強敵の狩猟者",
+          "LocalizedString": "Hunter of Strong Foes"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_254_t",
+          "SourceString": "「リーダー」「ボス」「ワンダラー」とのバトルにて、\r\nタイヤの消耗、ナイトロシステムの消費、衝突ダメージを軽減する。\r\n軽減量は下位レベルよりも大きくなります。",
+          "LocalizedString": "In battles against Leaders, Bosses, and Wanderers, reduce Tire Wear, nitro system consumption, and collision damage.\r\nThe reduction is greater than at lower levels."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage4",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0028"
+        ],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::LEADER",
+            "Value0": 15.0,
+            "Value1": 6.0
+          },
+          {
+            "Target": "ESkillTarget::BOSS",
+            "Value0": 15.0,
+            "Value1": 6.0
+          },
+          {
+            "Target": "ESkillTarget::WANDERER",
+            "Value0": 15.0,
+            "Value1": 6.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_REDUCE_CONSUMPTION_FOR_SP_5": {
+        "ID": 0,
+        "Step": 802,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_REDUCE_CONSUMPTION_FOR_SP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 5,
+        "Cost": 37,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_255_n",
+          "SourceString": "強敵の狩猟者",
+          "LocalizedString": "Hunter of Strong Foes"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_255_t",
+          "SourceString": "「リーダー」「ボス」「ワンダラー」とのバトルにて、\r\nタイヤの消耗、ナイトロシステムの消費、衝突ダメージを軽減する。\r\n軽減量は下位レベルよりも更に大きくなります。",
+          "LocalizedString": "In battles against Leaders, Bosses, and Wanderers, reduce Tire Wear, nitro system consumption, and collision damage.\r\nThe reduction is even greater than at lower levels."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0030_4"
+        ],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::LEADER",
+            "Value0": 20.0,
+            "Value1": 9.0
+          },
+          {
+            "Target": "ESkillTarget::BOSS",
+            "Value0": 20.0,
+            "Value1": 9.0
+          },
+          {
+            "Target": "ESkillTarget::WANDERER",
+            "Value0": 20.0,
+            "Value1": 9.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_REDUCE_CONSUMPTION_BY_TIRE_4": {
+        "ID": 0,
+        "Step": 603,
+        "Link_Step": [
+          703,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_REDUCE_CONSUMPTION_BY_TIRE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 80.0,
+        "Value_01": 20.0,
+        "Level": 4,
+        "Cost": 29,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_264_n",
+          "SourceString": "緻密な管理術",
+          "LocalizedString": "Meticulous Management"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_264_t",
+          "SourceString": "タイヤの消耗を {%V01}% 軽減する。",
+          "LocalizedString": "Reduce tire wear by {%V01}%."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage3",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0027"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_REDUCE_CONSUMPTION_BY_TIRE_5": {
+        "ID": 0,
+        "Step": 703,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_REDUCE_CONSUMPTION_BY_TIRE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 75.0,
+        "Value_01": 25.0,
+        "Level": 5,
+        "Cost": 37,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_265_n",
+          "SourceString": "緻密な管理術",
+          "LocalizedString": "Meticulous Management"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_265_t",
+          "SourceString": "タイヤの消耗を {%V01}% 軽減する。",
+          "LocalizedString": "Reduce tire wear by {%V01}%."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage4",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0028"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_REDUCE_CONSUMPTION_BY_NITRO_4": {
+        "ID": 0,
+        "Step": 704,
+        "Link_Step": [
+          804,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_REDUCE_CONSUMPTION_BY_NITRO",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 80.0,
+        "Value_01": 20.0,
+        "Level": 4,
+        "Cost": 29,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_274_n",
+          "SourceString": "奇跡の節約術",
+          "LocalizedString": "Miraculous Thrift"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_274_t",
+          "SourceString": "ナイトロシステムの消費を {%V01}% 軽減する。",
+          "LocalizedString": "Reduces nitro system consumption by {%V01}%."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage3",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0027"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_REDUCE_CONSUMPTION_BY_NITRO_5": {
+        "ID": 0,
+        "Step": 804,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_REDUCE_CONSUMPTION_BY_NITRO",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 75.0,
+        "Value_01": 25.0,
+        "Level": 5,
+        "Cost": 37,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_275_n",
+          "SourceString": "奇跡の節約術",
+          "LocalizedString": "Miraculous Thrift"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_275_t",
+          "SourceString": "ナイトロシステムの消費を {%V01}% 軽減する。",
+          "LocalizedString": "Reduces nitro system consumption by {%V01}%."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage4",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0028"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_RELAX_JUDEGE_4": {
+        "ID": 0,
+        "Step": 505,
+        "Link_Step": [
+          605,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_RELAX_JUDEGE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 4,
+        "Cost": 29,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_234_n",
+          "SourceString": "秘密の裏技",
+          "LocalizedString": "Secret Technique"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_234_t",
+          "SourceString": "「JUST ACCELE」「NEAR MISS」「DRIFT」の\r\n成功判定を緩和する。\r\n緩和量は下位レベルよりも大きくなります。",
+          "LocalizedString": "Ease the timing for \"JUST ACCELE,\" \"NEAR MISS,\" and \"DRIFT.\"\r\nTiming leniency is greater than lower levels."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage2",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0024"
+        ],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::JUST_ACCELE",
+            "Value0": 300.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::NEAR_MISS",
+            "Value0": 70.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::DRIFT",
+            "Value0": 300.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_RELAX_JUDEGE_5": {
+        "ID": 0,
+        "Step": 605,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_RELAX_JUDEGE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 5,
+        "Cost": 37,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_235_n",
+          "SourceString": "秘密の裏技",
+          "LocalizedString": "Secret Technique"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_235_t",
+          "SourceString": "「JUST ACCELE」「NEAR MISS」「DRIFT」の\r\n成功判定を緩和する。\r\n緩和量は下位レベルよりも更に大きくなります。",
+          "LocalizedString": "Ease the timing for \"JUST ACCELE,\" \"NEAR MISS,\" and \"DRIFT.\"\r\nTiming leniency is even greater than lower levels."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage3",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0027"
+        ],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::JUST_ACCELE",
+            "Value0": 300.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::NEAR_MISS",
+            "Value0": 70.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::DRIFT",
+            "Value0": 300.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SHOCK_ABSORPTION_4": {
+        "ID": 0,
+        "Step": 606,
+        "Link_Step": [
+          706,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SHOCK_ABSORPTION",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 4,
+        "Cost": 29,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_244_n",
+          "SourceString": "屈強な肉体",
+          "LocalizedString": "Robust Physique"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_244_t",
+          "SourceString": "「壁」「アザーカー」「ライバルカー」に衝突した際の\r\nダメージを 軽減する。\r\n軽減量は下位レベルよりも大きくなります。",
+          "LocalizedString": "Reduce damage from collisions with walls, Other Cars, and Rival Cars.\r\nThe reduction is greater than at lower levels."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage2",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0024"
+        ],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::WALL",
+            "Value0": 10.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::OTHER_VEHICLE",
+            "Value0": 10.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::BATTLE_VEHICLE",
+            "Value0": 10.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SHOCK_ABSORPTION_5": {
+        "ID": 0,
+        "Step": 706,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SHOCK_ABSORPTION",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 5,
+        "Cost": 37,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_245_n",
+          "SourceString": "屈強な肉体",
+          "LocalizedString": "Robust Physique"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_245_t",
+          "SourceString": "「壁」「アザーカー」「ライバルカー」に衝突した際の\r\nダメージを 軽減する。\r\n軽減量は下位レベルよりも更に大きくなります。",
+          "LocalizedString": "Reduce damage from collisions with walls, Other Cars, and Rival Cars.\r\nThe reduction is even greater than at lower levels."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage3",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0027"
+        ],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::WALL",
+            "Value0": 15.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::OTHER_VEHICLE",
+            "Value0": 15.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::BATTLE_VEHICLE",
+            "Value0": 15.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_AVOID_COLLISION_DEATH_4": {
+        "ID": 0,
+        "Step": 707,
+        "Link_Step": [
+          807,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_AVOID_COLLISION_DEATH",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 4.0,
+        "Value_01": 0.0,
+        "Level": 4,
+        "Cost": 29,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_284_n",
+          "SourceString": "土壇場の粘り",
+          "LocalizedString": "Last-Minute Tenacity"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_284_t",
+          "SourceString": "衝突ダメージによる敗北を、バトル中に{%V00}回だけ回避できる。",
+          "LocalizedString": "Prevents defeat from collision damage {%V00} per battle."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage2",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0024"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_AVOID_COLLISION_DEATH_5": {
+        "ID": 0,
+        "Step": 807,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_AVOID_COLLISION_DEATH",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 5.0,
+        "Value_01": 0.0,
+        "Level": 5,
+        "Cost": 37,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_285_n",
+          "SourceString": "土壇場の粘り",
+          "LocalizedString": "Last-Minute Tenacity"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_285_t",
+          "SourceString": "衝突ダメージによる敗北を、バトル中に{%V00}回だけ回避できる。",
+          "LocalizedString": "Prevents defeat from collision damage {%V00} per battle."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage3",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0027"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      }
+    }
   }
 ]

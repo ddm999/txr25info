@@ -220,7 +220,7 @@
         "memo_5_9961B18141718027C83E31BC3AADB54C": "敵の当たりダメージが無効になるSPの%"
       },
       "HitDamageSpCoef": {
-        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 60,
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 100,
         "memo_5_9961B18141718027C83E31BC3AADB54C": "壁の衝撃にこれをかけたものがSPの減算値となる"
       },
       "OherCarEveryWin": {
@@ -296,15 +296,15 @@
         "memo_5_9961B18141718027C83E31BC3AADB54C": "m 障害物を破棄する距離（スポーンより遠く）"
       },
       "CutinProductionLen": {
-        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 50,
-        "memo_5_9961B18141718027C83E31BC3AADB54C": "m 演出があるライバルがこれだけ近づくと演出実行"
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 100,
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "m 演出があるライバルチェック用BOX長さ"
       },
       "RivalPrizeLevelCoef": {
         "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 25,
         "memo_5_9961B18141718027C83E31BC3AADB54C": "RIVAL PRIZE レベル係数"
       },
       "DefaultSP": {
-        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 300,
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 390,
         "memo_5_9961B18141718027C83E31BC3AADB54C": "デフォルトのSP値"
       },
       "PlayerRivalSpawnSpeed": {
@@ -328,7 +328,7 @@
         "memo_5_9961B18141718027C83E31BC3AADB54C": "m ライバルやアザーカーのエフェクトの表示をしなくなる距離（表示より遠くに）"
       },
       "HitDamageSpCoefForVehicle": {
-        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 10,
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 300,
         "memo_5_9961B18141718027C83E31BC3AADB54C": "車両の衝撃にこれをかけたものがSPの減算値となる"
       },
       "CruisingEnthusiastsPaidDistance": {
@@ -378,6 +378,10 @@
       "NumOfWinBonusCoef": {
         "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 1000,
         "memo_5_9961B18141718027C83E31BC3AADB54C": "CP 勝利数ボーナス係数"
+      },
+      "CutinProductionWidth": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 20,
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "m 演出があるライバルチェック用BOX幅"
       }
     }
   }

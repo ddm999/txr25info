@@ -20,6 +20,1842 @@
         "ObjectPath": "/Script/TokyoXtremeRacer"
       }
     },
-    "Rows": {}
+    "Rows": {
+      "STT_SP_0": {
+        "ID": 0,
+        "Step": 1,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_ACQUIRED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__SP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 390.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 0,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_01_n",
+          "SourceString": "SP強化 H",
+          "LocalizedString": "SP Enhancement H"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_01_t",
+          "SourceString": "最大SPが {%V00} に 増加。",
+          "LocalizedString": "Maximum SP increased to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Tutorial",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_1": {
+        "ID": 0,
+        "Step": 101,
+        "Link_Step": [
+          201,
+          205,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_NOT_ACQUIRED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__SP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 420.0,
+        "Value_01": 30.0,
+        "Level": 1,
+        "Cost": 8,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_02_n",
+          "SourceString": "SP強化 G",
+          "LocalizedString": "SP Enhancement G"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_02_t",
+          "SourceString": "最大SPが {%V00} に 増加。",
+          "LocalizedString": "Maximum SP increased to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Tutorial",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_2": {
+        "ID": 0,
+        "Step": 201,
+        "Link_Step": [
+          301,
+          303,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__SP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 450.0,
+        "Value_01": 60.0,
+        "Level": 2,
+        "Cost": 14,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_03_n",
+          "SourceString": "SP強化 F",
+          "LocalizedString": "SP Enhancement F"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_03_t",
+          "SourceString": "最大SPが {%V00} に 増加。",
+          "LocalizedString": "Maximum SP increased to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Tutorial",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Wan_0012"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_3": {
+        "ID": 0,
+        "Step": 301,
+        "Link_Step": [
+          401,
+          402,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__SP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 480.0,
+        "Value_01": 90.0,
+        "Level": 3,
+        "Cost": 21,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_04_n",
+          "SourceString": "SP強化 E",
+          "LocalizedString": "SP Enhancement E"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_04_t",
+          "SourceString": "最大SPが {%V00} に 増加。",
+          "LocalizedString": "Maximum SP increased to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0002"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_4": {
+        "ID": 0,
+        "Step": 401,
+        "Link_Step": [
+          501,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__SP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 510.0,
+        "Value_01": 120.0,
+        "Level": 4,
+        "Cost": 29,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_05_n",
+          "SourceString": "SP強化 D",
+          "LocalizedString": "SP Enhancement D"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_05_t",
+          "SourceString": "最大SPが {%V00} に 増加。",
+          "LocalizedString": "Maximum SP increased to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage2",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0003"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_5": {
+        "ID": 0,
+        "Step": 501,
+        "Link_Step": [
+          601,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__SP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 540.0,
+        "Value_01": 150.0,
+        "Level": 5,
+        "Cost": 37,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_06_n",
+          "SourceString": "SP強化 C",
+          "LocalizedString": "SP Enhancement C"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_06_t",
+          "SourceString": "最大SPが {%V00} に 増加。",
+          "LocalizedString": "Maximum SP increased to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage3",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0007"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_6": {
+        "ID": 0,
+        "Step": 601,
+        "Link_Step": [
+          701,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__SP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 570.0,
+        "Value_01": 180.0,
+        "Level": 6,
+        "Cost": 46,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_07_n",
+          "SourceString": "SP強化 B",
+          "LocalizedString": "SP Enhancement B"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_07_t",
+          "SourceString": "最大SPが {%V00} に 増加。",
+          "LocalizedString": "Maximum SP increased to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage4",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0010"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_7": {
+        "ID": 0,
+        "Step": 701,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__SP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 600.0,
+        "Value_01": 210.0,
+        "Level": 7,
+        "Cost": 56,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_08_n",
+          "SourceString": "SP強化 A",
+          "LocalizedString": "SP Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_08_t",
+          "SourceString": "最大SPが {%V00} に 増加。",
+          "LocalizedString": "Maximum SP increased to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0031"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_RECOVERY_AT_CONTINUOUS_BATTLE_1": {
+        "ID": 0,
+        "Step": 402,
+        "Link_Step": [
+          502,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SP_RECOVERY_AT_CONTINUOUS_BATTLE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 50.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 8,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_71_n",
+          "SourceString": "連戦の疾走者",
+          "LocalizedString": "Serial Battle Sprinter"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_71_t",
+          "SourceString": "連続SPバトルの際、新たなライバルとのバトル開始時に、\r\nSPゲージが {%V00}% 回復する。",
+          "LocalizedString": "In consecutive SP Battles, recover {%V00}% SP at the start of a new rival battle."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_RECOVERY_AT_CONTINUOUS_BATTLE_2": {
+        "ID": 0,
+        "Step": 502,
+        "Link_Step": [
+          602,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SP_RECOVERY_AT_CONTINUOUS_BATTLE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 63.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 14,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_72_n",
+          "SourceString": "連戦の疾走者",
+          "LocalizedString": "Serial Battle Sprinter"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_72_t",
+          "SourceString": "連続SPバトルの際、新たなライバルとのバトル開始時に、\r\nSPゲージが {%V00}% 回復する。",
+          "LocalizedString": "In consecutive SP Battles, recover {%V00}% SP at the start of a new rival battle."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage2",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0003"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_RECOVERY_AT_CONTINUOUS_BATTLE_3": {
+        "ID": 0,
+        "Step": 602,
+        "Link_Step": [
+          702,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SP_RECOVERY_AT_CONTINUOUS_BATTLE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 75.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 21,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_73_n",
+          "SourceString": "連戦の疾走者",
+          "LocalizedString": "Serial Battle Sprinter"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_73_t",
+          "SourceString": "連続SPバトルの際、新たなライバルとのバトル開始時に、\r\nSPゲージが {%V00}% 回復する。",
+          "LocalizedString": "In consecutive SP Battles, recover {%V00}% SP at the start of a new rival battle."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage3",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0007"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_RECOVERY_AT_ATTACK_1": {
+        "ID": 0,
+        "Step": 303,
+        "Link_Step": [
+          403,
+          404,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SP_RECOVERY_AT_ATTACK",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 10.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 8,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_91_n",
+          "SourceString": "不敵な笑み",
+          "LocalizedString": "Fearless Smile"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_91_t",
+          "SourceString": "相手に与えたダメージに比例して、SPゲージが少し回復する。",
+          "LocalizedString": "Slightly restores SP Gauge proportional to damage dealt to opponents."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Tutorial",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_RECOVERY_AT_ATTACK_2": {
+        "ID": 0,
+        "Step": 403,
+        "Link_Step": [
+          503,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SP_RECOVERY_AT_ATTACK",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 20.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 14,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_92_n",
+          "SourceString": "不敵な笑み",
+          "LocalizedString": "Fearless Smile"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_92_t",
+          "SourceString": "相手に与えたダメージに比例して、SPゲージが少し回復する。",
+          "LocalizedString": "Slightly restores SP Gauge proportional to damage dealt to opponents."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0002"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_RECOVERY_AT_ATTACK_3": {
+        "ID": 0,
+        "Step": 503,
+        "Link_Step": [
+          603,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SP_RECOVERY_AT_ATTACK",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 30.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 21,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_93_n",
+          "SourceString": "不敵な笑み",
+          "LocalizedString": "Fearless Smile"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_93_t",
+          "SourceString": "相手に与えたダメージに比例して、SPゲージが回復する。",
+          "LocalizedString": "Restores SP Gauge proportional to damage dealt to opponents."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage2",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0003"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_UP_BY_WIN_1": {
+        "ID": 0,
+        "Step": 404,
+        "Link_Step": [
+          504,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SP_UP_BY_WIN",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 5.0,
+        "Value_01": 30.0,
+        "Level": 1,
+        "Cost": 8,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_101_n",
+          "SourceString": "大器の誇り",
+          "LocalizedString": "Pride of Greatness"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_101_t",
+          "SourceString": "一回のコースイン中に、勝利する度に\r\nSPゲージの最大値が {%V00} 増える。\r\n※上限 （{%V01}）に達するとそれ以上は増えません。",
+          "LocalizedString": "During a single course run, increases max SP Gauge by {%V00} with each victory. (Won't increase beyond the upper limit)"
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Tutorial",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_UP_BY_WIN_2": {
+        "ID": 0,
+        "Step": 504,
+        "Link_Step": [
+          604,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SP_UP_BY_WIN",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 5.0,
+        "Value_01": 40.0,
+        "Level": 2,
+        "Cost": 14,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_102_n",
+          "SourceString": "大器の誇り",
+          "LocalizedString": "Pride of Greatness"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_102_t",
+          "SourceString": "一回のコースイン中に、勝利する度に\r\nSPゲージの最大値が {%V00} 増える。\r\n※上限 （{%V01}）に達するとそれ以上は増えません。",
+          "LocalizedString": "During a single course run, increases max SP Gauge by {%V00} with each victory. (Won't increase beyond the upper limit)"
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0002"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_UP_BY_WIN_3": {
+        "ID": 0,
+        "Step": 604,
+        "Link_Step": [
+          704,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SP_UP_BY_WIN",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 5.0,
+        "Value_01": 50.0,
+        "Level": 3,
+        "Cost": 21,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_103_n",
+          "SourceString": "大器の誇り",
+          "LocalizedString": "Pride of Greatness"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_103_t",
+          "SourceString": "一回のコースイン中に、勝利する度に\r\nSPゲージの最大値が {%V00} 増える。\r\n※上限 （{%V01}）に達するとそれ以上は増えません。",
+          "LocalizedString": "During a single course run, increases max SP Gauge by {%V00} with each victory. (Won't increase beyond the upper limit)"
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage2",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0003"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_UP_1": {
+        "ID": 0,
+        "Step": 205,
+        "Link_Step": [
+          305,
+          306,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SP_UP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 10.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 8,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_51_n",
+          "SourceString": "心のゆとり",
+          "LocalizedString": "Peace of Mind"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_51_t",
+          "SourceString": "SPゲージが {%V00} 増える。",
+          "LocalizedString": "The SP gauge increases by {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Tutorial",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_UP_2": {
+        "ID": 0,
+        "Step": 305,
+        "Link_Step": [
+          405,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SP_UP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 20.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 14,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_52_n",
+          "SourceString": "心のゆとり",
+          "LocalizedString": "Peace of Mind"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_52_t",
+          "SourceString": "SPゲージが {%V00} 増える。",
+          "LocalizedString": "The SP gauge increases by {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Tutorial",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Wan_0012"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_UP_3": {
+        "ID": 0,
+        "Step": 405,
+        "Link_Step": [
+          505,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SP_UP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 30.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 21,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_53_n",
+          "SourceString": "心のゆとり",
+          "LocalizedString": "Peace of Mind"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_53_t",
+          "SourceString": "SPゲージが {%V00} 増える。",
+          "LocalizedString": "The SP gauge increases by {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0002"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_RECOVERY_FROM_TECHNIQUE_1": {
+        "ID": 0,
+        "Step": 306,
+        "Link_Step": [
+          406,
+          407,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SP_RECOVERY_FROM_TECHNIQUE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 8,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_61_n",
+          "SourceString": "自分大好き",
+          "LocalizedString": "Self-Love"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_61_t",
+          "SourceString": "「CLEAN CORNERING」成功時にSPゲージが回復する。",
+          "LocalizedString": "Restores SP Gauge when you successfully perform \"CLEAN CORNERING\"."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Tutorial",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::CLEAN_CORNERING",
+            "Value0": 10.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_RECOVERY_FROM_TECHNIQUE_2": {
+        "ID": 0,
+        "Step": 406,
+        "Link_Step": [
+          506,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SP_RECOVERY_FROM_TECHNIQUE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 14,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_62_n",
+          "SourceString": "自分大好き",
+          "LocalizedString": "Self-Love"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_62_t",
+          "SourceString": "「CLEAN CORNERING」「NEAR MISS」成功時に\r\nSPゲージが回復する。",
+          "LocalizedString": "Restore SP Gauge when pulling off \"CLEAN CORNERING\" or \"NEAR MISS.\""
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Tutorial",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Wan_0012"
+        ],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::CLEAN_CORNERING",
+            "Value0": 10.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::NEAR_MISS",
+            "Value0": 5.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_RECOVERY_FROM_TECHNIQUE_3": {
+        "ID": 0,
+        "Step": 506,
+        "Link_Step": [
+          606,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SP_RECOVERY_FROM_TECHNIQUE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 21,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_63_n",
+          "SourceString": "自分大好き",
+          "LocalizedString": "Self-Love"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_63_t",
+          "SourceString": "「CLEAN CORNERING」「NEAR MISS」「DRIFT」成功時に\r\nSPゲージが回復する。",
+          "LocalizedString": "Restore SP Gauge when pulling off \"CLEAN CORNERING,\" \"NEAR MISS,\" or \"DRIFT.\""
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0002"
+        ],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::CLEAN_CORNERING",
+            "Value0": 10.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::NEAR_MISS",
+            "Value0": 5.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::DRIFT",
+            "Value0": 5.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_RECOVERY_FROM_NITRO_1": {
+        "ID": 0,
+        "Step": 407,
+        "Link_Step": [
+          507,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SP_RECOVERY_FROM_NITRO",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 10.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 8,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_81_n",
+          "SourceString": "加速の虜",
+          "LocalizedString": "Acceleration Addict"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_81_t",
+          "SourceString": "NITRO SYSTEMの使用量に応じてSPゲージが少し回復する。",
+          "LocalizedString": "Slightly restores SP Gauge based on NITRO SYSTEM usage."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Tutorial",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_RECOVERY_FROM_NITRO_2": {
+        "ID": 0,
+        "Step": 507,
+        "Link_Step": [
+          607,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SP_RECOVERY_FROM_NITRO",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 15.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 14,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_82_n",
+          "SourceString": "加速の虜",
+          "LocalizedString": "Acceleration Addict"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_82_t",
+          "SourceString": "NITRO SYSTEMの使用量に応じてSPゲージが少し回復する。",
+          "LocalizedString": "Slightly restores SP Gauge based on NITRO SYSTEM usage."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Tutorial",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Wan_0012"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_RECOVERY_FROM_NITRO_3": {
+        "ID": 0,
+        "Step": 607,
+        "Link_Step": [
+          707,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SP_RECOVERY_FROM_NITRO",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 20.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 21,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_83_n",
+          "SourceString": "加速の虜",
+          "LocalizedString": "Acceleration Addict"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_83_t",
+          "SourceString": "NITRO SYSTEMの使用量に応じてSPゲージが回復する。",
+          "LocalizedString": "Restores SP Gauge based on NITRO SYSTEM usage."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0002"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_RECOVERY_AT_CONTINUOUS_BATTLE_4": {
+        "ID": 0,
+        "Step": 702,
+        "Link_Step": [
+          802,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SP_RECOVERY_AT_CONTINUOUS_BATTLE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 88.0,
+        "Value_01": 0.0,
+        "Level": 4,
+        "Cost": 29,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_74_n",
+          "SourceString": "連戦の疾走者",
+          "LocalizedString": "Serial Battle Sprinter"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_74_t",
+          "SourceString": "連続SPバトルの際、新たなライバルとのバトル開始時に、\r\nSPゲージが {%V00}% 回復する。",
+          "LocalizedString": "In consecutive SP Battles, recover {%V00}% SP at the start of a new rival battle."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage4",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0010"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_RECOVERY_AT_CONTINUOUS_BATTLE_5": {
+        "ID": 0,
+        "Step": 802,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SP_RECOVERY_AT_CONTINUOUS_BATTLE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 100.0,
+        "Value_01": 0.0,
+        "Level": 5,
+        "Cost": 37,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_75_n",
+          "SourceString": "連戦の疾走者",
+          "LocalizedString": "Serial Battle Sprinter"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_75_t",
+          "SourceString": "連続SPバトルの際、新たなライバルとのバトル開始時に、\r\nSPゲージが {%V00}% 回復する。",
+          "LocalizedString": "In consecutive SP Battles, recover {%V00}% SP at the start of a new rival battle."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0031"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_RECOVERY_AT_ATTACK_4": {
+        "ID": 0,
+        "Step": 603,
+        "Link_Step": [
+          703,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SP_RECOVERY_AT_ATTACK",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 40.0,
+        "Value_01": 0.0,
+        "Level": 4,
+        "Cost": 29,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_94_n",
+          "SourceString": "不敵な笑み",
+          "LocalizedString": "Fearless Smile"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_94_t",
+          "SourceString": "相手に与えたダメージに比例して、SPゲージが大幅に回復する。",
+          "LocalizedString": "Significantly restores SP Gauge proportional to damage dealt to opponents."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage3",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0007"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_RECOVERY_AT_ATTACK_5": {
+        "ID": 0,
+        "Step": 703,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SP_RECOVERY_AT_ATTACK",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 50.0,
+        "Value_01": 0.0,
+        "Level": 5,
+        "Cost": 37,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_95_n",
+          "SourceString": "不敵な笑み",
+          "LocalizedString": "Fearless Smile"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_95_t",
+          "SourceString": "相手に与えたダメージに比例して、SPゲージが大幅に回復する。",
+          "LocalizedString": "Significantly restores SP Gauge proportional to damage dealt to opponents."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage4",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0010"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_UP_BY_WIN_4": {
+        "ID": 0,
+        "Step": 704,
+        "Link_Step": [
+          804,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SP_UP_BY_WIN",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 5.0,
+        "Value_01": 60.0,
+        "Level": 4,
+        "Cost": 29,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_104_n",
+          "SourceString": "大器の誇り",
+          "LocalizedString": "Pride of Greatness"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_104_t",
+          "SourceString": "一回のコースイン中に、勝利する度に\r\nSPゲージの最大値が {%V00} 増える。\r\n※上限 （{%V01}）に達するとそれ以上は増えません。",
+          "LocalizedString": "During a single course run, increases max SP Gauge by {%V00} with each victory. (Won't increase beyond the upper limit)"
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage3",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0007"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_UP_BY_WIN_5": {
+        "ID": 0,
+        "Step": 804,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SP_UP_BY_WIN",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 5.0,
+        "Value_01": 70.0,
+        "Level": 5,
+        "Cost": 37,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_105_n",
+          "SourceString": "大器の誇り",
+          "LocalizedString": "Pride of Greatness"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_105_t",
+          "SourceString": "一回のコースイン中に、勝利する度に\r\nSPゲージの最大値が {%V00} 増える。\r\n※上限 （{%V01}）に達するとそれ以上は増えません。",
+          "LocalizedString": "During a single course run, increases max SP Gauge by {%V00} with each victory. (Won't increase beyond the upper limit)"
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage4",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0010"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_UP_4": {
+        "ID": 0,
+        "Step": 505,
+        "Link_Step": [
+          605,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SP_UP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 40.0,
+        "Value_01": 0.0,
+        "Level": 4,
+        "Cost": 29,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_54_n",
+          "SourceString": "心のゆとり",
+          "LocalizedString": "Peace of Mind"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_54_t",
+          "SourceString": "SPゲージが {%V00} 増える。",
+          "LocalizedString": "The SP gauge increases by {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage2",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0003"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_UP_5": {
+        "ID": 0,
+        "Step": 605,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SP_UP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 50.0,
+        "Value_01": 0.0,
+        "Level": 5,
+        "Cost": 37,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_55_n",
+          "SourceString": "心のゆとり",
+          "LocalizedString": "Peace of Mind"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_55_t",
+          "SourceString": "SPゲージが {%V00} 増える。",
+          "LocalizedString": "The SP gauge increases by {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage3",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0007"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_RECOVERY_FROM_TECHNIQUE_4": {
+        "ID": 0,
+        "Step": 606,
+        "Link_Step": [
+          706,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SP_RECOVERY_FROM_TECHNIQUE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 4,
+        "Cost": 29,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_64_n",
+          "SourceString": "自分大好き",
+          "LocalizedString": "Self-Love"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_64_t",
+          "SourceString": "「CLEAN CORNERING」「NEAR MISS」「DRIFT」成功時に\r\nSPゲージが回復する。\r\n回復量は下位レベルよりも大きくなります。",
+          "LocalizedString": "Restore SP Gauge when pulling off \"CLEAN CORNERING,\" \"NEAR MISS,\" or \"DRIFT.\"\r\nRecovery amount is greater than lower levels."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage2",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0003"
+        ],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::CLEAN_CORNERING",
+            "Value0": 15.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::NEAR_MISS",
+            "Value0": 7.5,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::DRIFT",
+            "Value0": 7.5,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_RECOVERY_FROM_TECHNIQUE_5": {
+        "ID": 0,
+        "Step": 706,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SP_RECOVERY_FROM_TECHNIQUE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 5,
+        "Cost": 37,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_65_n",
+          "SourceString": "自分大好き",
+          "LocalizedString": "Self-Love"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_65_t",
+          "SourceString": "「CLEAN CORNERING」「NEAR MISS」「DRIFT」成功時に\r\nSPゲージが回復する。\r\n回復量は下位レベルよりも更に大きくなります。",
+          "LocalizedString": "Restore SP Gauge when pulling off \"CLEAN CORNERING,\" \"NEAR MISS,\" or \"DRIFT.\"\r\nRecovery amount is even greater than lower levels."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage3",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0007"
+        ],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::CLEAN_CORNERING",
+            "Value0": 20.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::NEAR_MISS",
+            "Value0": 10.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::DRIFT",
+            "Value0": 10.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_RECOVERY_FROM_NITRO_4": {
+        "ID": 0,
+        "Step": 707,
+        "Link_Step": [
+          807,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SP_RECOVERY_FROM_NITRO",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 25.0,
+        "Value_01": 0.0,
+        "Level": 4,
+        "Cost": 29,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_84_n",
+          "SourceString": "加速の虜",
+          "LocalizedString": "Acceleration Addict"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_84_t",
+          "SourceString": "NITRO SYSTEMの使用量に応じてSPゲージが大幅に回復する。",
+          "LocalizedString": "Significantly restores SP Gauge based on NITRO SYSTEM usage."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage2",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0003"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_RECOVERY_FROM_NITRO_5": {
+        "ID": 0,
+        "Step": 807,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_SP_RECOVERY_FROM_NITRO",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 30.0,
+        "Value_01": 0.0,
+        "Level": 5,
+        "Cost": 37,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_85_n",
+          "SourceString": "加速の虜",
+          "LocalizedString": "Acceleration Addict"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_85_t",
+          "SourceString": "NITRO SYSTEMの使用量に応じてSPゲージが大幅に回復する。",
+          "LocalizedString": "Significantly restores SP Gauge based on NITRO SYSTEM usage."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage3",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0007"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      }
+    }
   }
 ]

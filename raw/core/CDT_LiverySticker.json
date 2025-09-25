@@ -9,6 +9,10 @@
         {
           "ObjectName": "DataTable'DT_LiverySticker0'",
           "ObjectPath": "/Game/ITSB/Core/Quest/DT_LiverySticker0.0"
+        },
+        {
+          "ObjectName": "DataTable'DT_LiverySticker1'",
+          "ObjectPath": "/Game/ITSB/Core/Quest/DT_LiverySticker1.0"
         }
       ],
       "RowStruct": {
@@ -2044,6 +2048,2551 @@
         },
         "image_5_8A3F58D3460731A078A634916BA76F0E": {
           "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0070_s.Ter_Wand0070_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "sk_33": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Sticker/Textures/Tth_st_LEON.Tth_st_LEON",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Sticker/MK_parts/Tst_LEON.Tst_LEON",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": true,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "MAKER",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "sk_34": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Sticker/Textures/Tth_st_TAKEOFF.Tth_st_TAKEOFF",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Sticker/MK_parts/Tst_TAKEOFF.Tst_TAKEOFF",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": true,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "MAKER",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "sk_35": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Sticker/Textures/Tth_st_MUGEN.Tth_st_MUGEN",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Sticker/MK_parts/Tst_MUGEN.Tst_MUGEN",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [
+          "Honda"
+        ],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": true,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "MAKER",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "sk_36": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Sticker/Textures/Tth_st_MargaHills.Tth_st_MargaHills",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Sticker/MK_parts/Tst_MargaHills.Tst_MargaHills",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": true,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "MAKER",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "sk_37": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Sticker/Textures/Tth_st_jblood.Tth_st_jblood",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Sticker/MK_parts/Tst_jblood.Tst_jblood",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": true,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "MAKER",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "sk_38": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Sticker/Textures/Tth_st_GARSON.Tth_st_GARSON",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Sticker/MK_parts/Tst_GARSON.Tst_GARSON",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": true,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "MAKER",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "sk_39": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Sticker/Textures/Tth_st_JSRACING.Tth_st_JSRACING",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Sticker/MK_parts/Tst_JSRACING.Tst_JSRACING",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": true,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "MAKER",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "sk_40": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Sticker/Textures/Tth_st_Modulo.Tth_st_Modulo",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Sticker/MK_parts/Tst_Modulo.Tst_Modulo",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [
+          "Honda"
+        ],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": true,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "MAKER",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "sk_41": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Sticker/Textures/Tth_st_gpsports.Tth_st_gpsports",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Sticker/MK_parts/Tst_gpsports.Tst_gpsports",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": true,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "MAKER",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "sk_42": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Sticker/Textures/Tth_st_BNSPORTS.Tth_st_BNSPORTS",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Sticker/MK_parts/Tst_BNSPORTS.Tst_BNSPORTS",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": true,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "MAKER",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "sk_43": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Sticker/Textures/Tth_st_TAKUMIproject.Tth_st_TAKUMIproject",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Sticker/MK_parts/Tst_TAKUMIproject.Tst_TAKUMIproject",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": true,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "MAKER",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "sk_44": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Sticker/Textures/Tth_st_Abflug.Tth_st_Abflug",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Sticker/MK_parts/Tst_Abflug.Tst_Abflug",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": true,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "MAKER",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "sk_45": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Sticker/Textures/Tth_st_JUNCTIONPRODUCE.Tth_st_JUNCTIONPRODUCE",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Sticker/MK_parts/Tst_JUNCTIONPRODUCE.Tst_JUNCTIONPRODUCE",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": true,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "MAKER",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "sk_46": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Sticker/Textures/Tth_st_admiration.Tth_st_admiration",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Sticker/MK_parts/Tst_admiration.Tst_admiration",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": true,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "MAKER",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "sk_47": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Sticker/Textures/Tth_st_MsAuto.Tth_st_MsAuto",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Sticker/MK_parts/Tst_MsAuto.Tst_MsAuto",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": true,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "MAKER",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "sk_48": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Sticker/Textures/Tth_st_ChargeSpeed.Tth_st_ChargeSpeed",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Sticker/MK_parts/Tst_ChargeSpeed.Tst_ChargeSpeed",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": true,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "MAKER",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "sk_49": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Sticker/Textures/Tth_st_ARTISANSPIRITS.Tth_st_ARTISANSPIRITS",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Sticker/MK_parts/Tst_ARTISANSPIRITS.Tst_ARTISANSPIRITS",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": true,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "MAKER",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "sk_50": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Sticker/Textures/Tth_st_ROUTEKS.Tth_st_ROUTEKS",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Sticker/MK_parts/Tst_ROUTEKS.Tst_ROUTEKS",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": true,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "MAKER",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "sk_51": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Sticker/Textures/Tth_st_KENSTYLE.Tth_st_KENSTYLE",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Sticker/MK_parts/Tst_KENSTYLE.Tst_KENSTYLE",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": true,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "MAKER",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "sk_52": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Sticker/Textures/Tth_st_DAD.Tth_st_DAD",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Sticker/MK_parts/Tst_DAD.Tst_DAD",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": true,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "MAKER",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "sk_53": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Sticker/Textures/Tth_st_WALD.Tth_st_WALD",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Sticker/MK_parts/Tst_WALD.Tst_WALD",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": true,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "MAKER",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Team002": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Team002_s.Tth_er_Team002_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Team002_s.Ter_Team002_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Team027": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Team027_s.Tth_er_Team027_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Team027_s.Ter_Team027_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Team029": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Team029_s.Tth_er_Team029_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Team029_s.Ter_Team029_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Team009": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Team009_s.Tth_er_Team009_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Team009_s.Ter_Team009_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Team036": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Team036_s.Tth_er_Team036_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Team036_s.Ter_Team036_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Team019": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Team019_s.Tth_er_Team019_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Team019_s.Ter_Team019_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Team020": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Team020_s.Tth_er_Team020_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Team020_s.Ter_Team020_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Team040": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Team040_s.Tth_er_Team040_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Team040_s.Ter_Team040_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Team008": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Team008_s.Tth_er_Team008_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Team008_s.Ter_Team008_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Team037": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Team037_s.Tth_er_Team037_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Team037_s.Ter_Team037_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Team023": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Team023_s.Tth_er_Team023_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Team023_s.Ter_Team023_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Team022": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Team022_s.Tth_er_Team022_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Team022_s.Ter_Team022_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Team026": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Team026_s.Tth_er_Team026_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Team026_s.Ter_Team026_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Team010": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Team010_s.Tth_er_Team010_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Team010_s.Ter_Team010_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Team045": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Team045_s.Tth_er_Team045_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Team045_s.Ter_Team045_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Team035": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Team035_s.Tth_er_Team035_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Team035_s.Ter_Team035_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Team050": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Team050_s.Tth_er_Team050_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Team050_s.Ter_Team050_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Team042": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Team042_s.Tth_er_Team042_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Team042_s.Ter_Team042_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Team039": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Team039_s.Tth_er_Team039_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Team039_s.Ter_Team039_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Team041": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Team041_s.Tth_er_Team041_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Team041_s.Ter_Team041_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Team038": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Team038_s.Tth_er_Team038_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Team038_s.Ter_Team038_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Team048": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Team048_s.Tth_er_Team048_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Team048_s.Ter_Team048_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Team054": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Team054_s.Tth_er_Team054_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Team054_s.Ter_Team054_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Boss036": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Boss036_s.Tth_er_Boss036_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Boss036_s.Ter_Boss036_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Boss037": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Boss037_s.Tth_er_Boss037_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Boss037_s.Ter_Boss037_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Boss007": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Boss007_s.Tth_er_Boss007_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Boss007_s.Ter_Boss007_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Boss016": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Boss016_s.Tth_er_Boss016_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Boss016_s.Ter_Boss016_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Boss018": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Boss018_s.Tth_er_Boss018_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Boss018_s.Ter_Boss018_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Boss017": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Boss017_s.Tth_er_Boss017_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Boss017_s.Ter_Boss017_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Boss025": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Boss025_s.Tth_er_Boss025_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Boss025_s.Ter_Boss025_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Boss026": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Boss026_s.Tth_er_Boss026_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Boss026_s.Ter_Boss026_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Boss027": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Boss027_s.Tth_er_Boss027_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Boss027_s.Ter_Boss027_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Boss008": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Boss008_s.Tth_er_Boss008_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Boss008_s.Ter_Boss008_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Boss004": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Boss004_s.Tth_er_Boss004_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Boss004_s.Ter_Boss004_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Boss005": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Boss005_s.Tth_er_Boss005_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Boss005_s.Ter_Boss005_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Boss038": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Boss038_s.Tth_er_Boss038_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Boss038_s.Ter_Boss038_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Boss010": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Boss010_s.Tth_er_Boss010_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Boss010_s.Ter_Boss010_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Boss039": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Boss039_s.Tth_er_Boss039_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Boss039_s.Ter_Boss039_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Boss040": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Boss040_s.Tth_er_Boss040_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Boss040_s.Ter_Boss040_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Boss041": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Boss041_s.Tth_er_Boss041_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Boss041_s.Ter_Boss041_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Boss042": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Boss042_s.Tth_er_Boss042_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Boss042_s.Ter_Boss042_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Boss019": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Boss019_s.Tth_er_Boss019_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Boss019_s.Ter_Boss019_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Boss028": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Boss028_s.Tth_er_Boss028_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Boss028_s.Ter_Boss028_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Boss029": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Boss029_s.Tth_er_Boss029_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Boss029_s.Ter_Boss029_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Boss020": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Boss020_s.Tth_er_Boss020_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Boss020_s.Ter_Boss020_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Boss011": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Boss011_s.Tth_er_Boss011_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Boss011_s.Ter_Boss011_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Boss031": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Boss031_s.Tth_er_Boss031_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Boss031_s.Ter_Boss031_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Boss032": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Boss032_s.Tth_er_Boss032_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Boss032_s.Ter_Boss032_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Boss033": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Boss033_s.Tth_er_Boss033_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Boss033_s.Ter_Boss033_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Boss034": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Boss034_s.Tth_er_Boss034_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Boss034_s.Ter_Boss034_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Boss035": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Boss035_s.Tth_er_Boss035_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Boss035_s.Ter_Boss035_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0002": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0002_s.Tth_er_Wand0002_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0002_s.Ter_Wand0002_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0007": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0007_s.Tth_er_Wand0007_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0007_s.Ter_Wand0007_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0009": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0009_s.Tth_er_Wand0009_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0009_s.Ter_Wand0009_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0017": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0017_s.Tth_er_Wand0017_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0017_s.Ter_Wand0017_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0018": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0018_s.Tth_er_Wand0018_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0018_s.Ter_Wand0018_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0019": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0019_s.Tth_er_Wand0019_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0019_s.Ter_Wand0019_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0020": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0020_s.Tth_er_Wand0020_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0020_s.Ter_Wand0020_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0028": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0028_s.Tth_er_Wand0028_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0028_s.Ter_Wand0028_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0030": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0030_s.Tth_er_Wand0030_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0030_s.Ter_Wand0030_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0031": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0031_s.Tth_er_Wand0031_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0031_s.Ter_Wand0031_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0032": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0032_s.Tth_er_Wand0032_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0032_s.Ter_Wand0032_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0037": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0037_s.Tth_er_Wand0037_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0037_s.Ter_Wand0037_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0038": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0038_s.Tth_er_Wand0038_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0038_s.Ter_Wand0038_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0039": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0039_s.Tth_er_Wand0039_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0039_s.Ter_Wand0039_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0040": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0040_s.Tth_er_Wand0040_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0040_s.Ter_Wand0040_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0041": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0041_s.Tth_er_Wand0041_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0041_s.Ter_Wand0041_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0042": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0042_s.Tth_er_Wand0042_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0042_s.Ter_Wand0042_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0043": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0043_s.Tth_er_Wand0043_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0043_s.Ter_Wand0043_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0044": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0044_s.Tth_er_Wand0044_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0044_s.Ter_Wand0044_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0045": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0045_s.Tth_er_Wand0045_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0045_s.Ter_Wand0045_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0046": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0046_s.Tth_er_Wand0046_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0046_s.Ter_Wand0046_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0047": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0047_s.Tth_er_Wand0047_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0047_s.Ter_Wand0047_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0048": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0048_s.Tth_er_Wand0048_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0048_s.Ter_Wand0048_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0049": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0049_s.Tth_er_Wand0049_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0049_s.Ter_Wand0049_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0050": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0050_s.Tth_er_Wand0050_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0050_s.Ter_Wand0050_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0051": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0051_s.Tth_er_Wand0051_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0051_s.Ter_Wand0051_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0052": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0052_s.Tth_er_Wand0052_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0052_s.Ter_Wand0052_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0053": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0053_s.Tth_er_Wand0053_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0053_s.Ter_Wand0053_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0054": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0054_s.Tth_er_Wand0054_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0054_s.Ter_Wand0054_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0055": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0055_s.Tth_er_Wand0055_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0055_s.Ter_Wand0055_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0056": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0056_s.Tth_er_Wand0056_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0056_s.Ter_Wand0056_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0057": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0057_s.Tth_er_Wand0057_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0057_s.Ter_Wand0057_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0058": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0058_s.Tth_er_Wand0058_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0058_s.Ter_Wand0058_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0059": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0059_s.Tth_er_Wand0059_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0059_s.Ter_Wand0059_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0060": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0060_s.Tth_er_Wand0060_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0060_s.Ter_Wand0060_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0062": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0062_s.Tth_er_Wand0062_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0062_s.Ter_Wand0062_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0063": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0063_s.Tth_er_Wand0063_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0063_s.Ter_Wand0063_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0065": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0065_s.Tth_er_Wand0065_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0065_s.Ter_Wand0065_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0066": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0066_s.Tth_er_Wand0066_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0066_s.Ter_Wand0066_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0067": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0067_s.Tth_er_Wand0067_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0067_s.Ter_Wand0067_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0068": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0068_s.Tth_er_Wand0068_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0068_s.Ter_Wand0068_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0069": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0069_s.Tth_er_Wand0069_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0069_s.Ter_Wand0069_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0071": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0071_s.Tth_er_Wand0071_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0071_s.Ter_Wand0071_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0072": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0072_s.Tth_er_Wand0072_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0072_s.Ter_Wand0072_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0073": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0073_s.Tth_er_Wand0073_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0073_s.Ter_Wand0073_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0074": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0074_s.Tth_er_Wand0074_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0074_s.Ter_Wand0074_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0075": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0075_s.Tth_er_Wand0075_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0075_s.Ter_Wand0075_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0076": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0076_s.Tth_er_Wand0076_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0076_s.Ter_Wand0076_s",
+          "SubPathString": ""
+        },
+        "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SizeWidth_23_5E00B0E44002188B29B729945A34A0E3": 0,
+        "SizeHeight_25_ACF910CB4F867B3530F346974270401A": 0,
+        "maker_14_FB6555A7458F5D6C45003DBB8CCDC869": [],
+        "team_10_A4A513C84257C0C44AF27185DF99F104": "None",
+        "can_bought_default_13_3CD26FAC48982E9ABE897582071A61D2": false,
+        "genre_17_7DE4308F445F9E650E3CCFB27E5B14ED": "RIVALEMBLEM",
+        "unlock_target_maker_28_66B9B7354608AD0B7973579B2E3DD3DA": "None"
+      },
+      "Wand0077": {
+        "thumbnail_image_3_D74884A747E77462EC5B538BA0D9201C": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0077_s.Tth_er_Wand0077_s",
+          "SubPathString": ""
+        },
+        "image_5_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0077_s.Ter_Wand0077_s",
           "SubPathString": ""
         },
         "image_sub_20_B79D20784188D2B53127B9AC401FD269": {
