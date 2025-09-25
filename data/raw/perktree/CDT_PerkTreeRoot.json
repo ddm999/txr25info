@@ -27,7 +27,152 @@
         "DataTable": {
           "ObjectName": "CompositeDataTable'CDT_TuneTree'",
           "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Tune/CDT_TuneTree.0"
-        }
+        },
+        "SortOrder": 0
+      },
+      "PerkIncome": {
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "NameInCategory": "PerkIncome",
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'CDT_PerkIncome'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Perk/CDT_PerkIncome.0"
+        },
+        "SortOrder": 1
+      },
+      "PerkOncome": {
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "NameInCategory": "PerkOncome",
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'CDT_PerkOncome'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Perk/CDT_PerkOncome.0"
+        },
+        "SortOrder": 2
+      },
+      "Daihatsu": {
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "NameInCategory": "DAIHATSU",
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'CDT_Daihatsu'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Machine/Daihatsu/CDT_Daihatsu.0"
+        },
+        "SortOrder": 1
+      },
+      "Mazda": {
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "NameInCategory": "MAZDA",
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'CDT_Mazda'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Machine/Mazda/CDT_Mazda.0"
+        },
+        "SortOrder": 4
+      },
+      "Mitsubishi": {
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "NameInCategory": "MITSUBISHI",
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'CDT_Mitsubishi'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Machine/Mitsubishi/CDT_Mitsubishi.0"
+        },
+        "SortOrder": 5
+      },
+      "Nissan": {
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "NameInCategory": "NISSAN",
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'CDT_Nissan'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Machine/Nissan/CDT_Nissan.0"
+        },
+        "SortOrder": 6
+      },
+      "Subaru": {
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "NameInCategory": "SUBARU",
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'CDT_Subaru'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Machine/Subaru/CDT_Subaru.0"
+        },
+        "SortOrder": 7
+      },
+      "Suzuki": {
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "NameInCategory": "SUZUKI",
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'CDT_Suzuki'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Machine/Suzuki/CDT_Suzuki.0"
+        },
+        "SortOrder": 8
+      },
+      "Toyota": {
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "NameInCategory": "TOYOTA",
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'CDT_Toyota'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Machine/Toyota/CDT_Toyota.0"
+        },
+        "SortOrder": 9
+      },
+      "SkillDEX": {
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "NameInCategory": "SkillDEX",
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'CDT_NewSkillDEX'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Skill/CDT_NewSkillDEX.0"
+        },
+        "SortOrder": 1
+      },
+      "SkillSP": {
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "NameInCategory": "SkillSP",
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'CDT_NewSkillSP'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Skill/CDT_NewSkillSP.0"
+        },
+        "SortOrder": 2
+      },
+      "SkillATK": {
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "NameInCategory": "SkillATK",
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'CDT_NewSkillATK'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Skill/CDT_NewSkillATK.0"
+        },
+        "SortOrder": 3
+      },
+      "SkillDEF": {
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "NameInCategory": "SkillDEF",
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'CDT_NewSkillDEF'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Skill/CDT_NewSkillDEF.0"
+        },
+        "SortOrder": 4
+      },
+      "SkillPHY": {
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "NameInCategory": "SkillPHY",
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'CDT_NewSkillPHY'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Skill/CDT_NewSkillPHY.0"
+        },
+        "SortOrder": 5
+      },
+      "Honda": {
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "NameInCategory": "Honda",
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'CDT_Honda'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Machine/Honda/CDT_Honda.0"
+        },
+        "SortOrder": 2
+      },
+      "LEXUS": {
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "NameInCategory": "LEXUS",
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'CDT_Lexus'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Machine/Lexus/CDT_Lexus.0"
+        },
+        "SortOrder": 3
       }
     }
   }

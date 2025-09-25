@@ -20,6 +20,97 @@
         "ObjectPath": "/Script/TokyoXtremeRacer"
       }
     },
-    "Rows": {}
+    "Rows": {
+      "Daihatsu_LA400K": {
+        "ID": 0,
+        "Step": 101,
+        "Link_Step": [
+          201,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_NOT_ACQUIRED",
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 3,
+        "Script": {
+          "Namespace": "",
+          "Key": "8650617C40F3259B4DE92B8A4D086137",
+          "SourceString": "(%s)",
+          "LocalizedString": "(%s)"
+        },
+        "Detail": {
+          "Namespace": "",
+          "Key": "E3B3D3234717E2840F3604AE6E3F0F6B",
+          "SourceString": "ディーラー画面で「(%s)」が購入可能になる。",
+          "LocalizedString": "ディーラー画面で「(%s)」が購入可能になる。"
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "LA400K",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::None",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Daihatsu_L152S": {
+        "ID": 0,
+        "Step": 201,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 8,
+        "Script": {
+          "Namespace": "",
+          "Key": "852DAD15469F7B198C0FD2B84923F7D3",
+          "SourceString": "(%s)",
+          "LocalizedString": "(%s)"
+        },
+        "Detail": {
+          "Namespace": "",
+          "Key": "3B4332CC41732E8789992BBC0AA465B8",
+          "SourceString": "ディーラー画面で「(%s)」が購入可能になる。",
+          "LocalizedString": "ディーラー画面で「(%s)」が購入可能になる。"
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "L152S",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::None",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      }
+    }
   }
 ]
