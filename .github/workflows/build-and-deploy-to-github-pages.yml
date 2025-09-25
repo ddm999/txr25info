@@ -1,0 +1,41 @@
+name: Build and deploy site
+
+# Controls when the workflow will run
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      - name: Install python3
+        uses: actions/setup-python@v5
+        with:
+          cache: 'pip'
+
+      - name: Install requirements
+        run: pip install -r requirements.txt
+
+      - name: Convert files from FModel json -> human json
+        run: python3 convert.py
+
+      - name: Draw all powerunit graphs
+        run: python3 graph_pu.py
+
+      - name: Build site
+        run: python3 build.py
+
+      - name: Deploy to Github Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.5
+        with:
+          BRANCH: gh-pages
+          FOLDER: build
+          ssh-key: ${{ secrets.DEPLOY_KEY }}
+          git-config-name: Github Actions
+          git-config-email: gh.ddm999@gmail.com
