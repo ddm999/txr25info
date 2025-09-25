@@ -32,7 +32,7 @@
           <a href="./cars/${car}.html">
             <p class="car">
               <span id="name">${car}</span>
-              <img id="img" src="img/car/${cars[car]['image']}.png">
+              <img id="img" src="img/car/${cars[car]['image'].upper()}.png">
               #if $cars[car]['can_buy'] and $cars[car]['maker'] != "OtherCar"
               <span id="price">${cars[car]['fmtprice']} <span id="cp">CP</small></span>
               #else
