@@ -1,0 +1,275 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Color_Car_Official_JZA80",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'UDS_Color'",
+        "ObjectPath": "/Game/ITSB/UI/Color/DataTables/UDS_Color.0"
+      }
+    },
+    "Rows": {
+      "0": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.274677,
+          "G": 0.238398,
+          "B": 0.191202,
+          "A": 1.0,
+          "Hex": "8F8679"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "81734C014469520E29898CB3079C06EC",
+          "SourceString": "シルバーメタリックグラファイト",
+          "LocalizedString": "シルバーメタリックグラファイト"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Toyota/JZA80/Materials/OfficialColor/MI_Car_clJZA80_00.MI_Car_clJZA80_00",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "1": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "AB289BFF469535177EF1ACB280E15E5C",
+          "SourceString": "ブラック",
+          "LocalizedString": "ブラック"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Toyota/JZA80/Materials/OfficialColor/MI_Car_clJZA80_01.MI_Car_clJZA80_01",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "2": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "CC05B5674CA4863FBDD427924979ECF7",
+          "SourceString": "スーパーホワイトII",
+          "LocalizedString": "スーパーホワイトII"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Toyota/JZA80/Materials/OfficialColor/MI_Car_clJZA80_02.MI_Car_clJZA80_02",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "3": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.093059,
+          "G": 0.124772,
+          "B": 0.099899,
+          "A": 1.0,
+          "Hex": "566359"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "3C8252F04AA4BC5E7C7DFA8CED38EEF4",
+          "SourceString": "グレイッシュグリーンマイカメタリック",
+          "LocalizedString": "グレイッシュグリーンマイカメタリック"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Toyota/JZA80/Materials/OfficialColor/MI_Car_clJZA80_03.MI_Car_clJZA80_03",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "4": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.854993,
+          "G": 0.617207,
+          "B": 0.06301,
+          "A": 1.0,
+          "Hex": "EECE47"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "66AFBBD141F3944123C3DF8B70202D50",
+          "SourceString": "スーパーブライトイエロー",
+          "LocalizedString": "スーパーブライトイエロー"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Toyota/JZA80/Materials/OfficialColor/MI_Car_clJZA80_04.MI_Car_clJZA80_04",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "5": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.679543,
+          "G": 0.011612,
+          "B": 0.006049,
+          "A": 1.0,
+          "Hex": "D71C12"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "2FE210874DB22DDBBDDDD982E4A860CA",
+          "SourceString": "スーパーレッドIV",
+          "LocalizedString": "スーパーレッドIV"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Toyota/JZA80/Materials/OfficialColor/MI_Car_clJZA80_05.MI_Car_clJZA80_05",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "6": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.007499,
+          "G": 0.024158,
+          "B": 0.124772,
+          "A": 1.0,
+          "Hex": "152B63"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "A6AD53194ED744D151B3DFB62F808194",
+          "SourceString": "ブルーマイカメタリック",
+          "LocalizedString": "ブルーマイカメタリック"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Toyota/JZA80/Materials/OfficialColor/MI_Car_clJZA80_06.MI_Car_clJZA80_06",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      }
+    }
+  }
+]

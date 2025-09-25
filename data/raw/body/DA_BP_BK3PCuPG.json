@@ -8,7 +8,7 @@
       "CarData": {
         "ID": 155,
         "CarId": "CAR155",
-        "CarNameId": "PLAYFLE GENTLMAN",
+        "CarNameId": "PLAYFUL GENTLEMAN",
         "ModelNameId": "BK3PCuPG",
         "FolderId": "BK3PCuPG",
         "ReleaseDay": 2003,
@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::Straight4",
         "EngineFromat": "EEngineFromat::E_L3_VE",
         "EngineInspiration": "ECarIceAspirationType::NA",
-        "displacement": 2260,
+        "Displacement": 2260,
         "MaxPower": 171,
         "MaxPowerRpm": 6500,
         "MaxTorque": 21.8,
@@ -52,6 +52,7 @@
         "RSuspension": "ERSuspension::MULTI_LINK",
         "Cd": 0.34,
         "Cl": 0.008,
+        "RearDriveRate": 0.0,
         "EngineFormatName": "L3_VE",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -73,15 +74,17 @@
           "SourceString": "PLAYFUL GENTLEMAN",
           "LocalizedString": "PLAYFUL GENTLEMAN"
         },
-        "FrontHightOffset": -20,
-        "RearHightOffset": -20,
+        "FrontHightOffset": -26,
+        "RearHightOffset": -26,
         "FrontCamberAngle": -20,
         "RearCamberAngle": -40,
-        "FrontOffset": 40,
-        "RearOffset": 55,
+        "FrontOffset": 70,
+        "RearOffset": 90,
         "FrontTirePulling": 30,
         "RearTirePulling": 30,
-        "MaxHightOffset": 2.0
+        "MaxHightOffset": 2.0,
+        "FrontTireWidthMax": 245,
+        "RearTireWidthMax": 245
       }
     }
   }

@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::Straight4",
         "EngineFromat": "EEngineFromat::E_4G63_T",
         "EngineInspiration": "ECarIceAspirationType::Turbo",
-        "displacement": 1997,
+        "Displacement": 1997,
         "MaxPower": 280,
         "MaxPowerRpm": 6500,
         "MaxTorque": 38.0,
@@ -75,7 +75,10 @@
         },
         "CenterDiffType": "ECarCenterDiff::ACD",
         "RearDiffType": "ECarFrontRearDiff::AYC",
-        "MaxHightOffset": 3.0
+        "MaxHightOffset": 3.0,
+        "MinTurningRadius": 5.5,
+        "FrontTireWidthMax": 245,
+        "RearTireWidthMax": 245
       }
     }
   }

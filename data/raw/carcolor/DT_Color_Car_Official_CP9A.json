@@ -1,0 +1,201 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Color_Car_Official_CP9A",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'UDS_Color'",
+        "ObjectPath": "/Game/ITSB/UI/Color/DataTables/UDS_Color.0"
+      }
+    },
+    "Rows": {
+      "1": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "39A8180F411CFB30AF5715866FEDB1F0",
+          "SourceString": "ピレネーブラック（パール）",
+          "LocalizedString": "ピレネーブラック（パール）"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Mitsubishi/CP9A/Materials/OfficialColor/MI_Car_clCP9A_00.MI_Car_clCP9A_00",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "0": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.8,
+          "G": 0.8,
+          "B": 0.8,
+          "A": 1.0,
+          "Hex": "E8E8E8"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "52AB292E41CE38833B1CF197698BAEFB",
+          "SourceString": "スコーティアホワイト（ソリッド）",
+          "LocalizedString": "スコーティアホワイト（ソリッド）"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Mitsubishi/CP9A/Materials/OfficialColor/MI_Car_clCP9A_01.MI_Car_clCP9A_01",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "2": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.8,
+          "G": 0.533333,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "E8C100"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "B53BB12A4DAF9F3BC51614BE48ABC409",
+          "SourceString": "ダンデライオンイエロー（ソリッド）",
+          "LocalizedString": "ダンデライオンイエロー（ソリッド）"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Mitsubishi/CP9A/Materials/OfficialColor/MI_Car_clCP9A_02.MI_Car_clCP9A_02",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "3": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.5,
+          "G": 0.5,
+          "B": 0.5,
+          "A": 1.0,
+          "Hex": "BCBCBC"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "A9F943C34407C3002EE6B39C34A303C3",
+          "SourceString": "サテライトシルバー（メタリック）",
+          "LocalizedString": "サテライトシルバー（メタリック）"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Mitsubishi/CP9A/Materials/OfficialColor/MI_Car_clCP9A_03.MI_Car_clCP9A_03",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "4": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.610496,
+          "G": 0.001518,
+          "B": 0.001518,
+          "A": 1.0,
+          "Hex": "CD0505"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "D836A16641FA2F27B71AE7B693B8DF82",
+          "SourceString": "パルマーレッド（ソリッド）",
+          "LocalizedString": "パルマーレッド（ソリッド）"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Mitsubishi/CP9A/Materials/OfficialColor/MI_Car_clFL5_04.MI_Car_clFL5_04",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      }
+    }
+  }
+]

@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en-GB">
+#set $value = $car
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tokyo Xtreme Racer (2025) ${cars[value]['maker']} ${params[value]['name']} Details</title>
+  <meta property="og:title" content="Tokyo Xtreme Racer (2025) ${cars[value]['maker']} ${params[value]['name']} Details">
+  <meta property="og:locale" content="en_GB">
+  <link rel="canonical" href="https://ddm999.github.io/txr25info/cars/${car}">
+  <meta property="og:url" content="https://ddm999.github.io/txr25info/cars/${car}">
+  <meta property="og:site_name" content="ddm999.github.io">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+  <meta property="twitter:title" content="Tokyo Xtreme Racer (2025) ${cars[value]['maker']} ${params[value]['name']} Details">
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"WebSite","headline":"Tokyo Xtreme Racer (2025) ${cars[value]['maker']} ${params[value]['name']} Details","name":"ddm999.github.io","url":"https://ddm999.github.io/txr25info/cars/${car}"}
+  </script>
+  <link rel="stylesheet" href="../style.css?nocache=%BUILD_TIMESTAMP">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1 id="title">TOKYO XTREME RACER (2025) INFO & DATA RESOURCE</h1>
+    </header>
+    <hr/>
+    <section id="basic">
+      <h2>${params[value]['name']}</h2>
+      <p class="basestats">
+        <span id="key">PRICE</span><span id="val">${cars[value]['fmtprice']} <span id="unit">CP</span></span>
+        <span id="key">MANUFACTURER</span><span id="val">${cars[value]['maker']}</span>
+        <span id="key">CATEGORY</span><span id="val">${cars[value]['category']}</span>
+        <span id="key">BODY TYPE</span><span id="val">${params[value]['body'].replace("_", " ").capitalize()}</span>
+        <span id="key">DRIVETRAIN</span><span id="val">${params[value]['drivetrain']}</span>
+        <span id="key">ENGINE TYPE</span><span id="val">${params[value]['enginekind']}</span>
+        <span id="key">INTAKE SYSTEM</span><span id="val">${params[value]['aspiration']}</span>
+        <span id="key">DISPLACEMENT</span><span id="val">${params[value]['disp']} <span id="unit">cc</span></span>
+        <span id="key">MAX POWER</span><span id="val">${params[value]['ps']} <span id="unit">PS</span> / ${params[value]['psrpm']} <span id="unit">rpm</span></span>
+        <span id="key">MAX TORQUE</span><span id="val">${params[value]['kgm']} <span id="unit">kgm</span> / ${params[value]['kgmrpm']} <span id="unit">rpm</span></span>
+        <span id="key">MASS</span><span id="val">${params[value]['weight'][0]+$params[value]['weight'][1]} <span id="unit">kg</span></span>
+      </p>
+      <img id="img" src="../img/car/${cars[value]['image']}.png">
+    </section>
+    <hr>
+    <!-- ALWAYS TRUE FOR STANDARD, ALWAYS FALSE FOR CUSTOM
+    <section id="customisation">
+      <h3>CUSTOMISATION</h3>
+      <p class="details">
+        <span id="key">Can be tuned:</span> <span id="val">${cars[value]['has_tuning']}</span><br>
+        <span id="key">Has aero parts:</span> <span id="val">${cars[value]['has_aero']}</span><br>
+        <span id="key">Has livery painting:</span> <span id="val">${cars[value]['has_livery']}</span><br>
+        <span id="key">Can adjust settings:</span> <span id="val">${cars[value]['has_setting']}</span><br>
+        <span id="key">Can be repainted:</span> <span id="val">${cars[value]['has_custom_color']}</span><br>
+        <span id="key">Can apply vinyls:</span> <span id="val">${cars[value]['has_vinyl']}</span><br>
+        <span id="key">Can be tuned:</span> <span id="val">${cars[value]['has_tuning']}</span><br>
+        <span id="key">Can have stickers applied:</span> <span id="val">${cars[value]['has_sticker']}</span><br>
+        <br>
+        <span id="unk">Unknown values:</span><br>
+        <span id="key">enable_normal_rear_spoiler:</span> <span id="val">${cars[value]['enable_normal_rear_spoiler']}</span><br>
+        <span id="key">can_other:</span> <span id="val">${cars[value]['can_other']}</span><br>
+      </p>
+    </section>
+    <hr>
+    -->
+    <section id="price">
+      <h3>PRICE</h3>
+      <p class="details">
+        #if $cars[value]['maker'] == "OtherCar"
+        <span id="key">Can be purchased:</span> <span id="val">False</span> (only because manufacturer cannot appear in the dealer)<br>
+        #else
+        <span id="key">Can be purchased:</span> <span id="val">${cars[value]['can_buy']}</span><br>
+        #end if
+        <span id="key">Available at beginning of game:</span> <span id="val">${cars[value]['starts_unlocked']}</span><br>
+        <span id="key">Part cost modifier:</span> <span id="val">${round($cars[value]['price_coef']*100,1)}%</span><br>
+      </p>
+    </section>
+    <hr>
+    <section id="engine">
+      <h3>ENGINE</h3>
+      <p class="details">
+        <span id="key">Engine name:</span> <span id="val">${params[value]['enginename'].replace("_", "-")}</span><br>
+        <br>
+        <span id="big">Power Unit Level 0:</span><br>
+        <span id="warning">Custom vehicles use higher level units and so this isn't representative for them.</span><br>
+        <span id="key">Rev limiter:</span> <span id="val">${powerunits[value]['0']['RevLimit']}</span> rpm<br>
+        <span id="key">Is turbo:</span> <span id="val">${powerunits[value]['0']['IsTurbo']}</span><br>
+        <span id="key">Max boost:</span> <span id="val">${powerunits[value]['0']['MaxBoostNum']}</span><br>
+        <br>
+        <span id="warning">Graphs are work in progress, and may contain slightly incorrect data.</span><br>
+        <img id="enginegraph" src="../graph/powerunit/${value}0.png"/>
+        <br>
+        <span id="big">Power Unit Level 9:</span><br>
+        <span id="warning">Custom vehicles cannot be tuned and so this isn't representative for them.<br>
+          Also note that intake system & exhaust parts also affect the graph, but presumably only by scaling the whole thing up/down.</span><br>
+        <span id="key">Rev limiter:</span> <span id="val">${powerunits[value]['9']['RevLimit']}</span> rpm<br>
+        <span id="key">Is turbo:</span> <span id="val">${powerunits[value]['9']['IsTurbo']}</span><br>
+        <span id="key">Max boost:</span> <span id="val">${powerunits[value]['9']['MaxBoostNum']}</span><br>
+        <br>
+        <span id="warning">Graphs are work in progress, and may contain slightly incorrect data.</span><br>
+        <img id="enginegraph" src="../graph/powerunit/${value}9.png"/>
+      </p>
+    </section>
+    <hr/>
+    <section id="chassis">
+      <h3>CHASSIS</h3>
+      <p class="details">
+        <span id="key">Dimensions:</span> <span id="val">${params[value]['dimensions'][0]}</span> mm × <span id="val">${params[value]['dimensions'][1]}</span> mm × <span id="val">${params[value]['dimensions'][2]}</span> mm<br>
+        <span id="key">Ground clearance:</span> <span id="val">${params[value]['groundclear']}</span> mm<br>
+        <span id="key">Wheelbase:</span> <span id="val">${params[value]['wheelbase']}</span> mm<br>
+        <span id="key">Weight:</span> <span id="val">${params[value]['weight'][0] + $params[value]['weight'][1]}</span> kg<br>
+        <span id="key">Weight distribution:</span> <span id="val">${params[value]['weightdist']}:${100-$params[value]['weightdist']}</span><br>
+        <span id="key">Center of gravity height:</span> <span id="val">${params[value]['cog']}</span> mm<br>
+        <span id="key">Drag value:</span> <span id="val">${round($params[value]['drag']*1000)}</span> coef×1000<br>
+        <!-- ALWAYS 8
+        <span id="key">Downforce value:</span> <span id="val">${params[value]['lift']*1000}</span> (coef×1000)<br>
+        -->
+        <span id="key">Suspension type:</span> <span id="val">${params[value]['suspension'][0]['type']}</span> (front) / <span id="val">${params[value]['suspension'][1]['type']}</span> (rear)<br>
+        <span id="key">Spring coefficient:</span> <span id="val">${params[value]['suspension'][0]['springcoef']}</span> (front) / <span id="val">${params[value]['suspension'][1]['springcoef']}</span> (rear)<br>
+        <span id="key">Damper coefficient:</span> <span id="val">${params[value]['suspension'][0]['dampercoef']}</span> (front) / <span id="val">${params[value]['suspension'][1]['dampercoef']}</span> (rear)<br>      
+        <span id="key">Has speeding alarm:</span> <span id="val">${params[value]['speedalarm']}</span><br>
+      </p>
+    </section>
+    <hr>
+    <section id="drivetrain">
+      <h3>DRIVETRAIN</h3>
+      <p class="details">
+        <span id="key">Drivetrain type:</span> <span id="val">${params[value]['drivetrain']}</span><br>
+        <span id="key">Front/rear drive ratio:</span> <span id="val">${round(100-$params[value]['reardrivepct']*100)}:${round($params[value]['reardrivepct']*100)}</span><br>
+        <span id="key">Number of gears:</span> <span id="val">${params[value]['numgears']}</span><br>
+        <span id="key">Gear ratios:</span> <span id="val">${params[value]['gears']}</span><br>
+        <span id="key">Final drive ratio:</span> <span id="val">${params[value]['finalgear']}</span><br>
+        <span id="key">Reverse gear ratio:</span> <span id="val">${params[value]['reversegear']}</span><br>
+        <span id="key">Front differential:</span> <span id="val">${params[value]['diffs'][0]}</span><br>
+        <span id="key">Rear differential:</span> <span id="val">${params[value]['diffs'][1]}</span><br>
+        <span id="key">4WD differential:</span> <span id="val">${params[value]['diffs'][2]}</span><br>
+      </p>
+    </section>
+    <hr/>
+    <section id="braketire">
+      <h3>BRAKE & TIRE</h3>
+      <p class="details">
+        <span id="key">Front tire:</span> <span id="val">${params[value]['tires'][0]['width']}/${params[value]['tires'][0]['aspect']}R${params[value]['tires'][0]['rimdiam'][0]}</span><br>
+        <span id="key">Rear tire:</span> <span id="val">${params[value]['tires'][1]['width']}/${params[value]['tires'][1]['aspect']}R${params[value]['tires'][1]['rimdiam'][0]}</span><br>
+        <span id="key">Front tire rim range:</span> <span id="val">${params[value]['tires'][0]['rimdiam'][1]}"-${params[value]['tires'][0]['rimdiam'][2]}"</span><br>
+        <span id="key">Rear tire rim range:</span> <span id="val">${params[value]['tires'][1]['rimdiam'][1]}"-${params[value]['tires'][1]['rimdiam'][2]}"</span><br>
+        <span id="key">Front tire grip:</span> <span id="val">${params[value]['tires'][0]['grip']}</span> long / <span id="val">${params[value]['tires'][0]['sidegrip']}</span> lat<br>
+        <span id="key">Rear tire grip:</span> <span id="val">${params[value]['tires'][1]['grip']}</span> long / <span id="val">${params[value]['tires'][1]['sidegrip']}</span> lat<br>
+        <!-- ALWAYS 65:35
+        <span id="key">Braking force distribution:</span> <span id="val">${round($params[value]['brakedist']*100)}:${round(100-$params[value]['brakedist']*100)}</span><br>
+        -->
+        <span id="key">Brake force multiplier:</span> <span id="val">${round($params[value]['brakes'][0]['brake']*100,1)}%</span> (front) / <span id="val">${round($params[value]['brakes'][1]['brake']*100,1)}%</span> (rear)<br>
+        <span id="key">Uses drum brakes:</span> <span id="val">${params[value]['brakes'][0]['drum']}</span> (front) / <span id="val">${params[value]['brakes'][1]['drum']}</span> (rear)<br>
+        <!-- ALWAYS 0
+        <span id="key">Brake stop offset (unknown):</span> <span id="val">${params[value]['brakestopoffset']}</span><br>
+        -->
+      </p>
+    </section>
+    <hr>
+    <section id="info">
+      <p class="details">
+        This information is sourced directly from game files and parsed automatically.<br>
+        Any mistakes, typos, etc. is most likely accurate to the original game data.<br>
+        These pages are work in progress and will be improved in usability over time.<br>
+      </p>
+    </section>
+    <hr/>
+    <footer>
+      This page is not affiliated with Genki Co., Ltd.<br>
+      It is provided by fans of the Tokyo Xtreme Racer / Shutokō Battle series.<br>
+      <br>
+      You may have issues if you browse with Internet Explorer, or any other outdated browser.<br>
+      <br>
+      Hosted on GitHub Pages - Source is available at <a href="https://github.com/ddm999/txr25info">github.com/ddm999/txr25info</a><br>
+      Styling adapted from <a href="https://github.com/orderedlist/minimal">github.com/orderedlist/minimal</a><br><br>
+      Raw data used to build the site is available here: <a href="https://ddm999.github.io/txr25info/data/raw">ddm999.github.io/txr25info/data/raw</a><br><br>
+      If you're interested in delving deeper into Tokyo Xtreme Racer '25 / have an interest in TXR modding generally<br>
+      you can hang out on the <a href="https://discord.gg/294tj3WP8J">Tokyo Xtreme Racer Modding Discord</a>.<br>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,1378 @@
+[
+  {
+    "Type": "CompositeDataTable",
+    "Name": "CDT_TuneTree",
+    "Class": "UScriptClass'CompositeDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParentTables": [
+        {
+          "ObjectName": "DataTable'DT_TuneTree0'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Tune/DT_TuneTree0.0"
+        }
+      ],
+      "RowStruct": {
+        "ObjectName": "Class'SSkillTree'",
+        "ObjectPath": "/Script/TokyoXtremeRacer"
+      }
+    },
+    "Rows": {
+      "PowerUnit_1": {
+        "ID": 0,
+        "Step": 101,
+        "Link_Step": [
+          401,
+          202,
+          203,
+          205,
+          208,
+          211,
+          0
+        ],
+        "Status": "ESkillTreeStatus::STS_NOT_ACQUIRED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 3,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_0",
+          "SourceString": "POWERUNIT",
+          "LocalizedString": "POWER UNIT"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_70",
+          "SourceString": "チューン画面で「{%s}」が\r\n購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the tune screen.\r\n"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::PowerUnit",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::None",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::Stage1"
+      },
+      "PowerUnit_2": {
+        "ID": 0,
+        "Step": 401,
+        "Link_Step": [
+          701,
+          502,
+          503,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 5,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_0",
+          "SourceString": "POWERUNIT",
+          "LocalizedString": "POWER UNIT"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_70",
+          "SourceString": "チューン画面で「{%s}」が\r\n購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the tune screen.\r\n"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::PowerUnit",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::Stage1"
+      },
+      "PowerUnit_3": {
+        "ID": 0,
+        "Step": 701,
+        "Link_Step": [
+          1001,
+          802,
+          803,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 5,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_0",
+          "SourceString": "POWERUNIT",
+          "LocalizedString": "POWER UNIT"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_70",
+          "SourceString": "チューン画面で「{%s}」が\r\n購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the tune screen.\r\n"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::PowerUnit",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::Stage2"
+      },
+      "PowerUnit_4": {
+        "ID": 0,
+        "Step": 1001,
+        "Link_Step": [
+          1201,
+          1102,
+          1103,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 4,
+        "Cost": 7,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_0",
+          "SourceString": "POWERUNIT",
+          "LocalizedString": "POWER UNIT"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_70",
+          "SourceString": "チューン画面で「{%s}」が\r\n購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the tune screen.\r\n"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::PowerUnit",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::Stage2"
+      },
+      "ExhaustSystem_1": {
+        "ID": 0,
+        "Step": 202,
+        "Link_Step": [
+          401,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 3,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_1",
+          "SourceString": "EXHAUST SYSTEM",
+          "LocalizedString": "EXHAUST SYSTEM"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_70",
+          "SourceString": "チューン画面で「{%s}」が\r\n購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the tune screen.\r\n"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::ExhaustSystem",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Wan_0012"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::Stage1"
+      },
+      "ExhaustSystem_2": {
+        "ID": 0,
+        "Step": 502,
+        "Link_Step": [
+          701,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 5,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_1",
+          "SourceString": "EXHAUST SYSTEM",
+          "LocalizedString": "EXHAUST SYSTEM"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_70",
+          "SourceString": "チューン画面で「{%s}」が\r\n購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the tune screen.\r\n"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::ExhaustSystem",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0002"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::Stage1"
+      },
+      "ExhaustSystem_3": {
+        "ID": 0,
+        "Step": 802,
+        "Link_Step": [
+          1001,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 5,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_1",
+          "SourceString": "EXHAUST SYSTEM",
+          "LocalizedString": "EXHAUST SYSTEM"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_70",
+          "SourceString": "チューン画面で「{%s}」が\r\n購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the tune screen.\r\n"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::ExhaustSystem",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage2",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0003"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::Stage2"
+      },
+      "IntakeSystem_1": {
+        "ID": 0,
+        "Step": 203,
+        "Link_Step": [
+          401,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 3,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_2",
+          "SourceString": "INTAKE SYSTEM",
+          "LocalizedString": "INTAKE SYSTEM"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_70",
+          "SourceString": "チューン画面で「{%s}」が\r\n購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the tune screen.\r\n"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::IntakeSystem",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Wan_0012"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::Stage1"
+      },
+      "IntakeSystem_2": {
+        "ID": 0,
+        "Step": 503,
+        "Link_Step": [
+          701,
+          604,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 5,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_2",
+          "SourceString": "INTAKE SYSTEM",
+          "LocalizedString": "INTAKE SYSTEM"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_70",
+          "SourceString": "チューン画面で「{%s}」が\r\n購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the tune screen.\r\n"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::IntakeSystem",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0002"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::Stage1"
+      },
+      "IntakeSystem_3": {
+        "ID": 0,
+        "Step": 803,
+        "Link_Step": [
+          1001,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 5,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_2",
+          "SourceString": "INTAKE SYSTEM",
+          "LocalizedString": "INTAKE SYSTEM"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_70",
+          "SourceString": "チューン画面で「{%s}」が\r\n購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the tune screen.\r\n"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::IntakeSystem",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage2",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0003"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::Stage2"
+      },
+      "NitroSystem_1": {
+        "ID": 0,
+        "Step": 604,
+        "Link_Step": [
+          1204,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 3,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_11",
+          "SourceString": "NITRO SYSTEM ",
+          "LocalizedString": "NITRO SYSTEM "
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_70",
+          "SourceString": "チューン画面で「{%s}」が\r\n購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the tune screen.\r\n"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::Nitro",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::Stage2"
+      },
+      "Clutch_1": {
+        "ID": 0,
+        "Step": 205,
+        "Link_Step": [
+          505,
+          306,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 3,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_4",
+          "SourceString": "CLUTCH",
+          "LocalizedString": "CLUTCH"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_70",
+          "SourceString": "チューン画面で「{%s}」が\r\n購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the tune screen.\r\n"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::Clutch",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0012"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::Stage1"
+      },
+      "Clutch_2": {
+        "ID": 0,
+        "Step": 505,
+        "Link_Step": [
+          805,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 5,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_4",
+          "SourceString": "CLUTCH",
+          "LocalizedString": "CLUTCH"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_70",
+          "SourceString": "チューン画面で「{%s}」が\r\n購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the tune screen.\r\n"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::Clutch",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0013"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::Stage1"
+      },
+      "Clutch_3": {
+        "ID": 0,
+        "Step": 805,
+        "Link_Step": [
+          1105,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 5,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_4",
+          "SourceString": "CLUTCH",
+          "LocalizedString": "CLUTCH"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_70",
+          "SourceString": "チューン画面で「{%s}」が\r\n購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the tune screen.\r\n"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::Clutch",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage2",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0015"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::Stage2"
+      },
+      "Transmission_1": {
+        "ID": 0,
+        "Step": 306,
+        "Link_Step": [
+          606,
+          407,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 3,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_3",
+          "SourceString": "TRANSMISSION",
+          "LocalizedString": "TRANSMISSION"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_70",
+          "SourceString": "チューン画面で「{%s}」が\r\n購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the tune screen.\r\n"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::Transmission",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::Stage1"
+      },
+      "Transmission_2": {
+        "ID": 0,
+        "Step": 606,
+        "Link_Step": [
+          906,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 5,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_3",
+          "SourceString": "TRANSMISSION",
+          "LocalizedString": "TRANSMISSION"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_70",
+          "SourceString": "チューン画面で「{%s}」が\r\n購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the tune screen.\r\n"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::Transmission",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0013"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::Stage1"
+      },
+      "Transmission_3": {
+        "ID": 0,
+        "Step": 906,
+        "Link_Step": [
+          1206,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 5,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_3",
+          "SourceString": "TRANSMISSION",
+          "LocalizedString": "TRANSMISSION"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_70",
+          "SourceString": "チューン画面で「{%s}」が\r\n購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the tune screen.\r\n"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::Transmission",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage2",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0015"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::Stage2"
+      },
+      "LSD_1": {
+        "ID": 0,
+        "Step": 407,
+        "Link_Step": [
+          1007,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 3,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_7",
+          "SourceString": "LSD",
+          "LocalizedString": "LSD"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_70",
+          "SourceString": "チューン画面で「{%s}」が\r\n購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the tune screen.\r\n"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::LSD",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::Stage1"
+      },
+      "LSD_2": {
+        "ID": 0,
+        "Step": 1007,
+        "Link_Step": [
+          1607,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 5,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_7",
+          "SourceString": "LSD",
+          "LocalizedString": "LSD"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_70",
+          "SourceString": "チューン画面で「{%s}」が\r\n購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the tune screen.\r\n"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::LSD",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage2",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0015"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::Stage2"
+      },
+      "Brake_1": {
+        "ID": 0,
+        "Step": 208,
+        "Link_Step": [
+          508,
+          309,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 3,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_6",
+          "SourceString": "BRAKE",
+          "LocalizedString": "BRAKE"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_70",
+          "SourceString": "チューン画面で「{%s}」が\r\n購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the tune screen.\r\n"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::Brake",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0030"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::Stage1"
+      },
+      "Brake_2": {
+        "ID": 0,
+        "Step": 508,
+        "Link_Step": [
+          808,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 5,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_6",
+          "SourceString": "BRAKE",
+          "LocalizedString": "BRAKE"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_70",
+          "SourceString": "チューン画面で「{%s}」が\r\n購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the tune screen.\r\n"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::Brake",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0021",
+          "Boss_0022"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::Stage1"
+      },
+      "Brake_3": {
+        "ID": 0,
+        "Step": 808,
+        "Link_Step": [
+          1108,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 5,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_6",
+          "SourceString": "BRAKE",
+          "LocalizedString": "BRAKE"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_70",
+          "SourceString": "チューン画面で「{%s}」が\r\n購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the tune screen.\r\n"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::Brake",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage2",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0023",
+          "Boss_0024"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::Stage2"
+      },
+      "Suspension_1": {
+        "ID": 0,
+        "Step": 309,
+        "Link_Step": [
+          609,
+          410,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 3,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_5",
+          "SourceString": "SUSPENSION",
+          "LocalizedString": "SUSPENSION"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_70",
+          "SourceString": "チューン画面で「{%s}」が\r\n購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the tune screen.\r\n"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::Suspension",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::Stage1"
+      },
+      "Suspension_2": {
+        "ID": 0,
+        "Step": 609,
+        "Link_Step": [
+          909,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 5,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_5",
+          "SourceString": "SUSPENSION",
+          "LocalizedString": "SUSPENSION"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_70",
+          "SourceString": "チューン画面で「{%s}」が\r\n購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the tune screen.\r\n"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::Suspension",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0021",
+          "Boss_0022"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::Stage1"
+      },
+      "Suspension_3": {
+        "ID": 0,
+        "Step": 909,
+        "Link_Step": [
+          1209,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 5,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_5",
+          "SourceString": "SUSPENSION",
+          "LocalizedString": "SUSPENSION"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_70",
+          "SourceString": "チューン画面で「{%s}」が\r\n購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the tune screen.\r\n"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::Suspension",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage2",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0023",
+          "Boss_0024"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::Stage2"
+      },
+      "Tire_1": {
+        "ID": 0,
+        "Step": 410,
+        "Link_Step": [
+          710,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 3,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_9",
+          "SourceString": "TIRE",
+          "LocalizedString": "TIRE"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_70",
+          "SourceString": "チューン画面で「{%s}」が\r\n購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the tune screen.\r\n"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::FrontTire",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::Stage1"
+      },
+      "Tire_2": {
+        "ID": 0,
+        "Step": 710,
+        "Link_Step": [
+          1010,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 5,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_9",
+          "SourceString": "TIRE",
+          "LocalizedString": "TIRE"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_70",
+          "SourceString": "チューン画面で「{%s}」が\r\n購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the tune screen.\r\n"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::FrontTire",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0021",
+          "Boss_0022"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::Stage1"
+      },
+      "Tire_3": {
+        "ID": 0,
+        "Step": 1010,
+        "Link_Step": [
+          1310,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 5,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_9",
+          "SourceString": "TIRE",
+          "LocalizedString": "TIRE"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_70",
+          "SourceString": "チューン画面で「{%s}」が\r\n購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the tune screen.\r\n"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::FrontTire",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage2",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0023",
+          "Boss_0024"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::Stage2"
+      },
+      "Body_1": {
+        "ID": 0,
+        "Step": 211,
+        "Link_Step": [
+          511,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 3,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_8",
+          "SourceString": "BODY",
+          "LocalizedString": "BODY"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_70",
+          "SourceString": "チューン画面で「{%s}」が\r\n購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the tune screen.\r\n"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::Body",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0030"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::Stage1"
+      },
+      "Body_2": {
+        "ID": 0,
+        "Step": 511,
+        "Link_Step": [
+          811,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 5,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_8",
+          "SourceString": "BODY",
+          "LocalizedString": "BODY"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_70",
+          "SourceString": "チューン画面で「{%s}」が\r\n購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the tune screen.\r\n"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::Body",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0021",
+          "Boss_0022"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::Stage1"
+      },
+      "Body_3": {
+        "ID": 0,
+        "Step": 811,
+        "Link_Step": [
+          1111,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 5,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_8",
+          "SourceString": "BODY",
+          "LocalizedString": "BODY"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_70",
+          "SourceString": "チューン画面で「{%s}」が\r\n購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the tune screen.\r\n"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::Body",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage2",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0023",
+          "Boss_0024"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::Stage2"
+      }
+    }
+  }
+]

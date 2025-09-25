@@ -1,0 +1,838 @@
+[
+  {
+    "Type": "CompositeDataTable",
+    "Name": "CDT_Achievements",
+    "Class": "UScriptClass'CompositeDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParentTables": [
+        {
+          "ObjectName": "DataTable'DT_Achievements0'",
+          "ObjectPath": "/Game/ITSB/Core/Achievements/DT_Achievements0.0"
+        }
+      ],
+      "RowStruct": {
+        "ObjectName": "Class'SAchievementsInfo'",
+        "ObjectPath": "/Script/TokyoXtremeRacer"
+      }
+    },
+    "Rows": {
+      "ACM002": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "85717B8F44A68D4615F463953BBE7A13",
+          "SourceString": "魂たちの邂逅",
+          "LocalizedString": "魂たちの邂逅"
+        },
+        "Kind": "EAchievementsKind::DefeatRival",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [
+          "Wan_0012",
+          "Boss_0012",
+          "Boss_0030"
+        ],
+        "IntValues": [],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000002"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
+      },
+      "ACM003": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "26B56DF24C3C7226F0A6E795279A4834",
+          "SourceString": "混沌の兆し",
+          "LocalizedString": "混沌の兆し"
+        },
+        "Kind": "EAchievementsKind::DefeatRival",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [
+          "Boss_0002",
+          "Boss_0013",
+          "Boss_0021",
+          "Boss_0022"
+        ],
+        "IntValues": [],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000003"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
+      },
+      "ACM004": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "99C7C11B4C892C607618E1A3FA6E01C8",
+          "SourceString": "深夜0時の約束",
+          "LocalizedString": "深夜0時の約束"
+        },
+        "Kind": "EAchievementsKind::DefeatRival",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [
+          "Wan_0001"
+        ],
+        "IntValues": [],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000004"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
+      },
+      "ACM011": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "F0C81E304E9AB063128F61AEA4E2CCF4",
+          "SourceString": "継続は力なり",
+          "LocalizedString": "継続は力なり"
+        },
+        "Kind": "EAchievementsKind::NumberOfDaysPassed",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [
+          365
+        ],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000011"
+          }
+        ],
+        "NeedProgressInfo": true,
+        "ProgressId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "DAY"
+          }
+        ]
+      },
+      "ACM012": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "18CAF38C486A0292B709589315BFF607",
+          "SourceString": "ワンダラーハンター",
+          "LocalizedString": "ワンダラーハンター"
+        },
+        "Kind": "EAchievementsKind::NumberOfWondererDefeated",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [
+          10
+        ],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000012"
+          }
+        ],
+        "NeedProgressInfo": true,
+        "ProgressId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "NUM_OF_WANDERER_DEFEATED"
+          }
+        ]
+      },
+      "ACM014": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "683AB36A448098B2E0D3C6B12DD73452",
+          "SourceString": "勝利こそ全て",
+          "LocalizedString": "勝利こそ全て"
+        },
+        "Kind": "EAchievementsKind::BattlesWithRival",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [
+          500
+        ],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000014"
+          }
+        ],
+        "NeedProgressInfo": true,
+        "ProgressId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "RIVAL_WIN_COUNT"
+          }
+        ]
+      },
+      "ACM015": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "70983DCB49B00D80C0FBC7983F6CC2F4",
+          "SourceString": "見境なし",
+          "LocalizedString": "見境なし"
+        },
+        "Kind": "EAchievementsKind::BattlesWithOtherCar",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [
+          100
+        ],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000015"
+          }
+        ],
+        "NeedProgressInfo": true,
+        "ProgressId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "OTHERCAR_WIN_COUNT"
+          }
+        ]
+      },
+      "ACM016": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "6BF9C7984E7609C0175223AAC0090788",
+          "SourceString": "荒稼ぎ",
+          "LocalizedString": "荒稼ぎ"
+        },
+        "Kind": "EAchievementsKind::TotalEarnings",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [
+          300000000
+        ],
+        "Grade": "EAchievementsGrade::Silver",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000016"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
+      },
+      "ACM017": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "50A1EADE4165EAC52D0F1AB3B3022DB1",
+          "SourceString": "ポケット一杯のCP",
+          "LocalizedString": "ポケット一杯のCP"
+        },
+        "Kind": "EAchievementsKind::Mony",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [
+          100000000
+        ],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000017"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
+      },
+      "ACM018": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "E238493C403AA5B57FB8DBB6510590BA",
+          "SourceString": "クルマ好き",
+          "LocalizedString": "クルマ好き"
+        },
+        "Kind": "EAchievementsKind::NumberOfVehiclesOwned",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [
+          10
+        ],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000018"
+          }
+        ],
+        "NeedProgressInfo": true,
+        "ProgressId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "GARAGE_MY_CAR_NUM"
+          }
+        ]
+      },
+      "ACM021": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "F820094E42794A8FF183ED9E6E68BE3B",
+          "SourceString": "ラブパワーシステム",
+          "LocalizedString": "ラブパワーシステム"
+        },
+        "Kind": "EAchievementsKind::ODO",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [
+          1000
+        ],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000021"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
+      },
+      "ACM022": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "20ED7B8048A86699C408538E85978124",
+          "SourceString": "千の名を持つ者",
+          "LocalizedString": "千の名を持つ者"
+        },
+        "Kind": "EAchievementsKind::BADName",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [
+          100
+        ],
+        "Grade": "EAchievementsGrade::Silver",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000022"
+          }
+        ],
+        "NeedProgressInfo": true,
+        "ProgressId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACQUIRED_BAD_NAME_COUNT"
+          }
+        ]
+      },
+      "ACM024": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "9326ADBB42FD20750F2BDCAB0FFFBA4C",
+          "SourceString": "話好き",
+          "LocalizedString": "話好き"
+        },
+        "Kind": "EAchievementsKind::ParkingAreaConversationViews",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [
+          100
+        ],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000024"
+          }
+        ],
+        "NeedProgressInfo": true,
+        "ProgressId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "NUM_OF_SEEN_CONVERSATIONS"
+          }
+        ]
+      },
+      "ACM025": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "20843D9B43A7AD32175E409CD1939AD6",
+          "SourceString": "生き字引",
+          "LocalizedString": "生き字引"
+        },
+        "Kind": "EAchievementsKind::ParkingAreaConversationViews",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [
+          300
+        ],
+        "Grade": "EAchievementsGrade::Silver",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000025"
+          }
+        ],
+        "NeedProgressInfo": true,
+        "ProgressId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "NUM_OF_SEEN_CONVERSATIONS"
+          }
+        ]
+      },
+      "ACM029": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "04DD899046907D8625DA4A995535BC82",
+          "SourceString": "連勝街道",
+          "LocalizedString": "連勝街道"
+        },
+        "Kind": "EAchievementsKind::WiningStreakCheck",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [
+          10
+        ],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000029"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
+      },
+      "ACM030": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "1B5AABB24E03876C2B2BBDAAC5C62DDC",
+          "SourceString": "壁はトモダチ",
+          "LocalizedString": "壁はトモダチ"
+        },
+        "Kind": "EAchievementsKind::WallHitWin",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [
+          10
+        ],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000030"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
+      },
+      "ACM031": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "BCC5E08F43EE55CFB73BFAB3D5D36620",
+          "SourceString": "一瞬の出来事",
+          "LocalizedString": "一瞬の出来事"
+        },
+        "Kind": "EAchievementsKind::WinBattleTime",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [
+          -30
+        ],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000031"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
+      },
+      "ACM032": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "038D3E824773AAD299A170938A357BBA",
+          "SourceString": "ラーメン伸びた",
+          "LocalizedString": "ラーメン伸びた"
+        },
+        "Kind": "EAchievementsKind::WinBattleTime",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [
+          300
+        ],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000032"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
+      },
+      "ACM033": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "1FCD823C41EBBC5F19447FB80052E34C",
+          "SourceString": "つるつるタイヤ",
+          "LocalizedString": "つるつるタイヤ"
+        },
+        "Kind": "EAchievementsKind::WinTireLifeZero",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000033"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
+      },
+      "ACM034": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "D502271C47D1F2E407B0FFBC2AA197D5",
+          "SourceString": "300 km/hトライーッ！",
+          "LocalizedString": "300 km/hトライーッ！"
+        },
+        "Kind": "EAchievementsKind::CheckSpeedTrap",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [
+          "Name_Speedtrap_00"
+        ],
+        "IntValues": [
+          300
+        ],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000034"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
+      },
+      "ACM035": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "A8D569AA491975A416972D82605E312A",
+          "SourceString": "逆転の美学",
+          "LocalizedString": "逆転の美学"
+        },
+        "Kind": "EAchievementsKind::ReversalAttackConsecutiveTimes",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [
+          5
+        ],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000035"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
+      },
+      "ACM036": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "100203A14BC672B8B540E98F133FE5A3",
+          "SourceString": "先手必勝",
+          "LocalizedString": "先手必勝"
+        },
+        "Kind": "EAchievementsKind::FirstAttackConsecutiveTimes",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [
+          10
+        ],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000036"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
+      },
+      "ACM037": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "99A20C9643D113773F9B818E50F963A0",
+          "SourceString": "鋭いペダルワーク",
+          "LocalizedString": "鋭いペダルワーク"
+        },
+        "Kind": "EAchievementsKind::JustAcceleConsecutiveTimes",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [
+          3
+        ],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000037"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
+      },
+      "ACM038": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "485F0344441AF487A7D2F38EF765CC1C",
+          "SourceString": "美しきコーナーワーク",
+          "LocalizedString": "美しきコーナーワーク"
+        },
+        "Kind": "EAchievementsKind::CleanDriveConsecutiveTimes",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [
+          5
+        ],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000038"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
+      },
+      "ACM039": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "A3F24DE640E8103CDEFC8595DDCEB40F",
+          "SourceString": "スリルの虜",
+          "LocalizedString": "スリルの虜"
+        },
+        "Kind": "EAchievementsKind::NearMissConsecutiveTimes",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [
+          10
+        ],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000039"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
+      },
+      "ACM041": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "E16257DC494717D8C1ABBC847C131823",
+          "SourceString": "銀座の新名所",
+          "LocalizedString": "銀座の新名所"
+        },
+        "Kind": "EAchievementsKind::SpecialWallHit",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [
+          "ForAchievement1"
+        ],
+        "IntValues": [],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000041"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
+      },
+      "ACM042": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "EEF4AE44459C602AA8052A9445E8ECDE",
+          "SourceString": "トイレに直行",
+          "LocalizedString": "トイレに直行"
+        },
+        "Kind": "EAchievementsKind::OverSpeedParkingAreaIn",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [
+          300
+        ],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000042"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
+      },
+      "ACM043": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "BECF0111459C6DB744EA7CA7FEC98361",
+          "SourceString": "トイレに直行",
+          "LocalizedString": "トイレに直行"
+        },
+        "Kind": "EAchievementsKind::OverSpeedBackingUpCar",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [
+          1000
+        ],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000043"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
+      },
+      "ACM044": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "4C4D8B3F41273601EE352DBDC1694E55",
+          "SourceString": "押しの一手",
+          "LocalizedString": "押しの一手"
+        },
+        "Kind": "EAchievementsKind::KeepPushing",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [
+          1000
+        ],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000044"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
+      },
+      "ACM045": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "1C41F2A14BB389C0AA4C57B0B5D51D80",
+          "SourceString": "勝負はお預け",
+          "LocalizedString": "勝負はお預け"
+        },
+        "Kind": "EAchievementsKind::DrawNum",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [
+          3
+        ],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000045"
+          }
+        ],
+        "NeedProgressInfo": true,
+        "ProgressId": []
+      },
+      "ACM046": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "9F2E87E54D21AEDAC72A1DBB07579A2A",
+          "SourceString": "ヘイ！タクシー！",
+          "LocalizedString": "ヘイ！タクシー！"
+        },
+        "Kind": "EAchievementsKind::WinTaxi",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000046"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
+      },
+      "ACM047": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "C32EF0AD4BAD168010175780883726C1",
+          "SourceString": "Keiの逆襲",
+          "LocalizedString": "Keiの逆襲"
+        },
+        "Kind": "EAchievementsKind::Win10Kei",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [
+          10
+        ],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000047"
+          }
+        ],
+        "NeedProgressInfo": true,
+        "ProgressId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "NUM_OF_WIN_RIDING_LIGHT_CAR"
+          }
+        ]
+      }
+    }
+  }
+]

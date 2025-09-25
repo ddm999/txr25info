@@ -1,0 +1,312 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Color_Car_Official_L152S",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'UDS_Color'",
+        "ObjectPath": "/Game/ITSB/UI/Color/DataTables/UDS_Color.0"
+      }
+    },
+    "Rows": {
+      "0": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.514918,
+          "G": 0.502886,
+          "B": 0.366253,
+          "A": 1.0,
+          "Hex": "BEBCA3"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "CCCC9EF749A836F713DA719BD9C5CDA6",
+          "SourceString": "シャンパンメタリックオパール",
+          "LocalizedString": "シャンパンメタリックオパール"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Daihatsu/L152S/Materials/OfficialColor/MI_Car_clL152S_00.MI_Car_clL152S_00",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "1": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 7,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "DB4EE6C141B1B8F5463528844037E2B4",
+          "SourceString": "ブラックマイカ",
+          "LocalizedString": "ブラックマイカ"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Daihatsu/L152S/Materials/OfficialColor/MI_Car_clL152S_01.MI_Car_clL152S_01",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "2": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 6,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "F5D52C864325B628B604EAB7D554BD83",
+          "SourceString": "ホワイト\t",
+          "LocalizedString": "ホワイト\t"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Daihatsu/L152S/Materials/OfficialColor/MI_Car_clL152S_02.MI_Car_clL152S_02",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "3": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 1,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.020833,
+          "G": 0.0,
+          "B": 0.05,
+          "A": 1.0,
+          "Hex": "27003F"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "05E591834B4F6FFD90BAC7A3608357C3",
+          "SourceString": "ディープパープルクリスタルメタリック",
+          "LocalizedString": "ディープパープルクリスタルメタリック"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Daihatsu/L152S/Materials/OfficialColor/MI_Car_clL152S_03.MI_Car_clL152S_03",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "4": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 2,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.07,
+          "G": 0.078402,
+          "B": 0.1,
+          "A": 1.0,
+          "Hex": "4B4F59"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.100694,
+          "G": 0.11917,
+          "B": 0.166667,
+          "A": 1.0,
+          "Hex": "596171"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "200A4A50456C93D803A29D956F406D9E",
+          "SourceString": "スチールグレーメタリック",
+          "LocalizedString": "スチールグレーメタリック"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Daihatsu/L152S/Materials/OfficialColor/MI_Car_clL152S_04.MI_Car_clL152S_04",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "5": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 3,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.45,
+          "G": 0.45,
+          "B": 0.5,
+          "A": 1.0,
+          "Hex": "B3B3BC"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.462077,
+          "G": 0.462077,
+          "B": 0.473532,
+          "A": 1.0,
+          "Hex": "B5B5B7"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "D75F43D044808D0F966E01A0F688671D",
+          "SourceString": "ブライトシルバーメタリック",
+          "LocalizedString": "ブライトシルバーメタリック"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Daihatsu/L152S/Materials/OfficialColor/MI_Car_clL152S_05.MI_Car_clL152S_05",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "6": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 4,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.6,
+          "G": 0.0,
+          "B": 0.02,
+          "A": 1.0,
+          "Hex": "CC0026"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.503472,
+          "G": 0.008253,
+          "B": 0.00533,
+          "A": 1.0,
+          "Hex": "BC1610"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "B601FA78433DE905FB1E4B81751411CB",
+          "SourceString": "レッド",
+          "LocalizedString": "レッド"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Daihatsu/L152S/Materials/OfficialColor/MI_Car_clL152S_06.MI_Car_clL152S_06",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "7": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 5,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.72,
+          "G": 0.733333,
+          "B": 0.8,
+          "A": 1.0,
+          "Hex": "DDDFE8"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.854993,
+          "G": 0.854993,
+          "B": 0.822786,
+          "A": 1.0,
+          "Hex": "EEEEEA"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "D47FF8FA49AE2FA18709B794B9CDB120",
+          "SourceString": "パールホワイトI",
+          "LocalizedString": "パールホワイトI"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Daihatsu/L152S/Materials/OfficialColor/MI_Car_clL152S_07.MI_Car_clL152S_07",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      }
+    }
+  }
+]

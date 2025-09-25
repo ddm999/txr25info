@@ -8,7 +8,7 @@
       "CarData": {
         "ID": 139,
         "CarId": "CAR139",
-        "CarNameId": "JACK KNIFE",
+        "CarNameId": "JACKKNIFE",
         "ModelNameId": "ZC6CuJA",
         "FolderId": "ZC6CuJA",
         "ReleaseDay": 2016,
@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::Flat4",
         "EngineFromat": "EEngineFromat::E_FA20",
         "EngineInspiration": "ECarIceAspirationType::NA",
-        "displacement": 1998,
+        "Displacement": 1998,
         "MaxPower": 207,
         "MaxPowerRpm": 7000,
         "MaxTorque": 21.6,
@@ -53,6 +53,7 @@
         "RSuspension": "ERSuspension::DOUBLE_WISHBONE",
         "Cd": 0.27,
         "Cl": 0.008,
+        "RearDriveRate": 1.0,
         "EngineFormatName": "FA20",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -78,11 +79,14 @@
         "RearHightOffset": -20,
         "FrontCamberAngle": -40,
         "RearCamberAngle": -40,
-        "FrontOffset": 30,
-        "RearOffset": 30,
+        "FrontOffset": 100,
+        "RearOffset": 100,
         "FrontTirePulling": 20,
         "RearTirePulling": 20,
-        "MaxHightOffset": 2.5
+        "MaxHightOffset": 2.5,
+        "MinTurningRadius": 5.4,
+        "FrontTireWidthMax": 245,
+        "RearTireWidthMax": 275
       }
     }
   }

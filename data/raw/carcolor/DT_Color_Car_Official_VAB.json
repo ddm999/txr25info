@@ -1,0 +1,238 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Color_Car_Official_VAB",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'UDS_Color'",
+        "ObjectPath": "/Game/ITSB/UI/Color/DataTables/UDS_Color.0"
+      }
+    },
+    "Rows": {
+      "0": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.04,
+          "G": 0.141333,
+          "B": 0.8,
+          "A": 1.0,
+          "Hex": "3869E8"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "45EE04634C556360CB9E539C80E0DF39",
+          "SourceString": "WRブルー・パール",
+          "LocalizedString": "WRブルー・パール"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Subaru/VAB/Materials/OfficialColor/MI_Car_clVAB_00.MI_Car_clVAB_00",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "1": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "2D339395486BA7145963888924B5FAFF",
+          "SourceString": "クリスタルブラック・シリカ",
+          "LocalizedString": "クリスタルブラック・シリカ"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Subaru/VAB/Materials/OfficialColor/MI_Car_clVAB_01.MI_Car_clVAB_01",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "2": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.09,
+          "G": 0.091667,
+          "B": 0.1,
+          "A": 1.0,
+          "Hex": "545559"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "6C301BC142396B983D8F1590F7E5514D",
+          "SourceString": "ダークグレー・メタリック",
+          "LocalizedString": "ダークグレー・メタリック"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Subaru/VAB/Materials/OfficialColor/MI_Car_clVAB_02.MI_Car_clVAB_02",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "3": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.45,
+          "G": 0.458333,
+          "B": 0.5,
+          "A": 1.0,
+          "Hex": "B3B5BC"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "E02B02644D67E7077B0807AF1E858602",
+          "SourceString": "アイスシルバー・メタリック",
+          "LocalizedString": "アイスシルバー・メタリック"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Subaru/VAB/Materials/OfficialColor/MI_Car_clVAB_03.MI_Car_clVAB_03",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "4": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.7,
+          "G": 0.0,
+          "B": 0.023333,
+          "A": 1.0,
+          "Hex": "DA002A"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "3F88E16D4638B1E52BF3EC9BC21C5B10",
+          "SourceString": "ピュアレッド",
+          "LocalizedString": "ピュアレッド"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Subaru/VAB/Materials/OfficialColor/MI_Car_clVAB_04.MI_Car_clVAB_04",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "5": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.63,
+          "G": 0.641667,
+          "B": 0.7,
+          "A": 1.0,
+          "Hex": "D0D2DA"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "1C000B2649DCC1336CCC4596D38824F8",
+          "SourceString": "クリスタルホワイト・パール",
+          "LocalizedString": "クリスタルホワイト・パール"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Subaru/VAB/Materials/OfficialColor/MI_Car_clVAB_05.MI_Car_clVAB_05",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      }
+    }
+  }
+]

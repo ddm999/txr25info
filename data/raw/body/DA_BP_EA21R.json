@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::Straight3",
         "EngineFromat": "EEngineFromat::E_K6A",
         "EngineInspiration": "ECarIceAspirationType::Turbo",
-        "displacement": 658,
+        "Displacement": 658,
         "MaxPower": 64,
         "MaxPowerRpm": 6500,
         "MaxTorque": 10.46,
@@ -52,6 +52,7 @@
         "RSuspension": "ERSuspension::DOUBLE_WISHBONE",
         "Cd": 0.395,
         "Cl": 0.008,
+        "RearDriveRate": 1.0,
         "EngineFormatName": "K6A",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -73,7 +74,10 @@
           "SourceString": "CAPPUCCINO (EA21R) '95",
           "LocalizedString": "CAPPUCCINO (EA21R) '95"
         },
-        "MaxHightOffset": 2.5
+        "MaxHightOffset": 2.5,
+        "MinTurningRadius": 4.4,
+        "FrontTireWidthMax": 185,
+        "RearTireWidthMax": 185
       }
     }
   }

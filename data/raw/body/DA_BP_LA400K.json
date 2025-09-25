@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::Straight3",
         "EngineFromat": "EEngineFromat::E_KF",
         "EngineInspiration": "ECarIceAspirationType::Turbo",
-        "displacement": 658,
+        "Displacement": 658,
         "MaxPower": 64,
         "MaxPowerRpm": 6400,
         "MaxTorque": 9.4,
@@ -52,6 +52,7 @@
         "RSuspension": "ERSuspension::TORSION_BEAM",
         "Cd": 0.3,
         "Cl": 0.008,
+        "RearDriveRate": 0.0,
         "EngineFormatName": "KF",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -74,7 +75,10 @@
           "SourceString": "COPEN Cero (LA400K) '15",
           "LocalizedString": "COPEN Cero (LA400K) '15"
         },
-        "MaxHightOffset": 2.5
+        "MaxHightOffset": 2.5,
+        "MinTurningRadius": 4.6,
+        "FrontTireWidthMax": 185,
+        "RearTireWidthMax": 185
       }
     }
   }

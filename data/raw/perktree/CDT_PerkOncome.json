@@ -1,0 +1,1111 @@
+[
+  {
+    "Type": "CompositeDataTable",
+    "Name": "CDT_PerkOncome",
+    "Class": "UScriptClass'CompositeDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParentTables": [
+        {
+          "ObjectName": "DataTable'DT_PerkOncome0'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Perk/DT_PerkOncome0.0"
+        }
+      ],
+      "RowStruct": {
+        "ObjectName": "Class'SSkillTree'",
+        "ObjectPath": "/Script/TokyoXtremeRacer"
+      }
+    },
+    "Rows": {
+      "Perk_default_garage_extension": {
+        "ID": 0,
+        "Step": 0,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_ACQUIRED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_GARAGE_EXTENSION",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 5.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 0,
+        "Script": {
+          "CultureInvariantString": null
+        },
+        "Detail": {
+          "Namespace": "",
+          "Key": "096DB1CE4267A019B59E47A8C1924F46",
+          "SourceString": "▲表示しない。",
+          "LocalizedString": "▲表示しない。"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::None",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_discount_tune_1": {
+        "ID": 0,
+        "Step": 101,
+        "Link_Step": [
+          201,
+          203,
+          206,
+          208,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_NOT_ACQUIRED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_DISCOUNT_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 3.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 10,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_61_n",
+          "SourceString": "チューン代金",
+          "LocalizedString": "Tune Cost"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_61_t",
+          "SourceString": "規定価格から {%V00}％ 割引きでチューンパーツを購入できる。",
+          "LocalizedString": "Purchase Tune Parts at {%V00}% off the regular price."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_discount_tune_2": {
+        "ID": 0,
+        "Step": 201,
+        "Link_Step": [
+          301,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_DISCOUNT_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 6.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 20,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_62_n",
+          "SourceString": "チューン代金",
+          "LocalizedString": "Tune Cost"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_62_t",
+          "SourceString": "規定価格から {%V00}％ 割引きでチューンパーツを購入できる。",
+          "LocalizedString": "Purchase Tune Parts at {%V00}% off the regular price."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_discount_tune_3": {
+        "ID": 0,
+        "Step": 301,
+        "Link_Step": [
+          401,
+          402,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_DISCOUNT_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 9.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 30,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_63_n",
+          "SourceString": "チューン代金",
+          "LocalizedString": "Tune Cost"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_63_t",
+          "SourceString": "規定価格から {%V00}％ 割引きでチューンパーツを購入できる。",
+          "LocalizedString": "Purchase Tune Parts at {%V00}% off the regular price."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_discount_tune_4": {
+        "ID": 0,
+        "Step": 401,
+        "Link_Step": [
+          501,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_DISCOUNT_TUNE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 12.0,
+        "Value_01": 0.0,
+        "Level": 4,
+        "Cost": 40,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_64_n",
+          "SourceString": "チューン代金",
+          "LocalizedString": "Tune Cost"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_64_t",
+          "SourceString": "規定価格から {%V00}％ 割引きでチューンパーツを購入できる。",
+          "LocalizedString": "Purchase Tune Parts at {%V00}% off the regular price."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_garage_extension_1": {
+        "ID": 0,
+        "Step": 203,
+        "Link_Step": [
+          303,
+          304,
+          305,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_GARAGE_EXTENSION",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 10.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 10,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_111_n",
+          "SourceString": "新たな敷地",
+          "LocalizedString": "New Territory"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_111_t",
+          "SourceString": "ガレージを拡張し、\r\n{%V00}台のマシンを所持可能となる。",
+          "LocalizedString": "The garage is expanded, allowing for possession of up to {%V00} machines."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_garage_extension_2": {
+        "ID": 0,
+        "Step": 303,
+        "Link_Step": [
+          403,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_GARAGE_EXTENSION",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 20.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 20,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_112_n",
+          "SourceString": "新たな敷地",
+          "LocalizedString": "New Territory"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_112_t",
+          "SourceString": "ガレージを拡張し、\r\n{%V00}台のマシンを所持可能となる。",
+          "LocalizedString": "The garage is expanded, allowing for possession of up to {%V00} machines."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_garage_extension_3": {
+        "ID": 0,
+        "Step": 403,
+        "Link_Step": [
+          503,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_GARAGE_EXTENSION",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 30.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 30,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_113_n",
+          "SourceString": "新たな敷地",
+          "LocalizedString": "New Territory"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_113_t",
+          "SourceString": "ガレージを拡張し、\r\n{%V00}台のマシンを所持可能となる。",
+          "LocalizedString": "The garage is expanded, allowing for possession of up to {%V00} machines."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_garage_extension_4": {
+        "ID": 0,
+        "Step": 503,
+        "Link_Step": [
+          603,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_GARAGE_EXTENSION",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 50.0,
+        "Value_01": 0.0,
+        "Level": 4,
+        "Cost": 40,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_114_n",
+          "SourceString": "新たな敷地",
+          "LocalizedString": "New Territory"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_114_t",
+          "SourceString": "ガレージを拡張し、\r\n{%V00}台のマシンを所持可能となる。",
+          "LocalizedString": "The garage is expanded, allowing for possession of up to {%V00} machines."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_discount_car_1": {
+        "ID": 0,
+        "Step": 304,
+        "Link_Step": [
+          404,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_LOYAL_CUSTOMERS",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 5.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 10,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_51_n",
+          "SourceString": "交渉術",
+          "LocalizedString": "Negotiation"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_51_t",
+          "SourceString": "ディーラーにて、\r\n規定価格から {%V00}％ 割引きでマシンを購入できる。",
+          "LocalizedString": "Machines can be purchased at the dealer with a {%V00}% discount from the standard price."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_discount_car_2": {
+        "ID": 0,
+        "Step": 404,
+        "Link_Step": [
+          504,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_LOYAL_CUSTOMERS",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 6.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 20,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_52_n",
+          "SourceString": "交渉術",
+          "LocalizedString": "Negotiation"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_52_t",
+          "SourceString": "ディーラーにて、\r\n規定価格から {%V00}％ 割引きでマシンを購入できる。",
+          "LocalizedString": "Machines can be purchased at the dealer with a {%V00}% discount from the standard price."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_discount_car_3": {
+        "ID": 0,
+        "Step": 504,
+        "Link_Step": [
+          604,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_LOYAL_CUSTOMERS",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 7.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 30,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_53_n",
+          "SourceString": "交渉術",
+          "LocalizedString": "Negotiation"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_53_t",
+          "SourceString": "ディーラーにて、\r\n規定価格から {%V00}％ 割引きでマシンを購入できる。",
+          "LocalizedString": "Machines can be purchased at the dealer with a {%V00}% discount from the standard price."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_discount_car_4": {
+        "ID": 0,
+        "Step": 604,
+        "Link_Step": [
+          704,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_LOYAL_CUSTOMERS",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 8.0,
+        "Value_01": 0.0,
+        "Level": 4,
+        "Cost": 40,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_54_n",
+          "SourceString": "交渉術",
+          "LocalizedString": "Negotiation"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_54_t",
+          "SourceString": "ディーラーにて、\r\n規定価格から {%V00}％ 割引きでマシンを購入できる。",
+          "LocalizedString": "Machines can be purchased at the dealer with a {%V00}% discount from the standard price."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_car_rating_up_1": {
+        "ID": 0,
+        "Step": 305,
+        "Link_Step": [
+          405,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_MAINTENANCE_EXPERT",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 55.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 10,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_41_n",
+          "SourceString": "メンテナンス",
+          "LocalizedString": "Maintenance"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_41_t",
+          "SourceString": "新車価格の {%V00}％ でマシンを売却できる。",
+          "LocalizedString": "Machines can be sold at {%V00}% of their new car price."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_car_rating_up_2": {
+        "ID": 0,
+        "Step": 405,
+        "Link_Step": [
+          505,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_MAINTENANCE_EXPERT",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 60.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 20,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_42_n",
+          "SourceString": "メンテナンス",
+          "LocalizedString": "Maintenance"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_42_t",
+          "SourceString": "新車価格の {%V00}％ でマシンを売却できる。",
+          "LocalizedString": "Machines can be sold at {%V00}% of their new car price."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_car_rating_up_3": {
+        "ID": 0,
+        "Step": 505,
+        "Link_Step": [
+          605,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_MAINTENANCE_EXPERT",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 65.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 30,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_43_n",
+          "SourceString": "メンテナンス",
+          "LocalizedString": "Maintenance"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_43_t",
+          "SourceString": "新車価格の {%V00}％ でマシンを売却できる。",
+          "LocalizedString": "Machines can be sold at {%V00}% of their new car price."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_car_rating_up_4": {
+        "ID": 0,
+        "Step": 605,
+        "Link_Step": [
+          705,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_MAINTENANCE_EXPERT",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 70.0,
+        "Value_01": 0.0,
+        "Level": 4,
+        "Cost": 40,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_44_n",
+          "SourceString": "メンテナンス",
+          "LocalizedString": "Maintenance"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_44_t",
+          "SourceString": "新車価格の {%V00}％ でマシンを売却できる。",
+          "LocalizedString": "Machines can be sold at {%V00}% of their new car price."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_discount_PA_1": {
+        "ID": 0,
+        "Step": 206,
+        "Link_Step": [
+          306,
+          307,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_DISCOUNT_AT_PA",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 5.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 10,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_81_n",
+          "SourceString": "PA代金",
+          "LocalizedString": "Parking Area Cost"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_81_t",
+          "SourceString": "PAにて、規定価格から {%V00}％ 割引きで「タイヤ交換」「ナイトロシステム補給」ができる。",
+          "LocalizedString": "Get Tire Change and Nitro System Refill at {%V00}% off the regular price at Parking Areas."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_discount_PA_2": {
+        "ID": 0,
+        "Step": 306,
+        "Link_Step": [
+          406,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_DISCOUNT_AT_PA",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 10.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 20,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_82_n",
+          "SourceString": "PA代金",
+          "LocalizedString": "Parking Area Cost"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_82_t",
+          "SourceString": "PAにて、規定価格から {%V00}％ 割引きで「タイヤ交換」「ナイトロシステム補給」ができる。",
+          "LocalizedString": "Get Tire Change and Nitro System Refill at {%V00}% off the regular price at Parking Areas."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_discount_PA_3": {
+        "ID": 0,
+        "Step": 406,
+        "Link_Step": [
+          506,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_DISCOUNT_AT_PA",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 20.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 30,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_83_n",
+          "SourceString": "PA代金",
+          "LocalizedString": "Parking Area Cost"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_83_t",
+          "SourceString": "PAにて、規定価格から {%V00}％ 割引きで「タイヤ交換」「ナイトロシステム補給」ができる。",
+          "LocalizedString": "Get Tire Change and Nitro System Refill at {%V00}% off the regular price at Parking Areas."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_discount_PA_4": {
+        "ID": 0,
+        "Step": 506,
+        "Link_Step": [
+          606,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_DISCOUNT_AT_PA",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 30.0,
+        "Value_01": 0.0,
+        "Level": 4,
+        "Cost": 40,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_84_n",
+          "SourceString": "PA代金",
+          "LocalizedString": "Parking Area Cost"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_84_t",
+          "SourceString": "PAにて、規定価格から {%V00}％ 割引きで「タイヤ交換」「ナイトロシステム補給」ができる。",
+          "LocalizedString": "Get Tire Change and Nitro System Refill at {%V00}% off the regular price at Parking Areas."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_dicount_aero_1": {
+        "ID": 0,
+        "Step": 208,
+        "Link_Step": [
+          308,
+          309,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_DISCOUNT_AERO",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 5.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 10,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_71_n",
+          "SourceString": "エアロ代金",
+          "LocalizedString": "Aero Cost"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_71_t",
+          "SourceString": "規定価格から {%V00}％ 割引きでエアロパーツを購入できる。",
+          "LocalizedString": "Purchase aero parts at {%V00}% off the regular price."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_dicount_aero_2": {
+        "ID": 0,
+        "Step": 308,
+        "Link_Step": [
+          408,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_DISCOUNT_AERO",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 10.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 20,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_72_n",
+          "SourceString": "エアロ代金",
+          "LocalizedString": "Aero Cost"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_72_t",
+          "SourceString": "規定価格から {%V00}％ 割引きでエアロパーツを購入できる。",
+          "LocalizedString": "Purchase aero parts at {%V00}% off the regular price."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_dicount_aero_3": {
+        "ID": 0,
+        "Step": 408,
+        "Link_Step": [
+          508,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_DISCOUNT_AERO",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 15.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 30,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_73_n",
+          "SourceString": "エアロ代金",
+          "LocalizedString": "Aero Cost"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_73_t",
+          "SourceString": "規定価格から {%V00}％ 割引きでエアロパーツを購入できる。",
+          "LocalizedString": "Purchase aero parts at {%V00}% off the regular price."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_dicount_aero_4": {
+        "ID": 0,
+        "Step": 508,
+        "Link_Step": [
+          608,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_DISCOUNT_AERO",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 20.0,
+        "Value_01": 0.0,
+        "Level": 4,
+        "Cost": 40,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_74_n",
+          "SourceString": "エアロ代金",
+          "LocalizedString": "Aero Cost"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_74_t",
+          "SourceString": "規定価格から {%V00}％ 割引きでエアロパーツを購入できる。",
+          "LocalizedString": "Purchase aero parts at {%V00}% off the regular price."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_car_rating_up_default": {
+        "ID": 0,
+        "Step": 0,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_ACQUIRED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_MAINTENANCE_EXPERT",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 50.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 0,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_13_n",
+          "SourceString": "パーフェクト報酬UP",
+          "LocalizedString": "Perfect Reward UP"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_13_t",
+          "SourceString": "「PERFECT BONUS」が {%V00}％ 増える。",
+          "LocalizedString": "\"PERFECT BONUS\" increases by {%V00}%."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      }
+    }
+  }
+]

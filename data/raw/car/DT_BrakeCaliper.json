@@ -1,0 +1,85 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_BrakeCaliper",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'SBrakeCaliperData'",
+        "ObjectPath": "/Game/ITSB/car/DataTable/SBrakeCaliperData.0"
+      }
+    },
+    "Rows": {
+      "Normal": {
+        "is_genuine_12_9C1859CF44D53376ABCEAA9B64AF754D": true,
+        "pot_num_2_EED6F5164B2891CF3BBC039B244DD56D": 0,
+        "image_7_13F09B4B41794BDC462732A74019B67C": {
+          "AssetPathName": "/Game/ITSB/UI/Item/Textures/T_Item_Com_Parts_Normal.T_Item_Com_Parts_Normal",
+          "SubPathString": ""
+        },
+        "color_dt_8_02AC449444A8F097CEB0E39DBA2D2BA8": null
+      },
+      "Caliper_2P": {
+        "is_genuine_12_9C1859CF44D53376ABCEAA9B64AF754D": false,
+        "pot_num_2_EED6F5164B2891CF3BBC039B244DD56D": 2,
+        "image_7_13F09B4B41794BDC462732A74019B67C": {
+          "AssetPathName": "/Game/ITSB/UI/Item/Textures/T_Item_Parts_Caliper_5.T_Item_Parts_Caliper_5",
+          "SubPathString": ""
+        },
+        "color_dt_8_02AC449444A8F097CEB0E39DBA2D2BA8": {
+          "ObjectName": "DataTable'DT_Color_Aero_Caliper_2P_2'",
+          "ObjectPath": "/Game/ITSB/UI/Color/DataTables/Aero/DT_Color_Aero_Caliper_2P_2.0"
+        }
+      },
+      "Caliper_4P": {
+        "is_genuine_12_9C1859CF44D53376ABCEAA9B64AF754D": false,
+        "pot_num_2_EED6F5164B2891CF3BBC039B244DD56D": 4,
+        "image_7_13F09B4B41794BDC462732A74019B67C": {
+          "AssetPathName": "/Game/ITSB/UI/Item/Textures/T_Item_Parts_Caliper_1.T_Item_Parts_Caliper_1",
+          "SubPathString": ""
+        },
+        "color_dt_8_02AC449444A8F097CEB0E39DBA2D2BA8": {
+          "ObjectName": "DataTable'DT_Color_Aero_Caliper_4P_2'",
+          "ObjectPath": "/Game/ITSB/UI/Color/DataTables/Aero/DT_Color_Aero_Caliper_4P_2.0"
+        }
+      },
+      "Caliper_6P": {
+        "is_genuine_12_9C1859CF44D53376ABCEAA9B64AF754D": false,
+        "pot_num_2_EED6F5164B2891CF3BBC039B244DD56D": 6,
+        "image_7_13F09B4B41794BDC462732A74019B67C": {
+          "AssetPathName": "/Game/ITSB/UI/Item/Textures/T_Item_Parts_Caliper_2.T_Item_Parts_Caliper_2",
+          "SubPathString": ""
+        },
+        "color_dt_8_02AC449444A8F097CEB0E39DBA2D2BA8": {
+          "ObjectName": "DataTable'DT_Color_Aero_Caliper_6P_2'",
+          "ObjectPath": "/Game/ITSB/UI/Color/DataTables/Aero/DT_Color_Aero_Caliper_6P_2.0"
+        }
+      },
+      "Caliper_8P": {
+        "is_genuine_12_9C1859CF44D53376ABCEAA9B64AF754D": false,
+        "pot_num_2_EED6F5164B2891CF3BBC039B244DD56D": 8,
+        "image_7_13F09B4B41794BDC462732A74019B67C": {
+          "AssetPathName": "/Game/ITSB/UI/Item/Textures/T_Item_Parts_Caliper_3.T_Item_Parts_Caliper_3",
+          "SubPathString": ""
+        },
+        "color_dt_8_02AC449444A8F097CEB0E39DBA2D2BA8": {
+          "ObjectName": "DataTable'DT_Color_Aero_Caliper_8P_2'",
+          "ObjectPath": "/Game/ITSB/UI/Color/DataTables/Aero/DT_Color_Aero_Caliper_8P_2.0"
+        }
+      },
+      "Caliper_TW": {
+        "is_genuine_12_9C1859CF44D53376ABCEAA9B64AF754D": false,
+        "pot_num_2_EED6F5164B2891CF3BBC039B244DD56D": 9,
+        "image_7_13F09B4B41794BDC462732A74019B67C": {
+          "AssetPathName": "/Game/ITSB/UI/Item/Textures/T_Item_Parts_Caliper_4.T_Item_Parts_Caliper_4",
+          "SubPathString": ""
+        },
+        "color_dt_8_02AC449444A8F097CEB0E39DBA2D2BA8": {
+          "ObjectName": "DataTable'DT_Color_Aero_Caliper_TW_2'",
+          "ObjectPath": "/Game/ITSB/UI/Color/DataTables/Aero/DT_Color_Aero_Caliper_TW_2.0"
+        }
+      }
+    }
+  }
+]

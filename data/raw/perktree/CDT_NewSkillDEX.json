@@ -1,0 +1,158 @@
+[
+  {
+    "Type": "CompositeDataTable",
+    "Name": "CDT_NewSkillDEX",
+    "Class": "UScriptClass'CompositeDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParentTables": [
+        {
+          "ObjectName": "DataTable'DT_NewSkillDEX0'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Skill/DT_NewSkillDEX0.0"
+        }
+      ],
+      "RowStruct": {
+        "ObjectName": "Class'SSkillTree'",
+        "ObjectPath": "/Script/TokyoXtremeRacer"
+      }
+    },
+    "Rows": {
+      "STT_DEX_1": {
+        "ID": 0,
+        "Step": 101,
+        "Link_Step": [
+          301,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_ACQUIRED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__DEX",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 1.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 0,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_41_n",
+          "SourceString": "技術力強化 C",
+          "LocalizedString": "Technical Ability Enhancement C"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_41_t",
+          "SourceString": "{%V00}つの「スキル」を装備できる。",
+          "LocalizedString": "Allows you to equip one Skill."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_DEX_2": {
+        "ID": 0,
+        "Step": 301,
+        "Link_Step": [
+          501,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_NOT_ACQUIRED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__DEX",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 2.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 20,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_42_n",
+          "SourceString": "技術力強化 B",
+          "LocalizedString": "Technical Ability Enhancement B"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_42_t",
+          "SourceString": "{%V00}つの「スキル」を装備できる。",
+          "LocalizedString": "Allows you to equip {%V00} Skills."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0002",
+          "Boss_0013",
+          "Boss_0021",
+          "Boss_0022"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_DEX_3": {
+        "ID": 0,
+        "Step": 501,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__DEX",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 3.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 50,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_43_n",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_43_t",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage2",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0003",
+          "Boss_0015",
+          "Boss_0024",
+          "Boss_0023"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      }
+    }
+  }
+]

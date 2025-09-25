@@ -28,7 +28,7 @@
         "DriveType": "EDriveType::DT_FR",
         "EngineKind": "EEngineKind::Straight6",
         "EngineInspiration": "ECarIceAspirationType::Turbo",
-        "displacement": 2491,
+        "Displacement": 2491,
         "MaxPower": 280,
         "MaxPowerRpm": 6200,
         "MaxTorque": 37.0,
@@ -51,6 +51,7 @@
         "RSuspension": "ERSuspension::DOUBLE_WISHBONE",
         "Cd": 0.35,
         "Cl": 0.008,
+        "RearDriveRate": 1.0,
         "EngineFormatName": "E_1JZ-GTE",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -73,7 +74,10 @@
           "LocalizedString": "SUPRA 2.5GT TWIN TURBO R (JZA70) '93"
         },
         "RHLOpenAngle": 50.4961366994,
-        "MaxHightOffset": 2.5
+        "MaxHightOffset": 2.5,
+        "MinTurningRadius": 5.7,
+        "FrontTireWidthMax": 245,
+        "RearTireWidthMax": 245
       }
     }
   }

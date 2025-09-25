@@ -8,7 +8,7 @@
       "CarData": {
         "ID": 154,
         "CarId": "CAR154",
-        "CarNameId": "TRANE DRIVE",
+        "CarNameId": "TRANCE DRIVE",
         "ModelNameId": "LA400KCuTD",
         "FolderId": "LA400KCuTD",
         "ReleaseDay": 2015,
@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::Straight4",
         "EngineFromat": "EEngineFromat::E_SR20DET",
         "EngineInspiration": "ECarIceAspirationType::Turbo",
-        "displacement": 1998,
+        "Displacement": 1998,
         "MaxPower": 205,
         "MaxPowerRpm": 6000,
         "MaxTorque": 28.0,
@@ -52,6 +52,7 @@
         "RSuspension": "ERSuspension::TORSION_BEAM",
         "Cd": 0.3,
         "Cl": 0.008,
+        "RearDriveRate": 0.0,
         "EngineFormatName": "SR20DET",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -71,15 +72,18 @@
           "SourceString": "TRANCE DRIVE",
           "LocalizedString": "TRANCE DRIVE"
         },
-        "FrontHightOffset": -24,
-        "RearHightOffset": -24,
+        "FrontHightOffset": -30,
+        "RearHightOffset": -30,
         "FrontCamberAngle": -20,
-        "RearCamberAngle": -20,
-        "FrontOffset": 35,
-        "RearOffset": 35,
+        "RearCamberAngle": -30,
+        "FrontOffset": 70,
+        "RearOffset": 80,
         "FrontTirePulling": 30,
         "RearTirePulling": 30,
-        "MaxHightOffset": 2.5
+        "MaxHightOffset": 2.5,
+        "MinTurningRadius": 4.6,
+        "FrontTireWidthMax": 245,
+        "RearTireWidthMax": 245
       }
     }
   }

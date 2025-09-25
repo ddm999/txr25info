@@ -8,7 +8,7 @@
       "CarData": {
         "ID": 120,
         "CarId": "CAR120",
-        "CarNameId": "TRUCK Dynac (XZU402) '99",
+        "CarNameId": "Dyna (XZU402) '99",
         "ModelNameId": "XZU402",
         "FolderId": "OtTRUCK",
         "ReleaseDay": 1999,
@@ -27,7 +27,7 @@
         "DriveType": "EDriveType::DT_FR",
         "EngineKind": "EEngineKind::Straight4",
         "EngineInspiration": "ECarIceAspirationType::NA",
-        "displacement": 4613,
+        "Displacement": 4613,
         "MaxPower": 130,
         "MaxPowerRpm": 3000,
         "MaxTorque": 34.0,
@@ -50,6 +50,7 @@
         "RSuspension": "ERSuspension::MULTI_LINK",
         "Cd": 0.4,
         "Cl": 0.008,
+        "RearDriveRate": 1.0,
         "EngineFormatName": "S05C",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -69,10 +70,13 @@
         "CarName": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_carname.ST_carname",
           "Key": "OtTRUCK",
-          "SourceString": "Dynac (XZU402) '99",
-          "LocalizedString": "Dynac (XZU402) '99"
+          "SourceString": "Dyna (XZU402) '99",
+          "LocalizedString": "Dyna (XZU402) '99"
         },
-        "MaxHightOffset": 4.0
+        "MaxHightOffset": 4.0,
+        "MinTurningRadius": 4.9,
+        "FrontTireWidthMax": 205,
+        "RearTireWidthMax": 205
       }
     }
   }

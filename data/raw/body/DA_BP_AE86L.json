@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::Straight4",
         "EngineFromat": "EEngineFromat::E_4A_GEU",
         "EngineInspiration": "ECarIceAspirationType::NA",
-        "displacement": 1587,
+        "Displacement": 1587,
         "MaxPower": 130,
         "MaxPowerRpm": 6600,
         "MaxTorque": 15.2,
@@ -52,6 +52,7 @@
         "RSuspension": "ERSuspension::MULTI_LINK",
         "Cd": 0.35,
         "Cl": 0.008,
+        "RearDriveRate": 1.0,
         "EngineFormatName": "4A_GEU",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -73,7 +74,10 @@
           "SourceString": "COROLLA LEVIN GT-APEX 3door (AE86) '87",
           "LocalizedString": "COROLLA LEVIN GT-APEX 3door (AE86) '87"
         },
-        "MaxHightOffset": 2.5
+        "MaxHightOffset": 2.5,
+        "MinTurningRadius": 4.8,
+        "FrontTireWidthMax": 215,
+        "RearTireWidthMax": 215
       }
     }
   }

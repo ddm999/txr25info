@@ -13,67 +13,91 @@
     "Rows": {
       "WARNING": {
         "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 0,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "既存の行の名前は変更しないでください！変更したい場合はPGへ相談"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "既存の行の名前は変更しないでください！変更したい場合はPGへ相談"
       },
       "MaxDaysDisplayed": {
-        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 999999,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "日"
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 9999,
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "日（表示日数の上限）"
       },
       "MaxDays": {
         "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 999999999,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "日"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "日"
       },
       "DefaultGarageSpace": {
         "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 5,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "台"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "台"
       },
       "MaxGarageSpace": {
         "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 120,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "台"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "台"
       },
       "MaxBattleNum": {
         "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 9999,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "勝敗数等の最大値"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "勝敗数等の最大値"
       },
       "GarageVehicleCameraYaw": {
         "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": -30,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "ガレージの車を映すカメラの向き（車からの向き（ヨー））"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "ガレージの車を映すカメラの向き（車からの向き（ヨー））"
       },
       "GarageVehicleCameraPitch": {
         "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 0,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "ガレージの車を映すカメラの向き（車からの向き（ピッチ））"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "ガレージの車を映すカメラの向き（車からの向き（ピッチ））"
       },
       "GarageVehicleCameraFov": {
         "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 80,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "ガレージの車を映すカメラの画角（°）"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "ガレージの車を映すカメラの画角（°）"
       },
       "GarageVehicleCameraDistance": {
         "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 400,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "ガレージ車を映すカメラと車の距離(cm)"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "ガレージ車を映すカメラと車の距離(cm)"
       },
       "ViewModeMaxPitch": {
         "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 30,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "ビューモードのカメラの最大ピッチ（車から見たカメラの位置）"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "ビューモードのカメラの最大ピッチ（車から見たカメラの位置）"
       },
       "ViewModeMaxFov": {
         "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 60,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "ビューモードのカメラの最大画角（°）"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "ビューモードのカメラの最大画角（°）"
       },
       "ViewModeMinFov": {
         "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 30,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "ビューモードのカメラの最小画角（°）"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "ビューモードのカメラの最小画角（°）"
       },
       "PhotoModeMoveDistance": {
-        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 1000,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "フォトモード時のカメラ移動半径範囲(cm)"
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 1500,
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "フォトモード時のカメラ移動半径範囲(cm)高さ成分は除く"
       },
       "ParkingAreaHeavyConvNum": {
         "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 2,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "パーキングエリアの重要な会話の最大数"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "パーキングエリアの重要な会話の最大数"
       },
       "MaxBP": {
-        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 999,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "最大バトルポイント"
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 9999,
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "最大バトルポイント"
+      },
+      "PhotoModeMoveDistanceHeight": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 400,
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "フォトモード時のカメラ移動高さ範囲(cm)"
+      },
+      "VariableTireWidth": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 60,
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "変更可能タイヤ幅（mm）"
+      },
+      "PhotoModeMoveDistanceForPA": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 10000,
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "PAでのフォトモード時のカメラ移動半径範囲(cm)高さ成分は除く"
+      },
+      "PhotoModeMoveDistanceHeightForPA": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 10000,
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "PAでのフォトモード時のカメラ移動高さ範囲(cm)"
+      },
+      "MaxDriverLevel": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 30,
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "最大ドライバーレベル"
+      },
+      "DefaultBP": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 10,
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "初期BP"
       }
     }
   }

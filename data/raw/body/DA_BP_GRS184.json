@@ -28,7 +28,7 @@
         "DriveType": "EDriveType::DT_FR",
         "EngineKind": "EEngineKind::V6",
         "EngineInspiration": "ECarIceAspirationType::NA",
-        "displacement": 3456,
+        "Displacement": 3456,
         "MaxPower": 315,
         "MaxPowerRpm": 6400,
         "MaxTorque": 38.4,
@@ -52,6 +52,7 @@
         "RSuspension": "ERSuspension::MULTI_LINK",
         "Cd": 0.33,
         "Cl": 0.008,
+        "RearDriveRate": 1.0,
         "EngineFormatName": "E_2GR-FSE",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -71,7 +72,9 @@
           "SourceString": "CROWN ATHLETE G Package (GRS184) '05",
           "LocalizedString": "CROWN ATHLETE G Package (GRS184) '05"
         },
-        "MaxHightOffset": 3.0
+        "MaxHightOffset": 3.0,
+        "FrontTireWidthMax": 245,
+        "RearTireWidthMax": 245
       }
     }
   }

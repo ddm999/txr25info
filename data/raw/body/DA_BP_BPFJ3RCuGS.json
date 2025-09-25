@@ -8,7 +8,7 @@
       "CarData": {
         "ID": 88,
         "CarId": "CAR88",
-        "CarNameId": "GENERAL SODA",
+        "CarNameId": "SHUWA SHUWA",
         "ModelNameId": "BPFJ3RCuGS",
         "FolderId": "BPFJ3RCuGS",
         "ReleaseDay": 2023,
@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::Straight4",
         "EngineFromat": "EEngineFromat::E_PE_VPH",
         "EngineInspiration": "ECarIceAspirationType::NA",
-        "displacement": 1997,
+        "Displacement": 1997,
         "MaxPower": 156,
         "MaxPowerRpm": 6000,
         "MaxTorque": 20.3,
@@ -77,10 +77,13 @@
         "FrontHightOffset": -20,
         "RearHightOffset": -20,
         "FrontCamberAngle": -30,
-        "RearCamberAngle": -30,
+        "RearCamberAngle": -40,
         "FrontOffset": 80,
-        "RearOffset": 80,
-        "MaxHightOffset": 2.0
+        "RearOffset": 90,
+        "MaxHightOffset": 2.0,
+        "MinTurningRadius": 5.3,
+        "FrontTireWidthMax": 255,
+        "RearTireWidthMax": 255
       }
     }
   }

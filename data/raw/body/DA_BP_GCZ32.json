@@ -28,7 +28,7 @@
         "DriveType": "EDriveType::DT_FR",
         "EngineKind": "EEngineKind::V6",
         "EngineInspiration": "ECarIceAspirationType::Turbo",
-        "displacement": 2960,
+        "Displacement": 2960,
         "MaxPower": 280,
         "MaxPowerRpm": 6400,
         "MaxTorque": 39.6,
@@ -51,6 +51,7 @@
         "RSuspension": "ERSuspension::MULTI_LINK",
         "Cd": 0.31,
         "Cl": 0.008,
+        "RearDriveRate": 1.0,
         "EngineFormatName": "E_VG30DETT",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -72,7 +73,10 @@
           "SourceString": "FAIRLADY Z Version R TwinTurbo 2by2 (GCZ32) '98",
           "LocalizedString": "FAIRLADY Z Version R TwinTurbo 2by2 (GCZ32) '98"
         },
-        "MaxHightOffset": 2.5
+        "MaxHightOffset": 2.5,
+        "MinTurningRadius": 5.6,
+        "FrontTireWidthMax": 245,
+        "RearTireWidthMax": 245
       }
     }
   }

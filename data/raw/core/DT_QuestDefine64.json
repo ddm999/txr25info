@@ -13,103 +13,103 @@
     "Rows": {
       "WARNING": {
         "value_6_F3C417D34FF6FBC6ABC0D993D9D12032": 0,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "行の名前は変更しないで！変更したい場合はPGへ相談"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "行の名前は変更しないで！変更したい場合はPGへ相談"
       },
       "MaxCp": {
         "value_6_F3C417D34FF6FBC6ABC0D993D9D12032": 9999999990,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "所持できる最大CP"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "所持できる最大CP"
       },
       "DefaultCp": {
         "value_6_F3C417D34FF6FBC6ABC0D993D9D12032": 3000000,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "開始時のCP"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "開始時のCP"
       },
       "CpMinUnit": {
         "value_6_F3C417D34FF6FBC6ABC0D993D9D12032": 10,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "CPの最小単位"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "CPの最小単位"
       },
       "DefaultUpperLimitCp": {
         "value_6_F3C417D34FF6FBC6ABC0D993D9D12032": 10000000,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "開始時の所持できる最大CP（上限）"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "開始時の所持できる最大CP（上限）"
       },
       "PartsPriceBasicCoef": {
         "value_6_F3C417D34FF6FBC6ABC0D993D9D12032": 10,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "パーツ価格の基本係数"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "パーツ価格の基本係数"
       },
       "SellCarRunCoef1": {
         "value_6_F3C417D34FF6FBC6ABC0D993D9D12032": 50,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "SellCarRunDistance1以上走ると販売価格にこの数値（%）を掛けた値が売却額になる"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "SellCarRunDistance1以上走ると販売価格にこの数値（%）を掛けた値が売却額になる"
       },
       "SellCarRunCoef2": {
         "value_6_F3C417D34FF6FBC6ABC0D993D9D12032": 60,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "SellCarRunDistance2以上走ると販売価格にこの数値（%）を掛けた値が売却額になる"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "SellCarRunDistance2以上走ると販売価格にこの数値（%）を掛けた値が売却額になる"
       },
       "SellCarRunCoef3": {
         "value_6_F3C417D34FF6FBC6ABC0D993D9D12032": 70,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "SellCarRunDistance3以上走ると販売価格にこの数値（%）を掛けた値が売却額になる"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "SellCarRunDistance3以上走ると販売価格にこの数値（%）を掛けた値が売却額になる"
       },
       "SellCarRunCoef4": {
         "value_6_F3C417D34FF6FBC6ABC0D993D9D12032": 80,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "SellCarRunDistance4以上走ると販売価格にこの数値（%）を掛けた値が売却額になる"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "SellCarRunDistance4以上走ると販売価格にこの数値（%）を掛けた値が売却額になる"
       },
       "SellCarRunCoef5": {
         "value_6_F3C417D34FF6FBC6ABC0D993D9D12032": 100,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "条件に合わない場合はこの％を掛けた値が売却額になる"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "条件に合わない場合はこの％を掛けた値が売却額になる"
       },
       "SellCarRunDistance1": {
         "value_6_F3C417D34FF6FBC6ABC0D993D9D12032": 100000,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "この数値以上走ると車両売却の際SellCarRunCoef1が適用される"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "この数値以上走ると車両売却の際SellCarRunCoef1が適用される"
       },
       "SellCarRunDistance2": {
         "value_6_F3C417D34FF6FBC6ABC0D993D9D12032": 70000,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "この数値以上走ると車両売却の際SellCarRunCoef2が適用される"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "この数値以上走ると車両売却の際SellCarRunCoef2が適用される"
       },
       "SellCarRunDistance3": {
         "value_6_F3C417D34FF6FBC6ABC0D993D9D12032": 50000,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "この数値以上走ると車両売却の際SellCarRunCoef3が適用される"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "この数値以上走ると車両売却の際SellCarRunCoef3が適用される"
       },
       "SellCarRunDistance4": {
         "value_6_F3C417D34FF6FBC6ABC0D993D9D12032": 30000,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "この数値以上走ると車両売却の際SellCarRunCoef4が適用される"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "この数値以上走ると車両売却の際SellCarRunCoef4が適用される"
       },
       "TunerTunePrice": {
         "value_6_F3C417D34FF6FBC6ABC0D993D9D12032": 30,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "買うことができるレベルとなる場合のチューン代"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "買うことができるレベルとなる場合のチューン代"
       },
       "TunerTunePriceEx": {
         "value_6_F3C417D34FF6FBC6ABC0D993D9D12032": 100,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "買うことができないレベルとなる場合のチューン代"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "買うことができないレベルとなる場合のチューン代"
       },
       "RecoveryNitro": {
         "value_6_F3C417D34FF6FBC6ABC0D993D9D12032": 20000,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "Recovery nitro by parking"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "Recovery nitro by parking"
       },
       "RecoveryTireLife": {
         "value_6_F3C417D34FF6FBC6ABC0D993D9D12032": 50000,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "Recovery tireLife"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "Recovery tireLife"
       },
       "NeonPrice": {
         "value_6_F3C417D34FF6FBC6ABC0D993D9D12032": 20000,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "ネオンの値段。場所にかかわらず同じ"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "ネオンの値段。場所にかかわらず同じ"
       },
       "PartsPriceUnit": {
         "value_6_F3C417D34FF6FBC6ABC0D993D9D12032": 10000,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "パーツ価格の単位"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "パーツ価格の単位"
       },
       "PartsPriceComputeBaseTorque": {
         "value_6_F3C417D34FF6FBC6ABC0D993D9D12032": 15,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "パーツ価格計算のための基準トルク（kgm）"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "パーツ価格計算のための基準トルク（kgm）"
       },
       "PartsPriceComputeBaseKg": {
         "value_6_F3C417D34FF6FBC6ABC0D993D9D12032": 960,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "パーツ価格計算のための基準重量（kg）"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "パーツ価格計算のための基準重量（kg）"
       },
       "PartsPriceComputeDisplacement": {
         "value_6_F3C417D34FF6FBC6ABC0D993D9D12032": 1587,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "パーツ価格計算のための基準排気量（cc）"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "パーツ価格計算のための基準排気量（cc）"
       },
       "PartsPriceRoundUnit": {
         "value_6_F3C417D34FF6FBC6ABC0D993D9D12032": 1000,
-        "memo_5_9961B18141718027C83E31BC3AADB54C[1]": "パーツ価格のまるめ単位"
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "パーツ価格のまるめ単位"
       }
     }
   }

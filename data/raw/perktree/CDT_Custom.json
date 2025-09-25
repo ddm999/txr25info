@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "CompositeDataTable",
+    "Name": "CDT_Custom",
+    "Class": "UScriptClass'CompositeDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParentTables": [
+        {
+          "ObjectName": "DataTable'DT_Custom0'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Machine/Custom/DT_Custom0.0"
+        }
+      ],
+      "RowStruct": {
+        "ObjectName": "Class'SSkillTree'",
+        "ObjectPath": "/Script/TokyoXtremeRacer"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "ID": 0,
+        "Step": -1,
+        "Link_Step": [
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_NOT_ACQUIRED",
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 0,
+        "Script": {
+          "CultureInvariantString": null
+        },
+        "Detail": {
+          "CultureInvariantString": null
+        },
+        "NameId": "PS13",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::None",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "NewRow_0": {
+        "ID": 0,
+        "Step": -1,
+        "Link_Step": [
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_NOT_ACQUIRED",
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 0,
+        "Script": {
+          "CultureInvariantString": null
+        },
+        "Detail": {
+          "CultureInvariantString": null
+        },
+        "NameId": "AE86L",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::None",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "NewRow_1": {
+        "ID": 0,
+        "Step": -1,
+        "Link_Step": [
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_NOT_ACQUIRED",
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 0,
+        "Script": {
+          "CultureInvariantString": null
+        },
+        "Detail": {
+          "CultureInvariantString": null
+        },
+        "NameId": "S14",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::None",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      }
+    }
+  }
+]

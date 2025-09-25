@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::Flat4",
         "EngineFromat": "EEngineFromat::E_FA24",
         "EngineInspiration": "ECarIceAspirationType::Turbo",
-        "displacement": 2387,
+        "Displacement": 2387,
         "MaxPower": 275,
         "MaxPowerRpm": 5600,
         "MaxTorque": 38.2,
@@ -74,7 +74,10 @@
           "SourceString": "LEVORG STI Sport R EX (VNH) '21",
           "LocalizedString": "LEVORG STI Sport R EX (VNH) '21"
         },
-        "MaxHightOffset": 2.0
+        "MaxHightOffset": 2.0,
+        "MinTurningRadius": 5.5,
+        "FrontTireWidthMax": 245,
+        "RearTireWidthMax": 245
       }
     }
   }

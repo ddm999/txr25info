@@ -1,0 +1,275 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Color_Car_Official_AE86L",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'UDS_Color'",
+        "ObjectPath": "/Game/ITSB/UI/Color/DataTables/UDS_Color.0"
+      }
+    },
+    "Rows": {
+      "0": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.63,
+          "G": 0.641667,
+          "B": 0.7,
+          "A": 1.0,
+          "Hex": "D0D2DA"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "56D153E148F1666A27754BA5233104F0",
+          "SourceString": "ハイテックツートン",
+          "LocalizedString": "ハイテックツートン"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Toyota/AE86L/Materials/OfficialColor/MI_Car_clAE86L_00M.MI_Car_clAE86L_00M",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Toyota/AE86L/Materials/OfficialColor/MI_Car_clAE86L_00S.MI_Car_clAE86L_00S",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "1": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.035523,
+          "G": 0.049846,
+          "B": 0.065972,
+          "A": 1.0,
+          "Hex": "353F48"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "18B37E0D4550683F88E8CEB37B014494",
+          "SourceString": "ハイソニックトーニング",
+          "LocalizedString": "ハイソニックトーニング"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Toyota/AE86L/Materials/OfficialColor/MI_Car_clAE86L_01M.MI_Car_clAE86L_01M",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Toyota/AE86L/Materials/OfficialColor/MI_Car_clAE86L_01S.MI_Car_clAE86L_01S",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "2": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.3564,
+          "G": 0.012983,
+          "B": 0.017642,
+          "A": 1.0,
+          "Hex": "A11E24"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "BC3BB63F4E721150B58C33A17D4C9B0D",
+          "SourceString": "ハイフラッシュツートン",
+          "LocalizedString": "ハイフラッシュツートン"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Toyota/AE86L/Materials/OfficialColor/MI_Car_clAE86L_02M.MI_Car_clAE86L_02M",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Toyota/AE86L/Materials/OfficialColor/MI_Car_clAE86L_02S.MI_Car_clAE86L_02S",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "3": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.63,
+          "G": 0.641667,
+          "B": 0.7,
+          "A": 1.0,
+          "Hex": "D0D2DA"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "0269429A4D9FDB76AB1C1995E40AC941",
+          "SourceString": "ホワイト",
+          "LocalizedString": "ホワイト"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Toyota/AE86L/Materials/OfficialColor/MI_Car_clAE86L_00M.MI_Car_clAE86L_00M",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Toyota/AE86L/Materials/OfficialColor/MI_Car_clAE86L_00M.MI_Car_clAE86L_00M",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "4": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.36,
+          "G": 0.366667,
+          "B": 0.4,
+          "A": 1.0,
+          "Hex": "A2A3AA"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "D538563B418EC1BDD023439B3F1E4481",
+          "SourceString": "シルバーメタリック",
+          "LocalizedString": "シルバーメタリック"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Toyota/AE86L/Materials/OfficialColor/MI_Car_clAE86L_04M.MI_Car_clAE86L_04M",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Toyota/AE86L/Materials/OfficialColor/MI_Car_clAE86L_04M.MI_Car_clAE86L_04M",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "5": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.7,
+          "G": 0.0,
+          "B": 0.023333,
+          "A": 1.0,
+          "Hex": "DA002A"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "3C97E96A4B4073FA42D1BCB57FCC4B51",
+          "SourceString": "レッド",
+          "LocalizedString": "レッド"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Toyota/AE86L/Materials/OfficialColor/MI_Car_clAE86L_02M.MI_Car_clAE86L_02M",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Toyota/AE86L/Materials/OfficialColor/MI_Car_clAE86L_02M.MI_Car_clAE86L_02M",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "6": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.165132,
+          "G": 0.165132,
+          "B": 0.165132,
+          "A": 1.0,
+          "Hex": "717171"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "A13D45244F63AAFABC9BB599D2189CC4",
+          "SourceString": "ミディアムグレーメタリック",
+          "LocalizedString": "ミディアムグレーメタリック"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Toyota/AE86L/Materials/OfficialColor/MI_Car_clAE86L_06M.MI_Car_clAE86L_06M",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Toyota/AE86L/Materials/OfficialColor/MI_Car_clAE86L_06M.MI_Car_clAE86L_06M",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      }
+    }
+  }
+]

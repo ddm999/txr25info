@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::Straight4",
         "EngineFromat": "EEngineFromat::E_JB_DET",
         "EngineInspiration": "ECarIceAspirationType::Turbo",
-        "displacement": 659,
+        "Displacement": 659,
         "MaxPower": 64,
         "MaxPowerRpm": 6000,
         "MaxTorque": 10.2,
@@ -51,6 +51,7 @@
         "RSuspension": "ERSuspension::TORSION_BEAM",
         "Cd": 0.3,
         "Cl": 0.008,
+        "RearDriveRate": 0.0,
         "EngineFormatName": "JB_DET",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -73,7 +74,10 @@
           "SourceString": "MOVE CUSTOM RS Limited (L152S) '02",
           "LocalizedString": "MOVE CUSTOM RS Limited (L152S) '02"
         },
-        "MaxHightOffset": 2.5
+        "MaxHightOffset": 2.5,
+        "MinTurningRadius": 4.6,
+        "FrontTireWidthMax": 185,
+        "RearTireWidthMax": 185
       }
     }
   }

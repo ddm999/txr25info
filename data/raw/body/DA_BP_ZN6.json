@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::Flat4",
         "EngineFromat": "EEngineFromat::E_FA20",
         "EngineInspiration": "ECarIceAspirationType::NA",
-        "displacement": 1998,
+        "Displacement": 1998,
         "MaxPower": 200,
         "MaxPowerRpm": 7000,
         "MaxTorque": 20.9,
@@ -53,6 +53,7 @@
         "RSuspension": "ERSuspension::DOUBLE_WISHBONE",
         "Cd": 0.27,
         "Cl": 0.008,
+        "RearDriveRate": 1.0,
         "EngineFormatName": "FA20",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -74,7 +75,10 @@
           "SourceString": "TOYOTA 86 GT (ZN6) '12",
           "LocalizedString": "TOYOTA 86 GT (ZN6) '12"
         },
-        "MaxHightOffset": 2.5
+        "MaxHightOffset": 2.5,
+        "MinTurningRadius": 5.4,
+        "FrontTireWidthMax": 235,
+        "RearTireWidthMax": 235
       }
     }
   }

@@ -1,0 +1,164 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Color_Wheel_LM",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'UDS_Color'",
+        "ObjectPath": "/Game/ITSB/UI/Color/DataTables/UDS_Color.0"
+      }
+    },
+    "Rows": {
+      "0": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.36,
+          "G": 0.366668,
+          "B": 0.4,
+          "A": 1.0,
+          "Hex": "A2A3AA"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.1,
+          "G": 0.1,
+          "B": 0.1,
+          "A": 1.0,
+          "Hex": "595959"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "71DA72584EC9A68333496D82E47401D0",
+          "SourceString": "ダイヤモンドシルバー",
+          "LocalizedString": "ダイヤモンドシルバー"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Wheel/BBS/LM/Materials/MI_WH_cl_LM_00.MI_WH_cl_LM_00",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "1": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.09,
+          "G": 0.091667,
+          "B": 0.1,
+          "A": 1.0,
+          "Hex": "545559"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.1,
+          "G": 0.1,
+          "B": 0.1,
+          "A": 1.0,
+          "Hex": "595959"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "244311324D873DEB2E85F781D1F9C9D8",
+          "SourceString": "ダイヤモンドブラック",
+          "LocalizedString": "ダイヤモンドブラック"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Wheel/BBS/LM/Materials/MI_WH_cl_LM_01.MI_WH_cl_LM_01",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "2": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.4,
+          "G": 0.346667,
+          "B": 0.24,
+          "A": 1.0,
+          "Hex": "AA9F86"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.1,
+          "G": 0.1,
+          "B": 0.1,
+          "A": 1.0,
+          "Hex": "595959"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "5A3994BB42ACB2C6D49C529A35F0158B",
+          "SourceString": "ゴールド",
+          "LocalizedString": "ゴールド"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Wheel/BBS/LM/Materials/MI_WH_cl_LM_02.MI_WH_cl_LM_02",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "3": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.45,
+          "G": 0.458333,
+          "B": 0.5,
+          "A": 1.0,
+          "Hex": "B3B5BC"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "5B6E957845F7A52B23BFB1806249EB3D",
+          "SourceString": "ダイヤモンドシルバー",
+          "LocalizedString": "ダイヤモンドシルバー"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Wheel/BBS/LM/Materials/MI_WH_cl_LM_03.MI_WH_cl_LM_03",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      }
+    }
+  }
+]

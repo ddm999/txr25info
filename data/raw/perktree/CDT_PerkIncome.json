@@ -1,0 +1,1643 @@
+[
+  {
+    "Type": "CompositeDataTable",
+    "Name": "CDT_PerkIncome",
+    "Class": "UScriptClass'CompositeDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParentTables": [
+        {
+          "ObjectName": "DataTable'DT_PerkIncome0'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Perk/DT_PerkIncome0.0"
+        }
+      ],
+      "RowStruct": {
+        "ObjectName": "Class'SSkillTree'",
+        "ObjectPath": "/Script/TokyoXtremeRacer"
+      }
+    },
+    "Rows": {
+      "Perk_default_CP": {
+        "ID": 0,
+        "Step": 0,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_ACQUIRED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_NEW_WALLET",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 10000000.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 0,
+        "Script": {
+          "CultureInvariantString": null
+        },
+        "Detail": {
+          "Namespace": "",
+          "Key": "8EF836F549D236B823C72990BC1C0308",
+          "SourceString": "▲表示しない。",
+          "LocalizedString": "▲表示しない。"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::None",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_default_BP": {
+        "ID": 0,
+        "Step": 0,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_ACQUIRED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_BP_UPPER_LIMIT_UPDATE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 100.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 0,
+        "Script": {
+          "CultureInvariantString": null
+        },
+        "Detail": {
+          "Namespace": "",
+          "Key": "0BE138CB4AFF311DC2FA1DA49523F3F7",
+          "SourceString": "▲表示しない。",
+          "LocalizedString": "▲表示しない。"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::None",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_rival_prize_1": {
+        "ID": 0,
+        "Step": 101,
+        "Link_Step": [
+          201,
+          202,
+          205,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_NOT_ACQUIRED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_RIVAL_PRIZE_UP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 110.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 10,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_01_n",
+          "SourceString": "バトル報酬UP",
+          "LocalizedString": "Battle Reward UP"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_01_t",
+          "SourceString": "「RIVAL'S PRIZE」が {%V00_100off}％ 増える。",
+          "LocalizedString": "\"RIVAL'S PRIZE\" increases by {%V00_100off}%."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_rival_prize_2": {
+        "ID": 0,
+        "Step": 201,
+        "Link_Step": [
+          301,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_RIVAL_PRIZE_UP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 120.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 20,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_02_n",
+          "SourceString": "バトル報酬UP",
+          "LocalizedString": "Battle Reward UP"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_02_t",
+          "SourceString": "「RIVAL'S PRIZE」が {%V00_100off}％ 増える。",
+          "LocalizedString": "\"RIVAL'S PRIZE\" increases by {%V00_100off}%."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_rival_prize_3": {
+        "ID": 0,
+        "Step": 301,
+        "Link_Step": [
+          401,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_RIVAL_PRIZE_UP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 130.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 30,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_02_n",
+          "SourceString": "バトル報酬UP",
+          "LocalizedString": "Battle Reward UP"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_03_t",
+          "SourceString": "「RIVAL'S PRIZE」が {%V00_100off}％ 増える。",
+          "LocalizedString": "\"RIVAL'S PRIZE\" increases by {%V00_100off}%."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_rival_prize_4": {
+        "ID": 0,
+        "Step": 401,
+        "Link_Step": [
+          501,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_RIVAL_PRIZE_UP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 140.0,
+        "Value_01": 0.0,
+        "Level": 4,
+        "Cost": 40,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_02_n",
+          "SourceString": "バトル報酬UP",
+          "LocalizedString": "Battle Reward UP"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_04_t",
+          "SourceString": "「RIVAL'S PRIZE」が {%V00_100off}％ 増える。",
+          "LocalizedString": "\"RIVAL'S PRIZE\" increases by {%V00_100off}%."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_CP_update_1": {
+        "ID": 0,
+        "Step": 202,
+        "Link_Step": [
+          302,
+          303,
+          304,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_NEW_WALLET",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 50000000.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 10,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_91_n",
+          "SourceString": "CPの上限",
+          "LocalizedString": "CP Limit"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_91_t",
+          "SourceString": "CPの所持最大値が {%V00} になる。",
+          "LocalizedString": "Increases the maximum CP capacity to {%V00}."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_CP_update_2": {
+        "ID": 0,
+        "Step": 302,
+        "Link_Step": [
+          402,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_NEW_WALLET",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 100000000.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 20,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_92_n",
+          "SourceString": "CPの上限",
+          "LocalizedString": "CP Limit"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_92_t",
+          "SourceString": "CPの所持最大値が {%V00} になる。",
+          "LocalizedString": "Increases the maximum CP capacity to {%V00}."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_CP_update_3": {
+        "ID": 0,
+        "Step": 402,
+        "Link_Step": [
+          502,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_NEW_WALLET",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 200000000.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 30,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_93_n",
+          "SourceString": "CPの上限",
+          "LocalizedString": "CP Limit"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_93_t",
+          "SourceString": "CPの所持最大値が {%V00} になる。",
+          "LocalizedString": "Increases the maximum CP capacity to {%V00}."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_CP_update_4": {
+        "ID": 0,
+        "Step": 502,
+        "Link_Step": [
+          602,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_NEW_WALLET",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 500000000.0,
+        "Value_01": 0.0,
+        "Level": 4,
+        "Cost": 40,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_94_n",
+          "SourceString": "CPの上限",
+          "LocalizedString": "CP Limit"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_94_t",
+          "SourceString": "CPの所持最大値が {%V00} になる。",
+          "LocalizedString": "Increases the maximum CP capacity to {%V00}."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_tecq_prize_1": {
+        "ID": 0,
+        "Step": 303,
+        "Link_Step": [
+          403,
+          504,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_TECHNIQUES_PRIZE_UP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 30.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 10,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_31_n",
+          "SourceString": "テクニック報酬UP",
+          "LocalizedString": "Technique Reward UP"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_31_t",
+          "SourceString": "「TECHNICAL BONUS」が少し増える。",
+          "LocalizedString": "The \"TECHNICAL BONUS\" increases slightly."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::DRIFT",
+            "Value0": 110.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::LONG_RUN",
+            "Value0": 110.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::NEAR_MISS",
+            "Value0": 120.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::NICE_BLOCK",
+            "Value0": 120.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::CLEAN_CORNERING",
+            "Value0": 120.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::FIRST_ATTACK",
+            "Value0": 130.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::REVERSAL_ATTACK",
+            "Value0": 130.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::JUST_ACCELE",
+            "Value0": 130.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_tecq_prize_2": {
+        "ID": 0,
+        "Step": 403,
+        "Link_Step": [
+          503,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_TECHNIQUES_PRIZE_UP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 30.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 20,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_32_n",
+          "SourceString": "テクニック報酬UP",
+          "LocalizedString": "Technique Reward UP"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_32_t",
+          "SourceString": "「TECHNICAL BONUS」が少し増える。",
+          "LocalizedString": "The \"TECHNICAL BONUS\" increases slightly."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::DRIFT",
+            "Value0": 120.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::LONG_RUN",
+            "Value0": 120.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::NEAR_MISS",
+            "Value0": 140.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::NICE_BLOCK",
+            "Value0": 140.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::CLEAN_CORNERING",
+            "Value0": 140.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::FIRST_ATTACK",
+            "Value0": 160.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::REVERSAL_ATTACK",
+            "Value0": 160.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::JUST_ACCELE",
+            "Value0": 160.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_tecq_prize_3": {
+        "ID": 0,
+        "Step": 503,
+        "Link_Step": [
+          603,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_TECHNIQUES_PRIZE_UP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 30.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 30,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_33_n",
+          "SourceString": "テクニック報酬UP",
+          "LocalizedString": "Technique Reward UP"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_33_t",
+          "SourceString": "「TECHNICAL BONUS」が増える。",
+          "LocalizedString": "The \"TECHNICAL BONUS\" increases."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::DRIFT",
+            "Value0": 130.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::LONG_RUN",
+            "Value0": 130.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::NEAR_MISS",
+            "Value0": 160.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::NICE_BLOCK",
+            "Value0": 160.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::CLEAN_CORNERING",
+            "Value0": 160.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::FIRST_ATTACK",
+            "Value0": 190.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::REVERSAL_ATTACK",
+            "Value0": 190.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::JUST_ACCELE",
+            "Value0": 190.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_tecq_prize_4": {
+        "ID": 0,
+        "Step": 603,
+        "Link_Step": [
+          703,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_TECHNIQUES_PRIZE_UP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 30.0,
+        "Value_01": 0.0,
+        "Level": 4,
+        "Cost": 40,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_34_n",
+          "SourceString": "テクニック報酬UP",
+          "LocalizedString": "Technique Reward UP"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_34_t",
+          "SourceString": "「TECHNICAL BONUS」が増える。",
+          "LocalizedString": "The \"TECHNICAL BONUS\" increases."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::DRIFT",
+            "Value0": 140.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::LONG_RUN",
+            "Value0": 140.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::NEAR_MISS",
+            "Value0": 180.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::NICE_BLOCK",
+            "Value0": 180.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::CLEAN_CORNERING",
+            "Value0": 180.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::FIRST_ATTACK",
+            "Value0": 220.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::REVERSAL_ATTACK",
+            "Value0": 220.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::JUST_ACCELE",
+            "Value0": 220.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_num_win_bonus_1": {
+        "ID": 0,
+        "Step": 304,
+        "Link_Step": [
+          404,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_NUM_OF_WIN_BONUS",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 8.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 10,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_21_n",
+          "SourceString": "勝利数報酬",
+          "LocalizedString": "Victory Reward"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_21_t",
+          "SourceString": "{%V00}勝ごとに報酬を貰える。",
+          "LocalizedString": "Get rewards every {%V00} wins."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_num_win_bonus_2": {
+        "ID": 0,
+        "Step": 404,
+        "Link_Step": [
+          504,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_NUM_OF_WIN_BONUS",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 7.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 20,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_22_n",
+          "SourceString": "勝利数報酬",
+          "LocalizedString": "Victory Reward"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_22_t",
+          "SourceString": "{%V00}勝ごとに報酬を貰える。",
+          "LocalizedString": "Get rewards every {%V00} wins."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_num_win_bonus_3": {
+        "ID": 0,
+        "Step": 504,
+        "Link_Step": [
+          604,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_NUM_OF_WIN_BONUS",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 6.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 30,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_23_n",
+          "SourceString": "勝利数報酬",
+          "LocalizedString": "Victory Reward"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_23_t",
+          "SourceString": "{%V00}勝ごとに報酬を貰える。",
+          "LocalizedString": "Get rewards every {%V00} wins."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_num_win_bonus_4": {
+        "ID": 0,
+        "Step": 604,
+        "Link_Step": [
+          704,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_NUM_OF_WIN_BONUS",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 5.0,
+        "Value_01": 0.0,
+        "Level": 4,
+        "Cost": 40,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_24_n",
+          "SourceString": "勝利数報酬",
+          "LocalizedString": "Victory Reward"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_24_t",
+          "SourceString": "{%V00}勝ごとに報酬を貰える。",
+          "LocalizedString": "Get rewards every {%V00} wins."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_BP_update_1": {
+        "ID": 0,
+        "Step": 205,
+        "Link_Step": [
+          305,
+          306,
+          307,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_BP_UPPER_LIMIT_UPDATE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 200.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 10,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_101_n",
+          "SourceString": "BPの上限",
+          "LocalizedString": "BP Limit"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_101_t",
+          "SourceString": "BPの所持最大値が {%V00} になる。",
+          "LocalizedString": "Increases the maximum BP capacity to {%V00}."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_BP_update_2": {
+        "ID": 0,
+        "Step": 305,
+        "Link_Step": [
+          405,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_BP_UPPER_LIMIT_UPDATE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 500.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 20,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_102_n",
+          "SourceString": "BPの上限",
+          "LocalizedString": "BP Limit"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_102_t",
+          "SourceString": "BPの所持最大値が {%V00} になる。",
+          "LocalizedString": "Increases the maximum BP capacity to {%V00}."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_BP_update_3": {
+        "ID": 0,
+        "Step": 405,
+        "Link_Step": [
+          505,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_BP_UPPER_LIMIT_UPDATE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 1000.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 30,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_103_n",
+          "SourceString": "BPの上限",
+          "LocalizedString": "BP Limit"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_103_t",
+          "SourceString": "BPの所持最大値が {%V00} になる。",
+          "LocalizedString": "Increases the maximum BP capacity to {%V00}."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_BP_update_4": {
+        "ID": 0,
+        "Step": 505,
+        "Link_Step": [
+          605,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_BP_UPPER_LIMIT_UPDATE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 2000.0,
+        "Value_01": 0.0,
+        "Level": 4,
+        "Cost": 40,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_104_n",
+          "SourceString": "BPの上限",
+          "LocalizedString": "BP Limit"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_104_t",
+          "SourceString": "BPの所持最大値が {%V00} になる。",
+          "LocalizedString": "Increases the maximum BP capacity to {%V00}."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_perfect_prize_1": {
+        "ID": 0,
+        "Step": 306,
+        "Link_Step": [
+          406,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_PERFECT_PRIZE_UP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 12.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 10,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_11_n",
+          "SourceString": "パーフェクト報酬UP",
+          "LocalizedString": "Perfect Reward UP"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_11_t",
+          "SourceString": "「PERFECT BONUS」が {%V00}％ 増える。",
+          "LocalizedString": "\"PERFECT BONUS\" increases by {%V00}%."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_perfect_prize_2": {
+        "ID": 0,
+        "Step": 406,
+        "Link_Step": [
+          506,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_PERFECT_PRIZE_UP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 15.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 20,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_12_n",
+          "SourceString": "パーフェクト報酬UP",
+          "LocalizedString": "Perfect Reward UP"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_12_t",
+          "SourceString": "「PERFECT BONUS」が {%V00}％ 増える。",
+          "LocalizedString": "\"PERFECT BONUS\" increases by {%V00}%."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_perfect_prize_3": {
+        "ID": 0,
+        "Step": 506,
+        "Link_Step": [
+          606,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_PERFECT_PRIZE_UP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 18.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 30,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_13_n",
+          "SourceString": "パーフェクト報酬UP",
+          "LocalizedString": "Perfect Reward UP"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_13_t",
+          "SourceString": "「PERFECT BONUS」が {%V00}％ 増える。",
+          "LocalizedString": "\"PERFECT BONUS\" increases by {%V00}%."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_perfect_prize_4": {
+        "ID": 0,
+        "Step": 606,
+        "Link_Step": [
+          706,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_PERFECT_PRIZE_UP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 22.0,
+        "Value_01": 0.0,
+        "Level": 4,
+        "Cost": 40,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_14_n",
+          "SourceString": "パーフェクト報酬UP",
+          "LocalizedString": "Perfect Reward UP"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_14_t",
+          "SourceString": "「PERFECT BONUS」が {%V00}％ 増える。",
+          "LocalizedString": "\"PERFECT BONUS\" increases by {%V00}%."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_winning_streak_prize_1": {
+        "ID": 0,
+        "Step": 307,
+        "Link_Step": [
+          407,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_WINNING_STREAK_PRIZE_UP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 7.5,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 10,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_121_n",
+          "SourceString": "連勝ボーナスUP",
+          "LocalizedString": "Win Streak Bonus UP"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_121_t",
+          "SourceString": "バトル連勝時の報酬が {%V00}％ 増える。",
+          "LocalizedString": "Rewards for consecutive battle wins increase by {%V00}%."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_winning_streak_prize_2": {
+        "ID": 0,
+        "Step": 407,
+        "Link_Step": [
+          507,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_WINNING_STREAK_PRIZE_UP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 10.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 20,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_122_n",
+          "SourceString": "連勝ボーナスUP",
+          "LocalizedString": "Win Streak Bonus UP"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_122_t",
+          "SourceString": "バトル連勝時の報酬が {%V00}％ 増える。",
+          "LocalizedString": "Rewards for consecutive battle wins increase by {%V00}%."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_winning_streak_prize_3": {
+        "ID": 0,
+        "Step": 507,
+        "Link_Step": [
+          607,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_WINNING_STREAK_PRIZE_UP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 12.5,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 30,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_123_n",
+          "SourceString": "連勝ボーナスUP",
+          "LocalizedString": "Win Streak Bonus UP"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_123_t",
+          "SourceString": "バトル連勝時の報酬が {%V00}％ 増える。",
+          "LocalizedString": "Rewards for consecutive battle wins increase by {%V00}%."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_winning_streak_prize_4": {
+        "ID": 0,
+        "Step": 607,
+        "Link_Step": [
+          707,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_WINNING_STREAK_PRIZE_UP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 15.0,
+        "Value_01": 0.0,
+        "Level": 4,
+        "Cost": 40,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_124_n",
+          "SourceString": "連勝ボーナスUP",
+          "LocalizedString": "Win Streak Bonus UP"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_124_t",
+          "SourceString": "バトル連勝時の報酬が {%V00}％ 増える。",
+          "LocalizedString": "Rewards for consecutive battle wins increase by {%V00}%."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_rival_prize_0": {
+        "ID": 0,
+        "Step": 0,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_ACQUIRED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_RIVAL_PRIZE_UP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 100.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 1,
+        "Script": {
+          "Namespace": "",
+          "Key": "5759885C47B5B6C564345D8E65925A01",
+          "SourceString": "バトル報酬UP",
+          "LocalizedString": "バトル報酬UP"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_01_t",
+          "SourceString": "「RIVAL'S PRIZE」が {%V00_100off}％ 増える。",
+          "LocalizedString": "\"RIVAL'S PRIZE\" increases by {%V00_100off}%."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_perfect_prize_0": {
+        "ID": 0,
+        "Step": 0,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_ACQUIRED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_PERFECT_PRIZE_UP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 10.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 1,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_04_n",
+          "SourceString": "バトル報酬UP",
+          "LocalizedString": "Battle Reward UP"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_04_t",
+          "SourceString": "「RIVAL'S PRIZE」が {%V00_100off}％ 増える。",
+          "LocalizedString": "\"RIVAL'S PRIZE\" increases by {%V00_100off}%."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_winning_streak_prize_0": {
+        "ID": 0,
+        "Step": 0,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_ACQUIRED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_WINNING_STREAK_PRIZE_UP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 5.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 1,
+        "Script": {
+          "Namespace": "",
+          "Key": "91D15B4B409F913370CED7AD604B1620",
+          "SourceString": "メンテナンス",
+          "LocalizedString": "メンテナンス"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_perk_44_t",
+          "SourceString": "新車価格の {%V00}％ でマシンを売却できる。",
+          "LocalizedString": "Machines can be sold at {%V00}% of their new car price."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Perk_tecq_prize_0": {
+        "ID": 0,
+        "Step": 0,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_ACQUIRED",
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "Type_00": "ESkillTreeType::STT_TECHNIQUES_PRIZE_UP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 30.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 1,
+        "Script": {
+          "CultureInvariantString": null
+        },
+        "Detail": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::DRIFT",
+            "Value0": 100.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::LONG_RUN",
+            "Value0": 100.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::NEAR_MISS",
+            "Value0": 100.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::NICE_BLOCK",
+            "Value0": 100.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::CLEAN_CORNERING",
+            "Value0": 100.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::FIRST_ATTACK",
+            "Value0": 100.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::REVERSAL_ATTACK",
+            "Value0": 100.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::JUST_ACCELE",
+            "Value0": 100.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      }
+    }
+  }
+]

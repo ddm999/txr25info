@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::Straight4",
         "EngineFromat": "EEngineFromat::E_P5_VP_RS",
         "EngineInspiration": "ECarIceAspirationType::NA",
-        "displacement": 1496,
+        "Displacement": 1496,
         "MaxPower": 131,
         "MaxPowerRpm": 7000,
         "MaxTorque": 15.3,
@@ -53,6 +53,7 @@
         "RSuspension": "ERSuspension::MULTI_LINK",
         "Cd": 0.33,
         "Cl": 0.008,
+        "RearDriveRate": 1.0,
         "EngineFormatName": "P5_VP_RS",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -74,7 +75,10 @@
           "SourceString": "ROADSTER RS (ND5RC) '15",
           "LocalizedString": "ROADSTER RS (ND5RC) '15"
         },
-        "MaxHightOffset": 2.5
+        "MaxHightOffset": 2.5,
+        "MinTurningRadius": 4.7,
+        "FrontTireWidthMax": 215,
+        "RearTireWidthMax": 215
       }
     }
   }

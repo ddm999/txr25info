@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::Flat4",
         "EngineFromat": "EEngineFromat::E_EJ20",
         "EngineInspiration": "ECarIceAspirationType::Turbo",
-        "displacement": 1994,
+        "Displacement": 1994,
         "MaxPower": 280,
         "MaxPowerRpm": 6500,
         "MaxTorque": 36.0,

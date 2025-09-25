@@ -1,0 +1,541 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PerkTreeIcon",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SSkillTreeIcon'",
+        "ObjectPath": "/Script/TokyoXtremeRacer"
+      }
+    },
+    "Rows": {
+      "Icon_Unknow": {
+        "Type": "ESkillTreeType::STT_NONE",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 95
+      },
+      "Icon_Sp": {
+        "Type": "ESkillTreeType::STT__SP",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 0
+      },
+      "Icon_SpUp": {
+        "Type": "ESkillTreeType::STT_SP_UP",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 1
+      },
+      "Icon_SpRecoveryFromTechnique": {
+        "Type": "ESkillTreeType::STT_SP_RECOVERY_FROM_TECHNIQUE",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 2
+      },
+      "Icon_SpRecoveryAtContinuousBattle": {
+        "Type": "ESkillTreeType::STT_SP_RECOVERY_AT_CONTINUOUS_BATTLE",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 3
+      },
+      "Icon_SpRecoveryFromNitro": {
+        "Type": "ESkillTreeType::STT_SP_RECOVERY_FROM_NITRO",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 4
+      },
+      "Icon_SpRecoveryAtAttack": {
+        "Type": "ESkillTreeType::STT_SP_RECOVERY_AT_ATTACK",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 5
+      },
+      "Icon_SpUpByWin": {
+        "Type": "ESkillTreeType::STT_SP_UP_BY_WIN",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 6
+      },
+      "Icon_Atk": {
+        "Type": "ESkillTreeType::STT__ATK",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 12
+      },
+      "Icon_SkilDamageFromTechnique": {
+        "Type": "ESkillTreeType::STT_SKIL_DAMAGE_FROM_TECHNIQUE",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 13
+      },
+      "Icon_SpDamageCoefUp": {
+        "Type": "ESkillTreeType::STT_SP_DAMAGE_COEF_UP",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 14
+      },
+      "Icon_AtkUpAtPaBattle": {
+        "Type": "ESkillTreeType::STT_ATK_UP_AT_PA_BATTLE",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 15
+      },
+      "Icon_ShortSpAtkDistance": {
+        "Type": "ESkillTreeType::STT_SHORT_SP_ATK_DISTANCE",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 16
+      },
+      "Icon_AtkCoefOnBattleStart": {
+        "Type": "ESkillTreeType::STT_ATK_COEF_ON_BATTLE_START",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 17
+      },
+      "Icon_AtkUpByWin": {
+        "Type": "ESkillTreeType::STT_ATK_UP_BY_WIN",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 18
+      },
+      "Icon_Def": {
+        "Type": "ESkillTreeType::STT__DEF",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 24
+      },
+      "Icon_DefCoefFromSkilDamage": {
+        "Type": "ESkillTreeType::STT_DEF_COEF_FROM_SKIL_DAMAGE",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 25
+      },
+      "Icon_DefCoef": {
+        "Type": "ESkillTreeType::STT_DEF_COEF",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 26
+      },
+      "Icon_DefUpAtManyRival": {
+        "Type": "ESkillTreeType::STT_DEF_UP_AT_MANY_RIVAL",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 27
+      },
+      "Icon_LongSpDefDistance": {
+        "Type": "ESkillTreeType::STT_LONG_SP_DEF_DISTANCE",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 28
+      },
+      "Icon_DefCoefOnBattleStart": {
+        "Type": "ESkillTreeType::STT_DEF_COEF_ON_BATTLE_START",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 29
+      },
+      "Icon_DefUpByWin": {
+        "Type": "ESkillTreeType::STT_DEF_UP_BY_WIN",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 30
+      },
+      "Icon_Phy": {
+        "Type": "ESkillTreeType::STT__PHY",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 36
+      },
+      "Icon_RelaxJudege": {
+        "Type": "ESkillTreeType::STT_RELAX_JUDEGE",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 37
+      },
+      "Icon_ShockAbsorption": {
+        "Type": "ESkillTreeType::STT_SHOCK_ABSORPTION",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 38
+      },
+      "Icon_ReduceConsumptionForSp": {
+        "Type": "ESkillTreeType::STT_REDUCE_CONSUMPTION_FOR_SP",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 39
+      },
+      "Icon_ReduceConsumptionByTire": {
+        "Type": "ESkillTreeType::STT_REDUCE_CONSUMPTION_BY_TIRE",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 40
+      },
+      "Icon_ReduceConsumptionByNitro": {
+        "Type": "ESkillTreeType::STT_REDUCE_CONSUMPTION_BY_NITRO",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 41
+      },
+      "Icon_AvoidCollisionDeath": {
+        "Type": "ESkillTreeType::STT_AVOID_COLLISION_DEATH",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 42
+      },
+      "Icon_Dex": {
+        "Type": "ESkillTreeType::STT__DEX",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 43
+      },
+      "Icon_NewWallet": {
+        "Type": "ESkillTreeType::STT_NEW_WALLET",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 49
+      },
+      "Icon_BpUpperLimitUpdate": {
+        "Type": "ESkillTreeType::STT_BP_UPPER_LIMIT_UPDATE",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 52
+      },
+      "Icon_RivalPrizeUp": {
+        "Type": "ESkillTreeType::STT_RIVAL_PRIZE_UP",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 50
+      },
+      "Icon_TechniquesPrizeUp": {
+        "Type": "ESkillTreeType::STT_TECHNIQUES_PRIZE_UP",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 48
+      },
+      "Icon_NumOfWinBonus": {
+        "Type": "ESkillTreeType::STT_NUM_OF_WIN_BONUS",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 51
+      },
+      "Icon_PerfectPrizeUp": {
+        "Type": "ESkillTreeType::STT_PERFECT_PRIZE_UP",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 53
+      },
+      "Icon_WinningStreakPrizeUp": {
+        "Type": "ESkillTreeType::STT_WINNING_STREAK_PRIZE_UP",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 54
+      },
+      "Icon_EnableMusicSelect": {
+        "Type": "ESkillTreeType::STT_ENABLE_MUSIC_SELECT",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 55
+      },
+      "Icon_EnableSurvivalMode": {
+        "Type": "ESkillTreeType::STT_ENABLE_SURVIVAL_MODE",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 56
+      },
+      "Icon_GarageExtension": {
+        "Type": "ESkillTreeType::STT_GARAGE_EXTENSION",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 61
+      },
+      "Icon_DiscountTune": {
+        "Type": "ESkillTreeType::STT_DISCOUNT_TUNE",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 63
+      },
+      "Icon_LoyalCustomers": {
+        "Type": "ESkillTreeType::STT_LOYAL_CUSTOMERS",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 62
+      },
+      "Icon_MaintenanceExpert": {
+        "Type": "ESkillTreeType::STT_MAINTENANCE_EXPERT",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 60
+      },
+      "Icon_DiscountAtPa": {
+        "Type": "ESkillTreeType::STT_DISCOUNT_AT_PA",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 64
+      },
+      "Icon_DiscountAero": {
+        "Type": "ESkillTreeType::STT_DISCOUNT_AERO",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 65
+      },
+      "Icon_EnableEngineReplacement": {
+        "Type": "ESkillTreeType::STT_ENABLE_ENGINE_REPLACEMENT",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 66
+      },
+      "Icon_FastTravel": {
+        "Type": "ESkillTreeType::STT_FAST_TRAVEL",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 67
+      },
+      "Icon_CanCallTuner": {
+        "Type": "ESkillTreeType::STT_CAN_CALL_TUNER",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 68
+      },
+      "Icon_Aura": {
+        "Type": "ESkillTreeType::STT_AURA",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 69
+      },
+      "Icon_PowerUnit": {
+        "Type": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "TuneParts": "EVehicleTuneKind::PowerUnit",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 72
+      },
+      "Icon_T_L6_Turbo": {
+        "Type": "ESkillTreeType::STT_ENGINE_REPLACEMENT",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::T_L6_Turbo",
+        "CarMaker": "None",
+        "Index": 73
+      },
+      "Icon_N_L6_Turbo": {
+        "Type": "ESkillTreeType::STT_ENGINE_REPLACEMENT",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::N_L6_Turbo",
+        "CarMaker": "None",
+        "Index": 73
+      },
+      "Icon_M_RE_Turbo": {
+        "Type": "ESkillTreeType::STT_ENGINE_REPLACEMENT",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::M_RE_Turbo",
+        "CarMaker": "None",
+        "Index": 73
+      },
+      "Icon_N_V6_Turbo": {
+        "Type": "ESkillTreeType::STT_ENGINE_REPLACEMENT",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::N_V6_Turbo",
+        "CarMaker": "None",
+        "Index": 73
+      },
+      "Icon_H_V6_Turbo": {
+        "Type": "ESkillTreeType::STT_ENGINE_REPLACEMENT",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::H_V6_Turbo",
+        "CarMaker": "None",
+        "Index": 73
+      },
+      "Icon_R_V10_NA": {
+        "Type": "ESkillTreeType::STT_ENGINE_REPLACEMENT",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::R_V10_NA",
+        "CarMaker": "None",
+        "Index": 73
+      },
+      "Icon_IntakeSystem": {
+        "Type": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "TuneParts": "EVehicleTuneKind::IntakeSystem",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 74
+      },
+      "Icon_ExhaustSystem": {
+        "Type": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "TuneParts": "EVehicleTuneKind::ExhaustSystem",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 75
+      },
+      "Icon_Transmission": {
+        "Type": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "TuneParts": "EVehicleTuneKind::Transmission",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 76
+      },
+      "Icon_Suspension": {
+        "Type": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "TuneParts": "EVehicleTuneKind::Suspension",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 77
+      },
+      "Icon_LSD": {
+        "Type": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "TuneParts": "EVehicleTuneKind::LSD",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 78
+      },
+      "Icon_Brake": {
+        "Type": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "TuneParts": "EVehicleTuneKind::Brake",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 79
+      },
+      "Icon_Clutch": {
+        "Type": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "TuneParts": "EVehicleTuneKind::Clutch",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 80
+      },
+      "Icon_Body": {
+        "Type": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "TuneParts": "EVehicleTuneKind::Body",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 81
+      },
+      "Icon_FrontTire": {
+        "Type": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "TuneParts": "EVehicleTuneKind::FrontTire",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 82
+      },
+      "Icon_RearTire": {
+        "Type": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "TuneParts": "EVehicleTuneKind::RearTire",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 82
+      },
+      "Icon_Nitro": {
+        "Type": "ESkillTreeType::STT_UNLOCK_TUNE",
+        "TuneParts": "EVehicleTuneKind::Nitro",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "None",
+        "Index": 83
+      },
+      "Icon_Daihatsu": {
+        "Type": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "Daihatsu",
+        "Index": 84
+      },
+      "Icon_Lexus": {
+        "Type": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "Lexus",
+        "Index": 85
+      },
+      "Icon_Mazda": {
+        "Type": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "Mazda",
+        "Index": 86
+      },
+      "Icon_Mitsubishi": {
+        "Type": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "Mitsubishi",
+        "Index": 87
+      },
+      "Icon_Nissan": {
+        "Type": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "Nissan",
+        "Index": 88
+      },
+      "Icon_Subaru": {
+        "Type": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "Subaru",
+        "Index": 89
+      },
+      "Icon_Suzuki": {
+        "Type": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "Suzuki",
+        "Index": 90
+      },
+      "Icon_Toyota": {
+        "Type": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "Toyota",
+        "Index": 91
+      }
+    }
+  }
+]

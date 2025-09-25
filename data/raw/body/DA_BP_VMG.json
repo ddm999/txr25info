@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::Flat4",
         "EngineFromat": "EEngineFromat::E_FA20",
         "EngineInspiration": "ECarIceAspirationType::Turbo",
-        "displacement": 1998,
+        "Displacement": 1998,
         "MaxPower": 300,
         "MaxPowerRpm": 5600,
         "MaxTorque": 40.8,
@@ -72,7 +72,10 @@
           "SourceString": "LEVORG 2.0GT-S EyeSight (VMG) '15",
           "LocalizedString": "LEVORG 2.0GT-S EyeSight (VMG) '15"
         },
-        "MaxHightOffset": 2.0
+        "MaxHightOffset": 2.0,
+        "MinTurningRadius": 5.5,
+        "FrontTireWidthMax": 245,
+        "RearTireWidthMax": 245
       }
     }
   }

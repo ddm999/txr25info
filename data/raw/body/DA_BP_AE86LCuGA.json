@@ -8,7 +8,7 @@
       "CarData": {
         "ID": 163,
         "CarId": "CAR163",
-        "CarNameId": "ROLLING GAL No.1",
+        "CarNameId": "ROLLING GAL NO. 1",
         "ModelNameId": "AE86LCuGA",
         "FolderId": "AE86LCuGA",
         "ReleaseDay": 1987,
@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::Straight4",
         "EngineFromat": "EEngineFromat::E_4A_GEU",
         "EngineInspiration": "ECarIceAspirationType::NA",
-        "displacement": 1587,
+        "Displacement": 1587,
         "MaxPower": 130,
         "MaxPowerRpm": 6600,
         "MaxTorque": 15.2,
@@ -52,6 +52,7 @@
         "RSuspension": "ERSuspension::MULTI_LINK",
         "Cd": 0.35,
         "Cl": 0.008,
+        "RearDriveRate": 1.0,
         "EngineFormatName": "4A_GEU",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -59,8 +60,6 @@
         "rear_tire_grip": 1.45,
         "front_tire_side_grip": 0.96,
         "rear_tire_side_grip": 1.06,
-        "front_brake_scale": 0.8,
-        "rear_brake_scale": 0.8,
         "front_brake_angle": 200.0,
         "rear_brake_angle": 180.0,
         "FTireInchMinus": -2,
@@ -73,15 +72,18 @@
           "SourceString": "ROLLING GAL NO. 1",
           "LocalizedString": "ROLLING GAL NO. 1"
         },
-        "FrontHightOffset": -32,
-        "RearHightOffset": -32,
-        "FrontCamberAngle": -10,
-        "RearCamberAngle": -10,
-        "FrontOffset": 10,
-        "RearOffset": 40,
+        "FrontHightOffset": -38,
+        "RearHightOffset": -38,
+        "FrontCamberAngle": -20,
+        "RearCamberAngle": -30,
+        "FrontOffset": 50,
+        "RearOffset": 100,
         "FrontTirePulling": 20,
         "RearTirePulling": 20,
-        "MaxHightOffset": 2.5
+        "MaxHightOffset": 2.5,
+        "MinTurningRadius": 4.8,
+        "FrontTireWidthMax": 285,
+        "RearTireWidthMax": 315
       }
     }
   }

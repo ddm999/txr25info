@@ -1,0 +1,15 @@
+[
+  {
+    "Type": "CompositeDataTable",
+    "Name": "CDT_CarEngineReplacementData",
+    "Class": "UScriptClass'CompositeDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'SCarEngineReplacementData'",
+        "ObjectPath": "/Game/ITSB/car/DataTable/SCarEngineReplacementData.0"
+      }
+    },
+    "Rows": {}
+  }
+]

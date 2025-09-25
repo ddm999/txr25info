@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::Straight4",
         "EngineFromat": "EEngineFromat::E_BP_VE_RS",
         "EngineInspiration": "ECarIceAspirationType::NA",
-        "displacement": 1839,
+        "Displacement": 1839,
         "MaxPower": 160,
         "MaxPowerRpm": 7000,
         "MaxTorque": 17.3,
@@ -53,6 +53,7 @@
         "RSuspension": "ERSuspension::DOUBLE_WISHBONE",
         "Cd": 0.35,
         "Cl": 0.008,
+        "RearDriveRate": 1.0,
         "EngineFormatName": "BP_VE_RS",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -74,7 +75,8 @@
           "SourceString": "ROADSTER RS (NB8C) '03",
           "LocalizedString": "ROADSTER RS (NB8C) '03"
         },
-        "MaxHightOffset": 2.5
+        "MaxHightOffset": 2.5,
+        "MinTurningRadius": 4.6
       }
     }
   }

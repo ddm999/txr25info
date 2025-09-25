@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::Straight4",
         "EngineFromat": "EEngineFromat::E_PE_VPH",
         "EngineInspiration": "ECarIceAspirationType::NA",
-        "displacement": 1997,
+        "Displacement": 1997,
         "MaxPower": 156,
         "MaxPowerRpm": 6000,
         "MaxTorque": 20.3,
@@ -72,7 +72,10 @@
           "SourceString": "MAZDA3 FASTBACK 20S Retro Sports Edition (BPFJ3R) '23",
           "LocalizedString": "MAZDA3 FASTBACK 20S Retro Sports Edition (BPFJ3R) '23"
         },
-        "MaxHightOffset": 2.0
+        "MaxHightOffset": 2.0,
+        "MinTurningRadius": 5.3,
+        "FrontTireWidthMax": 235,
+        "RearTireWidthMax": 235
       }
     }
   }

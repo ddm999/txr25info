@@ -1,0 +1,142 @@
+[
+  {
+    "Type": "CompositeDataTable",
+    "Name": "CDT_PerkTreeRoot",
+    "Class": "UScriptClass'CompositeDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParentTables": [
+        {
+          "ObjectName": "DataTable'DT_PerkTreeRoot0'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/DT_PerkTreeRoot0.0"
+        }
+      ],
+      "RowStruct": {
+        "ObjectName": "Class'SPerkCategoryRootInfo'",
+        "ObjectPath": "/Script/TokyoXtremeRacer"
+      }
+    },
+    "Rows": {
+      "TuneTree": {
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "NameInCategory": "TuneTree",
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'CDT_TuneTree'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Tune/CDT_TuneTree.0"
+        }
+      },
+      "Toyota": {
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "NameInCategory": "TOYOTA",
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'CDT_Toyota'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Machine/Toyota/CDT_Toyota.0"
+        }
+      },
+      "Nissan": {
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "NameInCategory": "Nissan",
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'CDT_Nissan'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Machine/Nissan/CDT_Nissan.0"
+        }
+      },
+      "PerkIncome": {
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "NameInCategory": "PerkIncome",
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'CDT_PerkIncome'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Perk/CDT_PerkIncome.0"
+        }
+      },
+      "Daihatsu": {
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "NameInCategory": "Daihatsu",
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'CDT_Daihatsu'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Machine/Daihatsu/CDT_Daihatsu.0"
+        }
+      },
+      "Mazda": {
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "NameInCategory": "Mazda",
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'CDT_Mazda'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Machine/Mazda/CDT_Mazda.0"
+        }
+      },
+      "Subaru": {
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "NameInCategory": "Subaru",
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'CDT_Subaru'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Machine/Subaru/CDT_Subaru.0"
+        }
+      },
+      "Suzuki": {
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "NameInCategory": "Suzuki",
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'CDT_Suzuki'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Machine/Suzuki/CDT_Suzuki.0"
+        }
+      },
+      "Mitsubishi": {
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "NameInCategory": "Mitsubishi",
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'CDT_Mitsubishi'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Machine/Mitsubishi/CDT_Mitsubishi.0"
+        }
+      },
+      "SkillDEX": {
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "NameInCategory": "SkillDEX",
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'CDT_NewSkillDEX'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Skill/CDT_NewSkillDEX.0"
+        }
+      },
+      "SkillSP": {
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "NameInCategory": "SkillSP",
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'CDT_NewSkillSP'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Skill/CDT_NewSkillSP.0"
+        }
+      },
+      "SkillATK": {
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "NameInCategory": "SkillATK",
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'CDT_NewSkillATK'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Skill/CDT_NewSkillATK.0"
+        }
+      },
+      "SkillDEF": {
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "NameInCategory": "SkillDEF",
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'CDT_NewSkillDEF'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Skill/CDT_NewSkillDEF.0"
+        }
+      },
+      "SkillPHY": {
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "NameInCategory": "SkillPHY",
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'CDT_NewSkillPHY'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Skill/CDT_NewSkillPHY.0"
+        }
+      },
+      "PerkOncome": {
+        "Category": "ESkillTreeCategory::STC_PERK",
+        "NameInCategory": "PerkOncome",
+        "DataTable": {
+          "ObjectName": "CompositeDataTable'CDT_PerkOncome'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Perk/CDT_PerkOncome.0"
+        }
+      }
+    }
+  }
+]

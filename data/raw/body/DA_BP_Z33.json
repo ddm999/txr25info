@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::V6",
         "EngineFromat": "EEngineFromat::E_VQ35DE_NEO",
         "EngineInspiration": "ECarIceAspirationType::NA",
-        "displacement": 3498,
+        "Displacement": 3498,
         "MaxPower": 294,
         "MaxPowerRpm": 6400,
         "MaxTorque": 35.7,
@@ -53,6 +53,7 @@
         "RSuspension": "ERSuspension::MULTI_LINK",
         "Cd": 0.3,
         "Cl": 0.008,
+        "RearDriveRate": 1.0,
         "EngineFormatName": "VQ35DE_NEO",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -72,7 +73,10 @@
           "SourceString": "FAIRLADY Z Version ST (Z33) '05",
           "LocalizedString": "FAIRLADY Z Version ST (Z33) '05"
         },
-        "MaxHightOffset": 2.5
+        "MaxHightOffset": 2.5,
+        "MinTurningRadius": 5.4,
+        "FrontTireWidthMax": 245,
+        "RearTireWidthMax": 265
       }
     }
   }

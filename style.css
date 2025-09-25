@@ -1,0 +1,252 @@
+/*
+    This stylesheet was adapted from the
+    https://github.com/orderedlist/minimal
+    GitHub Pages theme,
+    and is therefore licensed under CC BY-SA 3.0.
+
+    https://creativecommons.org/licenses/by-sa/3.0/
+*/
+
+@font-face {
+    font-family: 'Waukegan LDO';
+    font-weight: bold;
+    src: local('Waukegan LDO Bold'), url("./res/font/WaukeganLdoBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-weight: normal;
+    src: url("./res/font/Ubuntu-R.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    src: url("./res/font/Ubuntu-M.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    src: url("./res/font/Ubuntu-B.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    src: url("./res/font/Ubuntu-L.ttf") format("truetype");
+}
+
+body {
+    background-color: #080608;
+    background-image: url("img/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 20px 0px;
+    font: 14px/1.5 'Ubuntu', sans-serif;
+    color: #f0f0f0;
+    font-weight: normal;
+    font-kerning: none;
+
+    min-width: 400px;
+    margin: 0px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #f4f4f4;
+    margin: 0 0 10px;
+}
+h1,h2,h3 {
+    line-height: 1.1;
+    font-family: 'Waukegan LDO', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+h1 {
+    font-size: 36px;
+}
+h2 {
+    font-size: 32px;
+}
+h3 {
+    font-size: 28px;
+}
+h4,h5,h6 {
+    margin-block-end: 6px;
+}
+
+a {
+    color: #EB6A39; /*#34AAFF;*/
+    text-decoration: none;
+}
+a:hover,a:focus {
+    color: #FF733E; /*#0098E5;*/
+    font-weight: bold;
+}
+
+
+a small {
+    font-size: 11px;
+    margin-top: -0.3em;
+    display: block;
+}
+
+ul {
+    margin-block-start: 4px;
+    margin-block-end: 4px;
+}
+img {
+    max-width: 100%;
+}
+
+strong {
+    color: #e0e0e0;
+    font-weight: bold;
+}
+small {
+    font-weight: 300;
+}
+
+hr {
+    margin: 0 16px;
+}
+
+header {
+    padding: 0px 20px 10px 20px;
+}
+section {
+    padding: 10px 20px;
+    position: relative;
+}
+footer {
+    font-size: 12px;
+    padding: 20px 20px 20px 20px;
+}
+
+.car-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.car {
+    background-color: #c45531;
+    position: relative;
+    height: 190px;
+    min-width: 200px;
+    width: 200px;
+    margin: 5px;
+    border: 2px solid #EB6A39;
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.car:hover,.car:focus {
+    background-color: #ababad;
+    border-color: #dcdcde;
+}
+.car #name {
+    font-family: 'Waukegan LDO';
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #000;
+    color: #fff;
+
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    padding-left: 5px;
+    width: 195px;
+    height: 25px;
+}
+.car #img {
+    position: absolute;
+    top: 25px;
+}
+.car #price {
+    font-family: 'Waukegan LDO';
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: #000;
+    color: #fff;
+
+    position: absolute;
+    text-align: right;
+    bottom: 0px;
+    padding-right: 5px;
+    width: 195px;
+    height: 35px;
+}
+.car #noprice {
+    font-family: 'Waukegan LDO';
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #000;
+    color: #999;
+
+    position: absolute;
+    text-align: right;
+    bottom: 0px;
+    padding-right: 5px;
+    width: 195px;
+    height: 35px;
+}
+.car #cp {
+    font-size: 16px;
+}
+
+section#basic {
+    max-width: 1000px;
+}
+.basestats {
+    margin: 0;
+    padding-right: 20px;
+    display: grid;
+    width: 300px;
+    float: right;
+}
+.basestats #key {
+    text-align: right;
+    font-family: 'Waukegan LDO';
+    letter-spacing: 1px;
+    color: #999;
+    font-size: 16px;
+    grid-column: 1;
+}
+.basestats #val {
+    padding-left: 5px;
+    font-family: 'Waukegan LDO';
+    letter-spacing: 1px;
+    font-size: 16px;
+    grid-column: 2;
+}
+.basestats #unit {
+    font-family: 'Waukegan LDO';
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+.details #big {
+    font-family: 'Waukegan LDO';
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.details #key {
+    color: #aaa;
+    font-weight: bold;
+}
+.details #warning {
+    color: #aaa;
+    font-weight: bold;
+}
+
+#back-to-top {
+    font-size: 13px;
+    position: absolute;
+    right: 26px;
+    bottom: 32px;
+}

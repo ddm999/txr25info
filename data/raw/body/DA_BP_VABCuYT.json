@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::Flat4",
         "EngineFromat": "EEngineFromat::E_EJ20",
         "EngineInspiration": "ECarIceAspirationType::Turbo",
-        "displacement": 1994,
+        "Displacement": 1994,
         "MaxPower": 308,
         "MaxPowerRpm": 6400,
         "MaxTorque": 43.0,
@@ -76,13 +76,16 @@
         "FrontHightOffset": -20,
         "RearHightOffset": -20,
         "FrontCamberAngle": -40,
-        "RearCamberAngle": -30,
-        "FrontOffset": 40,
-        "RearOffset": 45,
+        "RearCamberAngle": -40,
+        "FrontOffset": 100,
+        "RearOffset": 100,
         "FrontTirePulling": 30,
         "RearTirePulling": 30,
         "CenterDiffType": "ECarCenterDiff::DCCD",
-        "MaxHightOffset": 3.0
+        "MaxHightOffset": 3.0,
+        "MinTurningRadius": 5.6,
+        "FrontTireWidthMax": 275,
+        "RearTireWidthMax": 275
       }
     }
   }

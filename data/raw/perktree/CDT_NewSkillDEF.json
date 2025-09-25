@@ -1,0 +1,1126 @@
+[
+  {
+    "Type": "CompositeDataTable",
+    "Name": "CDT_NewSkillDEF",
+    "Class": "UScriptClass'CompositeDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParentTables": [
+        {
+          "ObjectName": "DataTable'DT_NewSkillDEF0'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Skill/DT_NewSkillDEF0.0"
+        }
+      ],
+      "RowStruct": {
+        "ObjectName": "Class'SSkillTree'",
+        "ObjectPath": "/Script/TokyoXtremeRacer"
+      }
+    },
+    "Rows": {
+      "STT_DEF_0": {
+        "ID": 0,
+        "Step": 1,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_ACQUIRED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__DEF",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 30.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 0,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_21_n",
+          "SourceString": "防御力強化 H",
+          "LocalizedString": "Defense Enhancement H"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_21_t",
+          "SourceString": "防御力の基本値が {%V01} 増える。",
+          "LocalizedString": "Increases Base Value of Defense by {%V01}."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_DEF_1": {
+        "ID": 0,
+        "Step": 101,
+        "Link_Step": [
+          201,
+          205,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_NOT_ACQUIRED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__DEF",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 40.0,
+        "Value_01": 10.0,
+        "Level": 1,
+        "Cost": 3,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_22_n",
+          "SourceString": "防御力強化 G",
+          "LocalizedString": "Defense Enhancement G"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_22_t",
+          "SourceString": "防御力の基本値が {%V01} 増える。",
+          "LocalizedString": "Increases Base Value of Defense by {%V01}."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_DEF_2": {
+        "ID": 0,
+        "Step": 201,
+        "Link_Step": [
+          301,
+          303,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__DEF",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 50.0,
+        "Value_01": 20.0,
+        "Level": 2,
+        "Cost": 6,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_23_n",
+          "SourceString": "防御力強化 F",
+          "LocalizedString": "Defense Enhancement F"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_23_t",
+          "SourceString": "防御力の基本値が {%V01} 増える。",
+          "LocalizedString": "Increases Base Value of Defense by {%V01}."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0030"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_DEF_3": {
+        "ID": 0,
+        "Step": 301,
+        "Link_Step": [
+          401,
+          402,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__DEF",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 60.0,
+        "Value_01": 30.0,
+        "Level": 3,
+        "Cost": 9,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_24_n",
+          "SourceString": "防御力強化 E",
+          "LocalizedString": "Defense Enhancement E"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_24_t",
+          "SourceString": "防御力の基本値が {%V01} 増える。",
+          "LocalizedString": "Increases Base Value of Defense by {%V01}."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0021"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_DEF_4": {
+        "ID": 0,
+        "Step": 401,
+        "Link_Step": [
+          501,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__DEF",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 70.0,
+        "Value_01": 40.0,
+        "Level": 4,
+        "Cost": 12,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_25_n",
+          "SourceString": "防御力強化 D",
+          "LocalizedString": "Defense Enhancement D"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_25_t",
+          "SourceString": "防御力の基本値が {%V01} 増える。",
+          "LocalizedString": "Increases Base Value of Defense by {%V01}."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage2",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0024"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_DEF_5": {
+        "ID": 0,
+        "Step": 501,
+        "Link_Step": [
+          601,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__DEF",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 80.0,
+        "Value_01": 50.0,
+        "Level": 5,
+        "Cost": 15,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_26_n",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_26_t",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage3",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0026"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_DEF_6": {
+        "ID": 0,
+        "Step": 601,
+        "Link_Step": [
+          701,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__DEF",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 90.0,
+        "Value_01": 60.0,
+        "Level": 6,
+        "Cost": 18,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_27_n",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_27_t",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage4",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0028"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_DEF_7": {
+        "ID": 0,
+        "Step": 701,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__DEF",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 100.0,
+        "Value_01": 70.0,
+        "Level": 7,
+        "Cost": 21,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_28_n",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_28_t",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0030_4"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_DEF_UP_AT_MANY_RIVAL_1": {
+        "ID": 0,
+        "Step": 402,
+        "Link_Step": [
+          502,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_DEF_UP_AT_MANY_RIVAL",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 4.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 10,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_191_n",
+          "SourceString": "乱戦の生還者",
+          "LocalizedString": "Melee Survivor"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_191_t",
+          "SourceString": "乱入バトルにて、防御力が {%V00} 増える。",
+          "LocalizedString": "In Intrusion Battle, increases Defense by {%V00}."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_DEF_UP_AT_MANY_RIVAL_2": {
+        "ID": 0,
+        "Step": 502,
+        "Link_Step": [
+          602,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_DEF_UP_AT_MANY_RIVAL",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 8.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 20,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_192_n",
+          "SourceString": "乱戦の生還者",
+          "LocalizedString": "Melee Survivor"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_192_t",
+          "SourceString": "乱入バトルにて、防御力が {%V00} 増える。",
+          "LocalizedString": "In Intrusion Battle, increases Defense by {%V00}."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_DEF_UP_AT_MANY_RIVAL_3": {
+        "ID": 0,
+        "Step": 602,
+        "Link_Step": [
+          702,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_DEF_UP_AT_MANY_RIVAL",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 12.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 30,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_193_n",
+          "SourceString": "乱戦の生還者",
+          "LocalizedString": "Melee Survivor"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_193_t",
+          "SourceString": "乱入バトルにて、防御力が {%V00} 増える。",
+          "LocalizedString": "In Intrusion Battle, increases Defense by {%V00}."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_LONG_SP_DEF_DISTANCE_1": {
+        "ID": 0,
+        "Step": 303,
+        "Link_Step": [
+          403,
+          404,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_LONG_SP_DEF_DISTANCE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 3.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 10,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_201_n",
+          "SourceString": "溢れる余裕",
+          "LocalizedString": "Overflowing Composure"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_201_t",
+          "SourceString": "相手から受けるダメージが発生する距離を {%V00}m 長くする。",
+          "LocalizedString": "Extends the distance before taking damage from opponents by {%V00}m."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_LONG_SP_DEF_DISTANCE_2": {
+        "ID": 0,
+        "Step": 403,
+        "Link_Step": [
+          503,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_LONG_SP_DEF_DISTANCE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 6.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 20,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_202_n",
+          "SourceString": "溢れる余裕",
+          "LocalizedString": "Overflowing Composure"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_202_t",
+          "SourceString": "相手から受けるダメージが発生する距離を {%V00}m 長くする。",
+          "LocalizedString": "Extends the distance before taking damage from opponents by {%V00}m."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_LONG_SP_DEF_DISTANCE_3": {
+        "ID": 0,
+        "Step": 503,
+        "Link_Step": [
+          603,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_LONG_SP_DEF_DISTANCE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 9.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 30,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_203_n",
+          "SourceString": "溢れる余裕",
+          "LocalizedString": "Overflowing Composure"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_203_t",
+          "SourceString": "相手から受けるダメージが発生する距離を {%V00}m 長くする。",
+          "LocalizedString": "Extends the distance before taking damage from opponents by {%V00}m."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_DEF_UP_BY_WIN_1": {
+        "ID": 0,
+        "Step": 404,
+        "Link_Step": [
+          504,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_DEF_UP_BY_WIN",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 2.0,
+        "Value_01": 10.0,
+        "Level": 1,
+        "Cost": 10,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_221_n",
+          "SourceString": "堅守の誇り",
+          "LocalizedString": "Pride of Defense"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_221_t",
+          "SourceString": "一回のコースイン中に、勝利する度に防御力が {%V00} 増える。\r\n※上限 （{%V01}）に達するとそれ以上は増えません。",
+          "LocalizedString": "During a single course run, increases Defense by {%V00} with each victory. (Won't increase beyond the upper limit)"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_DEF_UP_BY_WIN_2": {
+        "ID": 0,
+        "Step": 504,
+        "Link_Step": [
+          604,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_DEF_UP_BY_WIN",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 2.0,
+        "Value_01": 14.0,
+        "Level": 2,
+        "Cost": 20,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_222_n",
+          "SourceString": "堅守の誇り",
+          "LocalizedString": "Pride of Defense"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_222_t",
+          "SourceString": "一回のコースイン中に、勝利する度に防御力が {%V00} 増える。\r\n※上限 （{%V01}）に達するとそれ以上は増えません。",
+          "LocalizedString": "During a single course run, increases Defense by {%V00} with each victory. (Won't increase beyond the upper limit)"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_DEF_UP_BY_WIN_3": {
+        "ID": 0,
+        "Step": 604,
+        "Link_Step": [
+          704,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_DEF_UP_BY_WIN",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 2.0,
+        "Value_01": 18.0,
+        "Level": 3,
+        "Cost": 30,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_223_n",
+          "SourceString": "堅守の誇り",
+          "LocalizedString": "Pride of Defense"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_223_t",
+          "SourceString": "一回のコースイン中に、勝利する度に防御力が {%V00} 増える。\r\n※上限 （{%V01}）に達するとそれ以上は増えません。",
+          "LocalizedString": "During a single course run, increases Defense by {%V00} with each victory. (Won't increase beyond the upper limit)"
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_DEF_COEF_FROM_SKIL_DAMAGE_1": {
+        "ID": 0,
+        "Step": 205,
+        "Link_Step": [
+          305,
+          306,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_DEF_COEF_FROM_SKIL_DAMAGE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 40.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 10,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_171_n",
+          "SourceString": "鋼の心臓",
+          "LocalizedString": "Heart of Steel"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_171_t",
+          "SourceString": "スキル「注目の的」によるダメージを {%V00}% 軽減する。",
+          "LocalizedString": "Reduces damage from the \"Center of Attention\" skill by {%V00}%."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_DEF_COEF_FROM_SKIL_DAMAGE_2": {
+        "ID": 0,
+        "Step": 305,
+        "Link_Step": [
+          405,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_DEF_COEF_FROM_SKIL_DAMAGE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 55.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 20,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_172_n",
+          "SourceString": "鋼の心臓",
+          "LocalizedString": "Heart of Steel"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_172_t",
+          "SourceString": "スキル「注目の的」によるダメージを {%V00}% 軽減する。",
+          "LocalizedString": "Reduces damage from the \"Center of Attention\" skill by {%V00}%."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_DEF_COEF_FROM_SKIL_DAMAGE_3": {
+        "ID": 0,
+        "Step": 405,
+        "Link_Step": [
+          505,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_DEF_COEF_FROM_SKIL_DAMAGE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 70.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 30,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_173_n",
+          "SourceString": "鋼の心臓",
+          "LocalizedString": "Heart of Steel"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_173_t",
+          "SourceString": "スキル「注目の的」によるダメージを {%V00}% 軽減する。",
+          "LocalizedString": "Reduces damage from the \"Center of Attention\" skill by {%V00}%."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_DEF_COEF_1": {
+        "ID": 0,
+        "Step": 306,
+        "Link_Step": [
+          406,
+          407,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_DEF_COEF",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 3.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 10,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_181_n",
+          "SourceString": "確固たる自信",
+          "LocalizedString": "Unwavering Confidence"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_181_t",
+          "SourceString": "相手から受けるダメージを {%V00} 軽減する。",
+          "LocalizedString": "Reduces damage taken from opponents by {%V00}."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_DEF_COEF_2": {
+        "ID": 0,
+        "Step": 406,
+        "Link_Step": [
+          506,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_DEF_COEF",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 6.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 20,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_182_n",
+          "SourceString": "確固たる自信",
+          "LocalizedString": "Unwavering Confidence"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_182_t",
+          "SourceString": "相手から受けるダメージを {%V00} 軽減する。",
+          "LocalizedString": "Reduces damage taken from opponents by {%V00}."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_DEF_COEF_3": {
+        "ID": 0,
+        "Step": 506,
+        "Link_Step": [
+          606,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_DEF_COEF",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 9.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 30,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_183_n",
+          "SourceString": "確固たる自信",
+          "LocalizedString": "Unwavering Confidence"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_183_t",
+          "SourceString": "相手から受けるダメージを {%V00} 軽減する。",
+          "LocalizedString": "Reduces damage taken from opponents by {%V00}."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_DEF_COEF_ON_BATTLE_START_1": {
+        "ID": 0,
+        "Step": 407,
+        "Link_Step": [
+          507,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_DEF_COEF_ON_BATTLE_START",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 30.0,
+        "Value_01": 30.0,
+        "Level": 1,
+        "Cost": 10,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_211_n",
+          "SourceString": "殿の秘訣",
+          "LocalizedString": "The Key to Victory"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_211_t",
+          "SourceString": "バトル開始から{%V01}秒間、防御力が {%V00}% 増える。",
+          "LocalizedString": "For the first {%V01} seconds of battle, reduces damage taken from opponents by {%V00}%."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_DEF_COEF_ON_BATTLE_START_2": {
+        "ID": 0,
+        "Step": 507,
+        "Link_Step": [
+          607,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_DEF_COEF_ON_BATTLE_START",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 35.0,
+        "Value_01": 30.0,
+        "Level": 2,
+        "Cost": 20,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_212_n",
+          "SourceString": "殿の秘訣",
+          "LocalizedString": "The Key to Victory"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_212_t",
+          "SourceString": "バトル開始から{%V01}秒間、防御力が {%V00}% 増える。",
+          "LocalizedString": "For the first {%V01} seconds of battle, reduces damage taken from opponents by {%V00}%."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_DEF_COEF_ON_BATTLE_START_3": {
+        "ID": 0,
+        "Step": 607,
+        "Link_Step": [
+          707,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT_DEF_COEF_ON_BATTLE_START",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 40.0,
+        "Value_01": 30.0,
+        "Level": 3,
+        "Cost": 30,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_213_n",
+          "SourceString": "殿の秘訣",
+          "LocalizedString": "The Key to Victory"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_213_t",
+          "SourceString": "バトル開始から{%V01}秒間、防御力が {%V00}% 増える。",
+          "LocalizedString": "For the first {%V01} seconds of battle, reduces damage taken from opponents by {%V00}%."
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage1",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      }
+    }
+  }
+]

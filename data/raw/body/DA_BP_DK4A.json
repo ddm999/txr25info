@@ -28,7 +28,7 @@
         "DriveType": "EDriveType::DT_FF",
         "EngineKind": "EEngineKind::V6",
         "EngineInspiration": "ECarIceAspirationType::NA",
-        "displacement": 3800,
+        "Displacement": 3800,
         "MaxPower": 267,
         "MaxPowerRpm": 5750,
         "MaxTorque": 36.0,
@@ -51,6 +51,7 @@
         "RSuspension": "ERSuspension::MULTI_LINK",
         "Cd": 0.33,
         "Cl": 0.008,
+        "RearDriveRate": 0.0,
         "EngineFormatName": "E_6G72",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -72,7 +73,10 @@
           "SourceString": "ECLIPSE GT (DK4A) '05",
           "LocalizedString": "ECLIPSE GT (DK4A) '05"
         },
-        "MaxHightOffset": 2.5
+        "MaxHightOffset": 2.5,
+        "MinTurningRadius": 5.4,
+        "FrontTireWidthMax": 245,
+        "RearTireWidthMax": 245
       }
     }
   }

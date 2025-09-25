@@ -7,7 +7,7 @@
     "Properties": {
       "CarData": {
         "ID": 177,
-        "CarId": "CAR75",
+        "CarId": "CAR177",
         "CarNameId": "NCP31CuHG",
         "ModelNameId": "NCP31CuHG",
         "FolderId": "NCP31CuHG",
@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::Straight4",
         "EngineFromat": "EEngineFromat::E_SR20DET",
         "EngineInspiration": "ECarIceAspirationType::Turbo",
-        "displacement": 1998,
+        "Displacement": 1998,
         "MaxPower": 205,
         "MaxPowerRpm": 6000,
         "MaxTorque": 28.0,
@@ -51,6 +51,7 @@
         "RSuspension": "ERSuspension::TORSION_BEAM",
         "Cd": 0.4,
         "Cl": 0.008,
+        "RearDriveRate": 0.0,
         "EngineFormatName": "SR20DET",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -69,11 +70,14 @@
         "RTireInchPlus": 2,
         "CarName": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_carname.ST_carname",
-          "Key": "NCP31",
-          "SourceString": "bB Z X Version (NCP31) '03",
-          "LocalizedString": "bB Z X Version (NCP31) '03"
+          "Key": "NCP31CuHG",
+          "SourceString": "NCP31CuHG",
+          "LocalizedString": "NCP31CuHG"
         },
-        "MaxHightOffset": 2.0
+        "MaxHightOffset": 2.0,
+        "MinTurningRadius": 5.5,
+        "FrontTireWidthMax": 205,
+        "RearTireWidthMax": 205
       }
     }
   }

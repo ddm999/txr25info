@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::Straight6",
         "EngineFromat": "EEngineFromat::E_2JZ_GTE",
         "EngineInspiration": "ECarIceAspirationType::Turbo",
-        "displacement": 2997,
+        "Displacement": 2997,
         "MaxPower": 280,
         "MaxPowerRpm": 5600,
         "MaxTorque": 46.0,
@@ -53,6 +53,7 @@
         "RSuspension": "ERSuspension::DOUBLE_WISHBONE",
         "Cd": 0.3,
         "Cl": 0.008,
+        "RearDriveRate": 1.0,
         "EngineFormatName": "2JZ_GTE",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -74,7 +75,10 @@
           "SourceString": "SUPRA RZ (JZA80) '97",
           "LocalizedString": "SUPRA RZ (JZA80) '97"
         },
-        "MaxHightOffset": 2.5
+        "MaxHightOffset": 2.5,
+        "MinTurningRadius": 5.4,
+        "FrontTireWidthMax": 255,
+        "RearTireWidthMax": 275
       }
     }
   }

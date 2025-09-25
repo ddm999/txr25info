@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::Straight6",
         "EngineFromat": "EEngineFromat::E_1JZ_GTE",
         "EngineInspiration": "ECarIceAspirationType::Turbo",
-        "displacement": 2491,
+        "Displacement": 2491,
         "MaxPower": 280,
         "MaxPowerRpm": 6200,
         "MaxTorque": 38.5,
@@ -52,6 +52,7 @@
         "RSuspension": "ERSuspension::DOUBLE_WISHBONE",
         "Cd": 0.35,
         "Cl": 0.008,
+        "RearDriveRate": 1.0,
         "EngineFormatName": "1JZ_GTE",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -73,7 +74,9 @@
           "SourceString": "CHASER TOURER V (JZX100) '98",
           "LocalizedString": "CHASER TOURER V (JZX100) '98"
         },
-        "MaxHightOffset": 2.0
+        "MaxHightOffset": 2.0,
+        "MinTurningRadius": 5.1,
+        "RearTireWidthMax": 245
       }
     }
   }

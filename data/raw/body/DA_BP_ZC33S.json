@@ -29,7 +29,7 @@
         "EngineKind": "EEngineKind::Straight4",
         "EngineFromat": "EEngineFromat::E_K14C",
         "EngineInspiration": "ECarIceAspirationType::Turbo",
-        "displacement": 1371,
+        "Displacement": 1371,
         "MaxPower": 140,
         "MaxPowerRpm": 5500,
         "MaxTorque": 23.4,
@@ -53,6 +53,7 @@
         "RSuspension": "ERSuspension::TORSION_BEAM",
         "Cd": 0.33,
         "Cl": 0.008,
+        "RearDriveRate": 0.0,
         "EngineFormatName": "K14C",
         "front_damper_coef": 0.0,
         "rear_damper_coef": 0.0,
@@ -74,7 +75,10 @@
           "SourceString": "SWIFT Sport (ZC33S) '22",
           "LocalizedString": "SWIFT Sport (ZC33S) '22"
         },
-        "MaxHightOffset": 2.0
+        "MaxHightOffset": 2.0,
+        "MinTurningRadius": 5.1,
+        "FrontTireWidthMax": 215,
+        "RearTireWidthMax": 215
       }
     }
   }

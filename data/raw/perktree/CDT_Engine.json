@@ -1,0 +1,278 @@
+[
+  {
+    "Type": "CompositeDataTable",
+    "Name": "CDT_Engine",
+    "Class": "UScriptClass'CompositeDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParentTables": [
+        {
+          "ObjectName": "DataTable'DT_Engine0'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Tune/Engine/DT_Engine0.0"
+        },
+        {
+          "ObjectName": "DataTable'DT_Engine1'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Tune/Engine/DT_Engine1.0"
+        }
+      ],
+      "RowStruct": {
+        "ObjectName": "Class'SSkillTree'",
+        "ObjectPath": "/Script/TokyoXtremeRacer"
+      }
+    },
+    "Rows": {
+      "Engine_101": {
+        "ID": 0,
+        "Step": 1001,
+        "Link_Step": [
+          1101,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_NOT_ACQUIRED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_ENGINE_REPLACEMENT",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 1,
+        "Cost": 3,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_10",
+          "SourceString": "ENGINE CONVERSION",
+          "LocalizedString": "ENGINE CONVERSION"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_71",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "NameId": "T_L6TT",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::T_L6_Turbo",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Engine_201": {
+        "ID": 0,
+        "Step": 1101,
+        "Link_Step": [
+          1201,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_ENGINE_REPLACEMENT",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 2,
+        "Cost": 3,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_10",
+          "SourceString": "ENGINE CONVERSION",
+          "LocalizedString": "ENGINE CONVERSION"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_71",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "NameId": "N_L6TT",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::N_L6_Turbo",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Engine_301": {
+        "ID": 0,
+        "Step": 1201,
+        "Link_Step": [
+          1301,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_ENGINE_REPLACEMENT",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 3,
+        "Cost": 3,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_10",
+          "SourceString": "ENGINE CONVERSION",
+          "LocalizedString": "ENGINE CONVERSION"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_71",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "NameId": "M_RTT",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::M_RE_Turbo",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Engine_401": {
+        "ID": 0,
+        "Step": 1301,
+        "Link_Step": [
+          1401,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_ENGINE_REPLACEMENT",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 4,
+        "Cost": 3,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_10",
+          "SourceString": "ENGINE CONVERSION",
+          "LocalizedString": "ENGINE CONVERSION"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_71",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "NameId": "N_V6TT",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::N_V6_Turbo",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Engine_501": {
+        "ID": 0,
+        "Step": 1401,
+        "Link_Step": [
+          1501,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_ENGINE_REPLACEMENT",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 5,
+        "Cost": 3,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_10",
+          "SourceString": "ENGINE CONVERSION",
+          "LocalizedString": "ENGINE CONVERSION"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_71",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "NameId": "H_V6TT",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::H_V6_Turbo",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Engine_601": {
+        "ID": 0,
+        "Step": 1501,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_TUNE",
+        "Type_00": "ESkillTreeType::STT_ENGINE_REPLACEMENT",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 6,
+        "Cost": 3,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_parts.ST_parts",
+          "Key": "Name_TuneParts_10",
+          "SourceString": "ENGINE CONVERSION",
+          "LocalizedString": "ENGINE CONVERSION"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_71",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "NameId": "R_V10",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::R_V10_NA",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      }
+    }
+  }
+]
