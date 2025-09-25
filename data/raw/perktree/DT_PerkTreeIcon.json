@@ -535,6 +535,13 @@
         "TuneEngine": "EVehicleTuneEngine::None",
         "CarMaker": "Toyota",
         "Index": 91
+      },
+      "Icon_Honda": {
+        "Type": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "CarMaker": "Honda",
+        "Index": 92
       }
     }
   }

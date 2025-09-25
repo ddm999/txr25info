@@ -9,6 +9,10 @@
         {
           "ObjectName": "DataTable'DT_Achievements0'",
           "ObjectPath": "/Game/ITSB/Core/Achievements/DT_Achievements0.0"
+        },
+        {
+          "ObjectName": "DataTable'DT_Achievements1'",
+          "ObjectPath": "/Game/ITSB/Core/Achievements/DT_Achievements1.0"
         }
       ],
       "RowStruct": {
@@ -832,6 +836,345 @@
             "Value": "NUM_OF_WIN_RIDING_LIGHT_CAR"
           }
         ]
+      },
+      "ACM013": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "FC16B8304D276C48A20C598B95D34DDC",
+          "SourceString": "ワンダラーコレクター",
+          "LocalizedString": "ワンダラーコレクター"
+        },
+        "Kind": "EAchievementsKind::NumberOfWondererDefeated",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [
+          0
+        ],
+        "Grade": "EAchievementsGrade::Silver",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000013"
+          }
+        ],
+        "NeedProgressInfo": true,
+        "ProgressId": []
+      },
+      "ACM019": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "A7FBAE9F40BD0856CAF661926BF901D2",
+          "SourceString": "究極の仕上げ",
+          "LocalizedString": "究極の仕上げ"
+        },
+        "Kind": "EAchievementsKind::NumberOfFullTunedVehiclesCreated",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [
+          1
+        ],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000019"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
+      },
+      "ACM020": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "72D737BD4792791CD9188982567E5754",
+          "SourceString": "どのマシンでも相手になるぜ！",
+          "LocalizedString": "どのマシンでも相手になるぜ！"
+        },
+        "Kind": "EAchievementsKind::NumberOfFullTunedVehiclesCreated",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [
+          10
+        ],
+        "Grade": "EAchievementsGrade::Silver",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000020"
+          }
+        ],
+        "NeedProgressInfo": true,
+        "ProgressId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "TOTAL_FULL_TUNE_MY_CAR_NUM"
+          }
+        ]
+      },
+      "ACM023": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "933A822848A5CAA1151CD5A3EF1C270B",
+          "SourceString": "プロフィール読破",
+          "LocalizedString": "プロフィール読破"
+        },
+        "Kind": "EAchievementsKind::ReadAllReference",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [],
+        "Grade": "EAchievementsGrade::Silver",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000023"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
+      },
+      "ACM026": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "7D368EEB4DB546FF2D6DDCAF1794CE1D",
+          "SourceString": "禁断のチューニング",
+          "LocalizedString": "禁断のチューニング"
+        },
+        "Kind": "EAchievementsKind::BreakingLimitTune",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [],
+        "Grade": "EAchievementsGrade::Silver",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000026"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
+      },
+      "ACM027": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "F241F5814F409BC40C5DF69E2EC5948F",
+          "SourceString": "新たなエンジン、新たな鼓動",
+          "LocalizedString": "新たなエンジン、新たな鼓動"
+        },
+        "Kind": "EAchievementsKind::EngineReplacement",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000027"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
+      },
+      "ACM028": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "044D1F6C4C093866E815FB9C6C674E62",
+          "SourceString": "450 km/hの世界",
+          "LocalizedString": "450 km/hの世界"
+        },
+        "Kind": "EAchievementsKind::SpeedCheck",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [],
+        "IntValues": [
+          450
+        ],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000028"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
+      },
+      "ACM040": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "84E3DD2D4D3A10CCE28B0DAD530C26BF",
+          "SourceString": "ミスターパーフェクト -君、リセットするなかれ-",
+          "LocalizedString": "ミスターパーフェクト -君、リセットするなかれ-"
+        },
+        "Kind": "EAchievementsKind::DefeatRivalLoseZero",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [
+          "Boss_0035"
+        ],
+        "IntValues": [],
+        "Grade": "EAchievementsGrade::Gold",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000040"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
+      },
+      "ACM005": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "EDDF110F4589E90674C111920EDE18A6",
+          "SourceString": "快進撃の走り屋",
+          "LocalizedString": "快進撃の走り屋"
+        },
+        "Kind": "EAchievementsKind::DefeatRival",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [
+          "Boss_0007",
+          "Boss_0012_2",
+          "Boss_0027"
+        ],
+        "IntValues": [],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000005"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
+      },
+      "ACM006": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "DB9E3EC440E638D375E87A8796315169",
+          "SourceString": "嵐を呼ぶ走り屋",
+          "LocalizedString": "嵐を呼ぶ走り屋"
+        },
+        "Kind": "EAchievementsKind::DefeatRival",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [
+          "Boss_0010",
+          "Boss_0019",
+          "Boss_0029"
+        ],
+        "IntValues": [],
+        "Grade": "EAchievementsGrade::Bronze",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000006"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
+      },
+      "ACM007": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "8D6D74074D4CDD5FA0640BB0AE615F1D",
+          "SourceString": "誰もが知る走り屋",
+          "LocalizedString": "誰もが知る走り屋"
+        },
+        "Kind": "EAchievementsKind::DefeatRival",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [
+          "Boss_0031"
+        ],
+        "IntValues": [],
+        "Grade": "EAchievementsGrade::Gold",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000007"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
+      },
+      "ACM008": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "4C6FA5654BF13F6575CD87BB15EF35EC",
+          "SourceString": "走り続けた先に辿りついた場所",
+          "LocalizedString": "走り続けた先に辿りついた場所"
+        },
+        "Kind": "EAchievementsKind::DefeatRival",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::None",
+        "NameValues": [
+          "Boss_0035"
+        ],
+        "IntValues": [],
+        "Grade": "EAchievementsGrade::Silver",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000008"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
+      },
+      "ACM009": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "5B08255041BC1A5C2EFC68B0B38CE9EA",
+          "SourceString": "再び訪れた終焉",
+          "LocalizedString": "再び訪れた終焉"
+        },
+        "Kind": "EAchievementsKind::DefeatRival",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::Plus",
+        "NameValues": [
+          "Boss_0035"
+        ],
+        "IntValues": [],
+        "Grade": "EAchievementsGrade::Silver",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000009"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
+      },
+      "ACM010": {
+        "AchivementName": {
+          "Namespace": "",
+          "Key": "21590A91414561C88FD56F9882976E04",
+          "SourceString": "自ら選んだイバラ道",
+          "LocalizedString": "自ら選んだイバラ道"
+        },
+        "Kind": "EAchievementsKind::DefeatRival",
+        "IsCheckOR": false,
+        "StoryKind": "EStoryKind::PlusPlus",
+        "NameValues": [
+          "Boss_0035"
+        ],
+        "IntValues": [],
+        "Grade": "EAchievementsGrade::Gold",
+        "PlatformId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACHIEVE_000010"
+          }
+        ],
+        "NeedProgressInfo": false,
+        "ProgressId": []
       }
     }
   }

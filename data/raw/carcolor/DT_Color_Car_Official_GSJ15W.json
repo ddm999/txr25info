@@ -1,0 +1,238 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Color_Car_Official_GSJ15W",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'UDS_Color'",
+        "ObjectPath": "/Game/ITSB/UI/Color/DataTables/UDS_Color.0"
+      }
+    },
+    "Rows": {
+      "0": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.63,
+          "G": 0.641667,
+          "B": 0.7,
+          "A": 1.0,
+          "Hex": "D0D2DA"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.63,
+          "G": 0.641667,
+          "B": 0.7,
+          "A": 1.0,
+          "Hex": "D0D2DA"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "81919B944DDC43ED546B4E9E8B1A3DB8",
+          "SourceString": "ホワイト",
+          "LocalizedString": "ホワイト"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Toyota/GSJ15W/Materials/OfficialColor/MI_Car_clGSJ15W_00M.MI_Car_clGSJ15W_00M",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Toyota/GSJ15W/Materials/OfficialColor/MI_Car_clGSJ15W_00S.MI_Car_clGSJ15W_00S",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "1": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.6,
+          "G": 0.366,
+          "B": 0.06,
+          "A": 1.0,
+          "Hex": "CCA345"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.63,
+          "G": 0.641667,
+          "B": 0.7,
+          "A": 1.0,
+          "Hex": "D0D2DA"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "E57F6ED7409495B98B200EB0F61632F4",
+          "SourceString": "ツートン　イエロー",
+          "LocalizedString": "ツートン　イエロー"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Toyota/GSJ15W/Materials/OfficialColor/MI_Car_clGSJ15W_01M.MI_Car_clGSJ15W_01M",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Toyota/GSJ15W/Materials/OfficialColor/MI_Car_clGSJ15W_00S.MI_Car_clGSJ15W_00S",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "2": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.12,
+          "G": 0.228003,
+          "B": 0.3,
+          "A": 1.0,
+          "Hex": "618395"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.63,
+          "G": 0.641667,
+          "B": 0.7,
+          "A": 1.0,
+          "Hex": "D0D2DA"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "C3197EA4462AF1C9F27B53B6D667FD20",
+          "SourceString": "ツートン　スモーキーブルー",
+          "LocalizedString": "ツートン　スモーキーブルー"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Toyota/GSJ15W/Materials/OfficialColor/MI_Car_clGSJ15W_02M.MI_Car_clGSJ15W_02M",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Toyota/GSJ15W/Materials/OfficialColor/MI_Car_clGSJ15W_00S.MI_Car_clGSJ15W_00S",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "3": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.18,
+          "G": 0.183333,
+          "B": 0.2,
+          "A": 1.0,
+          "Hex": "76777C"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.63,
+          "G": 0.641665,
+          "B": 0.7,
+          "A": 1.0,
+          "Hex": "D0D2DA"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "645546B440572B77C70B5FBE53CE3319",
+          "SourceString": "ツートン　セメントグレーメタリック",
+          "LocalizedString": "ツートン　セメントグレーメタリック"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Toyota/GSJ15W/Materials/OfficialColor/MI_Car_clGSJ15W_03M.MI_Car_clGSJ15W_03M",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Toyota/GSJ15W/Materials/OfficialColor/MI_Car_clGSJ15W_00S.MI_Car_clGSJ15W_00S",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "4": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.63,
+          "G": 0.641667,
+          "B": 0.7,
+          "A": 1.0,
+          "Hex": "D0D2DA"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "5C99AE244DC0CB759E9D4395D207E380",
+          "SourceString": "ツートン　ブラック",
+          "LocalizedString": "ツートン　ブラック"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Toyota/GSJ15W/Materials/OfficialColor/MI_Car_clGSJ15W_04M.MI_Car_clGSJ15W_04M",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Toyota/GSJ15W/Materials/OfficialColor/MI_Car_clGSJ15W_00S.MI_Car_clGSJ15W_00S",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "5": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.4,
+          "G": 0.333333,
+          "B": 0.2,
+          "A": 1.0,
+          "Hex": "AA9C7C"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.63,
+          "G": 0.641667,
+          "B": 0.7,
+          "A": 1.0,
+          "Hex": "D0D2DA"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "D09ED8904D07DBB3A9E28CB42916CD8C",
+          "SourceString": "ツートン　ベージュ",
+          "LocalizedString": "ツートン　ベージュ"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Toyota/GSJ15W/Materials/OfficialColor/MI_Car_clGSJ15W_05M.MI_Car_clGSJ15W_05M",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Toyota/GSJ15W/Materials/OfficialColor/MI_Car_clGSJ15W_00S.MI_Car_clGSJ15W_00S",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      }
+    }
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "Type": "InternalMethodEngineDataAsset",
+    "Name": "DA_PU_NA2CuLD",
+    "Class": "UScriptClass'InternalMethodEngineDataAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

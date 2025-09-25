@@ -9,6 +9,10 @@
         {
           "ObjectName": "DataTable'DT_Stats0'",
           "ObjectPath": "/Game/ITSB/Core/Stats/DT_Stats0.0"
+        },
+        {
+          "ObjectName": "DataTable'DT_Stats1'",
+          "ObjectPath": "/Game/ITSB/Core/Stats/DT_Stats1.0"
         }
       ],
       "RowStruct": {

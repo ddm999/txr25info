@@ -23,7 +23,7 @@
         "Wheelbase": 2810,
         "FTread": 1665,
         "RTread": 1480,
-        "CenterOfGravity": 644.725,
+        "CenterOfGravity": 450.0,
         "DriveType": "EDriveType::DT_FR",
         "EngineKind": "EEngineKind::Straight4",
         "EngineInspiration": "ECarIceAspirationType::NA",

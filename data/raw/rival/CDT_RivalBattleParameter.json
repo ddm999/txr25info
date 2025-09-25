@@ -9,6 +9,10 @@
         {
           "ObjectName": "DataTable'DT_RivalBattleParameter0'",
           "ObjectPath": "/Game/ITSB/Core/Rival/DT_RivalBattleParameter0.0"
+        },
+        {
+          "ObjectName": "DataTable'DT_RivalBattleParameter1'",
+          "ObjectPath": "/Game/ITSB/Core/Rival/DT_RivalBattleParameter1.0"
         }
       ],
       "RowStruct": {

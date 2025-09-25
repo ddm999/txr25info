@@ -1,0 +1,386 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Color_Car_Official_RZ34",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'UDS_Color'",
+        "ObjectPath": "/Game/ITSB/UI/Color/DataTables/UDS_Color.0"
+      }
+    },
+    "Rows": {
+      "0": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.8,
+          "G": 0.8,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "E8E800"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "50856B6C42681E9B45FE24B70C7927CA",
+          "SourceString": "イカズチイエロー（３Ｐ）/スーパーブラック 2トーン",
+          "LocalizedString": "イカズチイエロー（３Ｐ）/スーパーブラック 2トーン"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Nissan/RZ34/Materials/OfficialColor/MI_Car_clRZ34_00M.MI_Car_clRZ34_00M",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Nissan/RZ34/Materials/OfficialColor/MI_Car_clRZ34_00S.MI_Car_clRZ34_00S",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "1": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "BC3FC78448D8DE3287E5AA886D917495",
+          "SourceString": "ミッドナイトブラック（Ｐ）",
+          "LocalizedString": "ミッドナイトブラック（Ｐ）"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Nissan/RZ34/Materials/OfficialColor/MI_Car_clRZ34_01M.MI_Car_clRZ34_01M",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Nissan/RZ34/Materials/OfficialColor/MI_Car_clRZ34_00S.MI_Car_clRZ34_00S",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "2": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.4,
+          "G": 0.08,
+          "B": 0.090667,
+          "A": 1.0,
+          "Hex": "AA5055"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.4,
+          "G": 0.08,
+          "B": 0.090667,
+          "A": 1.0,
+          "Hex": "AA5055"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "6564C69D43AC1233113098B251EF41B3",
+          "SourceString": "バーガンディー（ＰＭ）",
+          "LocalizedString": "バーガンディー（ＰＭ）"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Nissan/RZ34/Materials/OfficialColor/MI_Car_clRZ34_02M.MI_Car_clRZ34_02M",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Nissan/RZ34/Materials/OfficialColor/MI_Car_clRZ34_02S.MI_Car_clRZ34_02S",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "3": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.05,
+          "G": 0.05,
+          "B": 0.05,
+          "A": 1.0,
+          "Hex": "3F3F3F"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.05,
+          "G": 0.05,
+          "B": 0.05,
+          "A": 1.0,
+          "Hex": "3F3F3F"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "7506C88D4EC2FB0A6AD2C4A505FBD52F",
+          "SourceString": "ダークメタルグレー（Ｍ）",
+          "LocalizedString": "ダークメタルグレー（Ｍ）"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Nissan/RZ34/Materials/OfficialColor/MI_Car_clRZ34_03M.MI_Car_clRZ34_03M",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Nissan/RZ34/Materials/OfficialColor/MI_Car_clRZ34_03S.MI_Car_clRZ34_03S",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "4": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.095,
+          "G": 0.095834,
+          "B": 0.1,
+          "A": 1.0,
+          "Hex": "575759"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "C7468EA74F30B5440D243B8CD1C27ADF",
+          "SourceString": "ステルスグレー（Ｐ）/スーパーブラック 2トーン",
+          "LocalizedString": "ステルスグレー（Ｐ）/スーパーブラック 2トーン"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Nissan/RZ34/Materials/OfficialColor/MI_Car_clRZ34_04M.MI_Car_clRZ34_04M",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Nissan/RZ34/Materials/OfficialColor/MI_Car_clRZ34_00S.MI_Car_clRZ34_00S",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "5": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.09,
+          "G": 0.091667,
+          "B": 0.1,
+          "A": 1.0,
+          "Hex": "545559"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "6B9835E547115C0271E3C19C3FE31A0B",
+          "SourceString": "ブリリアントシルバー（Ｍ）/スーパーブラック 2トーン",
+          "LocalizedString": "ブリリアントシルバー（Ｍ）/スーパーブラック 2トーン"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Nissan/RZ34/Materials/OfficialColor/MI_Car_clRZ34_05M.MI_Car_clRZ34_05M",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Nissan/RZ34/Materials/OfficialColor/MI_Car_clRZ34_00S.MI_Car_clRZ34_00S",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "6": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.75,
+          "G": 0.05,
+          "B": 0.033333,
+          "A": 1.0,
+          "Hex": "E13F33"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "15D02D17442ACCCE3688898DB0D251DB",
+          "SourceString": "カーマインレッド（ＣＭ）/スーパーブラック 2トーン",
+          "LocalizedString": "カーマインレッド（ＣＭ）/スーパーブラック 2トーン"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Nissan/RZ34/Materials/OfficialColor/MI_Car_clRZ34_06M.MI_Car_clRZ34_06M",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Nissan/RZ34/Materials/OfficialColor/MI_Car_clRZ34_00S.MI_Car_clRZ34_00S",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "7": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.0,
+          "G": 0.083333,
+          "B": 0.5,
+          "A": 1.0,
+          "Hex": "0051BC"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "5B1F3C9E4DE70E9251BAD389F1CB8099",
+          "SourceString": "セイランブルー（３ＰＭ）/スーパーブラック 2トーン",
+          "LocalizedString": "セイランブルー（３ＰＭ）/スーパーブラック 2トーン"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Nissan/RZ34/Materials/OfficialColor/MI_Car_clRZ34_07M.MI_Car_clRZ34_07M",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Nissan/RZ34/Materials/OfficialColor/MI_Car_clRZ34_00S.MI_Car_clRZ34_00S",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "8": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.7,
+          "G": 0.116667,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "DA6000"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.701102,
+          "G": 0.116971,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "DA6000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "816E4D2245E599EE8F33669250A060FF",
+          "SourceString": "432オレンジ",
+          "LocalizedString": "432オレンジ"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Nissan/RZ34/Materials/OfficialColor/MI_Car_clRZ34_08M.MI_Car_clRZ34_08M",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Nissan/RZ34/Materials/OfficialColor/MI_Car_clRZ34_08S.MI_Car_clRZ34_08S",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      },
+      "9": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": true,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.72,
+          "G": 0.733333,
+          "B": 0.8,
+          "A": 1.0,
+          "Hex": "DDDFE8"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "216BCC464F698684670D82B5C14FE6CA",
+          "SourceString": "プリズムホワイト（３Ｐ）/スーパーブラック 2トーン",
+          "LocalizedString": "プリズムホワイト（３Ｐ）/スーパーブラック 2トーン"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Nissan/RZ34/Materials/OfficialColor/MI_Car_clRZ34_09M.MI_Car_clRZ34_09M",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Nissan/RZ34/Materials/OfficialColor/MI_Car_clRZ34_00S.MI_Car_clRZ34_00S",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+      }
+    }
+  }
+]

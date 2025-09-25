@@ -1,0 +1,8 @@
+[
+  {
+    "Type": "InternalMethodEngineDataAsset",
+    "Name": "DA_PU_AP1CuRW",
+    "Class": "UScriptClass'InternalMethodEngineDataAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

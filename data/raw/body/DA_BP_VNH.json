@@ -24,7 +24,7 @@
         "Wheelbase": 2670,
         "FTread": 1550,
         "RTread": 1545,
-        "CenterOfGravity": 453.933333,
+        "CenterOfGravity": 450.0,
         "DriveType": "EDriveType::DT_4WD",
         "EngineKind": "EEngineKind::Flat4",
         "EngineFromat": "EEngineFromat::E_FA24",

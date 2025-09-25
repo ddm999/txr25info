@@ -24,7 +24,7 @@
         "Wheelbase": 2500,
         "FTread": 1450,
         "RTread": 1435,
-        "CenterOfGravity": 474.101667,
+        "CenterOfGravity": 450.0,
         "DriveType": "EDriveType::DT_FF",
         "EngineKind": "EEngineKind::Straight4",
         "EngineFromat": "EEngineFromat::E_SR20DET",
@@ -72,7 +72,7 @@
           "TableId": "/Game/ITSB/UI/StringTable/ST_carname.ST_carname",
           "Key": "NCP31CuHG",
           "SourceString": "NCP31CuHG",
-          "LocalizedString": "NCP31CuHG"
+          "LocalizedString": "RETURN TO ORIGIN"
         },
         "MaxHightOffset": 2.0,
         "MinTurningRadius": 5.5,

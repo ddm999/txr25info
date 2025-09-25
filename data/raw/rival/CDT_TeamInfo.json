@@ -9,6 +9,10 @@
         {
           "ObjectName": "DataTable'DT_TeamInfo0'",
           "ObjectPath": "/Game/ITSB/Core/Rival/DT_TeamInfo0.0"
+        },
+        {
+          "ObjectName": "DataTable'DT_TeamInfo1'",
+          "ObjectPath": "/Game/ITSB/Core/Rival/DT_TeamInfo1.0"
         }
       ],
       "RowStruct": {
@@ -944,6 +948,673 @@
         "Category": "ETeamCategory::Boss",
         "SortNumber": 2000,
         "ConversationBaseKey": "None"
+      },
+      "CHANGINGSTAGE": {
+        "ID": 35,
+        "TeamName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamName.ST_TeamName",
+          "Key": "Team_001",
+          "SourceString": "Team_001",
+          "LocalizedString": "CHANGING STAGE"
+        },
+        "Area": "ERunArea::ERA_C1Out",
+        "ParkingArea": "EParkingArea::None",
+        "TeamIcon": {
+          "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_Rival_Team_2.T_Emblem_Rival_Team_2",
+          "SubPathString": ""
+        },
+        "TeamRumor": {
+          "CultureInvariantString": null
+        },
+        "TeamDetails": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamProfile.ST_TeamProfile",
+          "Key": "Team_001",
+          "SourceString": "Team_001",
+          "LocalizedString": "A team composed of editors and writers from the car magazine \"Changing Stage.\" Their activity spans not only the Shuto Expressway but also mountain passes and gymkhana, so many of their cars are tuned for versatility. Since they often request interviews with opponents after battles for magazine photos, they focus on appearance and respectful racing. The varying skill levels among members is a common issue."
+        },
+        "StageOfAppearance": 3,
+        "TeamLeaderId": "Rival_0006",
+        "Category": "ETeamCategory::Team",
+        "SortNumber": 35,
+        "ConversationBaseKey": "team02"
+      },
+      "ROADCONCERTO": {
+        "ID": 39,
+        "TeamName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamName.ST_TeamName",
+          "Key": "Team_039",
+          "SourceString": "Team_039",
+          "LocalizedString": "ROAD CONCERTO"
+        },
+        "Area": "ERunArea::ERA_K1_Up",
+        "ParkingArea": "EParkingArea::None",
+        "TeamIcon": {
+          "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_Rival_Team_8.T_Emblem_Rival_Team_8",
+          "SubPathString": ""
+        },
+        "TeamRumor": {
+          "CultureInvariantString": null
+        },
+        "TeamDetails": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamProfile.ST_TeamProfile",
+          "Key": "Team_039",
+          "SourceString": "Team_039",
+          "LocalizedString": "A team formed by classical music professionals. Each member's skill is high, and their elegant driving can mesmerize battle opponents. There was an unspoken rule of non-interference, but recently, the leader 【CONCERTO OF NEBULA】 seems to have had a change of heart, welcoming a junior from their alma mater as a new member, increasing the team's unity. They have a strong sense of family, and if one member loses, another will definitely seek revenge."
+        },
+        "StageOfAppearance": 3,
+        "TeamLeaderId": "Rival_0037",
+        "Category": "ETeamCategory::Team",
+        "SortNumber": 40,
+        "ConversationBaseKey": "team08"
+      },
+      "FAMILYBUSINESS": {
+        "ID": 38,
+        "TeamName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamName.ST_TeamName",
+          "Key": "Team_034",
+          "SourceString": "Team_034",
+          "LocalizedString": "FAMILY BUSINESS"
+        },
+        "Area": "ERunArea::ERA_C1Out",
+        "ParkingArea": "EParkingArea::None",
+        "TeamIcon": {
+          "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_Rival_Team_9.T_Emblem_Rival_Team_9",
+          "SubPathString": ""
+        },
+        "TeamRumor": {
+          "CultureInvariantString": null
+        },
+        "TeamDetails": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamProfile.ST_TeamProfile",
+          "Key": "Team_034",
+          "SourceString": "Team_034",
+          "LocalizedString": "A team forcibly formed by the former leader, a former NISSAN test driver, out of concern for his son and his family, who were on the verge of family breakdown. Being in the racing world brought the once fragmented family together. Now, led by 【GREATEST PAPA】 and composed of his wife, daughter, son, and son-in-law, the team thrives. They acquire machines cheaply through the predecessor's connections, benefiting from the expertise of mechanics who once worked at NISSAN, showing great strength."
+        },
+        "StageOfAppearance": 3,
+        "TeamLeaderId": "Rival_0043",
+        "Category": "ETeamCategory::Team",
+        "SortNumber": 39,
+        "ConversationBaseKey": "team09"
+      },
+      "COOLENERGY": {
+        "ID": 37,
+        "TeamName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamName.ST_TeamName",
+          "Key": "Team_045",
+          "SourceString": "Team_045",
+          "LocalizedString": "COOL ENERGY"
+        },
+        "Area": "ERunArea::ERA_K1_Down",
+        "ParkingArea": "EParkingArea::None",
+        "TeamIcon": {
+          "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_Rival_Team_10.T_Emblem_Rival_Team_10",
+          "SubPathString": ""
+        },
+        "TeamRumor": {
+          "CultureInvariantString": null
+        },
+        "TeamDetails": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamProfile.ST_TeamProfile",
+          "Key": "Team_045",
+          "SourceString": "Team_045",
+          "LocalizedString": "A team formed by IT tycoons with offices in Roppongi. Initially participating in the Shuto Expressway world lightly to test their high-spec machines, their mindset changed under the influence of surrounding street racers. They now have a strong competitive spirit towards racing, similar to their main business. With machines assembled from ample funds and improved skills, they have a significant presence. As their atmosphere changed, the bond between members also grew stronger."
+        },
+        "StageOfAppearance": 3,
+        "TeamLeaderId": "Rival_0048",
+        "Category": "ETeamCategory::Team",
+        "SortNumber": 38,
+        "ConversationBaseKey": "team10"
+      },
+      "TOPLEVEL": {
+        "ID": 42,
+        "TeamName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamName.ST_TeamName",
+          "Key": "Team_036",
+          "SourceString": "Team_036",
+          "LocalizedString": "TOP LEVEL"
+        },
+        "Area": "ERunArea::ERA_NLLeft",
+        "ParkingArea": "EParkingArea::None",
+        "TeamIcon": {
+          "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_Rival_Team_19.T_Emblem_Rival_Team_19",
+          "SubPathString": ""
+        },
+        "TeamRumor": {
+          "CultureInvariantString": null
+        },
+        "TeamDetails": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamProfile.ST_TeamProfile",
+          "Key": "Team_036",
+          "SourceString": "Team_036",
+          "LocalizedString": "A team led by rally driver 【TARMAC SUZUKI】 and composed of MITSUBISHI vehicles. They view the SUBARU team 《ANOTHER STAR》 as rivals. The members' skills are high due to precise guidance from the rally driver. Initially taken lightly because of the many female members, their skills are now well-known, completely overturning that image. They advocate clean driving, with penalties such as \"washing all team machines\" for violations."
+        },
+        "StageOfAppearance": 3,
+        "TeamLeaderId": "Rival_0103",
+        "Category": "ETeamCategory::Team",
+        "SortNumber": 43,
+        "ConversationBaseKey": "team19"
+      },
+      "A.S.F": {
+        "ID": 32,
+        "TeamName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamName.ST_TeamName",
+          "Key": "Team_037",
+          "SourceString": "Team_037",
+          "LocalizedString": "A.S.F."
+        },
+        "Area": "ERunArea::ERA_NLLeft",
+        "ParkingArea": "EParkingArea::None",
+        "TeamIcon": {
+          "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_Rival_Team_20.T_Emblem_Rival_Team_20",
+          "SubPathString": ""
+        },
+        "TeamRumor": {
+          "CultureInvariantString": null
+        },
+        "TeamDetails": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamProfile.ST_TeamProfile",
+          "Key": "Team_037",
+          "SourceString": "Team_037",
+          "LocalizedString": "The official team of the tuning shop \"Akihara Speed Factory.\" Led by the shop owner 【BOSS OF NEW CIRCULAR ROUTE】, the machines handled by professional tuners have a high degree of perfection. At one point, their ace 【SPRING MEMORY】 left Japan, significantly weakening their strength, but upon his return as a professional driver, members' morale recovered, and their presence on the Shuto Expressway grew. With new members joining, the team is lively once again."
+        },
+        "StageOfAppearance": 3,
+        "TeamLeaderId": "Rival_0109",
+        "Category": "ETeamCategory::Team",
+        "SortNumber": 32,
+        "ConversationBaseKey": "team20"
+      },
+      "NAYUTA": {
+        "ID": 36,
+        "TeamName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamName.ST_TeamName",
+          "Key": "Team_043",
+          "SourceString": "Team_043",
+          "LocalizedString": "NAYUTA"
+        },
+        "Area": "ERunArea::ERA_K1_Up",
+        "ParkingArea": "EParkingArea::None",
+        "TeamIcon": {
+          "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_Rival_Team_22.T_Emblem_Rival_Team_22",
+          "SubPathString": ""
+        },
+        "TeamRumor": {
+          "CultureInvariantString": null
+        },
+        "TeamDetails": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamProfile.ST_TeamProfile",
+          "Key": "Team_043",
+          "SourceString": "Team_043",
+          "LocalizedString": "A team fixated on numbers, specializing in \"data battles\" that emphasize machine specs and driving data. As a performance supremacist team, they have a rule that every machine must excel in at least one numerical aspect. To obtain data on the new 《Phantom9》, they collect information from those who have battled them, and they exchange opinions with 【SILVER NOBLEMAN】, who pursues his own \"fastest theory.\""
+        },
+        "StageOfAppearance": 3,
+        "TeamLeaderId": "Rival_0125",
+        "Category": "ETeamCategory::Team",
+        "SortNumber": 37,
+        "ConversationBaseKey": "team22"
+      },
+      "ASIANAGES": {
+        "ID": 52,
+        "TeamName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamName.ST_TeamName",
+          "Key": "Team_044",
+          "SourceString": "Team_044",
+          "LocalizedString": "ASIAN AGES"
+        },
+        "Area": "ERunArea::ERA_K1_Down",
+        "ParkingArea": "EParkingArea::None",
+        "TeamIcon": {
+          "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_Rival_Team_26.T_Emblem_Rival_Team_26",
+          "SubPathString": ""
+        },
+        "TeamRumor": {
+          "CultureInvariantString": null
+        },
+        "TeamDetails": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamProfile.ST_TeamProfile",
+          "Key": "Team_044",
+          "SourceString": "Team_044",
+          "LocalizedString": "A team formed by 【BLACK DRAGON】, gathering Asian members to exact revenge on the despicable man who once led their team to ruin. However, their target 【SNAKE EYES】 vanished after losing to a certain racer, leaving the team without purpose. Just when the team's very survival was in doubt, a single email arrived six months ago: \"Snake returns.\" Rallying once more, Asia's elite riders descend upon the Shuto Expressway for the third time, armed with high-tech tuned machines to fulfill their years-long vendetta."
+        },
+        "StageOfAppearance": 3,
+        "TeamLeaderId": "Rival_0134",
+        "Category": "ETeamCategory::Team",
+        "SortNumber": 53,
+        "ConversationBaseKey": "team26"
+      },
+      "RINGS": {
+        "ID": 31,
+        "TeamName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamName.ST_TeamName",
+          "Key": "Team_031",
+          "SourceString": "Team_031",
+          "LocalizedString": "RINGS"
+        },
+        "Area": "ERunArea::ERA_C1In",
+        "ParkingArea": "EParkingArea::None",
+        "TeamIcon": {
+          "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_Rival_Team_27.T_Emblem_Rival_Team_27",
+          "SubPathString": ""
+        },
+        "TeamRumor": {
+          "CultureInvariantString": null
+        },
+        "TeamDetails": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamProfile.ST_TeamProfile",
+          "Key": "Team_031",
+          "SourceString": "Team_031",
+          "LocalizedString": "A team famous for its long-standing presence. The 6th leader, 【LONE JACKAL】, is now in his late 30s and considering passing the torch, but has yet to decide on a successor. With a rule that one must defeat all members to join and a philosophy of honing skills over machine performance inherited from the founding, the members' driving techniques are uniformly high, maintaining the team's prestige."
+        },
+        "StageOfAppearance": 3,
+        "TeamLeaderId": "Rival_0141",
+        "Category": "ETeamCategory::Team",
+        "SortNumber": 31,
+        "ConversationBaseKey": "team27"
+      },
+      "2Limit": {
+        "ID": 47,
+        "TeamName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamName.ST_TeamName",
+          "Key": "Team_033",
+          "SourceString": "Team_033",
+          "LocalizedString": "2Limit"
+        },
+        "Area": "ERunArea::ERA_C1Out",
+        "ParkingArea": "EParkingArea::None",
+        "TeamIcon": {
+          "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_Rival_Team_29.T_Emblem_Rival_Team_29",
+          "SubPathString": ""
+        },
+        "TeamRumor": {
+          "CultureInvariantString": null
+        },
+        "TeamDetails": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamProfile.ST_TeamProfile",
+          "Key": "Team_033",
+          "SourceString": "Team_033",
+          "LocalizedString": "A team formed by people working at the same general hospital, with deep bonds among its members. Led by the doctor 【CRIMSON FANG】. Due to their profession of saving lives, they possess exceptional mental strength and focus, which translates into their strength in battles. With large-displacement machines boosted up and a serious attitude towards every race, every member is formidable. Occasionally, they offer health advice to other street racers with unhealthy lifestyles they encounter at parking areas."
+        },
+        "StageOfAppearance": 3,
+        "TeamLeaderId": "Rival_0155",
+        "Category": "ETeamCategory::Team",
+        "SortNumber": 48,
+        "ConversationBaseKey": "team29"
+      },
+      "Aquarium": {
+        "ID": 40,
+        "TeamName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamName.ST_TeamName",
+          "Key": "Team_047",
+          "SourceString": "Team_047",
+          "LocalizedString": "Aquarium"
+        },
+        "Area": "ERunArea::ERA_WgEast",
+        "ParkingArea": "EParkingArea::None",
+        "TeamIcon": {
+          "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_Rival_Team_35.T_Emblem_Rival_Team_35",
+          "SubPathString": ""
+        },
+        "TeamRumor": {
+          "CultureInvariantString": null
+        },
+        "TeamDetails": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamProfile.ST_TeamProfile",
+          "Key": "Team_047",
+          "SourceString": "Team_047",
+          "LocalizedString": "This team is composed entirely of singles. Initially formed on a whim, they have grown into a serious racing team through years of activity. There is an ironclad rule that members must leave the team if they get married, and in reality, a few have graduated. As familiar faces increased in their original area, they moved to the Bayshore Line seeking fateful encounters. While some may have the intention of enjoying the night view on dates, even when they find a good match and challenge them to a race, they often end up leaving their opponent far behind, which is a source of frustration."
+        },
+        "StageOfAppearance": 3,
+        "TeamLeaderId": "Rival_0174",
+        "Category": "ETeamCategory::Team",
+        "SortNumber": 41,
+        "ConversationBaseKey": "team35"
+      },
+      "TOKIOJUNGLE": {
+        "ID": 33,
+        "TeamName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamName.ST_TeamName",
+          "Key": "Team_035",
+          "SourceString": "Team_035",
+          "LocalizedString": "TOKIO JUNGLE"
+        },
+        "Area": "ERunArea::ERA_NLRight",
+        "ParkingArea": "EParkingArea::None",
+        "TeamIcon": {
+          "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_Rival_Team_36.T_Emblem_Rival_Team_36",
+          "SubPathString": ""
+        },
+        "TeamRumor": {
+          "CultureInvariantString": null
+        },
+        "TeamDetails": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamProfile.ST_TeamProfile",
+          "Key": "Team_035",
+          "SourceString": "Team_035",
+          "LocalizedString": "Car enthusiasts from around Tokyo originally formed this team as a temporary project, but it's been 10 years now. Although there are many aspiring members, they maintain the original group of seven. The team policy remained consistent even after the leader changed to 【MJ6FEET6】 a few years ago. They forbid flashy drifting, focusing on grip driving to improve lap times, resulting in a generally high driving level. They also bond over activities outside racing, like going to the sports club together."
+        },
+        "StageOfAppearance": 3,
+        "TeamLeaderId": "Rival_0181",
+        "Category": "ETeamCategory::Team",
+        "SortNumber": 33,
+        "ConversationBaseKey": "team36"
+      },
+      "FreeWay": {
+        "ID": 43,
+        "TeamName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamName.ST_TeamName",
+          "Key": "Team_040",
+          "SourceString": "Team_040",
+          "LocalizedString": "Free Way"
+        },
+        "Area": "ERunArea::ERA_NLRight",
+        "ParkingArea": "EParkingArea::None",
+        "TeamIcon": {
+          "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_Rival_Team_37.T_Emblem_Rival_Team_37",
+          "SubPathString": ""
+        },
+        "TeamRumor": {
+          "CultureInvariantString": null
+        },
+        "TeamDetails": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamProfile.ST_TeamProfile",
+          "Key": "Team_040",
+          "SourceString": "Team_040",
+          "LocalizedString": "A team that naturally formed around GT-R drivers. They take pride in driving Japan's representative sports machines and do not tolerate any actions that disgrace this honor. The team's relationship with 《ROLLING GUY》 worsened after accepting members who left that team without permission, leading to a deep rift. Though they have an exclusive atmosphere, their internal cohesion is strong, ensuring a solid support system within the team."
+        },
+        "StageOfAppearance": 3,
+        "TeamLeaderId": "Rival_0188",
+        "Category": "ETeamCategory::Team",
+        "SortNumber": 44,
+        "ConversationBaseKey": "team37"
+      },
+      "BeLegend": {
+        "ID": 44,
+        "TeamName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamName.ST_TeamName",
+          "Key": "Team_050",
+          "SourceString": "Team_050",
+          "LocalizedString": "Be Legend"
+        },
+        "Area": "ERunArea::ERA_K1_Down",
+        "ParkingArea": "EParkingArea::None",
+        "TeamIcon": {
+          "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_Rival_Team_39.T_Emblem_Rival_Team_39",
+          "SubPathString": ""
+        },
+        "TeamRumor": {
+          "CultureInvariantString": null
+        },
+        "TeamDetails": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamProfile.ST_TeamProfile",
+          "Key": "Team_050",
+          "SourceString": "Team_050",
+          "LocalizedString": "A team of legendary street racers who once made a name for themselves on the Shuto Expressway. Led by 【SONIC NAPOLEON】, who gathered members that had left the racing world for various reasons. Though they have changed their names, their undeniable presence is recognized by those who knew them back then. They are closely watching the new generation of street racers gaining momentum and are ready to defend their legendary status against challengers."
+        },
+        "StageOfAppearance": 3,
+        "TeamLeaderId": "Rival_0196",
+        "Category": "ETeamCategory::Team",
+        "SortNumber": 45,
+        "ConversationBaseKey": "team39"
+      },
+      "KNIFEANDFORKS": {
+        "ID": 34,
+        "TeamName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamName.ST_TeamName",
+          "Key": "Team_038",
+          "SourceString": "Team_038",
+          "LocalizedString": "KNIFE AND FORKS"
+        },
+        "Area": "ERunArea::ERA_K1_Up",
+        "ParkingArea": "EParkingArea::None",
+        "TeamIcon": {
+          "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_Rival_Team_40.T_Emblem_Rival_Team_40",
+          "SubPathString": ""
+        },
+        "TeamRumor": {
+          "CultureInvariantString": null
+        },
+        "TeamDetails": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamProfile.ST_TeamProfile",
+          "Key": "Team_038",
+          "SourceString": "Team_038",
+          "LocalizedString": "A team led by the owner of the French restaurant \"La Liberté,\" which has branches in Tokyo, Yokohama, Osaka, and Nagoya. They are strict about table manners as well as driving manners, earning them a good reputation for polite driving. They strive for victory by competing even with workplace colleagues, which has significantly grown the team. The shop attracts car-loving customers because they receive discount coupons when they win battles, but the problem is that when members lose, their profit margins fall."
+        },
+        "StageOfAppearance": 3,
+        "TeamLeaderId": "Rival_0205",
+        "Category": "ETeamCategory::Team",
+        "SortNumber": 34,
+        "ConversationBaseKey": "team40"
+      },
+      "UNLIMITED": {
+        "ID": 45,
+        "TeamName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamName.ST_TeamName",
+          "Key": "Team_042",
+          "SourceString": "Team_042",
+          "LocalizedString": "UNLIMITED"
+        },
+        "Area": "ERunArea::ERA_WgWest",
+        "ParkingArea": "EParkingArea::None",
+        "TeamIcon": {
+          "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_Rival_Team_23.T_Emblem_Rival_Team_23",
+          "SubPathString": ""
+        },
+        "TeamRumor": {
+          "CultureInvariantString": null
+        },
+        "TeamDetails": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamProfile.ST_TeamProfile",
+          "Key": "Team_042",
+          "SourceString": "Team_042",
+          "LocalizedString": "A long-established team once considered the strongest on the Bayshore. Despite the emergence of new strong teams, they still hold a significant presence. Led by the charismatic 【KILLING MACHINE】, all members are exceptionally strong. While maintaining an aggressive stance within the team, the leader ensures they don't fall into indecent driving. Conversely, they show no mercy to reckless street racers."
+        },
+        "StageOfAppearance": 3,
+        "TeamLeaderId": "Rival_0212",
+        "Category": "ETeamCategory::Team",
+        "SortNumber": 46,
+        "ConversationBaseKey": "team23"
+      },
+      "NeoLimited": {
+        "ID": 46,
+        "TeamName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamName.ST_TeamName",
+          "Key": "Team_052",
+          "SourceString": "Team_052",
+          "LocalizedString": "Neo Limited"
+        },
+        "Area": "ERunArea::ERA_WgEast",
+        "ParkingArea": "EParkingArea::None",
+        "TeamIcon": {
+          "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_Rival_Team_38.T_Emblem_Rival_Team_38",
+          "SubPathString": ""
+        },
+        "TeamRumor": {
+          "CultureInvariantString": null
+        },
+        "TeamDetails": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamProfile.ST_TeamProfile",
+          "Key": "Team_052",
+          "SourceString": "Team_052",
+          "LocalizedString": "A team originally formed to challenge 《UNLIMITED》. They've assembled an impressive lineup of high-powered machines built for top speed and drivers with enough skill to compete against the Bayshore's strongest teams. Unfortunately, with their intended rivals being pressured by other up-and-coming teams, there's an undeniable sense of unfulfilled potential. This seems to be affecting team leader 【LEMON FLAVOR】's motivation, which in turn impacts the whole team's vibe. Still, they show no mercy in teaching a painful lesson to any racers who would dare disrupt their battle stage."
+        },
+        "StageOfAppearance": 4,
+        "TeamLeaderId": "Rival_0247",
+        "Category": "ETeamCategory::Team",
+        "SortNumber": 47,
+        "ConversationBaseKey": "team38"
+      },
+      "SPEEDMASTER": {
+        "ID": 51,
+        "TeamName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamName.ST_TeamName",
+          "Key": "Team_051",
+          "SourceString": "Team_051",
+          "LocalizedString": "SPEED MASTER"
+        },
+        "Area": "ERunArea::ERA_K1_Down",
+        "ParkingArea": "EParkingArea::None",
+        "TeamIcon": {
+          "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_Rival_Team_41.T_Emblem_Rival_Team_41",
+          "SubPathString": ""
+        },
+        "TeamRumor": {
+          "CultureInvariantString": null
+        },
+        "TeamDetails": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamProfile.ST_TeamProfile",
+          "Key": "Team_051",
+          "SourceString": "Team_051",
+          "LocalizedString": "A team admired by Shuto Expressway street racers for its long history. They weakened during a period of leadership change, losing power struggles with other teams and disappearing from the expressway for several years. Rumors of the return of 【SWIFT EMPEROR】 led to their reformation, aiming to reclaim past glory. The team consists of members with unique traits, whose trust strengthened through overcoming their slump together."
+        },
+        "StageOfAppearance": 4,
+        "TeamLeaderId": "Rival_0254",
+        "Category": "ETeamCategory::Team",
+        "SortNumber": 52,
+        "ConversationBaseKey": "team41"
+      },
+      "HARISENChop": {
+        "ID": 41,
+        "TeamName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamName.ST_TeamName",
+          "Key": "Team_049",
+          "SourceString": "Team_049",
+          "LocalizedString": "HARISEN Chop"
+        },
+        "Area": "ERunArea::ERA_K1_Down",
+        "ParkingArea": "EParkingArea::None",
+        "TeamIcon": {
+          "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_Rival_Team_42.T_Emblem_Rival_Team_42",
+          "SubPathString": ""
+        },
+        "TeamRumor": {
+          "CultureInvariantString": null
+        },
+        "TeamDetails": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamProfile.ST_TeamProfile",
+          "Key": "Team_049",
+          "SourceString": "Team_049",
+          "LocalizedString": "A strong team on the Hanshin Expressway named after the moment of using nitro, likening it to a \"harisen\" (folding fan). They accumulate victories on long straights with their specialty nitro tactics but struggle with engine longevity. Dreaming of defeating the strongest Hanshin team and reaching the top, they embarked on a reinforced expedition to the Shuto Expressway. The leader's decision to quit a public servant job and have the team live in a share house demonstrates their extreme determination, which is fully utilized in their racing."
+        },
+        "StageOfAppearance": 3,
+        "TeamLeaderId": "Rival_0264",
+        "Category": "ETeamCategory::Team",
+        "SortNumber": 42,
+        "ConversationBaseKey": "team42"
+      },
+      "GNKRacing": {
+        "ID": 48,
+        "TeamName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamName.ST_TeamName",
+          "Key": "Team_046",
+          "SourceString": "Team_046",
+          "LocalizedString": "GNK Racing"
+        },
+        "Area": "ERunArea::ERA_C1In",
+        "ParkingArea": "EParkingArea::None",
+        "TeamIcon": {
+          "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_Rival_Team_45.T_Emblem_Rival_Team_45",
+          "SubPathString": ""
+        },
+        "TeamRumor": {
+          "CultureInvariantString": null
+        },
+        "TeamDetails": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamProfile.ST_TeamProfile",
+          "Key": "Team_046",
+          "SourceString": "Team_046",
+          "LocalizedString": "A privateer team run by a company that operates the largest city circuit in Tokyo. They have professional racers, and all members, including amateurs, are licensed. They are honing their skills daily in preparation for one-make races with GR86 and BRZ. With an extensive knowledge of the Shuto Expressway, they exhibit outstanding stability, making minor sabotage tactics ineffective. They welcome the rising new generation of street racers, both as fellow street racers and as operators."
+        },
+        "StageOfAppearance": 3,
+        "TeamLeaderId": "Rival_0294",
+        "Category": "ETeamCategory::Team",
+        "SortNumber": 49,
+        "ConversationBaseKey": "team45"
+      },
+      "ROYALDREAMS": {
+        "ID": 53,
+        "TeamName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamName.ST_TeamName",
+          "Key": "Team_053",
+          "SourceString": "Team_053",
+          "LocalizedString": "ROYAL DREAMS"
+        },
+        "Area": "ERunArea::ERA_WgWest",
+        "ParkingArea": "EParkingArea::None",
+        "TeamIcon": {
+          "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_Rival_Team_48.T_Emblem_Rival_Team_48",
+          "SubPathString": ""
+        },
+        "TeamRumor": {
+          "CultureInvariantString": null
+        },
+        "TeamDetails": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamProfile.ST_TeamProfile",
+          "Key": "Team_053",
+          "SourceString": "Team_053",
+          "LocalizedString": "A certain country's crown prince, admiring Japan's Shuto Expressway, secretly visited with his princess sister and servants. They formed a race team team that exlusively drove their beloved NSXs. With members like butlers and maids, they have an extraordinary air that draws curious stares. Back home, they honed skills on their private royal circuit. A team of formidable opponents, they expertly pilot highly tuned NSXs using advanced techniques."
+        },
+        "StageOfAppearance": 4,
+        "TeamLeaderId": "Rival_0315",
+        "Category": "ETeamCategory::Team",
+        "SortNumber": 54,
+        "ConversationBaseKey": "team48"
+      },
+      "CLUBGARUDA": {
+        "ID": 49,
+        "TeamName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamName.ST_TeamName",
+          "Key": "Team_048",
+          "SourceString": "Team_048",
+          "LocalizedString": "CLUB GARUDA"
+        },
+        "Area": "ERunArea::ERA_WgWest",
+        "ParkingArea": "EParkingArea::None",
+        "TeamIcon": {
+          "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_Rival_Team_50.T_Emblem_Rival_Team_50",
+          "SubPathString": ""
+        },
+        "TeamRumor": {
+          "CultureInvariantString": null
+        },
+        "TeamDetails": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamProfile.ST_TeamProfile",
+          "Key": "Team_048",
+          "SourceString": "Team_048",
+          "LocalizedString": "A team formed mainly by young people with discontent and troubled hearts. Each has a strong ego and selfish nature, and no one speaks about why they chose to form a team. The leader gained fame shortly after debuting by aggressively defeating several veterans, inspiring the members to follow his lead. Rough individuals drawn to their dangerous aura keep joining the team, causing their influence to expand erratically."
+        },
+        "StageOfAppearance": 3,
+        "TeamLeaderId": "Rival_0329",
+        "Category": "ETeamCategory::Team",
+        "SortNumber": 50,
+        "ConversationBaseKey": "team50"
+      },
+      "HASEGAWASANGELS": {
+        "ID": 50,
+        "TeamName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamName.ST_TeamName",
+          "Key": "Team_054",
+          "SourceString": "Team_054",
+          "LocalizedString": "HASEGAWA'S ANGELS"
+        },
+        "Area": "ERunArea::ERA_WgEast",
+        "ParkingArea": "EParkingArea::None",
+        "TeamIcon": {
+          "AssetPathName": "/Game/ITSB/UI/Emblem/Textures/T_Emblem_Rival_Team_54.T_Emblem_Rival_Team_54",
+          "SubPathString": ""
+        },
+        "TeamRumor": {
+          "CultureInvariantString": null
+        },
+        "TeamDetails": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_TeamProfile.ST_TeamProfile",
+          "Key": "Team_054",
+          "SourceString": "Team_054",
+          "LocalizedString": "A fresh new team formed by three sisters who work as poster girls at the second \"HASEGAWA\" hobby shop. Each sister has her own favorite racer that they \"stan,\" decorating their machines with vinyl inspired by their idols for a flashy racing debut. Sadly, none have met their heroes in person yet, but they grip their steering wheels yet again today, dreaming of the day they'll race alongside their idols. Despite the many racers among the shop's regulars, they're surprisingly well-known on the Shuto Expressway for newcomers, and they're watched over with warm, supportive eyes."
+        },
+        "StageOfAppearance": 4,
+        "TeamLeaderId": "Rival_0336",
+        "Category": "ETeamCategory::Team",
+        "SortNumber": 51,
+        "ConversationBaseKey": "team54"
       }
     }
   }
