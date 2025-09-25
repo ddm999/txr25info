@@ -80,6 +80,10 @@
       <p class="details">
         <span id="key">Engine name:</span> <span id="val">${params[value]['enginename'].replace("_", "-")}</span><br>
         <br>
+        #if $powerunits[value] is None
+        <span id="warning">For quirky Unreal Engine reasons, this car's power unit data has not yet been decoded.<br>
+          This will be resolved and data will appear here as soon as possible.</span>
+        #else
         <span id="big">Power Unit Level 0:</span><br>
         <span id="warning">Custom vehicles use higher level units and so this isn't representative for them.</span><br>
         <span id="key">Rev limiter:</span> <span id="val">${powerunits[value]['0']['RevLimit']}</span> rpm<br>
@@ -98,6 +102,7 @@
         <br>
         <span id="warning">Graphs are work in progress, and may contain slightly incorrect data.</span><br>
         <img id="enginegraph" src="../graph/powerunit/${value}9.png"/>
+        #end if
       </p>
     </section>
     <hr/>

@@ -11,7 +11,7 @@ os.makedirs("build/img")
 shutil.copytree(f"res", f"build/res")
 copyfiles = ['index.html', 'style.css']
 datacopy = [('img/other/T_Com_Bg.png', 'img/bg.png')]
-foldercopy = [('img/car', 'img/car'), ('graph/powerunit', 'graph/powerunit')]
+foldercopy = [('img/car', 'img/car'), ('graph/powerunit', 'graph/powerunit'), ("raw", "raw")]
 for file in copyfiles:
     shutil.copyfile(f"{file}", f"build/{file}")
 for file in datacopy:

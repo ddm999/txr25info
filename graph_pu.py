@@ -14,6 +14,8 @@ with open("data/web/car/powerunit.json", "r") as f:
 plt.style.use('dark_background')
 
 for car, engines in j_pu['powerunits'].items():
+    if engines is None:
+        continue
     for key, engine in engines.items():
         step = engine['MaxRpm']/(len(engine['RpmData']))
         x = np.arange(0, engine['MaxRpm']+step-1, step)

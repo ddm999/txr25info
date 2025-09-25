@@ -19,9 +19,12 @@ def load_engine(folder, name):
         j = json.load(f)
     assert j[0]['Name'] == name
     engine = {}
-    for item in j[0]['Properties']['EngineData']['LevelData']:
-        engine[item['Key']] = item['Value']
-    return engine
+    try:
+        for item in j[0]['Properties']['EngineData']['LevelData']:
+            engine[item['Key']] = item['Value']
+        return engine
+    except:
+        return None
 
 def write_table(folder, name, data):
     with open(f"data/web/{folder}/{name}.json", "w") as f:
