@@ -6,10 +6,12 @@ if os.path.exists("data/web"):
     shutil.rmtree("data/web")
     sleep(0)
 os.makedirs("data/web/car")
+os.makedirs("data/web/core")
+os.makedirs("data/web/rival")
 
 # base helpers
 def load_table(folder, name):
-    with open(f"data/raw/{folder}/{name}.json", "r") as f:
+    with open(f"data/raw/{folder}/{name}.json", "r", encoding='utf-8') as f:
         j = json.load(f)
     assert j[0]['Name'] == name
     return j[0]['Rows']
@@ -187,5 +189,50 @@ for car in cars:
     t = load_engine("powerunit", f"DA_PU_{car}")
     powerunits[car] = t
 
-powerunitsdata = {'powerunits': powerunits}
-write_table('car', 'powerunit', powerunitsdata)
+powerunitdata = {'powerunits': powerunits}
+write_table('car', 'powerunit', powerunitdata)
+
+del powerunits, powerunitdata
+
+# tyre deg
+t = load_table("core", "DT_TireDegradationInfo")
+tyres = {}
+for k,v in t.items():
+    type = get_enum(v, "Type")
+    if type in tyres:
+        tyres[type]['rearsidecoef'] = get_key(v, 'SideGripCoef2')
+    else:
+        thistyre = {
+            'life': get_key(v, 'MaxLife'),
+            'cliff': get_key(v, 'CliffThreshold'),
+            'startgrip': get_key(v, 'MaxGripRate'),
+            'cliffgrip': get_key(v, 'CliffGripRate'),
+            'mingrip': get_key(v, 'MinGripRate'),
+            'startside': get_key(v, 'MaxSideGripRate'),
+            'cliffside': get_key(v, 'CliffSideGripRate'),
+            'minside': get_key(v, 'MinSideGripRate'),
+            'frontsidecoef': get_key(v, 'SideGripCoef2'),
+            'resistcoef': get_key(v, 'ResistCoef'),
+            'resistsidecoef': get_key(v, 'ResistSideCoef')
+        }
+        tyres[type] = thistyre
+
+tyredata = {'tyres': tyres}
+write_table('core', 'tyre', tyredata)
+
+del tyredata
+
+# wanderer rumors
+t = load_table("other", "CDT_RivalReference")
+rumors = {}
+for k,v in t.items():
+    rumor = get_localized(v, 'Rumor')
+    if rumor == " " or get_key(v, 'IsValid') == False:
+        continue
+    rumors[k] = {
+        'name': get_localized(v, 'NickName'),
+        'rumor': rumor.replace(" without ", " with or without (uncertain due to translation error in-game) ")
+    }
+
+rumordata = {'rumors': rumors}
+write_table('rival', 'rumor', rumordata)

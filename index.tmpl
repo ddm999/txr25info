@@ -43,16 +43,40 @@
       <h2>NAVIGATION</h2>
       <a href="./cars.html">Detailed Car List</a><br>
       Detailed Rival List (WIP)<br>
-      Wanderer Requirements (WIP)<br>
+      <a href="./wanderers.html">Wanderer Rumors</a><br>
       <br>
       Achivements (WIP)<br>
       BAD Names (WIP)<br>
       Objectives (WIP)<br>
       Perk Tree (WIP)<br>
-      Tire Degradation (WIP)<br>
+      <a href="#tire">Tire Degradation</a><br>
       Tuning Parts (WIP)<br>
       Vinyls (WIP)<br>
       Wheels (WIP)<br>
+    </section>
+    <hr/>
+    <section id="tire">
+      <h2>TIRE DEGRADATION</h2>
+      <img src="graph/tyre.png"/>
+      #for $tyre in $tyres
+        <h3>$tyre</h3>
+        <p class="details">
+          <span id="key">Main grip:</span>
+          <span id="val">${round($tyres[tyre]['startgrip']*100)}%</span> at 0 use, 
+          <span id="val">${round($tyres[tyre]['cliffgrip']*100)}%</span> at <span id="val">${round($tyres[tyre]['cliff'])}</span> use, 
+          <span id="val">${round($tyres[tyre]['mingrip']*100)}%</span> at <span id="val">${round($tyres[tyre]['life'])}</span> use 
+          <br>
+          <span id="key">Side grip:</span>
+          <span id="val">${round($tyres[tyre]['startside']*100)}%</span> at 0 use, 
+          <span id="val">${round($tyres[tyre]['cliffside']*100)}%</span> at <span id="val">${round($tyres[tyre]['cliff'])}</span> use, 
+          <span id="val">${round($tyres[tyre]['minside']*100)}%</span> at <span id="val">${round($tyres[tyre]['life'])}</span> use
+          <br>
+          <span id="key">Main resistance:</span> <span id="val">${round($tyres[tyre]['resistcoef']*100)}%</span><br>
+          <span id="key">Side resistance:</span> <span id="val">${round($tyres[tyre]['resistsidecoef']*100)}%</span><br>
+          <br>
+          <span id="key">Front/rear side grip modifier:</span> <span id="val">${round($tyres[tyre]['frontsidecoef']*100)}%</span> (front) / <span id="val">${round($tyres[tyre]['rearsidecoef']*100)}%</span> (rear)<br>
+        </p>
+      #end for
     </section>
     <hr/>
     <footer>

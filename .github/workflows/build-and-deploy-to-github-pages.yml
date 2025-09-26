@@ -28,6 +28,9 @@ jobs:
       - name: Draw all powerunit graphs
         run: python3 graph_pu.py
 
+      - name: Draw tyre graph
+        run: python3 graph_tyre.py
+
       - name: Build site
         run: python3 build.py
 
