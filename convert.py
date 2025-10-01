@@ -224,14 +224,18 @@ del tyredata
 
 # wanderer rumors
 t = load_table("other", "CDT_RivalReference")
+without_fix = ['COMEDIC DISRUPTOR', 'SNOW DANCER', 'CHIC SPRINT', 'MR. N-TSUKA']
 rumors = {}
 for k,v in t.items():
     rumor = get_localized(v, 'Rumor')
     if rumor == " " or get_key(v, 'IsValid') == False:
         continue
+    name = get_localized(v, 'NickName')
+    if name in without_fix:
+        rumor = rumor.replace(" without ", " with ")
     rumors[k] = {
-        'name': get_localized(v, 'NickName'),
-        'rumor': rumor.replace(" without ", " with or without (uncertain due to translation error in-game) ")
+        'name': name,
+        'rumor': rumor
     }
 
 rumordata = {'rumors': rumors}
