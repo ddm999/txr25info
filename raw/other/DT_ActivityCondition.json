@@ -1,0 +1,209 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ActivityCondition",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'ActivitiyConditionData'",
+        "ObjectPath": "/Script/TokyoXtremeRacer"
+      }
+    },
+    "Rows": {
+      "T001001": {
+        "FinishActivity": [],
+        "StartActivity": [
+          "T001007",
+          "T001008",
+          "T001009"
+        ]
+      },
+      "T001007": {
+        "FinishActivity": [
+          "T001007"
+        ],
+        "StartActivity": []
+      },
+      "T001008": {
+        "FinishActivity": [
+          "T001008"
+        ],
+        "StartActivity": []
+      },
+      "T001009": {
+        "FinishActivity": [
+          "T001009"
+        ],
+        "StartActivity": []
+      },
+      "S000002": {
+        "FinishActivity": [],
+        "StartActivity": [
+          "L010003",
+          "R010002",
+          "N010005"
+        ]
+      },
+      "L010003": {
+        "FinishActivity": [
+          "L010003"
+        ],
+        "StartActivity": []
+      },
+      "R010002": {
+        "FinishActivity": [
+          "R010002"
+        ],
+        "StartActivity": []
+      },
+      "N010005": {
+        "FinishActivity": [
+          "N010005"
+        ],
+        "StartActivity": []
+      },
+      "S010001": {
+        "FinishActivity": [
+          "MainStage1"
+        ],
+        "StartActivity": []
+      },
+      "S010002": {
+        "FinishActivity": [],
+        "StartActivity": [
+          "L020007",
+          "R020003",
+          "S020001"
+        ]
+      },
+      "L020007": {
+        "FinishActivity": [
+          "L020007"
+        ],
+        "StartActivity": []
+      },
+      "R020003": {
+        "FinishActivity": [
+          "R020003"
+        ],
+        "StartActivity": []
+      },
+      "S020001": {
+        "FinishActivity": [
+          "S020001"
+        ],
+        "StartActivity": []
+      },
+      "S020002": {
+        "FinishActivity": [],
+        "StartActivity": [
+          "S020003"
+        ]
+      },
+      "S020003": {
+        "FinishActivity": [
+          "S020003",
+          "MainStage2"
+        ],
+        "StartActivity": [
+          "L030006",
+          "R030009",
+          "N030009"
+        ]
+      },
+      "S020004": {
+        "FinishActivity": [],
+        "StartActivity": []
+      },
+      "L030006": {
+        "FinishActivity": [
+          "L030006"
+        ],
+        "StartActivity": []
+      },
+      "R030009": {
+        "FinishActivity": [
+          "R030009"
+        ],
+        "StartActivity": []
+      },
+      "N030009": {
+        "FinishActivity": [
+          "N030009"
+        ],
+        "StartActivity": []
+      },
+      "S030001": {
+        "FinishActivity": [
+          "MainStage3"
+        ],
+        "StartActivity": [
+          "L040005",
+          "R040010",
+          "N040006"
+        ]
+      },
+      "L040005": {
+        "FinishActivity": [
+          "L040005"
+        ],
+        "StartActivity": []
+      },
+      "R040010": {
+        "FinishActivity": [
+          "R040010"
+        ],
+        "StartActivity": []
+      },
+      "N040006": {
+        "FinishActivity": [
+          "N040006"
+        ],
+        "StartActivity": []
+      },
+      "S040001": {
+        "FinishActivity": [
+          "MainStage4"
+        ],
+        "StartActivity": [
+          "L050003",
+          "R050003",
+          "N050003"
+        ]
+      },
+      "L050003": {
+        "FinishActivity": [
+          "L050003"
+        ],
+        "StartActivity": [
+          "S050002"
+        ]
+      },
+      "R050003": {
+        "FinishActivity": [
+          "R050003"
+        ],
+        "StartActivity": []
+      },
+      "N050003": {
+        "FinishActivity": [
+          "N050003"
+        ],
+        "StartActivity": []
+      },
+      "S050002": {
+        "FinishActivity": [
+          "S050002"
+        ],
+        "StartActivity": []
+      },
+      "S050003": {
+        "FinishActivity": [
+          "MainStage5"
+        ],
+        "StartActivity": []
+      }
+    }
+  }
+]

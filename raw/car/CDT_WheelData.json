@@ -1290,7 +1290,7 @@
           "TableId": "/Game/ITSB/UI/StringTable/ST_wheel.ST_wheel",
           "Key": "Wheel_031",
           "SourceString": "CVX",
-          "LocalizedString": "GNOSIS CV CVX"
+          "LocalizedString": "GNOSIS CVX"
         },
         "maker_name_28_50C5276A400F47742812DAB62886842A": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_wheelmaker.ST_wheelmaker",
@@ -1389,7 +1389,7 @@
           "TableId": "/Game/ITSB/UI/StringTable/ST_wheel.ST_wheel",
           "Key": "Wheel_035",
           "SourceString": "FMB02",
-          "LocalizedString": "GNOSIS FMB FMB02"
+          "LocalizedString": "GNOSIS FMB02"
         },
         "maker_name_28_50C5276A400F47742812DAB62886842A": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_wheelmaker.ST_wheelmaker",
@@ -1521,7 +1521,7 @@
           "TableId": "/Game/ITSB/UI/StringTable/ST_wheel.ST_wheel",
           "Key": "Wheel_043",
           "SourceString": "NT03RR",
-          "LocalizedString": "RacingRevolution NT03RR"
+          "LocalizedString": "Racing Revolution NTR03RR"
         },
         "maker_name_28_50C5276A400F47742812DAB62886842A": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_wheelmaker.ST_wheelmaker",
@@ -1554,7 +1554,7 @@
           "TableId": "/Game/ITSB/UI/StringTable/ST_wheel.ST_wheel",
           "Key": "Wheel_044",
           "SourceString": "RMF1",
-          "LocalizedString": "RacingRevolution RM-F1"
+          "LocalizedString": "Racing Revolution RM-F1"
         },
         "maker_name_28_50C5276A400F47742812DAB62886842A": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_wheelmaker.ST_wheelmaker",
@@ -1851,7 +1851,7 @@
           "TableId": "/Game/ITSB/UI/StringTable/ST_wheel.ST_wheel",
           "Key": "Wheel_084",
           "SourceString": "EXPAND",
-          "LocalizedString": "EXPAND EXPAND"
+          "LocalizedString": "EXPAND"
         },
         "maker_name_28_50C5276A400F47742812DAB62886842A": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_wheelmaker.ST_wheelmaker",
@@ -1884,7 +1884,7 @@
           "TableId": "/Game/ITSB/UI/StringTable/ST_wheel.ST_wheel",
           "Key": "Wheel_066",
           "SourceString": "GTX01RS",
-          "LocalizedString": "GT GTX01RS"
+          "LocalizedString": "GTX01RS"
         },
         "maker_name_28_50C5276A400F47742812DAB62886842A": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_wheelmaker.ST_wheelmaker",

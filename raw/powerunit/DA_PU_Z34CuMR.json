@@ -50,7 +50,8 @@
                 33.0,
                 30.0
               ],
-              "MaxTorqueCoef": 0.74
+              "MaxTorqueCoef": 0.74,
+              "VTECrpm": 0
             }
           },
           {
@@ -91,7 +92,8 @@
                 33.19,
                 30.17
               ],
-              "MaxTorqueCoef": 0.74
+              "MaxTorqueCoef": 0.74,
+              "VTECrpm": 0
             }
           },
           {
@@ -132,7 +134,8 @@
                 34.22,
                 31.11
               ],
-              "MaxTorqueCoef": 0.74
+              "MaxTorqueCoef": 0.74,
+              "VTECrpm": 0
             }
           },
           {
@@ -173,7 +176,8 @@
                 34.76,
                 31.6
               ],
-              "MaxTorqueCoef": 0.74
+              "MaxTorqueCoef": 0.74,
+              "VTECrpm": 0
             }
           },
           {
@@ -214,7 +218,8 @@
                 35.77,
                 32.52
               ],
-              "MaxTorqueCoef": 0.74
+              "MaxTorqueCoef": 0.74,
+              "VTECrpm": 0
             }
           },
           {
@@ -255,7 +260,8 @@
                 38.63,
                 35.12
               ],
-              "MaxTorqueCoef": 0.74
+              "MaxTorqueCoef": 0.74,
+              "VTECrpm": 0
             }
           },
           {
@@ -296,7 +302,8 @@
                 40.89,
                 37.17
               ],
-              "MaxTorqueCoef": 0.74
+              "MaxTorqueCoef": 0.74,
+              "VTECrpm": 0
             }
           },
           {
@@ -338,7 +345,8 @@
                 40.18,
                 32.15
               ],
-              "MaxTorqueCoef": 0.74
+              "MaxTorqueCoef": 0.74,
+              "VTECrpm": 0
             }
           },
           {
@@ -381,7 +389,8 @@
                 37.84,
                 30.27
               ],
-              "MaxTorqueCoef": 0.74
+              "MaxTorqueCoef": 0.74,
+              "VTECrpm": 0
             }
           },
           {
@@ -424,7 +433,8 @@
                 40.13,
                 32.1
               ],
-              "MaxTorqueCoef": 0.74
+              "MaxTorqueCoef": 0.74,
+              "VTECrpm": 0
             }
           }
         ],
