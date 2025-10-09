@@ -2,6 +2,7 @@ car = ITSB/UI/Car
 emblem = ITSB/UI/Emblem/Textures
 map = ITSB/UI/OutGame/Map/Textures
 numplate = ITSB/UI/OutGame/NumberPlate/Textures
+people = ITSB/UI/People/Textures
 wheel = ITSB/UI/Wheel
 
 others:

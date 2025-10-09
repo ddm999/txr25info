@@ -4545,8 +4545,8 @@
         "Condition_0": {
           "Namespace": "",
           "Key": "3081A6D74210FB31471671AE53BA7327",
-          "SourceString": "4",
-          "LocalizedString": "4"
+          "SourceString": "3",
+          "LocalizedString": "3"
         },
         "Condition_1": {
           "Namespace": "",
@@ -4606,8 +4606,8 @@
         "Condition_0": {
           "Namespace": "DT_Objective1",
           "Key": "R030002_Condition_0",
-          "SourceString": "4",
-          "LocalizedString": "4"
+          "SourceString": "3",
+          "LocalizedString": "3"
         },
         "Condition_1": {
           "Namespace": "DT_Objective1",
@@ -4667,8 +4667,8 @@
         "Condition_0": {
           "Namespace": "",
           "Key": "8A03DFFE45BBF074B275198943109B75",
-          "SourceString": "4",
-          "LocalizedString": "4"
+          "SourceString": "3",
+          "LocalizedString": "3"
         },
         "Condition_1": {
           "Namespace": "",
@@ -4924,9 +4924,11 @@
         "ClearCheckType": "ERivalAppearanceConditionCheckType::AND",
         "ClearTargetType": "EObjectiveClearTargetType::Objective",
         "ClearTargetRivals": [
-          "R030003"
+          "R030003_0",
+          "R030003_2",
+          "R030003_3"
         ],
-        "ClearORxNeedNum": 1,
+        "ClearORxNeedNum": 3,
         "DeletedGroupsOnClear": [],
         "ClearedNextScene": "EJumpScene::None",
         "NotClearNextScene": "EJumpScene::None",
@@ -4974,7 +4976,7 @@
         },
         "AppearanceCheckType": "ERivalAppearanceConditionCheckType::AND",
         "AppearanceTargetObjectives": [
-          "R030003"
+          "R030004"
         ],
         "AppearanceORxNeedNum": 1,
         "ClearCheckType": "ERivalAppearanceConditionCheckType::AND",
@@ -5030,7 +5032,7 @@
         },
         "AppearanceCheckType": "ERivalAppearanceConditionCheckType::AND",
         "AppearanceTargetObjectives": [
-          "R030003"
+          "R030004"
         ],
         "AppearanceORxNeedNum": 1,
         "ClearCheckType": "ERivalAppearanceConditionCheckType::AND",
@@ -5086,7 +5088,7 @@
         },
         "AppearanceCheckType": "ERivalAppearanceConditionCheckType::AND",
         "AppearanceTargetObjectives": [
-          "R030003"
+          "R030004"
         ],
         "AppearanceORxNeedNum": 1,
         "ClearCheckType": "ERivalAppearanceConditionCheckType::AND",
@@ -6002,7 +6004,10 @@
           "LocalizedString": "3"
         },
         "Condition_1": {
-          "CultureInvariantString": null
+          "Namespace": "",
+          "Key": "C0A84DDE4FB1AFAB63E99387AEBED17A",
+          "SourceString": "3",
+          "LocalizedString": "3"
         },
         "AppearanceCheckType": "ERivalAppearanceConditionCheckType::AND",
         "AppearanceTargetObjectives": [
@@ -7548,7 +7553,7 @@
         "GarageBonusCpPrizeType": "ERacePrizeCpType::None",
         "GarageBonusPpWhenCleared": 0,
         "GarageBonusPpPrizeType": "ERacePrizeCpType::None",
-        "StagesThatChangeWhenCleared": "EStoryStage::Stage5"
+        "StagesThatChangeWhenCleared": "EStoryStage::None"
       },
       "S040001": {
         "MyGroup": "S004G02",

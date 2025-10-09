@@ -1,0 +1,60 @@
+### ConditionType MT_One
+
+MT_None - can't be achieved. gets set by other code (license plate handler)
+
+### ConditionType MT_Two
+
+MT_BattleTime1 - recent battle time faster than <ComparisonValue_01> ms (assumed)
+MT_BattleTime2 - average battle time slower than <ComparisonValue_01> seconds
+MT_MaxSpeed - max speed over <ComparisonValue_01> kph
+MT_TotalCP - total CP earnt above <ComparisonValue_01> × 10,000 (? needs further testing)
+MT_LostCP - total CP spent above <ComparisonValue_01> × 10,000 (? needs further testing)
+MT_HighestWinningStreak - best win streak above <ComparisonValue_01>
+MT_AverageContactNumber1 - car contact below <ComparisonValue_01> (unknown units)
+MT_AverageWallContact1 - wall contact below <ComparisonValue_01> (unknown units)
+MT_WinRate - win %age above <ComparisonValue_01>
+MT_AverageContactNumber2 - car contact above <ComparisonValue_01> (unknown units)
+MT_AverageWallContact2 - wall contact above <ComparisonValue_01> (unknown units)
+MT_TotalDistanceTraveled - distance travelled above <ComparisonValue_01> (unknown units)
+
+### ConditionType MT_Three
+
+MT_MrPerfect - 
+MT_UltimateUnsinkableShip - 
+MT_DriverOfCarModel - 
+MT_RidersOfTheCar - 
+MT_PA_Resident - 
+MT_PA_Regulars - 
+MT_ForOnePerson - 
+MT_HalfMan - 
+MT_OilTycoon - 
+MT_Spendthrift - spend more than <ComparisonValue_01>×4000 (?) in one garage sitting (? needs further testing)
+MT_TuneMastersSponsor - 
+MT_MasterTunesClient - 
+MT_TunersMavens -
+MT_OutlawWhoBreaksTheLaw - driving the wrong way, comparison unknown
+MT_LoveAndPeace - 
+MT_OnTheRoadTraining - 
+MT_Loser - <ComparisonValue_02> of the last <ComparisonValue_01> battles were losses (? needs further testing)
+MT_Sokushinbutsu - 
+MT_UFO - 
+MT_BariBari - 
+MT_FirstOftheWeek - <ComparisonValue_01> battles (maybe wins?) on Monday or Tuesday (? needs further testing)
+MT_MidWeek - <ComparisonValue_01> battles (maybe wins?) on Wednesday or Thursday (? needs further testing)
+MT_Friday - <ComparisonValue_01> battles (maybe wins?) on Friday (? needs further testing)
+MT_OnTheWeekend - <ComparisonValue_01> battles (maybe wins?) on Saturday or Sunday (? needs further testing)
+MT_TheObsessiveChaser - 
+MT_Tourists - 
+MT_IncarnationOfHighway - 
+MT_LegendaryScribbler - 
+
+### ConditionType MT_Four
+
+MT_RivalTeams - using <ComparisonValue_05> car with the <ComparisonValue_06> emblem vinyl
+MT_LoserToSpecialRivals - drive car <ComparisonValue_05> with <ComparisonValue_06> emblem vinyl ~~having repeatedly lost to Revenge Eyes, Unrivaled Emperor and/or Unknown~~ (? needs further testing)
+                          apparently the way to actually get this is to NG+ and lose to the tutorial rival? again, needs further testing
+
+MT_WinsSpecialRivals_01 - drive car <ComparisonValue_05> with <ComparisonValue_06> emblem vinyl having beaten Revenge Eyes (? needs further testing)
+MT_WinsSpecialRivals_02 - drive car <ComparisonValue_05> with <ComparisonValue_06> emblem vinyl having beaten Unrivaled Emperor (? needs further testing)
+MT_WinsSpecialRivals_03 - drive car <ComparisonValue_05> with <ComparisonValue_06> emblem vinyl having beaten Unknown (? needs further testing)
+MT_Aura - drive car with <ComparisonValue_06> aura

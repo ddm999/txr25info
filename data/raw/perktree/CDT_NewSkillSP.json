@@ -420,8 +420,8 @@
         "Detail": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
           "Key": "Str_UI_Tree_skill_71_t",
-          "SourceString": "連続SPバトルの際、新たなライバルとのバトル開始時に、\r\nSPゲージが {%V00}% 回復する。",
-          "LocalizedString": "In consecutive SP Battles, recover {%V00}% SP at the start of a new rival battle."
+          "SourceString": "連続SPバトルの際、新たなライバルとのバトル開始時に、\r\nSPゲージが {%V00}% まで回復する。",
+          "LocalizedString": "In consecutive SP Battles, recover {%V00}% to SP at the start of a new rival battle."
         },
         "LockedText": {
           "CultureInvariantString": null
@@ -465,8 +465,8 @@
         "Detail": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
           "Key": "Str_UI_Tree_skill_72_t",
-          "SourceString": "連続SPバトルの際、新たなライバルとのバトル開始時に、\r\nSPゲージが {%V00}% 回復する。",
-          "LocalizedString": "In consecutive SP Battles, recover {%V00}% SP at the start of a new rival battle."
+          "SourceString": "連続SPバトルの際、新たなライバルとのバトル開始時に、\r\nSPゲージが {%V00}% まで回復する。",
+          "LocalizedString": "In consecutive SP Battles, recover {%V00}% to SP at the start of a new rival battle."
         },
         "LockedText": {
           "CultureInvariantString": null
@@ -512,8 +512,8 @@
         "Detail": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
           "Key": "Str_UI_Tree_skill_73_t",
-          "SourceString": "連続SPバトルの際、新たなライバルとのバトル開始時に、\r\nSPゲージが {%V00}% 回復する。",
-          "LocalizedString": "In consecutive SP Battles, recover {%V00}% SP at the start of a new rival battle."
+          "SourceString": "連続SPバトルの際、新たなライバルとのバトル開始時に、\r\nSPゲージが {%V00}% まで回復する。",
+          "LocalizedString": "In consecutive SP Battles, recover {%V00}% to SP at the start of a new rival battle."
         },
         "LockedText": {
           "CultureInvariantString": null
@@ -1287,8 +1287,8 @@
         "Detail": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
           "Key": "Str_UI_Tree_skill_74_t",
-          "SourceString": "連続SPバトルの際、新たなライバルとのバトル開始時に、\r\nSPゲージが {%V00}% 回復する。",
-          "LocalizedString": "In consecutive SP Battles, recover {%V00}% SP at the start of a new rival battle."
+          "SourceString": "連続SPバトルの際、新たなライバルとのバトル開始時に、\r\nSPゲージが {%V00}% まで回復する。",
+          "LocalizedString": "In consecutive SP Battles, recover {%V00}% to SP at the start of a new rival battle."
         },
         "LockedText": {
           "CultureInvariantString": null
@@ -1334,8 +1334,8 @@
         "Detail": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
           "Key": "Str_UI_Tree_skill_75_t",
-          "SourceString": "連続SPバトルの際、新たなライバルとのバトル開始時に、\r\nSPゲージが {%V00}% 回復する。",
-          "LocalizedString": "In consecutive SP Battles, recover {%V00}% SP at the start of a new rival battle."
+          "SourceString": "連続SPバトルの際、新たなライバルとのバトル開始時に、\r\nSPゲージが {%V00}% まで回復する。",
+          "LocalizedString": "In consecutive SP Battles, recover {%V00}% to SP at the start of a new rival battle."
         },
         "LockedText": {
           "CultureInvariantString": null
