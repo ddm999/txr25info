@@ -25,7 +25,7 @@ MT_DriverOfCarModel -
 MT_RidersOfTheCar - 
 MT_PA_Resident - 
 MT_PA_Regulars - 
-MT_ForOnePerson - 
+MT_ForOnePerson - only challenge the same rival (?) for the last <ComparisonValue_01> battles?
 MT_HalfMan - 
 MT_OilTycoon - 
 MT_Spendthrift - spend more than <ComparisonValue_01>×4000 (?) in one garage sitting (? needs further testing)
@@ -36,7 +36,7 @@ MT_OutlawWhoBreaksTheLaw - driving the wrong way, comparison unknown
 MT_LoveAndPeace - 
 MT_OnTheRoadTraining - 
 MT_Loser - <ComparisonValue_02> of the last <ComparisonValue_01> battles were losses (? needs further testing)
-MT_Sokushinbutsu - 
+MT_Sokushinbutsu - <ComparisonValue_01>% (?) of your time outside battle during the last day was sat still (? needs further testing, maybe requires beating rivals)
 MT_UFO - 
 MT_BariBari - 
 MT_FirstOftheWeek - <ComparisonValue_01> battles (maybe wins?) on Monday or Tuesday (? needs further testing)
