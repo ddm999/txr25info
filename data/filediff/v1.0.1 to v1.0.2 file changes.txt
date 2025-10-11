@@ -1,0 +1,112 @@
+﻿Folder Compare
+Produced: 11/10/2025 03:41:04
+
+Mode:  Differences
+Left base folder: E:\FModel\Retoc5.6\v1.0.1
+Right base folder: E:\FModel\Retoc5.6\v1.0.2
+
+Left Orphan Files (0)                                                                                       Size       Modified
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Right Orphan Files (0)                                                                                      Size       Modified
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Left Newer Files (0)                                                                                        Size       Modified
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Right Newer Files (45)                                                                                      Size       Modified
+------------------------------------------------------------------------------------------------------------------------------------------
+0\TokyoXtremeRacer\Content\ITSB\ArtAssets\Models\PA\Level\L_PAdaikoku_00.umap                                  738,152 11/10/2025 00:56:19
+                                                                                                               738,474 11/10/2025 01:10:23
+0\TokyoXtremeRacer\Content\ITSB\ArtAssets\Models\PA\Level\L_PAhakozaki_00.umap                                 159,527 11/10/2025 01:01:04
+                                                                                                               159,527 11/10/2025 01:09:34
+0\TokyoXtremeRacer\Content\ITSB\ArtAssets\Models\PA\Level\L_PAheiwa_00.umap                                  1,110,910 11/10/2025 01:01:49
+                                                                                                             1,110,910 11/10/2025 01:07:51
+0\TokyoXtremeRacer\Content\ITSB\ArtAssets\Models\PA\Level\L_PAheiwaUP_00.umap                                  328,970 11/10/2025 00:56:14
+                                                                                                               328,970 11/10/2025 01:13:38
+0\TokyoXtremeRacer\Content\ITSB\ArtAssets\Models\PA\Level\L_PAshibaura_00.umap                                 237,890 11/10/2025 01:01:05
+                                                                                                               237,890 11/10/2025 01:09:43
+0\TokyoXtremeRacer\Content\ITSB\ArtAssets\Models\PA\Level\L_PAtatsumi_00.umap                                  295,291 11/10/2025 00:57:21
+                                                                                                               295,291 11/10/2025 01:08:24
+0\TokyoXtremeRacer\Content\ITSB\AutoDrive\BTLogicAssets\BTService_PtoPCorrectedProcessInput.uasset              37,165 11/10/2025 00:54:54
+                                                                                                                37,718 11/10/2025 01:07:34
+0\TokyoXtremeRacer\Content\ITSB\Core\BadName\ConditionTable\CDT_Condition_04.uasset                             34,221 11/10/2025 01:01:27
+                                                                                                                34,219 11/10/2025 01:11:20
+0\TokyoXtremeRacer\Content\ITSB\Core\BadName\ConditionTable\DT_Condition_04_1.uasset                            29,981 11/10/2025 00:58:55
+                                                                                                                29,979 11/10/2025 01:07:24
+0\TokyoXtremeRacer\Content\ITSB\Core\Quest\CDT_Objective.uasset                                                 51,379 11/10/2025 01:01:48
+                                                                                                                51,438 11/10/2025 01:06:27
+0\TokyoXtremeRacer\Content\ITSB\Core\Quest\CDT_VinylSticker.uasset                                             364,322 11/10/2025 00:58:21
+                                                                                                               364,322 11/10/2025 01:13:05
+0\TokyoXtremeRacer\Content\ITSB\Core\Quest\DT_Objective1.uasset                                                 31,330 11/10/2025 01:01:53
+                                                                                                                31,389 11/10/2025 01:06:59
+0\TokyoXtremeRacer\Content\ITSB\Core\Quest\DT_VinylSticker1.uasset                                             126,478 11/10/2025 00:56:14
+                                                                                                               126,478 11/10/2025 01:10:24
+0\TokyoXtremeRacer\Content\ITSB\Core\Race\Battle\BP_BattleManager.uasset                                       406,990 11/10/2025 01:01:36
+                                                                                                               407,044 11/10/2025 01:09:25
+0\TokyoXtremeRacer\Content\ITSB\Core\Race\BP_RaceManager.uasset                                                653,835 11/10/2025 00:56:19
+                                                                                                               654,212 11/10/2025 01:11:50
+0\TokyoXtremeRacer\Content\ITSB\Core\Rival\CDT_RivalInfo.uasset                                                390,626 11/10/2025 01:00:11
+                                                                                                               390,626 11/10/2025 01:08:04
+0\TokyoXtremeRacer\Content\ITSB\Core\Rival\DT_RivalInfo1.uasset                                                207,180 11/10/2025 01:01:14
+                                                                                                               207,180 11/10/2025 01:07:37
+0\TokyoXtremeRacer\Content\ITSB\Core\BP_OutGameMode.uasset                                                     196,391 11/10/2025 01:00:32
+                                                                                                               196,400 11/10/2025 01:11:06
+0\TokyoXtremeRacer\Content\ITSB\Core\BP_RaceGameMode.uasset                                                    548,992 11/10/2025 01:01:09
+                                                                                                               548,894 11/10/2025 01:09:08
+0\TokyoXtremeRacer\Content\ITSB\Core\BPFL_Game.uasset                                                          630,711 11/10/2025 00:59:53
+                                                                                                               630,715 11/10/2025 01:10:51
+0\TokyoXtremeRacer\Content\ITSB\Maps\Course\Production\L_Shutoko_WP.umap                                    24,922,141 11/10/2025 00:55:30
+                                                                                                            24,922,117 11/10/2025 01:06:34
+0\TokyoXtremeRacer\Content\ITSB\UI\Common\Widgets\WBP_Com_Panel_Button_Item.uasset                             173,035 11/10/2025 01:03:14
+                                                                                                               174,236 11/10/2025 01:07:33
+0\TokyoXtremeRacer\Content\ITSB\UI\InGame\Pause\Widgets\WBP_InGame_Pause.uasset                                 59,866 11/10/2025 00:58:45
+                                                                                                                59,106 11/10/2025 01:13:24
+0\TokyoXtremeRacer\Content\ITSB\UI\OutGame\Driver\DataTable\PerkTree\Skill\CDT_NewSkillATK.uasset                7,889 11/10/2025 00:58:45
+                                                                                                                 7,889 11/10/2025 01:07:04
+0\TokyoXtremeRacer\Content\ITSB\UI\OutGame\Driver\DataTable\PerkTree\Skill\CDT_NewSkillDEF.uasset                7,849 11/10/2025 01:01:52
+                                                                                                                 7,849 11/10/2025 01:10:26
+0\TokyoXtremeRacer\Content\ITSB\UI\OutGame\Driver\DataTable\PerkTree\Skill\DT_NewSkillATK0.uasset                5,486 11/10/2025 01:01:33
+                                                                                                                 5,486 11/10/2025 01:06:53
+0\TokyoXtremeRacer\Content\ITSB\UI\OutGame\Driver\DataTable\PerkTree\Skill\DT_NewSkillATK1.uasset                3,594 11/10/2025 01:02:37
+                                                                                                                 3,594 11/10/2025 01:10:37
+0\TokyoXtremeRacer\Content\ITSB\UI\OutGame\Driver\DataTable\PerkTree\Skill\DT_NewSkillDEF0.uasset                5,462 11/10/2025 01:00:12
+                                                                                                                 5,462 11/10/2025 01:07:23
+0\TokyoXtremeRacer\Content\ITSB\UI\OutGame\Driver\DataTable\PerkTree\Skill\DT_NewSkillDEF1.uasset                3,602 11/10/2025 01:02:09
+                                                                                                                 3,602 11/10/2025 01:11:11
+0\TokyoXtremeRacer\Content\ITSB\UI\OutGame\Map\Widget\WBP_OutGame_Map.uasset                                   484,500 11/10/2025 00:56:29
+                                                                                                               488,151 11/10/2025 01:06:35
+0\TokyoXtremeRacer\Content\ITSB\UI\OutGame\Map\Widget\WBP_OutGame_Map_List_Objective.uasset                     35,247 11/10/2025 01:02:54
+                                                                                                                36,544 11/10/2025 01:09:25
+0\TokyoXtremeRacer\Content\ITSB\UI\OutGame\Map\Widget\WBP_OutGame_Map_List_Objective_Element.uasset             37,752 11/10/2025 00:55:38
+                                                                                                                30,783 11/10/2025 01:09:27
+0\TokyoXtremeRacer\Content\ITSB\UI\OutGame\Map\Widget\WBP_OutGame_Map_List_Objective_Element_Content.uasset    110,518 11/10/2025 01:03:06
+                                                                                                               108,583 11/10/2025 01:09:43
+0\TokyoXtremeRacer\Content\ITSB\UI\OutGame\Map\Widget\WBP_OutGame_Map_List_Objective_Rival.uasset               41,427 11/10/2025 01:02:57
+                                                                                                                40,503 11/10/2025 01:11:12
+0\TokyoXtremeRacer\Content\ITSB\UI\OutGame\Map\Widget\WBP_OutGame_Map_List_Objective_Rival_Element.uasset       27,903 11/10/2025 00:58:45
+                                                                                                                26,292 11/10/2025 01:10:48
+0\TokyoXtremeRacer\Content\ITSB\UI\OutGame\Map\Widget\WBP_OutGame_Map_List_Rival.uasset                         36,778 11/10/2025 01:01:35
+                                                                                                                37,052 11/10/2025 01:10:39
+0\TokyoXtremeRacer\Content\ITSB\UI\OutGame\Map\Widget\WBP_OutGame_Map_Symbol.uasset                            154,270 11/10/2025 00:54:53
+                                                                                                               149,273 11/10/2025 01:09:29
+0\TokyoXtremeRacer\Content\ITSB\UI\OutGame\Map\Widget\WBP_OutGame_Map_Symbol_Rival.uasset                      310,082 11/10/2025 00:55:09
+                                                                                                               302,028 11/10/2025 01:07:20
+0\TokyoXtremeRacer\Content\ITSB\UI\OutGame\Map\Widget\WBP_OutGame_Map_View.uasset                               12,506 11/10/2025 01:02:14
+                                                                                                                12,518 11/10/2025 01:06:27
+0\TokyoXtremeRacer\Content\ITSB\UI\OutGame\Map\Widget\WBP_OutGame_MapRoot.uasset                                66,544 11/10/2025 00:56:52
+                                                                                                                66,703 11/10/2025 01:12:20
+0\TokyoXtremeRacer\Content\ITSB\UI\StringTable\ST_box_summary.uasset                                            70,539 11/10/2025 00:56:04
+                                                                                                                70,559 11/10/2025 01:07:34
+0\TokyoXtremeRacer\Content\ShaderArchive-TokyoXtremeRacer_Chunk0-PCD3D_SM5-PCD3D_SM5.ushaderbytecode           246,528 11/10/2025 01:01:34
+                                                                                                               246,528 11/10/2025 01:07:34
+0\TokyoXtremeRacer\Content\ShaderArchive-TokyoXtremeRacer_Chunk0-PCD3D_SM6-PCD3D_SM6.ushaderbytecode           295,428 11/10/2025 00:57:28
+                                                                                                               295,428 11/10/2025 01:08:15
+1\ShaderArchive-TokyoXtremeRacer_Chunk1-PCD3D_SM5-PCD3D_SM5.ushaderbytecode                                      5,508 11/10/2025 01:05:03
+                                                                                                                 5,508 11/10/2025 01:14:56
+1\ShaderArchive-TokyoXtremeRacer_Chunk1-PCD3D_SM6-PCD3D_SM6.ushaderbytecode                                      7,416 11/10/2025 01:05:32
+                                                                                                                 7,416 11/10/2025 01:15:37
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Difference Files (0)                                                                                        Size       Modified
+------------------------------------------------------------------------------------------------------------------------------------------

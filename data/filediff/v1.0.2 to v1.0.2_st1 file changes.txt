@@ -1,0 +1,48 @@
+﻿Folder Compare
+Produced: 11/10/2025 04:22:51
+
+Mode:  Differences
+Left base folder: E:\FModel\Retoc5.6\v1.0.2
+Right base folder: E:\FModel\Retoc5.6\v1.0.2_st1
+
+Left Orphan Files (0)                                                                                Size       Modified
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Right Orphan Files (0)                                                                               Size       Modified
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Left Newer Files (0)                                                                                 Size       Modified
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Right Newer Files (13)                                                                               Size       Modified
+-----------------------------------------------------------------------------------------------------------------------------------
+0\TokyoXtremeRacer\Content\ITSB\ArtAssets\Models\PA\Level\L_PAdaikoku_00.umap                           738,474 11/10/2025 01:10:23
+                                                                                                        738,293 11/10/2025 01:30:41
+0\TokyoXtremeRacer\Content\ITSB\ArtAssets\Models\PA\Level\L_PAhakozaki_00.umap                          159,527 11/10/2025 01:09:34
+                                                                                                        159,527 11/10/2025 01:31:33
+0\TokyoXtremeRacer\Content\ITSB\ArtAssets\Models\PA\Level\L_PAheiwa_00.umap                           1,110,910 11/10/2025 01:07:51
+                                                                                                      1,110,910 11/10/2025 01:28:35
+0\TokyoXtremeRacer\Content\ITSB\ArtAssets\Models\PA\Level\L_PAheiwaUP_00.umap                           328,970 11/10/2025 01:13:38
+                                                                                                        328,970 11/10/2025 01:32:09
+0\TokyoXtremeRacer\Content\ITSB\ArtAssets\Models\PA\Level\L_PAshibaura_00.umap                          237,890 11/10/2025 01:09:43
+                                                                                                        237,890 11/10/2025 01:27:48
+0\TokyoXtremeRacer\Content\ITSB\ArtAssets\Models\PA\Level\L_PAtatsumi_00.umap                           295,291 11/10/2025 01:08:24
+                                                                                                        295,291 11/10/2025 01:28:58
+0\TokyoXtremeRacer\Content\ITSB\Core\Quest\CDT_VinylSticker.uasset                                      364,322 11/10/2025 01:13:05
+                                                                                                        364,386 11/10/2025 01:34:26
+0\TokyoXtremeRacer\Content\ITSB\Core\Quest\DT_VinylSticker1.uasset                                      126,478 11/10/2025 01:10:24
+                                                                                                        126,542 11/10/2025 01:29:37
+0\TokyoXtremeRacer\Content\ITSB\Maps\Course\Production\L_Shutoko_WP.umap                             24,922,117 11/10/2025 01:06:34
+                                                                                                     24,922,141 11/10/2025 01:33:31
+0\TokyoXtremeRacer\Content\ShaderArchive-TokyoXtremeRacer_Chunk0-PCD3D_SM5-PCD3D_SM5.ushaderbytecode    246,528 11/10/2025 01:07:34
+                                                                                                        246,528 11/10/2025 01:32:17
+0\TokyoXtremeRacer\Content\ShaderArchive-TokyoXtremeRacer_Chunk0-PCD3D_SM6-PCD3D_SM6.ushaderbytecode    295,428 11/10/2025 01:08:15
+                                                                                                        295,428 11/10/2025 01:28:58
+1\ShaderArchive-TokyoXtremeRacer_Chunk1-PCD3D_SM5-PCD3D_SM5.ushaderbytecode                               5,508 11/10/2025 01:14:56
+                                                                                                          5,508 11/10/2025 01:35:55
+1\ShaderArchive-TokyoXtremeRacer_Chunk1-PCD3D_SM6-PCD3D_SM6.ushaderbytecode                               7,416 11/10/2025 01:15:37
+                                                                                                          7,408 11/10/2025 01:35:27
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Difference Files (0)                                                                                 Size       Modified
+-----------------------------------------------------------------------------------------------------------------------------------
