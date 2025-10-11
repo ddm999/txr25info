@@ -52326,7 +52326,16 @@
         "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
         "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
         "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
-        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [
+          "Daihatsu",
+          "Mazda",
+          "Mitsubishi",
+          "Subaru",
+          "Suzuki",
+          "Toyota",
+          "Honda",
+          "LEXUS"
+        ],
         "team_61_3CD26FAC48982E9ABE897582071A61D2": "None",
         "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": false,
         "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
