@@ -69,6 +69,16 @@
           "ID": 0,
           "BasicThinkings": [
             {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 3.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_BigDown",
+              "EffectTimeSecond": 0.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": -1
+            },
+            {
               "Condition": "ERivalBasicConditionPatterns::RBCP_BattleStartSecond",
               "ConditionValue": 0.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
@@ -82,19 +92,19 @@
               "Condition": "ERivalBasicConditionPatterns::RBCP_SpeedSlower",
               "ConditionValue": 55.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
-              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "SpecEffect": "ERivalSpecEffect::RSE_MiddleUp",
               "EffectTimeSecond": 10.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 2.0,
+          "TargetSpeedModifier": 1.5,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
           "DriftPreference": "ERivalDriftPreference::RDP_Normal",
-          "MaxTargetSpeedKmh": -1.0,
+          "MaxTargetSpeedKmh": 250.0,
           "bIsNoLimitTargetSpeedForBehind": false
         },
         "bIsOverrideOnBattleEvaluationOrder": false,
@@ -104,9 +114,9 @@
         "RubberBandType": "Default",
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
-        "LaneChangeRule": "車線中央のみ",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 3.0,
+        "LaneChangeRule": "弱/車線中央のみ",
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -122,14 +132,14 @@
               "Condition": "ERivalBasicConditionPatterns::RBCP_SpeedSlower",
               "ConditionValue": 55.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
-              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "SpecEffect": "ERivalSpecEffect::RSE_MiddleUp",
               "EffectTimeSecond": 10.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.3,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -141,12 +151,12 @@
         "OverrideOnBattleEvaluationOrderName": "None",
         "bIsOverrideOnCrusingEvaluationOrder": false,
         "OverrideOnCrusingEvaluationOrderName": "None",
-        "RubberBandType": "Default",
+        "RubberBandType": "NoMercy_01",
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
-        "LaneChangeRule": "弱/車線中央のみ",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "LaneChangeRule": "車線中央のみ",
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -162,14 +172,14 @@
               "Condition": "ERivalBasicConditionPatterns::RBCP_SpeedSlower",
               "ConditionValue": 55.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
-              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "SpecEffect": "ERivalSpecEffect::RSE_MiddleUp",
               "EffectTimeSecond": 10.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.3,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -181,19 +191,19 @@
         "OverrideOnBattleEvaluationOrderName": "None",
         "bIsOverrideOnCrusingEvaluationOrder": false,
         "OverrideOnCrusingEvaluationOrderName": "None",
-        "RubberBandType": "Default",
+        "RubberBandType": "NoMercy_01",
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
-        "LaneChangeRule": "弱/車線中央のみ",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "LaneChangeRule": "車線中央のみ",
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
-        "BrakeUpDownSensitive": 2.0
+        "BrakeUpDownSensitive": 1.7
       },
       "Tut_0002": {
         "Memo": "破竹のチャレンジャー",
-        "ParameterTemplateName": "Default",
+        "ParameterTemplateName": "None",
         "bIsOverrideBattleParameter": true,
         "OverrideBattleParameter": {
           "ID": 0,
@@ -202,7 +212,7 @@
               "Condition": "ERivalBasicConditionPatterns::RBCP_SpeedSlower",
               "ConditionValue": 55.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
-              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "SpecEffect": "ERivalSpecEffect::RSE_MiddleUp",
               "EffectTimeSecond": 10.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
@@ -217,9 +227,19 @@
               "bIsBreakOnSuccess": false,
               "CooldownSecond": -1.0,
               "CanBuffActivateCount": -1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 0.1,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "EffectTimeSecond": 1.5,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.4,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -231,15 +251,15 @@
         "OverrideOnBattleEvaluationOrderName": "None",
         "bIsOverrideOnCrusingEvaluationOrder": false,
         "OverrideOnCrusingEvaluationOrderName": "None",
-        "RubberBandType": "Default",
+        "RubberBandType": "NoMercy_01",
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
-        "LaneChangeRule": "弱/車線中央のみ/プレイヤーアタッカー",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
-        "IsUseWinkerInBattle": true,
+        "LaneChangeRule": "車線中央のみ/プレイヤーアタッカー",
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
+        "IsUseWinkerInBattle": false,
         "IsBrakeUpDown": true,
-        "BrakeUpDownSensitive": 2.0
+        "BrakeUpDownSensitive": 3.0
       },
       "Tut_0001": {
         "Memo": "峠のチャレンジャー",
@@ -282,14 +302,14 @@
               "Condition": "ERivalBasicConditionPatterns::RBCP_SpeedSlower",
               "ConditionValue": 55.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
-              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "SpecEffect": "ERivalSpecEffect::RSE_MiddleUp",
               "EffectTimeSecond": 10.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -301,11 +321,11 @@
         "OverrideOnBattleEvaluationOrderName": "None",
         "bIsOverrideOnCrusingEvaluationOrder": false,
         "OverrideOnCrusingEvaluationOrderName": "None",
-        "RubberBandType": "Default",
+        "RubberBandType": "NoMercy_01",
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner",
-        "FrontGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
         "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
@@ -322,14 +342,14 @@
               "Condition": "ERivalBasicConditionPatterns::RBCP_SpeedSlower",
               "ConditionValue": 55.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
-              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "SpecEffect": "ERivalSpecEffect::RSE_MiddleUp",
               "EffectTimeSecond": 10.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.3,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -341,12 +361,12 @@
         "OverrideOnBattleEvaluationOrderName": "None",
         "bIsOverrideOnCrusingEvaluationOrder": false,
         "OverrideOnCrusingEvaluationOrderName": "None",
-        "RubberBandType": "Default",
+        "RubberBandType": "NoMercy_01",
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
-        "LaneChangeRule": "弱/車線中央のみ",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "LaneChangeRule": "車線中央のみ",
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -362,14 +382,14 @@
               "Condition": "ERivalBasicConditionPatterns::RBCP_SpeedSlower",
               "ConditionValue": 55.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
-              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "SpecEffect": "ERivalSpecEffect::RSE_MiddleUp",
               "EffectTimeSecond": 10.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.3,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -381,12 +401,12 @@
         "OverrideOnBattleEvaluationOrderName": "None",
         "bIsOverrideOnCrusingEvaluationOrder": false,
         "OverrideOnCrusingEvaluationOrderName": "None",
-        "RubberBandType": "Default",
+        "RubberBandType": "NoMercy_01",
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
-        "LaneChangeRule": "弱/車線中央のみ",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "LaneChangeRule": "車線中央のみ",
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -412,14 +432,14 @@
               "Condition": "ERivalBasicConditionPatterns::RBCP_SpeedSlower",
               "ConditionValue": 55.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
-              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "SpecEffect": "ERivalSpecEffect::RSE_MiddleUp",
               "EffectTimeSecond": 10.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.3,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -431,12 +451,12 @@
         "OverrideOnBattleEvaluationOrderName": "None",
         "bIsOverrideOnCrusingEvaluationOrder": false,
         "OverrideOnCrusingEvaluationOrderName": "None",
-        "RubberBandType": "Default",
+        "RubberBandType": "NoMercy_01",
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
-        "LaneChangeRule": "弱/車線中央のみ/プレイヤーアタッカー",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "LaneChangeRule": "車線中央のみ/プレイヤーアタッカー",
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -452,14 +472,14 @@
               "Condition": "ERivalBasicConditionPatterns::RBCP_SpeedSlower",
               "ConditionValue": 55.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
-              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "SpecEffect": "ERivalSpecEffect::RSE_MiddleUp",
               "EffectTimeSecond": 10.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.3,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -471,12 +491,12 @@
         "OverrideOnBattleEvaluationOrderName": "None",
         "bIsOverrideOnCrusingEvaluationOrder": false,
         "OverrideOnCrusingEvaluationOrderName": "None",
-        "RubberBandType": "Default",
+        "RubberBandType": "NoMercy_01",
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
-        "LaneChangeRule": "弱/車線中央のみ",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "LaneChangeRule": "車線中央のみ",
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -502,8 +522,8 @@
               "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
               "ConditionValue": 0.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
-              "SpecEffect": "ERivalSpecEffect::RSE_BigUp",
-              "EffectTimeSecond": 15.0,
+              "SpecEffect": "ERivalSpecEffect::RSE_MiddleUp",
+              "EffectTimeSecond": 3.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": 1
@@ -522,30 +542,30 @@
               "Condition": "ERivalBasicConditionPatterns::RBCP_SpeedSlower",
               "ConditionValue": 55.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
-              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "SpecEffect": "ERivalSpecEffect::RSE_MiddleUp",
               "EffectTimeSecond": 10.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.3,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
           "DriftPreference": "ERivalDriftPreference::RDP_Normal",
-          "MaxTargetSpeedKmh": 145.0,
+          "MaxTargetSpeedKmh": -1.0,
           "bIsNoLimitTargetSpeedForBehind": false
         },
         "bIsOverrideOnBattleEvaluationOrder": false,
         "OverrideOnBattleEvaluationOrderName": "None",
         "bIsOverrideOnCrusingEvaluationOrder": false,
         "OverrideOnCrusingEvaluationOrderName": "None",
-        "RubberBandType": "Default",
+        "RubberBandType": "NoMercy_01",
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Normal",
         "LaneChangeRule": "NormalRunner/プレイヤーアタッカー",
-        "FrontGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
         "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
@@ -563,7 +583,7 @@
               "ConditionValue": 1.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_CheckPlayer",
               "SpecEffect": "ERivalSpecEffect::RSE_SmallUp",
-              "EffectTimeSecond": 2.0,
+              "EffectTimeSecond": 1.5,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": -1.0,
               "CanBuffActivateCount": -1
@@ -572,14 +592,24 @@
               "Condition": "ERivalBasicConditionPatterns::RBCP_SpeedSlower",
               "ConditionValue": 55.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
-              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "SpecEffect": "ERivalSpecEffect::RSE_MiddleUp",
               "EffectTimeSecond": 10.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": -1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 0.1,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_MiddleUp",
+              "EffectTimeSecond": 1.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.3,
           "BlockMethod": "EBlockMethod::BM_AlwaysBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -591,13 +621,13 @@
         "OverrideOnBattleEvaluationOrderName": "Battle_BlockAndRandomLaneChange",
         "bIsOverrideOnCrusingEvaluationOrder": false,
         "OverrideOnCrusingEvaluationOrderName": "None",
-        "RubberBandType": "Default",
+        "RubberBandType": "NoMercy_01",
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Normal",
         "LaneChangeRule": "ワイド/プレイヤーアタッカー",
         "FrontGripCoef": 1.0,
-        "SideGripCoef": 2.5,
-        "IsUseWinkerInBattle": true,
+        "SideGripCoef": 1.6,
+        "IsUseWinkerInBattle": false,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
       },
@@ -619,12 +649,12 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.3,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
           "DriftPreference": "ERivalDriftPreference::RDP_Normal",
-          "MaxTargetSpeedKmh": -1.0,
+          "MaxTargetSpeedKmh": 600.0,
           "bIsNoLimitTargetSpeedForBehind": true
         },
         "bIsOverrideOnBattleEvaluationOrder": false,
@@ -634,9 +664,9 @@
         "RubberBandType": "Standard",
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
-        "LaneChangeRule": "弱/車線中央のみ",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "LaneChangeRule": "車線中央のみ",
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -659,7 +689,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.3,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -674,9 +704,9 @@
         "RubberBandType": "Standard",
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
-        "LaneChangeRule": "弱/車線中央のみ",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "LaneChangeRule": "車線中央のみ",
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -702,14 +732,14 @@
               "Condition": "ERivalBasicConditionPatterns::RBCP_SpeedSlower",
               "ConditionValue": 55.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
-              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "SpecEffect": "ERivalSpecEffect::RSE_MiddleUp",
               "EffectTimeSecond": 10.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.3,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -724,9 +754,9 @@
         "RubberBandType": "Standard",
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
-        "LaneChangeRule": "弱/車線中央のみ/プレイヤーアタッカー",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "LaneChangeRule": "車線中央のみ/プレイヤーアタッカー",
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -759,7 +789,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.3,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -775,8 +805,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "トリッキー/プレイヤーアタッカー",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -803,24 +833,14 @@
               "ConditionValue": 0.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
               "SpecEffect": "ERivalSpecEffect::RSE_BigUp",
-              "EffectTimeSecond": 15.0,
-              "bIsBreakOnSuccess": false,
-              "CooldownSecond": 0.0,
-              "CanBuffActivateCount": 1
-            },
-            {
-              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
-              "ConditionValue": 0.0,
-              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
-              "SpecEffect": "ERivalSpecEffect::Nitro",
-              "EffectTimeSecond": 15.0,
+              "EffectTimeSecond": 5.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": 1
             },
             {
               "Condition": "ERivalBasicConditionPatterns::RBCP_AheadPlayer",
-              "ConditionValue": 15.0,
+              "ConditionValue": 1.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
               "SpecEffect": "ERivalSpecEffect::RSE_SmallDown",
               "EffectTimeSecond": 1.0,
@@ -829,27 +849,17 @@
               "CanBuffActivateCount": 1
             },
             {
-              "Condition": "ERivalBasicConditionPatterns::RBCP_AheadPlayer",
-              "ConditionValue": 15.0,
-              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
-              "SpecEffect": "ERivalSpecEffect::Nitro",
-              "EffectTimeSecond": 0.1,
-              "bIsBreakOnSuccess": true,
-              "CooldownSecond": 0.0,
-              "CanBuffActivateCount": 1
-            },
-            {
               "Condition": "ERivalBasicConditionPatterns::RBCP_SpeedSlower",
               "ConditionValue": 55.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
-              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "SpecEffect": "ERivalSpecEffect::RSE_MiddleUp",
               "EffectTimeSecond": 10.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.3,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -865,7 +875,7 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Normal",
         "LaneChangeRule": "NormalRunner",
-        "FrontGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
         "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
@@ -882,14 +892,14 @@
               "Condition": "ERivalBasicConditionPatterns::RBCP_SpeedSlower",
               "ConditionValue": 55.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
-              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "SpecEffect": "ERivalSpecEffect::RSE_MiddleUp",
               "EffectTimeSecond": 10.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.5,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -901,12 +911,12 @@
         "OverrideOnBattleEvaluationOrderName": "None",
         "bIsOverrideOnCrusingEvaluationOrder": false,
         "OverrideOnCrusingEvaluationOrderName": "None",
-        "RubberBandType": "Default",
+        "RubberBandType": "NoMercy_01",
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "ワイド/プレイヤーを避ける",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 2.5,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -922,7 +932,7 @@
               "Condition": "ERivalBasicConditionPatterns::RBCP_SpeedSlower",
               "ConditionValue": 55.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
-              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "SpecEffect": "ERivalSpecEffect::RSE_MiddleUp",
               "EffectTimeSecond": 10.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
@@ -937,9 +947,19 @@
               "bIsBreakOnSuccess": false,
               "CooldownSecond": -1.0,
               "CanBuffActivateCount": -1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleStartSecond",
+              "ConditionValue": 0.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "EffectTimeSecond": 1.5,
+              "bIsBreakOnSuccess": true,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.5,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -951,12 +971,12 @@
         "OverrideOnBattleEvaluationOrderName": "None",
         "bIsOverrideOnCrusingEvaluationOrder": false,
         "OverrideOnCrusingEvaluationOrderName": "None",
-        "RubberBandType": "Default",
+        "RubberBandType": "NoMercy_01",
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
-        "LaneChangeRule": "弱/車線中央のみ/プレイヤーの後ろにつく",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "LaneChangeRule": "車線中央のみ/プレイヤーの後ろにつく",
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -972,14 +992,24 @@
               "Condition": "ERivalBasicConditionPatterns::RBCP_SpeedSlower",
               "ConditionValue": 55.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
-              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "SpecEffect": "ERivalSpecEffect::RSE_MiddleUp",
               "EffectTimeSecond": 10.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleStartSecond",
+              "ConditionValue": 0.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "EffectTimeSecond": 1.5,
+              "bIsBreakOnSuccess": true,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.5,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -991,12 +1021,12 @@
         "OverrideOnBattleEvaluationOrderName": "Battle_RandomLaneChange",
         "bIsOverrideOnCrusingEvaluationOrder": false,
         "OverrideOnCrusingEvaluationOrderName": "None",
-        "RubberBandType": "Default",
+        "RubberBandType": "NoMercy_01",
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
-        "LaneChangeRule": "弱/車線中央のみ",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "LaneChangeRule": "車線中央のみ",
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -1012,14 +1042,24 @@
               "Condition": "ERivalBasicConditionPatterns::RBCP_SpeedSlower",
               "ConditionValue": 55.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
-              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "SpecEffect": "ERivalSpecEffect::RSE_MiddleUp",
               "EffectTimeSecond": 10.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleStartSecond",
+              "ConditionValue": 0.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "EffectTimeSecond": 1.5,
+              "bIsBreakOnSuccess": true,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.5,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -1031,12 +1071,12 @@
         "OverrideOnBattleEvaluationOrderName": "Battle_RandomLaneChange",
         "bIsOverrideOnCrusingEvaluationOrder": false,
         "OverrideOnCrusingEvaluationOrderName": "None",
-        "RubberBandType": "Default",
+        "RubberBandType": "NoMercy_01",
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
-        "LaneChangeRule": "弱/車線中央のみ",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "LaneChangeRule": "車線中央のみ",
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -1062,14 +1102,24 @@
               "Condition": "ERivalBasicConditionPatterns::RBCP_SpeedSlower",
               "ConditionValue": 55.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
-              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "SpecEffect": "ERivalSpecEffect::RSE_MiddleUp",
               "EffectTimeSecond": 10.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleStartSecond",
+              "ConditionValue": 0.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "EffectTimeSecond": 1.5,
+              "bIsBreakOnSuccess": true,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.5,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -1081,12 +1131,12 @@
         "OverrideOnBattleEvaluationOrderName": "None",
         "bIsOverrideOnCrusingEvaluationOrder": false,
         "OverrideOnCrusingEvaluationOrderName": "None",
-        "RubberBandType": "Default",
+        "RubberBandType": "NoMercy_01",
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "トリッキー/プレイヤーアタッカー",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -1112,8 +1162,8 @@
               "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
               "ConditionValue": 0.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
-              "SpecEffect": "ERivalSpecEffect::RSE_BigUp",
-              "EffectTimeSecond": 15.0,
+              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "EffectTimeSecond": 5.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": 1
@@ -1132,14 +1182,14 @@
               "Condition": "ERivalBasicConditionPatterns::RBCP_SpeedSlower",
               "ConditionValue": 55.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
-              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "SpecEffect": "ERivalSpecEffect::RSE_MiddleUp",
               "EffectTimeSecond": 10.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.5,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -1151,11 +1201,11 @@
         "OverrideOnBattleEvaluationOrderName": "None",
         "bIsOverrideOnCrusingEvaluationOrder": false,
         "OverrideOnCrusingEvaluationOrderName": "None",
-        "RubberBandType": "Default",
+        "RubberBandType": "NoMercy_01",
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner/プレイヤーの前でふらふら",
-        "FrontGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
         "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": false,
         "IsBrakeUpDown": true,
@@ -1177,9 +1227,19 @@
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 0.1,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "EffectTimeSecond": 1.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.5,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -1191,12 +1251,12 @@
         "OverrideOnBattleEvaluationOrderName": "None",
         "bIsOverrideOnCrusingEvaluationOrder": false,
         "OverrideOnCrusingEvaluationOrderName": "None",
-        "RubberBandType": "Default",
+        "RubberBandType": "NoMercy_01",
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Normal",
-        "LaneChangeRule": "ワイド/プレイヤーの前に",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 2.5,
+        "LaneChangeRule": "NormalRunner/プレイヤーの前に",
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": false,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -1229,7 +1289,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.3,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -1244,9 +1304,9 @@
         "RubberBandType": "Standard",
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
-        "LaneChangeRule": "車線中央のみ/プレイヤーアタッカー",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "LaneChangeRule": "NormalRunner/プレイヤーアタッカー",
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -1279,7 +1339,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.3,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -1295,8 +1355,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "車線中央のみ/プレイヤーの後ろにつく",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -1319,7 +1379,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.3,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -1335,8 +1395,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "車線中央のみ",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -1359,7 +1419,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.3,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -1375,8 +1435,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -1402,14 +1462,14 @@
               "Condition": "ERivalBasicConditionPatterns::RBCP_SpeedSlower",
               "ConditionValue": 55.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
-              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "SpecEffect": "ERivalSpecEffect::RSE_MiddleUp",
               "EffectTimeSecond": 10.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.3,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -1425,8 +1485,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner/プレイヤーアタッカー",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -1453,24 +1513,14 @@
               "ConditionValue": 0.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
               "SpecEffect": "ERivalSpecEffect::RSE_BigUp",
-              "EffectTimeSecond": 15.0,
-              "bIsBreakOnSuccess": false,
-              "CooldownSecond": 0.0,
-              "CanBuffActivateCount": 1
-            },
-            {
-              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
-              "ConditionValue": 0.0,
-              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
-              "SpecEffect": "ERivalSpecEffect::Nitro",
-              "EffectTimeSecond": 15.0,
+              "EffectTimeSecond": 5.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": 1
             },
             {
               "Condition": "ERivalBasicConditionPatterns::RBCP_AheadPlayer",
-              "ConditionValue": 15.0,
+              "ConditionValue": 1.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
               "SpecEffect": "ERivalSpecEffect::RSE_SmallDown",
               "EffectTimeSecond": 1.0,
@@ -1479,27 +1529,17 @@
               "CanBuffActivateCount": 1
             },
             {
-              "Condition": "ERivalBasicConditionPatterns::RBCP_AheadPlayer",
-              "ConditionValue": 15.0,
-              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
-              "SpecEffect": "ERivalSpecEffect::Nitro",
-              "EffectTimeSecond": 0.1,
-              "bIsBreakOnSuccess": true,
-              "CooldownSecond": 0.0,
-              "CanBuffActivateCount": 1
-            },
-            {
               "Condition": "ERivalBasicConditionPatterns::RBCP_SpeedSlower",
               "ConditionValue": 55.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
-              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "SpecEffect": "ERivalSpecEffect::RSE_MiddleUp",
               "EffectTimeSecond": 10.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.4,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -1515,7 +1555,7 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Normal",
         "LaneChangeRule": "NormalRunner",
-        "FrontGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
         "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
@@ -1532,14 +1572,14 @@
               "Condition": "ERivalBasicConditionPatterns::RBCP_SpeedSlower",
               "ConditionValue": 55.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
-              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "SpecEffect": "ERivalSpecEffect::RSE_MiddleUp",
               "EffectTimeSecond": 10.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.4,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -1554,9 +1594,9 @@
         "RubberBandType": "Standard",
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
-        "LaneChangeRule": "車線中央のみ/ぶつかるとプレイヤーを避ける",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "LaneChangeRule": "車線中央のみ",
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -1579,7 +1619,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -1595,8 +1635,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "車線中央のみ",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -1619,7 +1659,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -1635,8 +1675,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "車線中央のみ/プレイヤーの前でふらふら",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": false,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -1669,31 +1709,11 @@
               "CanBuffActivateCount": 1
             },
             {
-              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
-              "ConditionValue": 0.0,
-              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
-              "SpecEffect": "ERivalSpecEffect::Nitro",
-              "EffectTimeSecond": 15.0,
-              "bIsBreakOnSuccess": false,
-              "CooldownSecond": 0.0,
-              "CanBuffActivateCount": 1
-            },
-            {
               "Condition": "ERivalBasicConditionPatterns::RBCP_AheadPlayer",
-              "ConditionValue": 15.0,
+              "ConditionValue": 1.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
               "SpecEffect": "ERivalSpecEffect::RSE_SmallDown",
               "EffectTimeSecond": 1.0,
-              "bIsBreakOnSuccess": true,
-              "CooldownSecond": 0.0,
-              "CanBuffActivateCount": 1
-            },
-            {
-              "Condition": "ERivalBasicConditionPatterns::RBCP_AheadPlayer",
-              "ConditionValue": 15.0,
-              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
-              "SpecEffect": "ERivalSpecEffect::Nitro",
-              "EffectTimeSecond": 0.1,
               "bIsBreakOnSuccess": true,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": 1
@@ -1709,7 +1729,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -1724,8 +1744,8 @@
         "RubberBandType": "Standard",
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Normal",
-        "LaneChangeRule": "NormalRunner/プレイヤーアタッカー",
-        "FrontGripCoef": 1.0,
+        "LaneChangeRule": "NormalRunner",
+        "FrontGripCoef": 2.0,
         "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
@@ -1749,7 +1769,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -1765,8 +1785,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "車線中央のみ",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -1789,7 +1809,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -1805,8 +1825,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "車線中央のみ/ぶつかるとプレイヤーを避ける",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -1839,7 +1859,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -1855,8 +1875,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "車線中央のみ/プレイヤーアタッカー",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -1879,7 +1899,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -1895,8 +1915,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -1919,7 +1939,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -1935,8 +1955,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner/ぶつかるとプレイヤーを避ける",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -1959,7 +1979,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -1975,8 +1995,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -2002,25 +2022,15 @@
               "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
               "ConditionValue": 0.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
-              "SpecEffect": "ERivalSpecEffect::RSE_BigUp",
-              "EffectTimeSecond": 15.0,
-              "bIsBreakOnSuccess": false,
-              "CooldownSecond": 0.0,
-              "CanBuffActivateCount": 1
-            },
-            {
-              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
-              "ConditionValue": 0.0,
-              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
-              "SpecEffect": "ERivalSpecEffect::Nitro",
-              "EffectTimeSecond": 15.0,
+              "SpecEffect": "ERivalSpecEffect::RSE_MiddleUp",
+              "EffectTimeSecond": 3.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": 1
             },
             {
               "Condition": "ERivalBasicConditionPatterns::RBCP_AheadPlayer",
-              "ConditionValue": 15.0,
+              "ConditionValue": 1.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
               "SpecEffect": "ERivalSpecEffect::RSE_SmallDown",
               "EffectTimeSecond": 1.0,
@@ -2029,27 +2039,17 @@
               "CanBuffActivateCount": 1
             },
             {
-              "Condition": "ERivalBasicConditionPatterns::RBCP_AheadPlayer",
-              "ConditionValue": 15.0,
-              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
-              "SpecEffect": "ERivalSpecEffect::Nitro",
-              "EffectTimeSecond": 0.1,
-              "bIsBreakOnSuccess": true,
-              "CooldownSecond": 0.0,
-              "CanBuffActivateCount": 1
-            },
-            {
               "Condition": "ERivalBasicConditionPatterns::RBCP_SpeedSlower",
               "ConditionValue": 55.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
-              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "SpecEffect": "ERivalSpecEffect::RSE_MiddleUp",
               "EffectTimeSecond": 10.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -2065,7 +2065,7 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "トリッキー",
-        "FrontGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
         "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
@@ -2082,34 +2082,14 @@
               "Condition": "ERivalBasicConditionPatterns::RBCP_CollidePlayer",
               "ConditionValue": 1.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
-              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "SpecEffect": "ERivalSpecEffect::RSE_SmallUp",
               "EffectTimeSecond": 2.0,
-              "bIsBreakOnSuccess": false,
-              "CooldownSecond": 0.0,
-              "CanBuffActivateCount": -1
-            },
-            {
-              "Condition": "ERivalBasicConditionPatterns::RBCP_CollidePlayer",
-              "ConditionValue": 1.0,
-              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
-              "SpecEffect": "ERivalSpecEffect::Nitro",
-              "EffectTimeSecond": 2.0,
-              "bIsBreakOnSuccess": false,
-              "CooldownSecond": 0.0,
-              "CanBuffActivateCount": -1
-            },
-            {
-              "Condition": "ERivalBasicConditionPatterns::RBCP_SpeedSlower",
-              "ConditionValue": 55.0,
-              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
-              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
-              "EffectTimeSecond": 10.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.3,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -2124,8 +2104,8 @@
         "RubberBandType": "Standard",
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Normal",
-        "LaneChangeRule": "ワイド/プレイヤーの前に",
-        "FrontGripCoef": 1.0,
+        "LaneChangeRule": "NormalRunner/プレイヤーの前に",
+        "FrontGripCoef": 2.0,
         "SideGripCoef": 2.5,
         "IsUseWinkerInBattle": false,
         "IsBrakeUpDown": true,
@@ -2142,34 +2122,14 @@
               "Condition": "ERivalBasicConditionPatterns::RBCP_CollidePlayer",
               "ConditionValue": 1.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
-              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "SpecEffect": "ERivalSpecEffect::RSE_SmallUp",
               "EffectTimeSecond": 2.0,
-              "bIsBreakOnSuccess": false,
-              "CooldownSecond": 0.0,
-              "CanBuffActivateCount": -1
-            },
-            {
-              "Condition": "ERivalBasicConditionPatterns::RBCP_CollidePlayer",
-              "ConditionValue": 1.0,
-              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
-              "SpecEffect": "ERivalSpecEffect::Nitro",
-              "EffectTimeSecond": 2.0,
-              "bIsBreakOnSuccess": false,
-              "CooldownSecond": 0.0,
-              "CanBuffActivateCount": -1
-            },
-            {
-              "Condition": "ERivalBasicConditionPatterns::RBCP_SpeedSlower",
-              "ConditionValue": 55.0,
-              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
-              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
-              "EffectTimeSecond": 10.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.3,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -2185,7 +2145,7 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Normal",
         "LaneChangeRule": "ワイド/プレイヤーの前に",
-        "FrontGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
         "SideGripCoef": 2.5,
         "IsUseWinkerInBattle": false,
         "IsBrakeUpDown": true,
@@ -2209,7 +2169,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -2225,8 +2185,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "車線中央のみ",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -2249,7 +2209,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -2265,8 +2225,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "車線中央のみ",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -2299,7 +2259,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -2315,8 +2275,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner/プレイヤーアタッカー",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -2339,7 +2299,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -2355,8 +2315,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -2379,7 +2339,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -2395,8 +2355,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner/ぶつかるとプレイヤーを避ける",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -2422,25 +2382,15 @@
               "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
               "ConditionValue": 0.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
-              "SpecEffect": "ERivalSpecEffect::RSE_BigUp",
-              "EffectTimeSecond": 15.0,
-              "bIsBreakOnSuccess": false,
-              "CooldownSecond": 0.0,
-              "CanBuffActivateCount": 1
-            },
-            {
-              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
-              "ConditionValue": 0.0,
-              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
-              "SpecEffect": "ERivalSpecEffect::Nitro",
-              "EffectTimeSecond": 15.0,
+              "SpecEffect": "ERivalSpecEffect::RSE_MiddleUp",
+              "EffectTimeSecond": 5.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": 1
             },
             {
               "Condition": "ERivalBasicConditionPatterns::RBCP_AheadPlayer",
-              "ConditionValue": 15.0,
+              "ConditionValue": 1.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
               "SpecEffect": "ERivalSpecEffect::RSE_SmallDown",
               "EffectTimeSecond": 1.0,
@@ -2449,27 +2399,17 @@
               "CanBuffActivateCount": 1
             },
             {
-              "Condition": "ERivalBasicConditionPatterns::RBCP_AheadPlayer",
-              "ConditionValue": 15.0,
-              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
-              "SpecEffect": "ERivalSpecEffect::Nitro",
-              "EffectTimeSecond": 0.1,
-              "bIsBreakOnSuccess": true,
-              "CooldownSecond": 0.0,
-              "CanBuffActivateCount": 1
-            },
-            {
               "Condition": "ERivalBasicConditionPatterns::RBCP_SpeedSlower",
               "ConditionValue": 55.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
-              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "SpecEffect": "ERivalSpecEffect::RSE_SmallUp",
               "EffectTimeSecond": 10.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -2484,8 +2424,8 @@
         "RubberBandType": "Standard",
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
-        "LaneChangeRule": "NormalRunner/プレイヤーの前に",
-        "FrontGripCoef": 1.0,
+        "LaneChangeRule": "NormalRunner",
+        "FrontGripCoef": 2.0,
         "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": false,
         "IsBrakeUpDown": true,
@@ -2509,7 +2449,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -2525,8 +2465,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "車線中央のみ",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -2559,7 +2499,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -2575,8 +2515,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "車線中央のみ/プレイヤーアタッカー",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -2609,7 +2549,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -2625,8 +2565,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "車線中央のみ/プレイヤーアタッカー",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -2642,14 +2582,24 @@
               "Condition": "ERivalBasicConditionPatterns::RBCP_SpeedSlower",
               "ConditionValue": 55.0,
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
-              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "SpecEffect": "ERivalSpecEffect::RSE_SmallUp",
               "EffectTimeSecond": 10.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": -1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 0.1,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_SmallUp",
+              "EffectTimeSecond": 3.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -2665,8 +2615,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -2699,7 +2649,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -2715,8 +2665,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner/プレイヤーアタッカー",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -2749,7 +2699,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -2764,9 +2714,9 @@
         "RubberBandType": "Standard",
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
-        "LaneChangeRule": "NormalRunner/プレイヤーアタッカー",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "LaneChangeRule": "NormalRunner",
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -2839,7 +2789,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -2855,7 +2805,7 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Normal",
         "LaneChangeRule": "NormalRunner/プレイヤーを避ける",
-        "FrontGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
         "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
@@ -2899,7 +2849,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -2915,8 +2865,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "車線中央のみ/ぶつかるとプレイヤーを避ける",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.5,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -2949,7 +2899,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -2965,8 +2915,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "車線中央のみ/プレイヤーアタッカー",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -2989,7 +2939,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -3005,8 +2955,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "車線中央のみ",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -3029,7 +2979,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -3045,8 +2995,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "車線中央のみ",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -3079,7 +3029,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -3095,8 +3045,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner/プレイヤーアタッカー",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -3119,7 +3069,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -3135,8 +3085,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner/プレイヤーの前でふらふら",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -3159,7 +3109,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -3175,8 +3125,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -3199,7 +3149,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -3215,8 +3165,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -3289,7 +3239,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -3305,7 +3255,7 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Normal",
         "LaneChangeRule": "NormalRunner/プレイヤーを避ける",
-        "FrontGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
         "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
@@ -3389,7 +3339,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.4,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -3405,7 +3355,7 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Normal",
         "LaneChangeRule": "NormalRunner/プレイヤーの前に",
-        "FrontGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
         "SideGripCoef": 2.5,
         "IsUseWinkerInBattle": false,
         "IsBrakeUpDown": true,
@@ -3499,7 +3449,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.4,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -3515,7 +3465,7 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Normal",
         "LaneChangeRule": "車線中央のみ/プレイヤーアタッカー",
-        "FrontGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
         "SideGripCoef": 2.5,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
@@ -3539,7 +3489,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -3555,8 +3505,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "車線中央のみ",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -3589,7 +3539,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -3605,8 +3555,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "車線中央のみ/プレイヤーアタッカー",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -3629,7 +3579,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -3645,8 +3595,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "車線中央のみ/ぶつかるとプレイヤーを避ける",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -3669,7 +3619,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -3685,8 +3635,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner/プレイヤーの前でふらふら",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": false,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -3709,7 +3659,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -3725,8 +3675,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -3799,7 +3749,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -3815,7 +3765,7 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Normal",
         "LaneChangeRule": "ワイド/コーナーイン",
-        "FrontGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
         "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
@@ -3839,7 +3789,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -3855,8 +3805,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "車線中央のみ",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -3879,7 +3829,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -3895,8 +3845,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "車線中央のみ",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -3929,7 +3879,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -3945,8 +3895,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "車線中央のみ/プレイヤーアタッカー",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -3969,7 +3919,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -3985,8 +3935,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -4009,7 +3959,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -4025,8 +3975,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -4049,7 +3999,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -4065,8 +4015,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -4139,7 +4089,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.4,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -4155,7 +4105,7 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Normal",
         "LaneChangeRule": "NormalRunner/プレイヤーアタッカー",
-        "FrontGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
         "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
@@ -4189,7 +4139,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -4205,8 +4155,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "車線中央のみ/プレイヤーアタッカー",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -4239,7 +4189,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -4255,8 +4205,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "車線中央のみ/プレイヤーアタッカー",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -4279,7 +4229,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -4295,8 +4245,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "車線中央のみ",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -4319,7 +4269,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -4335,8 +4285,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -4359,7 +4309,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -4375,8 +4325,8 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner",
-        "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -4449,7 +4399,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.35,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -4465,7 +4415,7 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Normal",
         "LaneChangeRule": "NormalRunner",
-        "FrontGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
         "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
@@ -4509,7 +4459,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.4,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -4525,7 +4475,7 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "ワイド/プレイヤーの前に",
-        "FrontGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
         "SideGripCoef": 2.5,
         "IsUseWinkerInBattle": false,
         "IsBrakeUpDown": true,
@@ -4569,7 +4519,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.0,
+          "TargetSpeedModifier": 1.4,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_1",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -4585,7 +4535,7 @@
         "CornerBrakeType": "Default",
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner/プレイヤーの前でふらふら",
-        "FrontGripCoef": 1.0,
+        "FrontGripCoef": 2.0,
         "SideGripCoef": 2.5,
         "IsUseWinkerInBattle": false,
         "IsBrakeUpDown": true,
@@ -11739,7 +11689,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 2.5,
+          "TargetSpeedModifier": 1.1,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -11756,7 +11706,7 @@
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner",
         "FrontGripCoef": 1.0,
-        "SideGripCoef": 3.0,
+        "SideGripCoef": 1.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -13329,7 +13279,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.25,
+          "TargetSpeedModifier": 1.2,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -14899,7 +14849,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.25,
+          "TargetSpeedModifier": 1.2,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -14939,7 +14889,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.25,
+          "TargetSpeedModifier": 1.2,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -16369,7 +16319,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.25,
+          "TargetSpeedModifier": 1.2,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -17469,7 +17419,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.2,
+          "TargetSpeedModifier": 1.5,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -17519,7 +17469,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.2,
+          "TargetSpeedModifier": 1.5,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -17559,7 +17509,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.2,
+          "TargetSpeedModifier": 1.5,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -17609,7 +17559,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.2,
+          "TargetSpeedModifier": 1.5,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -17647,19 +17597,9 @@
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
-            },
-            {
-              "Condition": "ERivalBasicConditionPatterns::RBCP_CollidePlayer",
-              "ConditionValue": 1.0,
-              "EffectKind": "ERivalSpecEffectKind::RSEK_CheckPlayer",
-              "SpecEffect": "ERivalSpecEffect::RSE_SmallUp",
-              "EffectTimeSecond": 2.0,
-              "bIsBreakOnSuccess": false,
-              "CooldownSecond": -1.0,
-              "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.1,
+          "TargetSpeedModifier": 1.3,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -17676,7 +17616,7 @@
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "ワイド/プレイヤーの後ろにつく",
         "FrontGripCoef": 1.0,
-        "SideGripCoef": 3.0,
+        "SideGripCoef": 1.5,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -18029,7 +17969,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.2,
+          "TargetSpeedModifier": 1.5,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -18319,7 +18259,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.2,
+          "TargetSpeedModifier": 1.5,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -18769,7 +18709,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.1,
+          "TargetSpeedModifier": 1.5,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -18809,7 +18749,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.2,
+          "TargetSpeedModifier": 1.5,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -18849,7 +18789,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.2,
+          "TargetSpeedModifier": 1.5,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -19509,7 +19449,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.2,
+          "TargetSpeedModifier": 1.5,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -19549,7 +19489,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.2,
+          "TargetSpeedModifier": 1.5,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -19589,7 +19529,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.2,
+          "TargetSpeedModifier": 1.5,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -19629,7 +19569,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.2,
+          "TargetSpeedModifier": 1.5,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -19669,7 +19609,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.2,
+          "TargetSpeedModifier": 1.5,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -19709,7 +19649,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.2,
+          "TargetSpeedModifier": 1.5,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -19749,7 +19689,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.2,
+          "TargetSpeedModifier": 1.5,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -19789,7 +19729,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.2,
+          "TargetSpeedModifier": 1.5,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -19827,9 +19767,29 @@
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 0.2,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_BigUp",
+              "EffectTimeSecond": 2.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 0.2,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
+              "SpecEffect": "ERivalSpecEffect::Nitro",
+              "EffectTimeSecond": 2.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
             }
           ],
-          "TargetSpeedModifier": 1.1,
+          "TargetSpeedModifier": 1.5,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -19867,9 +19827,29 @@
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_BigUp",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
+              "SpecEffect": "ERivalSpecEffect::Nitro",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
             }
           ],
-          "TargetSpeedModifier": 1.3,
+          "TargetSpeedModifier": 2.0,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -19886,7 +19866,7 @@
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner/コーナーイン",
         "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.3,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -19907,9 +19887,29 @@
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_BigUp",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
+              "SpecEffect": "ERivalSpecEffect::Nitro",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
             }
           ],
-          "TargetSpeedModifier": 1.3,
+          "TargetSpeedModifier": 2.0,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -19926,7 +19926,7 @@
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner/コーナーイン",
         "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.3,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -19947,9 +19947,29 @@
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_BigUp",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
+              "SpecEffect": "ERivalSpecEffect::Nitro",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
             }
           ],
-          "TargetSpeedModifier": 1.3,
+          "TargetSpeedModifier": 2.0,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -19966,7 +19986,7 @@
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner/コーナーイン",
         "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.3,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -19987,9 +20007,29 @@
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_BigUp",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
+              "SpecEffect": "ERivalSpecEffect::Nitro",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
             }
           ],
-          "TargetSpeedModifier": 1.1,
+          "TargetSpeedModifier": 2.0,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -20006,7 +20046,7 @@
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner/コーナーイン",
         "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -20027,9 +20067,29 @@
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_BigUp",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
+              "SpecEffect": "ERivalSpecEffect::Nitro",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
             }
           ],
-          "TargetSpeedModifier": 1.3,
+          "TargetSpeedModifier": 2.0,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -20046,7 +20106,7 @@
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner/コーナーイン",
         "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.3,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -20067,9 +20127,29 @@
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_BigUp",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
+              "SpecEffect": "ERivalSpecEffect::Nitro",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
             }
           ],
-          "TargetSpeedModifier": 1.1,
+          "TargetSpeedModifier": 2.0,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -20086,7 +20166,7 @@
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner/コーナーイン",
         "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -20107,9 +20187,29 @@
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_BigUp",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
+              "SpecEffect": "ERivalSpecEffect::Nitro",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
             }
           ],
-          "TargetSpeedModifier": 1.3,
+          "TargetSpeedModifier": 2.0,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -20126,7 +20226,7 @@
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner/コーナーイン",
         "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.3,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -20147,9 +20247,29 @@
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_BigUp",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
+              "SpecEffect": "ERivalSpecEffect::Nitro",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
             }
           ],
-          "TargetSpeedModifier": 1.3,
+          "TargetSpeedModifier": 2.0,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -20166,7 +20286,7 @@
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner/コーナーイン",
         "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.5,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -20187,9 +20307,29 @@
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_BigUp",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
+              "SpecEffect": "ERivalSpecEffect::Nitro",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
             }
           ],
-          "TargetSpeedModifier": 1.3,
+          "TargetSpeedModifier": 2.0,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -20206,7 +20346,7 @@
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner/コーナーイン",
         "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.3,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -20279,7 +20419,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.3,
+          "TargetSpeedModifier": 2.0,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -20317,9 +20457,29 @@
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_BigUp",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
+              "SpecEffect": "ERivalSpecEffect::Nitro",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
             }
           ],
-          "TargetSpeedModifier": 1.3,
+          "TargetSpeedModifier": 2.0,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -20336,7 +20496,7 @@
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner/コーナーイン",
         "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.5,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -20357,9 +20517,29 @@
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_BigUp",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
+              "SpecEffect": "ERivalSpecEffect::Nitro",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
             }
           ],
-          "TargetSpeedModifier": 1.3,
+          "TargetSpeedModifier": 2.0,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -20376,7 +20556,7 @@
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner/コーナーイン",
         "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.3,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -20397,9 +20577,29 @@
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_BigUp",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
+              "SpecEffect": "ERivalSpecEffect::Nitro",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
             }
           ],
-          "TargetSpeedModifier": 1.3,
+          "TargetSpeedModifier": 2.0,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -20416,7 +20616,7 @@
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner/コーナーイン",
         "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.3,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -20437,9 +20637,29 @@
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_BigUp",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
+              "SpecEffect": "ERivalSpecEffect::Nitro",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
             }
           ],
-          "TargetSpeedModifier": 1.3,
+          "TargetSpeedModifier": 2.0,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -20456,7 +20676,7 @@
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner/コーナーイン",
         "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.3,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -20477,9 +20697,29 @@
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_BigUp",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
+              "SpecEffect": "ERivalSpecEffect::Nitro",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
             }
           ],
-          "TargetSpeedModifier": 1.3,
+          "TargetSpeedModifier": 2.0,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -20496,7 +20736,7 @@
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner/コーナーイン",
         "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.3,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -20517,9 +20757,29 @@
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_BigUp",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
+              "SpecEffect": "ERivalSpecEffect::Nitro",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
             }
           ],
-          "TargetSpeedModifier": 1.1,
+          "TargetSpeedModifier": 2.0,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -20536,7 +20796,7 @@
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner/コーナーイン",
         "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -20609,7 +20869,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.3,
+          "TargetSpeedModifier": 2.0,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -20649,7 +20909,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.3,
+          "TargetSpeedModifier": 2.0,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -20687,9 +20947,29 @@
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_BigUp",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
+              "SpecEffect": "ERivalSpecEffect::Nitro",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
             }
           ],
-          "TargetSpeedModifier": 1.3,
+          "TargetSpeedModifier": 2.0,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -20706,7 +20986,7 @@
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner/コーナーイン",
         "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.3,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -20727,9 +21007,29 @@
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_BigUp",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
+              "SpecEffect": "ERivalSpecEffect::Nitro",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
             }
           ],
-          "TargetSpeedModifier": 1.3,
+          "TargetSpeedModifier": 2.0,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -20746,7 +21046,7 @@
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner/コーナーイン",
         "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.5,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -20767,9 +21067,29 @@
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_BigUp",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
+              "SpecEffect": "ERivalSpecEffect::Nitro",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
             }
           ],
-          "TargetSpeedModifier": 1.3,
+          "TargetSpeedModifier": 2.0,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -20786,7 +21106,7 @@
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner/コーナーイン",
         "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.5,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -20807,9 +21127,29 @@
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_BigUp",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BattleContinueSecond",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
+              "SpecEffect": "ERivalSpecEffect::Nitro",
+              "EffectTimeSecond": 3.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": 1
             }
           ],
-          "TargetSpeedModifier": 1.1,
+          "TargetSpeedModifier": 2.0,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -20826,7 +21166,7 @@
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner/コーナーイン",
         "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.0,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -20899,7 +21239,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.3,
+          "TargetSpeedModifier": 2.0,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -20939,7 +21279,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.3,
+          "TargetSpeedModifier": 2.0,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -20956,7 +21296,7 @@
         "CornerOutInOutType": "Default",
         "LaneChangeRule": "NormalRunner/コーナーイン",
         "FrontGripCoef": 1.0,
-        "SideGripCoef": 1.3,
+        "SideGripCoef": 2.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
@@ -20979,7 +21319,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.3,
+          "TargetSpeedModifier": 2.0,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -21019,7 +21359,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.3,
+          "TargetSpeedModifier": 2.0,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -21069,7 +21409,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.3,
+          "TargetSpeedModifier": 2.0,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -21109,7 +21449,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.3,
+          "TargetSpeedModifier": 2.0,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -21149,7 +21489,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 2.0,
+          "TargetSpeedModifier": 2.5,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -21169,7 +21509,7 @@
         "SideGripCoef": 3.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
-        "BrakeUpDownSensitive": 2.0
+        "BrakeUpDownSensitive": 2.5
       },
       "Boss_0030_4": {
         "Memo": "久遠のポラリス4",
@@ -21189,7 +21529,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 2.0,
+          "TargetSpeedModifier": 2.5,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -21209,7 +21549,7 @@
         "SideGripCoef": 3.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
-        "BrakeUpDownSensitive": 2.0
+        "BrakeUpDownSensitive": 2.5
       },
       "Boss_0011_2": {
         "Memo": "迅帝2",
@@ -21269,7 +21609,7 @@
               "CanBuffActivateCount": 2
             }
           ],
-          "TargetSpeedModifier": 2.0,
+          "TargetSpeedModifier": 2.5,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -21289,7 +21629,7 @@
         "SideGripCoef": 3.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
-        "BrakeUpDownSensitive": 2.0
+        "BrakeUpDownSensitive": 2.5
       },
       "Boss_0031": {
         "Memo": "機光王",
@@ -21339,7 +21679,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 2.0,
+          "TargetSpeedModifier": 2.5,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -21359,7 +21699,7 @@
         "SideGripCoef": 3.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
-        "BrakeUpDownSensitive": 2.0
+        "BrakeUpDownSensitive": 2.5
       },
       "Boss_0032": {
         "Memo": "RECORD:0",
@@ -21389,7 +21729,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 2.0,
+          "TargetSpeedModifier": 2.5,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -21409,7 +21749,7 @@
         "SideGripCoef": 3.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
-        "BrakeUpDownSensitive": 2.0
+        "BrakeUpDownSensitive": 2.5
       },
       "Boss_0033": {
         "Memo": "RECORD:01",
@@ -21439,7 +21779,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 2.0,
+          "TargetSpeedModifier": 2.5,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -21459,7 +21799,7 @@
         "SideGripCoef": 3.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
-        "BrakeUpDownSensitive": 2.0
+        "BrakeUpDownSensitive": 2.5
       },
       "Boss_0034": {
         "Memo": "RECORD:X",
@@ -21489,7 +21829,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 2.0,
+          "TargetSpeedModifier": 2.5,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
@@ -21509,7 +21849,7 @@
         "SideGripCoef": 3.0,
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
-        "BrakeUpDownSensitive": 2.0
+        "BrakeUpDownSensitive": 2.5
       },
       "Boss_0035": {
         "Memo": "？？？",
@@ -21587,6 +21927,26 @@
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BehindPlayer",
+              "ConditionValue": 50.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "EffectTimeSecond": 10.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": -1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_BehindPlayer",
+              "ConditionValue": 50.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
+              "SpecEffect": "ERivalSpecEffect::Nitro",
+              "EffectTimeSecond": 10.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": -1
             }
           ],
           "TargetSpeedModifier": 2.0,
@@ -21624,6 +21984,26 @@
               "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
               "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
               "EffectTimeSecond": 10.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": -1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_CollidePlayer",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "EffectTimeSecond": 5.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": -1
+            },
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_CollidePlayer",
+              "ConditionValue": 1.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_PlayEffect",
+              "SpecEffect": "ERivalSpecEffect::Nitro",
+              "EffectTimeSecond": 5.0,
               "bIsBreakOnSuccess": false,
               "CooldownSecond": 0.0,
               "CanBuffActivateCount": -1
@@ -24299,7 +24679,7 @@
               "CanBuffActivateCount": -1
             }
           ],
-          "TargetSpeedModifier": 1.3,
+          "TargetSpeedModifier": 2.0,
           "BlockMethod": "EBlockMethod::BM_NeverBlock",
           "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
           "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",

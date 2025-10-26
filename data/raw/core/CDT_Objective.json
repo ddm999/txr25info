@@ -7230,7 +7230,7 @@
         },
         "AppearanceCheckType": "ERivalAppearanceConditionCheckType::AND",
         "AppearanceTargetObjectives": [
-          "N040001"
+          "S030001"
         ],
         "AppearanceORxNeedNum": 1,
         "ClearCheckType": "ERivalAppearanceConditionCheckType::AND",
@@ -9021,8 +9021,8 @@
         "Requirement": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_Map.ST_Map",
           "Key": "Str_UI_Map_80",
-          "SourceString": "全ワンダラーを撃破",
-          "LocalizedString": "Defeat All Wanderers"
+          "SourceString": "全ワンダラーを撃破(DLCを除く)",
+          "LocalizedString": "Defeat All Wanderers(excluding DLC)"
         },
         "Condition_0": {
           "CultureInvariantString": null
