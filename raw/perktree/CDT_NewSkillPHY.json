@@ -487,7 +487,10 @@
           "LocalizedString": "Toughness increases to {%V00}."
         },
         "LockedText": {
-          "CultureInvariantString": null
+          "TableId": "/Game/ITSB/UI/StringTable/ST_tree_system.ST_tree_system",
+          "Key": "Str_UI_Tree_sys_41",
+          "SourceString": "≪解放条件≫\r\n【久遠のポラリス（R35M）】を撃破する。",
+          "LocalizedString": "≪Unlock Condition≫\r\nDefeat 【ETERNAL POLARIS（R35M）】."
         },
         "NameId": "None",
         "TuneParts": "EVehicleTuneKind::None",
@@ -1336,8 +1339,8 @@
         "Detail": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
           "Key": "Str_UI_Tree_skill_281_t",
-          "SourceString": "衝突ダメージによる敗北を、バトル中に{%V00}回だけ回避できる。",
-          "LocalizedString": "Prevents defeat from collision damage {%V00} per battle."
+          "SourceString": "衝突ダメージによる敗北を、バトル中に{%V00}秒間だけ回避できる",
+          "LocalizedString": "Prevents defeat from collision damage for {%V00} seconds per battle."
         },
         "LockedText": {
           "CultureInvariantString": null
@@ -1381,8 +1384,8 @@
         "Detail": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
           "Key": "Str_UI_Tree_skill_282_t",
-          "SourceString": "衝突ダメージによる敗北を、バトル中に{%V00}回だけ回避できる。",
-          "LocalizedString": "Prevents defeat from collision damage {%V00} per battle."
+          "SourceString": "衝突ダメージによる敗北を、バトル中に{%V00}秒間だけ回避できる",
+          "LocalizedString": "Prevents defeat from collision damage for {%V00} seconds per battle."
         },
         "LockedText": {
           "CultureInvariantString": null
@@ -1426,8 +1429,8 @@
         "Detail": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
           "Key": "Str_UI_Tree_skill_283_t",
-          "SourceString": "衝突ダメージによる敗北を、バトル中に{%V00}回だけ回避できる。",
-          "LocalizedString": "Prevents defeat from collision damage {%V00} per battle."
+          "SourceString": "衝突ダメージによる敗北を、バトル中に{%V00}秒間だけ回避できる",
+          "LocalizedString": "Prevents defeat from collision damage for {%V00} seconds per battle."
         },
         "LockedText": {
           "CultureInvariantString": null
@@ -1540,7 +1543,10 @@
           "LocalizedString": "In battles against Leaders, Bosses, and Wanderers, reduce Tire Wear, nitro system consumption, and collision damage.\r\nThe reduction is even greater than at lower levels."
         },
         "LockedText": {
-          "CultureInvariantString": null
+          "TableId": "/Game/ITSB/UI/StringTable/ST_tree_system.ST_tree_system",
+          "Key": "Str_UI_Tree_sys_41",
+          "SourceString": "≪解放条件≫\r\n【久遠のポラリス（R35M）】を撃破する。",
+          "LocalizedString": "≪Unlock Condition≫\r\nDefeat 【ETERNAL POLARIS（R35M）】."
         },
         "NameId": "None",
         "TuneParts": "EVehicleTuneKind::None",
@@ -2039,8 +2045,8 @@
         "Detail": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
           "Key": "Str_UI_Tree_skill_284_t",
-          "SourceString": "衝突ダメージによる敗北を、バトル中に{%V00}回だけ回避できる。",
-          "LocalizedString": "Prevents defeat from collision damage {%V00} per battle."
+          "SourceString": "衝突ダメージによる敗北を、バトル中に{%V00}秒間だけ回避できる",
+          "LocalizedString": "Prevents defeat from collision damage for {%V00} seconds per battle."
         },
         "LockedText": {
           "CultureInvariantString": null
@@ -2086,8 +2092,8 @@
         "Detail": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
           "Key": "Str_UI_Tree_skill_285_t",
-          "SourceString": "衝突ダメージによる敗北を、バトル中に{%V00}回だけ回避できる。",
-          "LocalizedString": "Prevents defeat from collision damage {%V00} per battle."
+          "SourceString": "衝突ダメージによる敗北を、バトル中に{%V00}秒間だけ回避できる",
+          "LocalizedString": "Prevents defeat from collision damage for {%V00} seconds per battle."
         },
         "LockedText": {
           "CultureInvariantString": null

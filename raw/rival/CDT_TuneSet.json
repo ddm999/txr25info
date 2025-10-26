@@ -7655,9 +7655,9 @@
         "FinalGearRatioCoef": 0.9
       },
       "Boss_0011": {
-        "PowerUnit": "EVehicleTuneLevel::Level9",
-        "IntakeSystem": "EVehicleTuneLevel::Level6",
-        "ExhaustSystem": "EVehicleTuneLevel::Level6",
+        "PowerUnit": "EVehicleTuneLevel::Level8",
+        "IntakeSystem": "EVehicleTuneLevel::Level5",
+        "ExhaustSystem": "EVehicleTuneLevel::Level5",
         "transmission": "EVehicleTuneLevel::Level5",
         "Clutch": "EVehicleTuneLevel::Level5",
         "Suspension": "EVehicleTuneLevel::Level5",
@@ -7667,9 +7667,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": -150,
+        "AddWeight": 0,
         "ReplacementPuId": "None",
-        "FinalGearRatioCoef": 1.275
+        "FinalGearRatioCoef": 1.15
       },
       "Boss_0020_2": {
         "PowerUnit": "EVehicleTuneLevel::Level6",
@@ -7706,9 +7706,9 @@
         "FinalGearRatioCoef": 0.9
       },
       "Boss_0011_2": {
-        "PowerUnit": "EVehicleTuneLevel::Level8",
-        "IntakeSystem": "EVehicleTuneLevel::Level5",
-        "ExhaustSystem": "EVehicleTuneLevel::Level5",
+        "PowerUnit": "EVehicleTuneLevel::Level9",
+        "IntakeSystem": "EVehicleTuneLevel::Level6",
+        "ExhaustSystem": "EVehicleTuneLevel::Level6",
         "transmission": "EVehicleTuneLevel::Level5",
         "Clutch": "EVehicleTuneLevel::Level5",
         "Suspension": "EVehicleTuneLevel::Level5",
@@ -7718,9 +7718,9 @@
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
         "Nitro": "EVehicleTuneLevel::Normal",
-        "AddWeight": 0,
+        "AddWeight": -150,
         "ReplacementPuId": "None",
-        "FinalGearRatioCoef": 1.15
+        "FinalGearRatioCoef": 1.275
       },
       "Boss_0031": {
         "PowerUnit": "EVehicleTuneLevel::Level2",
@@ -7771,7 +7771,7 @@
         "Nitro": "EVehicleTuneLevel::Normal",
         "AddWeight": -200,
         "ReplacementPuId": "None",
-        "FinalGearRatioCoef": 1.4
+        "FinalGearRatioCoef": 1.2
       },
       "Boss_0034": {
         "PowerUnit": "EVehicleTuneLevel::Level9",
@@ -8502,7 +8502,7 @@
         "Nitro": "EVehicleTuneLevel::Normal",
         "AddWeight": -400,
         "ReplacementPuId": "None",
-        "FinalGearRatioCoef": 1.2
+        "FinalGearRatioCoef": 1.0
       },
       "Wan_0068": {
         "PowerUnit": "EVehicleTuneLevel::Level9",
@@ -8638,7 +8638,7 @@
         "Nitro": "EVehicleTuneLevel::Level3",
         "AddWeight": -700,
         "ReplacementPuId": "None",
-        "FinalGearRatioCoef": 0.825
+        "FinalGearRatioCoef": 1.0
       },
       "Wan_0077": {
         "PowerUnit": "EVehicleTuneLevel::Level9",

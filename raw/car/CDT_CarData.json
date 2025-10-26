@@ -4380,7 +4380,7 @@
         "price_18_8749AA914481D2204FBDE39A1908300A": 13022000,
         "can_bought_default_21_072746E348CC604CEC7894AFA27772D9": false,
         "can_other_27_37BF756D465D47D7C5ABAF96B6A87ABE": false,
-        "category_30_A571BCCA44A9044E7D1343B83524BD6D": "ECarCategory::Normal",
+        "category_30_A571BCCA44A9044E7D1343B83524BD6D": "ECarCategory::Sports",
         "combo_set_32_F09E99D34D81E3390492BDBB79D57C79": false,
         "is_valid_34_247A38A54BCA242B5C533A8B63C171B5": true,
         "image_40_BF0EAC5542C281D53CAE3C89E0C0B911": {
@@ -4395,7 +4395,7 @@
         "can_broken_vehicle_61_C33E76634A1CABA6A6448EA305D285C7": false,
         "enable_custom_color_63_4422ECC449A87CCE3C52C9B587601C2B": false,
         "tuneset_id_68_80C5686946F4B9A718940BADBE86B189": "None",
-        "licenseplate_number_id_71_5C7F04FC4170EDC05115F9A0539915F1": "YANKEE",
+        "licenseplate_number_id_71_5C7F04FC4170EDC05115F9A0539915F1": "None",
         "use_business_rate_75_0CBE91D84ED25F4A6DE78B8675F2E754": 0,
         "Representative_color_78_AA70D3F54BA4F05BCF4CE4862EBDE452": 8,
         "enable_normal_rear_spoiler_81_09B62477474F4AED03BC7781BBA3057B": false,
@@ -4404,7 +4404,7 @@
         "is_japan_spec_89_AA3984C44C8866531593ECA6BAABA7EF": false,
         "forced_classification_number_93_4958F87543BD771F17008089291616EE": 0,
         "enable_vainyl_95_89034FCA413C533183CD93AB29D53636": false,
-        "enable_aura_97_C49D727E450263E3A37437852E96CB22": false,
+        "enable_aura_97_C49D727E450263E3A37437852E96CB22": true,
         "enable_sticker_99_30C9184043E31CA87B38379780042063": false,
         "is_demo_car_101_6932EF5E475E8E057FFA94B1A8EC8237": false,
         "enable_official_color_103_E4EF57144B59DB91174ADAA6E6CDB0F2": true
@@ -4436,7 +4436,7 @@
           "ObjectPath": "/Game/ITSB/UI/Color/DataTables/Car/LEXUS/DT_Color_Car_Official_USC10.0"
         },
         "LicensePlateCategory_58_83ACBC0E4C1F315AD474CB8FAA8E51EF": "Enum_OutGame_NumberPlate_Car_Categories::NewEnumerator7",
-        "can_broken_vehicle_61_C33E76634A1CABA6A6448EA305D285C7": true,
+        "can_broken_vehicle_61_C33E76634A1CABA6A6448EA305D285C7": false,
         "enable_custom_color_63_4422ECC449A87CCE3C52C9B587601C2B": false,
         "tuneset_id_68_80C5686946F4B9A718940BADBE86B189": "None",
         "licenseplate_number_id_71_5C7F04FC4170EDC05115F9A0539915F1": "None",
@@ -4448,7 +4448,7 @@
         "is_japan_spec_89_AA3984C44C8866531593ECA6BAABA7EF": false,
         "forced_classification_number_93_4958F87543BD771F17008089291616EE": 0,
         "enable_vainyl_95_89034FCA413C533183CD93AB29D53636": false,
-        "enable_aura_97_C49D727E450263E3A37437852E96CB22": false,
+        "enable_aura_97_C49D727E450263E3A37437852E96CB22": true,
         "enable_sticker_99_30C9184043E31CA87B38379780042063": false,
         "is_demo_car_101_6932EF5E475E8E057FFA94B1A8EC8237": false,
         "enable_official_color_103_E4EF57144B59DB91174ADAA6E6CDB0F2": true
@@ -6895,7 +6895,7 @@
         "is_japan_spec_89_AA3984C44C8866531593ECA6BAABA7EF": false,
         "forced_classification_number_93_4958F87543BD771F17008089291616EE": 0,
         "enable_vainyl_95_89034FCA413C533183CD93AB29D53636": false,
-        "enable_aura_97_C49D727E450263E3A37437852E96CB22": false,
+        "enable_aura_97_C49D727E450263E3A37437852E96CB22": true,
         "enable_sticker_99_30C9184043E31CA87B38379780042063": false,
         "is_demo_car_101_6932EF5E475E8E057FFA94B1A8EC8237": false,
         "enable_official_color_103_E4EF57144B59DB91174ADAA6E6CDB0F2": true

@@ -42,6 +42,10 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000002"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000002"
           }
         ],
         "NeedProgressInfo": false,
@@ -69,6 +73,10 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000003"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000003"
           }
         ],
         "NeedProgressInfo": false,
@@ -93,6 +101,10 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000004"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000004"
           }
         ],
         "NeedProgressInfo": false,
@@ -117,12 +129,20 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000011"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000011"
           }
         ],
         "NeedProgressInfo": true,
         "ProgressId": [
           {
             "Key": "EAchievementsPlatform::Steam",
+            "Value": "DAY"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
             "Value": "DAY"
           }
         ]
@@ -146,12 +166,20 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000012"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000012"
           }
         ],
         "NeedProgressInfo": true,
         "ProgressId": [
           {
             "Key": "EAchievementsPlatform::Steam",
+            "Value": "NUM_OF_WANDERER_DEFEATED"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
             "Value": "NUM_OF_WANDERER_DEFEATED"
           }
         ]
@@ -175,12 +203,20 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000014"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000014"
           }
         ],
         "NeedProgressInfo": true,
         "ProgressId": [
           {
             "Key": "EAchievementsPlatform::Steam",
+            "Value": "RIVAL_WIN_COUNT"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
             "Value": "RIVAL_WIN_COUNT"
           }
         ]
@@ -204,12 +240,20 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000015"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000015"
           }
         ],
         "NeedProgressInfo": true,
         "ProgressId": [
           {
             "Key": "EAchievementsPlatform::Steam",
+            "Value": "OTHERCAR_WIN_COUNT"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
             "Value": "OTHERCAR_WIN_COUNT"
           }
         ]
@@ -233,6 +277,10 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000016"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000016"
           }
         ],
         "NeedProgressInfo": false,
@@ -242,8 +290,8 @@
         "AchivementName": {
           "Namespace": "",
           "Key": "50A1EADE4165EAC52D0F1AB3B3022DB1",
-          "SourceString": "ポケット一杯のCP",
-          "LocalizedString": "ポケット一杯のCP"
+          "SourceString": "億万長者",
+          "LocalizedString": "億万長者"
         },
         "Kind": "EAchievementsKind::Mony",
         "IsCheckOR": false,
@@ -257,6 +305,10 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000017"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000017"
           }
         ],
         "NeedProgressInfo": false,
@@ -281,12 +333,20 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000018"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000018"
           }
         ],
         "NeedProgressInfo": true,
         "ProgressId": [
           {
             "Key": "EAchievementsPlatform::Steam",
+            "Value": "GARAGE_MY_CAR_NUM"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
             "Value": "GARAGE_MY_CAR_NUM"
           }
         ]
@@ -310,6 +370,10 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000021"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000021"
           }
         ],
         "NeedProgressInfo": false,
@@ -334,12 +398,20 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000022"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000022"
           }
         ],
         "NeedProgressInfo": true,
         "ProgressId": [
           {
             "Key": "EAchievementsPlatform::Steam",
+            "Value": "ACQUIRED_BAD_NAME_COUNT"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
             "Value": "ACQUIRED_BAD_NAME_COUNT"
           }
         ]
@@ -363,12 +435,20 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000024"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000024"
           }
         ],
         "NeedProgressInfo": true,
         "ProgressId": [
           {
             "Key": "EAchievementsPlatform::Steam",
+            "Value": "NUM_OF_SEEN_CONVERSATIONS"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
             "Value": "NUM_OF_SEEN_CONVERSATIONS"
           }
         ]
@@ -392,12 +472,20 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000025"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000025"
           }
         ],
         "NeedProgressInfo": true,
         "ProgressId": [
           {
             "Key": "EAchievementsPlatform::Steam",
+            "Value": "NUM_OF_SEEN_CONVERSATIONS"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
             "Value": "NUM_OF_SEEN_CONVERSATIONS"
           }
         ]
@@ -421,6 +509,10 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000029"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000029"
           }
         ],
         "NeedProgressInfo": false,
@@ -445,6 +537,10 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000030"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000030"
           }
         ],
         "NeedProgressInfo": false,
@@ -469,6 +565,10 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000031"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000031"
           }
         ],
         "NeedProgressInfo": false,
@@ -493,6 +593,10 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000032"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000032"
           }
         ],
         "NeedProgressInfo": false,
@@ -515,6 +619,10 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000033"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000033"
           }
         ],
         "NeedProgressInfo": false,
@@ -541,6 +649,10 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000034"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000034"
           }
         ],
         "NeedProgressInfo": false,
@@ -565,6 +677,10 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000035"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000035"
           }
         ],
         "NeedProgressInfo": false,
@@ -589,6 +705,10 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000036"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000036"
           }
         ],
         "NeedProgressInfo": false,
@@ -613,6 +733,10 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000037"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000037"
           }
         ],
         "NeedProgressInfo": false,
@@ -637,6 +761,10 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000038"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000038"
           }
         ],
         "NeedProgressInfo": false,
@@ -661,6 +789,10 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000039"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000039"
           }
         ],
         "NeedProgressInfo": false,
@@ -685,6 +817,10 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000041"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000041"
           }
         ],
         "NeedProgressInfo": false,
@@ -709,6 +845,10 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000042"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000042"
           }
         ],
         "NeedProgressInfo": false,
@@ -718,8 +858,8 @@
         "AchivementName": {
           "Namespace": "",
           "Key": "BECF0111459C6DB744EA7CA7FEC98361",
-          "SourceString": "トイレに直行",
-          "LocalizedString": "トイレに直行"
+          "SourceString": "バックオーライ！",
+          "LocalizedString": "バックオーライ！"
         },
         "Kind": "EAchievementsKind::OverSpeedBackingUpCar",
         "IsCheckOR": false,
@@ -733,6 +873,10 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000043"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000043"
           }
         ],
         "NeedProgressInfo": false,
@@ -757,6 +901,10 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000044"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000044"
           }
         ],
         "NeedProgressInfo": false,
@@ -781,10 +929,23 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000045"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000045"
           }
         ],
         "NeedProgressInfo": true,
-        "ProgressId": []
+        "ProgressId": [
+          {
+            "Key": "EAchievementsPlatform::Steam",
+            "Value": "DRAW_NUM"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "DRAW_NUM"
+          }
+        ]
       },
       "ACM046": {
         "AchivementName": {
@@ -803,6 +964,10 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000046"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000046"
           }
         ],
         "NeedProgressInfo": false,
@@ -827,12 +992,20 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000047"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000047"
           }
         ],
         "NeedProgressInfo": true,
         "ProgressId": [
           {
             "Key": "EAchievementsPlatform::Steam",
+            "Value": "NUM_OF_WIN_RIDING_LIGHT_CAR"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
             "Value": "NUM_OF_WIN_RIDING_LIGHT_CAR"
           }
         ]
@@ -856,17 +1029,21 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000013"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000013"
           }
         ],
-        "NeedProgressInfo": true,
+        "NeedProgressInfo": false,
         "ProgressId": []
       },
       "ACM019": {
         "AchivementName": {
           "Namespace": "",
           "Key": "A7FBAE9F40BD0856CAF661926BF901D2",
-          "SourceString": "究極の仕上げ",
-          "LocalizedString": "究極の仕上げ"
+          "SourceString": "フルチューン",
+          "LocalizedString": "フルチューン"
         },
         "Kind": "EAchievementsKind::NumberOfFullTunedVehiclesCreated",
         "IsCheckOR": false,
@@ -880,6 +1057,10 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000019"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000019"
           }
         ],
         "NeedProgressInfo": false,
@@ -889,8 +1070,8 @@
         "AchivementName": {
           "Namespace": "",
           "Key": "72D737BD4792791CD9188982567E5754",
-          "SourceString": "どのマシンでも相手になるぜ！",
-          "LocalizedString": "どのマシンでも相手になるぜ！"
+          "SourceString": "精鋭揃い",
+          "LocalizedString": "精鋭揃い"
         },
         "Kind": "EAchievementsKind::NumberOfFullTunedVehiclesCreated",
         "IsCheckOR": false,
@@ -904,12 +1085,20 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000020"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000020"
           }
         ],
         "NeedProgressInfo": true,
         "ProgressId": [
           {
             "Key": "EAchievementsPlatform::Steam",
+            "Value": "TOTAL_FULL_TUNE_MY_CAR_NUM"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
             "Value": "TOTAL_FULL_TUNE_MY_CAR_NUM"
           }
         ]
@@ -918,8 +1107,8 @@
         "AchivementName": {
           "Namespace": "",
           "Key": "933A822848A5CAA1151CD5A3EF1C270B",
-          "SourceString": "プロフィール読破",
-          "LocalizedString": "プロフィール読破"
+          "SourceString": "活字中毒",
+          "LocalizedString": "活字中毒"
         },
         "Kind": "EAchievementsKind::ReadAllReference",
         "IsCheckOR": false,
@@ -931,6 +1120,10 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000023"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000023"
           }
         ],
         "NeedProgressInfo": false,
@@ -940,8 +1133,8 @@
         "AchivementName": {
           "Namespace": "",
           "Key": "7D368EEB4DB546FF2D6DDCAF1794CE1D",
-          "SourceString": "禁断のチューニング",
-          "LocalizedString": "禁断のチューニング"
+          "SourceString": "禁断のチューン",
+          "LocalizedString": "禁断のチューン"
         },
         "Kind": "EAchievementsKind::BreakingLimitTune",
         "IsCheckOR": false,
@@ -953,6 +1146,10 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000026"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000026"
           }
         ],
         "NeedProgressInfo": false,
@@ -962,8 +1159,8 @@
         "AchivementName": {
           "Namespace": "",
           "Key": "F241F5814F409BC40C5DF69E2EC5948F",
-          "SourceString": "新たなエンジン、新たな鼓動",
-          "LocalizedString": "新たなエンジン、新たな鼓動"
+          "SourceString": "新たな鼓動",
+          "LocalizedString": "新たな鼓動"
         },
         "Kind": "EAchievementsKind::EngineReplacement",
         "IsCheckOR": false,
@@ -975,6 +1172,10 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000027"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000027"
           }
         ],
         "NeedProgressInfo": false,
@@ -999,6 +1200,10 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000028"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000028"
           }
         ],
         "NeedProgressInfo": false,
@@ -1008,8 +1213,8 @@
         "AchivementName": {
           "Namespace": "",
           "Key": "84E3DD2D4D3A10CCE28B0DAD530C26BF",
-          "SourceString": "ミスターパーフェクト -君、リセットするなかれ-",
-          "LocalizedString": "ミスターパーフェクト -君、リセットするなかれ-"
+          "SourceString": "無敗伝説",
+          "LocalizedString": "無敗伝説"
         },
         "Kind": "EAchievementsKind::DefeatRivalLoseZero",
         "IsCheckOR": false,
@@ -1023,6 +1228,10 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000040"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000040"
           }
         ],
         "NeedProgressInfo": false,
@@ -1032,15 +1241,15 @@
         "AchivementName": {
           "Namespace": "",
           "Key": "EDDF110F4589E90674C111920EDE18A6",
-          "SourceString": "快進撃の走り屋",
-          "LocalizedString": "快進撃の走り屋"
+          "SourceString": "駆け巡る噂",
+          "LocalizedString": "駆け巡る噂"
         },
         "Kind": "EAchievementsKind::DefeatRival",
         "IsCheckOR": false,
         "StoryKind": "EStoryKind::None",
         "NameValues": [
           "Boss_0007",
-          "Boss_0012_2",
+          "Boss_0014_2",
           "Boss_0027"
         ],
         "IntValues": [],
@@ -1049,6 +1258,10 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000005"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000005"
           }
         ],
         "NeedProgressInfo": false,
@@ -1058,8 +1271,8 @@
         "AchivementName": {
           "Namespace": "",
           "Key": "DB9E3EC440E638D375E87A8796315169",
-          "SourceString": "嵐を呼ぶ走り屋",
-          "LocalizedString": "嵐を呼ぶ走り屋"
+          "SourceString": "交錯する思惑",
+          "LocalizedString": "交錯する思惑"
         },
         "Kind": "EAchievementsKind::DefeatRival",
         "IsCheckOR": false,
@@ -1075,6 +1288,10 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000006"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000006"
           }
         ],
         "NeedProgressInfo": false,
@@ -1084,8 +1301,8 @@
         "AchivementName": {
           "Namespace": "",
           "Key": "8D6D74074D4CDD5FA0640BB0AE615F1D",
-          "SourceString": "誰もが知る走り屋",
-          "LocalizedString": "誰もが知る走り屋"
+          "SourceString": "最速の称号",
+          "LocalizedString": "最速の称号"
         },
         "Kind": "EAchievementsKind::DefeatRival",
         "IsCheckOR": false,
@@ -1099,6 +1316,10 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000007"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000007"
           }
         ],
         "NeedProgressInfo": false,
@@ -1108,8 +1329,8 @@
         "AchivementName": {
           "Namespace": "",
           "Key": "4C6FA5654BF13F6575CD87BB15EF35EC",
-          "SourceString": "走り続けた先に辿りついた場所",
-          "LocalizedString": "走り続けた先に辿りついた場所"
+          "SourceString": "辿り着いた境地",
+          "LocalizedString": "辿り着いた境地"
         },
         "Kind": "EAchievementsKind::DefeatRival",
         "IsCheckOR": false,
@@ -1123,6 +1344,10 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000008"
+          },
+          {
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000008"
           }
         ],
         "NeedProgressInfo": false,
@@ -1132,8 +1357,8 @@
         "AchivementName": {
           "Namespace": "",
           "Key": "5B08255041BC1A5C2EFC68B0B38CE9EA",
-          "SourceString": "再び訪れた終焉",
-          "LocalizedString": "再び訪れた終焉"
+          "SourceString": "もう一度、あの場所へ",
+          "LocalizedString": "もう一度、あの場所へ"
         },
         "Kind": "EAchievementsKind::DefeatRival",
         "IsCheckOR": false,
@@ -1147,30 +1372,10 @@
           {
             "Key": "EAchievementsPlatform::Steam",
             "Value": "ACHIEVE_000009"
-          }
-        ],
-        "NeedProgressInfo": false,
-        "ProgressId": []
-      },
-      "ACM010": {
-        "AchivementName": {
-          "Namespace": "",
-          "Key": "21590A91414561C88FD56F9882976E04",
-          "SourceString": "自ら選んだイバラ道",
-          "LocalizedString": "自ら選んだイバラ道"
-        },
-        "Kind": "EAchievementsKind::DefeatRival",
-        "IsCheckOR": false,
-        "StoryKind": "EStoryKind::PlusPlus",
-        "NameValues": [
-          "Boss_0035"
-        ],
-        "IntValues": [],
-        "Grade": "EAchievementsGrade::Gold",
-        "PlatformId": [
+          },
           {
-            "Key": "EAchievementsPlatform::Steam",
-            "Value": "ACHIEVE_000010"
+            "Key": "EAchievementsPlatform::PS5",
+            "Value": "achieve_000009"
           }
         ],
         "NeedProgressInfo": false,

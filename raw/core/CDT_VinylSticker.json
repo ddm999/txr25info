@@ -30842,7 +30842,7 @@
             "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
           }
         ],
-        "can_color_change_66_536E038A4B754E08E39904A30F730313": false,
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": true,
         "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
           "Key": "Nature",
@@ -45521,6 +45521,70 @@
           "Key": "EmblemRival",
           "SourceString": "EmblemRival",
           "LocalizedString": "RIVAL EMBLEM"
+        }
+      },
+      "Wand0071": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "EmblemRival",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0071_v.Tth_er_Wand0071_v",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0071_v.Ter_Wand0071_v",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 1024,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 1024,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "None",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": false,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": false,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "CultureInvariantString": null
         }
       },
       "Wand0072": {
@@ -60643,16 +60707,7 @@
         "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 2048,
         "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
         "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
-        "maker_60_A4A513C84257C0C44AF27185DF99F104": [
-          "Daihatsu",
-          "Mazda",
-          "Mitsubishi",
-          "Subaru",
-          "Suzuki",
-          "Toyota",
-          "Honda",
-          "LEXUS"
-        ],
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
         "team_61_3CD26FAC48982E9ABE897582071A61D2": "None",
         "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": false,
         "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
@@ -60719,16 +60774,7 @@
         "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 2048,
         "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
         "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
-        "maker_60_A4A513C84257C0C44AF27185DF99F104": [
-          "Daihatsu",
-          "Mazda",
-          "Mitsubishi",
-          "Subaru",
-          "Suzuki",
-          "Toyota",
-          "Honda",
-          "LEXUS"
-        ],
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
         "team_61_3CD26FAC48982E9ABE897582071A61D2": "None",
         "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": false,
         "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
@@ -60795,16 +60841,7 @@
         "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 2048,
         "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
         "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
-        "maker_60_A4A513C84257C0C44AF27185DF99F104": [
-          "Daihatsu",
-          "Mazda",
-          "Mitsubishi",
-          "Subaru",
-          "Suzuki",
-          "Toyota",
-          "Honda",
-          "LEXUS"
-        ],
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
         "team_61_3CD26FAC48982E9ABE897582071A61D2": "None",
         "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": false,
         "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
@@ -60846,6 +60883,2284 @@
           }
         ],
         "can_color_change_66_536E038A4B754E08E39904A30F730313": false,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "StickerRival",
+          "SourceString": "StickerRival",
+          "LocalizedString": "RIVAL STICKER"
+        }
+      },
+      "Banner_Boss_0038_3": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "StickerRival",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_Boss0038_2.Tth_sr_Boss0038_2",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_Boss0038_2.Tsr_Boss0038_2",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "0",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": false,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": true,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "StickerRival",
+          "SourceString": "StickerRival",
+          "LocalizedString": "RIVAL STICKER"
+        }
+      },
+      "Banner_genki_01": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "Racing",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_genki_01.Tth_sr_genki_01",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_genki_01.Tsr_genki_01",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "None",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": true,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": false,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "Racing",
+          "SourceString": "Racing",
+          "LocalizedString": "RACING"
+        }
+      },
+      "Banner_genki_02": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "Racing",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_genki_02.Tth_sr_genki_02",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_genki_02.Tsr_genki_02",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "None",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": true,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": false,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "Racing",
+          "SourceString": "Racing",
+          "LocalizedString": "RACING"
+        }
+      },
+      "Banner_genki_03": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "Racing",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_genki_03.Tth_sr_genki_03",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_genki_03.Tsr_genki_03",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "None",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": true,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": true,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "Racing",
+          "SourceString": "Racing",
+          "LocalizedString": "RACING"
+        }
+      },
+      "Banner_genki_04": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "Racing",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_genki_04.Tth_sr_genki_04",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_genki_04.Tsr_genki_04",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "None",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": true,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": true,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "Racing",
+          "SourceString": "Racing",
+          "LocalizedString": "RACING"
+        }
+      },
+      "Banner_genki_05": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "Racing",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_genki_05.Tth_sr_genki_05",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_genki_05.Tsr_genki_05",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "None",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": true,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": false,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "Racing",
+          "SourceString": "Racing",
+          "LocalizedString": "RACING"
+        }
+      },
+      "Banner_genki_06": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "Racing",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_genki_06.Tth_sr_genki_06",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_genki_06.Tsr_genki_06",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "None",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": true,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": false,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "Racing",
+          "SourceString": "Racing",
+          "LocalizedString": "RACING"
+        }
+      },
+      "Banner_genki_07": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "Racing",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_genki_07.Tth_sr_genki_07",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_genki_07.Tsr_genki_07",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "None",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": true,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": true,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "Racing",
+          "SourceString": "Racing",
+          "LocalizedString": "RACING"
+        }
+      },
+      "Banner_logo_en": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "Racing",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_logo_en.Tth_sr_logo_en",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_logo_en.Tsr_logo_en",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "None",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": true,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": false,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "Racing",
+          "SourceString": "Racing",
+          "LocalizedString": "RACING"
+        }
+      },
+      "Banner_logo_jp": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "Racing",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_logo_jp.Tth_sr_logo_jp",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_logo_jp.Tsr_logo_jp",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "None",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": true,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": false,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "Racing",
+          "SourceString": "Racing",
+          "LocalizedString": "RACING"
+        }
+      },
+      "Banner_Rival_0014_1": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "StickerRival",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_Moe.Tth_sr_Moe",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_Moe.Tsr_Moe",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "M_O_E",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": false,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": false,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "StickerRival",
+          "SourceString": "StickerRival",
+          "LocalizedString": "RIVAL STICKER"
+        }
+      },
+      "Banner_Rival_0125_1": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "StickerRival",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_Nayuta_02.Tth_sr_Nayuta_02",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_Nayuta_02.Tsr_Nayuta_02",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "NAYUTA",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": false,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": false,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "StickerRival",
+          "SourceString": "StickerRival",
+          "LocalizedString": "RIVAL STICKER"
+        }
+      },
+      "Banner_Rival_0125_2": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "StickerRival",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_Rival_0125_11.Tth_sr_Rival_0125_11",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_Rival_0125_11.Tsr_Rival_0125_11",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "NAYUTA",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": false,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": false,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "StickerRival",
+          "SourceString": "StickerRival",
+          "LocalizedString": "RIVAL STICKER"
+        }
+      },
+      "Banner_Rival_0125_3": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "StickerRival",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_Rival_0125_12.Tth_sr_Rival_0125_12",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_Rival_0125_12.Tsr_Rival_0125_12",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "NAYUTA",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": false,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": false,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "StickerRival",
+          "SourceString": "StickerRival",
+          "LocalizedString": "RIVAL STICKER"
+        }
+      },
+      "Banner_Rival_0126_1": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "StickerRival",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_Rival_0126_11.Tth_sr_Rival_0126_11",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_Rival_0126_11.Tsr_Rival_0126_11",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "NAYUTA",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": false,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": false,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "StickerRival",
+          "SourceString": "StickerRival",
+          "LocalizedString": "RIVAL STICKER"
+        }
+      },
+      "Banner_Rival_0126_2": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "StickerRival",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_Rival_0126_12.Tth_sr_Rival_0126_12",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_Rival_0126_12.Tsr_Rival_0126_12",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "NAYUTA",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": false,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": false,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "StickerRival",
+          "SourceString": "StickerRival",
+          "LocalizedString": "RIVAL STICKER"
+        }
+      },
+      "Banner_Rival_0127_1": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "StickerRival",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_Rival_0127_11.Tth_sr_Rival_0127_11",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_Rival_0127_11.Tsr_Rival_0127_11",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "NAYUTA",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": false,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": false,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "StickerRival",
+          "SourceString": "StickerRival",
+          "LocalizedString": "RIVAL STICKER"
+        }
+      },
+      "Banner_Rival_0128_1": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "StickerRival",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_Rival_0128_11.Tth_sr_Rival_0128_11",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_Rival_0128_11.Tsr_Rival_0128_11",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "NAYUTA",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": false,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": false,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "StickerRival",
+          "SourceString": "StickerRival",
+          "LocalizedString": "RIVAL STICKER"
+        }
+      },
+      "Banner_Rival_0128_2": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "StickerRival",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_Rival_0128_12.Tth_sr_Rival_0128_12",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_Rival_0128_12.Tsr_Rival_0128_12",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "NAYUTA",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": false,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": false,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "StickerRival",
+          "SourceString": "StickerRival",
+          "LocalizedString": "RIVAL STICKER"
+        }
+      },
+      "Banner_Rival_0129_1": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "StickerRival",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_Rival_0129_11.Tth_sr_Rival_0129_11",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_Rival_0129_11.Tsr_Rival_0129_11",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "NAYUTA",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": false,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": false,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "StickerRival",
+          "SourceString": "StickerRival",
+          "LocalizedString": "RIVAL STICKER"
+        }
+      },
+      "Banner_Rival_0129_2": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "StickerRival",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_Rival_0129_12.Tth_sr_Rival_0129_12",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_Rival_0129_12.Tsr_Rival_0129_12",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "NAYUTA",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": false,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": false,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "StickerRival",
+          "SourceString": "StickerRival",
+          "LocalizedString": "RIVAL STICKER"
+        }
+      },
+      "Banner_Rival_0130_1": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "StickerRival",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_Rival_0130_12.Tth_sr_Rival_0130_12",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_Rival_0130_12.Tsr_Rival_0130_12",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "NAYUTA",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": false,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": false,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "StickerRival",
+          "SourceString": "StickerRival",
+          "LocalizedString": "RIVAL STICKER"
+        }
+      },
+      "Banner_Rival_0131_1": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "StickerRival",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_Rival_0131_12.Tth_sr_Rival_0131_12",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_Rival_0131_12.Tsr_Rival_0131_12",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "NAYUTA",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": false,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": false,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "StickerRival",
+          "SourceString": "StickerRival",
+          "LocalizedString": "RIVAL STICKER"
+        }
+      },
+      "Banner_Rival_0132_1": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "StickerRival",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_Rival_0132_12.Tth_sr_Rival_0132_12",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_Rival_0132_12.Tsr_Rival_0132_12",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "NAYUTA",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": false,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": false,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "StickerRival",
+          "SourceString": "StickerRival",
+          "LocalizedString": "RIVAL STICKER"
+        }
+      },
+      "Banner_Rival_0133_1": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "StickerRival",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_Rival_0133_11.Tth_sr_Rival_0133_11",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_Rival_0133_11.Tsr_Rival_0133_11",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "NAYUTA",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": false,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": false,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "StickerRival",
+          "SourceString": "StickerRival",
+          "LocalizedString": "RIVAL STICKER"
+        }
+      },
+      "Banner_Rival_0133_2": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "StickerRival",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_Rival_0133_12.Tth_sr_Rival_0133_12",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_Rival_0133_12.Tsr_Rival_0133_12",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "NAYUTA",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": false,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": false,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "StickerRival",
+          "SourceString": "StickerRival",
+          "LocalizedString": "RIVAL STICKER"
+        }
+      },
+      "Banner_Rival_0185_2": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "StickerRival",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_Rival_0185_01.Tth_sr_Rival_0185_01",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_Rival_0185_01.Tsr_Rival_0185_01",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "TOKIO JUNGLE",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": false,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": false,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "StickerRival",
+          "SourceString": "StickerRival",
+          "LocalizedString": "RIVAL STICKER"
+        }
+      },
+      "Banner_Rival_0196_1": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "StickerRival",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_Rival_0196_01.Tth_sr_Rival_0196_01",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_Rival_0196_01.Tsr_Rival_0196_01",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "Be Legend",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": false,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": true,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "StickerRival",
+          "SourceString": "StickerRival",
+          "LocalizedString": "RIVAL STICKER"
+        }
+      },
+      "Banner_Rival_0261_1": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "StickerRival",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_Rival_0261_01.Tth_sr_Rival_0261_01",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_Rival_0261_01.Tsr_Rival_0261_01",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "SPEED MASTER",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": false,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": false,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "StickerRival",
+          "SourceString": "StickerRival",
+          "LocalizedString": "RIVAL STICKER"
+        }
+      },
+      "Banner_Wan_0045_1": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "StickerRival",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_Wan0045_3.Tth_sr_Wan0045_3",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_Wan0045_3.Tsr_Wan0045_3",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "STRONGEST MAAMIN",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": false,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": true,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "StickerRival",
+          "SourceString": "StickerRival",
+          "LocalizedString": "RIVAL STICKER"
+        }
+      },
+      "Banner_Wan_0045_2": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "StickerRival",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_Wan0045_4.Tth_sr_Wan0045_4",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_Wan0045_4.Tsr_Wan0045_4",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "STRONGEST MAAMIN",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": false,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": false,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "StickerRival",
+          "SourceString": "StickerRival",
+          "LocalizedString": "RIVAL STICKER"
+        }
+      },
+      "Banner_Wan_0065_1": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "StickerRival",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_Wan0065_1.Tth_sr_Wan0065_1",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_Wan0065_1.Tsr_Wan0065_1",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "SOMETHING FUN",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": false,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": false,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "StickerRival",
+          "SourceString": "StickerRival",
+          "LocalizedString": "RIVAL STICKER"
+        }
+      },
+      "Banner_Wan_0065_2": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "StickerRival",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_Wan0065_2.Tth_sr_Wan0065_2",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_Wan0065_2.Tsr_Wan0065_2",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "SOMETHING FUN",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": false,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": false,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "StickerRival",
+          "SourceString": "StickerRival",
+          "LocalizedString": "RIVAL STICKER"
+        }
+      },
+      "Banner_Wan_0067_1": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "StickerRival",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/Game/ITSB/UI/Vinyl/Card/StickerRival/Tth_sr_Wan0067_3.Tth_sr_Wan0067_3",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/StickerRival/Tsr_Wan0067_3.Tsr_Wan0067_3",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 512,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 256,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "KING OF SPADES",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": false,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": true,
         "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
           "Key": "StickerRival",
