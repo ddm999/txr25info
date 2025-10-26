@@ -13,13 +13,16 @@ with open("data/web/car/powerunit.json", "r") as f:
 
 plt.style.use('dark_background')
 
+#NOTE: do not draw conclusions from this work!!!
+# calculate stuff yourself. these graphs currently heavily rely on ESTIMATES
 for car, engines in j_pu['powerunits'].items():
     if engines is None:
         continue
     for key, engine in engines.items():
-        step = engine['MaxRpm']/(len(engine['RpmData']))
-        x = np.arange(0, engine['MaxRpm']+step-1, step)
-        y = [0] + engine['RpmData']
+        step = 400
+        endcorrection = engine['RpmData'][-2]-engine['RpmData'][-1]
+        x = np.arange(0, ((len(engine['RpmData'])+1)*step)+1, step)
+        y = [0] + engine['RpmData'] + [engine['RpmData'][-1]-endcorrection]
         n = 0
         z = []
         bigz = 0
@@ -31,8 +34,8 @@ for car, engines in j_pu['powerunits'].items():
         ax1.set_xlim(0, engine['MaxRpm'])
         ax2 = ax1.twinx()
         for i in y:
-            m = n*engine['MaxRpm']/len(engine['RpmData'])
-            zv = i*m*0.0013771637812894*0.85 # 0.85 weird factor. TXRs numbers are just weird. i don't really get it
+            m = n*step
+            zv = i*m*0.001396
             z.append(zv)
             if zv > bigz:
                 bigz = zv
@@ -43,7 +46,8 @@ for car, engines in j_pu['powerunits'].items():
         biggy = max((math.ceil(engine['MaxTorque_kg_m'])*10)+5, (math.ceil(bigz/10)*10)+5)
         ax1.set_ylim(0, biggy/10)
         ax2.set_ylim(0, biggy)
-        ax1.axvline(x=engine['RevLimit'], c='r')
+        ax1.axvline(x=engine['RevLimit'], c='w')
+        ax1.axvline(x=engine['RedZoon'], c='r', linestyle="dotted")
         fig.tight_layout()
         ax1.grid(True, alpha=0.2)
         plt.savefig(f"data/graph/powerunit/{car}{key}.png")

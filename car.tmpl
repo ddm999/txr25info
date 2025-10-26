@@ -84,24 +84,30 @@
         <span id="warning">For quirky Unreal Engine reasons, this car's power unit data has not yet been decoded.<br>
           This will be resolved and data will appear here as soon as possible.</span>
         #else
-        <span id="big">Power Unit Level 0:</span><br>
-        <span id="warning">Custom vehicles use higher level units and so this isn't representative for them.</span><br>
-        <span id="key">Rev limiter:</span> <span id="val">${powerunits[value]['0']['RevLimit']}</span> rpm<br>
-        <span id="key">Is turbo:</span> <span id="val">${powerunits[value]['0']['IsTurbo']}</span><br>
-        <span id="key">Max boost:</span> <span id="val">${powerunits[value]['0']['MaxBoostNum']}</span><br>
-        <br>
-        <span id="warning">Graphs are work in progress, and may contain slightly incorrect data.</span><br>
-        <img id="enginegraph" src="../graph/powerunit/${value}0.png"/>
-        <br>
-        <span id="big">Power Unit Level 9:</span><br>
-        <span id="warning">Custom vehicles cannot be tuned and so this isn't representative for them.<br>
-          Also note that intake system & exhaust parts also affect the graph, but presumably only by scaling the whole thing up/down.</span><br>
-        <span id="key">Rev limiter:</span> <span id="val">${powerunits[value]['9']['RevLimit']}</span> rpm<br>
-        <span id="key">Is turbo:</span> <span id="val">${powerunits[value]['9']['IsTurbo']}</span><br>
-        <span id="key">Max boost:</span> <span id="val">${powerunits[value]['9']['MaxBoostNum']}</span><br>
-        <br>
-        <span id="warning">Graphs are work in progress, and may contain slightly incorrect data.</span><br>
-        <img id="enginegraph" src="../graph/powerunit/${value}9.png"/>
+          #if $cars[value]['tuneset'] != "None"
+            <span id="warning">This vehicle uses a tuneset, meaning it's parts are non-default.<br>
+              As such, graphs aren't (yet) ready for this car.<br>
+              You can view the original, non-tuned version of the car to have an idea of the engine graphs.</span><br>
+          #else
+            <span id="big">Power Unit Level 0:</span><br>
+            <span id="key">Redline:</span> <span id="val">${powerunits[value]['0']['RedZoon']}</span> rpm<br>
+            <span id="key">Rev limiter:</span> <span id="val">${powerunits[value]['0']['RevLimit']}</span> rpm<br>
+            <span id="key">Is turbo:</span> <span id="val">${powerunits[value]['0']['IsTurbo']}</span><br>
+            <span id="key">Max boost:</span> <span id="val">${powerunits[value]['0']['MaxBoostNum']}</span><br>
+            <br>
+            <span id="warning">⚠ Graphs are work in progress, and may contain incorrect data. ⚠</span><br>
+            <img id="enginegraph" src="../graph/powerunit/${value}0.png"/>
+            <br>
+            <span id="big">Power Unit Level 9:</span><br>
+            <span id="warning">Note that intake system & exhaust parts also affect the graph, but assumedly only by scaling all torque/power values by the same %age.</span><br>
+            <span id="key">Redline:</span> <span id="val">${powerunits[value]['9']['RedZoon']}</span> rpm<br>
+            <span id="key">Rev limiter:</span> <span id="val">${powerunits[value]['9']['RevLimit']}</span> rpm<br>
+            <span id="key">Is turbo:</span> <span id="val">${powerunits[value]['9']['IsTurbo']}</span><br>
+            <span id="key">Max boost:</span> <span id="val">${powerunits[value]['9']['MaxBoostNum']}</span><br>
+            <br>
+            <span id="warning">⚠ Graphs are work in progress, and may contain incorrect data. ⚠</span><br>
+            <img id="enginegraph" src="../graph/powerunit/${value}9.png"/>
+          #end if
         #end if
       </p>
     </section>
