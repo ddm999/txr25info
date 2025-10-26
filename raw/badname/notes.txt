@@ -27,7 +27,7 @@ MT_PA_Resident -
 MT_PA_Regulars - 
 MT_ForOnePerson - only challenge the same rival (?) for the last <ComparisonValue_01> battles?
 MT_HalfMan - 
-MT_OilTycoon - 
+MT_OilTycoon - same as MT_Spendthrift??
 MT_Spendthrift - spend more than <ComparisonValue_01>×4000 (?) in one garage sitting (? needs further testing)
 MT_TuneMastersSponsor - 
 MT_MasterTunesClient - 
