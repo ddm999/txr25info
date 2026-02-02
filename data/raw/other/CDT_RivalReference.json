@@ -16401,7 +16401,7 @@
         "Rumor": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_WandererGossip.ST_WandererGossip",
           "Key": "gossip_wanderer30_1",
-          "SourceString": "NAのマシンとしかバトルを行わない。",
+          "SourceString": "自然吸気のマシンとしかバトルを行わない。",
           "LocalizedString": "Only battles against NA (naturally aspirated) cars."
         },
         "Profile": {
@@ -17730,7 +17730,7 @@
           "TableId": "/Game/ITSB/UI/StringTable/ST_RivalProfile.ST_RivalProfile",
           "Key": "Wan_0052",
           "SourceString": "Wan_0052",
-          "LocalizedString": "A popular manga artist in a boys' magazine. His third work after debut became a big hit, leading to an anime adaptation and a long-running series. When struggling with plot ideas, he often isolates himself on the Shuto Expressway, driving his car while brainstorming. Fans familiar with his work know what \"on hiatus for research\" really means. Despite writing an adventure fantasy with no cars, he is highly competitive and can behave poorly after losing; fans of his work are better off not encountering him."
+          "LocalizedString": "A popular manga artist for boys' magazines. After debuting, his third work became a massive hit which is now in long serialization with an anime adaptation. When stuck, he holes up on the Shuto Expressway, driving his machine and plotting storylines at Parking Areas. When the \"On hiatus for research\" notice appears in his series, insiders just think, \"Again?\" His work is adventure fantasy with zero cars in it. He shocked everyone with bold \"comic paint\" on his beloved JZA70, but fans praised it as \"the mark of a true manga artist.\""
         },
         "IsValid": true,
         "SubRivalNameId": [],
@@ -18123,8 +18123,8 @@
         "Rumor": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_WandererGossip.ST_WandererGossip",
           "Key": "gossip_wanderer76_1",
-          "SourceString": "C1外回り、銀座のセグメント○秒以内を達成。",
-          "LocalizedString": "Complete the C1 Outer Loop, Ginza Segment within ○ seconds."
+          "SourceString": "C1外回り、銀座のセグメント30秒以内を達成。",
+          "LocalizedString": "Complete the C1 Outer Loop, Ginza Segment within 30 seconds."
         },
         "Profile": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_RivalProfile.ST_RivalProfile",
@@ -18164,7 +18164,7 @@
           "TableId": "/Game/ITSB/UI/StringTable/ST_WandererGossip.ST_WandererGossip",
           "Key": "gossip_wanderer77_1",
           "SourceString": "《ROULETTE GUY》の全員を撃破すれば出現。\r\nPAにて噂を聞いたら出現。",
-          "LocalizedString": "Shows up after hearing the rumor at a Parking Area."
+          "LocalizedString": "Defeat all members of 《ROULETTE GUY》 to unlock.\r\nShows up after hearing the rumor at a Parking Area."
         },
         "Profile": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_RivalProfile.ST_RivalProfile",

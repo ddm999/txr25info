@@ -13,6 +13,10 @@
         {
           "ObjectName": "DataTable'DT_Achievements1'",
           "ObjectPath": "/Game/ITSB/Core/Achievements/DT_Achievements1.0"
+        },
+        {
+          "ObjectName": "DataTable'DT_Achievements2'",
+          "ObjectPath": "/Game/ITSB/Core/Achievements/DT_Achievements2.0"
         }
       ],
       "RowStruct": {

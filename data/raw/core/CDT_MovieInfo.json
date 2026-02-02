@@ -1,0 +1,450 @@
+[
+  {
+    "Type": "CompositeDataTable",
+    "Name": "CDT_MovieInfo",
+    "Class": "UScriptClass'CompositeDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParentTables": [
+        {
+          "ObjectName": "DataTable'DT_MovieInfo0'",
+          "ObjectPath": "/Game/ITSB/Core/Quest/DT_MovieInfo0.0"
+        },
+        {
+          "ObjectName": "DataTable'DT_MovieInfo1'",
+          "ObjectPath": "/Game/ITSB/Core/Quest/DT_MovieInfo1.0"
+        },
+        {
+          "ObjectName": "DataTable'DT_MovieInfo2'",
+          "ObjectPath": "/Game/ITSB/Core/Quest/DT_MovieInfo2.0"
+        }
+      ],
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'SMovieInfo'",
+        "ObjectPath": "/Game/ITSB/Core/Quest/SMovieInfo.0"
+      }
+    },
+    "Rows": {
+      "EVM_OP": {
+        "memo_5_395B823C4C1CF8EF03B7F583B7E06613": "チュートリアル_OPムービー",
+        "media_source_2_7C73AD3E46310A51BFCDE99BA612C3B0": null,
+        "media_source_jp_8_9B7A9B164BD9F3538EB35392CA013D3F": {
+          "AssetPathName": "/Game/Movies/0/EVM_OP_ja.EVM_OP_ja",
+          "SubPathString": ""
+        },
+        "media_source_en_10_D2D6B2064981CBDFE856CE8CA64C4871": {
+          "AssetPathName": "/Game/Movies/0/EVM_OP_en.EVM_OP_en",
+          "SubPathString": ""
+        },
+        "media_source_zh-CN_13_9B84E35F4C8D348EA8B2AE892AB8D302": {
+          "AssetPathName": "/Game/Movies/0/EVM_OP_ja.EVM_OP_ja",
+          "SubPathString": ""
+        },
+        "media_source_zh-TW_18_2B75B194470AE6592D3CFB85F0624446": {
+          "AssetPathName": "/Game/Movies/0/EVM_OP_ja.EVM_OP_ja",
+          "SubPathString": ""
+        },
+        "media_source_es_22_539DB40A485049CF62347AAA5F231C5E": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "media_source_fr_23_395C724C406C50E357380D86486E5462": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "EVM_TUT_01": {
+        "memo_5_395B823C4C1CF8EF03B7F583B7E06613": "チュートリアル_OPムービー後_ポエム",
+        "media_source_2_7C73AD3E46310A51BFCDE99BA612C3B0": null,
+        "media_source_jp_8_9B7A9B164BD9F3538EB35392CA013D3F": {
+          "AssetPathName": "/Game/Movies/0/EVM_TUT_01_ja.EVM_TUT_01_ja",
+          "SubPathString": ""
+        },
+        "media_source_en_10_D2D6B2064981CBDFE856CE8CA64C4871": {
+          "AssetPathName": "/Game/Movies/0/EVM_TUT_01_en.EVM_TUT_01_en",
+          "SubPathString": ""
+        },
+        "media_source_zh-CN_13_9B84E35F4C8D348EA8B2AE892AB8D302": {
+          "AssetPathName": "/Game/Movies/0/EVM_TUT_01_zh-CN.EVM_TUT_01_zh-CN",
+          "SubPathString": ""
+        },
+        "media_source_zh-TW_18_2B75B194470AE6592D3CFB85F0624446": {
+          "AssetPathName": "/Game/Movies/0/EVM_TUT_01_zh-TW.EVM_TUT_01_zh-TW",
+          "SubPathString": ""
+        },
+        "media_source_es_22_539DB40A485049CF62347AAA5F231C5E": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "media_source_fr_23_395C724C406C50E357380D86486E5462": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "EVM_ST0_01": {
+        "memo_5_395B823C4C1CF8EF03B7F583B7E06613": "1章_ROLLING GUY撃破後_ポエム",
+        "media_source_2_7C73AD3E46310A51BFCDE99BA612C3B0": null,
+        "media_source_jp_8_9B7A9B164BD9F3538EB35392CA013D3F": {
+          "AssetPathName": "/Game/Movies/0/EVM_ST00_01_ja.EVM_ST00_01_ja",
+          "SubPathString": ""
+        },
+        "media_source_en_10_D2D6B2064981CBDFE856CE8CA64C4871": {
+          "AssetPathName": "/Game/Movies/0/EVM_ST00_01_en.EVM_ST00_01_en",
+          "SubPathString": ""
+        },
+        "media_source_zh-CN_13_9B84E35F4C8D348EA8B2AE892AB8D302": {
+          "AssetPathName": "/Game/Movies/0/EVM_ST00_01_zh-CN.EVM_ST00_01_zh-CN",
+          "SubPathString": ""
+        },
+        "media_source_zh-TW_18_2B75B194470AE6592D3CFB85F0624446": {
+          "AssetPathName": "/Game/Movies/0/EVM_ST00_01_zh-TW.EVM_ST00_01_zh-TW",
+          "SubPathString": ""
+        },
+        "media_source_es_22_539DB40A485049CF62347AAA5F231C5E": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "media_source_fr_23_395C724C406C50E357380D86486E5462": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "EVM_ST0_02": {
+        "memo_5_395B823C4C1CF8EF03B7F583B7E06613": "1章_DEPARTURES撃破後_ポエム",
+        "media_source_2_7C73AD3E46310A51BFCDE99BA612C3B0": null,
+        "media_source_jp_8_9B7A9B164BD9F3538EB35392CA013D3F": {
+          "AssetPathName": "/Game/Movies/0/EVM_ST00_02_ja.EVM_ST00_02_ja",
+          "SubPathString": ""
+        },
+        "media_source_en_10_D2D6B2064981CBDFE856CE8CA64C4871": {
+          "AssetPathName": "/Game/Movies/0/EVM_ST00_02_en.EVM_ST00_02_en",
+          "SubPathString": ""
+        },
+        "media_source_zh-CN_13_9B84E35F4C8D348EA8B2AE892AB8D302": {
+          "AssetPathName": "/Game/Movies/0/EVM_ST00_02_zh-CN.EVM_ST00_02_zh-CN",
+          "SubPathString": ""
+        },
+        "media_source_zh-TW_18_2B75B194470AE6592D3CFB85F0624446": {
+          "AssetPathName": "/Game/Movies/0/EVM_ST00_02_zh-TW.EVM_ST00_02_zh-TW",
+          "SubPathString": ""
+        },
+        "media_source_es_22_539DB40A485049CF62347AAA5F231C5E": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "media_source_fr_23_395C724C406C50E357380D86486E5462": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "EVM_ST0_03": {
+        "memo_5_395B823C4C1CF8EF03B7F583B7E06613": "1章_CHALLENGERS撃破後_ポエム",
+        "media_source_2_7C73AD3E46310A51BFCDE99BA612C3B0": null,
+        "media_source_jp_8_9B7A9B164BD9F3538EB35392CA013D3F": {
+          "AssetPathName": "/Game/Movies/0/EVM_ST00_03_ja.EVM_ST00_03_ja",
+          "SubPathString": ""
+        },
+        "media_source_en_10_D2D6B2064981CBDFE856CE8CA64C4871": {
+          "AssetPathName": "/Game/Movies/0/EVM_ST00_03_en.EVM_ST00_03_en",
+          "SubPathString": ""
+        },
+        "media_source_zh-CN_13_9B84E35F4C8D348EA8B2AE892AB8D302": {
+          "AssetPathName": "/Game/Movies/0/EVM_ST00_03_zh-CN.EVM_ST00_03_zh-CN",
+          "SubPathString": ""
+        },
+        "media_source_zh-TW_18_2B75B194470AE6592D3CFB85F0624446": {
+          "AssetPathName": "/Game/Movies/0/EVM_ST00_03_zh-TW.EVM_ST00_03_zh-TW",
+          "SubPathString": ""
+        },
+        "media_source_es_22_539DB40A485049CF62347AAA5F231C5E": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "media_source_fr_23_395C724C406C50E357380D86486E5462": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "EVM_ST1_01": {
+        "memo_5_395B823C4C1CF8EF03B7F583B7E06613": "1章_5人のボス撃破後_1ポエム",
+        "media_source_2_7C73AD3E46310A51BFCDE99BA612C3B0": null,
+        "media_source_jp_8_9B7A9B164BD9F3538EB35392CA013D3F": {
+          "AssetPathName": "/Game/Movies/0/EVM_ST01_01_ja.EVM_ST01_01_ja",
+          "SubPathString": ""
+        },
+        "media_source_en_10_D2D6B2064981CBDFE856CE8CA64C4871": {
+          "AssetPathName": "/Game/Movies/0/EVM_ST01_01_en.EVM_ST01_01_en",
+          "SubPathString": ""
+        },
+        "media_source_zh-CN_13_9B84E35F4C8D348EA8B2AE892AB8D302": {
+          "AssetPathName": "/Game/Movies/0/EVM_ST01_01_zh-CN.EVM_ST01_01_zh-CN",
+          "SubPathString": ""
+        },
+        "media_source_zh-TW_18_2B75B194470AE6592D3CFB85F0624446": {
+          "AssetPathName": "/Game/Movies/0/EVM_ST01_01_zh-TW.EVM_ST01_01_zh-TW",
+          "SubPathString": ""
+        },
+        "media_source_es_22_539DB40A485049CF62347AAA5F231C5E": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "media_source_fr_23_395C724C406C50E357380D86486E5462": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "EVM_ST2_01": {
+        "memo_5_395B823C4C1CF8EF03B7F583B7E06613": "2章_12時過ぎのシンデレラ撃破後_ポエム",
+        "media_source_2_7C73AD3E46310A51BFCDE99BA612C3B0": null,
+        "media_source_jp_8_9B7A9B164BD9F3538EB35392CA013D3F": {
+          "AssetPathName": "/Game/Movies/0/EVM_ST02_01_ja.EVM_ST02_01_ja",
+          "SubPathString": ""
+        },
+        "media_source_en_10_D2D6B2064981CBDFE856CE8CA64C4871": {
+          "AssetPathName": "/Game/Movies/0/EVM_ST02_01_en.EVM_ST02_01_en",
+          "SubPathString": ""
+        },
+        "media_source_zh-CN_13_9B84E35F4C8D348EA8B2AE892AB8D302": {
+          "AssetPathName": "/Game/Movies/0/EVM_ST02_01_zh-CN.EVM_ST02_01_zh-CN",
+          "SubPathString": ""
+        },
+        "media_source_zh-TW_18_2B75B194470AE6592D3CFB85F0624446": {
+          "AssetPathName": "/Game/Movies/0/EVM_ST02_01_zh-TW.EVM_ST02_01_zh-TW",
+          "SubPathString": ""
+        },
+        "media_source_es_22_539DB40A485049CF62347AAA5F231C5E": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "media_source_fr_23_395C724C406C50E357380D86486E5462": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "EVM_ST03_01": {
+        "memo_5_395B823C4C1CF8EF03B7F583B7E06613": "3章_Rebirth of the Legend_ポエム",
+        "media_source_2_7C73AD3E46310A51BFCDE99BA612C3B0": null,
+        "media_source_jp_8_9B7A9B164BD9F3538EB35392CA013D3F": {
+          "AssetPathName": "/Game/Movies/1/EVM_ST03_01_ja.EVM_ST03_01_ja",
+          "SubPathString": ""
+        },
+        "media_source_en_10_D2D6B2064981CBDFE856CE8CA64C4871": {
+          "AssetPathName": "/Game/Movies/1/EVM_ST03_01_en.EVM_ST03_01_en",
+          "SubPathString": ""
+        },
+        "media_source_zh-CN_13_9B84E35F4C8D348EA8B2AE892AB8D302": {
+          "AssetPathName": "/Game/Movies/1/EVM_ST03_01_zh-CN.EVM_ST03_01_zh-CN",
+          "SubPathString": ""
+        },
+        "media_source_zh-TW_18_2B75B194470AE6592D3CFB85F0624446": {
+          "AssetPathName": "/Game/Movies/1/EVM_ST03_01_zh-TW.EVM_ST03_01_zh-TW",
+          "SubPathString": ""
+        },
+        "media_source_es_22_539DB40A485049CF62347AAA5F231C5E": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "media_source_fr_23_395C724C406C50E357380D86486E5462": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "EVM_ST03_02": {
+        "memo_5_395B823C4C1CF8EF03B7F583B7E06613": "3章_Return of the Bastards_ポエム",
+        "media_source_2_7C73AD3E46310A51BFCDE99BA612C3B0": null,
+        "media_source_jp_8_9B7A9B164BD9F3538EB35392CA013D3F": {
+          "AssetPathName": "/Game/Movies/1/EVM_ST03_02_ja.EVM_ST03_02_ja",
+          "SubPathString": ""
+        },
+        "media_source_en_10_D2D6B2064981CBDFE856CE8CA64C4871": {
+          "AssetPathName": "/Game/Movies/1/EVM_ST03_02_en.EVM_ST03_02_en",
+          "SubPathString": ""
+        },
+        "media_source_zh-CN_13_9B84E35F4C8D348EA8B2AE892AB8D302": {
+          "AssetPathName": "/Game/Movies/1/EVM_ST03_02_zh-CN.EVM_ST03_02_zh-CN",
+          "SubPathString": ""
+        },
+        "media_source_zh-TW_18_2B75B194470AE6592D3CFB85F0624446": {
+          "AssetPathName": "/Game/Movies/1/EVM_ST03_02_zh-TW.EVM_ST03_02_zh-TW",
+          "SubPathString": ""
+        },
+        "media_source_es_22_539DB40A485049CF62347AAA5F231C5E": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "media_source_fr_23_395C724C406C50E357380D86486E5462": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "EVM_ST03_03": {
+        "memo_5_395B823C4C1CF8EF03B7F583B7E06613": "3章_Rise of the New Generation_ポエム",
+        "media_source_2_7C73AD3E46310A51BFCDE99BA612C3B0": null,
+        "media_source_jp_8_9B7A9B164BD9F3538EB35392CA013D3F": {
+          "AssetPathName": "/Game/Movies/1/EVM_ST03_03_ja.EVM_ST03_03_ja",
+          "SubPathString": ""
+        },
+        "media_source_en_10_D2D6B2064981CBDFE856CE8CA64C4871": {
+          "AssetPathName": "/Game/Movies/1/EVM_ST03_03_en.EVM_ST03_03_en",
+          "SubPathString": ""
+        },
+        "media_source_zh-CN_13_9B84E35F4C8D348EA8B2AE892AB8D302": {
+          "AssetPathName": "/Game/Movies/1/EVM_ST03_03_zh-CN.EVM_ST03_03_zh-CN",
+          "SubPathString": ""
+        },
+        "media_source_zh-TW_18_2B75B194470AE6592D3CFB85F0624446": {
+          "AssetPathName": "/Game/Movies/1/EVM_ST03_03_zh-TW.EVM_ST03_03_zh-TW",
+          "SubPathString": ""
+        },
+        "media_source_es_22_539DB40A485049CF62347AAA5F231C5E": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "media_source_fr_23_395C724C406C50E357380D86486E5462": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "EVM_ST04_01": {
+        "memo_5_395B823C4C1CF8EF03B7F583B7E06613": "4章_3人のボス撃破後_ポエム",
+        "media_source_2_7C73AD3E46310A51BFCDE99BA612C3B0": null,
+        "media_source_jp_8_9B7A9B164BD9F3538EB35392CA013D3F": {
+          "AssetPathName": "/Game/Movies/1/EVM_ST04_01_ja.EVM_ST04_01_ja",
+          "SubPathString": ""
+        },
+        "media_source_en_10_D2D6B2064981CBDFE856CE8CA64C4871": {
+          "AssetPathName": "/Game/Movies/1/EVM_ST04_01_en.EVM_ST04_01_en",
+          "SubPathString": ""
+        },
+        "media_source_zh-CN_13_9B84E35F4C8D348EA8B2AE892AB8D302": {
+          "AssetPathName": "/Game/Movies/1/EVM_ST04_01_zh-CN.EVM_ST04_01_zh-CN",
+          "SubPathString": ""
+        },
+        "media_source_zh-TW_18_2B75B194470AE6592D3CFB85F0624446": {
+          "AssetPathName": "/Game/Movies/1/EVM_ST04_01_zh-TW.EVM_ST04_01_zh-TW",
+          "SubPathString": ""
+        },
+        "media_source_es_22_539DB40A485049CF62347AAA5F231C5E": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "media_source_fr_23_395C724C406C50E357380D86486E5462": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "EVM_ST05_01": {
+        "memo_5_395B823C4C1CF8EF03B7F583B7E06613": "5章_機光王撃破後_ポエム",
+        "media_source_2_7C73AD3E46310A51BFCDE99BA612C3B0": null,
+        "media_source_jp_8_9B7A9B164BD9F3538EB35392CA013D3F": {
+          "AssetPathName": "/Game/Movies/1/EVM_ST05_01_ja.EVM_ST05_01_ja",
+          "SubPathString": ""
+        },
+        "media_source_en_10_D2D6B2064981CBDFE856CE8CA64C4871": {
+          "AssetPathName": "/Game/Movies/1/EVM_ST05_01_en.EVM_ST05_01_en",
+          "SubPathString": ""
+        },
+        "media_source_zh-CN_13_9B84E35F4C8D348EA8B2AE892AB8D302": {
+          "AssetPathName": "/Game/Movies/1/EVM_ST05_01_zh-CN.EVM_ST05_01_zh-CN",
+          "SubPathString": ""
+        },
+        "media_source_zh-TW_18_2B75B194470AE6592D3CFB85F0624446": {
+          "AssetPathName": "/Game/Movies/1/EVM_ST05_01_zh-TW.EVM_ST05_01_zh-TW",
+          "SubPathString": ""
+        },
+        "media_source_es_22_539DB40A485049CF62347AAA5F231C5E": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "media_source_fr_23_395C724C406C50E357380D86486E5462": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "EVM_ST05_02": {
+        "memo_5_395B823C4C1CF8EF03B7F583B7E06613": "5章_機光王撃破後_スタッフロール",
+        "media_source_2_7C73AD3E46310A51BFCDE99BA612C3B0": null,
+        "media_source_jp_8_9B7A9B164BD9F3538EB35392CA013D3F": {
+          "AssetPathName": "/Game/Movies/1/EVM_ST05_02_ja.EVM_ST05_02_ja",
+          "SubPathString": ""
+        },
+        "media_source_en_10_D2D6B2064981CBDFE856CE8CA64C4871": {
+          "AssetPathName": "/Game/Movies/1/EVM_ST05_02_en.EVM_ST05_02_en",
+          "SubPathString": ""
+        },
+        "media_source_zh-CN_13_9B84E35F4C8D348EA8B2AE892AB8D302": {
+          "AssetPathName": "/Game/Movies/1/EVM_ST05_02_zh-CN.EVM_ST05_02_zh-CN",
+          "SubPathString": ""
+        },
+        "media_source_zh-TW_18_2B75B194470AE6592D3CFB85F0624446": {
+          "AssetPathName": "/Game/Movies/1/EVM_ST05_02_zh-TW.EVM_ST05_02_zh-TW",
+          "SubPathString": ""
+        },
+        "media_source_es_22_539DB40A485049CF62347AAA5F231C5E": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "media_source_fr_23_395C724C406C50E357380D86486E5462": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "EVM_ST06_01": {
+        "memo_5_395B823C4C1CF8EF03B7F583B7E06613": "6章_???撃破後_ポエム",
+        "media_source_2_7C73AD3E46310A51BFCDE99BA612C3B0": null,
+        "media_source_jp_8_9B7A9B164BD9F3538EB35392CA013D3F": {
+          "AssetPathName": "/Game/Movies/1/EVM_ST06_01_ja.EVM_ST06_01_ja",
+          "SubPathString": ""
+        },
+        "media_source_en_10_D2D6B2064981CBDFE856CE8CA64C4871": {
+          "AssetPathName": "/Game/Movies/1/EVM_ST06_01_en.EVM_ST06_01_en",
+          "SubPathString": ""
+        },
+        "media_source_zh-CN_13_9B84E35F4C8D348EA8B2AE892AB8D302": {
+          "AssetPathName": "/Game/Movies/1/EVM_ST06_01_zh-CN.EVM_ST06_01_zh-CN",
+          "SubPathString": ""
+        },
+        "media_source_zh-TW_18_2B75B194470AE6592D3CFB85F0624446": {
+          "AssetPathName": "/Game/Movies/1/EVM_ST06_01_zh-TW.EVM_ST06_01_zh-TW",
+          "SubPathString": ""
+        },
+        "media_source_es_22_539DB40A485049CF62347AAA5F231C5E": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "media_source_fr_23_395C724C406C50E357380D86486E5462": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "EVM_Credits": {
+        "memo_5_395B823C4C1CF8EF03B7F583B7E06613": "Credits",
+        "media_source_2_7C73AD3E46310A51BFCDE99BA612C3B0": null,
+        "media_source_jp_8_9B7A9B164BD9F3538EB35392CA013D3F": {
+          "AssetPathName": "/Game/Movies/1/EVM_Credits.EVM_Credits",
+          "SubPathString": ""
+        },
+        "media_source_en_10_D2D6B2064981CBDFE856CE8CA64C4871": {
+          "AssetPathName": "/Game/Movies/1/EVM_Credits.EVM_Credits",
+          "SubPathString": ""
+        },
+        "media_source_zh-CN_13_9B84E35F4C8D348EA8B2AE892AB8D302": {
+          "AssetPathName": "/Game/Movies/1/EVM_Credits.EVM_Credits",
+          "SubPathString": ""
+        },
+        "media_source_zh-TW_18_2B75B194470AE6592D3CFB85F0624446": {
+          "AssetPathName": "/Game/Movies/1/EVM_Credits.EVM_Credits",
+          "SubPathString": ""
+        },
+        "media_source_es_22_539DB40A485049CF62347AAA5F231C5E": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "media_source_fr_23_395C724C406C50E357380D86486E5462": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]
