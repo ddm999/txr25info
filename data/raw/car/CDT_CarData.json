@@ -7227,6 +7227,88 @@
         "enable_sticker_99_30C9184043E31CA87B38379780042063": false,
         "is_demo_car_101_6932EF5E475E8E057FFA94B1A8EC8237": false,
         "enable_official_color_103_E4EF57144B59DB91174ADAA6E6CDB0F2": false
+      },
+      "SE3PCuHL": {
+        "vehicle_class_3_36FCE92A4D8E1C702B214F92647A6A4E": {
+          "ObjectName": "BlueprintGeneratedClass'BP_GV_SE3PCuHL_C'",
+          "ObjectPath": "/DLC_GuestRival01/ITSB/car/Blueprints/Models/CUSTOM/BP_GV_SE3PCuHL.0"
+        },
+        "is_default_15_391965BC4F192D484DBB2FBDC7B39BA9": false,
+        "enable_tuning_6_07A692AC4FC8F409F57187A1B80A6AC5": false,
+        "enable_aero_44_DC295A02403A22479B8821B1B1D4AD0D": false,
+        "enable_livery_43_20EE351A4016AD661E80C98A898C4038": false,
+        "enable_setting_10_72E947A64162F63FDDB9679A1CCFB1C6": false,
+        "valid_settings_at_disable_49_88EBEEC0418E8E5598354E9338F9209D": [],
+        "maker_19_C502186643F058A7687D13B0FEBC6E5A": "Custom",
+        "price_18_8749AA914481D2204FBDE39A1908300A": 50000000,
+        "can_bought_default_21_072746E348CC604CEC7894AFA27772D9": false,
+        "can_other_27_37BF756D465D47D7C5ABAF96B6A87ABE": false,
+        "category_30_A571BCCA44A9044E7D1343B83524BD6D": "ECarCategory::Sports",
+        "combo_set_32_F09E99D34D81E3390492BDBB79D57C79": false,
+        "is_valid_34_247A38A54BCA242B5C533A8B63C171B5": true,
+        "image_40_BF0EAC5542C281D53CAE3C89E0C0B911": {
+          "AssetPathName": "/DLC_GuestRival01/ITSB/UI/Car/Tth_Car_Custom_SE3PCuHL.Tth_Car_Custom_SE3PCuHL",
+          "SubPathString": ""
+        },
+        "color_tbl_41_1DC606F1403DB8A607C3F38333CD730C": null,
+        "LicensePlateCategory_58_83ACBC0E4C1F315AD474CB8FAA8E51EF": "Enum_OutGame_NumberPlate_Car_Categories::NewEnumerator7",
+        "can_broken_vehicle_61_C33E76634A1CABA6A6448EA305D285C7": false,
+        "enable_custom_color_63_4422ECC449A87CCE3C52C9B587601C2B": false,
+        "tuneset_id_68_80C5686946F4B9A718940BADBE86B189": "Wan_0079",
+        "licenseplate_number_id_71_5C7F04FC4170EDC05115F9A0539915F1": "None",
+        "use_business_rate_75_0CBE91D84ED25F4A6DE78B8675F2E754": 0,
+        "Representative_color_78_AA70D3F54BA4F05BCF4CE4862EBDE452": 0,
+        "enable_normal_rear_spoiler_81_09B62477474F4AED03BC7781BBA3057B": false,
+        "price_coef_84_3CED9A544CD561403BCB8A8024F7242A": 1.0,
+        "Is_shop_buy_87_20FDE15E45FAB3D048403D96236ADBEC": true,
+        "is_japan_spec_89_AA3984C44C8866531593ECA6BAABA7EF": false,
+        "forced_classification_number_93_4958F87543BD771F17008089291616EE": 0,
+        "enable_vainyl_95_89034FCA413C533183CD93AB29D53636": false,
+        "enable_aura_97_C49D727E450263E3A37437852E96CB22": false,
+        "enable_sticker_99_30C9184043E31CA87B38379780042063": false,
+        "is_demo_car_101_6932EF5E475E8E057FFA94B1A8EC8237": false,
+        "enable_official_color_103_E4EF57144B59DB91174ADAA6E6CDB0F2": false
+      },
+      "DC5CuNJ": {
+        "vehicle_class_3_36FCE92A4D8E1C702B214F92647A6A4E": {
+          "ObjectName": "BlueprintGeneratedClass'BP_GV_DC5CuNJ_C'",
+          "ObjectPath": "/DLC_GuestRival02/ITSB/car/Blueprints/Models/CUSTOM/BP_GV_DC5CuNJ.0"
+        },
+        "is_default_15_391965BC4F192D484DBB2FBDC7B39BA9": false,
+        "enable_tuning_6_07A692AC4FC8F409F57187A1B80A6AC5": false,
+        "enable_aero_44_DC295A02403A22479B8821B1B1D4AD0D": false,
+        "enable_livery_43_20EE351A4016AD661E80C98A898C4038": false,
+        "enable_setting_10_72E947A64162F63FDDB9679A1CCFB1C6": false,
+        "valid_settings_at_disable_49_88EBEEC0418E8E5598354E9338F9209D": [],
+        "maker_19_C502186643F058A7687D13B0FEBC6E5A": "Custom",
+        "price_18_8749AA914481D2204FBDE39A1908300A": 50000000,
+        "can_bought_default_21_072746E348CC604CEC7894AFA27772D9": false,
+        "can_other_27_37BF756D465D47D7C5ABAF96B6A87ABE": false,
+        "category_30_A571BCCA44A9044E7D1343B83524BD6D": "ECarCategory::Sports",
+        "combo_set_32_F09E99D34D81E3390492BDBB79D57C79": false,
+        "is_valid_34_247A38A54BCA242B5C533A8B63C171B5": true,
+        "image_40_BF0EAC5542C281D53CAE3C89E0C0B911": {
+          "AssetPathName": "/DLC_GuestRival02/ITSB/UI/Car/Tth_Car_Custom_DC5CuNJ.Tth_Car_Custom_DC5CuNJ",
+          "SubPathString": ""
+        },
+        "color_tbl_41_1DC606F1403DB8A607C3F38333CD730C": null,
+        "LicensePlateCategory_58_83ACBC0E4C1F315AD474CB8FAA8E51EF": "Enum_OutGame_NumberPlate_Car_Categories::NewEnumerator7",
+        "can_broken_vehicle_61_C33E76634A1CABA6A6448EA305D285C7": false,
+        "enable_custom_color_63_4422ECC449A87CCE3C52C9B587601C2B": false,
+        "tuneset_id_68_80C5686946F4B9A718940BADBE86B189": "Wan_0080",
+        "licenseplate_number_id_71_5C7F04FC4170EDC05115F9A0539915F1": "None",
+        "use_business_rate_75_0CBE91D84ED25F4A6DE78B8675F2E754": 0,
+        "Representative_color_78_AA70D3F54BA4F05BCF4CE4862EBDE452": 0,
+        "enable_normal_rear_spoiler_81_09B62477474F4AED03BC7781BBA3057B": false,
+        "price_coef_84_3CED9A544CD561403BCB8A8024F7242A": 1.0,
+        "Is_shop_buy_87_20FDE15E45FAB3D048403D96236ADBEC": true,
+        "is_japan_spec_89_AA3984C44C8866531593ECA6BAABA7EF": false,
+        "forced_classification_number_93_4958F87543BD771F17008089291616EE": 0,
+        "enable_vainyl_95_89034FCA413C533183CD93AB29D53636": false,
+        "enable_aura_97_C49D727E450263E3A37437852E96CB22": false,
+        "enable_sticker_99_30C9184043E31CA87B38379780042063": false,
+        "is_demo_car_101_6932EF5E475E8E057FFA94B1A8EC8237": false,
+        "enable_official_color_103_E4EF57144B59DB91174ADAA6E6CDB0F2": false
       }
     }
   }

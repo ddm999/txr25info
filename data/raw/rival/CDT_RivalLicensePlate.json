@@ -6698,6 +6698,62 @@
         "IndividualNumberHyphen": 1,
         "IndividualNumber0010": 7,
         "IndividualNumber0001": 5
+      },
+      "Wan_0079": {
+        "Area": "ECarLicensePlateArea::Hiroshima_Hiroshima",
+        "PlateCategory": 1,
+        "PlaceNameIndex": 0,
+        "ClassNumber100": 3,
+        "ClassNumber010": 2,
+        "ClassNumber001": 6,
+        "CharactorIndex": 14,
+        "IndividualNumber1000": 10,
+        "IndividualNumber0100": 10,
+        "IndividualNumberHyphen": 0,
+        "IndividualNumber0010": 10,
+        "IndividualNumber0001": 8
+      },
+      "Wan_0079_2": {
+        "Area": "ECarLicensePlateArea::Hiroshima_Hiroshima",
+        "PlateCategory": 1,
+        "PlaceNameIndex": 0,
+        "ClassNumber100": 3,
+        "ClassNumber010": 2,
+        "ClassNumber001": 6,
+        "CharactorIndex": 14,
+        "IndividualNumber1000": 10,
+        "IndividualNumber0100": 10,
+        "IndividualNumberHyphen": 0,
+        "IndividualNumber0010": 10,
+        "IndividualNumber0001": 8
+      },
+      "Wan_0080": {
+        "Area": "ECarLicensePlateArea::Osaka_Naniwa",
+        "PlateCategory": 1,
+        "PlaceNameIndex": 0,
+        "ClassNumber100": 3,
+        "ClassNumber010": 1,
+        "ClassNumber001": 5,
+        "CharactorIndex": 30,
+        "IndividualNumber1000": 10,
+        "IndividualNumber0100": 8,
+        "IndividualNumberHyphen": 0,
+        "IndividualNumber0010": 0,
+        "IndividualNumber0001": 1
+      },
+      "Wan_0080_2": {
+        "Area": "ECarLicensePlateArea::Osaka_Naniwa",
+        "PlateCategory": 1,
+        "PlaceNameIndex": 0,
+        "ClassNumber100": 3,
+        "ClassNumber010": 1,
+        "ClassNumber001": 5,
+        "CharactorIndex": 30,
+        "IndividualNumber1000": 10,
+        "IndividualNumber0100": 8,
+        "IndividualNumberHyphen": 0,
+        "IndividualNumber0010": 0,
+        "IndividualNumber0001": 1
       }
     }
   }

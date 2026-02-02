@@ -24980,6 +24980,166 @@
         "IsUseWinkerInBattle": true,
         "IsBrakeUpDown": true,
         "BrakeUpDownSensitive": 2.0
+      },
+      "Wan_0079": {
+        "Memo": "ホロライブ",
+        "ParameterTemplateName": "None",
+        "bIsOverrideBattleParameter": true,
+        "OverrideBattleParameter": {
+          "ID": 0,
+          "BasicThinkings": [
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_SpeedSlower",
+              "ConditionValue": 55.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "EffectTimeSecond": 10.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": -1
+            }
+          ],
+          "TargetSpeedModifier": 1.0,
+          "BlockMethod": "EBlockMethod::BM_NeverBlock",
+          "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+          "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+          "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+          "MaxTargetSpeedKmh": -1.0,
+          "bIsNoLimitTargetSpeedForBehind": true
+        },
+        "bIsOverrideOnBattleEvaluationOrder": false,
+        "OverrideOnBattleEvaluationOrderName": "None",
+        "bIsOverrideOnCrusingEvaluationOrder": false,
+        "OverrideOnCrusingEvaluationOrderName": "None",
+        "RubberBandType": "Default",
+        "CornerBrakeType": "Default",
+        "CornerOutInOutType": "Default",
+        "LaneChangeRule": "NormalRunner",
+        "FrontGripCoef": 1.0,
+        "SideGripCoef": 2.0,
+        "IsUseWinkerInBattle": true,
+        "IsBrakeUpDown": true,
+        "BrakeUpDownSensitive": 2.0
+      },
+      "Wan_0079_2": {
+        "Memo": "ホロライブ",
+        "ParameterTemplateName": "None",
+        "bIsOverrideBattleParameter": true,
+        "OverrideBattleParameter": {
+          "ID": 0,
+          "BasicThinkings": [
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_SpeedSlower",
+              "ConditionValue": 55.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "EffectTimeSecond": 10.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": -1
+            }
+          ],
+          "TargetSpeedModifier": 2.5,
+          "BlockMethod": "EBlockMethod::BM_AlwaysBlock",
+          "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+          "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+          "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+          "MaxTargetSpeedKmh": -1.0,
+          "bIsNoLimitTargetSpeedForBehind": true
+        },
+        "bIsOverrideOnBattleEvaluationOrder": false,
+        "OverrideOnBattleEvaluationOrderName": "None",
+        "bIsOverrideOnCrusingEvaluationOrder": false,
+        "OverrideOnCrusingEvaluationOrderName": "None",
+        "RubberBandType": "ST05_normal",
+        "CornerBrakeType": "Default",
+        "CornerOutInOutType": "Default",
+        "LaneChangeRule": "NormalRunner",
+        "FrontGripCoef": 1.5,
+        "SideGripCoef": 3.0,
+        "IsUseWinkerInBattle": true,
+        "IsBrakeUpDown": true,
+        "BrakeUpDownSensitive": 2.5
+      },
+      "Wan_0080": {
+        "Memo": "にじさんじ",
+        "ParameterTemplateName": "None",
+        "bIsOverrideBattleParameter": true,
+        "OverrideBattleParameter": {
+          "ID": 0,
+          "BasicThinkings": [
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_SpeedSlower",
+              "ConditionValue": 55.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "EffectTimeSecond": 10.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": -1
+            }
+          ],
+          "TargetSpeedModifier": 1.0,
+          "BlockMethod": "EBlockMethod::BM_NeverBlock",
+          "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+          "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+          "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+          "MaxTargetSpeedKmh": -1.0,
+          "bIsNoLimitTargetSpeedForBehind": true
+        },
+        "bIsOverrideOnBattleEvaluationOrder": false,
+        "OverrideOnBattleEvaluationOrderName": "None",
+        "bIsOverrideOnCrusingEvaluationOrder": false,
+        "OverrideOnCrusingEvaluationOrderName": "None",
+        "RubberBandType": "Default",
+        "CornerBrakeType": "Default",
+        "CornerOutInOutType": "Default",
+        "LaneChangeRule": "NormalRunner",
+        "FrontGripCoef": 1.0,
+        "SideGripCoef": 2.0,
+        "IsUseWinkerInBattle": true,
+        "IsBrakeUpDown": true,
+        "BrakeUpDownSensitive": 2.0
+      },
+      "Wan_0080_2": {
+        "Memo": "にじさんじ",
+        "ParameterTemplateName": "None",
+        "bIsOverrideBattleParameter": true,
+        "OverrideBattleParameter": {
+          "ID": 0,
+          "BasicThinkings": [
+            {
+              "Condition": "ERivalBasicConditionPatterns::RBCP_SpeedSlower",
+              "ConditionValue": 55.0,
+              "EffectKind": "ERivalSpecEffectKind::RSEK_Torque",
+              "SpecEffect": "ERivalSpecEffect::RSE_SuperBigUp",
+              "EffectTimeSecond": 10.0,
+              "bIsBreakOnSuccess": false,
+              "CooldownSecond": 0.0,
+              "CanBuffActivateCount": -1
+            }
+          ],
+          "TargetSpeedModifier": 1.0,
+          "BlockMethod": "EBlockMethod::BM_NeverBlock",
+          "OvertakeAbility": "ERivalOvertakeAbility::ROA_Normal",
+          "RandomLaneChangeFrequancy": "ERivalRandomLaneChange::RRLC_None",
+          "DriftPreference": "ERivalDriftPreference::RDP_Normal",
+          "MaxTargetSpeedKmh": -1.0,
+          "bIsNoLimitTargetSpeedForBehind": true
+        },
+        "bIsOverrideOnBattleEvaluationOrder": false,
+        "OverrideOnBattleEvaluationOrderName": "None",
+        "bIsOverrideOnCrusingEvaluationOrder": false,
+        "OverrideOnCrusingEvaluationOrderName": "None",
+        "RubberBandType": "Default",
+        "CornerBrakeType": "Default",
+        "CornerOutInOutType": "Default",
+        "LaneChangeRule": "NormalRunner",
+        "FrontGripCoef": 1.0,
+        "SideGripCoef": 2.0,
+        "IsUseWinkerInBattle": true,
+        "IsBrakeUpDown": true,
+        "BrakeUpDownSensitive": 2.0
       }
     }
   }

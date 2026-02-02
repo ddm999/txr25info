@@ -18338,6 +18338,90 @@
         "ConversationBaseKey": "rivalB334",
         "ConversationInfoKey": "None",
         "OriginalDisplayHeader": ""
+      },
+      "Wan_0079": {
+        "NickName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_RivalNickname.ST_RivalNickname",
+          "Key": "Wan_0079",
+          "SourceString": "Wan_0079",
+          "LocalizedString": "LIGHTNING-FAST CARRIAGE DRIVER"
+        },
+        "TeamNameId": "Wanderer",
+        "DisplayNumber": 1,
+        "RealName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_RivalName.ST_RivalName",
+          "Key": "Wan_0079",
+          "SourceString": "Wan_0079",
+          "LocalizedString": "Rindo Chihaya"
+        },
+        "Occupation": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_RivalOccupation.ST_RivalOccupation",
+          "Key": "Wan_0079",
+          "SourceString": "Wan_0079",
+          "LocalizedString": "DJ & Driver"
+        },
+        "Rumor": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_WandererGossip.ST_WandererGossip",
+          "Key": "gossip_wanderer79_1",
+          "SourceString": "平和島下りのPAに出現。",
+          "LocalizedString": "Appears at Heiwajima Parking Area (Down)."
+        },
+        "Profile": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_RivalProfile.ST_RivalProfile",
+          "Key": "Wan_0079",
+          "SourceString": "Wan_0079",
+          "LocalizedString": "She is a DJ for the music artist VTuber group \"FLOW GLOW\", which belongs to \"hololive DEV_IS\" under \"HoloLive Production\". She is also a self-proclaimed 300 horsepower powerful driver, and seems to know no brakes when talking or singing. Her momentum is unstoppable on the Shuto Expressway, where she has defeated many street racers. What she cherishes now is the time she spends driving with her friends in her beloved car. \"Hey, why don't we go see the view on the other side together?\""
+        },
+        "IsValid": true,
+        "SubRivalNameId": [
+          "Wan_0079_2"
+        ],
+        "SubRivalNoCountNameId": [],
+        "ConversationBaseKey": "PA2",
+        "ConversationInfoKey": "wanderer76",
+        "OriginalDisplayHeader": "Guest-"
+      },
+      "Wan_0080": {
+        "NickName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_RivalNickname.ST_RivalNickname",
+          "Key": "Wan_0080",
+          "SourceString": "Wan_0080",
+          "LocalizedString": "RAINBOW PARALLEL WORLD TRAVELER"
+        },
+        "TeamNameId": "Wanderer",
+        "DisplayNumber": 2,
+        "RealName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_RivalName.ST_RivalName",
+          "Key": "Wan_0080",
+          "SourceString": "Wan_0080",
+          "LocalizedString": "Meloco Kyoran"
+        },
+        "Occupation": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_RivalOccupation.ST_RivalOccupation",
+          "Key": "Wan_0080",
+          "SourceString": "Wan_0080",
+          "LocalizedString": "Infinite Academy XSOLEIL, 2nd year student"
+        },
+        "Rumor": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_WandererGossip.ST_WandererGossip",
+          "Key": "gossip_wanderer80_1",
+          "SourceString": "平和島上りのPAに出現。",
+          "LocalizedString": "Appears at Heiwajima Parking Area (Up)."
+        },
+        "Profile": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_RivalProfile.ST_RivalProfile",
+          "Key": "Wan_0080",
+          "SourceString": "Wan_0080",
+          "LocalizedString": "A virtual live streamer from \"NIJISANJI EN\". A second-year student at the Infinite Academy XSOLEIL, she works as an event planner for the student council during the day and as an exorcist at night. She uses her favorite umbrella to fight ghosts and demons. When she debuted on the Shuto Expressway, she bewildered those around her by declaring, \"I grew up in a family without brakes.\" However, she is actually the daughter of the prestigious Kyoran family. Having lost her place in her family home, she was invited by a mysterious entity to transfer to another world, where she met the members of XSOLEIL."
+        },
+        "IsValid": true,
+        "SubRivalNameId": [
+          "Wan_0080_2"
+        ],
+        "SubRivalNoCountNameId": [],
+        "ConversationBaseKey": "PA2",
+        "ConversationInfoKey": "wanderer77",
+        "OriginalDisplayHeader": "Guest-"
       }
     }
   }
