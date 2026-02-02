@@ -48,7 +48,7 @@
         "LockedText": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_tree_system.ST_tree_system",
           "Key": "Str_UI_Tree_sys_40",
-          "SourceString": "【スティールハート】、【紅童子（Z33）】、【噂のライター】の3人を撃破する。",
+          "SourceString": "≪解放条件≫\r\n【スティールハート】、【紅童子（Z33）】、【噂のライター】の3人を撃破する。",
           "LocalizedString": "≪Unlock Condition≫\r\nDefeat 【STEEL HEART】, 【CRIMSON BOY（Z33）】, and 【RUMORED WRITER】."
         },
         "NameId": "URZ100",

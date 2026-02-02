@@ -4182,7 +4182,7 @@
       "NCP31CuHG": {
         "ID": 177,
         "CarId": "CAR177",
-        "CarNameId": "NCP31CuHG",
+        "CarNameId": "RETURN TO ORIGIN",
         "ModelNameId": "NCP31CuHG",
         "FolderId": "NCP31CuHG",
         "ReleaseDay": 2003,
@@ -4444,7 +4444,7 @@
         "front_brake_angle": 360.0,
         "rear_brake_angle": 360.0,
         "front_is_drum_brake": false,
-        "rear_is_drum_brake": false,
+        "rear_is_drum_brake": true,
         "FTireInchMinus": -1,
         "FTireInchPlus": 2,
         "RTireInchMinus": -1,

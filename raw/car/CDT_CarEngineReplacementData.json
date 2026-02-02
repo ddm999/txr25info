@@ -41,8 +41,8 @@
         "engine_info_36_00CB92B14E24F2E3F3B632A9CB0CB1EB": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_Tune.ST_Tune",
           "Key": "Str_UI_Tune_130",
-          "SourceString": "チューンド直列6気筒ターボエンジンに換装します。\r\n3.0Lの排気量とツインターボにより、\r\n最大出力280PS/5600rpmを出す。",
-          "LocalizedString": "Replace with tuned inline 6-cylinder turbo engine. \r\nWith displacement of 3.0L & twin turbo, it produces \r\nmax output of 280PS at 5600rpm."
+          "SourceString": "チューンド直列6気筒ターボエンジンに換装します。\r\n3.0Lの排気量とツインターボにより、\r\n最大出力280PS/5,600rpmを出す。",
+          "LocalizedString": "Replace with tuned inline 6-cylinder turbo engine. \r\nWith displacement of 3.0L & twin turbo, it produces max output of 280PS at 5,600rpm."
         }
       },
       "EgRp_20B": {
@@ -69,8 +69,8 @@
         "engine_info_36_00CB92B14E24F2E3F3B632A9CB0CB1EB": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_Tune.ST_Tune",
           "Key": "Str_UI_Tune_133",
-          "SourceString": "チューンドロータリーターボエンジンに換装します。\r\n3ローターで、2.0Lの排気量により\r\n最大出力280PS/6500rpmを出す。",
-          "LocalizedString": "Replace with tuned rotary turbo engine. \r\nWith 3 rotors & displacement of 2.0L, it produces \r\nmax output of 280PS at 6500rpm."
+          "SourceString": "チューンドロータリーターボエンジンに換装します。\r\n3ローターで、2.0Lの排気量により\r\n最大出力280PS/6,500rpmを出す。",
+          "LocalizedString": "Replace with tuned rotary turbo engine. \r\nWith 3 rotors & displacement of 2.0L, it produces max output of 280PS at 6,500rpm."
         }
       },
       "EgRp_RB26DETT": {
@@ -97,8 +97,8 @@
         "engine_info_36_00CB92B14E24F2E3F3B632A9CB0CB1EB": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_Tune.ST_Tune",
           "Key": "Str_UI_Tune_129",
-          "SourceString": "チューンド直列6気筒ターボエンジンに換装します。\r\n2.6Lの排気量とツインターボにより、\r\n最大出力280PS/6800rpmを出す。",
-          "LocalizedString": "Replace with tuned inline 6-cylinder turbo engine. \r\nWith displacement of 2.6L & twin turbo, it produces \r\nmax output of 280PS at 6800rpm."
+          "SourceString": "チューンド直列6気筒ターボエンジンに換装します。\r\n2.6Lの排気量とツインターボにより、\r\n最大出力280PS/6,800rpmを出す。",
+          "LocalizedString": "Replace with tuned inline 6-cylinder turbo engine. \r\nWith displacement of 2.6L & twin turbo, it produces max output of 280PS at 6,800rpm."
         }
       },
       "EgRp_JNC": {
@@ -125,8 +125,8 @@
         "engine_info_36_00CB92B14E24F2E3F3B632A9CB0CB1EB": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_Tune.ST_Tune",
           "Key": "Str_UI_Tune_173",
-          "SourceString": "チューンドV型6気筒ターボエンジンに換装します。\r\n3.5Lの排気量とツインターボにより、\r\n最大出力529PS/6850rpmを出す。",
-          "LocalizedString": "Replace with tuned V6 turbo engine. \r\nWith displacement of 1.5L & twin turbo, it produces \r\nmax output of 529PS at 6850rpm."
+          "SourceString": "チューンドV型6気筒ターボエンジンに換装します。\r\n3.5Lの排気量とツインターボにより、\r\n最大出力529PS/6,850rpmを出す。",
+          "LocalizedString": "Replace with tuned V6 turbo engine. \r\nWith displacement of 1.5L & twin turbo, it produces max output of 529PS at 6,850rpm."
         }
       },
       "EgRp_VR38DETT": {
@@ -153,8 +153,8 @@
         "engine_info_36_00CB92B14E24F2E3F3B632A9CB0CB1EB": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_Tune.ST_Tune",
           "Key": "Str_UI_Tune_132",
-          "SourceString": "チューンドV型6気筒ターボエンジンに換装します。\r\n3.8Lの排気量とツインターボにより、\r\n最大出力570PS/6800rpmを出す。",
-          "LocalizedString": "Replace with tuned V6 turbo engine. \r\nWith displacement of 3.8L & twin turbo, it produces \r\nmax output of 570PS at 6800rpm."
+          "SourceString": "チューンドV型6気筒ターボエンジンに換装します。\r\n3.8Lの排気量とツインターボにより、\r\n最大出力570PS/6,800rpmを出す。",
+          "LocalizedString": "Replace with tuned V6 turbo engine. \r\nWith displacement of 3.8L & twin turbo, it produces max output of 570PS at 6,800rpm."
         }
       },
       "EgRp_1LR-GUE": {
@@ -181,8 +181,8 @@
         "engine_info_36_00CB92B14E24F2E3F3B632A9CB0CB1EB": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_Tune.ST_Tune",
           "Key": "Str_UI_Tune_174",
-          "SourceString": "チューンドV型10気筒NAエンジンに換装します。\r\n4.8Lの排気量により\r\n最大出力560PS/8700rpmを出す",
-          "LocalizedString": "Replace with tuned V10 naturally aspirated engine. \r\nWith displacement of 4.8L, it produces \r\nmax output of 560PS at 8700rpm."
+          "SourceString": "チューンドV型10気筒NAエンジンに換装します。\r\n4.8Lの排気量により\r\n最大出力565PS/8,700rpmを出す",
+          "LocalizedString": "Replace with tuned V10 naturally aspirated engine. \r\nWith displacement of 4.8L, it produces max output of 565PS at 8,700rpm."
         }
       },
       "Wan_0077_ZN6EpV3": {

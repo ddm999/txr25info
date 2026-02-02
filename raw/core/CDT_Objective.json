@@ -13,6 +13,10 @@
         {
           "ObjectName": "DataTable'DT_Objective1'",
           "ObjectPath": "/Game/ITSB/Core/Quest/DT_Objective1.0"
+        },
+        {
+          "ObjectName": "DataTable'DT_Objective2'",
+          "ObjectPath": "/Game/ITSB/Core/Quest/DT_Objective2.0"
         }
       ],
       "RowStruct": {
@@ -7286,7 +7290,7 @@
         },
         "AppearanceCheckType": "ERivalAppearanceConditionCheckType::AND",
         "AppearanceTargetObjectives": [
-          "N040001"
+          "S030001"
         ],
         "AppearanceORxNeedNum": 1,
         "ClearCheckType": "ERivalAppearanceConditionCheckType::AND",
@@ -8391,7 +8395,7 @@
           "SubPathString": ""
         },
         "StartTutorialWhenDisplayed": "EGameTutorialMode::None",
-        "StartTutorialWhenCleared": "EGameTutorialMode::None",
+        "StartTutorialWhenCleared": "EGameTutorialMode::Step9",
         "CourseOpenArea": "ECourseOpenArea::None",
         "StoryAxis": "EStoryAxis::None",
         "IsNotVisible": true,

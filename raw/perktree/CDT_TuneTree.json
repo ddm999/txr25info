@@ -1955,7 +1955,7 @@
         "LockedText": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_tree_system.ST_tree_system",
           "Key": "Str_UI_Tree_sys_39",
-          "SourceString": "【紅童子（Z33）】、【金色般若（GCZ32）】、【鉄翁（BNR34）】の3人を撃破する。",
+          "SourceString": "≪解放条件≫\r\n【紅童子（Z33）】、【金色般若（GCZ32）】、【鉄翁（BNR34）】の3人を撃破する。",
           "LocalizedString": "≪Unlock Condition≫\r\nDefeat 【CRIMSON BOY（Z33）】, 【GOLDEN HANNYA（GCZ32）】, and 【IRON OLD MAN（BNR34）】."
         },
         "NameId": "None",
@@ -2052,7 +2052,7 @@
         "LockedText": {
           "TableId": "/Game/ITSB/UI/StringTable/ST_tree_system.ST_tree_system",
           "Key": "Str_UI_Tree_sys_39",
-          "SourceString": "【紅童子（Z33）】、【金色般若（GCZ32）】、【鉄翁（BNR34）】の3人を撃破する。",
+          "SourceString": "≪解放条件≫\r\n【紅童子（Z33）】、【金色般若（GCZ32）】、【鉄翁（BNR34）】の3人を撃破する。",
           "LocalizedString": "≪Unlock Condition≫\r\nDefeat 【CRIMSON BOY（Z33）】, 【GOLDEN HANNYA（GCZ32）】, and 【IRON OLD MAN（BNR34）】."
         },
         "NameId": "None",

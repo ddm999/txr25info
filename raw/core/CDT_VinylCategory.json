@@ -9,6 +9,10 @@
         {
           "ObjectName": "DataTable'DT_VinylCategory0'",
           "ObjectPath": "/Game/ITSB/Core/Quest/DT_VinylCategory0.0"
+        },
+        {
+          "ObjectName": "DataTable'DT_VinylCategory1'",
+          "ObjectPath": "/Game/ITSB/Core/Quest/DT_VinylCategory1.0"
         }
       ],
       "RowStruct": {
@@ -178,6 +182,15 @@
           "LocalizedString": "TRIBAL"
         },
         "sort_index_6_B654597F429A7BB961E4FFB98A2F0850": 18
+      },
+      "BONUS_DLC": {
+        "disp_name_2_14A821D444A6AC2A680BA6B574B74061": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "BONUS DLC",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "sort_index_6_B654597F429A7BB961E4FFB98A2F0850": 19
       }
     }
   }

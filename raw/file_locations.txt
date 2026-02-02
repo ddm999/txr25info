@@ -11,4 +11,4 @@ wheelcolor = ITSB/UI/Color/DataTables/Wheel/*
 others:
 achievements = ITSB/Core/Achievements
 reference = ITSB/Core/Reference
-stats = ITSB/Core/stats
+stats = ITSB/Core/Stats
