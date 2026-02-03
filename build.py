@@ -11,13 +11,20 @@ os.makedirs("build/img")
 shutil.copytree(f"res", f"build/res")
 copyfiles = ['style.css']
 datacopy = [('img/other/T_Com_Bg.png', 'img/bg.png')]
-foldercopy = [('img/car', 'img/car'), ('graph', 'graph'), ("raw", "raw")]
+foldercopy = [('graph', 'graph'), ("raw", "raw")]
+allcapsfoldercopy = [('img/car', 'img/car')]
 for file in copyfiles:
     shutil.copyfile(f"{file}", f"build/{file}")
 for file in datacopy:
     shutil.copyfile(f"data/{file[0]}", f"build/{file[1]}")
 for folder in foldercopy:
     shutil.copytree(f"data/{folder[0]}", f"build/{folder[1]}")
+for folder in allcapsfoldercopy:
+    src = f"data/{folder[0]}"
+    dst = f"build/{folder[1]}"
+    os.makedirs(dst, exist_ok=True)
+    for fname in os.listdir(src):
+        shutil.copyfile(os.path.join(src, fname), os.path.join(dst, fname.upper()))
 
 # index
 with io.open("index.tmpl", "r", encoding="utf-8") as f:
