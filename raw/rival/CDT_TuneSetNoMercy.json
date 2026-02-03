@@ -8775,6 +8775,57 @@
         "AddWeight": -550,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.8
+      },
+      "Wan_0079": {
+        "PowerUnit": "EVehicleTuneLevel::Level7",
+        "IntakeSystem": "EVehicleTuneLevel::Level5",
+        "ExhaustSystem": "EVehicleTuneLevel::Level5",
+        "transmission": "EVehicleTuneLevel::Level4",
+        "Clutch": "EVehicleTuneLevel::Level4",
+        "Suspension": "EVehicleTuneLevel::Level4",
+        "Brake": "EVehicleTuneLevel::Level5",
+        "Body": "EVehicleTuneLevel::Level4",
+        "FrontTire": "EVehicleTuneLevel::Level5",
+        "RearTire": "EVehicleTuneLevel::Level5",
+        "LSD": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level3",
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 0.95
+      },
+      "Wan_0079_2": {
+        "PowerUnit": "EVehicleTuneLevel::Level7",
+        "IntakeSystem": "EVehicleTuneLevel::Level5",
+        "ExhaustSystem": "EVehicleTuneLevel::Level5",
+        "transmission": "EVehicleTuneLevel::Level4",
+        "Clutch": "EVehicleTuneLevel::Level4",
+        "Suspension": "EVehicleTuneLevel::Level4",
+        "Brake": "EVehicleTuneLevel::Level5",
+        "Body": "EVehicleTuneLevel::Level4",
+        "FrontTire": "EVehicleTuneLevel::Level5",
+        "RearTire": "EVehicleTuneLevel::Level5",
+        "LSD": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level3",
+        "AddWeight": 0,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 0.95
+      },
+      "Wan_0080": {
+        "PowerUnit": "EVehicleTuneLevel::Level7",
+        "IntakeSystem": "EVehicleTuneLevel::Level5",
+        "ExhaustSystem": "EVehicleTuneLevel::Level5",
+        "transmission": "EVehicleTuneLevel::Level4",
+        "Clutch": "EVehicleTuneLevel::Level4",
+        "Suspension": "EVehicleTuneLevel::Level4",
+        "Brake": "EVehicleTuneLevel::Level5",
+        "Body": "EVehicleTuneLevel::Level4",
+        "FrontTire": "EVehicleTuneLevel::Level5",
+        "RearTire": "EVehicleTuneLevel::Level5",
+        "LSD": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level3",
+        "AddWeight": 150,
+        "ReplacementPuId": "None",
+        "FinalGearRatioCoef": 0.9
       }
     }
   }

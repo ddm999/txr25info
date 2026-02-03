@@ -63221,6 +63221,140 @@
           "SourceString": "StickerRival",
           "LocalizedString": "RIVAL STICKER"
         }
+      },
+      "Wand0079": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "EmblemRival",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/DLC_GuestRival01/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0079_v.Tth_er_Wand0079_v",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/DLC_GuestRival01/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0079_v.Ter_Wand0079_v",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 1024,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 1024,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "0",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": false,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": false,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "EmblemRival",
+          "SourceString": "EmblemRival",
+          "LocalizedString": "RIVAL EMBLEM"
+        }
+      },
+      "Wand0080": {
+        "category_54_D74884A747E77462EC5B538BA0D9201C": "EmblemRival",
+        "thumbnail_image_55_8A3F58D3460731A078A634916BA76F0E": {
+          "AssetPathName": "/DLC_GuestRival02/ITSB/UI/Vinyl/Card/EmblemRival/Tth_er_Wand0080_v.Tth_er_Wand0080_v",
+          "SubPathString": ""
+        },
+        "image_56_B79D20784188D2B53127B9AC401FD269": {
+          "AssetPathName": "/DLC_GuestRival02/ITSB/ArtAssets/Models/Livery/Vinyl/EmblemRival/Ter_Wand0080_v.Ter_Wand0080_v",
+          "SubPathString": ""
+        },
+        "image_sub_57_5E00B0E44002188B29B729945A34A0E3": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Livery/Vinyl/ACOMMON/Tvi_Def_Mat.Tvi_Def_Mat",
+          "SubPathString": ""
+        },
+        "SizeWidth_58_ACF910CB4F867B3530F346974270401A": 1024,
+        "SizeHeight_59_FB6555A7458F5D6C45003DBB8CCDC869": 1024,
+        "base_scale_x_72_9EE400DD4A2F65D578537FA8A85CB2CE": 1.0,
+        "base_scale_y_73_8CE297094FE8165314E31C9B6AFBBC26": 1.0,
+        "maker_60_A4A513C84257C0C44AF27185DF99F104": [],
+        "team_61_3CD26FAC48982E9ABE897582071A61D2": "0",
+        "can_bought_default_62_7DE4308F445F9E650E3CCFB27E5B14ED": false,
+        "genre_63_66B9B7354608AD0B7973579B2E3DD3DA": "None",
+        "unlock_target_maker_64_0A8711034C30C3D10E28DD9D4A4505D4": "None",
+        "color_list_65_36B9B15A4CECD0C449BD9EA6096ECD7D": [
+          {
+            "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+            "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+            "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+              "CultureInvariantString": null
+            },
+            "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "sub_material_24_5566378848385C113B639E80719D9FEC": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "option_material_31_30E2430A46904B2C011E589728B12A42": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+          }
+        ],
+        "can_color_change_66_536E038A4B754E08E39904A30F730313": false,
+        "category_disp_name_79_CA929FA04F8CAD24EEA970A16FEDED3D": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_VinylCategory.ST_VinylCategory",
+          "Key": "EmblemRival",
+          "SourceString": "EmblemRival",
+          "LocalizedString": "RIVAL EMBLEM"
+        }
       }
     }
   }
