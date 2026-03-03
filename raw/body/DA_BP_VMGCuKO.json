@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_VMGCuKO",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 148,
@@ -11,6 +11,7 @@
         "CarNameId": "KUROGANE OKINA",
         "ModelNameId": "VMGCuKO",
         "FolderId": "VMGCuKO",
+        "BaseCarId": "VMG",
         "ReleaseDay": 2015,
         "Price": 3564000,
         "BodyType": "EBodyType::WAGON",

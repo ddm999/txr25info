@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_ZC33S",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 64,
@@ -11,6 +11,7 @@
         "CarNameId": "SWIFT Sport (ZC33S) '22",
         "ModelNameId": "ZC33S",
         "FolderId": "ZC33S",
+        "BaseCarId": "ZC33S",
         "ReleaseDay": 2022,
         "Price": 2028400,
         "BodyType": "EBodyType::HATCHBACK",

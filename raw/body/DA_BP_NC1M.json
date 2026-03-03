@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_NC1M",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 16,
@@ -11,6 +11,7 @@
         "CarNameId": "NSX Type S (NC1) '22",
         "ModelNameId": "NC1",
         "FolderId": "NC1M",
+        "BaseCarId": "NC1M",
         "ReleaseDay": 2022,
         "Price": 27940000,
         "BodyType": "EBodyType::COUPE",

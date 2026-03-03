@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_SE3PCuMA",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 84,
@@ -11,6 +11,7 @@
         "CarNameId": "GLOOMY ANGEL",
         "ModelNameId": "SE3PCuMA",
         "FolderId": "SE3PCuMA",
+        "BaseCarId": "SE3P",
         "ReleaseDay": 2003,
         "Price": 2750000,
         "BodyType": "EBodyType::COUPE",

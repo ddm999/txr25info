@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_ZN8CuRS",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 157,
@@ -11,6 +11,7 @@
         "CarNameId": "RISING SEAMAN",
         "ModelNameId": "ZN8CuRS",
         "FolderId": "ZN8CuRS",
+        "BaseCarId": "ZN8",
         "ReleaseDay": 2021,
         "Price": 3349000,
         "BodyType": "EBodyType::COUPE",

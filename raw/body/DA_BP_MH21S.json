@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_MH21S",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 62,
@@ -11,6 +11,7 @@
         "CarNameId": "WAGON R RR-DI (MH21S) '03",
         "ModelNameId": "MH21S",
         "FolderId": "MH21S",
+        "BaseCarId": "MH21S",
         "ReleaseDay": 2003,
         "Price": 1400000,
         "BodyType": "EBodyType::LIFHT_VEHICLE",

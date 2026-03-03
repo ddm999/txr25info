@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_LA400K",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 2,
@@ -11,6 +11,7 @@
         "CarNameId": "COPEN Cero (LA400K) '15",
         "ModelNameId": "LA400K",
         "FolderId": "LA400K",
+        "BaseCarId": "LA400K",
         "ReleaseDay": 2015,
         "Price": 1873800,
         "BodyType": "EBodyType::CONVERTIBLE_CAR",

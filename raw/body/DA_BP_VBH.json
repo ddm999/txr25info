@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_VBH",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 59,
@@ -11,6 +11,7 @@
         "CarNameId": "WRX S4 STI Sport R EX (VBH) '21",
         "ModelNameId": "VBH",
         "FolderId": "VBH",
+        "BaseCarId": "VBH",
         "ReleaseDay": 2021,
         "Price": 4774000,
         "BodyType": "EBodyType::SEDAN",

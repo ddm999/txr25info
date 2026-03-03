@@ -2,8 +2,8 @@
   {
     "Type": "DataTable",
     "Name": "DT_PerkTreeIcon",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'SSkillTreeIcon'",

@@ -2,8 +2,8 @@
   {
     "Type": "DataTable",
     "Name": "DT_Color_Wheel_HURON",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
         "ObjectName": "UserDefinedStruct'UDS_Color'",
@@ -46,7 +46,8 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
-        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false,
+        "OtherCarColorRatio_36_BC0C04304EA395538A9A2D9B1767833C": 1
       }
     }
   }

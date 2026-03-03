@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_NA2",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 4,
@@ -11,6 +11,7 @@
         "CarNameId": "NSX Type S Zero (NA2) '97",
         "ModelNameId": "NA2",
         "FolderId": "NA2",
+        "BaseCarId": "NA2",
         "ReleaseDay": 1997,
         "Price": 9857000,
         "BodyType": "EBodyType::COUPE",

@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodEngineDataAsset",
     "Name": "DA_PU_EK9",
-    "Class": "UScriptClass'InternalMethodEngineDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodEngineDataAsset'",
     "Properties": {
       "EngineData": {
         "CarId": "CAR5",
@@ -138,7 +138,7 @@
                 16.86
               ],
               "MaxTorqueCoef": 1.0,
-              "VTECrpm": 5800
+              "VTECrpm": 6000
             }
           },
           {
@@ -181,7 +181,7 @@
                 17.31
               ],
               "MaxTorqueCoef": 1.0,
-              "VTECrpm": 5800
+              "VTECrpm": 6000
             }
           },
           {
@@ -224,7 +224,7 @@
                 17.82
               ],
               "MaxTorqueCoef": 1.0,
-              "VTECrpm": 5800
+              "VTECrpm": 6000
             }
           },
           {
@@ -267,7 +267,7 @@
                 18.48
               ],
               "MaxTorqueCoef": 1.0,
-              "VTECrpm": 5800
+              "VTECrpm": 6200
             }
           },
           {
@@ -310,7 +310,7 @@
                 19.96
               ],
               "MaxTorqueCoef": 1.0,
-              "VTECrpm": 5800
+              "VTECrpm": 6200
             }
           },
           {
@@ -355,7 +355,7 @@
                 13.51
               ],
               "MaxTorqueCoef": 1.0,
-              "VTECrpm": 5800
+              "VTECrpm": 6400
             }
           },
           {
@@ -401,7 +401,7 @@
                 11.17
               ],
               "MaxTorqueCoef": 1.0,
-              "VTECrpm": 5800
+              "VTECrpm": 6400
             }
           },
           {
@@ -447,7 +447,7 @@
                 11.78
               ],
               "MaxTorqueCoef": 1.0,
-              "VTECrpm": 5800
+              "VTECrpm": 6400
             }
           }
         ],

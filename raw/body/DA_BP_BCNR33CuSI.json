@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_BCNR33CuSI",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 161,
@@ -11,6 +11,7 @@
         "CarNameId": "POLARIS",
         "ModelNameId": "BCNR33CuSI",
         "FolderId": "BCNR33CuSI",
+        "BaseCarId": "BCNR33",
         "ReleaseDay": 1997,
         "Price": 5390000,
         "BodyType": "EBodyType::COUPE",

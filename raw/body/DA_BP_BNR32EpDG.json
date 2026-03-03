@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_BNR32EpDG",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 195,
@@ -11,6 +11,7 @@
         "CarNameId": "DAWN GARNET",
         "ModelNameId": "BNR32EpDG",
         "FolderId": "BNR32EpDG",
+        "BaseCarId": "BNR32",
         "ReleaseDay": 1994,
         "Price": 5290000,
         "BodyType": "EBodyType::COUPE",

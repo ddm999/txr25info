@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_LA400KCuGL",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 165,
@@ -11,6 +11,7 @@
         "CarNameId": "GOLD LICENSE",
         "ModelNameId": "LA400KCuGL",
         "FolderId": "LA400KCuGL",
+        "BaseCarId": "LA400K",
         "ReleaseDay": 2015,
         "Price": 1873800,
         "BodyType": "EBodyType::CONVERTIBLE_CAR",

@@ -1,0 +1,244 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Color_Car_Official_CL7",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'UDS_Color'",
+        "ObjectPath": "/Game/ITSB/UI/Color/DataTables/UDS_Color.0"
+      }
+    },
+    "Rows": {
+      "4": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 5,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.001518,
+          "G": 0.000607,
+          "B": 0.003347,
+          "A": 1.0,
+          "Hex": "05020B"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.001518,
+          "G": 0.000607,
+          "B": 0.003347,
+          "A": 1.0,
+          "Hex": "05020B"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "C1B036B2446E834E9FF28BBD1B92E6DC",
+          "SourceString": "ナイトホークブラック・パール",
+          "LocalizedString": "ナイトホークブラック・パール"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Honda/CL7/Materials/OfficialColor/MI_Car_clCL7_00.MI_Car_clCL7_00",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false,
+        "OtherCarColorRatio_36_BC0C04304EA395538A9A2D9B1767833C": 1
+      },
+      "1": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 4,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.015,
+          "G": 0.014,
+          "B": 0.02,
+          "A": 1.0,
+          "Hex": "201F26"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.001518,
+          "G": 0.000607,
+          "B": 0.003347,
+          "A": 1.0,
+          "Hex": "05020B"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "A059068C4FED2BD723A82E8CF63A1E30",
+          "SourceString": "グラファイト・パール",
+          "LocalizedString": "グラファイト・パール"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Honda/CL7/Materials/OfficialColor/MI_Car_clCL7_01.MI_Car_clCL7_01",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false,
+        "OtherCarColorRatio_36_BC0C04304EA395538A9A2D9B1767833C": 1
+      },
+      "2": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 2,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.475,
+          "G": 0.479167,
+          "B": 0.5,
+          "A": 1.0,
+          "Hex": "B7B8BC"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.001518,
+          "G": 0.000607,
+          "B": 0.003347,
+          "A": 1.0,
+          "Hex": "05020B"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "65DF178C46B40C344B4DEE8BE50426DD",
+          "SourceString": "サテンシルバー・メタリック",
+          "LocalizedString": "サテンシルバー・メタリック"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Honda/CL7/Materials/OfficialColor/MI_Car_clCL7_02.MI_Car_clCL7_02",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false,
+        "OtherCarColorRatio_36_BC0C04304EA395538A9A2D9B1767833C": 1
+      },
+      "3": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 1,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.4,
+          "G": 0.0,
+          "B": 0.013333,
+          "A": 1.0,
+          "Hex": "AA001E"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.001518,
+          "G": 0.000607,
+          "B": 0.003347,
+          "A": 1.0,
+          "Hex": "05020B"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "4C54D25747DDE6829CB98EA3519CD0A2",
+          "SourceString": "ミラノレッド",
+          "LocalizedString": "ミラノレッド"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Honda/CL7/Materials/OfficialColor/MI_Car_clCL7_03.MI_Car_clCL7_03",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false,
+        "OtherCarColorRatio_36_BC0C04304EA395538A9A2D9B1767833C": 1
+      },
+      "0": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 0,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.0,
+          "G": 0.04,
+          "B": 0.2,
+          "A": 1.0,
+          "Hex": "00387C"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.001518,
+          "G": 0.000607,
+          "B": 0.003347,
+          "A": 1.0,
+          "Hex": "05020B"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "9F2586A74CD48A26893B48971D05C4CC",
+          "SourceString": "アークティックブルー・パール",
+          "LocalizedString": "アークティックブルー・パール"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Honda/CL7/Materials/OfficialColor/MI_Car_clCL7_05.MI_Car_clCL7_05",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false,
+        "OtherCarColorRatio_36_BC0C04304EA395538A9A2D9B1767833C": 1
+      },
+      "5": {
+        "sort_key_27_F8810487482D79D2E07B7BA6BA862288": 3,
+        "TwoColorCheck_7_249267C44B46375FEA4CCA9280A459AC": false,
+        "MainColor_17_256D9C834B8E7F9EF61079863271D6DA": {
+          "R": 0.32,
+          "G": 0.32,
+          "B": 0.4,
+          "A": 1.0,
+          "Hex": "9999AA"
+        },
+        "SubColor_13_2DAB13F64BF349FA2959598B53D0E3FF": {
+          "R": 0.001518,
+          "G": 0.000607,
+          "B": 0.003347,
+          "A": 1.0,
+          "Hex": "05020B"
+        },
+        "ColorName_16_45859FC0490D1985139C049444B87CA8": {
+          "Namespace": "",
+          "Key": "D708936748509AFFA3664D9C7911ABD4",
+          "SourceString": "プレミアムホワイト・パール",
+          "LocalizedString": "プレミアムホワイト・パール"
+        },
+        "main_material_22_AED7AA4846E0FCCC453AD19A6BBB0AE9": {
+          "AssetPathName": "/Game/ITSB/ArtAssets/Models/Car/Body/Honda/CL7/Materials/OfficialColor/MI_Car_clCL7_04.MI_Car_clCL7_04",
+          "SubPathString": ""
+        },
+        "sub_material_24_5566378848385C113B639E80719D9FEC": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "option_material_31_30E2430A46904B2C011E589728B12A42": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RainbowColorCheck_33_8FEB1F3643C4918B935510890A729BC7": false,
+        "OtherCarColorRatio_36_BC0C04304EA395538A9A2D9B1767833C": 1
+      }
+    }
+  }
+]

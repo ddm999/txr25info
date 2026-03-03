@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_Z33CuKD",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 202,
@@ -11,6 +11,7 @@
         "CarNameId": "CRIMSON Z",
         "ModelNameId": "Z33CuKD",
         "FolderId": "Z33CuKD",
+        "BaseCarId": "Z33",
         "ReleaseDay": 2005,
         "Price": 3906000,
         "BodyType": "EBodyType::COUPE",

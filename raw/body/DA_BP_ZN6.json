@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_ZN6",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 76,
@@ -11,6 +11,7 @@
         "CarNameId": "TOYOTA 86 GT (ZN6) '12",
         "ModelNameId": "ZN6",
         "FolderId": "ZN6",
+        "BaseCarId": "ZN6",
         "ReleaseDay": 2012,
         "Price": 2790000,
         "BodyType": "EBodyType::COUPE",

@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_HA36S",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 128,
@@ -11,6 +11,7 @@
         "CarNameId": "ALTO WORKS (HA36S) '15",
         "ModelNameId": "HA36S",
         "FolderId": "HA36S",
+        "BaseCarId": "HA36S",
         "ReleaseDay": 2015,
         "Price": 1617840,
         "BodyType": "EBodyType::LIFHT_VEHICLE",

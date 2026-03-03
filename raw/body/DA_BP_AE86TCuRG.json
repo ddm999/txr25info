@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_AE86TCuRG",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 96,
@@ -11,6 +11,7 @@
         "CarNameId": "ROLLING GUY NO. 1",
         "ModelNameId": "AE86TCuRG",
         "FolderId": "AE86TCuRG",
+        "BaseCarId": "AE86T",
         "ReleaseDay": 1987,
         "Price": 1563000,
         "BodyType": "EBodyType::COUPE",

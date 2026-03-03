@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_BPFJ3RCuGS",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 88,
@@ -11,6 +11,7 @@
         "CarNameId": "SHUWA SHUWA",
         "ModelNameId": "BPFJ3RCuGS",
         "FolderId": "BPFJ3RCuGS",
+        "BaseCarId": "BPFJ3R",
         "ReleaseDay": 2023,
         "Price": 2984300,
         "BodyType": "EBodyType::HATCHBACK",

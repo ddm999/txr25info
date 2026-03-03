@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_SE3P",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 25,
@@ -11,6 +11,7 @@
         "CarNameId": "RX-8 Type S (SE3P) '03",
         "ModelNameId": "SE3P",
         "FolderId": "SE3P",
+        "BaseCarId": "SE3P",
         "ReleaseDay": 2003,
         "Price": 2750000,
         "BodyType": "EBodyType::COUPE",

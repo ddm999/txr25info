@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_EK9",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 5,
@@ -11,6 +11,7 @@
         "CarNameId": "CIVIC TYPE R (EK9) '99",
         "ModelNameId": "EK9",
         "FolderId": "EK9",
+        "BaseCarId": "EK9",
         "ReleaseDay": 1999,
         "Price": 1998000,
         "BodyType": "EBodyType::HATCHBACK",

@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_FK2",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 13,
@@ -11,6 +11,7 @@
         "CarNameId": "CIVIC TYPE R (FK2) '15",
         "ModelNameId": "FK2",
         "FolderId": "FK2",
+        "BaseCarId": "FK2",
         "ReleaseDay": 2015,
         "Price": 4280000,
         "BodyType": "EBodyType::HATCHBACK",

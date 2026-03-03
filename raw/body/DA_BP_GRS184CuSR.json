@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_GRS184CuSR",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 182,
@@ -11,6 +11,7 @@
         "CarNameId": "SPORTS SLAYER",
         "ModelNameId": "GRS184CuSR",
         "FolderId": "GRS184CuSR",
+        "BaseCarId": "GRS184",
         "ReleaseDay": 2005,
         "Price": 5407500,
         "BodyType": "EBodyType::SEDAN",

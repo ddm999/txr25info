@@ -2,14 +2,14 @@
   {
     "Type": "InternalMethodEngineDataAsset",
     "Name": "DA_PU_S30CuUN",
-    "Class": "UScriptClass'InternalMethodEngineDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodEngineDataAsset'",
     "Properties": {
       "EngineData": {
         "CarId": "CAR95",
         "CarNameId": "UNKNOWN",
         "FolderId": "S30CuUN",
-        "EngineKind": "EEngineKind::Straight6",
+        "EngineKind": "EEngineKind::V6",
         "EngineFormatName": "VR38DETT",
         "LevelData": [
           {

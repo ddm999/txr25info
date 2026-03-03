@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_FD3S",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 21,
@@ -11,6 +11,7 @@
         "CarNameId": "RX-7 Type RZ (FD3S) '00",
         "ModelNameId": "FD3S",
         "FolderId": "FD3S",
+        "BaseCarId": "FD3S",
         "ReleaseDay": 2000,
         "Price": 3998000,
         "BodyType": "EBodyType::COUPE",

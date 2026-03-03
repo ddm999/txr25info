@@ -2,8 +2,8 @@
   {
     "Type": "CompositeDataTable",
     "Name": "CDT_TuneSet",
-    "Class": "UScriptClass'CompositeDataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CompositeDataTable'",
     "Properties": {
       "ParentTables": [
         {
@@ -1818,7 +1818,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Normal",
+        "Nitro": "EVehicleTuneLevel::Level1",
         "AddWeight": 250,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 1.0
@@ -2090,7 +2090,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
-        "Nitro": "EVehicleTuneLevel::Normal",
+        "Nitro": "EVehicleTuneLevel::Level1",
         "AddWeight": 100,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 1.0
@@ -2107,7 +2107,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Normal",
+        "Nitro": "EVehicleTuneLevel::Level1",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 1.0
@@ -2124,7 +2124,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Normal",
+        "Nitro": "EVehicleTuneLevel::Level1",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 1.0
@@ -2209,7 +2209,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
-        "Nitro": "EVehicleTuneLevel::Normal",
+        "Nitro": "EVehicleTuneLevel::Level1",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 1.0
@@ -2566,7 +2566,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level2",
-        "Nitro": "EVehicleTuneLevel::Normal",
+        "Nitro": "EVehicleTuneLevel::Level1",
         "AddWeight": 150,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 1.0
@@ -2583,7 +2583,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
-        "Nitro": "EVehicleTuneLevel::Normal",
+        "Nitro": "EVehicleTuneLevel::Level1",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 1.0
@@ -3297,7 +3297,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Normal",
-        "Nitro": "EVehicleTuneLevel::Normal",
+        "Nitro": "EVehicleTuneLevel::Level1",
         "AddWeight": 450,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 1.0
@@ -3314,7 +3314,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Normal",
+        "Nitro": "EVehicleTuneLevel::Level3",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 1.0
@@ -3331,7 +3331,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level2",
-        "Nitro": "EVehicleTuneLevel::Normal",
+        "Nitro": "EVehicleTuneLevel::Level1",
         "AddWeight": 50,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 1.0
@@ -3552,7 +3552,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Normal",
+        "Nitro": "EVehicleTuneLevel::Level1",
         "AddWeight": -68,
         "ReplacementPuId": "Wan_0025_NCP31",
         "FinalGearRatioCoef": 1.0
@@ -3722,7 +3722,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Normal",
+        "Nitro": "EVehicleTuneLevel::Level1",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 1.0
@@ -4912,7 +4912,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level1",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.8
@@ -5388,7 +5388,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Normal",
+        "Nitro": "EVehicleTuneLevel::Level1",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.7
@@ -5405,7 +5405,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level2",
-        "Nitro": "EVehicleTuneLevel::Level2",
+        "Nitro": "EVehicleTuneLevel::Level1",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.75
@@ -5422,7 +5422,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Normal",
+        "Nitro": "EVehicleTuneLevel::Level1",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.7
@@ -5439,7 +5439,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level1",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 1.0
@@ -5456,7 +5456,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level1",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 1.0
@@ -5473,7 +5473,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level1",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.8
@@ -5796,7 +5796,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Normal",
+        "Nitro": "EVehicleTuneLevel::Level1",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.9
@@ -5915,7 +5915,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level1",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.9
@@ -5932,7 +5932,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level1",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.93
@@ -6306,7 +6306,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.8
@@ -6323,7 +6323,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.85
@@ -6340,7 +6340,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": -85,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 1.1
@@ -6374,7 +6374,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": -75,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.8
@@ -6799,7 +6799,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": -125,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.7
@@ -6816,7 +6816,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": -175,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.9
@@ -6918,7 +6918,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": -50,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.6
@@ -6952,7 +6952,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.9
@@ -7037,7 +7037,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": -50,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.8
@@ -7054,7 +7054,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.86
@@ -7071,7 +7071,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": -100,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.6
@@ -7088,7 +7088,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": -50,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.65
@@ -7105,7 +7105,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": -175,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.65
@@ -7122,7 +7122,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": -100,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.88
@@ -7139,7 +7139,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.6
@@ -7156,7 +7156,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.5
@@ -7173,7 +7173,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.925
@@ -7190,7 +7190,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": -50,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.9
@@ -7496,7 +7496,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": -50,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 1.15
@@ -7564,7 +7564,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.9
@@ -7581,7 +7581,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.9
@@ -7598,7 +7598,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.9
@@ -7615,7 +7615,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.84
@@ -7632,7 +7632,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": -150,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.8
@@ -7649,7 +7649,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": -25,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.9
@@ -7666,7 +7666,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Normal",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 1.15
@@ -7683,7 +7683,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 1.15
@@ -7700,7 +7700,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.9
@@ -7717,7 +7717,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Normal",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": -150,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 1.275
@@ -7734,7 +7734,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.9
@@ -7751,7 +7751,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Normal",
+        "Nitro": "EVehicleTuneLevel::Level3",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 1.0
@@ -7768,7 +7768,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Normal",
+        "Nitro": "EVehicleTuneLevel::Level3",
         "AddWeight": -200,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 1.2
@@ -7785,7 +7785,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Normal",
+        "Nitro": "EVehicleTuneLevel::Level3",
         "AddWeight": 300,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 1.1
@@ -7819,7 +7819,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": -700,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.75
@@ -7836,7 +7836,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": -700,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.775
@@ -7904,7 +7904,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": -425,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.45
@@ -7972,7 +7972,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 1.0
@@ -8074,7 +8074,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": -200,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.45
@@ -8278,7 +8278,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": -265,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.68
@@ -8295,7 +8295,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": -300,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.8
@@ -8448,7 +8448,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": -150,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.55
@@ -8516,7 +8516,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Normal",
+        "Nitro": "EVehicleTuneLevel::Level3",
         "AddWeight": 0,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.975
@@ -8550,7 +8550,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": -200,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.7
@@ -8567,7 +8567,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": -75,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 1.225
@@ -8584,7 +8584,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": -500,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.6
@@ -8669,7 +8669,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": -150,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.7
@@ -8686,7 +8686,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": -150,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.7
@@ -8703,7 +8703,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": -100,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.8
@@ -8720,7 +8720,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": 50,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.9
@@ -8737,7 +8737,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": -50,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.65
@@ -8754,7 +8754,7 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": -100,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.85
@@ -8771,78 +8771,10 @@
         "FrontTire": "EVehicleTuneLevel::Level5",
         "RearTire": "EVehicleTuneLevel::Level5",
         "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
+        "Nitro": "EVehicleTuneLevel::Level2",
         "AddWeight": -550,
         "ReplacementPuId": "None",
         "FinalGearRatioCoef": 0.8
-      },
-      "Wan_0079": {
-        "PowerUnit": "EVehicleTuneLevel::Level7",
-        "IntakeSystem": "EVehicleTuneLevel::Level5",
-        "ExhaustSystem": "EVehicleTuneLevel::Level5",
-        "transmission": "EVehicleTuneLevel::Level4",
-        "Clutch": "EVehicleTuneLevel::Level4",
-        "Suspension": "EVehicleTuneLevel::Level4",
-        "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Level4",
-        "FrontTire": "EVehicleTuneLevel::Level5",
-        "RearTire": "EVehicleTuneLevel::Level5",
-        "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
-        "AddWeight": 0,
-        "ReplacementPuId": "None",
-        "FinalGearRatioCoef": 0.8
-      },
-      "Wan_0079_2": {
-        "PowerUnit": "EVehicleTuneLevel::Level8",
-        "IntakeSystem": "EVehicleTuneLevel::Level5",
-        "ExhaustSystem": "EVehicleTuneLevel::Level5",
-        "transmission": "EVehicleTuneLevel::Level5",
-        "Clutch": "EVehicleTuneLevel::Level5",
-        "Suspension": "EVehicleTuneLevel::Level5",
-        "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Level5",
-        "FrontTire": "EVehicleTuneLevel::Level5",
-        "RearTire": "EVehicleTuneLevel::Level5",
-        "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
-        "AddWeight": -50,
-        "ReplacementPuId": "EgRp_20B",
-        "FinalGearRatioCoef": 0.8
-      },
-      "Wan_0080": {
-        "PowerUnit": "EVehicleTuneLevel::Level7",
-        "IntakeSystem": "EVehicleTuneLevel::Level5",
-        "ExhaustSystem": "EVehicleTuneLevel::Level5",
-        "transmission": "EVehicleTuneLevel::Level4",
-        "Clutch": "EVehicleTuneLevel::Level4",
-        "Suspension": "EVehicleTuneLevel::Level4",
-        "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Level4",
-        "FrontTire": "EVehicleTuneLevel::Level5",
-        "RearTire": "EVehicleTuneLevel::Level5",
-        "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
-        "AddWeight": 0,
-        "ReplacementPuId": "None",
-        "FinalGearRatioCoef": 0.95
-      },
-      "Wan_0080_2": {
-        "PowerUnit": "EVehicleTuneLevel::Level8",
-        "IntakeSystem": "EVehicleTuneLevel::Level5",
-        "ExhaustSystem": "EVehicleTuneLevel::Level5",
-        "transmission": "EVehicleTuneLevel::Level5",
-        "Clutch": "EVehicleTuneLevel::Level5",
-        "Suspension": "EVehicleTuneLevel::Level5",
-        "Brake": "EVehicleTuneLevel::Level5",
-        "Body": "EVehicleTuneLevel::Level5",
-        "FrontTire": "EVehicleTuneLevel::Level5",
-        "RearTire": "EVehicleTuneLevel::Level5",
-        "LSD": "EVehicleTuneLevel::Level3",
-        "Nitro": "EVehicleTuneLevel::Level3",
-        "AddWeight": 0,
-        "ReplacementPuId": "EgRp_JNC",
-        "FinalGearRatioCoef": 0.95
       }
     }
   }

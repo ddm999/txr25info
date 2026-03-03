@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_AE86LCuGA",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 163,
@@ -11,6 +11,7 @@
         "CarNameId": "ROLLING GAL NO. 1",
         "ModelNameId": "AE86LCuGA",
         "FolderId": "AE86LCuGA",
+        "BaseCarId": "AE86L",
         "ReleaseDay": 1987,
         "Price": 1548000,
         "BodyType": "EBodyType::COUPE",

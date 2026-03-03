@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_RZ34",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 50,
@@ -11,6 +11,7 @@
         "CarNameId": "FAIRLADY Z Version ST (RZ34) '24",
         "ModelNameId": "RZ34",
         "FolderId": "RZ34",
+        "BaseCarId": "RZ34",
         "ReleaseDay": 2024,
         "Price": 6657200,
         "BodyType": "EBodyType::COUPE",

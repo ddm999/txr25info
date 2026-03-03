@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_GSJ15W",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 130,
@@ -11,6 +11,7 @@
         "CarNameId": "FJ CRUISER Color Package (GSJ15W) '14",
         "ModelNameId": "GSJ15W",
         "FolderId": "GSJ15W",
+        "BaseCarId": "GSJ15W",
         "ReleaseDay": 2014,
         "Price": 3342857,
         "BodyType": "EBodyType::MINI_VAN",

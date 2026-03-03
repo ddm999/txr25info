@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_JZA80CuST",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 143,
@@ -11,6 +11,7 @@
         "CarNameId": "STEEL HEART",
         "ModelNameId": "JZA80CuST",
         "FolderId": "JZA80CuST",
+        "BaseCarId": "JZA80",
         "ReleaseDay": 1997,
         "Price": 4480000,
         "BodyType": "EBodyType::COUPE",

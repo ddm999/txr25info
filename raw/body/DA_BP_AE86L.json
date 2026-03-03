@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_AE86L",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 68,
@@ -11,6 +11,7 @@
         "CarNameId": "COROLLA LEVIN GT-APEX 3door (AE86) '87",
         "ModelNameId": "AE86",
         "FolderId": "AE86L",
+        "BaseCarId": "AE86L",
         "ReleaseDay": 1987,
         "Price": 1548000,
         "BodyType": "EBodyType::COUPE",

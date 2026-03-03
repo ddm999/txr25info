@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_DC2",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 6,
@@ -11,6 +11,7 @@
         "CarNameId": "INTEGRA TYPE R (DC2) '99",
         "ModelNameId": "DC2",
         "FolderId": "DC2",
+        "BaseCarId": "DC2",
         "ReleaseDay": 1999,
         "Price": 2516000,
         "BodyType": "EBodyType::COUPE",

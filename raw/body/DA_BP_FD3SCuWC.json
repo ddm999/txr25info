@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_FD3SCuWC",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 97,
@@ -11,6 +11,7 @@
         "CarNameId": "WHITE CHARISMA",
         "ModelNameId": "FD3SCuWC",
         "FolderId": "FD3SCuWC",
+        "BaseCarId": "FD3S",
         "ReleaseDay": 2000,
         "Price": 3998000,
         "BodyType": "EBodyType::COUPE",

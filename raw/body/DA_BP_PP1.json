@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_PP1",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 3,
@@ -11,6 +11,7 @@
         "CarNameId": "BEAT (PP1) '91",
         "ModelNameId": "PP1",
         "FolderId": "PP1",
+        "BaseCarId": "PP1",
         "ReleaseDay": 1991,
         "Price": 1388000,
         "BodyType": "EBodyType::CONVERTIBLE_CAR",

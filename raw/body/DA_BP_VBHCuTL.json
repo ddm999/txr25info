@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_VBHCuTL",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 158,
@@ -11,6 +11,7 @@
         "CarNameId": "TORNADO OF LOVE",
         "ModelNameId": "VBHCuTL",
         "FolderId": "VBHCuTL",
+        "BaseCarId": "VBH",
         "ReleaseDay": 2021,
         "Price": 4774000,
         "BodyType": "EBodyType::SEDAN",

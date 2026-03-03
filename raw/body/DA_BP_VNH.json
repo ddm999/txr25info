@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_VNH",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 58,
@@ -11,6 +11,7 @@
         "CarNameId": "LEVORG STI Sport R EX (VNH) '21",
         "ModelNameId": "VNH",
         "FolderId": "VNH",
+        "BaseCarId": "VNH",
         "ReleaseDay": 2021,
         "Price": 4774000,
         "BodyType": "EBodyType::WAGON",

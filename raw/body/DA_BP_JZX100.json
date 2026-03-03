@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_JZX100",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 71,
@@ -11,6 +11,7 @@
         "CarNameId": "CHASER TOURER V (JZX100) '98",
         "ModelNameId": "JZX100",
         "FolderId": "JZX100",
+        "BaseCarId": "JZX100",
         "ReleaseDay": 1998,
         "Price": 3295000,
         "BodyType": "EBodyType::HARD_TOP",

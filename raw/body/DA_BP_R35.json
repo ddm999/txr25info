@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_R35",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 44,
@@ -11,6 +11,7 @@
         "CarNameId": "NISSAN GT-R Premium edition (R35) '14",
         "ModelNameId": "R35",
         "FolderId": "R35",
+        "BaseCarId": "R35",
         "ReleaseDay": 2014,
         "Price": 10111500,
         "BodyType": "EBodyType::COUPE",

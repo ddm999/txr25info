@@ -2,8 +2,8 @@
   {
     "Type": "CompositeDataTable",
     "Name": "CDT_NewSkillSP",
-    "Class": "UScriptClass'CompositeDataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CompositeDataTable'",
     "Properties": {
       "ParentTables": [
         {
@@ -350,7 +350,7 @@
         "ID": 0,
         "Step": 701,
         "Link_Step": [
-          -1,
+          801,
           -1,
           -1,
           -1,
@@ -1258,6 +1258,591 @@
         "SkillTargetInfos": [],
         "Deprecated": false,
         "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_8": {
+        "ID": 0,
+        "Step": 801,
+        "Link_Step": [
+          901,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__SP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 630.0,
+        "Value_01": 240.0,
+        "Level": 8,
+        "Cost": 77,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_08_n",
+          "SourceString": "SP強化 A",
+          "LocalizedString": "SP Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_08_t",
+          "SourceString": "最大SPが {%V00} に 増加。",
+          "LocalizedString": "Maximum SP increased to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_9": {
+        "ID": 0,
+        "Step": 901,
+        "Link_Step": [
+          1001,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__SP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 660.0,
+        "Value_01": 270.0,
+        "Level": 9,
+        "Cost": 91,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_08_n",
+          "SourceString": "SP強化 A",
+          "LocalizedString": "SP Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_08_t",
+          "SourceString": "最大SPが {%V00} に 増加。",
+          "LocalizedString": "Maximum SP increased to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_10": {
+        "ID": 0,
+        "Step": 1001,
+        "Link_Step": [
+          1101,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__SP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 690.0,
+        "Value_01": 300.0,
+        "Level": 10,
+        "Cost": 105,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_08_n",
+          "SourceString": "SP強化 A",
+          "LocalizedString": "SP Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_08_t",
+          "SourceString": "最大SPが {%V00} に 増加。",
+          "LocalizedString": "Maximum SP increased to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_11": {
+        "ID": 0,
+        "Step": 1101,
+        "Link_Step": [
+          1201,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__SP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 720.0,
+        "Value_01": 330.0,
+        "Level": 11,
+        "Cost": 119,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_08_n",
+          "SourceString": "SP強化 A",
+          "LocalizedString": "SP Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_08_t",
+          "SourceString": "最大SPが {%V00} に 増加。",
+          "LocalizedString": "Maximum SP increased to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_12": {
+        "ID": 0,
+        "Step": 1201,
+        "Link_Step": [
+          1301,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__SP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 750.0,
+        "Value_01": 360.0,
+        "Level": 12,
+        "Cost": 133,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_08_n",
+          "SourceString": "SP強化 A",
+          "LocalizedString": "SP Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_08_t",
+          "SourceString": "最大SPが {%V00} に 増加。",
+          "LocalizedString": "Maximum SP increased to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_13": {
+        "ID": 0,
+        "Step": 1301,
+        "Link_Step": [
+          1401,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__SP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 780.0,
+        "Value_01": 390.0,
+        "Level": 13,
+        "Cost": 147,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_08_n",
+          "SourceString": "SP強化 A",
+          "LocalizedString": "SP Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_08_t",
+          "SourceString": "最大SPが {%V00} に 増加。",
+          "LocalizedString": "Maximum SP increased to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_14": {
+        "ID": 0,
+        "Step": 1401,
+        "Link_Step": [
+          1501,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__SP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 810.0,
+        "Value_01": 420.0,
+        "Level": 14,
+        "Cost": 161,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_08_n",
+          "SourceString": "SP強化 A",
+          "LocalizedString": "SP Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_08_t",
+          "SourceString": "最大SPが {%V00} に 増加。",
+          "LocalizedString": "Maximum SP increased to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_15": {
+        "ID": 0,
+        "Step": 1501,
+        "Link_Step": [
+          1601,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__SP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 840.0,
+        "Value_01": 450.0,
+        "Level": 15,
+        "Cost": 175,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_08_n",
+          "SourceString": "SP強化 A",
+          "LocalizedString": "SP Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_08_t",
+          "SourceString": "最大SPが {%V00} に 増加。",
+          "LocalizedString": "Maximum SP increased to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_16": {
+        "ID": 0,
+        "Step": 1601,
+        "Link_Step": [
+          1701,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__SP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 870.0,
+        "Value_01": 480.0,
+        "Level": 16,
+        "Cost": 189,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_08_n",
+          "SourceString": "SP強化 A",
+          "LocalizedString": "SP Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_08_t",
+          "SourceString": "最大SPが {%V00} に 増加。",
+          "LocalizedString": "Maximum SP increased to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_17": {
+        "ID": 0,
+        "Step": 1701,
+        "Link_Step": [
+          1801,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__SP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 900.0,
+        "Value_01": 510.0,
+        "Level": 17,
+        "Cost": 203,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_08_n",
+          "SourceString": "SP強化 A",
+          "LocalizedString": "SP Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_08_t",
+          "SourceString": "最大SPが {%V00} に 増加。",
+          "LocalizedString": "Maximum SP increased to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_18": {
+        "ID": 0,
+        "Step": 1801,
+        "Link_Step": [
+          1901,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__SP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 930.0,
+        "Value_01": 540.0,
+        "Level": 18,
+        "Cost": 217,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_08_n",
+          "SourceString": "SP強化 A",
+          "LocalizedString": "SP Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_08_t",
+          "SourceString": "最大SPが {%V00} に 増加。",
+          "LocalizedString": "Maximum SP increased to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_19": {
+        "ID": 0,
+        "Step": 1901,
+        "Link_Step": [
+          2001,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__SP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 960.0,
+        "Value_01": 570.0,
+        "Level": 19,
+        "Cost": 231,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_08_n",
+          "SourceString": "SP強化 A",
+          "LocalizedString": "SP Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_08_t",
+          "SourceString": "最大SPが {%V00} に 増加。",
+          "LocalizedString": "Maximum SP increased to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_SP_20": {
+        "ID": 0,
+        "Step": 2001,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__SP",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 990.0,
+        "Value_01": 600.0,
+        "Level": 20,
+        "Cost": 245,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_08_n",
+          "SourceString": "SP強化 A",
+          "LocalizedString": "SP Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_08_t",
+          "SourceString": "最大SPが {%V00} に 増加。",
+          "LocalizedString": "Maximum SP increased to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
         "ActualAppearanceStage": "EStoryStage::None"
       },
       "STT_SP_RECOVERY_AT_CONTINUOUS_BATTLE_4": {

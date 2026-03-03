@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_Z16ACuDS",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 141,
@@ -11,6 +11,7 @@
         "CarNameId": "DYING STAR",
         "ModelNameId": "Z16ACuDS",
         "FolderId": "Z16ACuDS",
+        "BaseCarId": "Z16A",
         "ReleaseDay": 1995,
         "Price": 4315000,
         "BodyType": "EBodyType::COUPE",

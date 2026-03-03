@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_GDBFCuLC",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 173,
@@ -11,6 +11,7 @@
         "CarNameId": "LIGHTSPEED COURIER",
         "ModelNameId": "GDBFCuLC",
         "FolderId": "GDBFCuLC",
+        "BaseCarId": "GDBF",
         "ReleaseDay": 2005,
         "Price": 3402000,
         "BodyType": "EBodyType::HARD_TOP",

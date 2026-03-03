@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_FD3SCuTG",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 144,
@@ -11,6 +11,7 @@
         "CarNameId": "TAILGUNNER",
         "ModelNameId": "FD3SCuTG",
         "FolderId": "FD3SCuTG",
+        "BaseCarId": "FD3S",
         "ReleaseDay": 2000,
         "Price": 3998000,
         "BodyType": "EBodyType::COUPE",

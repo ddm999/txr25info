@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_GG3S",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 24,
@@ -11,6 +11,7 @@
         "CarNameId": "ATENZA Sport 23Z (GG3S) '03",
         "ModelNameId": "GG3S",
         "FolderId": "GG3S",
+        "BaseCarId": "GG3S",
         "ReleaseDay": 2003,
         "Price": 2350000,
         "BodyType": "EBodyType::SEDAN",

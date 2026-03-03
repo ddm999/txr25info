@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_BK3PCuPG",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 155,
@@ -11,6 +11,7 @@
         "CarNameId": "PLAYFUL GENTLEMAN",
         "ModelNameId": "BK3PCuPG",
         "FolderId": "BK3PCuPG",
+        "BaseCarId": "BK3P",
         "ReleaseDay": 2003,
         "Price": 1865000,
         "BodyType": "EBodyType::HATCHBACK",

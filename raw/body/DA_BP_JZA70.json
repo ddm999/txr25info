@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_JZA70",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 129,
@@ -11,6 +11,7 @@
         "CarNameId": "SUPRA 2.5GT TWIN TURBO R (JZA70) '93",
         "ModelNameId": "JZA70",
         "FolderId": "JZA70",
+        "BaseCarId": "JZA70",
         "ReleaseDay": 1993,
         "Price": 3382000,
         "BodyType": "EBodyType::COUPE",

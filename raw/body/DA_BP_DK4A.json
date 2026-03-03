@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_DK4A",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 123,
@@ -11,6 +11,7 @@
         "CarNameId": "ECLIPSE GT (DK4A) '05",
         "ModelNameId": "DK4A",
         "FolderId": "DK4A",
+        "BaseCarId": "DK4A",
         "ReleaseDay": 2005,
         "Price": 3150000,
         "BodyType": "EBodyType::CONVERTIBLE_CAR",

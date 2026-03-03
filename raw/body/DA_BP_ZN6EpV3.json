@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_ZN6EpV3",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 200,
@@ -11,6 +11,7 @@
         "CarNameId": "ROULETTE GUY V3",
         "ModelNameId": "ZN6EpV3",
         "FolderId": "ZN6EpV3",
+        "BaseCarId": "ZN6",
         "ReleaseDay": 2012,
         "Price": 2790000,
         "BodyType": "EBodyType::COUPE",

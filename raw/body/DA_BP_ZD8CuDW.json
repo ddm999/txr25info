@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_ZD8CuDW",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 156,
@@ -11,6 +11,7 @@
         "CarNameId": "CHIRITSUMO",
         "ModelNameId": "ZD8CuDW",
         "FolderId": "ZD8CuDW",
+        "BaseCarId": "ZD8",
         "ReleaseDay": 2021,
         "Price": 3267000,
         "BodyType": "EBodyType::COUPE",

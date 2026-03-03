@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_KPGC10",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 126,
@@ -11,6 +11,7 @@
         "CarNameId": "SKYLINE HT 2000GT-R (KPGC10) '70",
         "ModelNameId": "KPGC10",
         "FolderId": "KPGC10",
+        "BaseCarId": "KPGC10",
         "ReleaseDay": 1970,
         "Price": 1540000,
         "BodyType": "EBodyType::HARD_TOP",
@@ -26,7 +27,7 @@
         "RTread": 1365,
         "CenterOfGravity": 395.663333,
         "DriveType": "EDriveType::DT_FR",
-        "EngineKind": "EEngineKind::V6",
+        "EngineKind": "EEngineKind::Straight6",
         "EngineInspiration": "ECarIceAspirationType::NA",
         "Displacement": 1989,
         "MaxPower": 118,

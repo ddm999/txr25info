@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_NA2DeRK",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 187,
@@ -11,6 +11,7 @@
         "CarNameId": "RouteKS BODY KIT NA2",
         "ModelNameId": "NA2DeRK",
         "FolderId": "NA2DeRK",
+        "BaseCarId": "NA2",
         "ReleaseDay": 1997,
         "Price": 9857000,
         "BodyType": "EBodyType::COUPE",

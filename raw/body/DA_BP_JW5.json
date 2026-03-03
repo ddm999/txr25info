@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_JW5",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 14,
@@ -11,6 +11,7 @@
         "CarNameId": "S660 CONCEPT EDITION (JW5) '15",
         "ModelNameId": "JW5",
         "FolderId": "JW5",
+        "BaseCarId": "JW5",
         "ReleaseDay": 2015,
         "Price": 2380000,
         "BodyType": "EBodyType::CONVERTIBLE_CAR",

@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_ZC6",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 57,
@@ -11,6 +11,7 @@
         "CarNameId": "BRZ GT (ZC6) '16",
         "ModelNameId": "ZC6",
         "FolderId": "ZC6",
+        "BaseCarId": "ZC6",
         "ReleaseDay": 2016,
         "Price": 3315600,
         "BodyType": "EBodyType::COUPE",

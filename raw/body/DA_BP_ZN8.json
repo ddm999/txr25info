@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_ZN8",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 79,
@@ -11,6 +11,7 @@
         "CarNameId": "GR86 RZ (ZN8) '21",
         "ModelNameId": "ZN8",
         "FolderId": "ZN8",
+        "BaseCarId": "ZN8",
         "ReleaseDay": 2021,
         "Price": 3349000,
         "BodyType": "EBodyType::COUPE",

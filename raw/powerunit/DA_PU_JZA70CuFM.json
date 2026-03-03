@@ -2,12 +2,12 @@
   {
     "Type": "InternalMethodEngineDataAsset",
     "Name": "DA_PU_JZA70CuFM",
-    "Class": "UScriptClass'InternalMethodEngineDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodEngineDataAsset'",
     "Properties": {
       "EngineData": {
         "CarId": "CAR205",
-        "CarNameId": "HASEGAWA GAL MII",
+        "CarNameId": "SNAKE HOLIC",
         "FolderId": "JZA70CuFM",
         "EngineKind": "EEngineKind::Straight6",
         "EngineFormatName": "1JZ-GTE",

@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_R35M2",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 49,
@@ -11,6 +11,7 @@
         "CarNameId": "NISSAN GT-R Premium edition T-spec (R35) '24",
         "ModelNameId": "R35",
         "FolderId": "R35M2",
+        "BaseCarId": "R35M2",
         "ReleaseDay": 2024,
         "Price": 20350000,
         "BodyType": "EBodyType::COUPE",

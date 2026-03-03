@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_EA21RCuDR",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 175,
@@ -11,6 +11,7 @@
         "CarNameId": "DEVIL ROAD RUN!",
         "ModelNameId": "EA21RCuDR",
         "FolderId": "EA21RCuDR",
+        "BaseCarId": "EA21R",
         "ReleaseDay": 1995,
         "Price": 1586000,
         "BodyType": "EBodyType::CONVERTIBLE_CAR",

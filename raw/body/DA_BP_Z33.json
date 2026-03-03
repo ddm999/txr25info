@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_Z33",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 43,
@@ -11,6 +11,7 @@
         "CarNameId": "FAIRLADY Z Version ST (Z33) '05",
         "ModelNameId": "Z33",
         "FolderId": "Z33",
+        "BaseCarId": "Z33",
         "ReleaseDay": 2005,
         "Price": 3906000,
         "BodyType": "EBodyType::COUPE",

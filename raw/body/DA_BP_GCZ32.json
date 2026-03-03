@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_GCZ32",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 124,
@@ -11,6 +11,7 @@
         "CarNameId": "FAIRLADY Z Version R TwinTurbo 2by2 (GCZ32) '98",
         "ModelNameId": "GCZ32",
         "FolderId": "GCZ32",
+        "BaseCarId": "GCZ32",
         "ReleaseDay": 1998,
         "Price": 4398000,
         "BodyType": "EBodyType::COUPE",

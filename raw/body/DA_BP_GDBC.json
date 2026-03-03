@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_GDBC",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 53,
@@ -11,6 +11,7 @@
         "CarNameId": "IMPREZA WRX STi 2003 V-Limited (GDB) '03",
         "ModelNameId": "GDB",
         "FolderId": "GDBC",
+        "BaseCarId": "GDBC",
         "ReleaseDay": 2003,
         "Price": 3350000,
         "BodyType": "EBodyType::HARD_TOP",

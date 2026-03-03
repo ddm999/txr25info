@@ -2,12 +2,12 @@
   {
     "Type": "InternalMethodEngineDataAsset",
     "Name": "DA_PU_LFA10",
-    "Class": "UScriptClass'InternalMethodEngineDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodEngineDataAsset'",
     "Properties": {
       "EngineData": {
         "CarId": "CAR201",
-        "CarNameId": "LFA (LFA10) '10",
+        "CarNameId": "Lexus LFA (LFA10) '10",
         "FolderId": "LFA10",
         "EngineKind": "EEngineKind::V10",
         "EngineFormatName": "1LR-GUE",

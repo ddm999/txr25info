@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_JB7",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 10,
@@ -11,6 +11,7 @@
         "CarNameId": "LIFE D TURBO (JB7) '03",
         "ModelNameId": "JB7",
         "FolderId": "JB7",
+        "BaseCarId": "JB7",
         "ReleaseDay": 2003,
         "Price": 1280000,
         "BodyType": "EBodyType::LIFHT_VEHICLE",

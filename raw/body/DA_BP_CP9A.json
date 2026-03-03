@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_CP9A",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 29,
@@ -11,6 +11,7 @@
         "CarNameId": "LANCER GSR EVOLUTION V (CP9A) '98",
         "ModelNameId": "CP9A",
         "FolderId": "CP9A",
+        "BaseCarId": "CP9A",
         "ReleaseDay": 1998,
         "Price": 3248000,
         "BodyType": "EBodyType::SEDAN",

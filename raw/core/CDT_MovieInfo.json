@@ -2,8 +2,8 @@
   {
     "Type": "CompositeDataTable",
     "Name": "CDT_MovieInfo",
-    "Class": "UScriptClass'CompositeDataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CompositeDataTable'",
     "Properties": {
       "ParentTables": [
         {
@@ -45,11 +45,11 @@
           "SubPathString": ""
         },
         "media_source_es_22_539DB40A485049CF62347AAA5F231C5E": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/Movies/0/EVM_OP_en.EVM_OP_en",
           "SubPathString": ""
         },
         "media_source_fr_23_395C724C406C50E357380D86486E5462": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/Movies/0/EVM_OP_en.EVM_OP_en",
           "SubPathString": ""
         }
       },
@@ -73,11 +73,11 @@
           "SubPathString": ""
         },
         "media_source_es_22_539DB40A485049CF62347AAA5F231C5E": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/Movies/0/EVM_TUT_01_es.EVM_TUT_01_es",
           "SubPathString": ""
         },
         "media_source_fr_23_395C724C406C50E357380D86486E5462": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/Movies/0/EVM_TUT_01_fr.EVM_TUT_01_fr",
           "SubPathString": ""
         }
       },
@@ -101,11 +101,11 @@
           "SubPathString": ""
         },
         "media_source_es_22_539DB40A485049CF62347AAA5F231C5E": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/Movies/0/EVM_ST00_01_es.EVM_ST00_01_es",
           "SubPathString": ""
         },
         "media_source_fr_23_395C724C406C50E357380D86486E5462": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/Movies/0/EVM_ST00_01_fr.EVM_ST00_01_fr",
           "SubPathString": ""
         }
       },
@@ -129,11 +129,11 @@
           "SubPathString": ""
         },
         "media_source_es_22_539DB40A485049CF62347AAA5F231C5E": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/Movies/0/EVM_ST00_02_es.EVM_ST00_02_es",
           "SubPathString": ""
         },
         "media_source_fr_23_395C724C406C50E357380D86486E5462": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/Movies/0/EVM_ST00_02_fr.EVM_ST00_02_fr",
           "SubPathString": ""
         }
       },
@@ -157,11 +157,11 @@
           "SubPathString": ""
         },
         "media_source_es_22_539DB40A485049CF62347AAA5F231C5E": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/Movies/0/EVM_ST00_03_es.EVM_ST00_03_es",
           "SubPathString": ""
         },
         "media_source_fr_23_395C724C406C50E357380D86486E5462": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/Movies/0/EVM_ST00_03_fr.EVM_ST00_03_fr",
           "SubPathString": ""
         }
       },
@@ -185,11 +185,11 @@
           "SubPathString": ""
         },
         "media_source_es_22_539DB40A485049CF62347AAA5F231C5E": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/Movies/0/EVM_ST01_01_es.EVM_ST01_01_es",
           "SubPathString": ""
         },
         "media_source_fr_23_395C724C406C50E357380D86486E5462": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/Movies/0/EVM_ST01_01_fr.EVM_ST01_01_fr",
           "SubPathString": ""
         }
       },
@@ -213,11 +213,11 @@
           "SubPathString": ""
         },
         "media_source_es_22_539DB40A485049CF62347AAA5F231C5E": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/Movies/0/EVM_ST02_01_es.EVM_ST02_01_es",
           "SubPathString": ""
         },
         "media_source_fr_23_395C724C406C50E357380D86486E5462": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/Movies/0/EVM_ST02_01_fr.EVM_ST02_01_fr",
           "SubPathString": ""
         }
       },
@@ -241,11 +241,11 @@
           "SubPathString": ""
         },
         "media_source_es_22_539DB40A485049CF62347AAA5F231C5E": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/Movies/1/EVM_ST03_01_es.EVM_ST03_01_es",
           "SubPathString": ""
         },
         "media_source_fr_23_395C724C406C50E357380D86486E5462": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/Movies/1/EVM_ST03_01_fr.EVM_ST03_01_fr",
           "SubPathString": ""
         }
       },
@@ -269,11 +269,11 @@
           "SubPathString": ""
         },
         "media_source_es_22_539DB40A485049CF62347AAA5F231C5E": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/Movies/1/EVM_ST03_02_es.EVM_ST03_02_es",
           "SubPathString": ""
         },
         "media_source_fr_23_395C724C406C50E357380D86486E5462": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/Movies/1/EVM_ST03_02_fr.EVM_ST03_02_fr",
           "SubPathString": ""
         }
       },
@@ -297,11 +297,11 @@
           "SubPathString": ""
         },
         "media_source_es_22_539DB40A485049CF62347AAA5F231C5E": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/Movies/1/EVM_ST03_03_es.EVM_ST03_03_es",
           "SubPathString": ""
         },
         "media_source_fr_23_395C724C406C50E357380D86486E5462": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/Movies/1/EVM_ST03_03_fr.EVM_ST03_03_fr",
           "SubPathString": ""
         }
       },
@@ -325,11 +325,11 @@
           "SubPathString": ""
         },
         "media_source_es_22_539DB40A485049CF62347AAA5F231C5E": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/Movies/1/EVM_ST04_01_es.EVM_ST04_01_es",
           "SubPathString": ""
         },
         "media_source_fr_23_395C724C406C50E357380D86486E5462": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/Movies/1/EVM_ST04_01_fr.EVM_ST04_01_fr",
           "SubPathString": ""
         }
       },
@@ -353,11 +353,11 @@
           "SubPathString": ""
         },
         "media_source_es_22_539DB40A485049CF62347AAA5F231C5E": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/Movies/1/EVM_ST05_01_es.EVM_ST05_01_es",
           "SubPathString": ""
         },
         "media_source_fr_23_395C724C406C50E357380D86486E5462": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/Movies/1/EVM_ST05_01_fr.EVM_ST05_01_fr",
           "SubPathString": ""
         }
       },
@@ -409,11 +409,11 @@
           "SubPathString": ""
         },
         "media_source_es_22_539DB40A485049CF62347AAA5F231C5E": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/Movies/1/EVM_ST06_01_es.EVM_ST06_01_es",
           "SubPathString": ""
         },
         "media_source_fr_23_395C724C406C50E357380D86486E5462": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/Movies/1/EVM_ST06_01_fr.EVM_ST06_01_fr",
           "SubPathString": ""
         }
       },
@@ -437,11 +437,39 @@
           "SubPathString": ""
         },
         "media_source_es_22_539DB40A485049CF62347AAA5F231C5E": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/Movies/1/EVM_Credits.EVM_Credits",
           "SubPathString": ""
         },
         "media_source_fr_23_395C724C406C50E357380D86486E5462": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/Movies/1/EVM_Credits.EVM_Credits",
+          "SubPathString": ""
+        }
+      },
+      "EVM_Credits_PS": {
+        "memo_5_395B823C4C1CF8EF03B7F583B7E06613": "Credits_PS",
+        "media_source_2_7C73AD3E46310A51BFCDE99BA612C3B0": null,
+        "media_source_jp_8_9B7A9B164BD9F3538EB35392CA013D3F": {
+          "AssetPathName": "/Game/Movies/1/EVM_Credits_PS5.EVM_Credits_PS5",
+          "SubPathString": ""
+        },
+        "media_source_en_10_D2D6B2064981CBDFE856CE8CA64C4871": {
+          "AssetPathName": "/Game/Movies/1/EVM_Credits_PS5.EVM_Credits_PS5",
+          "SubPathString": ""
+        },
+        "media_source_zh-CN_13_9B84E35F4C8D348EA8B2AE892AB8D302": {
+          "AssetPathName": "/Game/Movies/1/EVM_Credits_PS5.EVM_Credits_PS5",
+          "SubPathString": ""
+        },
+        "media_source_zh-TW_18_2B75B194470AE6592D3CFB85F0624446": {
+          "AssetPathName": "/Game/Movies/1/EVM_Credits_PS5.EVM_Credits_PS5",
+          "SubPathString": ""
+        },
+        "media_source_es_22_539DB40A485049CF62347AAA5F231C5E": {
+          "AssetPathName": "/Game/Movies/1/EVM_Credits_PS5.EVM_Credits_PS5",
+          "SubPathString": ""
+        },
+        "media_source_fr_23_395C724C406C50E357380D86486E5462": {
+          "AssetPathName": "/Game/Movies/1/EVM_Credits_PS5.EVM_Credits_PS5",
           "SubPathString": ""
         }
       }

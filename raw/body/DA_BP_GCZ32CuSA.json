@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_GCZ32CuSA",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 208,
@@ -11,6 +11,7 @@
         "CarNameId": "MIDNIGHT PLAMO",
         "ModelNameId": "GCZ32CuSA",
         "FolderId": "GCZ32CuSA",
+        "BaseCarId": "GCZ32",
         "ReleaseDay": 1998,
         "Price": 4398000,
         "BodyType": "EBodyType::COUPE",

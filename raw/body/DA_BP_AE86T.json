@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_AE86T",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 66,
@@ -11,6 +11,7 @@
         "CarNameId": "SPRINTER TRUENO GT-APEX 3door (AE86) '87",
         "ModelNameId": "AE86",
         "FolderId": "AE86T",
+        "BaseCarId": "AE86T",
         "ReleaseDay": 1987,
         "Price": 1563000,
         "BodyType": "EBodyType::COUPE",

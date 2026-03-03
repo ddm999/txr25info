@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_GC8",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 51,
@@ -11,6 +11,7 @@
         "CarNameId": "IMPREZA WRX TypeR STi VersionⅥ (GC8) '99",
         "ModelNameId": "GC8",
         "FolderId": "GC8",
+        "BaseCarId": "GC8",
         "ReleaseDay": 1999,
         "Price": 3009000,
         "BodyType": "EBodyType::HARD_TOP",

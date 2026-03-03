@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_Z16A",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 122,
@@ -11,6 +11,7 @@
         "CarNameId": "GTO TWIN TURBO (Z16A) '95",
         "ModelNameId": "Z16A",
         "FolderId": "Z16A",
+        "BaseCarId": "Z16A",
         "ReleaseDay": 1995,
         "Price": 4315000,
         "BodyType": "EBodyType::COUPE",

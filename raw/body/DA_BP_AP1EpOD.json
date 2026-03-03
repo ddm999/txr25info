@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_AP1EpOD",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 159,
@@ -11,6 +11,7 @@
         "CarNameId": "LUCIFER",
         "ModelNameId": "AP1EpOD",
         "FolderId": "AP1EpOD",
+        "BaseCarId": "AP1",
         "ReleaseDay": 2003,
         "Price": 3700000,
         "BodyType": "EBodyType::CONVERTIBLE_CAR",
