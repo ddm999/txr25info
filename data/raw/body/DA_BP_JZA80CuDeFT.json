@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_JZA80CuDeFT",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 216,
@@ -11,6 +11,7 @@
         "CarNameId": "FLOWER TARO",
         "ModelNameId": "JZA80CuDeFT",
         "FolderId": "JZA80CuDeFT",
+        "BaseCarId": "JZA80",
         "ReleaseDay": 1997,
         "Price": 4480000,
         "BodyType": "EBodyType::COUPE",

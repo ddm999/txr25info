@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_VMG",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 55,
@@ -11,6 +11,7 @@
         "CarNameId": "LEVORG 2.0GT-S EyeSight (VMG) '15",
         "ModelNameId": "VMG",
         "FolderId": "VMG",
+        "BaseCarId": "VMG",
         "ReleaseDay": 2015,
         "Price": 3564000,
         "BodyType": "EBodyType::WAGON",

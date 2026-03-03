@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_JZA80",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 69,
@@ -11,6 +11,7 @@
         "CarNameId": "SUPRA RZ (JZA80) '97",
         "ModelNameId": "JZA80",
         "FolderId": "JZA80",
+        "BaseCarId": "JZA80",
         "ReleaseDay": 1997,
         "Price": 4480000,
         "BodyType": "EBodyType::COUPE",

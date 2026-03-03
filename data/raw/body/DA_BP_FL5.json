@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_FL5",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 17,
@@ -11,6 +11,7 @@
         "CarNameId": "CIVIC TYPE R (FL5) '22",
         "ModelNameId": "FL5",
         "FolderId": "FL5",
+        "BaseCarId": "FL5",
         "ReleaseDay": 2022,
         "Price": 4997300,
         "BodyType": "EBodyType::HATCHBACK",

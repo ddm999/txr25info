@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_JZX100CuIT",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 137,
@@ -11,6 +11,7 @@
         "CarNameId": "ITTETSU",
         "ModelNameId": "JZX100CuIT",
         "FolderId": "JZX100CuIT",
+        "BaseCarId": "JZX100",
         "ReleaseDay": 1998,
         "Price": 3295000,
         "BodyType": "EBodyType::HARD_TOP",

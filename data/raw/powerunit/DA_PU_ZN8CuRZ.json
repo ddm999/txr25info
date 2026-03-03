@@ -2,12 +2,12 @@
   {
     "Type": "InternalMethodEngineDataAsset",
     "Name": "DA_PU_ZN8CuRZ",
-    "Class": "UScriptClass'InternalMethodEngineDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodEngineDataAsset'",
     "Properties": {
       "EngineData": {
         "CarId": "CAR180",
-        "CarNameId": "RETURN OF ZORRO",
+        "CarNameId": "RETURN OF ZORO",
         "FolderId": "ZN8CuRZ",
         "EngineKind": "EEngineKind::Flat4",
         "EngineFormatName": "FA24",

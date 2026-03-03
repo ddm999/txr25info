@@ -2,12 +2,12 @@
   {
     "Type": "InternalMethodEngineDataAsset",
     "Name": "DA_PU_GCZ32CuSA",
-    "Class": "UScriptClass'InternalMethodEngineDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodEngineDataAsset'",
     "Properties": {
       "EngineData": {
         "CarId": "CAR203",
-        "CarNameId": "HASEGAWA GAL AI",
+        "CarNameId": "MIDNIGHT PLAMO",
         "FolderId": "GCZ32CuSA",
         "EngineKind": "EEngineKind::V6",
         "EngineFormatName": "VG30DETT",

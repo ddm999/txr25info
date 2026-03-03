@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_AP1",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 11,
@@ -11,6 +11,7 @@
         "CarNameId": "S2000 2.0 TYPE-V (AP1) '03",
         "ModelNameId": "AP1",
         "FolderId": "AP1",
+        "BaseCarId": "AP1",
         "ReleaseDay": 2003,
         "Price": 3700000,
         "BodyType": "EBodyType::CONVERTIBLE_CAR",

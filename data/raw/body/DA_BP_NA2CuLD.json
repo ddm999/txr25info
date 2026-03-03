@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_NA2CuLD",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 199,
@@ -11,6 +11,7 @@
         "CarNameId": "NIGHTMARE",
         "ModelNameId": "NA2CuLD",
         "FolderId": "NA2CuLD",
+        "BaseCarId": "NA2",
         "ReleaseDay": 1997,
         "Price": 9857000,
         "BodyType": "EBodyType::COUPE",

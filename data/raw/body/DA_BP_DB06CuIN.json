@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_DB06CuIN",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 138,
@@ -11,6 +11,7 @@
         "CarNameId": "THE BASTARD",
         "ModelNameId": "DB06CuIN",
         "FolderId": "DB06CuIN",
+        "BaseCarId": "DB06",
         "ReleaseDay": 2022,
         "Price": 7313000,
         "BodyType": "EBodyType::COUPE",

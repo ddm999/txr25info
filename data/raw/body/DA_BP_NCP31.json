@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_NCP31",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 75,
@@ -11,6 +11,7 @@
         "CarNameId": "bB Z X Version (NCP31) '03",
         "ModelNameId": "NCP31",
         "FolderId": "NCP31",
+        "BaseCarId": "NCP31",
         "ReleaseDay": 2003,
         "Price": 1628000,
         "BodyType": "EBodyType::MINI_VAN",

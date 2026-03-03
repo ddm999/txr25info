@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_GRX133",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 134,
@@ -11,6 +11,7 @@
         "CarNameId": "MARK X 350RDS (GRX133) '16",
         "ModelNameId": "GRX133",
         "FolderId": "GRX133",
+        "BaseCarId": "GRX133",
         "ReleaseDay": 2016,
         "Price": 3850200,
         "BodyType": "EBodyType::SEDAN",

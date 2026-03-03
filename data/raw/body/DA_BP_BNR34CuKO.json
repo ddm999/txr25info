@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_BNR34CuKO",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 204,
@@ -11,6 +11,7 @@
         "CarNameId": "IRON R",
         "ModelNameId": "BNR34CuKO",
         "FolderId": "BNR34CuKO",
+        "BaseCarId": "BNR34",
         "ReleaseDay": 2000,
         "Price": 6098000,
         "BodyType": "EBodyType::COUPE",

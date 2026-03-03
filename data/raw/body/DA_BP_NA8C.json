@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_NA8C",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 20,
@@ -11,6 +11,7 @@
         "CarNameId": "EUNOS ROADSTER S SPECIAL Type II (NA8C) '96",
         "ModelNameId": "NA8C",
         "FolderId": "NA8C",
+        "BaseCarId": "NA8C",
         "ReleaseDay": 1996,
         "Price": 2225000,
         "BodyType": "EBodyType::CONVERTIBLE_CAR",

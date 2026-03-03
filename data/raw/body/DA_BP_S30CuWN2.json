@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_S30CuWN2",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 178,
@@ -11,6 +11,7 @@
         "CarNameId": "S30CuWN2",
         "ModelNameId": "S30CuWN2",
         "FolderId": "S30CuWN2",
+        "BaseCarId": "S30",
         "ReleaseDay": 1971,
         "Price": 1080000,
         "BodyType": "EBodyType::COUPE",

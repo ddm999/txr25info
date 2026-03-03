@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodEngineDataAsset",
     "Name": "DA_PU_BCNR33",
-    "Class": "UScriptClass'InternalMethodEngineDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodEngineDataAsset'",
     "Properties": {
       "EngineData": {
         "CarId": "CAR37",

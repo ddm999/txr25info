@@ -2,15 +2,16 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_NCP31CuHG",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 177,
         "CarId": "CAR177",
-        "CarNameId": "NCP31CuHG",
+        "CarNameId": "RETURN TO ORIGIN",
         "ModelNameId": "NCP31CuHG",
         "FolderId": "NCP31CuHG",
+        "BaseCarId": "NCP31",
         "ReleaseDay": 2003,
         "Price": 1628000,
         "BodyType": "EBodyType::MINI_VAN",

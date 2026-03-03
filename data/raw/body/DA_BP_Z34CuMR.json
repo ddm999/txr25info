@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_Z34CuMR",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 142,
@@ -11,6 +11,7 @@
         "CarNameId": "MIDNIGHT ROSE",
         "ModelNameId": "Z34CuMR",
         "FolderId": "Z34CuMR",
+        "BaseCarId": "Z34",
         "ReleaseDay": 2014,
         "Price": 4536000,
         "BodyType": "EBodyType::COUPE",

@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_CZ4ACuSE",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 150,
@@ -11,6 +11,7 @@
         "CarNameId": "SANDSTORM EMPEROR",
         "ModelNameId": "CZ4ACuSE",
         "FolderId": "CZ4ACuSE",
+        "BaseCarId": "CZ4A",
         "ReleaseDay": 2015,
         "Price": 4298400,
         "BodyType": "EBodyType::SEDAN",

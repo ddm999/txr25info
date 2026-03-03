@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_BNR34CuEM",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 136,
@@ -11,6 +11,7 @@
         "CarNameId": "UNRIVALED EMPEROR",
         "ModelNameId": "BNR34CuEM",
         "FolderId": "BNR34CuEM",
+        "BaseCarId": "BNR34",
         "ReleaseDay": 2000,
         "Price": 6098000,
         "BodyType": "EBodyType::COUPE",

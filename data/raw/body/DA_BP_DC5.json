@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_DC5",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 12,
@@ -11,6 +11,7 @@
         "CarNameId": "INTEGRA TYPE R (DC5) '04",
         "ModelNameId": "DC5",
         "FolderId": "DC5",
+        "BaseCarId": "DC5",
         "ReleaseDay": 2004,
         "Price": 2730000,
         "BodyType": "EBodyType::COUPE",

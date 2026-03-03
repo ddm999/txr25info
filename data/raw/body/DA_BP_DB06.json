@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_DB06",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 169,
@@ -11,6 +11,7 @@
         "CarNameId": "GR SUPRA RZ (DB06) '22",
         "ModelNameId": "DB06",
         "FolderId": "DB06",
+        "BaseCarId": "DB06",
         "ReleaseDay": 2022,
         "Price": 7313000,
         "BodyType": "EBodyType::COUPE",

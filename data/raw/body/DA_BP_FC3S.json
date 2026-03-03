@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_FC3S",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 19,
@@ -11,6 +11,7 @@
         "CarNameId": "SAVANNA RX-7 INFINI (FC3S) '90",
         "ModelNameId": "FC3S",
         "FolderId": "FC3S",
+        "BaseCarId": "FC3S",
         "ReleaseDay": 1990,
         "Price": 2843000,
         "BodyType": "EBodyType::COUPE",

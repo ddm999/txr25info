@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_PS13",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 33,
@@ -11,6 +11,7 @@
         "CarNameId": "SILVIA K's (PS13) '91",
         "ModelNameId": "PS13",
         "FolderId": "PS13",
+        "BaseCarId": "PS13",
         "ReleaseDay": 1991,
         "Price": 2039000,
         "BodyType": "EBodyType::COUPE",

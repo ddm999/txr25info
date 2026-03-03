@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_NC1MCuFW",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 185,
@@ -11,6 +11,7 @@
         "CarNameId": "PRINCESS",
         "ModelNameId": "NC1MCuFW",
         "FolderId": "NC1MCuFW",
+        "BaseCarId": "NC1M",
         "ReleaseDay": 2022,
         "Price": 27940000,
         "BodyType": "EBodyType::COUPE",

@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_ND5RC",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 26,
@@ -11,6 +11,7 @@
         "CarNameId": "ROADSTER RS (ND5RC) '15",
         "ModelNameId": "ND5RC",
         "FolderId": "ND5RC",
+        "BaseCarId": "ND5RC",
         "ReleaseDay": 2015,
         "Price": 3196800,
         "BodyType": "EBodyType::CONVERTIBLE_CAR",

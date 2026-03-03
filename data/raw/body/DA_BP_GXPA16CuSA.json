@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_GXPA16CuSA",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 197,
@@ -11,6 +11,7 @@
         "CarNameId": "MS.YOKOHAMA",
         "ModelNameId": "GXPA16CuSA",
         "FolderId": "GXPA16CuSA",
+        "BaseCarId": "GXPA16",
         "ReleaseDay": 2020,
         "Price": 3960000,
         "BodyType": "EBodyType::HATCHBACK",

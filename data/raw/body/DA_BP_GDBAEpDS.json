@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_GDBAEpDS",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 194,
@@ -11,6 +11,7 @@
         "CarNameId": "DEEP BLUE SNIPER",
         "ModelNameId": "GDBAEpDS",
         "FolderId": "GDBAEpDS",
+        "BaseCarId": "GDBA",
         "ReleaseDay": 2000,
         "Price": 2895000,
         "BodyType": "EBodyType::HARD_TOP",

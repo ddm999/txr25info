@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_JZA70CuTU",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 109,
@@ -11,6 +11,7 @@
         "CarNameId": "WEEKLY TUESDAY",
         "ModelNameId": "JZA70CuTU",
         "FolderId": "JZA70CuTU",
+        "BaseCarId": "JZA70",
         "ReleaseDay": 1993,
         "Price": 3382000,
         "BodyType": "EBodyType::COUPE",

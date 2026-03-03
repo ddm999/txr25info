@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_LFA10CuCD",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 206,
@@ -11,6 +11,7 @@
         "CarNameId": "CYBER LFA",
         "ModelNameId": "LFA10CuCD",
         "FolderId": "LFA10CuCD",
+        "BaseCarId": "LFA10",
         "ReleaseDay": 2010,
         "Price": 37500000,
         "BodyType": "EBodyType::COUPE",

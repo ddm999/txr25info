@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_CZ4ACuXN",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 94,
@@ -11,6 +11,7 @@
         "CarNameId": "X",
         "ModelNameId": "CZ4ACuXN",
         "FolderId": "CZ4ACuXN",
+        "BaseCarId": "CZ4A",
         "ReleaseDay": 2015,
         "Price": 4298400,
         "BodyType": "EBodyType::SEDAN",

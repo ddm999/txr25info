@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_ZN6CuBH",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 83,
@@ -11,6 +11,7 @@
         "CarNameId": "BLOODHOUND",
         "ModelNameId": "ZN6CuBH",
         "FolderId": "ZN6CuBH",
+        "BaseCarId": "ZN6",
         "ReleaseDay": 2012,
         "Price": 2790000,
         "BodyType": "EBodyType::COUPE",

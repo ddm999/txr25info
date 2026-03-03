@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_BCNR33",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 37,
@@ -11,6 +11,7 @@
         "CarNameId": "SKYLINE GT-R V-spec (BCNR33) '97",
         "ModelNameId": "BCNR33",
         "FolderId": "BCNR33",
+        "BaseCarId": "BCNR33",
         "ReleaseDay": 1997,
         "Price": 5390000,
         "BodyType": "EBodyType::COUPE",

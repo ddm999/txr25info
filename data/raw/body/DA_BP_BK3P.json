@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_BK3P",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 22,
@@ -11,6 +11,7 @@
         "CarNameId": "AXELA Sport 23S (BK3P) '03",
         "ModelNameId": "BK3P",
         "FolderId": "BK3P",
+        "BaseCarId": "BK3P",
         "ReleaseDay": 2003,
         "Price": 1865000,
         "BodyType": "EBodyType::HATCHBACK",

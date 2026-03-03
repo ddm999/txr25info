@@ -2,8 +2,8 @@
   {
     "Type": "CompositeDataTable",
     "Name": "CDT_Toyota",
-    "Class": "UScriptClass'CompositeDataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CompositeDataTable'",
     "Properties": {
       "ParentTables": [
         {
@@ -13,6 +13,10 @@
         {
           "ObjectName": "DataTable'DT_Toyota1'",
           "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Machine/Toyota/DT_Toyota1.0"
+        },
+        {
+          "ObjectName": "DataTable'DT_Toyota4'",
+          "ObjectPath": "/Game/ITSB/UI/OutGame/Driver/DataTable/PerkTree/Machine/Toyota/DT_Toyota4.0"
         }
       ],
       "RowStruct": {
@@ -205,7 +209,7 @@
       },
       "Toyota_AE86L": {
         "ID": 0,
-        "Step": 303,
+        "Step": 304,
         "Link_Step": [
           -1,
           -1,
@@ -223,7 +227,7 @@
         "Cost": 14,
         "Script": {
           "Namespace": "",
-          "Key": "8E908D024137F196B9F0CE9AA0968F7E",
+          "Key": "BDF687954EA05206B4973C8B90376FFC",
           "SourceString": "(%s)",
           "LocalizedString": "(%s)"
         },
@@ -250,10 +254,10 @@
       },
       "Toyota_AE86T": {
         "ID": 0,
-        "Step": 304,
+        "Step": 305,
         "Link_Step": [
-          404,
-          705,
+          405,
+          706,
           -1,
           -1,
           -1
@@ -268,7 +272,7 @@
         "Cost": 14,
         "Script": {
           "Namespace": "",
-          "Key": "B5AD1A894C465586B3E2C694741A623A",
+          "Key": "0468654D4B3809ADDF4D4D8465BD900B",
           "SourceString": "(%s)",
           "LocalizedString": "(%s)"
         },
@@ -295,9 +299,9 @@
       },
       "Toyota_ZN6": {
         "ID": 0,
-        "Step": 404,
+        "Step": 405,
         "Link_Step": [
-          604,
+          605,
           -1,
           -1,
           -1,
@@ -313,7 +317,7 @@
         "Cost": 21,
         "Script": {
           "Namespace": "",
-          "Key": "DF2D30D2491453FFAD42A5BC566786B9",
+          "Key": "4991FE684C0BC79FFD4204AE420A924C",
           "SourceString": "(%s)",
           "LocalizedString": "(%s)"
         },
@@ -340,9 +344,9 @@
       },
       "Toyota_ZN8": {
         "ID": 0,
-        "Step": 604,
+        "Step": 605,
         "Link_Step": [
-          904,
+          905,
           -1,
           -1,
           -1,
@@ -358,7 +362,7 @@
         "Cost": 37,
         "Script": {
           "Namespace": "",
-          "Key": "A557D5E8493F631F24922A94329C6399",
+          "Key": "189289B54BE93BA1571962B16EDD7BBF",
           "SourceString": "(%s)",
           "LocalizedString": "(%s)"
         },
@@ -390,9 +394,9 @@
       },
       "Toyota_JZA70": {
         "ID": 0,
-        "Step": 705,
+        "Step": 706,
         "Link_Step": [
-          1005,
+          1006,
           -1,
           -1,
           -1,
@@ -408,7 +412,7 @@
         "Cost": 46,
         "Script": {
           "Namespace": "",
-          "Key": "A557D5E8493F631F24922A94329C6399",
+          "Key": "35EBEF3644C6EBA20985039DFC9417FB",
           "SourceString": "(%s)",
           "LocalizedString": "(%s)"
         },
@@ -440,9 +444,9 @@
       },
       "Toyota_JZA80": {
         "ID": 0,
-        "Step": 1005,
+        "Step": 1006,
         "Link_Step": [
-          1305,
+          1306,
           -1,
           -1,
           -1,
@@ -458,7 +462,7 @@
         "Cost": 76,
         "Script": {
           "Namespace": "",
-          "Key": "A557D5E8493F631F24922A94329C6399",
+          "Key": "789D33FA4F75B8A8809BDF98E9ECB3EF",
           "SourceString": "(%s)",
           "LocalizedString": "(%s)"
         },
@@ -539,7 +543,7 @@
         "Step": 302,
         "Link_Step": [
           502,
-          -1,
+          1403,
           -1,
           -1,
           -1
@@ -554,7 +558,7 @@
         "Cost": 14,
         "Script": {
           "Namespace": "",
-          "Key": "0B9D9257429B1749493C79AC574A11BF",
+          "Key": "129AB8A34CCDA97DB2B941BED273F699",
           "SourceString": "(%s)",
           "LocalizedString": "(%s)"
         },
@@ -583,7 +587,7 @@
         "ID": 0,
         "Step": 502,
         "Link_Step": [
-          -1,
+          1402,
           -1,
           -1,
           -1,
@@ -599,7 +603,7 @@
         "Cost": 29,
         "Script": {
           "Namespace": "",
-          "Key": "0B9D9257429B1749493C79AC574A11BF",
+          "Key": "E94816264871E976A3C4DDA04BFD0D52",
           "SourceString": "(%s)",
           "LocalizedString": "(%s)"
         },
@@ -631,7 +635,7 @@
       },
       "Toyota_GXPA16": {
         "ID": 0,
-        "Step": 904,
+        "Step": 905,
         "Link_Step": [
           -1,
           -1,
@@ -649,7 +653,7 @@
         "Cost": 66,
         "Script": {
           "Namespace": "",
-          "Key": "0B9D9257429B1749493C79AC574A11BF",
+          "Key": "88F8DFDE4015F48A57804DA5DB2DCCA1",
           "SourceString": "(%s)",
           "LocalizedString": "(%s)"
         },
@@ -678,7 +682,7 @@
       },
       "Toyota_DB06": {
         "ID": 0,
-        "Step": 1305,
+        "Step": 1306,
         "Link_Step": [
           -1,
           -1,
@@ -696,7 +700,7 @@
         "Cost": 109,
         "Script": {
           "Namespace": "",
-          "Key": "0B9D9257429B1749493C79AC574A11BF",
+          "Key": "5555CC3B4339847CBF9C87B1EB75A8CD",
           "SourceString": "(%s)",
           "LocalizedString": "(%s)"
         },
@@ -710,6 +714,104 @@
           "CultureInvariantString": null
         },
         "NameId": "DB06",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage4",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0010",
+          "Boss_0019",
+          "Boss_0029"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Toyota_KR52V": {
+        "ID": 0,
+        "Step": 1402,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 121,
+        "Script": {
+          "Namespace": "",
+          "Key": "483CC1184497C91D4C2DE88C583CCAFD",
+          "SourceString": "(%s)",
+          "LocalizedString": "(%s)"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_69",
+          "SourceString": "ディーラー画面で「{%s}」が購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the dealer screen.\r\n"
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "KR52V",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage4",
+        "IsVisible": true,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [
+          "Boss_0010",
+          "Boss_0019",
+          "Boss_0029"
+        ],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "Toyota_XZU402": {
+        "ID": 0,
+        "Step": 1403,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_MACHINE",
+        "Type_00": "ESkillTreeType::STT_UNLOCK_MACHINE",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 0.0,
+        "Value_01": 0.0,
+        "Level": 0,
+        "Cost": 121,
+        "Script": {
+          "Namespace": "",
+          "Key": "71B88F484648A0D6B70B339C07A8023D",
+          "SourceString": "(%s)",
+          "LocalizedString": "(%s)"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_summary_69",
+          "SourceString": "ディーラー画面で「{%s}」が購入可能になる。\r\n",
+          "LocalizedString": "{%s} becomes available for purchase on the dealer screen.\r\n"
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "XZU402",
         "TuneParts": "EVehicleTuneKind::None",
         "TuneEngine": "EVehicleTuneEngine::None",
         "AppearanceStage": "EStoryStage::Stage4",

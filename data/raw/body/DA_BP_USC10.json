@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_USC10",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 82,
@@ -11,6 +11,7 @@
         "CarNameId": "Lexus RC F Performance package (USC10) '23",
         "ModelNameId": "USC10",
         "FolderId": "USC10",
+        "BaseCarId": "USC10",
         "ReleaseDay": 2023,
         "Price": 10580000,
         "BodyType": "EBodyType::COUPE",

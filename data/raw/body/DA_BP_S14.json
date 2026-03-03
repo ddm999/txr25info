@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_S14",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 34,
@@ -11,6 +11,7 @@
         "CarNameId": "SILVIA K's AERO SE (S14) '97",
         "ModelNameId": "S14",
         "FolderId": "S14",
+        "BaseCarId": "S14",
         "ReleaseDay": 1997,
         "Price": 2395000,
         "BodyType": "EBodyType::COUPE",

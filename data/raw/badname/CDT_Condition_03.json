@@ -2,8 +2,8 @@
   {
     "Type": "CompositeDataTable",
     "Name": "CDT_Condition_03",
-    "Class": "UScriptClass'CompositeDataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CompositeDataTable'",
     "Properties": {
       "ParentTables": [
         {
@@ -13,6 +13,10 @@
         {
           "ObjectName": "DataTable'DT_Condition_03_1'",
           "ObjectPath": "/Game/ITSB/Core/BadName/ConditionTable/DT_Condition_03_1.0"
+        },
+        {
+          "ObjectName": "DataTable'DT_Condition_03_4'",
+          "ObjectPath": "/Game/ITSB/Core/BadName/ConditionTable/DT_Condition_03_4.0"
         }
       ],
       "RowStruct": {
@@ -2718,7 +2722,7 @@
         "ConditionType": "EBadNameConditionType::MT_Three",
         "ConditionSubType": "EBadNameConditionSubType::MT_UFO",
         "Priority": 25,
-        "IsFirstTimeOnly": false,
+        "IsFirstTimeOnly": true,
         "SortIndex": 0,
         "ComparisonValue_01": 12,
         "ComparisonValue_02": 0,
@@ -3011,28 +3015,6 @@
         "ComparisonValue_03": 0,
         "ComparisonValue_04": 0,
         "ComparisonValue_05": "DC2",
-        "ComparisonValue_06": ""
-      },
-      "59": {
-        "DisplayJapanese": "GD3を駆る者",
-        "DisplayBadName": {
-          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
-          "Key": "BADName_050059",
-          "SourceString": "GD3を駆る者",
-          "LocalizedString": "GD3 ('04) Driver"
-        },
-        "ID": 2406,
-        "DisplayType": "EBadNameDisplayType::MT_Full",
-        "ConditionType": "EBadNameConditionType::MT_Three",
-        "ConditionSubType": "EBadNameConditionSubType::MT_DriverOfCarModel",
-        "Priority": 9,
-        "IsFirstTimeOnly": true,
-        "SortIndex": 0,
-        "ComparisonValue_01": 100,
-        "ComparisonValue_02": 7,
-        "ComparisonValue_03": 0,
-        "ComparisonValue_04": 0,
-        "ComparisonValue_05": "GD3",
         "ComparisonValue_06": ""
       },
       "61": {
@@ -3431,28 +3413,6 @@
         "ComparisonValue_05": "USC10",
         "ComparisonValue_06": ""
       },
-      "120": {
-        "DisplayJapanese": "DK5AWを駆る者",
-        "DisplayBadName": {
-          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
-          "Key": "BADName_050120",
-          "SourceString": "DK5AWを駆る者",
-          "LocalizedString": "DK5AW ('15) Driver"
-        },
-        "ID": 2467,
-        "DisplayType": "EBadNameDisplayType::MT_Full",
-        "ConditionType": "EBadNameConditionType::MT_Three",
-        "ConditionSubType": "EBadNameConditionSubType::MT_DriverOfCarModel",
-        "Priority": 9,
-        "IsFirstTimeOnly": true,
-        "SortIndex": 0,
-        "ComparisonValue_01": 100,
-        "ComparisonValue_02": 68,
-        "ComparisonValue_03": 0,
-        "ComparisonValue_04": 0,
-        "ComparisonValue_05": "DK5AW",
-        "ComparisonValue_06": ""
-      },
       "125": {
         "DisplayJapanese": "KPGC10を駆る者",
         "DisplayBadName": {
@@ -3671,28 +3631,6 @@
         "ComparisonValue_03": 0,
         "ComparisonValue_04": 0,
         "ComparisonValue_05": "DC2",
-        "ComparisonValue_06": ""
-      },
-      "142": {
-        "DisplayJapanese": "GD3の乗り手",
-        "DisplayBadName": {
-          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
-          "Key": "BADName_050140",
-          "SourceString": "GD3の乗り手",
-          "LocalizedString": "GD3 ('04) Rider"
-        },
-        "ID": 2706,
-        "DisplayType": "EBadNameDisplayType::MT_Full",
-        "ConditionType": "EBadNameConditionType::MT_Three",
-        "ConditionSubType": "EBadNameConditionSubType::MT_RidersOfTheCar",
-        "Priority": 10,
-        "IsFirstTimeOnly": true,
-        "SortIndex": 0,
-        "ComparisonValue_01": 50,
-        "ComparisonValue_02": 7,
-        "ComparisonValue_03": 0,
-        "ComparisonValue_04": 0,
-        "ComparisonValue_05": "GD3",
         "ComparisonValue_06": ""
       },
       "144": {
@@ -4091,28 +4029,6 @@
         "ComparisonValue_05": "USC10",
         "ComparisonValue_06": ""
       },
-      "203": {
-        "DisplayJapanese": "DK5AWの乗り手",
-        "DisplayBadName": {
-          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
-          "Key": "BADName_050201",
-          "SourceString": "DK5AWの乗り手",
-          "LocalizedString": "DK5AW ('15) Rider"
-        },
-        "ID": 2767,
-        "DisplayType": "EBadNameDisplayType::MT_Full",
-        "ConditionType": "EBadNameConditionType::MT_Three",
-        "ConditionSubType": "EBadNameConditionSubType::MT_RidersOfTheCar",
-        "Priority": 10,
-        "IsFirstTimeOnly": true,
-        "SortIndex": 0,
-        "ComparisonValue_01": 50,
-        "ComparisonValue_02": 68,
-        "ComparisonValue_03": 0,
-        "ComparisonValue_04": 0,
-        "ComparisonValue_05": "DK5AW",
-        "ComparisonValue_06": ""
-      },
       "208": {
         "DisplayJapanese": "KPGC10の乗り手",
         "DisplayBadName": {
@@ -4243,6 +4159,226 @@
         "ComparisonValue_03": 0,
         "ComparisonValue_04": 0,
         "ComparisonValue_05": "LFA10",
+        "ComparisonValue_06": ""
+      },
+      "59": {
+        "DisplayJapanese": "GD3を駆る者",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_050059",
+          "SourceString": "GD3を駆る者",
+          "LocalizedString": "GD3 ('04) Driver"
+        },
+        "ID": 2406,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Three",
+        "ConditionSubType": "EBadNameConditionSubType::MT_DriverOfCarModel",
+        "Priority": 9,
+        "IsFirstTimeOnly": true,
+        "SortIndex": 0,
+        "ComparisonValue_01": 100,
+        "ComparisonValue_02": 7,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "GD3",
+        "ComparisonValue_06": ""
+      },
+      "60": {
+        "DisplayJapanese": "CL7を駆る者",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_050060",
+          "SourceString": "CL7を駆る者",
+          "LocalizedString": "CL7 ('02) Driver"
+        },
+        "ID": 2407,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Three",
+        "ConditionSubType": "EBadNameConditionSubType::MT_DriverOfCarModel",
+        "Priority": 9,
+        "IsFirstTimeOnly": true,
+        "SortIndex": 0,
+        "ComparisonValue_01": 100,
+        "ComparisonValue_02": 8,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "CL7",
+        "ComparisonValue_06": ""
+      },
+      "120": {
+        "DisplayJapanese": "DK5AWを駆る者",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_050120",
+          "SourceString": "DK5AWを駆る者",
+          "LocalizedString": "DK5AW ('15) Driver"
+        },
+        "ID": 2467,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Three",
+        "ConditionSubType": "EBadNameConditionSubType::MT_DriverOfCarModel",
+        "Priority": 9,
+        "IsFirstTimeOnly": true,
+        "SortIndex": 0,
+        "ComparisonValue_01": 100,
+        "ComparisonValue_02": 68,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "DK5AW",
+        "ComparisonValue_06": ""
+      },
+      "251": {
+        "DisplayJapanese": "KR52Vを駆る者",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_050257",
+          "SourceString": "KR52Vを駆る者",
+          "LocalizedString": "KR52V ('05) Driver"
+        },
+        "ID": 2483,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Three",
+        "ConditionSubType": "EBadNameConditionSubType::MT_DriverOfCarModel",
+        "Priority": 9,
+        "IsFirstTimeOnly": true,
+        "SortIndex": 0,
+        "ComparisonValue_01": 100,
+        "ComparisonValue_02": 84,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "KR52V",
+        "ComparisonValue_06": ""
+      },
+      "252": {
+        "DisplayJapanese": "XZU402を駆る者",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_050259",
+          "SourceString": "XZU402を駆る者",
+          "LocalizedString": "XZU402 ('99) Driver"
+        },
+        "ID": 2484,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Three",
+        "ConditionSubType": "EBadNameConditionSubType::MT_DriverOfCarModel",
+        "Priority": 9,
+        "IsFirstTimeOnly": true,
+        "SortIndex": 0,
+        "ComparisonValue_01": 100,
+        "ComparisonValue_02": 85,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "XZU402",
+        "ComparisonValue_06": ""
+      },
+      "142": {
+        "DisplayJapanese": "GD3の乗り手",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_050140",
+          "SourceString": "GD3の乗り手",
+          "LocalizedString": "GD3 ('04) Rider"
+        },
+        "ID": 2706,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Three",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RidersOfTheCar",
+        "Priority": 10,
+        "IsFirstTimeOnly": true,
+        "SortIndex": 0,
+        "ComparisonValue_01": 50,
+        "ComparisonValue_02": 7,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "GD3",
+        "ComparisonValue_06": ""
+      },
+      "143": {
+        "DisplayJapanese": "CL7の乗り手",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_050141",
+          "SourceString": "CL7の乗り手",
+          "LocalizedString": "CL7 ('02) Rider"
+        },
+        "ID": 2707,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Three",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RidersOfTheCar",
+        "Priority": 10,
+        "IsFirstTimeOnly": true,
+        "SortIndex": 0,
+        "ComparisonValue_01": 50,
+        "ComparisonValue_02": 8,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "CL7",
+        "ComparisonValue_06": ""
+      },
+      "203": {
+        "DisplayJapanese": "DK5AWの乗り手",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_050201",
+          "SourceString": "DK5AWの乗り手",
+          "LocalizedString": "DK5AW ('15) Rider"
+        },
+        "ID": 2767,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Three",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RidersOfTheCar",
+        "Priority": 10,
+        "IsFirstTimeOnly": true,
+        "SortIndex": 0,
+        "ComparisonValue_01": 50,
+        "ComparisonValue_02": 68,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "DK5AW",
+        "ComparisonValue_06": ""
+      },
+      "253": {
+        "DisplayJapanese": "KR52Vの乗り手",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_050258",
+          "SourceString": "KR52Vの乗り手",
+          "LocalizedString": "KR52V ('05) Rider"
+        },
+        "ID": 2783,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Three",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RidersOfTheCar",
+        "Priority": 10,
+        "IsFirstTimeOnly": true,
+        "SortIndex": 0,
+        "ComparisonValue_01": 50,
+        "ComparisonValue_02": 84,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "KR52V",
+        "ComparisonValue_06": ""
+      },
+      "254": {
+        "DisplayJapanese": "XZU402の乗り手",
+        "DisplayBadName": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_BADname.ST_BADname",
+          "Key": "BADName_050260",
+          "SourceString": "XZU402の乗り手",
+          "LocalizedString": "XZU402 ('99) Rider"
+        },
+        "ID": 2784,
+        "DisplayType": "EBadNameDisplayType::MT_Full",
+        "ConditionType": "EBadNameConditionType::MT_Three",
+        "ConditionSubType": "EBadNameConditionSubType::MT_RidersOfTheCar",
+        "Priority": 10,
+        "IsFirstTimeOnly": true,
+        "SortIndex": 0,
+        "ComparisonValue_01": 50,
+        "ComparisonValue_02": 85,
+        "ComparisonValue_03": 0,
+        "ComparisonValue_04": 0,
+        "ComparisonValue_05": "XZU402",
         "ComparisonValue_06": ""
       }
     }

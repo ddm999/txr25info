@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_NC1",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 15,
@@ -11,6 +11,7 @@
         "CarNameId": "NSX (NC1) '17",
         "ModelNameId": "NC1",
         "FolderId": "NC1",
+        "BaseCarId": "NC1",
         "ReleaseDay": 2017,
         "Price": 23700000,
         "BodyType": "EBodyType::COUPE",

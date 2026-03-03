@@ -2,8 +2,8 @@
   {
     "Type": "CompositeDataTable",
     "Name": "CDT_NewSkillATK",
-    "Class": "UScriptClass'CompositeDataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CompositeDataTable'",
     "Properties": {
       "ParentTables": [
         {
@@ -350,7 +350,7 @@
         "ID": 0,
         "Step": 701,
         "Link_Step": [
-          -1,
+          801,
           -1,
           -1,
           -1,
@@ -1258,6 +1258,591 @@
         "SkillTargetInfos": [],
         "Deprecated": false,
         "needs_to_be_equip": true,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_ATK_8": {
+        "ID": 0,
+        "Step": 801,
+        "Link_Step": [
+          901,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__ATK",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 210.0,
+        "Value_01": 80.0,
+        "Level": 8,
+        "Cost": 77,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_18_n",
+          "SourceString": "攻撃力強化 A",
+          "LocalizedString": "Attack Power Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_18_t",
+          "SourceString": "攻撃力が {%V00} に増加。",
+          "LocalizedString": "Attack power increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_ATK_9": {
+        "ID": 0,
+        "Step": 901,
+        "Link_Step": [
+          1001,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__ATK",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 220.0,
+        "Value_01": 90.0,
+        "Level": 9,
+        "Cost": 91,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_18_n",
+          "SourceString": "攻撃力強化 A",
+          "LocalizedString": "Attack Power Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_18_t",
+          "SourceString": "攻撃力が {%V00} に増加。",
+          "LocalizedString": "Attack power increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_ATK_10": {
+        "ID": 0,
+        "Step": 1001,
+        "Link_Step": [
+          1101,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__ATK",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 230.0,
+        "Value_01": 100.0,
+        "Level": 10,
+        "Cost": 105,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_18_n",
+          "SourceString": "攻撃力強化 A",
+          "LocalizedString": "Attack Power Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_18_t",
+          "SourceString": "攻撃力が {%V00} に増加。",
+          "LocalizedString": "Attack power increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_ATK_11": {
+        "ID": 0,
+        "Step": 1101,
+        "Link_Step": [
+          1201,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__ATK",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 240.0,
+        "Value_01": 110.0,
+        "Level": 11,
+        "Cost": 119,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_18_n",
+          "SourceString": "攻撃力強化 A",
+          "LocalizedString": "Attack Power Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_18_t",
+          "SourceString": "攻撃力が {%V00} に増加。",
+          "LocalizedString": "Attack power increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_ATK_12": {
+        "ID": 0,
+        "Step": 1201,
+        "Link_Step": [
+          1301,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__ATK",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 250.0,
+        "Value_01": 120.0,
+        "Level": 12,
+        "Cost": 133,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_18_n",
+          "SourceString": "攻撃力強化 A",
+          "LocalizedString": "Attack Power Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_18_t",
+          "SourceString": "攻撃力が {%V00} に増加。",
+          "LocalizedString": "Attack power increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_ATK_13": {
+        "ID": 0,
+        "Step": 1301,
+        "Link_Step": [
+          1401,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__ATK",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 260.0,
+        "Value_01": 130.0,
+        "Level": 13,
+        "Cost": 147,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_18_n",
+          "SourceString": "攻撃力強化 A",
+          "LocalizedString": "Attack Power Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_18_t",
+          "SourceString": "攻撃力が {%V00} に増加。",
+          "LocalizedString": "Attack power increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_ATK_14": {
+        "ID": 0,
+        "Step": 1401,
+        "Link_Step": [
+          1501,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__ATK",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 270.0,
+        "Value_01": 140.0,
+        "Level": 14,
+        "Cost": 161,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_18_n",
+          "SourceString": "攻撃力強化 A",
+          "LocalizedString": "Attack Power Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_18_t",
+          "SourceString": "攻撃力が {%V00} に増加。",
+          "LocalizedString": "Attack power increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_ATK_15": {
+        "ID": 0,
+        "Step": 1501,
+        "Link_Step": [
+          1601,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__ATK",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 280.0,
+        "Value_01": 150.0,
+        "Level": 15,
+        "Cost": 175,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_18_n",
+          "SourceString": "攻撃力強化 A",
+          "LocalizedString": "Attack Power Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_18_t",
+          "SourceString": "攻撃力が {%V00} に増加。",
+          "LocalizedString": "Attack power increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_ATK_16": {
+        "ID": 0,
+        "Step": 1601,
+        "Link_Step": [
+          1701,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__ATK",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 290.0,
+        "Value_01": 160.0,
+        "Level": 16,
+        "Cost": 189,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_18_n",
+          "SourceString": "攻撃力強化 A",
+          "LocalizedString": "Attack Power Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_18_t",
+          "SourceString": "攻撃力が {%V00} に増加。",
+          "LocalizedString": "Attack power increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_ATK_17": {
+        "ID": 0,
+        "Step": 1701,
+        "Link_Step": [
+          1801,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__ATK",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 300.0,
+        "Value_01": 170.0,
+        "Level": 17,
+        "Cost": 203,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_18_n",
+          "SourceString": "攻撃力強化 A",
+          "LocalizedString": "Attack Power Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_18_t",
+          "SourceString": "攻撃力が {%V00} に増加。",
+          "LocalizedString": "Attack power increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_ATK_18": {
+        "ID": 0,
+        "Step": 1801,
+        "Link_Step": [
+          1901,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__ATK",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 310.0,
+        "Value_01": 180.0,
+        "Level": 18,
+        "Cost": 217,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_18_n",
+          "SourceString": "攻撃力強化 A",
+          "LocalizedString": "Attack Power Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_18_t",
+          "SourceString": "攻撃力が {%V00} に増加。",
+          "LocalizedString": "Attack power increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_ATK_19": {
+        "ID": 0,
+        "Step": 1901,
+        "Link_Step": [
+          2001,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__ATK",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 320.0,
+        "Value_01": 190.0,
+        "Level": 19,
+        "Cost": 231,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_18_n",
+          "SourceString": "攻撃力強化 A",
+          "LocalizedString": "Attack Power Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_18_t",
+          "SourceString": "攻撃力が {%V00} に増加。",
+          "LocalizedString": "Attack power increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_ATK_20": {
+        "ID": 0,
+        "Step": 2001,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__ATK",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 330.0,
+        "Value_01": 200.0,
+        "Level": 20,
+        "Cost": 245,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_18_n",
+          "SourceString": "攻撃力強化 A",
+          "LocalizedString": "Attack Power Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_18_t",
+          "SourceString": "攻撃力が {%V00} に増加。",
+          "LocalizedString": "Attack power increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
         "ActualAppearanceStage": "EStoryStage::None"
       },
       "STT_ATK_UP_AT_PA_BATTLE_4": {

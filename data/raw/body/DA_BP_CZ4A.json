@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_CZ4A",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 31,
@@ -11,6 +11,7 @@
         "CarNameId": "LANCER EVOLUTION FINAL EDITION (CZ4A) '15",
         "ModelNameId": "CZ4A",
         "FolderId": "CZ4A",
+        "BaseCarId": "CZ4A",
         "ReleaseDay": 2015,
         "Price": 4298400,
         "BodyType": "EBodyType::SEDAN",

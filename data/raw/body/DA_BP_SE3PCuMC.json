@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_SE3PCuMC",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 98,
@@ -11,6 +11,7 @@
         "CarNameId": "MIDNIGHT CINDERELLA",
         "ModelNameId": "SE3PCuMC",
         "FolderId": "SE3PCuMC",
+        "BaseCarId": "SE3P",
         "ReleaseDay": 2003,
         "Price": 2750000,
         "BodyType": "EBodyType::COUPE",

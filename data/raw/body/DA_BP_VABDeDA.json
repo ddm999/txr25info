@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_VABDeDA",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 107,
@@ -11,6 +11,7 @@
         "CarNameId": "WRX STI ELECTRICO",
         "ModelNameId": "VABDeDA",
         "FolderId": "VABDeDA",
+        "BaseCarId": "VAB",
         "ReleaseDay": 2015,
         "Price": 4114800,
         "BodyType": "EBodyType::SEDAN",

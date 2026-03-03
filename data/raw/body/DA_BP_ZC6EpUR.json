@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_ZC6EpUR",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 179,
@@ -11,6 +11,7 @@
         "CarNameId": "RYOMA",
         "ModelNameId": "ZC6EpUR",
         "FolderId": "ZC6EpUR",
+        "BaseCarId": "ZC6",
         "ReleaseDay": 2016,
         "Price": 3315600,
         "BodyType": "EBodyType::COUPE",

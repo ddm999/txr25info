@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_BNR34CuZE",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 92,
@@ -11,6 +11,7 @@
         "CarNameId": "ZERO",
         "ModelNameId": "BNR34CuZE",
         "FolderId": "BNR34CuZE",
+        "BaseCarId": "BNR34",
         "ReleaseDay": 2000,
         "Price": 6098000,
         "BodyType": "EBodyType::COUPE",

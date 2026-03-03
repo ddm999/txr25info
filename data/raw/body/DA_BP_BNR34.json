@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_BNR34",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 39,
@@ -11,6 +11,7 @@
         "CarNameId": "SKYLINE GT-R V-spec II (BNR34) '00",
         "ModelNameId": "BNR34",
         "FolderId": "BNR34",
+        "BaseCarId": "BNR34",
         "ReleaseDay": 2000,
         "Price": 6098000,
         "BodyType": "EBodyType::COUPE",

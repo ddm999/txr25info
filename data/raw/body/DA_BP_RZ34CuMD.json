@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_RZ34CuMD",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 160,
@@ -11,6 +11,7 @@
         "CarNameId": "MONEY DREAM",
         "ModelNameId": "RZ34CuMD",
         "FolderId": "RZ34CuMD",
+        "BaseCarId": "RZ34",
         "ReleaseDay": 2024,
         "Price": 6657200,
         "BodyType": "EBodyType::COUPE",

@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_R35MCuEX",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 91,
@@ -11,6 +11,7 @@
         "CarNameId": "DEUS EX MACHINA",
         "ModelNameId": "R35MCuEX",
         "FolderId": "R35MCuEX",
+        "BaseCarId": "R35M",
         "ReleaseDay": 2017,
         "Price": 9960840,
         "BodyType": "EBodyType::COUPE",

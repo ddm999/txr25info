@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_GGH35W",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 133,
@@ -11,6 +11,7 @@
         "CarNameId": "VELLFIRE 3.5VL (GGH35W) '15",
         "ModelNameId": "GGH35W",
         "FolderId": "GGH35W",
+        "BaseCarId": "GGH35W",
         "ReleaseDay": 2015,
         "Price": 5036727,
         "BodyType": "EBodyType::MINI_VAN",

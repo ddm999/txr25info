@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_NB8C",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 23,
@@ -11,6 +11,7 @@
         "CarNameId": "ROADSTER RS (NB8C) '03",
         "ModelNameId": "NB8C",
         "FolderId": "NB8C",
+        "BaseCarId": "NB8C",
         "ReleaseDay": 2003,
         "Price": 2350000,
         "BodyType": "EBodyType::CONVERTIBLE_CAR",

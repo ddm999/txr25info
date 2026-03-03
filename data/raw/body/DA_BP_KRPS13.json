@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_KRPS13",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 36,
@@ -11,6 +11,7 @@
         "CarNameId": "180SX TYPE X w/SUPER HICAS (KRPS13) '96",
         "ModelNameId": "KRPS13",
         "FolderId": "KRPS13",
+        "BaseCarId": "KRPS13",
         "ReleaseDay": 1996,
         "Price": 2579000,
         "BodyType": "EBodyType::COUPE",

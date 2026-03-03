@@ -2,8 +2,8 @@
   {
     "Type": "CompositeDataTable",
     "Name": "CDT_NewSkillPHY",
-    "Class": "UScriptClass'CompositeDataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CompositeDataTable'",
     "Properties": {
       "ParentTables": [
         {
@@ -460,7 +460,7 @@
         "ID": 0,
         "Step": 701,
         "Link_Step": [
-          -1,
+          801,
           -1,
           -1,
           -1,
@@ -487,10 +487,7 @@
           "LocalizedString": "Toughness increases to {%V00}."
         },
         "LockedText": {
-          "TableId": "/Game/ITSB/UI/StringTable/ST_tree_system.ST_tree_system",
-          "Key": "Str_UI_Tree_sys_41",
-          "SourceString": "≪解放条件≫\r\n【久遠のポラリス（R35M）】を撃破する。",
-          "LocalizedString": "≪Unlock Condition≫\r\nDefeat 【ETERNAL POLARIS（R35M）】."
+          "CultureInvariantString": null
         },
         "NameId": "None",
         "TuneParts": "EVehicleTuneKind::None",
@@ -1449,6 +1446,799 @@
         "needs_to_be_equip": true,
         "ActualAppearanceStage": "EStoryStage::None"
       },
+      "STT_PHY_8": {
+        "ID": 0,
+        "Step": 801,
+        "Link_Step": [
+          901,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__PHY",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 110.0,
+        "Value_01": 80.0,
+        "Level": 8,
+        "Cost": 77,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_38_n",
+          "SourceString": "耐久力強化 A",
+          "LocalizedString": "Toughness Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_38_t",
+          "SourceString": "耐久力が {%V00} に増加。",
+          "LocalizedString": "Toughness increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::WALL",
+            "Value0": 25.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::BATTLE_VEHICLE",
+            "Value0": 25.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::OTHER_VEHICLE",
+            "Value0": 25.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_PHY_9": {
+        "ID": 0,
+        "Step": 901,
+        "Link_Step": [
+          1001,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__PHY",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 120.0,
+        "Value_01": 90.0,
+        "Level": 9,
+        "Cost": 91,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_38_n",
+          "SourceString": "耐久力強化 A",
+          "LocalizedString": "Toughness Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_38_t",
+          "SourceString": "耐久力が {%V00} に増加。",
+          "LocalizedString": "Toughness increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::WALL",
+            "Value0": 20.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::BATTLE_VEHICLE",
+            "Value0": 20.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::OTHER_VEHICLE",
+            "Value0": 20.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_PHY_10": {
+        "ID": 0,
+        "Step": 1001,
+        "Link_Step": [
+          1101,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__PHY",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 130.0,
+        "Value_01": 100.0,
+        "Level": 10,
+        "Cost": 105,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_38_n",
+          "SourceString": "耐久力強化 A",
+          "LocalizedString": "Toughness Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_38_t",
+          "SourceString": "耐久力が {%V00} に増加。",
+          "LocalizedString": "Toughness increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::WALL",
+            "Value0": 18.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::BATTLE_VEHICLE",
+            "Value0": 18.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::OTHER_VEHICLE",
+            "Value0": 18.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_PHY_11": {
+        "ID": 0,
+        "Step": 1101,
+        "Link_Step": [
+          1201,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__PHY",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 140.0,
+        "Value_01": 110.0,
+        "Level": 11,
+        "Cost": 119,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_38_n",
+          "SourceString": "耐久力強化 A",
+          "LocalizedString": "Toughness Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_38_t",
+          "SourceString": "耐久力が {%V00} に増加。",
+          "LocalizedString": "Toughness increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::WALL",
+            "Value0": 16.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::BATTLE_VEHICLE",
+            "Value0": 16.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::OTHER_VEHICLE",
+            "Value0": 16.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_PHY_12": {
+        "ID": 0,
+        "Step": 1201,
+        "Link_Step": [
+          1301,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__PHY",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 150.0,
+        "Value_01": 120.0,
+        "Level": 12,
+        "Cost": 133,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_38_n",
+          "SourceString": "耐久力強化 A",
+          "LocalizedString": "Toughness Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_38_t",
+          "SourceString": "耐久力が {%V00} に増加。",
+          "LocalizedString": "Toughness increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::WALL",
+            "Value0": 14.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::BATTLE_VEHICLE",
+            "Value0": 14.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::OTHER_VEHICLE",
+            "Value0": 14.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_PHY_13": {
+        "ID": 0,
+        "Step": 1301,
+        "Link_Step": [
+          1401,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__PHY",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 160.0,
+        "Value_01": 130.0,
+        "Level": 13,
+        "Cost": 147,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_38_n",
+          "SourceString": "耐久力強化 A",
+          "LocalizedString": "Toughness Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_38_t",
+          "SourceString": "耐久力が {%V00} に増加。",
+          "LocalizedString": "Toughness increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::WALL",
+            "Value0": 12.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::BATTLE_VEHICLE",
+            "Value0": 12.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::OTHER_VEHICLE",
+            "Value0": 12.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_PHY_14": {
+        "ID": 0,
+        "Step": 1401,
+        "Link_Step": [
+          1501,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__PHY",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 170.0,
+        "Value_01": 140.0,
+        "Level": 14,
+        "Cost": 161,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_38_n",
+          "SourceString": "耐久力強化 A",
+          "LocalizedString": "Toughness Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_38_t",
+          "SourceString": "耐久力が {%V00} に増加。",
+          "LocalizedString": "Toughness increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::WALL",
+            "Value0": 10.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::BATTLE_VEHICLE",
+            "Value0": 10.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::OTHER_VEHICLE",
+            "Value0": 10.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_PHY_15": {
+        "ID": 0,
+        "Step": 1501,
+        "Link_Step": [
+          1601,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__PHY",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 180.0,
+        "Value_01": 150.0,
+        "Level": 15,
+        "Cost": 175,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_38_n",
+          "SourceString": "耐久力強化 A",
+          "LocalizedString": "Toughness Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_38_t",
+          "SourceString": "耐久力が {%V00} に増加。",
+          "LocalizedString": "Toughness increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::WALL",
+            "Value0": 9.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::BATTLE_VEHICLE",
+            "Value0": 9.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::OTHER_VEHICLE",
+            "Value0": 9.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_PHY_16": {
+        "ID": 0,
+        "Step": 1601,
+        "Link_Step": [
+          1701,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__PHY",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 190.0,
+        "Value_01": 160.0,
+        "Level": 16,
+        "Cost": 189,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_38_n",
+          "SourceString": "耐久力強化 A",
+          "LocalizedString": "Toughness Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_38_t",
+          "SourceString": "耐久力が {%V00} に増加。",
+          "LocalizedString": "Toughness increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::WALL",
+            "Value0": 8.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::BATTLE_VEHICLE",
+            "Value0": 8.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::OTHER_VEHICLE",
+            "Value0": 8.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_PHY_17": {
+        "ID": 0,
+        "Step": 1701,
+        "Link_Step": [
+          1801,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__PHY",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 200.0,
+        "Value_01": 170.0,
+        "Level": 17,
+        "Cost": 203,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_38_n",
+          "SourceString": "耐久力強化 A",
+          "LocalizedString": "Toughness Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_38_t",
+          "SourceString": "耐久力が {%V00} に増加。",
+          "LocalizedString": "Toughness increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::WALL",
+            "Value0": 7.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::BATTLE_VEHICLE",
+            "Value0": 7.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::OTHER_VEHICLE",
+            "Value0": 7.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_PHY_18": {
+        "ID": 0,
+        "Step": 1801,
+        "Link_Step": [
+          1901,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__PHY",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 210.0,
+        "Value_01": 180.0,
+        "Level": 18,
+        "Cost": 217,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_38_n",
+          "SourceString": "耐久力強化 A",
+          "LocalizedString": "Toughness Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_38_t",
+          "SourceString": "耐久力が {%V00} に増加。",
+          "LocalizedString": "Toughness increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::WALL",
+            "Value0": 6.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::BATTLE_VEHICLE",
+            "Value0": 6.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::OTHER_VEHICLE",
+            "Value0": 6.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_PHY_19": {
+        "ID": 0,
+        "Step": 1901,
+        "Link_Step": [
+          2001,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__PHY",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 220.0,
+        "Value_01": 190.0,
+        "Level": 19,
+        "Cost": 231,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_38_n",
+          "SourceString": "耐久力強化 A",
+          "LocalizedString": "Toughness Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_38_t",
+          "SourceString": "耐久力が {%V00} に増加。",
+          "LocalizedString": "Toughness increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::WALL",
+            "Value0": 5.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::BATTLE_VEHICLE",
+            "Value0": 5.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::OTHER_VEHICLE",
+            "Value0": 5.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
+      "STT_PHY_20": {
+        "ID": 0,
+        "Step": 2001,
+        "Link_Step": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "Status": "ESkillTreeStatus::STS_LOCKED",
+        "Category": "ESkillTreeCategory::STC_SKILL",
+        "Type_00": "ESkillTreeType::STT__PHY",
+        "Type_01": "ESkillTreeType::STT_NONE",
+        "Value_00": 230.0,
+        "Value_01": 200.0,
+        "Level": 20,
+        "Cost": 245,
+        "Script": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_38_n",
+          "SourceString": "耐久力強化 A",
+          "LocalizedString": "Toughness Enhancement A"
+        },
+        "Detail": {
+          "TableId": "/Game/ITSB/UI/StringTable/ST_box_summary.ST_box_summary",
+          "Key": "Str_UI_Tree_skill_38_t",
+          "SourceString": "耐久力が {%V00} に増加。",
+          "LocalizedString": "Toughness increases to {%V00}."
+        },
+        "LockedText": {
+          "CultureInvariantString": null
+        },
+        "NameId": "None",
+        "TuneParts": "EVehicleTuneKind::None",
+        "TuneEngine": "EVehicleTuneEngine::None",
+        "AppearanceStage": "EStoryStage::Stage5",
+        "IsVisible": false,
+        "TreeNo": 0,
+        "NecessaryRivalsToAppear": [],
+        "SkillTargetInfos": [
+          {
+            "Target": "ESkillTarget::WALL",
+            "Value0": 4.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::BATTLE_VEHICLE",
+            "Value0": 4.0,
+            "Value1": 0.0
+          },
+          {
+            "Target": "ESkillTarget::OTHER_VEHICLE",
+            "Value0": 4.0,
+            "Value1": 0.0
+          }
+        ],
+        "Deprecated": false,
+        "needs_to_be_equip": false,
+        "ActualAppearanceStage": "EStoryStage::None"
+      },
       "STT_REDUCE_CONSUMPTION_FOR_SP_4": {
         "ID": 0,
         "Step": 702,
@@ -1543,10 +2333,7 @@
           "LocalizedString": "In battles against Leaders, Bosses, and Wanderers, reduce Tire Wear, nitro system consumption, and collision damage.\r\nThe reduction is even greater than at lower levels."
         },
         "LockedText": {
-          "TableId": "/Game/ITSB/UI/StringTable/ST_tree_system.ST_tree_system",
-          "Key": "Str_UI_Tree_sys_41",
-          "SourceString": "≪解放条件≫\r\n【久遠のポラリス（R35M）】を撃破する。",
-          "LocalizedString": "≪Unlock Condition≫\r\nDefeat 【ETERNAL POLARIS（R35M）】."
+          "CultureInvariantString": null
         },
         "NameId": "None",
         "TuneParts": "EVehicleTuneKind::None",

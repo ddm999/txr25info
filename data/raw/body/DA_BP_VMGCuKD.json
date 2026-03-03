@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_VMGCuKD",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 146,
@@ -11,6 +11,7 @@
         "CarNameId": "KURENAI DOZ",
         "ModelNameId": "VMGCuKD",
         "FolderId": "VMGCuKD",
+        "BaseCarId": "VMG",
         "ReleaseDay": 2015,
         "Price": 3564000,
         "BodyType": "EBodyType::WAGON",

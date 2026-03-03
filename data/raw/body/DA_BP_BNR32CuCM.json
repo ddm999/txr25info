@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_BNR32CuCM",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 209,
@@ -11,6 +11,7 @@
         "CarNameId": "HASEGAWA GAL MAI",
         "ModelNameId": "BNR32CuCM",
         "FolderId": "BNR32CuCM",
+        "BaseCarId": "BNR32",
         "ReleaseDay": 1994,
         "Price": 5290000,
         "BodyType": "EBodyType::COUPE",

@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_S15",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 38,
@@ -11,6 +11,7 @@
         "CarNameId": "SILVIA spec-R AERO (S15) '99",
         "ModelNameId": "S15",
         "FolderId": "S15",
+        "BaseCarId": "S15",
         "ReleaseDay": 1999,
         "Price": 2560000,
         "BodyType": "EBodyType::COUPE",

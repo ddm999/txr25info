@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_S30CuUN",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 95,
@@ -11,6 +11,7 @@
         "CarNameId": "UNKNOWN",
         "ModelNameId": "S30CuUN",
         "FolderId": "S30CuUN",
+        "BaseCarId": "S30",
         "ReleaseDay": 1969,
         "Price": 1080000,
         "BodyType": "EBodyType::COUPE",
@@ -26,7 +27,7 @@
         "RTread": 1345,
         "CenterOfGravity": 330.3,
         "DriveType": "EDriveType::DT_FR",
-        "EngineKind": "EEngineKind::Straight6",
+        "EngineKind": "EEngineKind::V6",
         "EngineInspiration": "ECarIceAspirationType::Turbo",
         "Displacement": 3799,
         "MaxPower": 600,

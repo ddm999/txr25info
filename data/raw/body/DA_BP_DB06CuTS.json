@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_DB06CuTS",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 196,
@@ -11,6 +11,7 @@
         "CarNameId": "MR.KAWAGOE",
         "ModelNameId": "DB06CuTS",
         "FolderId": "DB06CuTS",
+        "BaseCarId": "DB06",
         "ReleaseDay": 2022,
         "Price": 7313000,
         "BodyType": "EBodyType::COUPE",

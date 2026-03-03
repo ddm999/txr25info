@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_L152S",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 1,
@@ -11,6 +11,7 @@
         "CarNameId": "MOVE CUSTOM RS Limited (L152S) '02",
         "ModelNameId": "L152S",
         "FolderId": "L152S",
+        "BaseCarId": "L152S",
         "ReleaseDay": 2002,
         "Price": 1460000,
         "BodyType": "EBodyType::LIFHT_VEHICLE",

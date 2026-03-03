@@ -2,8 +2,8 @@
   {
     "Type": "DataTable",
     "Name": "DT_RaceDefine",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
     "Properties": {
       "RowStruct": {
         "ObjectName": "UserDefinedStruct'SDefaultDefineBase'",
@@ -223,6 +223,10 @@
         "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 100,
         "memo_5_9961B18141718027C83E31BC3AADB54C": "壁の衝撃にこれをかけたものがSPの減算値となる"
       },
+      "HitDamageSpCoefNoMercy": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 200,
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "壁の衝撃にこれをかけたものがSPの減算値となる(NoMercy)"
+      },
       "OherCarEveryWin": {
         "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 10,
         "memo_5_9961B18141718027C83E31BC3AADB54C": "アザーカーに勝利（いつでも、なんどでも）"
@@ -382,6 +386,10 @@
       "CutinProductionWidth": {
         "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 20,
         "memo_5_9961B18141718027C83E31BC3AADB54C": "m 演出があるライバルチェック用BOX幅"
+      },
+      "CrusingSpeedInBattle": {
+        "value_2_F3C417D34FF6FBC6ABC0D993D9D12032": 60,
+        "memo_5_9961B18141718027C83E31BC3AADB54C": "km/hクルージング速度(バトル中)"
       }
     }
   }

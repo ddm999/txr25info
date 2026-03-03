@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_BPFJ3R",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 27,
@@ -11,6 +11,7 @@
         "CarNameId": "MAZDA3 FASTBACK 20S Retro Sports Edition (BPFJ3R) '23",
         "ModelNameId": "BPFJ3R",
         "FolderId": "BPFJ3R",
+        "BaseCarId": "BPFJ3R",
         "ReleaseDay": 2023,
         "Price": 2984300,
         "BodyType": "EBodyType::HATCHBACK",

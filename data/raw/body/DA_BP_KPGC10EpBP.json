@@ -2,8 +2,8 @@
   {
     "Type": "InternalMethodCarDataAsset",
     "Name": "DA_BP_KPGC10EpBP",
-    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InternalMethodCarDataAsset'",
     "Properties": {
       "CarData": {
         "ID": 183,
@@ -11,6 +11,7 @@
         "CarNameId": "VANISHING POINT",
         "ModelNameId": "KPGC10EpBP",
         "FolderId": "KPGC10EpBP",
+        "BaseCarId": "KPGC10",
         "ReleaseDay": 1970,
         "Price": 1540000,
         "BodyType": "EBodyType::HARD_TOP",
