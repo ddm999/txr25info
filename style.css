@@ -61,13 +61,13 @@ h1,h2,h3 {
     letter-spacing: 2px;
 }
 h1 {
-    font-size: 36px;
+    font-size: clamp(20px, calc(7vw - 5px), 36px);
 }
 h2 {
-    font-size: 32px;
+    font-size: clamp(18px, calc(6vw - 5px), 32px);
 }
 h3 {
-    font-size: 28px;
+    font-size: clamp(16px, calc(5vw - 5px), 28px);
 }
 h4,h5,h6 {
     margin-block-end: 6px;
@@ -142,6 +142,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    container-type: inline-size;
 }
 .car:hover,.car:focus {
     background-color: #ababad;
@@ -151,7 +152,7 @@ footer {
     font-family: 'Waukegan LDO';
     letter-spacing: 1px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 9cqw;
     background-color: #000;
     color: #fff;
 
@@ -160,17 +161,17 @@ footer {
     top: 0px;
     padding-left: 5px;
     width: 195px;
-    height: 25px;
+    height: 12.5cqw;
 }
 .car #img {
     position: absolute;
-    top: 25px;
+    top: 12.5cqw;
 }
 .car #price {
     font-family: 'Waukegan LDO';
     letter-spacing: 1px;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 12cqw;
     background-color: #000;
     color: #fff;
 
@@ -179,13 +180,13 @@ footer {
     bottom: 0px;
     padding-right: 5px;
     width: 195px;
-    height: 35px;
+    height: 17.5cqw;
 }
 .car #noprice {
     font-family: 'Waukegan LDO';
     letter-spacing: 1px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 10cqw;
     background-color: #000;
     color: #999;
 
@@ -194,10 +195,39 @@ footer {
     bottom: 0px;
     padding-right: 5px;
     width: 195px;
-    height: 35px;
+    height: 17.5cqw;
 }
 .car #cp {
-    font-size: 16px;
+    font-size: 8cqw;
+}
+
+@media (max-width: 470px) {
+    body {
+        min-width: 0;
+    }
+    section {
+        padding: 10px;
+    }
+    .car-container a {
+        display: block;
+        width: calc(50% - 10px);
+        min-width: 130px;
+        margin: 5px;
+    }
+    .car {
+        min-width: 0;
+        width: 100%;
+        box-sizing: border-box;
+        height: auto;
+        aspect-ratio: 200 / 190;
+        margin: 0;
+    }
+    .car #name,
+    .car #price,
+    .car #noprice {
+        box-sizing: border-box;
+        width: 100%;
+    }
 }
 
 section#basic {
